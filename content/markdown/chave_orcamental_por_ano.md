@@ -64,7 +64,7 @@ Assim, é necessário (depois de parametrizado no menu: **Parametrização**; su
 
 O programa SICC pode trabalhar com 15 meses diferentes. Sendo o mês zero é o de abertura (saldos transitados do ano anterior), o mês 13 de regularizações, e o mês 14 o de encerramento. Os meses de 1 a 12 são os meses normais de Janeiro a Dezembro. Os meses podem ser selecionados por qualquer ordem e qualquer número de vezes. No entanto, de notar que esta possibilidade deve ser usada com cuidado, pois se estiver a trabalhar num dado mês e for fazer lançamentos num mês anterior, todos os mapas a partir desse mês deixam de estar atualizados, e devem ser tirados de novo.
 
-A título de exemplo e na criação de um CB, demonstra-se que o sistema SICC, faz a distinção da chave Orçamental escolhida para o ano.
+A título de exemplo e na criação de um CB, demonstra-se que o sistema SICC, faz a distinção da Chave Orçamental escolhida para o ano.
 
 **2015:**
 
