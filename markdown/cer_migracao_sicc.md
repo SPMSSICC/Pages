@@ -215,14 +215,16 @@ seguintes (conjuntos de dados):
 
 Nas subsecções seguintes, detalham-se os campos de cada dimensão.
 
+Uma especial atenção deve ser dada aos campos que são de preenchimento obrigatório. 
+
 ### 6.1. Plano de Contas
 
 | ID     | Campo                                 | Tipo            | Obrig | Descrição                                   |
 |--------|---------------------------------------|-----------------|-------|---------------------------------------------|
-| 4.1.1  | Ano                                   | Numérico (4)    | Sim   | Ano do exercício                            |
-| 4.1.2  | Conta                                 | Texto (50)      | Sim   | Código da conta                             |
-| 4.1.3  | Nome                                  | Texto (100)     | Sim   | Nome da conta                               |
-| 4.1.4  | Tipo                                  | Texto (1)       | Sim   | (**M**)ovimentação/(**A**)cumulação         |
+| 4.1.1  | Ano                                   | Numérico (4)    | **Sim**   | Ano do exercício                            |
+| 4.1.2  | Conta                                 | Texto (50)      | **Sim**  | Código da conta                             |
+| 4.1.3  | Nome                                  | Texto (100)     | **Sim**    | Nome da conta                               |
+| 4.1.4  | Tipo                                  | Texto (1)       | **Sim**    | (**M**)ovimentação/(**A**)cumulação         |
 | 4.1.5  | Grau                                  | Numérico        | Não   | Grau da conta                               |
 | 4.1.6  | Conta do exercício anterior           | Texto (50)      | Não   | Conta homóloga no exercício fiscal anterior |
 | 4.1.7  | Conta analítica                       | Texto (50)      | Não   | Código da conta analítica                   |
@@ -240,9 +242,9 @@ Nas subsecções seguintes, detalham-se os campos de cada dimensão.
 ### 6.2. Entidades
 | ID     | Campo                        | Tipo         | Obrig | Descrição                                |
 |--------|------------------------------|--------------|-------|------------------------------------------|
-| 4.2.1  | Código                       | Numérico     | Sim   | Identificador numérico da entidade       |
-| 4.2.2  | Nome                         | Texto (100)  | Sim   | Designação da entidade                   |
-| 4.2.3  | Tipo                         | Numérico     | Sim   | Código identificador do tipo de entidade |
+| 4.2.1  | Código                       | Numérico     | **Sim**    | Identificador numérico da entidade       |
+| 4.2.2  | Nome                         | Texto (100)  | **Sim**    | Designação da entidade                   |
+| 4.2.3  | Tipo                         | Numérico     | **Sim**    | Código identificador do tipo de entidade |
 | 4.2.4  | Contacto                     | Texto (100)  | Não   | Contacto preferencial da entidade        |
 | 4.2.5  | Morada                       | Texto (100)  | Não   | Endereço postal da entidade              |
 | 4.2.6  | Telefone 1                   | Texto (15)   | Não   | Contacto telefónico primário             |
@@ -268,8 +270,8 @@ Nas subsecções seguintes, detalham-se os campos de cada dimensão.
 
 | ID    | Campo                            | Tipo        | Obrig | Descrição                                                           |
 |-------|----------------------------------|-------------|-------|---------------------------------------------------------------------|
-| 4.3.1 | Ano                              | Numérico    | Sim   | Formato: 2016                                                       |
-| 4.3.2 | Identificador do Centro de Custo | Texto (10)  | Sim   | Código do centro de custo                                           |
+| 4.3.1 | Ano                              | Numérico    | **Sim**    | Formato: 2016                                                       |
+| 4.3.2 | Identificador do Centro de Custo | Texto (10)  | **Sim**    | Código do centro de custo                                           |
 | 4.3.3 | Nome                             | Texto (100) | Não   | Designação do centro de custo                                       |
 | 4.3.4 | Tipo                             | Texto (1)   | Não   | Identificador do tipo da conta: (**M**)ovimento ou (**A**)cumulação |
 | 4.3.5 | Centro de custo de acumulação    | Texto (20)  | Não   | Código do centro de custo de acumulação                             |
@@ -282,11 +284,11 @@ Nas subsecções seguintes, detalham-se os campos de cada dimensão.
 
 | ID     | Campo                 | Tipo            | Obrig | Descrição                                                                 |
 |--------|-----------------------|-----------------|-------|---------------------------------------------------------------------------|
-| 4.4.1  | Entidade do documento | Numérico        | Sim   | Identificador numérico da entidade                                        |
-| 4.4.2  | Tipo de documento     | Texto (2)       | Sim   | Identificador alfanumérico do tipo de documento contabilístico do sistema |
-| 4.4.3  | Ano de documento      | Numérico (4)    | Sim   | Identificador do ano                                                      |
-| 4.4.4  | N.º de documento      | Numérico        | Sim   | Identificador do documento                                                |
-| 4.4.5  | Ordem                 | Numérico        | Sim   | Ordem do registo contabilístico no documento                              |
+| 4.4.1  | Entidade do documento | Numérico        | **Sim**    | Identificador numérico da entidade                                        |
+| 4.4.2  | Tipo de documento     | Texto (2)       | **Sim**    | Identificador alfanumérico do tipo de documento contabilístico do sistema |
+| 4.4.3  | Ano de documento      | Numérico (4)    | **Sim**    | Identificador do ano                                                      |
+| 4.4.4  | N.º de documento      | Numérico        | **Sim**    | Identificador do documento                                                |
+| 4.4.5  | Ordem                 | Numérico        | **Sim**    | Ordem do registo contabilístico no documento                              |
 | 4.4.6  | Estado                | Numérico        | Não   | Estado de contabilização (contabilizado ou não)                           |
 | 4.4.7  | Conta                 | Texto (50)      | Não   | Código da conta                                                           |
 | 4.4.8  | Centro de custo       | Texto (20)      | Não   |                                                                           |
@@ -303,15 +305,15 @@ Nas subsecções seguintes, detalham-se os campos de cada dimensão.
 
 | ID     | Campo                    | Tipo            | Obrig | Descrição                                                                 |
 |--------|--------------------------|-----------------|-------|---------------------------------------------------------------------------|
-| 4.5.1  | Entidade do documento    | Numérico        | Sim   | Identificador numérico da entidade                                        |
-| 4.5.2  | Tipo de documento        | Texto (2)       | Sim   | Identificador alfanumérico do tipo de documento contabilístico do sistema |
-| 4.5.3  | Ano do documento         | Numérico (4)    | Sim   | Identificador do ano                                                      |
-| 4.5.4  | N.º do documento         | Numérico        | Sim   |                                                                           |
-| 4.5.5  | Ordem                    | Numérico        | Sim   | Posição do registo no documento                                           |
-| 4.5.6  | Estado de contabilização | Numérico        | Sim   | São possíveis os estados 0 e 2. O estado 0 corresponde ao contabilizado e o estado 2 ao não contabilizado                  |
-| 4.5.7  | Conta                    | Texto (50)      | Sim   | Código da conta                                                           |
-| 4.5.8  | Débito                   | Numérico (22,2) | Sim   |                                                                           |
-| 4.5.9  | Crédito                  | Numérico (22,2) | Sim   |                                                                           |
+| 4.5.1  | Entidade do documento    | Numérico        | **Sim**    | Identificador numérico da entidade                                        |
+| 4.5.2  | Tipo de documento        | Texto (2)       | **Sim**    | Identificador alfanumérico do tipo de documento contabilístico do sistema |
+| 4.5.3  | Ano do documento         | Numérico (4)    | **Sim**    | Identificador do ano                                                      |
+| 4.5.4  | N.º do documento         | Numérico        | **Sim**    |                                                                           |
+| 4.5.5  | Ordem                    | Numérico        | **Sim**    | Posição do registo no documento                                           |
+| 4.5.6  | Estado de contabilização | Numérico        | **Sim**    | São possíveis os estados 0 e 2. O estado 0 corresponde ao contabilizado e o estado 2 ao não contabilizado                  |
+| 4.5.7  | Conta                    | Texto (50)      | **Sim**    | Código da conta                                                           |
+| 4.5.8  | Débito                   | Numérico (22,2) | **Sim**    |                                                                           |
+| 4.5.9  | Crédito                  | Numérico (22,2) | **Sim**    |                                                                           |
 | 4.5.10 | Descrição                | Texto (100)     | Não   |                                                                           |
 
 <div style="height:40px">
@@ -322,15 +324,15 @@ Nas subsecções seguintes, detalham-se os campos de cada dimensão.
 
 | ID     | Campo                 | Tipo            | Obrig | Descrição                                                                 |
 |--------|-----------------------|-----------------|-------|---------------------------------------------------------------------------|
-| 4.6.1  | Entidade do documento | Numérico        | Sim   | Identificador numérico da entidade                                        |
-| 4.6.2  | Tipo de documento     | Texto (2)       | Sim   | Identificador alfanumérico do tipo de documento contabilístico do sistema |
-| 4.6.3  | Ano do documento      | Numérico (4)    | Sim   | Identificador do ano                                                      |
-| 4.6.4  | N.º do documento      | Numérico        | Sim   | Código identificador do documento                                         |
-| 4.6.5  | Ordem                 | Numérico        | Sim   | Posição do registo no documento                                           |
-| 4.6.6  | Estado                | Numérico        | Sim   |                                                                           |
-| 4.6.7  | Conta                 | Texto (50)      | Sim   | Código da conta                                                           |
-| 4.6.8  | Débito                | Numérico (22,2) | Sim   |                                                                           |
-| 4.6.9  | Crédito               | Numérico (22,2) | Sim   |                                                                           |
+| 4.6.1  | Entidade do documento | Numérico        | **Sim**    | Identificador numérico da entidade                                        |
+| 4.6.2  | Tipo de documento     | Texto (2)       | **Sim**    | Identificador alfanumérico do tipo de documento contabilístico do sistema |
+| 4.6.3  | Ano do documento      | Numérico (4)    | **Sim**    | Identificador do ano                                                      |
+| 4.6.4  | N.º do documento      | Numérico        | **Sim**    | Código identificador do documento                                         |
+| 4.6.5  | Ordem                 | Numérico        | **Sim**    | Posição do registo no documento                                           |
+| 4.6.6  | Estado                | Numérico        | **Sim**    |                                                                           |
+| 4.6.7  | Conta                 | Texto (50)      | **Sim**    | Código da conta                                                           |
+| 4.6.8  | Débito                | Numérico (22,2) | **Sim**    |                                                                           |
+| 4.6.9  | Crédito               | Numérico (22,2) | **Sim**    |                                                                           |
 | 4.6.10 | Descrição             | Texto (100)     | Não   |                                                                           |
 
 <div style="height:40px">
@@ -341,9 +343,9 @@ Nas subsecções seguintes, detalham-se os campos de cada dimensão.
 
 | ID    | Campo                                 | Tipo        | Obrig | Descrição                                                   |
 |-------|---------------------------------------|-------------|-------|-------------------------------------------------------------|
-| 4.7.1 | Ano                                   | Numérico    | Sim   | Identificador do ano                                        |
-| 4.7.2 | Conta                                 | Texto (20)  | Sim   | Código da conta                                             |
-| 4.7.3 | D/R                                   | Texto (1)   | Sim   | Despesa/Receita                                             |
+| 4.7.1 | Ano                                   | Numérico    | **Sim**    | Identificador do ano                                        |
+| 4.7.2 | Conta                                 | Texto (20)  | **Sim**    | Código da conta                                             |
+| 4.7.3 | D/R                                   | Texto (1)   | **Sim**    | Despesa/Receita                                             |
 | 4.7.4 | Nome                                  | Texto (100) | Não   | Nome da conta                                               |
 | 4.7.5 | Tipo                                  | Texto (1)   | Não   | Identificador do tipo da conta: (M)ovimento ou (A)cumulação |
 | 4.7.6 | Classificador económico de acumulação | Texto (20)  | Não   | Código do classificador económico de acumulação             |
@@ -356,18 +358,18 @@ Nas subsecções seguintes, detalham-se os campos de cada dimensão.
 
 | ID     | Campo                           | Tipo            | Obrig | Descrição                                                                 |
 |--------|---------------------------------|-----------------|-------|---------------------------------------------------------------------------|
-| 4.8.1  | Entidade                        | Numérico        | Sim   | Identificador numérico da entidade                                        |
-| 4.8.2  | Tipo                            | Texto (2)       | Sim   | Identificador alfanumérico do tipo de documento contabilístico do sistema |
-| 4.8.3  | Ano                             | Numérico (4)    | Sim   | Identificador do ano                                                      |
-| 4.8.4  | Numero                          | Numérico        | Sim   |                                                                           |
-| 4.8.5  | Data                            | Data            | Sim   | Formato: 31/12/2016                                                       |
-| 4.8.6  | Valor                           | Numérico (22,2) | Sim   |                                                                           |
-| 4.8.7  | Data contabilística             | Data            | Sim   | Formato: 31/12/2016                                                       |
-| 4.8.8  | Arquivo                         | Numérico        | Sim   |                                                                           |
-| 4.8.9  | Diário                          | Numérico        | Sim   |                                                                           |
+| 4.8.1  | Entidade                        | Numérico        | **Sim**    | Identificador numérico da entidade                                        |
+| 4.8.2  | Tipo                            | Texto (2)       | **Sim**    | Identificador alfanumérico do tipo de documento contabilístico do sistema |
+| 4.8.3  | Ano                             | Numérico (4)    | **Sim**    | Identificador do ano                                                      |
+| 4.8.4  | Numero                          | Numérico        | **Sim**    |                                                                           |
+| 4.8.5  | Data                            | Data            | **Sim**    | Formato: 31/12/2016                                                       |
+| 4.8.6  | Valor                           | Numérico (22,2) | **Sim**    |                                                                           |
+| 4.8.7  | Data contabilística             | Data            | **Sim**    | Formato: 31/12/2016                                                       |
+| 4.8.8  | Arquivo                         | Numérico        | **Sim**    |                                                                           |
+| 4.8.9  | Diário                          | Numérico        | **Sim**    |                                                                           |
 | 4.8.10 | Instituição Bancária            | Texto (50)      | Não   |                                                                           |
-| 4.8.11 | Data vencimento                 | Data            | Sim   | Formato: 31/12/2016                                                       |
-| 4.8.12 | Dias vencimento                 | Numérico        | Sim   |                                                                           |
+| 4.8.11 | Data vencimento                 | Data            | **Sim**    | Formato: 31/12/2016                                                       |
+| 4.8.12 | Dias vencimento                 | Numérico        | **Sim**    |                                                                           |
 
 <div style="height:40px">
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/cabecalhos_documentos.csv'">Descarregar CSV</button>
@@ -377,15 +379,15 @@ Nas subsecções seguintes, detalham-se os campos de cada dimensão.
 
 | ID    | Campo                                                             | Tipo      | Obrig | Descrição                                                                                                                                    |
 |-------|-------------------------------------------------------------------|-----------|-------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| 4.9.1 | Documento subsequente - Entidade                                  | Numérico  | Sim   | Identificador numérico da entidade subsequente |
-| 4.9.2 | Documento subsequente - Tipo                                      | Texto (2) | Sim   | Identificador alfanumérico do tipo de documento contabilístico do sistema  |
-| 4.9.3 | Documento subsequente - Ano                                       | Numérico  | Sim   | Ano do documento subsequente                                                                                                                 |
-| 4.9.4 | Documento subsequente – Nº                                        | Numérico  | Sim   |                                                                                                                                              |
-| 4.9.5 | Nº de documentos subsequentes resultantes do documento precedente | Numérico  | Sim   | Ex.: Nº sequencial do subsequente com origem na mesma fatura |
-| 4.9.6 | Documento precedente - Entidade                                   | Numérico  | Sim   | Identificador numérico da entidade precedente                                                                                                |
-| 4.9.7 | Documento precedente - Tipo                                       | Texto (2) | Sim   | Identificador alfanumérico do tipo de documento contabilístico do sistema                                                                    |
-| 4.9.8 | Documento precedente - Ano                                        | Numérico  | Sim   | Documento imediatamente anterior a outro documento, conforme os fluxos financeiros do sistema. Ex: Cabimento (CB) precede o Compromisso (CM) |
-| 4.9.9 | Documento precedente – Nº                                         | Numérico  | Sim   |                                                                                                                                              |
+| 4.9.1 | Documento subsequente - Entidade                                  | Numérico  | **Sim**    | Identificador numérico da entidade subsequente |
+| 4.9.2 | Documento subsequente - Tipo                                      | Texto (2) | **Sim**    | Identificador alfanumérico do tipo de documento contabilístico do sistema  |
+| 4.9.3 | Documento subsequente - Ano                                       | Numérico  | **Sim**    | Ano do documento subsequente                                                                                                                 |
+| 4.9.4 | Documento subsequente – Nº                                        | Numérico  | **Sim**    |                                                                                                                                              |
+| 4.9.5 | Nº de documentos subsequentes resultantes do documento precedente | Numérico  | **Sim**    | Ex.: Nº sequencial do subsequente com origem na mesma fatura |
+| 4.9.6 | Documento precedente - Entidade                                   | Numérico  | **Sim**    | Identificador numérico da entidade precedente                                                                                                |
+| 4.9.7 | Documento precedente - Tipo                                       | Texto (2) | **Sim**    | Identificador alfanumérico do tipo de documento contabilístico do sistema                                                                    |
+| 4.9.8 | Documento precedente - Ano                                        | Numérico  | **Sim**    | Documento imediatamente anterior a outro documento, conforme os fluxos financeiros do sistema. Ex: Cabimento (CB) precede o Compromisso (CM) |
+| 4.9.9 | Documento precedente – Nº                                         | Numérico  | **Sim**    |                                                                                                                                              |
 
 <div style="height:40px">
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/Registos_contabilisticos_relacionados.csv'">Descarregar CSV</button>
