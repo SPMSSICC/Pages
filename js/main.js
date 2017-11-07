@@ -117,6 +117,8 @@ function loadIndexContent(btnsToShow, event) {
 			}
 			setTimeout(function(){stopLoader("[loadIndexContent_1]");},800);
 			$("#docOptions").removeClass("active");
+      $("#btnMenu").removeClass("active");
+      $("#accordion").removeClass("show");
 	})
 	.fail(function(){
 			// console.log("[loadIndexContent] Error on loading requested file: " + filePath);
