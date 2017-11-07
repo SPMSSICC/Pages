@@ -252,12 +252,15 @@ function toggle(op, off){
   else if (op == "docOptions"){ el = $('#docOptions'); btn = $('#btnOpt'); }
   else{ return; }
 
-	if( el.hasClass('show') || btn.hasClass('active') || off)	{
+	if( el.hasClass('show') || btn.hasClass('active') || off!==null)	{
     el.removeClass('show');
     btn.removeClass('active');
-  }	else{
+  }	else if (off==null){
     el.addClass('show');
     btn.addClass('active');
+  }
+  else{
+    console.log("Ops! Ocorreu um erro com a aivação/desativação do menu. P.f. contacte o suporte técnico.");
   }
 }
 
