@@ -442,6 +442,7 @@ color:#656565;
 font-size:1em;
 line-height:1.4;
 margin:auto;
+overflow:scroll;
 width:96%
 }
 
@@ -1338,6 +1339,7 @@ text-indent:.4em
 body {
 height:calc(100%-44px);
 line-height:1.75em;
+overflow:scroll;
 transition:all 1s ease
 }
 
@@ -1350,7 +1352,7 @@ transition:max-width 1s ease, padding-bottom 1s ease
 
 @media screen and (max-width: 1200px){
 html,body {
-overflow:auto
+overflow:scroll;
 }
 
 #content {
@@ -1363,6 +1365,7 @@ transition:margin-top 1s ease, margin-bottom 1s ease, margin-left 1s ease, margi
 @media screen and (min-width: 1201px){
   body {
   min-width:1200px;
+  overflow:scroll;
   transition:all 1s ease
   }
 
@@ -1391,6 +1394,7 @@ transition:margin-top 1s ease, margin-bottom 1s ease, margin-left 1s ease, margi
 body {
 font-size:100%;
 min-width:1000px;
+overflow: scroll;
 transition:all 1s ease
 }
 
@@ -1406,6 +1410,7 @@ transition:margin-left 1s ease, margin-right 1s ease
 body {
 font-size:100%;
 min-width:641px;
+overflow: scroll;
 transition:all 1s ease
 }
 
@@ -1458,6 +1463,7 @@ body,input,textarea,select {
 font-size:90%;
 letter-spacing:0;
 line-height:1.75em;
+overflow: scroll;
 transition:all 1s ease
 }
 
