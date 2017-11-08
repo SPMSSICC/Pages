@@ -763,7 +763,7 @@ O aspeto do ficheiro CSV. é o abaixo demonstrado, sendo que o mesmo deve obedec
 ![img_86.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_86.png)
 
 <div style="height:40px">
-<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/actualização.xlsx'">Descarregar CSV</button>
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/AM_SNCAP.csv'">Descarregar CSV</button>
 </div>
 
 Antes da importação, o utilizador, tem de usar o botão "Verificar Ficheiro". Ao selecionar este mesmo botão, o utilizador constata que os elementos do ficheiro CSV estão visíveis e que o ficheiro integrado está testado. Caso ocorram erros, os mesmos produzem um relatório no ecrã, na caixa criada para o efeito, no canto inferior direito do ecrã.
@@ -867,7 +867,7 @@ O aspeto do ficheiro CSV. é o abaixo demonstrado, sendo que o mesmo deve obedec
 ![img_102.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_102.png)
 
 <div style="height:40px">
-<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/actualização.xlsx'">Descarregar CSV</button>
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/AB_SNCAP.csv'">Descarregar CSV</button>
 </div>
 
 Antes da importação,o utilizador, tem de usar o botão "Ver/Testar Ficheiro". Ao selecionar este mesmo botão, o utilizador constata que os elementos do ficheiro CSV estão visíveis e que o ficheiro integrado está testado. Caso ocorram erros, os mesmos produzem um relatório no ecrã, na caixa criada para o efeito, no canto inferior direito do ecrã.
@@ -997,7 +997,7 @@ O aspeto do ficheiro CSV. é o abaixo demonstrado, sendo que o mesmo deve obedec
 ![img_124.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_124.png)
 
 <div style="height:40px">
-<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/actualização.xlsx'">Descarregar CSV</button>
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/AL_SNCAP.csv'">Descarregar CSV</button>
 </div>
 
 Antes da importação,o utilizador, tem de usar o botão "Verificar Ficheiro". Ao selecionar este mesmo botão, o utilizador constata que os elementos do ficheiro CSV estão visíveis e que o ficheiro integrado está testado. Caso ocorram erros, os mesmos produzem um relatório no ecrã, na caixa criada para o efeito, no canto inferior direito do ecrã.
