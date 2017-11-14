@@ -7,6 +7,7 @@ font-size:100%;
 html,button,input,select,textarea,p {
 color:#656565;
 font-family:Roboto, sans-serif;
+/*font-family:Roboto, sans-serif;*/
 font-size:1em
 }
 
@@ -584,24 +585,26 @@ padding:.3em
 table th {
 background:#3d596d;
 color:#FFF;
-font-weight:700;
+font-weight:400;
+font-size: 15px;
 letter-spacing:.1em;
 padding:.3em;
 text-align:center
 }
 
 table thead tr th {
-border:1px solid #FFF
+border:solid #fff 1px
 }
 
 table thead tr {
-border:1px solid #3d596d
+border:1px solid #3d596d;
 }
 
 table tbody td {
 border-left:solid #3d596d 1px;
 border-right:solid #3d596d 1px;
-padding:.3em
+padding:.3em;
+font-size: 13.5px;
 }
 
 .chromeframe {
@@ -982,13 +985,15 @@ display: inline-block;
   border-radius:.2em;
   width: 150px;
   height: 25px;
-  opacity: 0.4;
+  opacity: 1;
   display:block;
   float:right;
+  background-color: #3d596d
 }
 
 #descarregar:hover{
-    opacity: 1;
+    opacity: 0.4;
+    background-color: #3d596d
 }
 #documento.modulo button {
 color:white;
