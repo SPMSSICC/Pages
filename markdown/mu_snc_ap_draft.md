@@ -711,7 +711,7 @@ Para importar dados relativos às referências genéricas dos Stocks o utilizado
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-9cfa4d6c.png)
 
-</br> No ecrã referente às importações de dados de pessoal, o utilizador deve:
+</br> No ecrã referente às importações de dados de gestão de Stocks, o utilizador deve:
 
 1. Selecionar do diretório o ficheiro TXT a ser importado;
 2. Indicar a chave orçamental que será associada a todos os documentos carregados;
