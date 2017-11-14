@@ -629,7 +629,12 @@ Este capítulo pretende descrever o processo de importação de dados provenient
 - SISO/Reembolsos;
 - MCDT.
 
-A importação de dados destas aplicações, no sistema SICC /SNC - AP,  é feita via ficheiros em formato TXT. O _layout_ geral, isto é, de todos os ficheiros TXT referentes a estas importações, é igual para todas as ligações com estas aplicações. Os ficheiros referentes a uma determinada ligação possuem uma determinada referência e, o preenchimento dos campos do ficheiro TXT varia consoante a referência do ficheiro.
+A importação de dados destas aplicações, no sistema SICC /SNC - AP,  é feita via ficheiros em formato TXT.
+O _layout_ geral destes ficheiros, isto é, de todos os ficheiros TXT referentes a estas importações, é igual para todas as ligações disponíveis neste menu. No entanto, os campos que são preenchidos no ficheiro para importação variam consoante o tipo de ligação e a referência do ficheiro.
+
+Na imagem abaixo está representado um exemplo de dois ficheiros, referências 101 (Ligação Pessoal) e 211 (Ligação Gestão de Stocks), onde estão apresentados campos que são preenchidos nos dois ficheiros (por exemplo: Conta Débito) e outros que apenas são preenchidos por um deles.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap_draft.assets/mu_snc_ap_draft-7a6d6b79.png)
 
 </br>**Nota:** Apenas pode ser produzido um ficheiro TXT por referência.
 
@@ -762,7 +767,7 @@ Para ficheiros de referência 204-207 os campos que devem estar preenchidos são
 ##### Referência 210
 Para ficheiros de referência 210 os campos que devem estar preenchidos são:
 
-|   | Ref. | Nº CB |Entidade|Nº CP|Nº P2| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo| Nº dias para Data Vencimento |
+|   | Ref. | Nº CB |Entidade|Nº CP|Nº P2| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo| Nº dias Data Vencimento |
 |--------|--------|-----|-----------|--------------|---------------|--------------|---------|--------------|---|---|---|---|
 |Posição (Comprimento)   |1 - 3 (3)   | 4 - 11 (8)  | 12 - 19 (8)  | 20 - 27 (8)  |40 - 51 (12)   | 52 - 59 (8)  |60 - 109 (50)   |110 - 159 (50)   |160 - 177 (18)   |178 (1)   |179 - 188 (10)   |230 - 232 (3)   |
 
@@ -773,7 +778,7 @@ Para ficheiros de referência 210 os campos que devem estar preenchidos são:
 ##### Referência 211
 Para ficheiros de referência 211 os campos que devem estar preenchidos são:
 
-|   | Ref. | Nº CB |Entidade|Nº CP|Nº P1|Nº P2| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo| Nº dias para Data Vencimento |
+|   | Ref. | Nº CB |Entidade|Nº CP|Nº P1|Nº P2| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo| Nº dias Data Vencimento |
 |--------|--------|-----|-----------|--------------|---------------|--------------|---------|--------------|---|---|---|---|---|
 |Posição (Comprimento)   |1 - 3 (3)   | 4 - 11 (8)  | 12 - 19 (8)  | 20 - 27 (8)  |28 - 39 (12)| 40 - 51 (12)   | 52 - 59 (8)  |60 - 109 (50)   |110 - 159 (50)   |160 - 177 (18)   |178 (1)   |179 - 188 (10)   |230 - 232 (3)   |
 
@@ -784,7 +789,7 @@ Para ficheiros de referência 211 os campos que devem estar preenchidos são:
 ##### Referência 214
 Para ficheiros de referência 214 os campos que devem estar preenchidos são:
 
-|   | Ref. | Nº CB | Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   | Nº dias para Data Vencimento |
+|   | Ref. | Nº CB | Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   | Nº dias Data Vencimento |
 |--------|--------|-----|-----------|--------------|-------|--------------|---------|--------|
 |Posição (Comprimento)|1 - 3 (3)|4 - 11 (8) |52 - 59(8) |60 - 109 (50)|110 - 159 (59)|160 - 177 (18)|178 (1) |230 - 232(3)   |
 
@@ -802,7 +807,7 @@ Irá abrir o ecrã seguidamente apresentado onde o processo de importação de f
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-4d1dae6e.png)
 
 
-|   | Ref.  | Nº CB | Entidade| Nº CP| Nº CM| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Nº Dias para Data Vencimento|
+|   | Ref.  | Nº CB | Entidade| Nº CP| Nº CM| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Nº Dias Data Vencimento|
 |---|---|----|----|----|---|---|---|---|---|---|---|
 |Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)| 12 - 19 (8)|20 - 27 (8) |40 - 51 (12)|52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |230 - 232 (3)|
 
