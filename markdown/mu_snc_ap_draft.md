@@ -634,9 +634,9 @@ O _layout_ geral destes ficheiros, isto é, de todos os ficheiros TXT referentes
 
 Na imagem abaixo está representado um exemplo de dois ficheiros, referências 101 (Ligação Pessoal) e 211 (Ligação Gestão de Stocks), onde estão apresentados campos que são preenchidos nos dois ficheiros (por exemplo: Conta Débito) e outros que apenas são preenchidos por um deles.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap_draft.assets/mu_snc_ap_draft-7a6d6b79.png)
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-162effc4.png)
 
-</br>**Nota:** Apenas pode ser produzido um ficheiro TXT por referência.
+>**Nota:** Apenas pode ser produzido um ficheiro TXT por referência.
 
 
  </br>Ao longo dos próximos sub-capítulos será descrito, com detalhe, todo o fluxo de trabalho necessário para que a importação dos dados seja bem sucedida bem como a estrutura dos ficheiros para cada tipo de importação.
@@ -681,7 +681,7 @@ Para confirmar a importação dos dados, o sistema gera uma mensagem informativa
 Para a importação de dados de pessoal, podem ser importados ficheiros com as referências **101 e 102**. Estes ficheiros devem obedecer ao critério dos campos estipulados que estão apresentados seguidamente:
 
 |   | Ref. | Entidade (CP/P2) | Nº Doc. (CB/CP/P2) | Data Doc. | Conta débito | Conta Crédito | Importância  |Sinal| Centro Custo |
-|--------|--------|------|-----|-----------|---|----|--------------|---------|--------------|
+|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
 | Posição (Comprimento) | 1 - 3 (3)| 12 - 19 (8)| 20 - 27 (8)| 52 - 59 (8) | 60 - 109 (50)  | 110 - 159 (50)  | 160 - 177 (18) | 178 (1) | 179 - 188 (10) |
 
 <div style="height:40px">
@@ -711,7 +711,7 @@ Para importar dados relativos às referências genéricas dos Stocks o utilizado
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-9cfa4d6c.png)
 
-</br> No ecrã referente às importações de dados de gestão de Stocks, o utilizador deve:
+</br> No ecrã referente às importações de dados de gestão de stocks, o utilizador deve:
 
 1. Selecionar do diretório o ficheiro TXT a ser importado;
 2. Indicar a chave orçamental que será associada a todos os documentos carregados;
@@ -724,7 +724,7 @@ Para importar dados relativos às referências genéricas dos Stocks o utilizado
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-6c37d67c.png)
 
-</br>**Nota:** A funcionalidade dos botões disponíveis neste ecrã é igual aos descritos em 3.1.1.
+> **Nota:** A funcionalidade dos botões disponíveis neste ecrã é igual aos descritos em 3.1.1.
 
 </br>Para confirmar a importação dos dados, o sistema gera uma mensagem informativa com a indicação abaixo descrita.
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1150b5aa.png)
@@ -735,7 +735,7 @@ Para importar dados relativos às referências genéricas dos Stocks o utilizado
 Para ficheiros de referência 201 os campos que devem estar preenchidos são:
 
 |   | Ref. | Nº Doc. | Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |
-|---|---|----|----|----|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)   | 52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |
 
 <div style="height:40px">
@@ -746,7 +746,7 @@ Para ficheiros de referência 201 os campos que devem estar preenchidos são:
 Para ficheiros de referência 203 os campos que devem estar preenchidos são:
 
 |   | Ref.  | Entidade| NºCP| NºP1| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
-|---|---|----|----|----|---|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  | 12 - 19 (8)|20 - 27 (8) |28 - 39 (12)|52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 - 188 (10)|
 
 <div style="height:40px">
@@ -757,7 +757,7 @@ Para ficheiros de referência 203 os campos que devem estar preenchidos são:
 Para ficheiros de referência 204-207 os campos que devem estar preenchidos são:
 
 |   | Ref.    | Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   | Centro Custo |
-|-------|---------|-----------|-------|---------------|--------------|---------|--------------|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Posição (Comprimento) | 1 - 3 (3) | 52 - 59 (8) | 60 - 109 (50)  | 110 - 159 (50)  | 160 - 177 (18) | 178 (1) | 179 - 188 (10) |
 
 <div style="height:40px">
@@ -768,7 +768,7 @@ Para ficheiros de referência 204-207 os campos que devem estar preenchidos são
 Para ficheiros de referência 210 os campos que devem estar preenchidos são:
 
 |   | Ref. | Nº CB |Entidade|Nº CP|Nº P2| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo| Nº dias Data Vencimento |
-|--------|--------|-----|-----------|--------------|---------------|--------------|---------|--------------|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   |1 - 3 (3)   | 4 - 11 (8)  | 12 - 19 (8)  | 20 - 27 (8)  |40 - 51 (12)   | 52 - 59 (8)  |60 - 109 (50)   |110 - 159 (50)   |160 - 177 (18)   |178 (1)   |179 - 188 (10)   |230 - 232 (3)   |
 
 <div style="height:40px">
@@ -779,7 +779,7 @@ Para ficheiros de referência 210 os campos que devem estar preenchidos são:
 Para ficheiros de referência 211 os campos que devem estar preenchidos são:
 
 |   | Ref. | Nº CB |Entidade|Nº CP|Nº P1|Nº P2| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo| Nº dias Data Vencimento |
-|--------|--------|-----|-----------|--------------|---------------|--------------|---------|--------------|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   |1 - 3 (3)   | 4 - 11 (8)  | 12 - 19 (8)  | 20 - 27 (8)  |28 - 39 (12)| 40 - 51 (12)   | 52 - 59 (8)  |60 - 109 (50)   |110 - 159 (50)   |160 - 177 (18)   |178 (1)   |179 - 188 (10)   |230 - 232 (3)   |
 
 <div style="height:40px">
@@ -790,7 +790,7 @@ Para ficheiros de referência 211 os campos que devem estar preenchidos são:
 Para ficheiros de referência 214 os campos que devem estar preenchidos são:
 
 |   | Ref. | Nº CB | Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   | Nº dias Data Vencimento |
-|--------|--------|-----|-----------|--------------|-------|--------------|---------|--------|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)|1 - 3 (3)|4 - 11 (8) |52 - 59(8) |60 - 109 (50)|110 - 159 (59)|160 - 177 (18)|178 (1) |230 - 232(3)   |
 
 <div style="height:40px">
@@ -808,7 +808,7 @@ Irá abrir o ecrã seguidamente apresentado onde o processo de importação de f
 
 
 |   | Ref.  | Nº CB | Entidade| Nº CP| Nº CM| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Nº Dias Data Vencimento|
-|---|---|----|----|----|---|---|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)| 12 - 19 (8)|20 - 27 (8) |40 - 51 (12)|52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |230 - 232 (3)|
 
 <div style="height:40px">
@@ -833,7 +833,7 @@ Para importar dados relativos aos imobilizados o utilizador deve seguir o seguin
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-22169578.png)
 
-</br>**Nota:** A funcionalidade dos botões disponíveis neste ecrã é igual aos descritos em 3.1.1.
+>**Nota:** A funcionalidade dos botões disponíveis neste ecrã é igual aos descritos em 3.1.1.
 
 </br>Para confirmar a importação dos dados, o sistema gera uma mensagem informativa com a indicação abaixo descrita.
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1150b5aa.png)
@@ -844,7 +844,7 @@ Para importar dados relativos aos imobilizados o utilizador deve seguir o seguin
 Para ficheiros de referência 301 os campos que devem estar preenchidos são:
 
 |   | Ref.  | Nº CB | Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
-|---|---|----|----|----|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)|52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 - 188 (10)|
 
 <div style="height:40px">
@@ -855,7 +855,7 @@ Para ficheiros de referência 301 os campos que devem estar preenchidos são:
 Para ficheiros de referência 302 os campos que devem estar preenchidos são:
 
 |   | Ref.  |Entidade| Nº CP |Nº CM| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
-|---|---|----|----|----|---|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  |12 - 19 (8)|20 - 27 (8)|43 - 51 (9)| 52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 - 188 (10)|
 
 <div style="height:40px">
@@ -866,7 +866,7 @@ Para ficheiros de referência 302 os campos que devem estar preenchidos são:
 Para ficheiros de referência 303 os campos que devem estar preenchidos são:
 
 |   | Ref.  |Entidade| Nº CP |Nº P1| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
-|---|---|----|----|----|---|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento) | 1 - 3 (3)  |12 - 19 (8)|20 - 27 (8)|28 -  39 (12)| 52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 - 188 (10)|
 
 <div style="height:40px">
@@ -876,8 +876,8 @@ Para ficheiros de referência 303 os campos que devem estar preenchidos são:
 ##### Referências 304, 305, 306, 307
 Para ficheiros de referências 304 - 307 os campos que devem estar preenchidos são:
 
-|                       | Ref.    | Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   | Centro Custo |
-|-----------------------|---------|-----------|--------------|---------------|--------------|---------|--------------|
+|     | Ref.    | Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   | Centro Custo |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Posição (Comprimento) | 1 - 3 (3) | 52 - 59 (8) | 60 - 109 (50)  | 110 - 159 (50)  | 160 - 177 (18) | 178 (1) | 179 - 188 (10) |
 
 <div style="height:40px">
@@ -902,7 +902,7 @@ Para importar dados relativos à faturação de devedores o utilizador deve segu
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-effe3987.png)
 
-</br>**Nota:** A funcionalidade dos botões disponíveis neste ecrã é igual aos descritos em 3.1.1.
+>**Nota:** A funcionalidade dos botões disponíveis neste ecrã é igual aos descritos em 3.1.1.
 
 </br>Para confirmar a importação dos dados, o sistema gera uma mensagem informativa com a indicação abaixo descrita.
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1150b5aa.png)
@@ -913,7 +913,7 @@ Para importar dados relativos à faturação de devedores o utilizador deve segu
 Para ficheiros de referência 401 os campos que devem estar preenchidos são:
 
 |   | Ref.  | Entidade| Nº P2| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
-|---|---|----|----|----|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  |12 - 19 (8)| 40 - 51 (12)| 52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 - 188 (10)|
 <div style="height:40px">
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/401.sncap'">Descarregar TXT</button>
@@ -937,7 +937,7 @@ Para importar dados relativos às Farmácias o utilizador deve seguir o seguinte
 </br>Após validação dos elementos do ficheiro o utilizador deve selecionar o botão "Importar Ligação".
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-34e3c81a.png)
 
-</br>**Nota:** A funcionalidade dos botões disponíveis neste ecrã é igual aos descritos em 3.1.1.v
+>**Nota:** A funcionalidade dos botões disponíveis neste ecrã é igual aos descritos em 3.1.1.
 
 </br>Para confirmar a importação dos dados, o sistema gera uma mensagem informativa com a indicação abaixo descrita.
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1150b5aa.png)
@@ -945,14 +945,14 @@ Para importar dados relativos às Farmácias o utilizador deve seguir o seguinte
 </br>No caso de farmácias, é possível importar ficheiros com as referências  **702, 703, 704 e 706**.
 A descrição dos campos para cada uma das referências é apresentada seguidamente.
 
-</br>**Nota:** Alguns ficheiros variam a sua estrutura para entidades do tipo ARS e ULS. A descrição dos campos destes ficheiros é apresentada separadamente para cada referência.
+>**Nota:** Alguns ficheiros variam a sua estrutura para entidades do tipo ARS e ULS. A descrição dos campos destes ficheiros é apresentada separadamente para cada referência.
 
 
 ##### Referência 702
 Para ficheiros de referência 702 os campos que devem estar preenchidos são:
 
 |   | Ref.  |Nº CB| Entidade| Nº CP|Nº P1/P2/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
-|---|---|----|----|----|---|---|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)| 12 - 19 (8)|20 - 27 (8)|28 - 39 (12)| 52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 -  188 (10)|
 
 <div style="height:40px">
@@ -963,7 +963,7 @@ Para ficheiros de referência 702 os campos que devem estar preenchidos são:
 </br>Para entidades do tipo ARS e ULS, ficheiros desta referência devem ter os seguintes campos preenchidos:
 
 |   | Ref.  |Nº CB| Entidade| Nº CP|Nº P1/P2/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
-|---|---|----|----|----|---|---|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento) |1 - 3 (3)|4 - 11 (8)| 12 - 19 (8)|20 - 27 (8)|**28 - 42 (15)**| 55 - 62 (8)  | 63 - 112 (50)  | 113 - 162 (50)  |163 - 180 (18)   |  181 (1) |182 - 191 (10)|
 
 <div style="height:40px">
@@ -974,7 +974,7 @@ Para ficheiros de referência 702 os campos que devem estar preenchidos são:
 Para ficheiros de referência 703 os campos que devem estar preenchidos são:
 
 |   | Ref.  | Entidade| Nº OD| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
-|---|---|----|----|----|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  |12 - 19 (8)| 40 - 51 (12)| 52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 - 188 (10)|
 
 <div style="height:40px">
@@ -985,7 +985,7 @@ Para ficheiros de referência 703 os campos que devem estar preenchidos são:
 Para ficheiros de referência 704 os campos que devem estar preenchidos são:
 
 |   | Ref.  | Entidade| Nº NC/Série| Data Doc. | Conta Crédito | Importância  | Sinal   |Centro Custo|
-|---|---|----|----|----|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  |12 - 19 (8)| 28 - 39 (12)| 52 - 59 (8)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 - 188 (10)|
 
 <div style="height:40px">
@@ -996,7 +996,7 @@ Para ficheiros de referência 704 os campos que devem estar preenchidos são:
 </br>Para entidades do tipo ARS e ULS, ficheiros desta referência devem ter os seguintes campos preenchidos:
 
 |   | Ref.  | Entidade| Nº NC/Série| Data Doc. | Conta Crédito | Importância  | Sinal   |Centro Custo|
-|---|---|----|----|----|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  |12 - 19 (8)| **28 - 42 (15)**| 55 - 62 (8)  | 113 - 162 (50)  |163 - 180 (18)   |  181 (1) |182 - 191 (10)|
 
 <div style="height:40px">
@@ -1007,7 +1007,7 @@ Para ficheiros de referência 704 os campos que devem estar preenchidos são:
 Para ficheiros de referência 706 os campos que devem estar preenchidos são:
 
 |   | Ref.  | Nº CB| Entidade| Nº CP|Nº DF/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
-|---|---|----|----|----|---|---|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)| 12 - 19 (8)|20 - 27 (8)|28 - 39 (12)| 52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 - 188 (10)|
 
 <div style="height:40px">
@@ -1018,7 +1018,7 @@ Para ficheiros de referência 706 os campos que devem estar preenchidos são:
 </br>Para entidades do tipo ARS e ULS, ficheiros desta referência devem ter os seguintes campos preenchidos:
 
 |   | Ref.  | Nº CB| Entidade| Nº CP|Nº DF/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
-|---|---|----|----|----|---|---|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)| 12 - 19 (8)|20 - 27 (8)|**28 - 42 (15)**| 55 - 62 (8)  | 63 - 112 (50)  | 113 - 162 (50)  |163 - 180 (18)   |  181 (1) |182 - 191 (10)|
 
 <div style="height:40px">
@@ -1060,7 +1060,7 @@ Para importar dados relativos às faturas de SISO/Reembolsos o utilizador deve s
 </br>Após validação dos elementos do ficheiro o utilizador deve selecionar o botão "Importar Ligação".
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-6906f3e4.png)
 
-</br>**Nota:** A funcionalidade dos botões disponíveis neste ecrã é igual aos descritos em 3.1.1.
+>**Nota:** A funcionalidade dos botões disponíveis neste ecrã é igual aos descritos em 3.1.1.
 
 </br>Para confirmar a importação dos dados, o sistema gera uma mensagem informativa com a indicação abaixo descrita.
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1150b5aa.png)
@@ -1070,7 +1070,7 @@ Para importar dados relativos às faturas de SISO/Reembolsos o utilizador deve s
 </br>**Referência 501**
 
 |   | Ref.  | Nº CB| Entidade| Nº CP|Nº P1/P2| Data Doc. | Conta Débito | Conta Crédito | Importância| Sinal|Centro Custo|
-|---|---|----|----|----|---|---|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)| 12 - 19 (8)|20 - 27 (8)|40 - 51 (12)| 52 - 59 (8)  | 60 - 79 (20)  | 80 - 99 (20)  |100 - 117 (18)   |  118 (1) |119 - 128 (10)|
 
 <div style="height:40px">
@@ -1107,14 +1107,14 @@ Para importar dados relativos a MCDT o utilizador deve seguir o seguinte caminho
 </br>Após validação dos elementos do ficheiro o utilizador deve selecionar o botão "Importar Ligação".
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-2a02b4e5.png)
 
-</br>**Nota:** A funcionalidade dos botões disponíveis neste ecrã é igual aos descritos em 3.1.1.
+>**Nota:** A funcionalidade dos botões disponíveis neste ecrã é igual aos descritos em 3.1.1.
 
 </br>Para confirmar a importação dos dados, o sistema gera uma mensagem informativa com a indicação abaixo descrita.
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1150b5aa.png)
 
 </br>No caso da gestão de imobilizado, é possível importar ficheiros com as referências  **902, 903, 904, 905, 906 e 908**. A descrição dos campos para cada uma das referências é apresentada seguidamente.
 
-</br>**Nota:** Alguns ficheiros variam a sua estrutura para entidades do tipo ARS e ULS. A descrição dos campos destes ficheiros é apresentada separadamente para cada referência.
+>**Nota:** Alguns ficheiros variam a sua estrutura para entidades do tipo ARS e ULS. A descrição dos campos destes ficheiros é apresentada separadamente para cada referência.
 
 
 ##### Referência 902
@@ -1123,7 +1123,7 @@ Para ficheiros de referência 902 os campos que devem estar preenchidos são:
 Caso Geral:
 
 |   | Ref.  | Nº CB| Entidade| Nº CP|Nº P1/P2/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
-|---|---|----|----|----|---|---|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)| 12 - 19 (8)|20 - 27 (8)|28 - 39 (12)| 52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 - 188 (10)|
 
 <div style="height:40px">
@@ -1134,7 +1134,7 @@ Caso Geral:
 </br> Para entidades do tipo ARS e ULS, ficheiros desta referência devem ter os seguintes campos preenchidos:
 
 |   | Ref.  | Nº CB| Entidade| Nº CP|Nº P1/P2/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
-|---|---|----|----|----|---|---|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)| 12 - 19 (8)|20 - 27 (8)|**28 - 42 (15)**| 55 - 62 (8)  | 63 - 112 (50)  | 113 - 162 (50)  |163 - 180 (18)   |  181 (1) |182 - 191 (10)|
 
 <div style="height:40px">
@@ -1145,7 +1145,7 @@ Caso Geral:
 Para ficheiros de referência 903 os campos que devem estar preenchidos são:
 
 |   | Ref.  | Entidade|Nº OD| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
-|---|---|----|----|----|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  | 12 - 19 (8)|40 - 51 (12)| 52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 - 188 (10)|
 
 <div style="height:40px">
@@ -1156,7 +1156,7 @@ Para ficheiros de referência 903 os campos que devem estar preenchidos são:
 Para ficheiros de referência 904 os campos que devem estar preenchidos são:
 
 |   | Ref.  | Entidade|Nº NC/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
-|---|---|----|----|----|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)|12 - 19 (8)|28 - 39 (12)| 52 - 59 (8)|60 - 109 (50)| 110 - 159 (50)  |160 - 177 (18)| 178 (1)|179 - 188 (10)|
 
 <div style="height:40px">
@@ -1167,7 +1167,7 @@ Para ficheiros de referência 904 os campos que devem estar preenchidos são:
 </br>Para entidades do tipo ARS e ULS, ficheiros desta referência devem ter os seguintes campos preenchidos:
 
 |   | Ref.  | Entidade|Nº NC/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
-|---|---|----|----|----|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)|12 - 19 (8)|**28 - 42 (15)**| 55 - 62 (8)|63 - 112 (50)| 113 - 162 (50)  |163 - 180 (18)| 181 (1)|182 - 191 (10)|
 
 <div style="height:40px">
@@ -1179,7 +1179,7 @@ Para ficheiros de referência 904 os campos que devem estar preenchidos são:
 Para ficheiros de referência 905 os campos que devem estar preenchidos são:
 
 |   | Ref.  | Entidade| Nº CC/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal |Centro Custo|
-|---|---|----|----|----|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento) | 1 - 3 (3)|12 - 19 (8)|28 - 39 (12)| 52 - 59 (8)|60 - 109 (50)|110 - 159 (50)|160 - 177 (18)|178 (1) |179 - 188 (10)|
 
 <div style="height:40px">
@@ -1190,7 +1190,7 @@ Para ficheiros de referência 905 os campos que devem estar preenchidos são:
 </br>Para entidades do tipo ARS e ULS, ficheiros desta referência devem ter os seguintes campos preenchidos:
 
 |   | Ref. | Entidade| Nº CC/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal |Centro Custo|
-|---|---|----|----|----|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento) | 1 - 3 (3)|12 - 19 (8)|**28 - 42 (15)**| 55 - 62 (8)|63 - 112 (50)|113 - 162 (50)|163 - 180 (18)|181 (1) |182 - 191 (10)|
 
 <div style="height:40px">
@@ -1201,7 +1201,7 @@ Para ficheiros de referência 905 os campos que devem estar preenchidos são:
 Para ficheiros de referência 906 os campos que devem estar preenchidos são:
 
 |   | Ref.  |Nº CB| Entidade| Nº CP|Nº DF/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
-|---|---|----|----|----|---|---|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)| 12 - 19 (8)|20 - 27 (8)|28 - 39 (12)| 52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 - 188 (10)|
 
 <div style="height:40px">
@@ -1212,7 +1212,7 @@ Para ficheiros de referência 906 os campos que devem estar preenchidos são:
 </br> Para entidades do tipo ARS e ULS, ficheiros desta referência devem ter os seguintes campos preenchidos:
 
 |   | Ref.  |Nº CB| Entidade| Nº CP|Nº DF/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
-|---|---|----|----|----|---|---|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)| 12 - 19 (8)|20 - 27 (8)|**28 - 42 (15)**| 55 - 62 (8)  | 63 - 112 (50)  | 113 - 162 (50)  |163 - 180 (18)   |  181 (1) |182 - 191 (10)|
 
 <div style="height:40px">
@@ -1223,7 +1223,7 @@ Para ficheiros de referência 906 os campos que devem estar preenchidos são:
 Para ficheiros de referência 908 os campos que devem estar preenchidos são:
 
 |   | Ref.  | Entidade|Nº CF/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
-|---|---|----|----|----|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  | 12 - 19 (8)|28 - 39 (12)| 52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 - 188 (10)|
 
 <div style="height:40px">
@@ -1234,7 +1234,7 @@ Para ficheiros de referência 908 os campos que devem estar preenchidos são:
 </br>Para entidades do tipo ARS e ULS, ficheiros desta referência devem ter os seguintes campos preenchidos:
 
 |   | Ref.  | Entidade|Nº CF/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
-|---|---|----|----|----|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  | 12 - 19 (8)|**28 - 42 (15)**| 55 - 62 (8)  | 63 - 112 (50)  | 113 - 162 (50)  |163 - 180 (18)   |  181 (1) |182 - 191 (10)|
 
 <div style="height:40px">

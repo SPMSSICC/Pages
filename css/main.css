@@ -585,7 +585,7 @@ padding:.3em
 table th {
 background:#3d596d;
 color:#FFF;
-font-weight:400;
+font-weight:500;
 font-size: 15px;
 letter-spacing:.1em;
 padding:.3em;
@@ -1010,7 +1010,7 @@ padding:0;
 position:fixed;
 top:44px;
 transition:left .3s ease-out;
-width:22.5em;
+width:23.5em;
 z-index:99
 }
 
@@ -1221,9 +1221,9 @@ font-weight:700
 }
 
 blockquote {
-border-left:solid 5px #666;
-font-style:italic;
-padding:1em 0 1em 2em
+border-left:solid 5px #838181;
+background-color: rgba(242, 142, 10, 0.55);
+padding:.3em 0 .3em 2em
 }
 
 br.clear {
