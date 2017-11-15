@@ -617,9 +617,633 @@ _Em actualização_
 <!-- ## 2. Menu Gestão de Terceiros -->
 ## 3. Menu Recolhas
 
-### 3.1. Ciclo Despesa
+### 3.1. Ligações de Outras Aplicações
 
-#### 3.1.1. Cabimento (CB)
+Este capítulo pretende descrever o processo de importação de dados provenientes de outras aplicações no sentido de interligar vários departamentos da entidade. As aplicações em questão permitem a gestão de dados referentes a:
+
+- Pessoal;
+- Stocks;
+- Imobilizados;
+- Faturação de Devedores;
+- Farmácias;
+- SISO/Reembolsos;
+- MCDT.
+
+A importação de dados destas aplicações, no sistema SICC /SNC - AP,  é feita via ficheiros em formato TXT.
+O _layout_ geral destes ficheiros, isto é, de todos os ficheiros TXT referentes a estas importações, é igual para todas as ligações disponíveis neste menu. No entanto, os campos que são preenchidos no ficheiro para importação variam consoante o tipo de ligação e a referência do ficheiro.
+
+Na imagem abaixo está representado um exemplo de dois ficheiros, referências 101 (Ligação Pessoal) e 211 (Ligação Gestão de Stocks), onde estão apresentados campos que são preenchidos nos dois ficheiros (por exemplo: Conta Débito) e outros que apenas são preenchidos por um deles.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-162effc4.png)
+
+>**Nota:** Apenas pode ser produzido um ficheiro TXT por referência.
+
+
+ </br>Ao longo dos próximos sub-capítulos será descrito, com detalhe, todo o fluxo de trabalho necessário para que a importação dos dados seja bem sucedida bem como a estrutura dos ficheiros para cada tipo de importação.
+
+
+#### 3.1.1. Ligações de Pessoal
+Para importar dados relativos ao Pessoal o utilizador deve seguir o seguinte caminho na aplicação:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-3f6487e6.png)
+
+</br> No ecrã referente às importações de dados de pessoal, o utilizador deve:
+
+1. Selecionar do diretório o ficheiro TXT a ser importado;
+2. Indicar a chave orçamental que será associada a todos os documentos carregados;
+3. Selecionar o botão "Ver/Testar Ficheiro".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-eefe9ffc.png)
+
+</br> Ao selecionar o botão "Ver/Testar Ficheiro" o sistema irá percorrer o ficheiro carregado e verificar se este cumpre os requisitos.
+Caso ocorram erros, é dada uma mensagem ao utilizador e é produzido um relatório numa caixa criada para o efeito. Nestes casos, os erros devem ser corrigidos e o ficheiro deve ser validado novamente.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-b8b5b12d.png)
+
+É possível guardar a listagem de erros de duas formas:
+- Em formato CSV, disponível através da seleção do botão "Ficheiro de Erros", em que o utilizador deve escolher o caminho no seu compotador onde pretende guardar o ficheiro.
+- Em formato PDF, disponível através da seleção do botão "Erros" que terá o seguinte aspeto:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-bc712cc6.png)
+
+</br>Quando o ficheiro não contém erros, os elementos do ficheiro carregado ficam visíveis no ecrã. Após validação dos elementos do ficheiro, o utilizador deve selecionar o botão "Importar Ligação".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-56b9f08d.png)
+
+O utilizador pode ainda, selecionandpo o botão "Ligações" obter um documento PDF com os elementos carregados no sistema.
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-9a398c82.png)
+
+Para confirmar a importação dos dados, o sistema gera uma mensagem informativa com a indicação abaixo descrita.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1150b5aa.png)
+
+##### Referências 101 e 102
+Para a importação de dados de pessoal, podem ser importados ficheiros com as referências **101 e 102**. Estes ficheiros devem obedecer ao critério dos campos estipulados que estão apresentados seguidamente:
+
+|   | Ref. | Entidade (CP/P2) | Nº Doc. (CB/CP/P2) | Data Doc. | Conta débito | Conta Crédito | Importância  |Sinal| Centro Custo |
+|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+| Posição (Comprimento) | 1 - 3 (3)| 12 - 19 (8)| 20 - 27 (8)| 52 - 59 (8) | 60 - 109 (50)  | 110 - 159 (50)  | 160 - 177 (18) | 178 (1) | 179 - 188 (10) |
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/101.sncap'">Descarregar TXT</button>
+</div>
+
+</br>**Contas a crédito**
+</br> As contas a crédito das faturas conferidas dos fornecedores (P2) são obtidas através da relação, previamente estabelecida, com as contas a débito dos cabimentos.
+O utilizador deve selecionar o botão "Contas a crédito" para visualizar as associações já estabelecidas pelo sistema e para adicionar ou remover associações.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ecee5791.png)
+
+Ao clicar no botão é aberto o seguinte ecrã:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-fb17ad84.png)
+
+Para adicionar uma relação, o utilizador deve clicar sobre o botão "+ Novo", preencher o novo campo disponível com as contas respetivas e por fim deve confirmar a alteração carregando no botão "Confirmar". O utilizador pode consultar as contas existentes no sistema através do botão ajuda ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-bbc0de15.png)
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ea6f22fc.png)
+
+Em caso de se pretender eliminar uma relação, o utilizador deve selecionar uma linha, clicando sobre a mesma duas vezes, e clicar no botão "- Abater".
+
+#### 3.1.2. Ligações de Gestão de Stocks
+
+##### 3.1.2.1. Referências genéricas
+Para importar dados relativos às referências genéricas dos Stocks o utilizador deve seguir o seguinte caminho na aplicação:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-9cfa4d6c.png)
+
+</br> No ecrã referente às importações de dados de gestão de stocks, o utilizador deve:
+
+1. Selecionar do diretório o ficheiro TXT a ser importado;
+2. Indicar a chave orçamental que será associada a todos os documentos carregados;
+3. Selecionar o botão "Ver/Testar Ficheiro".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-d6ccda75.png)
+
+</br> Ao selecionar o botão "Ver/Testar Ficheiro" o sistema irá percorrer o ficheiro carregado e verificar se este cumpre os requisitos. Quando o ficheiro não contém erros, os elementos do ficheiro ficam visíveis no ecrã. No caso do ficheiro conter erros é dada uma mensagem ao utilizador e é produzido um relatório numa caixa criada para o efeito. Nestes casos, os erros devem ser corrigidos e o ficheiro deve ser validado novamente.
+</br>Após validação dos elementos do ficheiro o utilizador deve selecionar o botão "Importar Ligação".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-6c37d67c.png)
+
+> **Nota:** A funcionalidade dos botões disponíveis neste ecrã é igual aos descritos em 3.1.1.
+
+</br>Para confirmar a importação dos dados, o sistema gera uma mensagem informativa com a indicação abaixo descrita.
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1150b5aa.png)
+
+</br>No caso da gestão de Stocks, é possível importar ficheiros com as referências  **201, 203, 204, 205, 206, 207, 210, 211 e 214**. A descrição dos campos para cada uma das referências é apresentada seguidamente.
+
+##### Referência 201
+Para ficheiros de referência 201 os campos que devem estar preenchidos são:
+
+|   | Ref. | Nº Doc. | Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)   | 52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/201.sncap'">Descarregar TXT</button>
+</div>
+
+##### Referência 203
+Para ficheiros de referência 203 os campos que devem estar preenchidos são:
+
+|   | Ref.  | Entidade| NºCP| NºP1| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Posição (Comprimento)   | 1 - 3 (3)  | 12 - 19 (8)|20 - 27 (8) |28 - 39 (12)|52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 - 188 (10)|
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/203.sncap'">Descarregar TXT</button>
+</div>
+
+##### Referências 204, 205, 206 e 207
+Para ficheiros de referência 204-207 os campos que devem estar preenchidos são:
+
+|   | Ref.    | Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   | Centro Custo |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Posição (Comprimento) | 1 - 3 (3) | 52 - 59 (8) | 60 - 109 (50)  | 110 - 159 (50)  | 160 - 177 (18) | 178 (1) | 179 - 188 (10) |
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/204.sncap'">Descarregar TXT</button>
+</div>
+
+##### Referência 210
+Para ficheiros de referência 210 os campos que devem estar preenchidos são:
+
+|   | Ref. | Nº CB |Entidade|Nº CP|Nº P2| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo| Nº dias Data Vencimento |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Posição (Comprimento)   |1 - 3 (3)   | 4 - 11 (8)  | 12 - 19 (8)  | 20 - 27 (8)  |40 - 51 (12)   | 52 - 59 (8)  |60 - 109 (50)   |110 - 159 (50)   |160 - 177 (18)   |178 (1)   |179 - 188 (10)   |230 - 232 (3)   |
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/210.sncap'">Descarregar TXT</button>
+</div>
+
+##### Referência 211
+Para ficheiros de referência 211 os campos que devem estar preenchidos são:
+
+|   | Ref. | Nº CB |Entidade|Nº CP|Nº P1|Nº P2| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo| Nº dias Data Vencimento |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Posição (Comprimento)   |1 - 3 (3)   | 4 - 11 (8)  | 12 - 19 (8)  | 20 - 27 (8)  |28 - 39 (12)| 40 - 51 (12)   | 52 - 59 (8)  |60 - 109 (50)   |110 - 159 (50)   |160 - 177 (18)   |178 (1)   |179 - 188 (10)   |230 - 232 (3)   |
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/211.sncap'">Descarregar TXT</button>
+</div>
+
+##### Referência 214
+Para ficheiros de referência 214 os campos que devem estar preenchidos são:
+
+|   | Ref. | Nº CB | Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   | Nº dias Data Vencimento |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Posição (Comprimento)|1 - 3 (3)|4 - 11 (8) |52 - 59(8) |60 - 109 (50)|110 - 159 (59)|160 - 177 (18)|178 (1) |230 - 232(3)   |
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/214.sncap'">Descarregar TXT</button>
+</div>
+
+##### 3.1.2.2. Refª 202 (Compromissos Assumidos)
+Para importar dados relativos à Refª 202 de Stocks o utilizador deve seguir o seguinte caminho na aplicação:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-5be9deea.png)
+
+Irá abrir o ecrã seguidamente apresentado onde o processo de importação de ficheiros segue o mesmo fluxo de trabalho das referências anteriores referentes à gestão de stocks.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-4d1dae6e.png)
+
+
+|   | Ref.  | Nº CB | Entidade| Nº CP| Nº CM| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Nº Dias Data Vencimento|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)| 12 - 19 (8)|20 - 27 (8) |40 - 51 (12)|52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |230 - 232 (3)|
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/202.sncap'">Descarregar TXT</button>
+</div>
+
+#### 3.1.3. Ligações de Gestão de Imobilizado
+Para importar dados relativos aos imobilizados o utilizador deve seguir o seguinte caminho na aplicação:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-9e5e2d6d.png)
+
+</br> No ecrã referente às importações de dados de imobilizado, o utilizador deve:
+
+1. Selecionar do diretório o ficheiro TXT a ser importado;
+2. Indicar a chave orçamental que será associada a todos os documentos carregados;
+3. Selecionar o botão "Ver/Testar Ficheiro".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1e524aec.png)
+
+</br> Ao selecionar o botão "Ver/Testar Ficheiro" o sistema irá percorrer o ficheiro carregado e verificar se este cumpre os requisitos. Quando o ficheiro não contém erros, os elementos ficam visíveis no ecrã. No caso do ficheiro conter erros é dada uma mensagem ao utilizador e é produzido um relatório numa caixa criada para o efeito. Nestes casos, os erros devem ser corrigidos e o ficheiro deve ser testado novamente.
+</br>Após validação dos elementos do ficheiro o utilizador deve selecionar o botão "Importar Ligação".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-22169578.png)
+
+>**Nota:** A funcionalidade dos botões disponíveis neste ecrã é igual aos descritos em 3.1.1.
+
+</br>Para confirmar a importação dos dados, o sistema gera uma mensagem informativa com a indicação abaixo descrita.
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1150b5aa.png)
+
+</br>No caso da gestão de imobilizado, é possível importar ficheiros com as referências  **301, 302, 303, 304, 305, 306 e 307**. A descrição dos campos para cada uma das referências é apresentada seguidamente.
+
+##### Referência 301
+Para ficheiros de referência 301 os campos que devem estar preenchidos são:
+
+|   | Ref.  | Nº CB | Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)|52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 - 188 (10)|
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/301.sncap'">Descarregar TXT</button>
+</div>
+
+##### Referência 302
+Para ficheiros de referência 302 os campos que devem estar preenchidos são:
+
+|   | Ref.  |Entidade| Nº CP |Nº CM| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Posição (Comprimento)   | 1 - 3 (3)  |12 - 19 (8)|20 - 27 (8)|43 - 51 (9)| 52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 - 188 (10)|
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/302.sncap'">Descarregar TXT</button>
+</div>
+
+##### Referência 303
+Para ficheiros de referência 303 os campos que devem estar preenchidos são:
+
+|   | Ref.  |Entidade| Nº CP |Nº P1| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Posição (Comprimento) | 1 - 3 (3)  |12 - 19 (8)|20 - 27 (8)|28 -  39 (12)| 52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 - 188 (10)|
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/303.sncap'">Descarregar TXT</button>
+</div>
+
+##### Referências 304, 305, 306, 307
+Para ficheiros de referências 304 - 307 os campos que devem estar preenchidos são:
+
+|     | Ref.    | Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   | Centro Custo |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Posição (Comprimento) | 1 - 3 (3) | 52 - 59 (8) | 60 - 109 (50)  | 110 - 159 (50)  | 160 - 177 (18) | 178 (1) | 179 - 188 (10) |
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/304.sncap'">Descarregar TXT</button>
+</div>
+
+#### 3.1.4. Ligações de Faturação de Devedores
+Para importar dados relativos à faturação de devedores o utilizador deve seguir o seguinte caminho na aplicação:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-6fc81755.png)
+
+</br> No ecrã referente às importações de dados de faturas de devedores, o utilizador deve:
+
+1. Selecionar do diretório o ficheiro TXT a ser importado;
+2. Indicar a chave orçamental que será associada a todos os documentos carregados;
+3. Selecionar o botão "Ver/Testar Ficheiro".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-b7254af5.png)
+
+</br> Ao selecionar o botão "Ver/Testar Ficheiro" o sistema irá percorrer o ficheiro carregado e verificar se este cumpre os requisitos. Quando o ficheiro não contém erros, os elementos ficam visíveis no ecrã. No caso do ficheiro conter erros é dada uma mensagem ao utilizador e é produzido um relatório numa caixa criada para o efeito. Nestes casos, os erros devem ser corrigidos e o ficheiro deve ser testado novamente.
+</br>Após validação dos elementos do ficheiro o utilizador deve selecionar o botão "Importar Ligação".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-effe3987.png)
+
+>**Nota:** A funcionalidade dos botões disponíveis neste ecrã é igual aos descritos em 3.1.1.
+
+</br>Para confirmar a importação dos dados, o sistema gera uma mensagem informativa com a indicação abaixo descrita.
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1150b5aa.png)
+
+</br>No caso da gestão de imobilizado, é possível importar ficheiros de referência **401**. A descrição dos campos da referência é apresentada seguidamente.
+
+##### Referência 401
+Para ficheiros de referência 401 os campos que devem estar preenchidos são:
+
+|   | Ref.  | Entidade| Nº P2| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Posição (Comprimento)   | 1 - 3 (3)  |12 - 19 (8)| 40 - 51 (12)| 52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 - 188 (10)|
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/401.sncap'">Descarregar TXT</button>
+</div>
+
+#### 3.1.5. Ligações de Farmácias
+Para importar dados relativos às Farmácias o utilizador deve seguir o seguinte caminho na aplicação:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-0629654e.png)
+
+</br> No ecrã referente às importações de dados de farmácias, o utilizador deve:
+
+1. Selecionar do diretório o ficheiro TXT a ser importado;
+2. Indicar a chave orçamental que será associada a todos os documentos carregados;
+3. Selecionar o botão "Ver/Testar Ficheiro".
+<!--falta imagem-->
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-32659b0f.png)
+
+</br> Ao selecionar o botão "Ver/Testar Ficheiro" o sistema irá percorrer o ficheiro carregado e verificar se este cumpre os requisitos. Quando o ficheiro não contém erros, os elementos ficam visíveis no ecrã. No caso do ficheiro conter erros é dada uma mensagem ao utilizador e é produzido um relatório numa caixa criada para o efeito. Nestes casos, os erros devem ser corrigidos e o ficheiro deve ser testado novamente.
+</br>Após validação dos elementos do ficheiro o utilizador deve selecionar o botão "Importar Ligação".
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-34e3c81a.png)
+
+>**Nota:** A funcionalidade dos botões disponíveis neste ecrã é igual aos descritos em 3.1.1.
+
+</br>Para confirmar a importação dos dados, o sistema gera uma mensagem informativa com a indicação abaixo descrita.
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1150b5aa.png)
+
+</br>No caso de farmácias, é possível importar ficheiros com as referências  **702, 703, 704 e 706**.
+A descrição dos campos para cada uma das referências é apresentada seguidamente.
+
+>**Nota:** Alguns ficheiros variam a sua estrutura para entidades do tipo ARS e ULS. A descrição dos campos destes ficheiros é apresentada separadamente para cada referência.
+
+
+##### Referência 702
+Para ficheiros de referência 702 os campos que devem estar preenchidos são:
+
+|   | Ref.  |Nº CB| Entidade| Nº CP|Nº P1/P2/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)| 12 - 19 (8)|20 - 27 (8)|28 - 39 (12)| 52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 -  188 (10)|
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/702.sncap'">Descarregar TXT</button>
+</div>
+
+</br>**ARS e ULS**
+</br>Para entidades do tipo ARS e ULS, ficheiros desta referência devem ter os seguintes campos preenchidos:
+
+|   | Ref.  |Nº CB| Entidade| Nº CP|Nº P1/P2/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Posição (Comprimento) |1 - 3 (3)|4 - 11 (8)| 12 - 19 (8)|20 - 27 (8)|**28 - 42 (15)**| 55 - 62 (8)  | 63 - 112 (50)  | 113 - 162 (50)  |163 - 180 (18)   |  181 (1) |182 - 191 (10)|
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/702_ars.sncap'">Descarregar TXT</button>
+</div>
+
+##### Referência 703
+Para ficheiros de referência 703 os campos que devem estar preenchidos são:
+
+|   | Ref.  | Entidade| Nº OD| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Posição (Comprimento)   | 1 - 3 (3)  |12 - 19 (8)| 40 - 51 (12)| 52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 - 188 (10)|
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/703.sncap'">Descarregar TXT</button>
+</div>
+
+##### Referência 704
+Para ficheiros de referência 704 os campos que devem estar preenchidos são:
+
+|   | Ref.  | Entidade| Nº NC/Série| Data Doc. | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Posição (Comprimento)   | 1 - 3 (3)  |12 - 19 (8)| 28 - 39 (12)| 52 - 59 (8)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 - 188 (10)|
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/704.sncap'">Descarregar TXT</button>
+</div>
+
+</br>**ARS e ULS**
+</br>Para entidades do tipo ARS e ULS, ficheiros desta referência devem ter os seguintes campos preenchidos:
+
+|   | Ref.  | Entidade| Nº NC/Série| Data Doc. | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Posição (Comprimento)   | 1 - 3 (3)  |12 - 19 (8)| **28 - 42 (15)**| 55 - 62 (8)  | 113 - 162 (50)  |163 - 180 (18)   |  181 (1) |182 - 191 (10)|
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/704_ars.sncap'">Descarregar TXT</button>
+</div>
+
+##### Referência 706
+Para ficheiros de referência 706 os campos que devem estar preenchidos são:
+
+|   | Ref.  | Nº CB| Entidade| Nº CP|Nº DF/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)| 12 - 19 (8)|20 - 27 (8)|28 - 39 (12)| 52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 - 188 (10)|
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/706.sncap'">Descarregar TXT</button>
+</div>
+
+</br>**ARS e ULS**
+</br>Para entidades do tipo ARS e ULS, ficheiros desta referência devem ter os seguintes campos preenchidos:
+
+|   | Ref.  | Nº CB| Entidade| Nº CP|Nº DF/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)| 12 - 19 (8)|20 - 27 (8)|**28 - 42 (15)**| 55 - 62 (8)  | 63 - 112 (50)  | 113 - 162 (50)  |163 - 180 (18)   |  181 (1) |182 - 191 (10)|
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/706_ars.sncap'">Descarregar TXT</button>
+</div>
+
+</br>**Contas a crédito**
+</br> As contas a crédito das faturas conferidas dos fornecedores (P2) são obtidas através da relação, previamente estabelecida, com as contas a débito dos cabimentos.
+O utilizador deve selecionar o botão "Contas a crédito" para visualizar as associações já estabelecidas pelo sistema e para adicionar ou remover associações.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ecee5791.png)
+
+Ao clicar no botão é aberto o seguinte ecrã:
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-fb17ad84.png)
+
+Para adicionar uma relação, o utilizador deve clicar sobre o botão "+ Novo", preencher o novo campo disponível com as contas e por fim deve confirmar a alteração carregando no botão "Confirmar". O utilizador pode consultar as contas existentes através do botão ajuda ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-bbc0de15.png).
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ea6f22fc.png)
+
+Em caso de se pretender eliminar uma relação, o utilizador deve selecionar uma linha e clicar no botão "- Abater".
+
+#### 3.1.6. Ligações do SISO/Reembolsos
+
+##### Ligações de faturas
+Para importar dados relativos às faturas de SISO/Reembolsos o utilizador deve seguir o seguinte caminho na aplicação:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets//mu_snc_ap-585d2317.png)
+
+</br> No ecrã referente às importações de dados de SISO/Reembolsos, o utilizador deve:
+
+1. Selecionar do diretório o ficheiro TXT a ser importado;
+2. Indicar a chave orçamental que será associada a todos os documentos carregados;
+3. Selecionar o botão "Ver/Testar Ficheiro".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-9210b351.png)
+
+</br> Ao selecionar o botão "Ver/Testar Ficheiro" o sistema irá percorrer o ficheiro carregado e verificar se este cumpre os requisitos. Quando o ficheiro não contém erros, os elementos ficam visíveis no ecrã. No caso do ficheiro conter erros é dada uma mensagem ao utilizador e é produzido um relatório numa caixa criada para o efeito. Nestes casos, os erros devem ser corrigidos e o ficheiro deve ser testado novamente.
+
+</br>Após validação dos elementos do ficheiro o utilizador deve selecionar o botão "Importar Ligação".
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-6906f3e4.png)
+
+>**Nota:** A funcionalidade dos botões disponíveis neste ecrã é igual aos descritos em 3.1.1.
+
+</br>Para confirmar a importação dos dados, o sistema gera uma mensagem informativa com a indicação abaixo descrita.
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1150b5aa.png)
+
+</br>No caso da ligação SISO/Reembolsos, é possível importar ficheiros de referência  **501**. A descrição dos campos da referência é apresentada seguidamente.
+
+</br>**Referência 501**
+
+|   | Ref.  | Nº CB| Entidade| Nº CP|Nº P1/P2| Data Doc. | Conta Débito | Conta Crédito | Importância| Sinal|Centro Custo|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)| 12 - 19 (8)|20 - 27 (8)|40 - 51 (12)| 52 - 59 (8)  | 60 - 79 (20)  | 80 - 99 (20)  |100 - 117 (18)   |  118 (1) |119 - 128 (10)|
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/501.sncap'">Descarregar TXT</button>
+</div>
+
+##### Exportação de Pagamentos
+Para exportar pagamentos o utilizador deve seguir o seguinte caminho na aplicação:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-f629ba94.png)
+_Em atualização_
+
+##### Importação de Entidades
+Para importar dados relativos às entidades de SISO/Reembolsos o utilizador deve seguir o seguinte caminho na aplicação:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-c3ae6905.png)
+_Em atualização_
+
+#### 3.1.7. Ligações dos MCDT
+Para importar dados relativos a MCDT o utilizador deve seguir o seguinte caminho na aplicação:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-4637c493.png)
+
+</br> No ecrã referente às importações de dados de MCDT, o utilizador deve:
+
+1. Selecionar do diretório o ficheiro TXT a ser importado;
+2. Indicar a chave orçamental que será associada a todos os documentos carregados;
+3. Selecionar o botão "Ver/Testar Ficheiro".
+
+ ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-07e190a8.png)
+
+</br> Ao selecionar o botão "Ver/Testar Ficheiro" o sistema irá percorrer o ficheiro carregado e verificar se este cumpre os requisitos. Quando o ficheiro não contém erros, os elementos ficam visíveis no ecrã. No caso do ficheiro conter erros é dada uma mensagem ao utilizador e é produzido um relatório numa caixa criada para o efeito. Nestes casos, os erros devem ser corrigidos e o ficheiro deve ser testado novamente.
+
+</br>Após validação dos elementos do ficheiro o utilizador deve selecionar o botão "Importar Ligação".
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-2a02b4e5.png)
+
+>**Nota:** A funcionalidade dos botões disponíveis neste ecrã é igual aos descritos em 3.1.1.
+
+</br>Para confirmar a importação dos dados, o sistema gera uma mensagem informativa com a indicação abaixo descrita.
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1150b5aa.png)
+
+</br>No caso da gestão de imobilizado, é possível importar ficheiros com as referências  **902, 903, 904, 905, 906 e 908**. A descrição dos campos para cada uma das referências é apresentada seguidamente.
+
+>**Nota:** Alguns ficheiros variam a sua estrutura para entidades do tipo ARS e ULS. A descrição dos campos destes ficheiros é apresentada separadamente para cada referência.
+
+
+##### Referência 902
+Para ficheiros de referência 902 os campos que devem estar preenchidos são:
+
+Caso Geral:
+
+|   | Ref.  | Nº CB| Entidade| Nº CP|Nº P1/P2/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)| 12 - 19 (8)|20 - 27 (8)|28 - 39 (12)| 52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 - 188 (10)|
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/902.sncap'">Descarregar TXT</button>
+</div>
+
+</br>**ARS e ULS**
+</br> Para entidades do tipo ARS e ULS, ficheiros desta referência devem ter os seguintes campos preenchidos:
+
+|   | Ref.  | Nº CB| Entidade| Nº CP|Nº P1/P2/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)| 12 - 19 (8)|20 - 27 (8)|**28 - 42 (15)**| 55 - 62 (8)  | 63 - 112 (50)  | 113 - 162 (50)  |163 - 180 (18)   |  181 (1) |182 - 191 (10)|
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/902_ars.sncap'">Descarregar TXT</button>
+</div>
+
+##### Referência 903
+Para ficheiros de referência 903 os campos que devem estar preenchidos são:
+
+|   | Ref.  | Entidade|Nº OD| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Posição (Comprimento)   | 1 - 3 (3)  | 12 - 19 (8)|40 - 51 (12)| 52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 - 188 (10)|
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/903.sncap'">Descarregar TXT</button>
+</div>
+
+##### Referência 904
+Para ficheiros de referência 904 os campos que devem estar preenchidos são:
+
+|   | Ref.  | Entidade|Nº NC/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Posição (Comprimento)   | 1 - 3 (3)|12 - 19 (8)|28 - 39 (12)| 52 - 59 (8)|60 - 109 (50)| 110 - 159 (50)  |160 - 177 (18)| 178 (1)|179 - 188 (10)|
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/904.sncap'">Descarregar TXT</button>
+</div>
+
+</br>**ARS e ULS**
+</br>Para entidades do tipo ARS e ULS, ficheiros desta referência devem ter os seguintes campos preenchidos:
+
+|   | Ref.  | Entidade|Nº NC/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Posição (Comprimento)   | 1 - 3 (3)|12 - 19 (8)|**28 - 42 (15)**| 55 - 62 (8)|63 - 112 (50)| 113 - 162 (50)  |163 - 180 (18)| 181 (1)|182 - 191 (10)|
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/904_ars.sncap'">Descarregar TXT</button>
+</div>
+
+
+##### Referência 905
+Para ficheiros de referência 905 os campos que devem estar preenchidos são:
+
+|   | Ref.  | Entidade| Nº CC/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal |Centro Custo|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Posição (Comprimento) | 1 - 3 (3)|12 - 19 (8)|28 - 39 (12)| 52 - 59 (8)|60 - 109 (50)|110 - 159 (50)|160 - 177 (18)|178 (1) |179 - 188 (10)|
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/905.sncap'">Descarregar TXT</button>
+</div>
+
+</br>**ARS e ULS**
+</br>Para entidades do tipo ARS e ULS, ficheiros desta referência devem ter os seguintes campos preenchidos:
+
+|   | Ref. | Entidade| Nº CC/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal |Centro Custo|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Posição (Comprimento) | 1 - 3 (3)|12 - 19 (8)|**28 - 42 (15)**| 55 - 62 (8)|63 - 112 (50)|113 - 162 (50)|163 - 180 (18)|181 (1) |182 - 191 (10)|
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/905_ars.sncap'">Descarregar TXT</button>
+</div>
+
+##### Referência 906
+Para ficheiros de referência 906 os campos que devem estar preenchidos são:
+
+|   | Ref.  |Nº CB| Entidade| Nº CP|Nº DF/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)| 12 - 19 (8)|20 - 27 (8)|28 - 39 (12)| 52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 - 188 (10)|
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/906.sncap'">Descarregar TXT</button>
+</div>
+
+</br>**ARS e ULS**
+</br> Para entidades do tipo ARS e ULS, ficheiros desta referência devem ter os seguintes campos preenchidos:
+
+|   | Ref.  |Nº CB| Entidade| Nº CP|Nº DF/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)| 12 - 19 (8)|20 - 27 (8)|**28 - 42 (15)**| 55 - 62 (8)  | 63 - 112 (50)  | 113 - 162 (50)  |163 - 180 (18)   |  181 (1) |182 - 191 (10)|
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/906_ars.sncap'">Descarregar TXT</button>
+</div>
+
+##### Referência 908
+Para ficheiros de referência 908 os campos que devem estar preenchidos são:
+
+|   | Ref.  | Entidade|Nº CF/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Posição (Comprimento)   | 1 - 3 (3)  | 12 - 19 (8)|28 - 39 (12)| 52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 - 188 (10)|
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/908.sncap'">Descarregar TXT</button>
+</div>
+
+</br> **ARS e ULS**
+</br>Para entidades do tipo ARS e ULS, ficheiros desta referência devem ter os seguintes campos preenchidos:
+
+|   | Ref.  | Entidade|Nº CF/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Posição (Comprimento)   | 1 - 3 (3)  | 12 - 19 (8)|**28 - 42 (15)**| 55 - 62 (8)  | 63 - 112 (50)  | 113 - 162 (50)  |163 - 180 (18)   |  181 (1) |182 - 191 (10)|
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/908_ars.sncap'">Descarregar TXT</button>
+</div>
+
+### 3.2. Ciclo Despesa
+
+#### 3.2.1. Cabimento (CB)
 
 Esta opção permite, consultar ou criar um novo documento de Cabimento e com base em critérios selecionados pelo utilizador.
 
@@ -721,7 +1345,7 @@ O formato na opção "Imprimir", é o seguinte:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-c393e3d6.png)
 
-#### 3.1.2. Alterações de Cabimentos (AM)
+#### 3.2.2. Alterações de Cabimentos (AM)
 
 Neste processo o que se pretende demonstrar é uma alteração a um CB já existente. Desta forma, iremos contemplar mais uma linha de item financeiro ao CB criado anteriormente.
 
@@ -774,7 +1398,7 @@ Após validação dos elementos integrados e constatado que os valores estão co
 
 ![img_importacao_concluida_sucesso.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_importacao_concluida_sucesso.png)
 
-#### 3.1.3. Verificação Prévia (CM)
+#### 3.2.3. Verificação Prévia (CM)
 
 Entende-se por _Verificação Prévia (CM)_, a verificação prévia de fundos disponíveis, as obrigações de efetuar pagamentos a terceiros em contrapartida do fornecimento de bens e serviços ou da satisfação de outras condições. Os compromissos consideram-se assumidos quando é executada uma ação formal pela entidade, como seja a emissão de ordem de compra, nota de encomenda ou documento equivalente, ou a assinatura de um contrato, acordo ou protocolo, podendo também ter um carácter permanente e estarem associados a pagamentos durante um período indeterminado de tempo, nomeadamente, salários, rendas, eletricidade ou pagamentos de prestações diversas.
 
@@ -846,7 +1470,7 @@ Sempre que um "Número de Processos de Aquisição" já tenha Compromissos assoc
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-0ed3fcdb.png)
 
-#### 3.1.4. Alteração de Compromisso (AB)
+#### 3.2.4. Alteração de Compromisso (AB)
 
 __Existe igualmente a possibilidade de proceder à alteração no Compromisso, pelo que o utilizador terá de ter em atenção que as alterações efetuadas também têm de estar alinhadas com o valor do Cabimento. O sistema deteta e envia mensagem de erro caso se verifique que o valor do compromisso seja superior ao cabimento, ou mesmo quando não existe cabimento para determinado item financeiro produzido posteriormente no compromisso. O Processo em si é semelhante ao explicado anteriormente nas alterações dos cabimentos (AM).__
 
@@ -878,7 +1502,7 @@ Após validação dos elementos integrados e constatado que os valores estão co
 
 ![img_105.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_105.png)
 
-#### 3.1.5. Lançamentos (CP)
+#### 3.2.5. Lançamentos (CP)
 
 Antes de realizar o registo de fatura FI, existe a necessidade de o utilizador verificar a disponibilidade do compromisso. Esta validação pode ser efetuada através utilizando para efeito o botão "Consulta", explicado em passos anteriores.
 
@@ -978,7 +1602,7 @@ Após validação dos elementos integrados e constatado que os valores estão co
 
 ![img_importacao_concluida_sucesso.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_importacao_concluida_sucesso.png)
 
-#### 3.1.6. Alteração de Lançamentos (AL)
+#### 3.2.6. Alteração de Lançamentos (AL)
 
 Neste processo o que se pretende demonstrar é uma alteração a um CP existente. O caminho que o utilizador deve seguir é:
 
@@ -1009,7 +1633,7 @@ Após validação dos elementos integrados e constatado que os valores estão co
 
 ![img_importacao_concluida_sucesso.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_importacao_concluida_sucesso.png)
 
-#### 3.1.7. Autorização de Pagamento (AP)
+#### 3.2.7. Autorização de Pagamento (AP)
 
 A autorização de pagamento das despesas, são autorizadas pelos dirigentes dos serviços ou outros que detenham autorização, mediante operações de tesouraria ou ainda através de transferência bancária, quando esta forma se revelar a mais conveniente.
 
@@ -1081,7 +1705,7 @@ De forma _Global_, ao selecionar “Imprimir”, o sistema produz a Autorizaçã
 
 ![img_145.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_145.png)
 
-#### 3.1.8. Transferências Bancárias
+#### 3.2.8. Transferências Bancárias
 
 Nesta etapa, o utilizador vai criar os ficheiros para enviar aos respetivos órgãos com indicação das entidades e montantes associados. Deve assim seguir o seguinte caminho no sistema:
 
@@ -1150,7 +1774,7 @@ Nesta etapa, um novo ecrã surge, em que o utilizador tem possibilidade de reali
 
 __Na importação de TXT. ou na Conversão para XML, o sistema ao carregar o ficheiro, vai determinar o último "Número de sequência", sendo que o vai atribuir de forma automática e sequencial para cada um dos casos referidos.__
 
-#### 3.1.9 Pagamentos (PG)
+#### 3.2.9 Pagamentos (PG)
 
 De forma automática, uma conta de disponibilidades deve ser lançada a crédito por contrapartida da compensação da partida de autorização de pagamento com código de razão especial (252*).
 
@@ -1208,9 +1832,9 @@ Ao selecionar “Imprimir”, o sistema produz o documento em PDF:
 
 
 
-### 3.2. Ciclo Receita
+### 3.3. Ciclo Receita
 
-#### 3.2.1. Faturas Devedores (FD)
+#### 3.3.1. Faturas Devedores (FD)
 
 Neste processo, o objetivo é o utilizador fazer as contabilizações de faturas de devedores. Desta forma, o caminho no sistema a seguir é:
 
@@ -1237,7 +1861,7 @@ Neste ecrã, há necessidade do preenchimento dos campos obrigatórios, sendo qu
 
 __Igualmente ao apresentado no capítulo anterior, os botões: "Consulta", "Abater" e "Sair", apresentam as mesmas funcionalidades.__
 
-#### 3.2.3. Guias de Receita (GR)
+#### 3.3.3. Guias de Receita (GR)
 
 O Serviço Financeiro procede ao registo emitindo a Guia de Receita através de aplicação e que consiste na classificação económica e patrimonial das receitas. Posteriormente, os documentos são enviados para a Tesouraria para registo da cobrança.
 
@@ -1290,7 +1914,7 @@ _Imagem em atualização_
 
 
 
-#### 3.2.4. Cobranças (CO)
+#### 3.3.4. Cobranças (CO)
 
 No processo de Cobrança, deve o utilizador lançar as várias contas de disponibilidades a débito por contrapartida de compensação da partida de liquidação da receita-cliente com código de razão especial (251*).
 
