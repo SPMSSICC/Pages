@@ -30,10 +30,6 @@ Arquivos de texto com valores separados por vírgulas (.CSV), nos quais o caract
 
 ![imagem3](https://spmssicc.github.io/pages/markdown/importacao_csvs.assets/image3.png)
 
-<div style="height:40px">
-<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/PO_POCMS.csv'">Descarregar CSV</button>
-</div>
-
 Findo o preenchimento do respetivo ficheiro de integração, o utilizador deve guardar o caminho do documento com a respetiva extensão anteriormente referida.
 ![imagem4](https://spmssicc.github.io/pages/markdown/importacao_csvs.assets/image4.png)
 
@@ -83,17 +79,9 @@ Cabimentos:
 
 ![imagem11](https://spmssicc.github.io/pages/markdown/importacao_csvs.assets/image11.png)
 
-<div style="height:40px">
-<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/CB_POCMS.csv'">Descarregar CSV</button>
-</div>
-
 Compromissos:
 
 ![imagem12](https://spmssicc.github.io/pages/markdown/importacao_csvs.assets/image12.png)
-
-<div style="height:40px">
-<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/CM_POCMS.csv'">Descarregar CSV</button>
-</div>
 
 Menu:
 
@@ -118,10 +106,6 @@ O Processo de importação é em todo igual ao explicado no capítulo anterior. 
 
 ![imagem16](https://spmssicc.github.io/pages/markdown/importacao_csvs.assets/image16.png)
 
-<div style="height:40px">
-<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/CP_POCMS.csv'">Descarregar CSV</button>
-</div>
-
 Menu:
 ![imagem17](https://spmssicc.github.io/pages/markdown/importacao_csvs.assets/image17.png)
 
@@ -141,16 +125,8 @@ Neste capítulo pretende-se demonstrar a criação dos ficheiros de importação
 **P1**
 ![imagem20](https://spmssicc.github.io/pages/markdown/importacao_csvs.assets/image20.png)
 
-<div style="height:40px">
-<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/P1_POCMS.csv'">Descarregar CSV</button>
-</div>
-
 **P2**
 ![imagem21](https://spmssicc.github.io/pages/markdown/importacao_csvs.assets/image21.png)
-
-<div style="height:40px">
-<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/P2_POCMS.csv'">Descarregar CSV</button>
-</div>
 
 Para integração dos ficheiros criados no passo anterior, deve o utilizador usar o seguinte caminho:
 
@@ -188,25 +164,13 @@ Os ficheiros de integração são os seguintes:
 
 ![imagem27](https://spmssicc.github.io/pages/markdown/importacao_csvs.assets/image27.png)
 
-<div style="height:40px">
-<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/AM_POCMS.csv'">Descarregar CSV</button>
-</div>
-
 **AB**
 
 ![imagem28](https://spmssicc.github.io/pages/markdown/importacao_csvs.assets/image28.png)
 
-<div style="height:40px">
-<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/AB_POCMS.csv'">Descarregar CSV</button>
-</div>
-
 **AL**
 
 ![imagem29](https://spmssicc.github.io/pages/markdown/importacao_csvs.assets/image29.png)
-
-<div style="height:40px">
-<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/AL_POCMS.csv'">Descarregar CSV</button>
-</div>
 
 **Nota:**
 O Processo de importação é em todo igual ao explicado no capítulo anterior. Realçando no entanto que qualquer erro que aconteça durante o processo terá de ser revisto, salvo e sujeito a novo teste de verificação de documento. Enquanto existirem mensagens de erro não resolvidas o sistema não completa a importação.
@@ -216,10 +180,6 @@ O Processo de importação é em todo igual ao explicado no capítulo anterior. 
 De igual forma aos capítulos anteriores, o procedimento de importação é idêntico, no entanto e na elaboração do ficheiro CSV. No entanto e neste caso específico, constatamos que para o carregamento do CE (conforme imagem abaixo), o ficheiro pode conter vários tipos de documentos gerados em passos anteriores e que entrarão todos em conjunto na integração (ao contrário da individualidade de tipos de documentos demonstrados anteriormente).
 
 ![imagem30](https://spmssicc.github.io/pages/markdown/importacao_csvs.assets/image30.png)
-
-<div style="height:40px">
-<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/CE_POCMS.csv'">Descarregar CSV</button>
-</div>
 
 Menu:
 
@@ -258,10 +218,6 @@ Neste capítulo e de igual maneira ao procedimento de importação do CE (confor
 
 ![imagem37](https://spmssicc.github.io/pages/markdown/importacao_csvs.assets/image37.png)
 
-<div style="height:40px">
-<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/AP_POCMS.csv'">Descarregar CSV</button>
-</div>
-
 **Nota:**
 A categoria de motivo é de preenchimento obrigatório quando existam contas bancárias e IBAN associados. Desta forma, a numeração da categoria deve ser preenchida pelo utilizador, conforme a tabela abaixo demonstrada:
 
@@ -298,10 +254,6 @@ Este é o último capítulo referente ao processo da despesa, pelo que a ultima 
 
 ![imagem44](https://spmssicc.github.io/pages/markdown/importacao_csvs.assets/image44.png)
 
-<div style="height:40px">
-<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/PG_POCMS.csv'">Descarregar CSV</button>
-</div>
-
 Menu:
 
 ![imagem45](https://spmssicc.github.io/pages/markdown/importacao_csvs.assets/image45.png)
@@ -330,10 +282,6 @@ A importação das operações diversas (OD), em nada difere dos procedimentos d
 Desta forma, o utilizador terá somente de proceder ao preenchimento não esquecendo que para uma conta 6*, 7* ou 3* é obrigatória a atribuição de um centro de custo.
 
 ![imagem50](https://spmssicc.github.io/pages/markdown/importacao_csvs.assets/image50.png)
-
-<div style="height:40px">
-<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/PO_POCMS.csv'">Descarregar CSV</button>
-</div>
 
 Menu:
 
