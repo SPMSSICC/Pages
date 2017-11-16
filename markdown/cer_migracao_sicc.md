@@ -21,7 +21,7 @@ Desta forma, este documento estabelece:
 ![](https://spmssicc.github.io/pages/markdown/cer_migracao_sicc.assets/cer_migracao_sicc-00caf3c8.png)
 
 | Tarefa e respetivo detalhe | Responsável |
-|--------|----------------|
+|--------|:----------------:|
 | **Produzir ficheiros de migração**:</br>Extração de dados a migrar do sistema anterior e envio para a equipa do SICC, de acordo com os requisitos especificados neste documento.</br> Assegurar que:</br> i) Não existem autorizações de pagamentos por regularizar;</br>ii) Não existem guias de receita por cobrar;</br>iii) É enviada a informação até ao dia da produção do ficheiro;</br>iv) A data contabilística deverá ser “encerrada”, ao dia da produção do ficheiro. | Entidade do MS |
 | **Verificar ficheiros, produzir relatório de migração e disponibilizar SICC-teste:**</br>Os ficheiros enviados pela entidade do MS são incorporados e verificados no sistema SICC-Teste. Este procedimento originará um relatório de validação e consistência de informação contabilística, que inclui eventuais medidas corretivas a serem executadas pela entidade do MS.</br>Os dados estarão aptos a serem carregados para produção quando todas as regras forem cumpridas e consequentemente, não forem identificadas situações que impeçam o seu carregamento  | Equipa SICC    |
 | **Efetuar ajustamentos sugeridos**</br>Devem ser efetuadas as medidas corretivas indicadas no relatório produzido na tarefa anterior deste fluxo. Após a execução de todas as medidas corretivas, os ficheiros devem ser produzidos de novo.</br>Situações frequentes:</br>1.  “Entidade não encontrada” - Identifica um documento com uma entidade que não existe. Esta entidade deverá ser criada para possibilitar a migração do documento em causa. Os dados da entidade a criar podem ser obtidos;</br>2.  “Conta xxxxx não é de movimento no exercício XXXX” - As duas situações mais frequentes associadas com esta mensagem são:</br>2.1.  A conta foi utilizada corretamente e deverá ser alterado o seu tipo para “de movimento”;</br>2.2.  A conta foi utilizada incorretamente, devendo o lançamento ser corrigido.</br>Contudo, esta situação deverá ser analisada detalhadamente, pois as correções a efetuar poderão ser distintas das apontadas anteriormente.</br>3.  “Conta xxxxx inexistente no exercício XXXX” - O lançamento efetuado poderá ter utilizado uma conta incorreta que deverá ser corrigida. Contudo, outras razões poderão contribuir para esta situação, devendo proceder-se à sua análise detalhada. Depois de efetuados os ajustamentos, o processo de migração terá de ser novamente iniciado para o ano em causa. | Entidade do MS |
@@ -35,28 +35,28 @@ São apresentadas, seguidamente, tabelas com a listagem e respectiva descrição
 
 ### 3.1.  Documentos de despesa
 
-| ID | Nome                           | Descrição |
-|----|--------------------------------|-----------|
-| AB | Alteração ao compromisso       |           |
-| AC | Anulação de credores           |           |
-| AF | Anulação de faturas            |           |
-| AL | Alteração ao comprometido      |           |
-| AM | Alteração ao cabimento         |           |
-| AP | Autorização de pagamento       |           |
-| CB | Cabimentos                     |           |
-| CM | Compromissos                   |           |
-| CP | Comprometidos                  |           |
-| DA | Despesa fundos alheios         |           |
-| DF | Débito sobre a fatura          |           |
-| NC | Notas de crédito               |           |
-| P1 | Processado em conferência      |           |
-| P2 | Processado conferido           |           |
-| PG | Pagamentos                     |           |
+| ID | Nome                      | Descrição |
+|:--:|---------------------------|-----------|
+| AB | Alteração ao compromisso  |           |
+| AC | Anulação de credores      |           |
+| AF | Anulação de faturas       |           |
+| AL | Alteração ao comprometido |           |
+| AM | Alteração ao cabimento    |           |
+| AP | Autorização de pagamento  |           |
+| CB | Cabimentos                |           |
+| CM | Compromissos              |           |
+| CP | Comprometidos             |           |
+| DA | Despesa fundos alheios    |           |
+| DF | Débito sobre a fatura     |           |
+| NC | Notas de crédito          |           |
+| P1 | Processado em conferência |           |
+| P2 | Processado conferido      |           |
+| PG | Pagamentos                |           |
 
 ### 3.2. Documentos de receita
 
 | ID | Nome                            | Descrição |
-|----|---------------------------------|-----------|
+|:--:|---------------------------------|-----------|
 | AD | Anulação de devedores           |           |
 | AR | Anulação de Receita             |           |
 | CC | Créditos a Clientes             |           |
@@ -73,7 +73,7 @@ São apresentadas, seguidamente, tabelas com a listagem e respectiva descrição
 ### 3.3. Despesa/receita
 
 | ID | Nome                           | Descrição |
-|----|--------------------------------|-----------|
+|:--:|--------------------------------|-----------|
 | CT | Cativos ou congelamentos       |           |
 | DT | Descativos ou descongelamentos |           |
 | OT | Operações diversas             |           |
@@ -81,7 +81,7 @@ São apresentadas, seguidamente, tabelas com a listagem e respectiva descrição
 ### 3.4. Outros documentos
 
 | ID | Nome                            | Descrição |
-|----|---------------------------------|-----------|
+|:--:|---------------------------------|-----------|
 | CT | Cativos ou congelamentos        |           |
 | DT | Descativos ou descongela-mentos |           |
 | FP | Fundos disponíveis              |           |
@@ -116,7 +116,7 @@ São apresentadas, seguidamente, tabelas com a listagem e respectiva descrição
 Regras e considerações de relevo do fluxo:
 
 |ID|Descrição |
-|----|-----|
+|:--:|-----|
 | 1  | Todos os tipos de documentos podem ser regularizados por um ou vários documentos até ao seu valor total. Ex.: Um CB no valor de 100€ poderá dar origem a vários CM até ao valor de 100€ |
 | 2  | O documento de registo AL e AM alteram o valor do CB e CP respetivamente, alterando também o valor disponível para o tipo do documento subsequente.|
 | 3  | Em caso de utilização do documento Fatura em Receção e Conferência em P1, posteriormente este deverá ser regularizado em P2. |
@@ -128,7 +128,7 @@ Regras e considerações de relevo do fluxo:
 Regras relevantes:
 
 | ID | Descrição |
-|----|---------|
+|:--:|---------|
 | 1  | Todos os tipos de documentos podem ser regularizados por um ou vários até ao seu valor total. Ex: FD no valor de 100€ poderá dar origem a vários GR até ao valor de 100€ |
 | 2  |   |
 
@@ -136,7 +136,7 @@ Regras relevantes:
 ## 5. Relação de tipos de documentos
 
 | Tipo Doc | Designação | Regulariza | Regularizado  | Observações |
-|----------|------------|------------|---------------|-------------|
+|:--:|------------|------------|---------------|-------------|
 | AB       | Anulações de compromissos | CM |       |                                    |
 | AC       | Anulação de credores                | P1, P2 e NC                            |                                    |                                                  |
 | AD       | Anulação de devedores               | FD e CC                                |                                    |                                                  |
@@ -145,7 +145,7 @@ Regras relevantes:
 | AM       | Alteração de CB                     | CB                                     |                                    |                                                  |
 | AP       | Autorização de pagamento            | CE (SPA e IP) / P2,NC,DF,CF e DA (EPE) | PG                                 |                                                  |
 | AR       |                                     |                                        |                                    |                                                  |
-| CB       | Cabimentos                          |                                        | AM;CM                              |                                                  |
+| CB       | Cabimentos                          |                                        | AM; CM                              |                                                  |
 | CC       | Créditos a clientes                 |                                        | DE (SPA e IP) / GR (EPE)           |                                                  |
 | CD       | Cobrança duvidosa                   | FD                                     |                                    |                                                  |
 | CE       | Credores p/ execução orçamental     | P2,NC,DF,CF, (SPA e IP)                | AP (SPA e IP)                      |                                                  |
@@ -215,12 +215,12 @@ seguintes (conjuntos de dados):
 
 Nas subsecções seguintes, detalham-se os campos de cada dimensão.
 
-Uma especial atenção deve ser dada aos campos que são de preenchimento obrigatório. 
+Uma especial atenção deve ser dada aos campos que são de preenchimento obrigatório.
 
 ### 6.1. Plano de Contas
 
 | ID     | Campo                                 | Tipo            | Obrig | Descrição                                   |
-|--------|---------------------------------------|-----------------|-------|---------------------------------------------|
+|:--------:|---------------------------------------|:-----------------:|:-------:|---------------------------------------------|
 | 4.1.1  | Ano                                   | Numérico (4)    | **Sim**   | Ano do exercício                            |
 | 4.1.2  | Conta                                 | Texto (50)      | **Sim**  | Código da conta                             |
 | 4.1.3  | Nome                                  | Texto (100)     | **Sim**    | Nome da conta                               |
@@ -241,7 +241,7 @@ Uma especial atenção deve ser dada aos campos que são de preenchimento obriga
 
 ### 6.2. Entidades
 | ID     | Campo                        | Tipo         | Obrig | Descrição                                |
-|--------|------------------------------|--------------|-------|------------------------------------------|
+|:--------:|------------------------------|:--------------:|:-------:|------------------------------------------|
 | 4.2.1  | Código                       | Numérico     | **Sim**    | Identificador numérico da entidade       |
 | 4.2.2  | Nome                         | Texto (100)  | **Sim**    | Designação da entidade                   |
 | 4.2.3  | Tipo                         | Numérico     | **Sim**    | Código identificador do tipo de entidade |
@@ -269,7 +269,7 @@ Uma especial atenção deve ser dada aos campos que são de preenchimento obriga
 ### 6.3. Centros de Custos
 
 | ID    | Campo                            | Tipo        | Obrig | Descrição                                                           |
-|-------|----------------------------------|-------------|-------|---------------------------------------------------------------------|
+|:-------:|----------------------------------|:-------------:|:-------:|---------------------------------------------------------------------|
 | 4.3.1 | Ano                              | Numérico    | **Sim**    | Formato: 2016                                                       |
 | 4.3.2 | Identificador do Centro de Custo | Texto (10)  | **Sim**    | Código do centro de custo                                           |
 | 4.3.3 | Nome                             | Texto (100) | Não   | Designação do centro de custo                                       |
@@ -283,7 +283,7 @@ Uma especial atenção deve ser dada aos campos que são de preenchimento obriga
 ### 6.4. Contabilidade Analítica
 
 | ID     | Campo                 | Tipo            | Obrig | Descrição                                                                 |
-|--------|-----------------------|-----------------|-------|---------------------------------------------------------------------------|
+|:--------:|-----------------------|:-----------------:|:-------:|---------------------------------------------------------------------------|
 | 4.4.1  | Entidade do documento | Numérico        | **Sim**    | Identificador numérico da entidade                                        |
 | 4.4.2  | Tipo de documento     | Texto (2)       | **Sim**    | Identificador alfanumérico do tipo de documento contabilístico do sistema |
 | 4.4.3  | Ano de documento      | Numérico (4)    | **Sim**    | Identificador do ano                                                      |
@@ -304,7 +304,7 @@ Uma especial atenção deve ser dada aos campos que são de preenchimento obriga
 ### 6.5. Contabilidade Geral
 
 | ID     | Campo                    | Tipo            | Obrig | Descrição                                                                 |
-|--------|--------------------------|-----------------|-------|---------------------------------------------------------------------------|
+|:--------:|--------------------------|:-----------------:|:-------:|---------------------------------------------------------------------------|
 | 4.5.1  | Entidade do documento    | Numérico        | **Sim**    | Identificador numérico da entidade                                        |
 | 4.5.2  | Tipo de documento        | Texto (2)       | **Sim**    | Identificador alfanumérico do tipo de documento contabilístico do sistema |
 | 4.5.3  | Ano do documento         | Numérico (4)    | **Sim**    | Identificador do ano                                                      |
@@ -323,7 +323,7 @@ Uma especial atenção deve ser dada aos campos que são de preenchimento obriga
 ### 6.6. Contabilidade Orçamental
 
 | ID     | Campo                 | Tipo            | Obrig | Descrição                                                                 |
-|--------|-----------------------|-----------------|-------|---------------------------------------------------------------------------|
+|:--------:|-----------------------|:-----------------:|:-------:|---------------------------------------------------------------------------|
 | 4.6.1  | Entidade do documento | Numérico        | **Sim**    | Identificador numérico da entidade                                        |
 | 4.6.2  | Tipo de documento     | Texto (2)       | **Sim**    | Identificador alfanumérico do tipo de documento contabilístico do sistema |
 | 4.6.3  | Ano do documento      | Numérico (4)    | **Sim**    | Identificador do ano                                                      |
@@ -342,7 +342,7 @@ Uma especial atenção deve ser dada aos campos que são de preenchimento obriga
 ### 6.7. Contabilidade Pública
 
 | ID    | Campo                                 | Tipo        | Obrig | Descrição                                                   |
-|-------|---------------------------------------|-------------|-------|-------------------------------------------------------------|
+|:-------:|---------------------------------------|:-------------:|:-------:|-------------------------------------------------------------|
 | 4.7.1 | Ano                                   | Numérico    | **Sim**    | Identificador do ano                                        |
 | 4.7.2 | Conta                                 | Texto (20)  | **Sim**    | Código da conta                                             |
 | 4.7.3 | D/R                                   | Texto (1)   | **Sim**    | Despesa/Receita                                             |
@@ -357,7 +357,7 @@ Uma especial atenção deve ser dada aos campos que são de preenchimento obriga
 ### 6.8. Cabeçalhos dos documentos contabilísticos
 
 | ID     | Campo                           | Tipo            | Obrig | Descrição                                                                 |
-|--------|---------------------------------|-----------------|-------|---------------------------------------------------------------------------|
+|:--------:|---------------------------------|:-----------------:|:-------:|---------------------------------------------------------------------------|
 | 4.8.1  | Entidade                        | Numérico        | **Sim**    | Identificador numérico da entidade                                        |
 | 4.8.2  | Tipo                            | Texto (2)       | **Sim**    | Identificador alfanumérico do tipo de documento contabilístico do sistema |
 | 4.8.3  | Ano                             | Numérico (4)    | **Sim**    | Identificador do ano                                                      |
@@ -378,7 +378,7 @@ Uma especial atenção deve ser dada aos campos que são de preenchimento obriga
 ### 6.9. Registos de Documentos Relacionados
 
 | ID    | Campo                                                             | Tipo      | Obrig | Descrição                                                                                                                                    |
-|-------|-------------------------------------------------------------------|-----------|-------|----------------------------------------------------------------------------------------------------------------------------------------------|
+|:-------:|-------------------------------------------------------------------|:-----------:|:-------:|----------------------------------------------------------------------------------------------------------------------------------------------|
 | 4.9.1 | Documento subsequente - Entidade                                  | Numérico  | **Sim**    | Identificador numérico da entidade subsequente |
 | 4.9.2 | Documento subsequente - Tipo                                      | Texto (2) | **Sim**    | Identificador alfanumérico do tipo de documento contabilístico do sistema  |
 | 4.9.3 | Documento subsequente - Ano                                       | Numérico  | **Sim**    | Ano do documento subsequente                                                                                                                 |
