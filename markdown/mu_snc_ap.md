@@ -33,7 +33,7 @@ Acedendo ao mesmo temos as seguintes opções disponíveis:
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-54d4797c.png)
 
 | Opção | Descrição | Utilizadores |
-|:---|:---|:---:|
+|:---|:---|:---|
 | ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-4a1fa827.png) | Manipular a informação relacionada com a instituição, com os exercícios e configurações de sistema. | Todos |
 | ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-7104a6d9.png) | Atualizar as informações genéricas do sistema, nomeadamente a informação relativa a códigos postais, bancos, fatores de aglutinação, tipo de entidade, instituições bancárias, responsáveis e ROC. | Todos |
 | ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-97e82304.png) | Atualizar as informações relacionadas com contabilidade, nomeadamente o plano de contas, a contabilidade pública, tipos de diário, centros de custo, CRI/departamentos e associações LCPA. | Todos |
@@ -261,11 +261,11 @@ Este ecrã permite ao utilizador manipular as informações relacionadas com as 
 | Fax | Fax de contacto da Instituição Bancária. |
 | Contacto | Pessoa de contacto definido pela Instituição Bancária. |
 | Email | Email de contacto da Instituição Bancária. |
-|Identificador IGCP   | Instituto de Gestão de Tesouraria e do Crédito Público  |
+|Identificador IGCP   |   |
 |Num. de sequência prox.:   |   |
-|Departamento   | Departamento da entidade associado à instituição bancária  |
+|Departamento   |   |
 
-</br>Neste formulário de configuração, entidades que tenham acesso a 2 Departamentos, o utilizador define o Identificador do IGCP, o Num. de Sequência e o Departamento a que diz respeito. Todas as restantes informações já existiam, pelo que o procedimento de preenchimento continua a ser o mesmo utilizado até à data.
+</br>Neste formulário de configuração, a ACSS tem acesso a 2 Departamentos, sendo que o utilizador neste campo define o Identificador do IGCP, o Num. de Sequência e o Departamento a que diz respeito. Todas as restantes informações já existiam, pelo que o procedimento de preenchimento continua a ser o mesmo utilizado até à data.
 
 #### 1.2.6. Responsáveis
 
@@ -1299,9 +1299,7 @@ Ao pressionar, o utilizador vai deparar-se com o seguinte ecrã, sendo que para 
 
 O aspeto do ficheiro CSV é o abaixo demonstrado, sendo que o mesmo deve obedecer ao critério das colunas estipuladas, para efeito de carregamento.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-11b27685.png)
-
-<!-- ![img_67.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_67.png) -->
+![img_67.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_67.png)
 
 <div style="height:40px">
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/CB_SNCAP.csv'">Descarregar CSV</button>
@@ -1361,6 +1359,8 @@ Uma vez a linha subir um nível acima, deverá o utilizador definir por que mont
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-fbd35096.png)
 
+
+
 Novo ecrã surge, no qual o utilizador definirá o novo item financeiro, conta e importância a registar na alteração do Cab. Finda a alteração, deverá gerar os documentos contabilísticos de forma automática pressionando para o efeito o botão "Gerar Contabilidade".
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-513a1d48.png)
@@ -1384,8 +1384,7 @@ Ao pressionar, o utilizador vai deparar-se com o seguinte ecrã, sendo que para 
 
 O aspeto do ficheiro CSV. é o abaixo demonstrado, sendo que o mesmo deve obedecer ao critério das colunas estipuladas, para efeito de carregamento.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-d10e4460.png)
-
+![img_86.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_86.png)
 
 <div style="height:40px">
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/AM_SNCAP.csv'">Descarregar CSV</button>
@@ -1453,9 +1452,8 @@ Ao pressionar, o utilizador vai deparar-se com o seguinte ecrã, sendo que para 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-c0a092cc.png)
 
 O aspeto do ficheiro CSV é o abaixo demonstrado, sendo que o mesmo deve obedecer ao critério das colunas estipuladas, para efeito de carregamento.
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-5669ced8.png)
 
-<!-- ![img_97.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_97.png) -->
+![img_97.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_97.png)
 <div style="height:40px">
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/CM-SNCAP.csv'">Descarregar CSV</button>
 </div>
@@ -1490,9 +1488,7 @@ Ao selecionar o botão "Importar", o utilizador vai deparar-se com o seguinte ec
 
 O aspeto do ficheiro CSV. é o abaixo demonstrado, sendo que o mesmo deve obedecer ao critério das colunas estipuladas, para efeito de carregamento.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-eb1b7514.png)
-
-<!-- ![img_102.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_102.png) -->
+![img_102.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_102.png)
 
 <div style="height:40px">
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/AB_SNCAP.csv'">Descarregar CSV</button>
@@ -1592,9 +1588,7 @@ Ao pressionar, o utilizador vai deparar-se com o seguinte ecrã, sendo que para 
 
 O aspeto do ficheiro CSV. é o abaixo demonstrado, sendo que o mesmo deve obedecer ao critério das colunas estipuladas, para efeito de carregamento.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-6201a896.png)
-
-<!-- ![img_119.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_119.png) -->
+![img_119.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_119.png)
 
 <div style="height:40px">
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/CP_SNCAP.csv'">Descarregar CSV</button>
@@ -1624,9 +1618,7 @@ Ao pressionar, o utilizador vai deparar-se com o seguinte ecrã, sendo que para 
 
 O aspeto do ficheiro CSV. é o abaixo demonstrado, sendo que o mesmo deve obedecer ao critério das colunas estipuladas, para efeito de carregamento.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-d01be3bc.png)
-
-<!-- ![img_124.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_124.png) -->
+![img_124.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_124.png)
 
 <div style="height:40px">
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/AL_SNCAP.csv'">Descarregar CSV</button>
@@ -1909,11 +1901,11 @@ __O utilizador tem de selecionar sempre os documentos que deseja, sejam para con
 |Última data|Obrigatório|Definir intervalo última data|
 |Pôr Guias já regularizadas|Opcional|Permite ao utilizador quando o "![img_checkbox_checked_2.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_checkbox_checked_2.png)" estiver ativo imprimir guias com histórico e em que já tenha ocorrido o recebimento|
 
-| Botão    | Descrição                                                                                                                        |
-|:---------|:---------------------------------------------------------------------------------------------------------------------------------|
-| Calcular | Este botão permite ao utilizador consultar os valores carregados de orçamento, bem como os respetivos classificadores económicos |
-| Imprimir | Este botão permite a geração do documento em PDF                                                                                 |
-| Sair     | Este botão permite ao utilizador sair do ecrã corrente                                                                           |
+|Botão|Descrição|
+|:---|:---|
+|Calcular|Este botão permite ao utilizador consultar os valores carregados de orçamento, bem como os respetivos classificadores económicos|
+|Imprimir|Este botão permite a geração do documento em PDF|
+|Sair|Este botão permite ao utilizador sair do ecrã corrente|
 
 Ao selecionar “Imprimir”, o sistema produz a Guia de Receita em PDF.
 _Imagem em atualização_
