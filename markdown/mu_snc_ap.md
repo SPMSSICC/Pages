@@ -680,7 +680,7 @@ Para confirmar a importação dos dados, o sistema gera uma mensagem informativa
 ##### Referências 101 e 102
 Para a importação de dados de pessoal, podem ser importados ficheiros com as referências **101 e 102**. Estes ficheiros devem obedecer ao critério dos campos estipulados que estão apresentados seguidamente:
 
-|   | Ref. | Entidade (CP/P2) | Nº Doc. (CB/CP/P2) | Data Doc. | Conta débito | Conta Crédito | Importância  |Sinal| Centro Custo |
+|   | Ref. | Ent. (CP/P2) | Nº Doc. (CB/CP/P2) | Data Doc. | Conta débito | Conta Crédito | Importância  |Sinal| Centro Custo |
 |:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
 | Posição (Comprimento) | 1 - 3 (3)| 12 - 19 (8)| 20 - 27 (8)| 52 - 59 (8) | 60 - 109 (50)  | 110 - 159 (50)  | 160 - 177 (18) | 178 (1) | 179 - 188 (10) |
 
@@ -745,7 +745,7 @@ Para ficheiros de referência 201 os campos que devem estar preenchidos são:
 ##### Referência 203
 Para ficheiros de referência 203 os campos que devem estar preenchidos são:
 
-|   | Ref.  | Entidade| NºCP| NºP1| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|   | Ref.  | Ent.| NºCP| NºP1| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  | 12 - 19 (8)|20 - 27 (8) |28 - 39 (12)|52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 - 188 (10)|
 
@@ -767,7 +767,7 @@ Para ficheiros de referência 204-207 os campos que devem estar preenchidos são
 ##### Referência 210
 Para ficheiros de referência 210 os campos que devem estar preenchidos são:
 
-|   | Ref. | Nº CB |Entidade|Nº CP|Nº P2| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo| Nº dias Data Vencimento |
+|   | Ref. | NºCB |Ent.|NºCP|NºP2| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo| Nº dias Data Vencimento |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   |1 - 3 (3)   | 4 - 11 (8)  | 12 - 19 (8)  | 20 - 27 (8)  |40 - 51 (12)   | 52 - 59 (8)  |60 - 109 (50)   |110 - 159 (50)   |160 - 177 (18)   |178 (1)   |179 - 188 (10)   |230 - 232 (3)   |
 
@@ -778,7 +778,7 @@ Para ficheiros de referência 210 os campos que devem estar preenchidos são:
 ##### Referência 211
 Para ficheiros de referência 211 os campos que devem estar preenchidos são:
 
-|   | Ref. | Nº CB |Entidade|Nº CP|Nº P1|Nº P2| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo| Nº dias Data Vencimento |
+|   | Ref. | NºCB |Ent.|NºCP|NºP1|NºP2| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo| Nº dias Data Vencimento |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   |1 - 3 (3)   | 4 - 11 (8)  | 12 - 19 (8)  | 20 - 27 (8)  |28 - 39 (12)| 40 - 51 (12)   | 52 - 59 (8)  |60 - 109 (50)   |110 - 159 (50)   |160 - 177 (18)   |178 (1)   |179 - 188 (10)   |230 - 232 (3)   |
 
@@ -789,7 +789,7 @@ Para ficheiros de referência 211 os campos que devem estar preenchidos são:
 ##### Referência 214
 Para ficheiros de referência 214 os campos que devem estar preenchidos são:
 
-|   | Ref. | Nº CB | Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   | Nº dias Data Vencimento |
+|   | Ref. | NºCB | Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   | Nº dias Data Vencimento |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)|1 - 3 (3)|4 - 11 (8) |52 - 59(8) |60 - 109 (50)|110 - 159 (59)|160 - 177 (18)|178 (1) |230 - 232(3)   |
 
@@ -807,7 +807,7 @@ Irá abrir o ecrã seguidamente apresentado onde o processo de importação de f
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-4d1dae6e.png)
 
 
-|   | Ref.  | Nº CB | Entidade| Nº CP| Nº CM| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Nº Dias Data Vencimento|
+|   | Ref.  | NºCB | Ent.| NºCP| NºCM| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Nº Dias Data Vencimento|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)| 12 - 19 (8)|20 - 27 (8) |40 - 51 (12)|52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |230 - 232 (3)|
 
@@ -843,7 +843,7 @@ Para importar dados relativos aos imobilizados o utilizador deve seguir o seguin
 ##### Referência 301
 Para ficheiros de referência 301 os campos que devem estar preenchidos são:
 
-|   | Ref.  | Nº CB | Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|   | Ref.  | NºCB | Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)|52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 - 188 (10)|
 
@@ -854,7 +854,7 @@ Para ficheiros de referência 301 os campos que devem estar preenchidos são:
 ##### Referência 302
 Para ficheiros de referência 302 os campos que devem estar preenchidos são:
 
-|   | Ref.  |Entidade| Nº CP |Nº CM| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|   | Ref.  |Ent.| NºCP |NºCM| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  |12 - 19 (8)|20 - 27 (8)|43 - 51 (9)| 52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 - 188 (10)|
 
@@ -865,7 +865,7 @@ Para ficheiros de referência 302 os campos que devem estar preenchidos são:
 ##### Referência 303
 Para ficheiros de referência 303 os campos que devem estar preenchidos são:
 
-|   | Ref.  |Entidade| Nº CP |Nº P1| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|   | Ref.  |Ent.| NºCP |NºP1| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento) | 1 - 3 (3)  |12 - 19 (8)|20 - 27 (8)|28 -  39 (12)| 52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 - 188 (10)|
 
@@ -912,7 +912,7 @@ Para importar dados relativos à faturação de devedores o utilizador deve segu
 ##### Referência 401
 Para ficheiros de referência 401 os campos que devem estar preenchidos são:
 
-|   | Ref.  | Entidade| Nº P2| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|   | Ref.  | Ent.| NºP2| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  |12 - 19 (8)| 40 - 51 (12)| 52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 - 188 (10)|
 <div style="height:40px">
@@ -951,7 +951,7 @@ A descrição dos campos para cada uma das referências é apresentada seguidame
 ##### Referência 702
 Para ficheiros de referência 702 os campos que devem estar preenchidos são:
 
-|   | Ref.  |Nº CB| Entidade| Nº CP|Nº P1/P2/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|   | Ref.  |NºCB| Ent.| NºCP|Nº P1/P2/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)| 12 - 19 (8)|20 - 27 (8)|28 - 39 (12)| 52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 -  188 (10)|
 
@@ -962,7 +962,7 @@ Para ficheiros de referência 702 os campos que devem estar preenchidos são:
 </br>**ARS e ULS**
 </br>Para entidades do tipo ARS e ULS, ficheiros desta referência devem ter os seguintes campos preenchidos:
 
-|   | Ref.  |Nº CB| Entidade| Nº CP|Nº P1/P2/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|   | Ref.  |NºCB| Ent.| NºCP|Nº P1/P2/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento) |1 - 3 (3)|4 - 11 (8)| 12 - 19 (8)|20 - 27 (8)|**28 - 42 (15)**| 55 - 62 (8)  | 63 - 112 (50)  | 113 - 162 (50)  |163 - 180 (18)   |  181 (1) |182 - 191 (10)|
 
@@ -973,7 +973,7 @@ Para ficheiros de referência 702 os campos que devem estar preenchidos são:
 ##### Referência 703
 Para ficheiros de referência 703 os campos que devem estar preenchidos são:
 
-|   | Ref.  | Entidade| Nº OD| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|   | Ref.  | Ent.| NºOD| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  |12 - 19 (8)| 40 - 51 (12)| 52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 - 188 (10)|
 
@@ -984,7 +984,7 @@ Para ficheiros de referência 703 os campos que devem estar preenchidos são:
 ##### Referência 704
 Para ficheiros de referência 704 os campos que devem estar preenchidos são:
 
-|   | Ref.  | Entidade| Nº NC/Série| Data Doc. | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|   | Ref.  | Ent.| Nº NC/Série| Data Doc. | Conta Crédito | Importância  | Sinal   |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  |12 - 19 (8)| 28 - 39 (12)| 52 - 59 (8)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 - 188 (10)|
 
@@ -995,7 +995,7 @@ Para ficheiros de referência 704 os campos que devem estar preenchidos são:
 </br>**ARS e ULS**
 </br>Para entidades do tipo ARS e ULS, ficheiros desta referência devem ter os seguintes campos preenchidos:
 
-|   | Ref.  | Entidade| Nº NC/Série| Data Doc. | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|   | Ref.  | Ent.| Nº NC/Série| Data Doc. | Conta Crédito | Importância  | Sinal   |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  |12 - 19 (8)| **28 - 42 (15)**| 55 - 62 (8)  | 113 - 162 (50)  |163 - 180 (18)   |  181 (1) |182 - 191 (10)|
 
@@ -1006,7 +1006,7 @@ Para ficheiros de referência 704 os campos que devem estar preenchidos são:
 ##### Referência 706
 Para ficheiros de referência 706 os campos que devem estar preenchidos são:
 
-|   | Ref.  | Nº CB| Entidade| Nº CP|Nº DF/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|   | Ref.  | NºCB| Ent.| NºCP|Nº DF/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)| 12 - 19 (8)|20 - 27 (8)|28 - 39 (12)| 52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 - 188 (10)|
 
@@ -1017,7 +1017,7 @@ Para ficheiros de referência 706 os campos que devem estar preenchidos são:
 </br>**ARS e ULS**
 </br>Para entidades do tipo ARS e ULS, ficheiros desta referência devem ter os seguintes campos preenchidos:
 
-|   | Ref.  | Nº CB| Entidade| Nº CP|Nº DF/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|   | Ref.  | NºCB| Ent.| NºCP|Nº DF/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)| 12 - 19 (8)|20 - 27 (8)|**28 - 42 (15)**| 55 - 62 (8)  | 63 - 112 (50)  | 113 - 162 (50)  |163 - 180 (18)   |  181 (1) |182 - 191 (10)|
 
@@ -1069,7 +1069,7 @@ Para importar dados relativos às faturas de SISO/Reembolsos o utilizador deve s
 
 </br>**Referência 501**
 
-|   | Ref.  | Nº CB| Entidade| Nº CP|Nº P1/P2| Data Doc. | Conta Débito | Conta Crédito | Importância| Sinal|Centro Custo|
+|   | Ref.  | NºCB| Ent.| NºCP|Nº P1/P2| Data Doc. | Conta Débito | Conta Crédito | Importância| Sinal|Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)| 12 - 19 (8)|20 - 27 (8)|40 - 51 (12)| 52 - 59 (8)  | 60 - 79 (20)  | 80 - 99 (20)  |100 - 117 (18)   |  118 (1) |119 - 128 (10)|
 
@@ -1122,7 +1122,7 @@ Para ficheiros de referência 902 os campos que devem estar preenchidos são:
 
 Caso Geral:
 
-|   | Ref.  | Nº CB| Entidade| Nº CP|Nº P1/P2/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|   | Ref.  | NºCB| Ent.| NºCP|Nº P1/P2/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)| 12 - 19 (8)|20 - 27 (8)|28 - 39 (12)| 52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 - 188 (10)|
 
@@ -1133,7 +1133,7 @@ Caso Geral:
 </br>**ARS e ULS**
 </br> Para entidades do tipo ARS e ULS, ficheiros desta referência devem ter os seguintes campos preenchidos:
 
-|   | Ref.  | Nº CB| Entidade| Nº CP|Nº P1/P2/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|   | Ref.  | NºCB| Ent.| NºCP|Nº P1/P2/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)| 12 - 19 (8)|20 - 27 (8)|**28 - 42 (15)**| 55 - 62 (8)  | 63 - 112 (50)  | 113 - 162 (50)  |163 - 180 (18)   |  181 (1) |182 - 191 (10)|
 
@@ -1144,7 +1144,7 @@ Caso Geral:
 ##### Referência 903
 Para ficheiros de referência 903 os campos que devem estar preenchidos são:
 
-|   | Ref.  | Entidade|Nº OD| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|   | Ref.  | Ent.|NºOD| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  | 12 - 19 (8)|40 - 51 (12)| 52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 - 188 (10)|
 
@@ -1166,7 +1166,7 @@ Para ficheiros de referência 904 os campos que devem estar preenchidos são:
 </br>**ARS e ULS**
 </br>Para entidades do tipo ARS e ULS, ficheiros desta referência devem ter os seguintes campos preenchidos:
 
-|   | Ref.  | Entidade|Nº NC/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|   | Ref.  | Ent.|Nº NC/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)|12 - 19 (8)|**28 - 42 (15)**| 55 - 62 (8)|63 - 112 (50)| 113 - 162 (50)  |163 - 180 (18)| 181 (1)|182 - 191 (10)|
 
@@ -1178,7 +1178,7 @@ Para ficheiros de referência 904 os campos que devem estar preenchidos são:
 ##### Referência 905
 Para ficheiros de referência 905 os campos que devem estar preenchidos são:
 
-|   | Ref.  | Entidade| Nº CC/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal |Centro Custo|
+|   | Ref.  | Ent.| Nº CC/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento) | 1 - 3 (3)|12 - 19 (8)|28 - 39 (12)| 52 - 59 (8)|60 - 109 (50)|110 - 159 (50)|160 - 177 (18)|178 (1) |179 - 188 (10)|
 
@@ -1189,7 +1189,7 @@ Para ficheiros de referência 905 os campos que devem estar preenchidos são:
 </br>**ARS e ULS**
 </br>Para entidades do tipo ARS e ULS, ficheiros desta referência devem ter os seguintes campos preenchidos:
 
-|   | Ref. | Entidade| Nº CC/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal |Centro Custo|
+|   | Ref. | Ent.e| Nº CC/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento) | 1 - 3 (3)|12 - 19 (8)|**28 - 42 (15)**| 55 - 62 (8)|63 - 112 (50)|113 - 162 (50)|163 - 180 (18)|181 (1) |182 - 191 (10)|
 
@@ -1200,7 +1200,7 @@ Para ficheiros de referência 905 os campos que devem estar preenchidos são:
 ##### Referência 906
 Para ficheiros de referência 906 os campos que devem estar preenchidos são:
 
-|   | Ref.  |Nº CB| Entidade| Nº CP|Nº DF/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|   | Ref.  |NºCB| Ent.| NºCP|Nº DF/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)| 12 - 19 (8)|20 - 27 (8)|28 - 39 (12)| 52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 - 188 (10)|
 
@@ -1211,7 +1211,7 @@ Para ficheiros de referência 906 os campos que devem estar preenchidos são:
 </br>**ARS e ULS**
 </br> Para entidades do tipo ARS e ULS, ficheiros desta referência devem ter os seguintes campos preenchidos:
 
-|   | Ref.  |Nº CB| Entidade| Nº CP|Nº DF/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|   | Ref.  |NºCB| Ent.| NºCP|Nº DF/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)| 12 - 19 (8)|20 - 27 (8)|**28 - 42 (15)**| 55 - 62 (8)  | 63 - 112 (50)  | 113 - 162 (50)  |163 - 180 (18)   |  181 (1) |182 - 191 (10)|
 
@@ -1222,7 +1222,7 @@ Para ficheiros de referência 906 os campos que devem estar preenchidos são:
 ##### Referência 908
 Para ficheiros de referência 908 os campos que devem estar preenchidos são:
 
-|   | Ref.  | Entidade|Nº CF/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|   | Ref.  | Ent.|Nº CF/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  | 12 - 19 (8)|28 - 39 (12)| 52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 - 188 (10)|
 
@@ -1233,7 +1233,7 @@ Para ficheiros de referência 908 os campos que devem estar preenchidos são:
 </br> **ARS e ULS**
 </br>Para entidades do tipo ARS e ULS, ficheiros desta referência devem ter os seguintes campos preenchidos:
 
-|   | Ref.  | Entidade|Nº CF/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|   | Ref.  | Ent.|Nº CF/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  | 12 - 19 (8)|**28 - 42 (15)**| 55 - 62 (8)  | 63 - 112 (50)  | 113 - 162 (50)  |163 - 180 (18)   |  181 (1) |182 - 191 (10)|
 
@@ -1263,9 +1263,9 @@ A gravação do CB abre novo ecrã, onde teremos um botão de ajuda no preenchim
 
 |Campo|Obrigatoriedade|Descrição|
 |:----|:--------------|:---------|
-|Classificador Económico|Obrigatório| No método de registo de contas patrimoniais, disponível a partir do menu de Parametrização>Instituição>Configurações ![9561c58b](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/processos_snc_ap-9561c58b.png), o classificador económico é mostrado automaticamente através da conta patrimonial, de acordo com a associação feita no menu do Plano de Contas. ![img_61.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_61.png) No método de registo de Classificador económico, é necessáiro registar primeiro o classificador económico e a conta patrimonial é mostrada automaticamente|
-|Conta|Obrigatório|Seleção da conta ao classificador. ![img_62.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_62.png)|
-|Valor|Obrigatório|Montante do cabimento: ![img_62a.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_62a.png)|
+|Classificador Económico|**Sim**| No método de registo de contas patrimoniais, disponível a partir do menu de Parametrização>Instituição>Configurações ![9561c58b](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/processos_snc_ap-9561c58b.png), o classificador económico é mostrado automaticamente através da conta patrimonial, de acordo com a associação feita no menu do Plano de Contas. ![img_61.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_61.png) No método de registo de Classificador económico, é necessáiro registar primeiro o classificador económico e a conta patrimonial é mostrada automaticamente|
+|Conta|**Sim**|Seleção da conta ao classificador. ![img_62.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_62.png)|
+|Valor|**Sim**|Montante do cabimento: ![img_62a.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_62a.png)|
 
 </br>__Existem dois métodos de Registo (método de classificador económico e método de conta patrimonial) definido no menu de parametrização – Configuração__
 
@@ -1298,6 +1298,8 @@ Ao pressionar, o utilizador vai deparar-se com o seguinte ecrã, sendo que para 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a996bb37.png)
 
 O aspeto do ficheiro CSV é o abaixo demonstrado, sendo que o mesmo deve obedecer ao critério das colunas estipuladas, para efeito de carregamento.
+
+> **NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-11b27685.png)
 
@@ -1384,8 +1386,9 @@ Ao pressionar, o utilizador vai deparar-se com o seguinte ecrã, sendo que para 
 
 O aspeto do ficheiro CSV. é o abaixo demonstrado, sendo que o mesmo deve obedecer ao critério das colunas estipuladas, para efeito de carregamento.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-d10e4460.png)
+> **NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
 
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-d10e4460.png)
 
 <div style="height:40px">
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/AM_SNCAP.csv'">Descarregar CSV</button>
@@ -1453,6 +1456,10 @@ Ao pressionar, o utilizador vai deparar-se com o seguinte ecrã, sendo que para 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-c0a092cc.png)
 
 O aspeto do ficheiro CSV é o abaixo demonstrado, sendo que o mesmo deve obedecer ao critério das colunas estipuladas, para efeito de carregamento.
+
+> **NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
+
+
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-5669ced8.png)
 
 <!-- ![img_97.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_97.png) -->
@@ -1489,6 +1496,8 @@ Ao selecionar o botão "Importar", o utilizador vai deparar-se com o seguinte ec
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-06629cf0.png)
 
 O aspeto do ficheiro CSV. é o abaixo demonstrado, sendo que o mesmo deve obedecer ao critério das colunas estipuladas, para efeito de carregamento.
+
+> **NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-eb1b7514.png)
 
@@ -1592,6 +1601,8 @@ Ao pressionar, o utilizador vai deparar-se com o seguinte ecrã, sendo que para 
 
 O aspeto do ficheiro CSV. é o abaixo demonstrado, sendo que o mesmo deve obedecer ao critério das colunas estipuladas, para efeito de carregamento.
 
+> **NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
+
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-6201a896.png)
 
 <!-- ![img_119.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_119.png) -->
@@ -1624,6 +1635,8 @@ Ao pressionar, o utilizador vai deparar-se com o seguinte ecrã, sendo que para 
 
 O aspeto do ficheiro CSV. é o abaixo demonstrado, sendo que o mesmo deve obedecer ao critério das colunas estipuladas, para efeito de carregamento.
 
+> **NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
+
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-d01be3bc.png)
 
 <!-- ![img_124.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_124.png) -->
@@ -1651,7 +1664,7 @@ Neste processo, o utilizador terá de identificar a entidade e os documentos que
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-f3ce9222.png)
 
-O utilizador define também se o pagamento é efetuado por tesouraria ou por Transf. Bancária, sendo que para este último caso tem de selecionar qual a Instituição Bancária.
+O utilizador define também se o pagamento é efetuado por Tesouraria ou por Transf. Bancária, sendo que para este último caso tem de selecionar qual a Instituição Bancária.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-519d916a.png)
 
@@ -1667,6 +1680,32 @@ Para o exemplo, escolhemos IBAN Credor, sendo que para este caso é sempre obrig
 Ao confirmar, uma nova janela surge com os movimentos contabilísticos associados. Caso estejam corretos, o utilizador terá de confirmar para finalizar o processo.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-396a3f91.png)
+
+Este processo de Autorização de Pagamento também pode ser efetuado por carregamento de ficheiro CSV através do botão "Importar".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ce8fa564.png)
+
+Ao selecionar o botão vai ser aberto um novo ecrã onde o utilizador, para carregar o ficheiro CSV, tem de escolher o diretório de origem do mesmo.
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1d28edba.png)
+
+O aspecto do ficheiro CSV é o abaixo demonstrado, sendo que o mesmo deve obedecer ao critério das colunas estipuladas, para efeito de carregamento.
+
+> **NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-277bb7fb.png)
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/AP_SNCAP.csv'">Descarregar CSV</button>
+</div>
+
+Antes da importação, o utilizador, tem de usar o botão "Ver/Testar Ficheiro". Ao selecionar este mesmo botão, o utilizador constata que os elementos do ficheiro CSV estão visíveis e que o ficheiro integrado está testado. Caso ocorram erros, os mesmos produzem um relatório no ecrã, na caixa criada para o efeito, no canto inferior direito do ecrã.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-43ae47eb.png)
+
+Após validação dos elementos integrados e constatado que os valores estão coerentes com o ficheiro integrado, o utilizador deve assim usar o botão "Importa Ligação". Depois de selecionar e de forma automática, o sistema gera uma mensagem de confirmação, com a indicação abaixo discrita.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-8bbe8dd6.png)
+
 
 ##### Impressão de Autorizações de Pagamento (AP)
 
@@ -1692,12 +1731,12 @@ __O utilizador tem de selecionar SEMPRE os documentos que deseja, sejam para con
 
 |Campo|Obrigatoriedade|Descrição|
 |:---|:---|:---|
-|Primeira Entidade|Obrigatório|Definir primeira entidade a filtrar|
-|Última Entidade|Obrigatório|Definir última entidade a filtrar|
-|Primeira data|Obrigatório|Definir intervalo primeira data|
-|Última data|Obrigatório|Definir intervalo última data|
+|Primeira Entidade|**Sim**|Definir primeira entidade a filtrar|
+|Última Entidade|**Sim**|Definir última entidade a filtrar|
+|Primeira data|**Sim**|Definir intervalo primeira data|
+|Última data|**Sim**|Definir intervalo última data|
 |“Pôr autorizações regularizadas”|Opcional|Permite ao utilizador quando o estiver ativo imprimir guias com histórico e em que já tenha ocorrido o recebimento.![img_checkbox_checked_2.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_checkbox_checked_2.png)|
-|Autorização de Pagamento / Autorização Global de Pagamento|Obrigatório|O utilizador escolhe: ![img_autorizacao_pagamento.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_autorizacao_pagamento.png), sendo que, para mais que um registo existe a possibilidade de "Selecionar Todos" ![img_selecionar_todos.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_selecionar_todos.png)|
+|Autorização de Pagamento / Autorização Global de Pagamento|**Sim**|O utilizador escolhe: ![img_autorizacao_pagamento.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_autorizacao_pagamento.png), sendo que, para mais que um registo existe a possibilidade de "Selecionar Todos" ![img_selecionar_todos.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_selecionar_todos.png)|
 
 |Botão|Descrição|
 |:---|:---|
@@ -1728,14 +1767,14 @@ __No caso da ACSS, o utilizador na altura da criação dos vários tipos de docu
 
 |Campo|Obrigatoriedade|Descrição|
 |:---|:---|:---|
-|Instituição bancária|Obrigatório|Definir a instituição bancária|
-|Primeira Entidade|Obrigatório|Definir primeira entidade a filtrar|
-|Última Entidade|Obrigatório|Definir última entidade a filtrar|
-|Primeira data|Obrigatório|Definir intervalo primeira data|
-|Última data|Obrigatório|Definir intervalo última data|
-|Primeiro documento|Obrigatório|Definir intervalo primeiro documento a integrar|
-|Último documento|Obrigatório|Definir intervalo último documento a integrar|
-|Gerar Ficheiro de carregamento|Obrigatório|Geração do ficheiro com número sequencial, sendo que prevalece o número de cálculo maior, ou seja, se o número da última transferência efetuada for superior ao ![img_num_de_sequencia_prox.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_num_de_sequencia_prox.png), do caminho: _Parametrização - Tabelas Genéricas - Inst. Bancárias – Recolha_, a numeração atribuída é sempre a mais alta numericamente|
+|Instituição bancária|**Sim**|Definir a instituição bancária|
+|Primeira Entidade|**Sim**|Definir primeira entidade a filtrar|
+|Última Entidade|**Sim**|Definir última entidade a filtrar|
+|Primeira data|**Sim**|Definir intervalo primeira data|
+|Última data|**Sim**|Definir intervalo última data|
+|Primeiro documento|**Sim**|Definir intervalo primeiro documento a integrar|
+|Último documento|**Sim**|Definir intervalo último documento a integrar|
+|Gerar Ficheiro de carregamento|**Sim**|Geração do ficheiro com número sequencial, sendo que prevalece o número de cálculo maior, ou seja, se o número da última transferência efetuada for superior ao ![img_num_de_sequencia_prox.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_num_de_sequencia_prox.png), do caminho: _Parametrização - Tabelas Genéricas - Inst. Bancárias – Recolha_, a numeração atribuída é sempre a mais alta numericamente|
 
 Findo o preenchimento dos campos, deve o utilizador dar continuidade ao processo pressionando o botão "Transferência Bancária", originando novo ecrã.
 
@@ -1825,20 +1864,44 @@ __O utilizador tem de selecionar SEMPRE os documentos que deseja, sejam para con
 
 | Campo                               | Obrigatoriedade | Descrição                                                                                                                             |
 |:------------------------------------|:----------------|:--------------------------------------------------------------------------------------------------------------------------------------|
-| Ano                                 | Obrigatório     | Exercício a que dizem respeito as informação da instituição                                                                           |
-| Primeira Entidade                   | Obrigatório     | Definir primeira entidade a filtrar                                                                                                   |
-| Última Entidade                     | Obrigatório     | Definir última entidade a filtrar                                                                                                     |
-| Primeira data                       | Obrigatório     | Definir intervalo primeira data                                                                                                       |
-| Última data                         | Obrigatório     | Definir intervalo última data                                                                                                         |
-| Referência                          | Opcional        | Campo de texto                                                                                                                        |
-| Texto                               | Opcional        | Campo de texto                                                                                                                        |
-| AP/DA por regularizar/regularizadas | Obrigatório     | O utilizador escolhe a opção "AP/DA regularizadas" , sendo que, para mais que um registo existe a possibilidade de "Selecionar todos" |
+| Ano                                 | **Sim**     | Exercício a que dizem respeito as informação da instituição                                                                           |
+| Primeira Entidade                   | **Sim**     | Definir primeira entidade a filtrar                                                                                                   |
+| Última Entidade                     | **Sim**     | Definir última entidade a filtrar                                                                                                     |
+| Primeira data                       | **Sim**     | Definir intervalo primeira data                                                                                                       |
+| Última data                         | **Sim**     | Definir intervalo última data                                                                                                         |
+| Referência                          | Não        | Campo de texto                                                                                                                        |
+| Texto                               | Não        | Campo de texto                                                                                                                        |
+| AP/DA por regularizar/regularizadas | **Sim**     | O utilizador escolhe a opção "AP/DA regularizadas" , sendo que, para mais que um registo existe a possibilidade de "Selecionar todos" |
 
 Ao selecionar “Imprimir”, o sistema produz o documento em PDF:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ce32adec.png)
 
+Este processo de Pagamento de facturas também pode ser efetuado por carregamento de ficheiro CSV através do botão "Importar".
 
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-6bc11671.png)
+
+Ao selecionar o botão vai ser aberto um novo ecrã onde o utilizador, para carregar o ficheiro CSV, tem de escolher o diretório de origem do mesmo.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-c8777600.png)
+
+O aspecto do ficheiro CSV é o abaixo demonstrado, sendo que o mesmo deve obedecer ao critério das colunas estipuladas, para efeito de carregamento.
+
+> **NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-2d59f8a4.png)
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/CB_SNCAP.csv'">Descarregar CSV</button>
+</div>
+
+Antes da importação, o utilizador, tem de usar o botão "Ver/Testar Ficheiro". Ao selecionar este mesmo botão, o utilizador constata que os elementos do ficheiro CSV estão visíveis e que o ficheiro integrado está testado. Caso ocorram erros, os mesmos produzem um relatório no ecrã, na caixa criada para o efeito, no canto inferior direito do ecrã.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-70996b6c.png)
+
+Após validação dos elementos integrados e constatado que os valores estão coerentes com o ficheiro integrado, o utilizador deve assim usar o botão "Importa Ligação". Depois de selecionar e de forma automática, o sistema gera uma mensagem de confirmação, com a indicação abaixo discrita.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a3186286.png)
 
 ### 3.3. Ciclo Receita
 
@@ -1903,23 +1966,21 @@ __O utilizador tem de selecionar sempre os documentos que deseja, sejam para con
 
 |Campo|Obrigatoriedade|Descrição|
 |:---|:---|:----|
-|Primeira Entidade|Obrigatório|Definir primeira entidade a filtrar|
-|Última Entidade|Obrigatório|Definir última entidade a filtrar|
-|Primeira data|Obrigatório|Definir intervalo primeira data|
-|Última data|Obrigatório|Definir intervalo última data|
+|Primeira Entidade|**Sim**|Definir primeira entidade a filtrar|
+|Última Entidade|**Sim**|Definir última entidade a filtrar|
+|Primeira data|**Sim**|Definir intervalo primeira data|
+|Última data|**Sim**|Definir intervalo última data|
 |Pôr Guias já regularizadas|Opcional|Permite ao utilizador quando o "![img_checkbox_checked_2.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_checkbox_checked_2.png)" estiver ativo imprimir guias com histórico e em que já tenha ocorrido o recebimento|
 
-| Botão    | Descrição                                                                                                                        |
+| Botão|Descriçã|
 |:---------|:---------------------------------------------------------------------------------------------------------------------------------|
 | Calcular | Este botão permite ao utilizador consultar os valores carregados de orçamento, bem como os respetivos classificadores económicos |
-| Imprimir | Este botão permite a geração do documento em PDF                                                                                 |
-| Sair     | Este botão permite ao utilizador sair do ecrã corrente                                                                           |
+| Imprimir | Este botão permite a geração do documento em PDF   |
 
 Ao selecionar “Imprimir”, o sistema produz a Guia de Receita em PDF.
 _Imagem em atualização_
 
 ![img_184.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_184.png)
-
 
 
 #### 3.3.4. Cobranças (CO)
@@ -1958,10 +2019,10 @@ __O utilizador tem de selecionar SEMPRE os documentos que deseja, sejam para con
 
 |Campo|Obrigatoriedade|Descrição|
 |:---|:---|:---|
-|Primeira Entidade|Obrigatório|Definir primeira entidade a filtrar|
-|Última Entidade|Obrigatório|Definir última entidade a filtrar|
-|Primeira data|Obrigatório|Definir intervalo primeira data|
-|Última data|Obrigatório|Definir intervalo última data|
+|Primeira Entidade|**Sim**|Definir primeira entidade a filtrar|
+|Última Entidade|**Sim**|Definir última entidade a filtrar|
+|Primeira data|**Sim**|Definir intervalo primeira data|
+|Última data|**Sim**|Definir intervalo última data|
 |Outras receitas regularizadas|Opcional|Permite ao utilizador quando o ![img_checkbox_checked_2.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_checkbox_checked_2.png) estiver ativo imprimir guias com histórico e em que já tenha ocorrido o recebimento|
 
 |Botão|Descrição|
@@ -2205,7 +2266,7 @@ Ao clicar, surge o ecrã abaixo e que permite proceder à escolha do tipo de inf
 |:----|:---------|:---------|
 | Exercício | Obrigatório | Exercício a que dizem respeito as informação da instituição|
 | Proposta | Obrigatório | Seleção de um dos campos: ![img_39.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_39.png) |
-| Orçamento | Obrigatório | Seleção de um dos campos: ![img_40.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_40.png) __Ao selecionar a “Alteração Orçamental”, surge automaticamente para preenchimento: ![img_41.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_41.png) |
+| Orçamento | Obrigatório | Seleção de um dos campos: ![img_40.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_40.png) Ao selecionar a “Alteração Orçamental”, surge automaticamente para preenchimento: ![img_41.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_41.png) |
 | Financiamento | Obrigatório | Seleção de um dos campos: ![img_42.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_42.png) |
 | Atividades/Departamento | Obrigatório | Seleção de um dos campos: ![img_43.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_43.png) |
 | Pri. Data | Obrigatório ||
@@ -2265,7 +2326,7 @@ Ao clicar, é mostrado o ecrã abaixo e que permite proceder à escolha do tipo 
 |:---|:---|:---|
 |Exercício|Obrigatório|Exercício a que dizem respeito as informação da instituição|
 |Proposta|Obrigatório|Seleção de um dos campos: ![img_valores_proposta_orcamental.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_valores_proposta_orcamental.png)|
-|Orçamento|Obrigatório|Seleção de um dos campos: ![img_alteracao_orcamental.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_alteracao_orcamental.png) __Ao selecionar a “Alteração Orçamental”, surge automaticamente para preenchimento: ![img_num_alt_orcamental.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_num_alt_orcamental.png)|
+|Orçamento|Obrigatório|Seleção de um dos campos: ![img_alteracao_orcamental.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_alteracao_orcamental.png) Ao selecionar a “Alteração Orçamental”, surge automaticamente para preenchimento: ![img_num_alt_orcamental.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_num_alt_orcamental.png)|
 |Financiamento|Obrigatório|Seleção de um dos campos: ![img_56.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_56.png)|
 |Atividades/Departamento|Obrigatório|Seleção de um dos campos: ![img_57.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_57.png)|
 |Pri. Data|Obrigatório|Definir a data de início da pesquisa|
