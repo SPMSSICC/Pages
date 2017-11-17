@@ -35,23 +35,23 @@ São apresentadas, seguidamente, tabelas com a listagem e respectiva descrição
 
 ### 3.1.  Documentos de despesa
 
-| ID | Nome                      | Descrição |
-|:--:|---------------------------|-----------|
-| AB | Alteração ao compromisso  |           |
-| AC | Anulação de credores      |           |
-| AF | Anulação de faturas       |           |
-| AL | Alteração ao comprometido |           |
-| AM | Alteração ao cabimento    |           |
-| AP | Autorização de pagamento  |           |
-| CB | Cabimentos                |           |
-| CM | Compromissos              |           |
-| CP | Comprometidos             |           |
-| DA | Despesa fundos alheios    |           |
-| DF | Débito sobre a fatura     |           |
-| NC | Notas de crédito          |           |
-| P1 | Processado em conferência |           |
-| P2 | Processado conferido      |           |
-| PG | Pagamentos                |           |
+| ID | Nome                                 | Descrição |
+|:--:|--------------------------------------|-----------|
+| AB | Alteração/Anulação de compromisso    |           |
+| AC | Anulação de Faturas de Fornecedores  |           |
+| AF | Anulação de Faturas                  |           |
+| AL | Alteração aos Compromissos Assumidos |           |
+| AM | Alteração ao Cabimento               |           |
+| AP | Autorização de Pagamento             |           |
+| CB | Cabimentos                           |           |
+| CM | Compromissos                         |           |
+| CP | Compromissos Assumidos                        |           |
+| DA | Despesa fundos alheios               |           |
+| DF | Débito sobre a fatura                |           |
+| NC | Notas de crédito                     |           |
+| P1 | Fatura em Receção e Conferência      |           |
+| P2 | Fatura Conferida do Fornecedor       |           |
+| PG | Pagamentos                           |           |
 
 ### 3.2. Documentos de receita
 
@@ -76,19 +76,16 @@ São apresentadas, seguidamente, tabelas com a listagem e respectiva descrição
 |:--:|--------------------------------|-----------|
 | CT | Cativos ou congelamentos       |           |
 | DT | Descativos ou descongelamentos |           |
-| OT | Operações diversas             |           |
+| OD | Operações diversas             |           |
 
 ### 3.4. Outros documentos
 
 | ID | Nome                            | Descrição |
 |:--:|---------------------------------|-----------|
-| CT | Cativos ou congelamentos        |           |
-| DT | Descativos ou descongela-mentos |           |
 | FP | Fundos disponíveis              |           |
 | NB | Notas de débito                 |           |
 | OA | Orçamento fundos alheios        |           |
 | OC | Orçamento de compras            |           |
-| OD | Operações diversas              |           |
 | OE | Orçamento de exploração         |           |
 | OF | Orçamento financeiro            |           |
 | OI | Orçamento de investimentos      |           |
@@ -130,7 +127,6 @@ Regras relevantes:
 | ID | Descrição |
 |:--:|---------|
 | 1  | Todos os tipos de documentos podem ser regularizados por um ou vários até ao seu valor total. Ex: FD no valor de 100€ poderá dar origem a vários GR até ao valor de 100€ |
-| 2  |   |
 
 
 ## 5. Relação de tipos de documentos
@@ -293,9 +289,9 @@ Uma especial atenção deve ser dada aos campos que são de preenchimento obriga
 | 4.4.7  | Conta                 | Texto (50)      | Não   | Código da conta                                                           |
 | 4.4.8  | Centro de custo       | Texto (20)      | Não   |                                                                           |
 | 4.4.9  | Conta analítica       | Texto (50)      | Não   |                                                                           |
-| 4.4.10 | Débito                | Numérico (22,2) | Não   |                                                                           |
-| 4.4.11 | Crédito               | Numérico (22,2) | Não   |                                                                           |
-| 4.4.12 | Descrição             | Texto (100)     | Não   |                                                                           |
+| 4.4.10 | Débito                | Numérico (22,2) | Não | Conta movimento a débito.|
+| 4.4.11 | Crédito               | Numérico (22,2) | Não    |Conta movimento a crédito|
+| 4.4.12 | Descrição             | Texto (100)     | Não   |              |
 
 <div style="height:40px">
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/Contabilidade_Analítica.csv'">Descarregar CSV</button>
@@ -312,8 +308,8 @@ Uma especial atenção deve ser dada aos campos que são de preenchimento obriga
 | 4.5.5  | Ordem                    | Numérico        | **Sim**    | Posição do registo no documento                                           |
 | 4.5.6  | Estado de contabilização | Numérico        | **Sim**    | São possíveis os estados 0 e 2. O estado 0 corresponde ao contabilizado e o estado 2 ao não contabilizado                  |
 | 4.5.7  | Conta                    | Texto (50)      | **Sim**    | Código da conta                                                           |
-| 4.5.8  | Débito                   | Numérico (22,2) | **Sim**    |                                                                           |
-| 4.5.9  | Crédito                  | Numérico (22,2) | **Sim**    |                                                                           |
+| 4.5.8  | Débito                   | Numérico (22,2) |**Sim**|Conta movimento a débito.       |
+| 4.5.9  | Crédito                  | Numérico (22,2) | **Sim**    |  Conta movimento a crédito.    |
 | 4.5.10 | Descrição                | Texto (100)     | Não   |                                                                           |
 
 <div style="height:40px">
@@ -331,8 +327,8 @@ Uma especial atenção deve ser dada aos campos que são de preenchimento obriga
 | 4.6.5  | Ordem                 | Numérico        | **Sim**    | Posição do registo no documento                                           |
 | 4.6.6  | Estado                | Numérico        | **Sim**    |                                                                           |
 | 4.6.7  | Conta                 | Texto (50)      | **Sim**    | Código da conta                                                           |
-| 4.6.8  | Débito                | Numérico (22,2) | **Sim**    |                                                                           |
-| 4.6.9  | Crédito               | Numérico (22,2) | **Sim**    |                                                                           |
+| 4.6.8  | Débito                | Numérico (22,2) | **Sim** |    Conta movimento a débito.      |
+| 4.6.9  | Crédito               | Numérico (22,2) | **Sim**    | Conta movimento a crédito           |
 | 4.6.10 | Descrição             | Texto (100)     | Não   |                                                                           |
 
 <div style="height:40px">

@@ -1,3 +1,3 @@
-AC,Entidade,Data documento,Data Contabilistica,Tipo Doc (P1),,,,
-AC,973833,20171004,20171004,P1,556,,,Teste SNCAP1
-AC,9845184,20171004,20171004,P1,556,,,teste 
+AC;Entidade;Data documento;Data Contabilistica;Tipo Doc (P1);;;;
+AC;973833;20171004;20171004;P1;556;;;Teste SNCAP1
+AC;9845184;20171004;20171004;P1;556;;;teste 

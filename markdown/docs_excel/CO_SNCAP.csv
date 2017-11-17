@@ -1,5 +1,5 @@
-CO;Entidade;Data documento;Data Contabilistica;Tipo Doc (GR/RA/OR);Nº (Da GR/RA/OR);Ano (Da GR/RA/OR);Série (Da GR/RA/OR);Número CO;Conta Bancaria;Observações Documento 
-CO;973833;20170909;20171001;GR;556;2017;;556;;
-CO;2;20170911;20171011;GR;558;2017;;558;;
-CO;1;20170910;20171002;GR;557;2017;;557;;
-CO;1;20171001;20171003;GR;4;2017;;559;;
+CM;Nº Processo de Aquisição (CB);Data documento;Data Contabilistica;Ano CB;classificador economico ;Classificador funcional ;Fonte de financiamento ;Programa ;Medida;Projeto;Regionalização;Atividade;Natureza;Departamento/ Atividade;Conta;Valor lançamento;Observações Documento ;Observaçoes lançamento;Classificação Orgânica;Referencia Grupo
+CM;807559;20160315;20170806;2016;01.02.02;;311;;;;;;;1;642;5000;SNC-AP;Teste1;121030100;
+CM;807555;20170503;20170907;2017;07.01.07;;320;;;;;;;1;4123;13689;SNC-AP;Teste2;121030100;
+CM;807556;20170622;20170623;2017;01.02.04;;311;;;;;;;1;3113;20000;SNC-AP;Teste3;121030100;
+CM;900001;20150210;20170101;2015;01.02.02;;320;;;;;;;1;426;100;SNC-AP;Teste4;121030100;

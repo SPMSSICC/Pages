@@ -1,14 +1,3 @@
-AL,Entidade,Data documento,Data Contabilistica,Nº CP,Ano CP,classificador economico ,Clasificador funcional ,Fonte de financiamento ,Programa ,Medida,Projeto,Regionalização,Atividade,Natureza,Departamento/Atividade,Conta,Valor lançamento,Observações Documento ,Observaçoes lançamento,Classificação Orgânica
-AL,1,20171001,20171006,20171001,2017,01.03.04,,311,,,,,,,1,0252,"12051,09",,,121030100
-AL,1,20171001,20171006,20171001,2017,01.03.05,,311,,,,,,,1,0261,"12051,10",,,121030100
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
+AL;Entidade;Data documento;Data Contabilistica;Nº CP;Ano CP;classificador economico ;Clasificador funcional ;Fonte de financiamento ;Programa ;Medida;Projeto;Regionalização;Atividade;Natureza;Departamento/Atividade;Conta;Valor lançamento;Observações Documento ;Observaçoes lançamento;Classificação Orgânica
+AL;1;20171001;20171006;20171001;2017;01.03.04;;311;;;;;;;1;252;12051,09;;;121030100
+AL;1;20171001;20171006;20171001;2017;01.03.05;;311;;;;;;;1;261;12051,10;;;121030100

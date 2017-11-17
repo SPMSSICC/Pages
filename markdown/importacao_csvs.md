@@ -109,6 +109,7 @@ Escolher o separador do Cabimento (CB) ou do Compromisso (CM), sendo que ambos t
 Como explicado anteriormente, as telas de importação funcionam de igual forma em todos os ecrãs, sendo que podem acontecer duas situações:
 -   Erro no ficheiro;
 -   Ficheiro testado e pronto para importação;
+
 ![imagem15](https://spmssicc.github.io/pages/markdown/importacao_csvs.assets/image15.png)
 
 **Nota:**
