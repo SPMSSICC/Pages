@@ -933,11 +933,52 @@ font-weight:700
 padding:.3em .2em .2em .3em
 }
 
+.barra{
+  border:none;
+  /*max-width: 40em;
+  margin:auto;*/
+}
+
+.quick_acess{
+display:inline-block;
+width: 14em;
+height: 8em;
+/*border: 3px solid white;*/
+margin:10px;
+background:  rgb(1, 83, 83);
+/*background:rgb(242, 157, 11) ;*/
+text-align: center;
+padding: 20px;
+}
+
+
+
+.quick_acess  i{
+color: white;
+max-width: 150px;
+height: 90px;
+margin-top: 3px;
+margin-left: auto;
+margin-right: auto;
+
+}
+.quick_acess p{
+  text-align: center;
+  color:white;
+  font-weight: bold;
+  font-size: 1.3em;
+  vertical-align: bottom;
+  top:80%;
+}
+.quick_acess:hover{
+  opacity:0.6;
+  cursor: pointer;
+}
 
 .floating-box {
     display: inline-block;
     height: 60px;
-    width: 320px;
+    width: 280px;
     margin: 3px;
     border: 1px solid #29615D;
     background: white; /* For browsers that do not sup gradients */
@@ -970,12 +1011,12 @@ display: inline-block;
 .floating-box p{
   top:0;
   vertical-align: top;
-  max-width: 220px;
+  max-width: 180px;
   max-height: 60px;
   height: 60px;
   font-weight: bold;
   font-size: 1.2em;
-  text-indent: .5em;
+  text-indent: .2em;
 }
 
 
