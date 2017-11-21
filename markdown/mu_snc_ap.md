@@ -2046,41 +2046,38 @@ __O utilizador pode verificar na impressão o novo campo de “Observações” 
 ## 5. Contabilidade Geral
 ## 6. Analítica -->
 
-## 7. Menu Orçamental - Registo do Orçamento
-
-Neste menu, o utilizador poderá fazer o registo das dotações através do carregamento do Orçamento anual:
-
-![img_1.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_1.png)
-
-Este submenu permite o acesso às propostas orçamentais e respetivo registo do Orçamento anual.
+## 7. Menu Orçamental
 
 ### 7.1. Orçamento Anual
+Para registar as dotações através do carregamento do Orçamento anula o utilizador deve seguir o caminho:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-8570877f.png)
 
 #### 7.1.1. Recolha de Propostas Orçamentais
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ab7ac365.png)
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-f63301e8.png)
 
-O formulário para recolha de propostas orçamentais é composta por:
+O formulário para recolha de propostas orçamentais é composto por:
 
 | Opção | Descrição |
 |:----|:----------|
-| Ano | Exercício a que dizem respeito as informação da instituição|
-| Orçamento Ordinário | Seleção apenas se for a introdução de um orçamento ordinário ![img_orç_ordinario.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_orç_ordinario.png) |
-| Alteração Orçamental | Seleção apenas se for uma alteração orçamental a registar. Ao selecionar, automaticamente aparece o número de lançamento o qual se pretende alterar. ![img_alteracao_orc_num_lancamento.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_alteracao_orc_num_lancamento.png) |
-| Atividade/Departamento | Identificação do tipo de Atividade/Departamento. Na seleção do botão de ajuda, o utilizador carregando no círculo ![img_radio_unselected.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_radio_unselected.png) pode obter uma listagem de todos os tipos de Atividades/Departamentos|
-| Data | ---?--- |
+| Ano | Exercício a que diz respeito a informação da instituição|
+| Orçamento Ordinário | A seleção desta opção apenas deve ser feita se se tratar de carregamento de um orçamento ordinário ![img_orç_ordinario.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_orç_ordinario.png) |
+| Alteração Orçamental | A seleção de sta opção apenas deve ser feita se se tratar de registo de uma alteração orçamental. Ao selecionar, automaticamente aparece o número de lançamento o qual se pretende alterar. ![img_alteracao_orc_num_lancamento.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_alteracao_orc_num_lancamento.png) |
+| Atividade/Departamento | Identificação do tipo de Atividade/Departamento. Na seleção do botão de ajuda, o utilizador carregando no círculo ![img_radio_unselected.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_radio_unselected.png) pode obter uma listagem de todos os tipos de Atividades/Departamentos existentes|
+| Data | Data àqual se faz o carregamento do orçamento ordinário ou a alteração orçamental |
 | Observações | Campo de observações onde estão ou devem ser colocadas todas as informações pretendidas pelo utilizador|
-| Data aprovação | ---?--- |
-| Novo Orçamento | Ao clicar neste botão, abrirá a proposta orçamental a ser carregada com identificação dos classificadores económicos e valores a integrar|
+| Data aprovação | Data quando o orçamento foi aprovado |
+| Confirme | Ao clicar neste botão, abrirá a proposta orçamental a ser carregada com identificação dos classificadores económicos e valores a integrar|
 
-Neste ecrã, decidir os valores a constarem na proposta do orçamento através da inserção dos montantes de receita ou despesa pelos vários itens de orçamento.
-Nesta etapa, o utilizador que efetua o carregamento em SICC, tem de ter em conta a divisão pelas respetivas rubricas orçamentais. Verificar no entanto nesta fase se o total das receitas igual às despesas.
+</br>Neste ecrã, o utilizador deve decidir os valores a constarem na proposta do orçamento através da inserção dos montantes de receita ou despesa pelos vários itens de orçamento.
+Nesta etapa, o utilizador que efetua o carregamento tem de ter em conta a divisão pelas respetivas rubricas orçamentais. Nesta fase deve verificar se o total das receitas é igual ao total das despesas.
 
 ##### 7.1.1.1. Orçamento Ordinário
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/Criacao_orcamento.gif)
 
-Importante referir que o botão "Desdobrar conta", permite desdobrar os classificadores económicos e permite o registo de diferentes chaves orçamentais.
+É importante referir que o botão "Desdobrar conta", permite desdobrar os classificadores económicos e permite o registo de diferentes chaves orçamentais.
 Ao clicar no "Confirme", o sistema criará assim de forma automática um novo ecrã, com a criação da PO.
 O utilizador tem de proceder à aprovação, através do botão "Aprovar". Assim dá indicação ao sistema que os valores anteriormente carregados, fazem parte do orçamento ordinário.
 
@@ -2093,15 +2090,16 @@ O utilizador tem de proceder à aprovação, através do botão "Aprovar". Assim
 |Abater|Este botão permite eliminar uma entidade. Após carregar neste botão, o utilizador, tem de carregar no botão Confirmar de forma a que a informação seja validada e gravada|
 |Sair|Este botão permite ao utilizador sair do ecrã corrente|
 
-Após o processo de aprovação, novo ecrã surge, sendo que agora só existe a possibilidade de “Anular aprovação”; “Consulta” ou “Sair”
+</br>Após o processo de aprovação, novo ecrã surge, sendo que agora só existe a possibilidade de “Anular aprovação”, “Consulta” ou “Sair”.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-75e35e94.png)
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a9aedb21.png)
 
-É imperativo, por parte do Departamento responsável, analisar a necessidade da modificação e os motivos que originam as alterações orçamentais que possam ocorrer, tendo em conta o enquadramento legal para a alteração orçamental pretendida.
-Posteriormente, esta informação (Alteração orçamental) será carregada em SIGO para decisão (aprovação/rejeição) da DGO (Direção-Geral do Orçamento). Aquando o recebimento da deliberação da DGO, estão reunidas as condições para o carregamento do Orçamento no SICC.
-No ecrã e para efeitos de registo, ao selecionar "Alteração Orç", de forma automática surge o “número de lançamento” que se pretende para proceder ao registo da nova alteração.
+É **imperativo**, por parte do Departamento responsável, analisar a necessidade da modificação e os motivos que originam as alterações orçamentais que possam ocorrer, tendo em conta o enquadramento legal para a alteração orçamental pretendida.
+Posteriormente, esta informação (Alteração orçamental) será carregada em SIGO para decisão (aprovação/rejeição) da DGO (Direção-Geral do Orçamento). Aquando o recebimento da deliberação da DGO, estão reunidas as condições para o carregamento do Orçamento no SICC SNC-AP.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-b590bbcf.png)
+</br>No ecrã e para efeitos de registo, ao selecionar "Alteração Orç", de forma automática surge o “número de lançamento” que se pretende para proceder ao registo da nova alteração.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ba2a79c7.png)
 
 Selecionando a “Nova alteração”, o sistema de forma automática gera novo ecrã, no qual mostra todos os classificadores económicos com valores a 0, onde se pode registar a alteração orçamental com os montantes pretendidos. No seguinte exemplo, foi retirado valor parcial do carregado inicialmente na rubrica de "Representação" para a rubrica de "Ajudas de custo"". Findas as alterações, deverá confirmar.
 
@@ -2121,136 +2119,14 @@ Se as alterações estão validadas, o próximo passo é de “Aprovar” para q
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-c362c238.png)
 
-#### 7.1.2. Fundos disponíveis(LPCA)
+### 7.1.2. Mapas Orçamentais
 
-Neste processo, e através do caminho abaixo indicado, será demonstrado o processo de registo dos Fundos disponíveis (LCPA).
-
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-4582f3fc.png)
-
-Entende-se por Fundos Disponíveis, as verbas disponíveis a curto prazo. Incluem, quando aplicável e desde que tenha sido comprometido ou gasto:
-
-1. A dotação corrigida líquida de cativos, relativa aos três meses seguintes;
-2. As transferências ou subsídios com origem no Orçamento do Estado, relativos aos três meses seguintes;
-3. A receita efetiva própria que tenha sido cobrada, ou recebida como adiantamento;
-4. A previsão da receita efetiva própria a cobrar nos três meses seguintes;
-5. O produto de empréstimos contraídos nos termos da lei (as transferências ainda não efetuadas decorrentes de programas e projetos do QREN e de outros programas estruturais, cujas faturas se encontrem liquidadas e devidamente certificadas ou validadas);
-6. Outros montantes autorizados nos termos do artigo 4.º da LCPA.
-
-![img_8a.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_8a.png)
-
-Nos próximos passos, vai ser demonstrado o processo de criação dos fundos disponíveis. Neste ecrã, o utilizador deve escolher:
-
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-dd2a0181.png)
-
-| Opção | Descrição |
-|:----|:----------|
-| Ano | Exercício a que dizem respeito as informação da instituição|
-| Mês | Seleção do mês para carregamento dos fundos|
-| Alteração | Seleção do número de alteração que se pretende|
-| Data | - - - ? - - - |
-| Observações | Campo de observações onde estão ou devem ser colocadas todas as informações pretendidas pelo utilizador|
-| Diretório (...) | Este botão permite ao utilizador escolher o diretório de gravação do Excel que irá ser produzido. </br> ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_11.png) |
-| Novo Orçamento | Este botão permite a gravar alterações que tenham sido necessárias de ajustar|
-| Produção de mapa em CSV | Esta opção permite a produção do mapa em ficheiro com extensão CSV|
-| Consulta | Este botão permite ao utilizador consultar os valores carregados dos fundos disponíveis|
-| Sair | Este botão permite ao utilizador sair do ecrã corrente|
-
-Após o preenchimentos dos campos atrás referidos, e sendo que se trata de um Novo Orçamento, o ecrã que surge é o de preenchimento dos valores de orçamento de fundos próprios.
-
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-51e69794.png)
-
-A previsão de receitas próprias é corrigida do desvio negativo apurado entre as previsões efetuadas nos meses anteriores e as receitas efetivamente cobradas.
-
-No final de cada mês, o utilizador ao Confirmar, surge no ecrã a indicação de:
-
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-4840cf40.png)
-
-Para validar, que o sistema efetua um controle dos fundos criados, não permitindo a criação de Compromissos com valor superior aos Fundos Disponiveis, fica o exemplo abaixo:
-
-##### 7.1.2.1. Criação de Cabimento
-
-O Processo de criação de cabimentos e compromissos encontra-se detalhado no ponto 3.1 do documento.
-
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-3243dd2d.png)
-
-##### 7.1.2.2. Verificação prévia de fundos disponíveis
-
-O sistema efetua no processo de despesa, uma verificação de fundos que atribui um número sequencial e valida a realização de compromisso assumido por parte da gestão de compras.
-
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-909cca06.png)
-
-Mensagem do sistema indicando que as importâncias inseridas não correspondem aos valores dos fundos criados.
-
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-fc10784d.png)
-
-Desta forma, a verificação prévia irá ser criada, conforme demonstrado no ecrã abaixo.
-
-##### 7.1.2.3. Criação de Verificação Prévia (CM) com fundos disponíveis
-
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-e73da692.png)
-
-##### 7.1.2.4. Geração de movimentos contabilísticos e confirmação
-
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-2343a163.png)
-
-#### 7.1.3. Mapas (LPCA)
-
-##### 7.1.3.1. Tabela 1 – Fundos disponíveis
-
-O utilizador neste processo, tem a possibilidade de extrair relatórios do sistema com base nas informações e valores introduzidas nos passos anteriores.
-
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-e49b6f4a.png)
-
-|Botão|Descrição|
-|:----|:---------|
-|Extrato|Este botão permite gravar alterações que no diretório escolhido pelo utilizador|
-|XML|Esta opção permite a produção do mapa em ficheiro com extensão XML|
-|Mapa|Este botão permite ao utilizador consultar diretamente o mapa no ecrã. ![img_32.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_32.png)|
-|Sair|Este botão permite ao utilizador sair do ecrã corrente|
-
-
-- Qualquer uma das extrações permite ao utilizador ter o controlo dos Fundos disponíveis através de relatórios que espelham a atividade e fundos utilizados.
-
-|Opção|Descrição|
-|:----|:---------|
-|Ano|Exercício a que dizem respeito as informação da instituição|
-|Mês|Seleção do mês para carregamento dos fundos. ![img_mes_janeiro.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_mes_janeiro.png)|
-|Diretório|Este botão permite ao utilizador escolher o diretório de gravação do Excel que irá ser produzido.</br> ![img_33.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_33.png)|
-
-##### 7.1.3.2. Tabela 4 - (SPA’s): Passivos/ Contas a pagar
-
-De igual modo à extração dos mapas anteriores, o utilizador nesta Tabela, usa o mesmo procedimento.
-
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-d5e13e58.png)
-
-- O botão de seleção ACSS/DGO será oportunamente removido, pelo facto de já não haver diferenças entre os mapas.
-  - ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-c6c20972.png)
-
-|Botão|Descrição|
-|:----|:---------|
-|Extrato|Esta opção permite a produção do mapa em ficheiro CSV|
-|XML|Esta opção permite a produção do mapa em ficheiro XML|
-|Mapa|Este botão permite ao utilizador consultar diretamente o mapa no ecrã. ![img_35.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_35.png)|
-|Sair|Este botão permite ao utilizador sair do ecrã corrente|
-
-
-- Qualquer uma das extrações permite ao utilizador ter o controlo dos Fundos disponíveis através de relatórios que espelham a atividade e fundos utilizados.
-
-|Opção|Descrição|
-|:----|:---------|
-|Ano|Exercício a que dizem respeito as informação da instituição|
-|Mês|Seleção do mês para carregamento dos fundos. ![img_mes_janeiro.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_mes_janeiro.png)|
-|Diretório|Este botão permite ao utilizador escolher o diretório de gravação do Excel que irá ser produzido.</br> ![img_36.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_36.png)|
-
-### 7.2. Mapas Legais
-
-De modo a analisar os orçamentos da despesa/receita
-
-Nos mapas, os ecrãs são idênticos na construção dos relatórios e de modo a analisar ao Orçamento da despesa.
+De modo a analisar os orçamentos da despesa/receita, o utilizador pode aceder oa seguinte menu:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-7a5287c2.png)
 
-#### 7.2.1. Mapas - Orçamento de Despesa/Receita
+
+#### 7.1.2.1 Mapas - Orçamento de Despesa/Receita
 
 Nos mapas, os ecrãs são idênticos na construção dos relatórios. Desta forma, o seguinte menu e respetivos submenus, permitem ao utilizador fazer uma análise ao Orçamento da despesa.
 
@@ -2258,7 +2134,7 @@ Nos mapas, os ecrãs são idênticos na construção dos relatórios. Desta form
 
 Ao clicar, surge o ecrã abaixo e que permite proceder à escolha do tipo de informação que pretende analisar, podendo para o efeito fazer várias combinações possíveis.
 
-#### 7.2.2. Orçamento de Despesa
+##### Orçamento de Despesa
 
 ![img_38.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_38.png)
 
@@ -2282,15 +2158,125 @@ O exemplo seguinte, demonstra um relatório de alteração orçamental gerada em
 
 ![img_46.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_46.png)
 
-#### 7.2.3. Mapas de Execução Orçamental
+
+#### 7.2. Fundos disponíveis(LPCA)
+
+Neste processo, e através do caminho abaixo indicado, será demonstrado o processo de registo dos Fundos disponíveis (LCPA).
+
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-4582f3fc.png)
+
+Entende-se por Fundos Disponíveis, as verbas disponíveis a curto prazo. Incluem, quando aplicável e desde que tenha sido comprometido ou gasto:
+
+1. A dotação corrigida líquida de cativos, relativa aos três meses seguintes;
+2. As transferências ou subsídios com origem no Orçamento do Estado, relativos aos três meses seguintes;
+3. A receita efetiva própria que tenha sido cobrada, ou recebida como adiantamento;
+4. A previsão da receita efetiva própria a cobrar nos três meses seguintes;
+5. O produto de empréstimos contraídos nos termos da lei (as transferências ainda não efetuadas decorrentes de programas e projetos do QREN e de outros programas estruturais, cujas faturas se encontrem liquidadas e devidamente certificadas ou validadas);
+6. Outros montantes autorizados nos termos do artigo 4.º da LCPA.
+
+![img_8a.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_8a.png)
+
+Nos próximos passos, vai ser demonstrado o processo de criação dos fundos disponíveis. Neste ecrã, o utilizador deve escolher:
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-05d65587.png)
+
+
+| Opção | Descrição |
+|:----|:----------|
+| Ano | Exercício a que dizem respeito as informação da instituição|
+| Mês | Seleção do mês para carregamento dos fundos|
+| Alteração | Seleção do número de alteração que se pretende|
+| Data | - - - - - - |
+| Observações | Campo de observações onde estão ou devem ser colocadas todas as informações pretendidas pelo utilizador|
+| Diretório (...) | Este botão permite ao utilizador escolher o diretório de gravação do Excel que irá ser produzido. </br> ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_11.png) |
+| Novo Orçamento | Este botão permite a gravar alterações que tenham sido necessárias de ajustar|
+| Produção de mapa em CSV | Esta opção permite a produção do mapa em ficheiro com extensão CSV|
+| Consulta | Este botão permite ao utilizador consultar os valores carregados dos fundos disponíveis|
+| Sair | Este botão permite ao utilizador sair do ecrã corrente|
+
+</br>Após o preenchimento dos campos atrás referidos, e sendo que se trata de um Novo Orçamento, o ecrã que surge é o de preenchimento dos valores de orçamento de fundos próprios.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-51e69794.png)
+
+A previsão de receitas próprias é corrigida do desvio negativo apurado entre as previsões efetuadas nos meses anteriores e as receitas efetivamente cobradas.
+
+No final de cada mês, o utilizador ao Confirmar, surge no ecrã a indicação de:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-4840cf40.png)
+
+Para validar, que o sistema efetua um controle dos fundos criados, não permitindo a criação de Compromissos com valor superior aos Fundos Disponiveis, fica o exemplo abaixo:
+
+##### 7.2.1.1. Criação de Cabimento
+
+O processo de criação de cabimentos e compromissos encontra-se detalhado no ponto 3.1 do documento.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-3243dd2d.png)
+
+##### 7.2.1.2. Verificação prévia de fundos disponíveis
+
+O sistema efetua no processo de despesa, uma verificação de fundos que atribui um número sequencial e valida a realização de compromisso assumido por parte da gestão de compras.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-909cca06.png)
+
+Mensagem do sistema indicando que as importâncias inseridas não correspondem aos valores dos fundos criados.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-fc10784d.png)
+
+#### 7.2.2. Mapas (LPCA)
+
+##### 7.2.2.1. Tabela 1 – Fundos disponíveis
+
+O utilizador neste processo, tem a possibilidade de extrair relatórios do sistema com base nas informações e valores introduzidos nos passos anteriores.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-e49b6f4a.png)
+
+|Botão|Descrição|
+|:----|:---------|
+|Extrato|Este botão permite gravar alterações que no diretório escolhido pelo utilizador|
+|XML|Esta opção permite a produção do mapa em ficheiro com extensão XML|
+|Mapa|Este botão permite ao utilizador consultar diretamente o mapa no ecrã. ![img_32.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_32.png)|
+|Sair|Este botão permite ao utilizador sair do ecrã corrente|
+
+
+- Qualquer uma das extrações permite ao utilizador ter o controlo dos Fundos disponíveis através de relatórios que espelham a atividade e fundos utilizados.
+
+|Opção|Descrição|
+|:----|:---------|
+|Ano|Exercício a que dizem respeito as informação da instituição|
+|Mês|Seleção do mês para carregamento dos fundos. ![img_mes_janeiro.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_mes_janeiro.png)|
+|Diretório|Este botão permite ao utilizador escolher o diretório de gravação do Excel que irá ser produzido.</br> ![img_33.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_33.png)|
+
+##### 7.2.2.2. Tabela 4 - (SPA’s): Passivos/ Contas a pagar
+
+De igual modo à extração dos mapas anteriores, o utilizador nesta Tabela, usa o mesmo procedimento.
+
+![](mu_snc_ap.assets/mu_snc_ap-ac87b689.png)
+
+|Botão|Descrição|
+|:----|:---------|
+|Extrato|Esta opção permite a produção do mapa em ficheiro CSV|
+|XML|Esta opção permite a produção do mapa em ficheiro XML|
+|Mapa|Este botão permite ao utilizador consultar diretamente o mapa no ecrã. ![img_35.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_35.png)|
+|Sair|Este botão permite ao utilizador sair do ecrã corrente|
+
+- Qualquer uma das extrações permite ao utilizador ter o controlo dos Fundos disponíveis através de relatórios que espelham a atividade e fundos utilizados.
+
+|Opção|Descrição|
+|:----|:---------|
+|Ano|Exercício a que dizem respeito as informação da instituição|
+|Mês|Seleção do mês para carregamento dos fundos. ![img_mes_janeiro.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_mes_janeiro.png)|
+|Diretório|Este botão permite ao utilizador escolher o diretório de gravação do Excel que irá ser produzido.</br> ![img_36.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_36.png)|
+
+
+#### 7.3. Mapas de Execução Orçamental
 
 Relativamente a este processo, o Mapa de Execução Orçamental da Despesa e Mapa de Execução Orçamental da Receita, têm como finalidade permitir o controlo da execução orçamental da despesa e receita durante o exercício:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-871fecbd.png)
 
-Para tal, as opções no ecrã permitem imprimir os formulários (gerando PDF), bem como, a extração para formato Excel, tendo o utilizador de definir o caminho para gravação do ficheiro.
+Para tal, as opções no ecrã permitem imprimir os formulários (gerando PDF), bem como, a extração para formato CSV, tendo o utilizador de definir o caminho para gravação do ficheiro.
 
-#### 7.2.4. Controlo Orçamental - Despesa
+#### 7.3.1. Controlo Orçamental - Despesa
 
 ![img_48.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_48.png)
 
@@ -2312,7 +2298,7 @@ O procedimento do mapa 7.2 é idêntico ao explicado anteriormente, sendo apenas
 
 - Irá ser incluída a chave orçamental neste mapa
 
-#### 7.2.5. Mapa - Alterações Orçamentais Despesa/Receita
+#### 7.3.2. Mapa - Alterações Orçamentais Despesa/Receita
 
 Os Mapas das Alterações Orçamentais da Despesa e Alterações orçamentais da Receita têm por finalidade evidenciar as alterações orçamentais existentes durante o exercício depois da dotação e previsão iniciais:
 
