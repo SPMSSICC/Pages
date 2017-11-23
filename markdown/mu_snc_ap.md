@@ -2250,7 +2250,7 @@ O utilizador neste processo, tem a possibilidade de extrair relatórios do siste
 
 De igual modo à extração dos mapas anteriores, o utilizador nesta Tabela, usa o mesmo procedimento.
 
-![](mu_snc_ap.assets/mu_snc_ap-ac87b689.png)
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ac87b689.png)
 
 |Botão|Descrição|
 |:----|:---------|
