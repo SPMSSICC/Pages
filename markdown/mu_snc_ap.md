@@ -2259,7 +2259,9 @@ De igual modo à extração dos mapas anteriores, o utilizador nesta Tabela, usa
 |Mapa|Este botão permite ao utilizador consultar diretamente o mapa no ecrã. ![img_35.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_35.png)|
 |Sair|Este botão permite ao utilizador sair do ecrã corrente|
 
+
 - Qualquer uma das extrações permite ao utilizador ter o controlo dos Fundos disponíveis através de relatórios que espelham a atividade e fundos utilizados.
+
 
 |Opção|Descrição|
 |:----|:---------|
