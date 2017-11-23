@@ -2083,6 +2083,10 @@ O utilizador tem de proceder à aprovação, através do botão "Aprovar". Assim
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a4492ed6.png)
 
+</br>Após o processo de aprovação, novo ecrã surge, sendo que agora só existe a possibilidade de “Anular aprovação”, “Consulta” ou “Sair”.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a9aedb21.png)
+
 |Botão| Descritivo|
 |:----|:----------|
 |Gravar Alterações|Este botão permite gravar alterações que tenham sido necessárias de ajustar|
@@ -2090,9 +2094,6 @@ O utilizador tem de proceder à aprovação, através do botão "Aprovar". Assim
 |Abater|Este botão permite eliminar uma entidade. Após carregar neste botão, o utilizador, tem de carregar no botão Confirmar de forma a que a informação seja validada e gravada|
 |Sair|Este botão permite ao utilizador sair do ecrã corrente|
 
-</br>Após o processo de aprovação, novo ecrã surge, sendo que agora só existe a possibilidade de “Anular aprovação”, “Consulta” ou “Sair”.
-
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a9aedb21.png)
 
 É **imperativo**, por parte do Departamento responsável, analisar a necessidade da modificação e os motivos que originam as alterações orçamentais que possam ocorrer, tendo em conta o enquadramento legal para a alteração orçamental pretendida.
 Posteriormente, esta informação (Alteração orçamental) será carregada em SIGO para decisão (aprovação/rejeição) da DGO (Direção-Geral do Orçamento). Aquando o recebimento da deliberação da DGO, estão reunidas as condições para o carregamento do Orçamento no SICC SNC-AP.
@@ -2110,6 +2111,27 @@ Após a confirmação surge novo ecrã com a informação que a alteração orç
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-f229ceb3.png)
 
 Se as alterações estão validadas, o próximo passo é de “Aprovar” para que o sistema assuma os novos valores propostos.
+
+
+Este processo de carregamento do Orçamento Ordinário bem como das alterações do mesmo pode ser efetuado através da importação de ficheiro em formato CSV.
+
+![]((https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-dbcbf021.png)
+
+Uma nova janela irá abrir onde o utilizador deve escolher do diretório de origem, o ficheiro que pretende importar. Seguidamente, deve testar se a estrutura do ficheiro selecionado é correta através da seleção do botão "Ver/Testar Ficheiro".
+
+![]((https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1832d719.png)
+
+Quando o ficheiro tem a estrutura correta, os campos do ecrã aparecem preenchidos com os elementos do ficheiro importado.
+Por fim o utilizador deve confirmar a importação através da seleção do botão "Importar Ligação".
+
+![]((https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-505866f0.png)
+No caso do ficheiro ter erro estes são reportados na janela criada para o efeito. Estes erros têm de ser corrigidos e o ficheiro tem de ser novamente testado.
+</br>O ficheiro CSV a ser importado deve ter o seguinte aspeto:
+![]((https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-f1a6d097.png)
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/PO_SNCAP.csv'">Descarregar CSV</button>
+</div>
 
 ##### 7.1.1.2. Consulta de Contabilidade
 
