@@ -261,6 +261,16 @@ function toggle(op, off){
     el.addClass('show');
     btn.addClass('active');
   }
+  else if (op=="menu"){
+    if(el.hasClass('active') || btn.hasClass('show')|| off!==null){
+      el.removeClass('active');
+      btn.removeClass('show');
+    }
+    else if (off==null){
+      el.addClass('active');
+      btn.addClass('show');
+    }
+  }
   else{
     console.log("Ops! Ocorreu um erro com a aivação/desativação do menu. P.f. contacte o suporte técnico.");
   }
