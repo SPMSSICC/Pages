@@ -167,6 +167,7 @@ function loadMdDoc(mdFile, btnsToShow, anchor, event) {
         $("#btnHistory").click(function() {loadFileHistory(doc.name, event);});
 
         if (doc.name == "apresentacao_snc_ap") {$("#btnPDF").attr({"onclick":"window.open('https://view.officeapps.live.com/op/embed.aspx?src=https://spmssicc.github.io/pages/pptx/SPMS_SICC_SNC_AP_20160606_04-pics.pptx','_blank')"});}
+        else if (doc.name == "apresentacao_20_nov_snc_ap") {$("#btnPDF").attr({"onclick":"window.open('https://view.officeapps.live.com/op/embed.aspx?src=https://spmssicc.github.io/pages/pptx/SPMS_SICC_SNC_AP_20171120.pptx','_blank')"});}
         else if (doc.name == "circ1381") {$("#btnPDF").attr({"onclick":"window.open('http://www.dgo.pt/instrucoes/Instrucoes/2016/ca1381.pdf','_blank')"});}
         else if (doc.name == "circ1382") {$("#btnPDF").attr({"onclick":"window.open('http://www.dgo.pt/instrucoes/Instrucoes/2016/ca1382.pdf','_blank')"});}
         else if (doc.name == "dec_lei192") {$("#btnPDF").attr({"onclick":"window.open('https://dre.pt/application/conteudo/70262478','_blank')"});}
@@ -254,22 +255,13 @@ function toggle(op, off){
   else if (op == "docOptions"){ el = $('#docOptions'); btn = $('#btnOpt'); }
   else{ return; }
 
+
 	if( el.hasClass('show') || btn.hasClass('active') || off!==null)	{
     el.removeClass('show');
     btn.removeClass('active');
   }	else if (off==null){
     el.addClass('show');
     btn.addClass('active');
-  }
-  else if (op=="menu"){
-    if(el.hasClass('active') || btn.hasClass('show')|| off!==null){
-      el.removeClass('active');
-      btn.removeClass('show');
-    }
-    else if (off==null){
-      el.addClass('active');
-      btn.addClass('show');
-    }
   }
   else{
     console.log("Ops! Ocorreu um erro com a aivação/desativação do menu. P.f. contacte o suporte técnico.");
@@ -311,7 +303,7 @@ function disableDocOptions(mdFile){
     $("#btnEditarDoc").off("click");
     return;
   }
-  if ($.inArray(mdFile, ['apresentacao_snc_ap','perguntas_frequentes','snc_ap_faqs','mu_snc_ap']) != -1) {
+  if ($.inArray(mdFile, ['perguntas_frequentes','mu_snc_ap']) != -1) {
     $("#btnPDF").addClass("disabled");
     $("#btnPDF").off("click");
     return;

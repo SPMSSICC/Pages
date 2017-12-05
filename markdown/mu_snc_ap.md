@@ -2,9 +2,9 @@
 
 ## Introdução
 
-O presente documento visa especificar o funcionamento do novo sistema SNC-AP, evidenciando as novas funcionalidades e ajustes na ótica do utilizador, bem como a satisfação dos requistos específicos da Contabilidade.
-</br>
-O sistema é composto por nove Menus principais cada um com vários sub-menus.
+O presente documento visa especificar o funcionamento do novo sistema SICC SNC-AP, evidenciando as novas funcionalidades e ajustes na ótica do utilizador, bem como a satisfação dos requistos específicos da Contabilidade.
+
+</br>O sistema é composto por nove Menus principais cada um com vários sub-menus.
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-e7c5a0e4.png)
 
 </br>**Botões Gerais**
@@ -23,6 +23,8 @@ O sistema, ao longo da navegação por vários ecrãs contempla vários botões 
 | ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-0f79a251.png) | Cancelar todas as alterações que efetuou desde a abertura o ecrã. |
 | ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-3b129b66.png) | Abrir o Manual do Utilizador na secção correspondente ao ecrã aberto. _Esta funcionalidade não está ainda disponível em todos os ecrãs do sistema_ |
 | ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-c82bc2d6.png) | Sair do ecrã. |
+
+> Recomenda-se o uso da tecla **_TAB_** para a navegação pelos campos dos vários ecrãs do sistema. Esta forma de navegação garante que todos os campos obrigatórios sejam preenchidos permitindo a sua validação e posterior desbloqueio de outros campos.
 
 ## 1. Menu Parametrização
 
@@ -262,7 +264,7 @@ Este ecrã permite ao utilizador manipular as informações relacionadas com as 
 | Contacto | Pessoa de contacto definido pela Instituição Bancária. |
 | Email | Email de contacto da Instituição Bancária. |
 |Identificador IGCP   | Instituto de Gestão de Tesouraria e do Crédito Público  |
-|Num. de sequência prox.:   |   |
+|Num. de sequência prox.:   | Número com o qual será lançado o ficheiro da transferência bancária  |
 |Departamento   | Departamento da entidade associado à instituição bancária  |
 
 </br>Neste formulário de configuração, entidades que tenham acesso a 2 Departamentos, o utilizador define o Identificador do IGCP, o Num. de Sequência e o Departamento a que diz respeito. Todas as restantes informações já existiam, pelo que o procedimento de preenchimento continua a ser o mesmo utilizado até à data.
@@ -353,6 +355,21 @@ Formulário de parametrização:
 | Receita / Despesa | Informação relativa à conta analítica, indicando se é uma conta de despesa ou de receita. Na inserção de uma nova conta, o utilizador deve marcar a opção correta. ![receita_despesa](https://spmssicc.github.io/pages/markdown/menus.assets/img_receita_despesa.png) |
 | Classificador económico | Informação relativa ao classificador económico. No caso da inserção de uma nova conta, o utilizador tem acesso a uma listagem de classificadores económicos, carregando no círculo ![radio](https://spmssicc.github.io/pages/markdown/menus.assets/img_radio.png) à direita do campo de código. A descrição do classificador económico será colocada automaticamente pelo sistema. |
 
+</br>**Desdobramento de Contas**
+</br>Quando o utilizador pretende desdobrar uma conta deve ele seguir o seguinte processo:
+
+1. Deve o utilizador selecionar a conta que pretende desdobrar;
+2. Indicar que a conta selecionada passa a ser de acomulação;
+3. Selecionar o botão "+Novo";
+4. Atribuir o número à conta;
+5. Indicar a sua designação, a Conta de Financiamento e o Classificador Económico;
+6. Por fim, deve selecionar o botão "Confirmar".
+
+**O exemplo seguinte é meramente ilustrativo.**
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/desdobramento_conta.gif)
+
+>Não é permitido ao utilizador criar contas novas, apenas é permitido o desdobramento de contas já contempladas no Plano de Contas carregado no sistema.
 
 #### 1.3.1.2. Classificadores económicos
 
@@ -402,7 +419,7 @@ Menu de acesso:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-508ed546.png)
 
-Cada componente da chave orçamental é gerido através do seguinte tipo de formulário:
+Cada componente da chave orçamental é gerida através do seguinte tipo de formulário:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/chave_orcamental_a.gif)
 
@@ -412,7 +429,7 @@ Cada componente da chave orçamental é gerido através do seguinte tipo de form
 | _Nome da componente da chave orçamental_ | Este campo indica o código da componente. |
 | Nome | Este campo apresenta a descrição da componente para o código indicado. |
 
-No caso específico da componente da chave orçamental **Fonte de Financiamento** a parametrização desta componente engloba também o Grupo da Fonte de Financiamento.
+</br>No caso específico da componente da chave orçamental **Fonte de Financiamento** a parametrização desta componente engloba também o Grupo da Fonte de Financiamento.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-9f2f4aa6.png)
 
@@ -425,6 +442,17 @@ O acesso à lista dos grupos de financiamento é feito através do botão redond
 A parametrização dos grupos das Fontes de Financiamento é feita da mesma forma que as restantes componentes da Chave Orçamental:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-eec547b1.png)
+
+#### 1.3.1.4. Rúbricas Orçamentais
+Para aceder ao ecrã das parametrizações das Rubricas Orçamentais o utilizador deve seguir o seguinte caminho:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-30cada9f.png)
+
+No ecrã que é aberto, o utilizador pode consultar, desdobrar e abater rubricas.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-76203b49.png)
+
+O processo de desdobramento de uma rubrica orçamental segue a mesma lógica que o processo de desdobramento de contas no Plano de Contas descrito em 1.3.1.1.
 
 #### 1.3.2. Gestão de Tabelas
 
@@ -629,7 +657,7 @@ Este capítulo pretende descrever o processo de importação de dados provenient
 - SISO/Reembolsos;
 - MCDT.
 
-A importação de dados destas aplicações, no sistema SICC /SNC - AP,  é feita via ficheiros em formato TXT.
+A importação de dados destas aplicações, no sistema SICC /SNC - AP,  pode ser feita via ficheiros em formato TXT.
 O _layout_ geral destes ficheiros, isto é, de todos os ficheiros TXT referentes a estas importações, é igual para todas as ligações disponíveis neste menu. No entanto, os campos que são preenchidos no ficheiro para importação variam consoante o tipo de ligação e a referência do ficheiro.
 
 Na imagem abaixo está representado um exemplo de dois ficheiros, referências 101 (Ligação Pessoal) e 211 (Ligação Gestão de Stocks), onde estão apresentados campos que são preenchidos nos dois ficheiros (por exemplo: Conta Débito) e outros que apenas são preenchidos por um deles.
@@ -678,7 +706,7 @@ Para confirmar a importação dos dados, o sistema gera uma mensagem informativa
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1150b5aa.png)
 
 ##### Referências 101 e 102
-Para a importação de dados de pessoal, podem ser importados ficheiros com as referências **101 e 102**. Estes ficheiros devem obedecer ao critério dos campos estipulados que estão apresentados seguidamente:
+Para a importação de dados de pessoal, podem ser importados ficheiros com as referências **101 e 102**. Os ficheiros de referência 101 importam dados relativos a ocumentos do tipo CB, CP e P2. Os ficheiros de referência 102 importam dados relativos a documentos do tipo OD. Estes ficheiros devem obedecer ao critério dos campos estipulados que estão apresentados seguidamente:
 
 |   | Ref. | Ent. (CP/P2) | Nº Doc. (CB/CP/P2) | Data Doc. | Conta débito | Conta Crédito | Importância  |Sinal| Centro Custo |
 |:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
@@ -732,9 +760,9 @@ Para importar dados relativos às referências genéricas dos Stocks o utilizado
 </br>No caso da gestão de Stocks, é possível importar ficheiros com as referências  **201, 203, 204, 205, 206, 207, 210, 211 e 214**. A descrição dos campos para cada uma das referências é apresentada seguidamente.
 
 ##### Referência 201
-Para ficheiros de referência 201 os campos que devem estar preenchidos são:
+Esta referência importa dados relativos a documetnos do tipo CB proveniente dos Stocks. Para ficheiros de referência 201 os campos que devem estar preenchidos são:
 
-|   | Ref. | Nº Doc. | Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |
+|   | Ref. | Nº CB. | Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)   | 52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |
 
@@ -743,7 +771,7 @@ Para ficheiros de referência 201 os campos que devem estar preenchidos são:
 </div>
 
 ##### Referência 203
-Para ficheiros de referência 203 os campos que devem estar preenchidos são:
+Ficheiros de referência 203 importam dados relativos a documentos do tipo P1. Para ficheiros de referência 203 os campos que devem estar preenchidos são:
 
 |   | Ref.  | Ent.| NºCP| NºP1| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -754,7 +782,7 @@ Para ficheiros de referência 203 os campos que devem estar preenchidos são:
 </div>
 
 ##### Referências 204, 205, 206 e 207
-Para ficheiros de referência 204-207 os campos que devem estar preenchidos são:
+Ficheiros destas referências importam dados relativos a documentos do tipo OD. Para ficheiros de referência 204-207 os campos que devem estar preenchidos são:
 
 |   | Ref.    | Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   | Centro Custo |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -765,7 +793,7 @@ Para ficheiros de referência 204-207 os campos que devem estar preenchidos são
 </div>
 
 ##### Referência 210
-Para ficheiros de referência 210 os campos que devem estar preenchidos são:
+Ficheiros de referência 210 importam dados relativos a documentos do tipo P2. Para ficheiros de referência 210 os campos que devem estar preenchidos são:
 
 |   | Ref. | NºCB |Ent.|NºCP|NºP2| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo| Nº dias Data Vencimento |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -776,7 +804,7 @@ Para ficheiros de referência 210 os campos que devem estar preenchidos são:
 </div>
 
 ##### Referência 211
-Para ficheiros de referência 211 os campos que devem estar preenchidos são:
+Ficheiros de referência 211 importam dados relativos a documentos do tipo P2. Para ficheiros de referência 211 os campos que devem estar preenchidos são:
 
 |   | Ref. | NºCB |Ent.|NºCP|NºP1|NºP2| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo| Nº dias Data Vencimento |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -787,7 +815,7 @@ Para ficheiros de referência 211 os campos que devem estar preenchidos são:
 </div>
 
 ##### Referência 214
-Para ficheiros de referência 214 os campos que devem estar preenchidos são:
+Ficheiros de referência 214 importam dados relativos a documentos do tipo CM.Para ficheiros de referência 214 os campos que devem estar preenchidos são:
 
 |   | Ref. | NºCB | Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   | Nº dias Data Vencimento |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -803,6 +831,7 @@ Para importar dados relativos à Refª 202 de Stocks o utilizador deve seguir o 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-5be9deea.png)
 
 Irá abrir o ecrã seguidamente apresentado onde o processo de importação de ficheiros segue o mesmo fluxo de trabalho das referências anteriores referentes à gestão de stocks.
+Ficheiros de referência 202 importam dados relativos a documentos do tipo CP.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-4d1dae6e.png)
 
@@ -841,7 +870,7 @@ Para importar dados relativos aos imobilizados o utilizador deve seguir o seguin
 </br>No caso da gestão de imobilizado, é possível importar ficheiros com as referências  **301, 302, 303, 304, 305, 306 e 307**. A descrição dos campos para cada uma das referências é apresentada seguidamente.
 
 ##### Referência 301
-Para ficheiros de referência 301 os campos que devem estar preenchidos são:
+Ficheiros de referência 301 importam dados relativos a documentos do tipo CB. Para ficheiros de referência 301 os campos que devem estar preenchidos são:
 
 |   | Ref.  | NºCB | Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -852,7 +881,7 @@ Para ficheiros de referência 301 os campos que devem estar preenchidos são:
 </div>
 
 ##### Referência 302
-Para ficheiros de referência 302 os campos que devem estar preenchidos são:
+Ficheiros de referência 302 importam dados relativos a documentos do tipo CP.Para ficheiros de referência 302 os campos que devem estar preenchidos são:
 
 |   | Ref.  |Ent.| NºCP |NºCM| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -863,7 +892,7 @@ Para ficheiros de referência 302 os campos que devem estar preenchidos são:
 </div>
 
 ##### Referência 303
-Para ficheiros de referência 303 os campos que devem estar preenchidos são:
+Ficheiros de referência 303 importam dados relativos a documentos do tipo P1.Para ficheiros de referência 303 os campos que devem estar preenchidos são:
 
 |   | Ref.  |Ent.| NºCP |NºP1| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -874,7 +903,7 @@ Para ficheiros de referência 303 os campos que devem estar preenchidos são:
 </div>
 
 ##### Referências 304, 305, 306, 307
-Para ficheiros de referências 304 - 307 os campos que devem estar preenchidos são:
+Ficheiros destas referências importam dados relativos a documentos do tipo OD. Para ficheiros de referências 304 - 307 os campos que devem estar preenchidos são:
 
 |     | Ref.    | Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   | Centro Custo |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -907,7 +936,7 @@ Para importar dados relativos à faturação de devedores o utilizador deve segu
 </br>Para confirmar a importação dos dados, o sistema gera uma mensagem informativa com a indicação abaixo descrita.
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1150b5aa.png)
 
-</br>No caso da gestão de imobilizado, é possível importar ficheiros de referência **401**. A descrição dos campos da referência é apresentada seguidamente.
+</br>No caso da gestão de imobilizado, é possível importar ficheiros de referência **401**. A descrição dos campos da referência é apresentada seguidamente. Estes ficheiros importam dados relativos a documentos do tipo FD.
 
 ##### Referência 401
 Para ficheiros de referência 401 os campos que devem estar preenchidos são:
@@ -949,7 +978,7 @@ A descrição dos campos para cada uma das referências é apresentada seguidame
 
 
 ##### Referência 702
-Para ficheiros de referência 702 os campos que devem estar preenchidos são:
+Ficheiros de referência 702 importam dados relativos a documentos do tipo P2. Para ficheiros de referência 702 os campos que devem estar preenchidos são:
 
 |   | Ref.  |NºCB| Ent.| NºCP|Nº P1/P2/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -971,7 +1000,7 @@ Para ficheiros de referência 702 os campos que devem estar preenchidos são:
 </div>
 
 ##### Referência 703
-Para ficheiros de referência 703 os campos que devem estar preenchidos são:
+Ficheiros de referência 703 importam dados relativos a documentos do tipo OD. Para ficheiros de referência 703 os campos que devem estar preenchidos são:
 
 |   | Ref.  | Ent.| NºOD| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -982,7 +1011,7 @@ Para ficheiros de referência 703 os campos que devem estar preenchidos são:
 </div>
 
 ##### Referência 704
-Para ficheiros de referência 704 os campos que devem estar preenchidos são:
+Ficheiros de referência 704 importam dados relativos a documentos do tipo NC. Para ficheiros de referência 704 os campos que devem estar preenchidos são:
 
 |   | Ref.  | Ent.| Nº NC/Série| Data Doc. | Conta Crédito | Importância  | Sinal   |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -1004,7 +1033,7 @@ Para ficheiros de referência 704 os campos que devem estar preenchidos são:
 </div>
 
 ##### Referência 706
-Para ficheiros de referência 706 os campos que devem estar preenchidos são:
+Ficheiros de referência 706 importam dados relativos a documentos do tipo DF. Para ficheiros de referência 706 os campos que devem estar preenchidos são:
 
 |   | Ref.  | NºCB| Ent.| NºCP|Nº DF/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -1065,7 +1094,7 @@ Para importar dados relativos às faturas de SISO/Reembolsos o utilizador deve s
 </br>Para confirmar a importação dos dados, o sistema gera uma mensagem informativa com a indicação abaixo descrita.
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1150b5aa.png)
 
-</br>No caso da ligação SISO/Reembolsos, é possível importar ficheiros de referência  **501**. A descrição dos campos da referência é apresentada seguidamente.
+</br>No caso da ligação SISO/Reembolsos, é possível importar ficheiros de referência  **501**. A descrição dos campos da referência é apresentada seguidamente. Ficheiros desta referência importam dado relativos a documentos do tipo P2.
 
 </br>**Referência 501**
 
@@ -1118,7 +1147,7 @@ Para importar dados relativos a MCDT o utilizador deve seguir o seguinte caminho
 
 
 ##### Referência 902
-Para ficheiros de referência 902 os campos que devem estar preenchidos são:
+Ficheiros de referência 902 importam dados relativos a documentos do tipo P2. Para ficheiros de referência 902 os campos que devem estar preenchidos são:
 
 Caso Geral:
 
@@ -1142,7 +1171,7 @@ Caso Geral:
 </div>
 
 ##### Referência 903
-Para ficheiros de referência 903 os campos que devem estar preenchidos são:
+Ficheiros de referência 903 importam dados relativos a documentos do tipo OD. Para ficheiros de referência 903 os campos que devem estar preenchidos são:
 
 |   | Ref.  | Ent.|NºOD| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -1153,7 +1182,7 @@ Para ficheiros de referência 903 os campos que devem estar preenchidos são:
 </div>
 
 ##### Referência 904
-Para ficheiros de referência 904 os campos que devem estar preenchidos são:
+Ficheiros de referência 904 importam dados relativos a documentos do tipo NC. Para ficheiros de referência 904 os campos que devem estar preenchidos são:
 
 |   | Ref.  | Entidade|Nº NC/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -1176,7 +1205,7 @@ Para ficheiros de referência 904 os campos que devem estar preenchidos são:
 
 
 ##### Referência 905
-Para ficheiros de referência 905 os campos que devem estar preenchidos são:
+Ficheiros de referência 905 importam dados relativos a documentos do tipo CC. Para ficheiros de referência 905 os campos que devem estar preenchidos são:
 
 |   | Ref.  | Ent.| Nº CC/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -1198,7 +1227,7 @@ Para ficheiros de referência 905 os campos que devem estar preenchidos são:
 </div>
 
 ##### Referência 906
-Para ficheiros de referência 906 os campos que devem estar preenchidos são:
+Ficheiros de referência 906 importam dados relativos a documentos do tipo DF. Para ficheiros de referência 906 os campos que devem estar preenchidos são:
 
 |   | Ref.  |NºCB| Ent.| NºCP|Nº DF/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -1220,7 +1249,7 @@ Para ficheiros de referência 906 os campos que devem estar preenchidos são:
 </div>
 
 ##### Referência 908
-Para ficheiros de referência 908 os campos que devem estar preenchidos são:
+Ficheiros de referência 908 importam dados relativos a documentos do tipo CF. Para ficheiros de referência 908 os campos que devem estar preenchidos são:
 
 |   | Ref.  | Ent.|Nº CF/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -2037,19 +2066,52 @@ Ao selecionar “Imprimir”, o sistema produz a Guia de Receita em PDF.
 
 __O utilizador pode verificar na impressão o novo campo de “Observações” criado no ponto 3.2.7. .__
 
-<!-- ## 4. Gestão de Tesouraria
+## 4. Gestão de Tesouraria
 
-### 4.1. Pagamentos
-### 4.2. Cobranças
-### 4.3. Folhas de Caixa
+### 4.1. Folha de Caixa
+_Em Atualização_
 
-## 5. Contabilidade Geral
+### 4.2. Depósitos/Levantamentos
+Para aceder ao ecrã relativo ao registo de Depósitos/Levantamentos o utilizador deve seguir o caminho:
+![]((https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-8941e97b.png)
+
+Ira ser aberto um ecrã onde o utilizador deve preencher os dados relativos ao registo contabilistico de um depósito/levantamento. Estes movimentos, depósitos e levantamentos, são relativos à caixa, isto é, quando se pretende registar um depósito, é feito um levantamento da conta bancária que é posteriormente depositado em CAIXA. Quando se pretende registar um levantamento, é feito um levantamento da CAIXA que é posteriormente depositado na conta bancária.
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1ef27d4e.png)
+
+**Registo de Depósito**
+
+Para registar um depósito deve o utilizador preencher os seguintes campos obrigatórios: Número de Documento, Data de Documento,Data de Contabilização, Importância, Diário, Tipo de Movimento e Inst. Bancária. Se o campo relativo ao Número de Documento não for preenchido pelo utilizador, o sistema irá atribuir um número de forma automático no final do registo. O Diário pode ser selecionado dentro da lista disponível no botão redondo ao lado do campo.
+As instituições bancárias da entidade disponíveis para relaizar, neste caso o levantamento, podem ser consultadas através do botão redondo disponível entre o campo da conta do banco e o campo da designação do banco.
+Por fim deve o utilizador selecionar o botão "Gravar nova OD".
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-25071e57.png)
+
+Ao clicar sobre "Gravar nova OD" irá surgir uma nova janela com os lançamentos contabilísticos deste movimento.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ac6b8d6c.png)
+
+O sistema automaticamente irá mostrar as contas respetivas com os valores correspondentes. Estes dados devem ser verificados e, em caso de estarem corretos deve o utilizador confirmar os lançamentos através da seleção do botão "Confirme".
+
+O lançamento efetuado pode agora ser consultado, guardado em PDF ou abatido. Para o fazer, deve o utilizador inserir o Número do Documento no campo respetivo e selecionar a ação pretendida.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-47b46bf0.png)
+
+1. Ao selecionar "PDF" irá ser aberta uma nova janela onde o utilizador poderá visualizar um documento com o seguinte aspeto:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-e17f8a0a.png)
+
+2. Ao selecionar "Consulta" irá ser aberto um novo ecrã onde o utilizador poderá visualizar as contas que foram lançadas:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-e4e0cc86.png)
+
+3. Ao selecionar "Abater" o utilizador irá eliminar o registo efetuado.
+
+<!--## 5. Contabilidade Geral
 ## 6. Analítica -->
 
 ## 7. Menu Orçamental
 
 ### 7.1. Orçamento Anual
-Para registar as dotações através do carregamento do Orçamento anula o utilizador deve seguir o caminho:
+Para registar as dotações através do carregamento do Orçamento anual o utilizador deve seguir o caminho:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-8570877f.png)
 
