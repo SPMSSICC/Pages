@@ -2073,7 +2073,7 @@ _Em Atualização_
 
 ### 4.2. Depósitos/Levantamentos
 Para aceder ao ecrã relativo ao registo de Depósitos/Levantamentos o utilizador deve seguir o caminho:
-![]((https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-8941e97b.png)
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-8941e97b.png)
 
 Ira ser aberto um ecrã onde o utilizador deve preencher os dados relativos ao registo contabilistico de um depósito/levantamento. Estes movimentos, depósitos e levantamentos, são relativos à caixa, isto é, quando se pretende registar um depósito, é feito um levantamento da conta bancária que é posteriormente depositado em CAIXA. Quando se pretende registar um levantamento, é feito um levantamento da CAIXA que é posteriormente depositado na conta bancária.
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1ef27d4e.png)
@@ -2095,15 +2095,15 @@ O lançamento efetuado pode agora ser consultado, guardado em PDF ou abatido. Pa
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-47b46bf0.png)
 
-1. Ao selecionar "PDF" irá ser aberta uma nova janela onde o utilizador poderá visualizar um documento com o seguinte aspeto:
+1.Ao selecionar "PDF" irá ser aberta uma nova janela onde o utilizador poderá visualizar um documento com o seguinte aspeto:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-e17f8a0a.png)
 
-2. Ao selecionar "Consulta" irá ser aberto um novo ecrã onde o utilizador poderá visualizar as contas que foram lançadas:
+2.Ao selecionar "Consulta" irá ser aberto um novo ecrã onde o utilizador poderá visualizar as contas que foram lançadas:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-e4e0cc86.png)
 
-3. Ao selecionar "Abater" o utilizador irá eliminar o registo efetuado.
+3.Ao selecionar "Abater" o utilizador irá eliminar o registo efetuado.
 
 <!--## 5. Contabilidade Geral
 ## 6. Analítica -->
