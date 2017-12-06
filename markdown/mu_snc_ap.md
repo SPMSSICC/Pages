@@ -2075,17 +2075,17 @@ _Em Atualização_
 Para aceder ao ecrã relativo ao registo de Depósitos/Levantamentos o utilizador deve seguir o caminho:
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-8941e97b.png)
 
-Ira ser aberto um ecrã onde o utilizador deve preencher os dados relativos ao registo contabilistico de um depósito/levantamento. Estes movimentos, depósitos e levantamentos, são relativos à caixa, isto é, quando se pretende registar um depósito, é feito um levantamento da conta bancária que é posteriormente depositado em CAIXA. Quando se pretende registar um levantamento, é feito um levantamento da CAIXA que é posteriormente depositado na conta bancária.
+Irá ser aberto um ecrã onde o utilizador deve preencher os dados relativos ao registo contabilistico de um depósito/levantamento. Estes movimentos, depósitos e levantamentos, são relativos à caixa, isto é, quando se pretende registar um depósito, é feito um levantamento da conta bancária que é posteriormente depositado em CAIXA. Quando se pretende registar um levantamento, é feito um levantamento da CAIXA que é posteriormente depositado na conta bancária.
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1ef27d4e.png)
 
-**Registo de Depósito**
+#### 4.2.1.Registo de Depósito
 
-Para registar um depósito deve o utilizador preencher os seguintes campos obrigatórios: Número de Documento, Data de Documento,Data de Contabilização, Importância, Diário, Tipo de Movimento e Inst. Bancária. Se o campo relativo ao Número de Documento não for preenchido pelo utilizador, o sistema irá atribuir um número de forma automático no final do registo. O Diário pode ser selecionado dentro da lista disponível no botão redondo ao lado do campo.
-As instituições bancárias da entidade disponíveis para relaizar, neste caso o levantamento, podem ser consultadas através do botão redondo disponível entre o campo da conta do banco e o campo da designação do banco.
+Para registar um depósito deve o utilizador preencher os seguintes campos obrigatórios: Número de Documento, Data de Documento, Data de Contabilização, Importância, Diário, Tipo de Movimento (neste caso Depósito) e Inst. Bancária. Se o campo relativo ao Número de Documento não for preenchido pelo utilizador, o sistema irá atribuir um número de forma automático no final do registo. O Diário pode ser selecionado dentro da lista disponível no botão redondo ao lado do campo.
+As instituições bancárias da entidade disponíveis para realizar, neste caso o levantamento, podem ser consultadas através do botão redondo disponível entre o campo da conta do banco e o campo da designação do banco.
 Por fim deve o utilizador selecionar o botão "Gravar nova OD".
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-25071e57.png)
 
-Ao clicar sobre "Gravar nova OD" irá surgir uma nova janela com os lançamentos contabilísticos deste movimento.
+Ao clicar sobre "Gravar nova OD" irá surgir uma nova janela com os movimentos contabilísticos.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ac6b8d6c.png)
 
@@ -2105,6 +2105,29 @@ O lançamento efetuado pode agora ser consultado, guardado em PDF ou abatido. Pa
 
 3.Ao selecionar "Abater" o utilizador irá eliminar o registo efetuado.
 
+#### 4.2.2.Registo de um Levantamento
+Para registar um depósito deve o utilizador preencher os seguintes campos obrigatórios: Número de Documento, Data de Documento, Data de Contabilização, Importância, Diário, Tipo de Movimento (neste caso Levantamento) e Inst. Bancária. Se o campo relativo ao Número de Documento não for preenchido pelo utilizador, o sistema irá atribuir um número de forma automático no final do registo. O Diário pode ser selecionado dentro da lista disponível no botão redondo ao lado do campo.
+As instituições bancárias da entidade disponíveis onde neste caso será eftuado o depósito, podem ser consultadas através do botão redondo disponível entre o campo da conta do banco e o campo da designação do banco.
+Por fim deve o utilizador selecionar o botão "Gravar nova OD".
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-8a0f0df1.png)
+
+Ao gravar uma nova OD irá surgir uma janela nova onde estarão apresentados automaticamente os movimentos contabilísticos. Deve o utilizador verificar os dados e no caso de estes estarem corretos confirmar o lançamento através da seleção do botão "Confirme".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-d0a9fe47.png)
+
+O registo pode agora ser consultado, guardado em PDF ou abatido. Para efetuar qualquer uma destas ações, o utilizador deve inserir o Número do Documento no campo respetivo e selecionar a ação pretendida.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-bbd03a44.png)
+
+<hr>
+
+Nesta janela apenas podem ser consultadas OD's resultandes de um movimento contabilístico de depósito/levantamento. No caso de se pretender consultar uma OD existente mas que não seja de depósito/levantamento o sistema irá mostrar uma mensagem como a seguidamente apresentada.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-c7cda5e6.png)
+
+O mesmo acontece se se pretender consultar uma OD existente mas lançada através de Depósitos/Levantamentos na janela de Recolha de Operações Diversas. O sistema gera uma mensagem como a apresentada seguidamente.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-4169174c.png)
 <!--## 5. Contabilidade Geral
 ## 6. Analítica -->
 
