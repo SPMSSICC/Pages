@@ -2091,6 +2091,10 @@ Ao clicar sobre "Gravar nova OD" irá surgir uma nova janela com os movimentos c
 
 O sistema automaticamente irá mostrar as contas respetivas com os valores correspondentes. Estes dados devem ser verificados e, em caso de estarem corretos deve o utilizador confirmar os lançamentos através da seleção do botão "Confirme".
 
+As contas apresentadas automaticamente pelo sistema podem ser desdobradas se o utilizador assim o pretender. Para tal, deve o utilizador alterar o valor da conta que pretende desdobrar e na linha livre seguinte introduzir a conta e o valor restante. Por exemplo, como se pode verificar na imagem seguinte, a conta 122 foi desdobrada em duas linhas, cada uma com valor de 1000€ perfazendo o total de 2000€.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-71e6772c.png)
+
 O lançamento efetuado pode agora ser consultado, guardado em PDF ou abatido. Para o fazer, deve o utilizador inserir o Número do Documento no campo respetivo e selecionar a ação pretendida.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-47b46bf0.png)
@@ -2105,7 +2109,22 @@ O lançamento efetuado pode agora ser consultado, guardado em PDF ou abatido. Pa
 
 3.Ao selecionar "Abater" o utilizador irá eliminar o registo efetuado.
 
-#### 4.2.2.Registo de um Levantamento
+Este movimento fica espelhado na Folha de Caixa bem como também é espelhado nos Extratos de Contas. Para visualizar este movimento na Folha de caixa deve o utilizador seguir o seguinte caminho na aplicação:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-6754429c.png)
+
+De seguida o utilizador deve selecionar o período de tempo que pretende visualizar e pressionar no botão "Calcular".
+
+Após o cálculo da Folha de Caixa estar concluído, o ecrã respetivo irá ser preenchido com os dados relativos à folha. De seguida esta informação pode ser guardada num ficheiro CSV ou impressa.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-037591be.png)
+
+Quando a opção "Imprimir" é selecionada o aspeto do ficheiro PDF que é gerado é igual ao apresentado seguidamente. O movimento lançado no exemplo anterior pode ser visualizado no rectângulo vermelho.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-f8eaef18.png)
+
+
+#### 4.2.2.Registo de Levantamento
 Para registar um depósito deve o utilizador preencher os seguintes campos obrigatórios: Número de Documento, Data de Documento, Data de Contabilização, Importância, Diário, Tipo de Movimento (neste caso Levantamento) e Inst. Bancária. Se o campo relativo ao Número de Documento não for preenchido pelo utilizador, o sistema irá atribuir um número de forma automático no final do registo. O Diário pode ser selecionado dentro da lista disponível no botão redondo ao lado do campo.
 As instituições bancárias da entidade disponíveis onde neste caso será eftuado o depósito, podem ser consultadas através do botão redondo disponível entre o campo da conta do banco e o campo da designação do banco.
 Por fim deve o utilizador selecionar o botão "Gravar nova OD".
