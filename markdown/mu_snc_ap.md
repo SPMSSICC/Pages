@@ -2091,7 +2091,7 @@ Ao clicar sobre "Gravar nova OD" irá surgir uma nova janela com os movimentos c
 
 O sistema automaticamente irá mostrar as contas respetivas com os valores correspondentes. Estes dados devem ser verificados e, em caso de estarem corretos deve o utilizador confirmar os lançamentos através da seleção do botão "Confirme".
 
-As contas apresentadas automaticamente pelo sistema podem ser desdobradas se o utilizador assim o pretender. Para tal, deve o utilizador alterar o valor da conta que pretende desdobrar e na linha livre seguinte introduzir a conta e o valor restante. Por exemplo, como se pode verificar na imagem seguinte, a conta 122 foi desdobrada em duas linhas, cada uma com valor de 1000€ perfazendo o total de 2000€.
+As contas apresentadas automaticamente pelo sistema podem ser desdobradas se o utilizador assim o pretender. Para tal, deve o utilizador alterar o valor da conta que pretende desdobrar e na linha livre seguinte introduzir a conta e o seu valor correspondente. Por exemplo, como se pode verificar na imagem seguinte, a conta 122 foi desdobrada em duas linhas, cada uma com valor de 1000€ perfazendo o total de 2000€.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-71e6772c.png)
 
@@ -2109,11 +2109,14 @@ O lançamento efetuado pode agora ser consultado, guardado em PDF ou abatido. Pa
 
 3.Ao selecionar "Abater" o utilizador irá eliminar o registo efetuado.
 
-Este movimento fica espelhado na Folha de Caixa bem como também é espelhado nos Extratos de Contas. Para visualizar este movimento na Folha de caixa deve o utilizador seguir o seguinte caminho na aplicação:
+</br>Este movimento fica espelhado na Folha de Caixa bem como no Extrato de Contas.
+
+**Folha de Caixa**
+</br>Para visualizar este movimento na Folha de Caixa deve o utilizador seguir o seguinte caminho na aplicação:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-6754429c.png)
 
-De seguida o utilizador deve selecionar o período de tempo que pretende visualizar e pressionar no botão "Calcular".
+De seguida, o utilizador deve selecionar o período de tempo que pretende visualizar e pressionar no botão "Calcular".
 
 Após o cálculo da Folha de Caixa estar concluído, o ecrã respetivo irá ser preenchido com os dados relativos à folha. De seguida esta informação pode ser guardada num ficheiro CSV ou impressa.
 
@@ -2123,6 +2126,20 @@ Quando a opção "Imprimir" é selecionada o aspeto do ficheiro PDF que é gerad
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-f8eaef18.png)
 
+**Extrato de Contas**
+</br>Para visualizar o movimento no Extrato de Contas deve o utilizador seguir o seguinte caminho na aplicação:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ef257541.png)
+
+De seguida, o utilizador deve indicar os critérios de pesquisa do extrato, nomeadamente as datas, as contas, as entidades, o tipo de atividade e os números de contribuinte. Finda a indicação dos critérios o utilizador seleciona o que pretende fazer com o extrato, guardá-lo na forma de ficheiro CSV ou imprimi-lo.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-947e6509.png)
+
+Quando a opção "Imprimir" é selecionada, o aspeto do ficheiro PDF que é gerado será igual ao seguidamente apresentado.
+**Nota:** Os movimentos registados no exemplo anterior estão destacados com o rectângulo vermelho.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-fa0c05b8.png)
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-633726c4.png)
 
 #### 4.2.2.Registo de Levantamento
 Para registar um depósito deve o utilizador preencher os seguintes campos obrigatórios: Número de Documento, Data de Documento, Data de Contabilização, Importância, Diário, Tipo de Movimento (neste caso Levantamento) e Inst. Bancária. Se o campo relativo ao Número de Documento não for preenchido pelo utilizador, o sistema irá atribuir um número de forma automático no final do registo. O Diário pode ser selecionado dentro da lista disponível no botão redondo ao lado do campo.
@@ -2134,9 +2151,13 @@ Ao gravar uma nova OD irá surgir uma janela nova onde estarão apresentados aut
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-d0a9fe47.png)
 
-O registo pode agora ser consultado, guardado em PDF ou abatido. Para efetuar qualquer uma destas ações, o utilizador deve inserir o Número do Documento no campo respetivo e selecionar a ação pretendida.
+É de referir que, neste lançamento as contas de movimento podem ser desdobradas como demonstrado em 4.2.1..
+
+O registo efetuado pode agora ser consultado, guardado em PDF ou abatido. Para efetuar qualquer uma destas ações, o utilizador deve inserir o Número do Documento no campo respetivo e selecionar a ação pretendida.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-bbd03a44.png)
+
+O registo de um levantamento também é espelhado na Folha de Caixa e no Extrato de Contas. A forma como aparece é semelhante à demosntrada em 4.2.1..
 
 <hr>
 
