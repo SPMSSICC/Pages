@@ -644,7 +644,7 @@ _Em actualização_
 
 ## 2. Menu Gestão de Terceiros
 Este menu permite efetuar todas as ações relacionadas com a Gestão de Terceiros.
-![](mu_snc_ap.assets/mu_snc_ap-dfd59dad.png)
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-dfd59dad.png)
 
 Acedendo ao menu podemos ter acesso às seguintes opções:
 
