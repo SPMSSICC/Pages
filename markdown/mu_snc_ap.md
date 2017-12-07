@@ -705,16 +705,46 @@ Para confirmar a importação dos dados, o sistema gera uma mensagem informativa
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1150b5aa.png)
 
-##### Referências 101 e 102
-Para a importação de dados de pessoal, podem ser importados ficheiros com as referências **101 e 102**. Os ficheiros de referência 101 importam dados relativos a ocumentos do tipo CB, CP e P2. Os ficheiros de referência 102 importam dados relativos a documentos do tipo OD. Estes ficheiros devem obedecer ao critério dos campos estipulados que estão apresentados seguidamente:
 
-|   | Ref. | Ent. (CP/P2) | Nº Doc. (CB/CP/P2) | Data Doc. | Conta débito | Conta Crédito | Importância  |Sinal| Centro Custo |
-|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
-| Posição (Comprimento) | 1 - 3 (3)| 12 - 19 (8)| 20 - 27 (8)| 52 - 59 (8) | 60 - 109 (50)  | 110 - 159 (50)  | 160 - 177 (18) | 178 (1) | 179 - 188 (10) |
+Para a importação de dados de pessoal, podem ser importados ficheiros com as referências **101 e 102**. Os ficheiros de referência 101 importam dados relativos a documentos do tipo CB, CP e P2. Os ficheiros de referência 102 importam dados relativos a documentos do tipo OD. Estes ficheiros devem obedecer ao critério dos campos estipulados que estão apresentados seguidamente:
+
+##### Referência 101
+
+|Campo|Posição |Observações|
+|:---:|:---:|:---|
+|Ref.   |1 - 3 (3)  | Indicar a referência do ficheiro. Neste caso específico a referência é **101**.   |
+|Entidade   |  12 - 19 (8) | A numeração das entidades, para todas as contas iniciadas por 63, deve ser iniciada por 9963 e terminada com o indicativo do mês. Por exemplo: </br> 9963**001** - janeiro </br>9963**002** - fevereiro </br> ...</br>9963**012** - dezembro    |
+|Nº CB, CP, P2   | 20 - 27 (8)  | A numeração dos documentos varia consoante o grupo. </br></br> **Vencimentos** </br> A numeração dos documentos deve ser iniciada por 63 (conta), seguindo-se da indicação do mês - 01- e terminada com digitos sequenciais - 001. Por exemplo:</br> 6301**001** - documento 1 do mês de janeiro</br> 6301**002** - documento 2 do mês de janeiro </br> 63**02**001 - documento 1 do mês de fevereiro  </br></br> **Encargos sobre renumerações da responsabilidade da entidade**</br> A numeração dos documentos varia consoante o encargo. Deve ser iniciada por 635 (conta), seguindo-se da indicação do mês - 01- e terminada com digitos sequenciais - 001. Por exemplo: </br> 63501**001** - encargo A </br> 63501**002** - encargo B  </br></br> **Outros Custos** </br> A numeração dos documentos deve ser iniciada por 69 (conta), seguindo-se da indicação do mês - 01- e terminada com digitos sequenciais - 001. Por exemplo: </br> 69**01001** - documento 1 do mês de janeiro. </br> 69**02001** - documento 1 do mês de fevereiro. </br></br> **Prestação de serviços** </br> A numeração dos documentos deve ser iniciado por 62 (conta), seguindo-se da indicação do mês - 01- e terminada com digitos sequenciais - 001. Por exemplo: </br> 6201**001** - documento 1 do mês de janeiro </br> 6201**002** - documento 2 do mês de janeiro </br> 62**02**001 - documento 1 do mês de fevereiro.   |
+|Data Doc.   |  52 - 59 (8) | Deve ser indicada a data do documento no seguinte formato: **DDMMAAAA**  |
+|Conta Débito   | 60 - 109 (50)  | As contas a débito devem ser indicadas **sem pontos** e devem ser iniciadas pelo dígito **6**.   |
+|Conta Crédito   | 110 - 159 (50)   | As contas a crédito devem ser indicadas **sem pontos** e devem ser iniciadas pelo dígito **2**.  |
+|Importância   |160 - 177 (18)   |Deve ser indicada a importância.   |
+|Sinal   |  178 (1)  |Deve ser indicado o sinal da importância (- ou +)   |
+|Centro de Custo   | 179 - 188 (10)  |  Deve ser indicado o centro de custo.  |
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/101.sncap'">Descarregar TXT</button>
+</div>
+
+##### Referência 102
+|Campo|Posição |Observações|
+|:---:|:---:|:---|
+|Ref.   |1 - 3 (3)  | Indicar a referência do ficheiro. Neste caso específico a referência é **102**.   |
+|Entidade   |  12 - 19 (8) | A numeração das entidades, para todas as contas iniciadas por 63, deve ser iniciada por 9963 e terminada com o indicativo do mês. Por exemplo:  </br> 9963**001** - janeiro </br>9963**002** - fevereiro </br> ...</br>9963**012** - dezembro    |
+|Nº OD  | 20 - 27 (8)  | A numeração dos documentos deve ser inicida pela conta - 63 - seguindo-se do mês - 01 - e terminada com digitos sequenciais - 001. Por exemplo: </br> 6301**001** - documento 1 do mês de janeiro </br> 6301**002** - documento 2 do mês de janeiro </br> 63**02**001 - documento 1 do mês de fevereiro.  |
+|Data Doc.   |  52 - 59 (8) | Deve ser indicada a data do documento no seguinte formato: **DDMMAAAA**  |
+|Conta Débito   | 60 - 109 (50)  | As contas a débito devem ser indicadas **sem pontos** e devem ser iniciadas pelo dígito **6**.   |
+|Conta Crédito   | 110 - 159 (50)   | As contas a crédito devem ser indicadas **sem pontos** e devem ser iniciadas pelo dígito **2**.  |
+|Importância   |160 - 177 (18)   | Deve ser indicada a importância.  |
+|Sinal   |  178 (1)  | Deve ser indicado o sinal da importância (- ou +)  |
+|Centro de Custo   | 179 - 188 (10)  | Deve ser indicado o centro de custo.    |
+
+
 
 <div style="height:40px">
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/101.sncap'">Descarregar TXT</button>
 </div>
+
+
 
 </br>**Contas a crédito**
 </br> As contas a crédito das faturas conferidas dos fornecedores (P2) são obtidas através da relação, previamente estabelecida, com as contas a débito dos cabimentos.
