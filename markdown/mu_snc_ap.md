@@ -24,7 +24,7 @@ O sistema, ao longo da navegação por vários ecrãs contempla vários botões 
 | ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-3b129b66.png) | Abrir o Manual do Utilizador na secção correspondente ao ecrã aberto. _Esta funcionalidade não está ainda disponível em todos os ecrãs do sistema_ |
 | ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-c82bc2d6.png) | Sair do ecrã. |
 
-> Recomenda-se o uso da tecla **_TAB_** para a navegação pelos campos dos vários ecrãs do sistema. Esta forma de navegação garante que todos os campos obrigatórios sejam preenchidos permitindo a sua validação e posterior desbloqueio de outros campos.
+> Recomenda-se o uso da tecla **_TAB_** para a navegação pelos campos dos ecrãs do sistema. Esta forma de navegação garante que todos os campos obrigatórios sejam preenchidos e validados permitindo o posterior desbloqueio de outros campos.
 
 ## 1. Menu Parametrização
 
@@ -547,25 +547,32 @@ Este ecrã permite ao utilizador manipular as informações relacionadas com a G
 | Nome | Nome ou descrição da entidade. |
 | Morada | Morada da entidade. |
 | Localidade | Localidade da entidade. |
-| País | País da entidade. Na inserção ou alteração de um registo, o utilizador carregando no círculo ![radio](https://spmssicc.github.io/pages/markdown/menus.assets/img_radio.png) entre o campo de código e descritivo pode obter uma listagem de todos os países disponíveis. |
+| País | País da entidade. Na inserção ou alteração de um registo, o utilizador carregando no círculo ![radio](https://spmssicc.github.io/pages/markdown/menus.assets/img_radio.png) entre o campo de código e descritivo pode obter uma listagem de todos os países disponíveis. **O preenchimento deste campo é obrigatório para que o sistema faça a validação do NIF.** |
 | Código Postal | Código postal da entidade. |
 | Telefone | Número de telefone da entidade. |
 | Fax | Número de fax da entidade. |
-| Contacto | Responsável de relações publicas da entidade. |
+| Contacto | Responsável de relações públicas da entidade. |
 | Email | Endereço de correio eletrónico da entidade. |
 | Nº de Contribuinte | Número de identificação fiscal da entidade. |
-| Situação Contributiva | As explicações deste ecrã encontram-se no final das tabelas relacionadas com este ecrã. |
-| (Entidade) – Tipo | Tipo de número de conta bancária:  - NIB : Numero de Identificação Bancária;  - IBAN : Número Internacional de Conta Bancária.![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-5361bafa.png) |
-| (Entidade) – Numero | Número de conta bancária, no formato indicado no campo anterior. |
-| (Entidade) – Swift | Número de BIC (Bank Identifier Code), código que permite identificar bancos internacionais. |
-| (Entidade) – Banco | Designação da instituição bancária assignada à conta introduzida. Este campo é de preenchimento automático pelo sistema. |
-| (*Factoring*) – Número | Identificação da conta bancário responsável pelo *factoring*. Na inserção ou alteração de um registo, o utilizador carregando no círculo ![radio](https://spmssicc.github.io/pages/markdown/menus.assets/img_radio.png) entre o campo de código e descritivo pode obter uma listagem de ajuda, com os dados já existentes no sistema. |
-| (*Factoring*) – Nome Entidade | Identificação da instituição bancária escolhida no campo anterior. Este campo é de preenchimento automático pelo sistema. |
+| Situação Contributiva | As explicações desta opção encontram-se no final das tabelas relacionadas com este ecrã. |
+| Número - Entidade | Identificação da conta bancária associada à entidade. ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-57d9d844.png) </br></br> **Tipo:**NIB - Número de Identificação Bancária; IBAN - Número Internacional de Conta Bancária.![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-5361bafa.png) </br></br> **Número:** Número de conta bancária, no formato indicado pelo Tipo </br></br> **Swift:** Número de BIC (Bank Identifier Code), código que permite identificar bancos internacionais.</br></br> **Banco:** Designação da instituição bancária assignada à conta introduzida. Este campo é de preenchimento automático pelo sistema. |
+| Número - *Factoring*   | Identificação da conta Factoring. ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-6e755349.png) </br></br>**Número:** Identificação da conta bancário responsável pelo *factoring*. Na inserção ou alteração de um registo, o utilizador carregando no círculo ![radio](https://spmssicc.github.io/pages/markdown/menus.assets/img_radio.png) entre o campo de código e descritivo pode obter uma listagem de ajuda, com os dados já existentes no sistema. </br></br> **Nome Entidade:** Identificação da instituição bancária escolhida no campo anterior. Este campo é de preenchimento automático pelo sistema. |
 | Observações | Campo de observações onde estão ou devem ser colocadas todas as informações pretendidas pelo utilizador. |
 
-| Botão | Ação |
-|:---|:---|
-| ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-43ff2890.png) | Ao carregar neste botão é aberto outro ecrã onde o utilizador pode inserir, alterar ou apagar dados relativos à entidade. Ver ecrã e conceitos por baixo das tabelas do ecrã atual. |
+
+##### Alteração dos dados
+Para efetuar alterações nos dados de uma entidade já criada, deve o utilizador seguir os seguintes passos:
+</br>(Para efeitos de exemplo é considerado que se pretende passar a conta _factoring_ para uma conta bancária normal.)
+
+1. No campo referente ao "Número" inserir o número associado à entidade cujos dados se pretendem alterar.
+2. Selecionar os dados do campo referente, neste exemplo, ao número da conta _factoring_.
+3. Limpar o campo selecionado e para validar a eliminação de dados pressionar a tecla _TAB_.
+4. Selecionar o tipo de Número da Conta Bancária (NIB ou IBAN).
+5. Inserir o respectivo número de conta e pressionar a tecla _TAB_ para que o nome do banco fique automaticamente preenchido.
+6. Pressionar o botão "Confirmar" para confirmar os dados alterados.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/gest_ent_alt.gif)
+
 
 ##### Situação Contributiva
 
@@ -660,6 +667,9 @@ Acedendo ao menu podemos ter acesso às seguintes opções:
 |Ofícios   |Esta opção de menu permite a impressão de ofícios a devedores e credores e certificação legal de contas.   |
 |Antiguidade de Saldos   |Esta opção de menu permite a extração de informação relacionada com dívidas/créditos a terceiros e dívidas/créditos por conta.    |
 |Procura de Documentos   |Esta opção de menu permite visualizar toda a informação respeitante a documentos, tais como a sua contabilidade geral, orçamental, analítica, regularizações, encontros de contas, processos, contabilidade geral (inicial) e outras informações relevantes.   |
+
+> Recomenda-se o uso da tecla **_TAB_** para a navegação pelos campos dos ecrãs do sistema. Esta forma de navegação garante que todos os campos obrigatórios sejam preenchidos e validados permitindo o posterior desbloqueio de outros campos.
+
 
 ### 2.1. Extrato por Entidades
 
@@ -1285,6 +1295,7 @@ Na imagem abaixo está representado um exemplo de dois ficheiros, referências 1
 
  </br>Ao longo dos próximos sub-capítulos será descrito, com detalhe, todo o fluxo de trabalho necessário para que a importação dos dados seja bem sucedida bem como a estrutura dos ficheiros para cada tipo de importação.
 
+> Recomenda-se o uso da tecla **_TAB_** para a navegação pelos campos dos ecrãs do sistema. Esta forma de navegação garante que todos os campos obrigatórios sejam preenchidos e validados permitindo o posterior desbloqueio de outros campos.
 
 #### 3.1.1. Ligações de Pessoal
 Para importar dados relativos ao Pessoal o utilizador deve seguir o seguinte caminho na aplicação:
@@ -1914,6 +1925,8 @@ Ficheiros de referência 908 importam dados relativos a documentos do tipo CF. P
 </div>
 
 ### 3.2. Ciclo Despesa
+
+> Recomenda-se o uso da tecla **_TAB_** para a navegação pelos campos dos ecrãs do sistema. Esta forma de navegação garante que todos os campos obrigatórios sejam preenchidos e validados permitindo o posterior desbloqueio de outros campos.
 
 #### 3.2.1. Cabimento (CB)
 
@@ -2577,6 +2590,8 @@ Após validação dos elementos integrados e constatado que os valores estão co
 
 ### 3.3. Ciclo Receita
 
+> Recomenda-se o uso da tecla **_TAB_** para a navegação pelos campos dos ecrãs do sistema. Esta forma de navegação garante que todos os campos obrigatórios sejam preenchidos e validados permitindo o posterior desbloqueio de outros campos.
+
 #### 3.3.1. Faturas Devedores (FD)
 
 Neste processo, o objetivo é o utilizador fazer as contabilizações de faturas de devedores. Desta forma, o caminho no sistema a seguir é:
@@ -2711,6 +2726,8 @@ __O utilizador pode verificar na impressão o novo campo de “Observações” 
 
 ## 4. Gestão de Tesouraria
 
+> Recomenda-se o uso da tecla **_TAB_** para a navegação pelos campos dos ecrãs do sistema. Esta forma de navegação garante que todos os campos obrigatórios sejam preenchidos e validados permitindo o posterior desbloqueio de outros campos.
+
 ### 4.1. Folha de Caixa
 _Em Atualização_
 
@@ -2815,6 +2832,8 @@ O mesmo acontece se se pretender consultar uma OD existente mas lançada atravé
 ## 6. Analítica -->
 
 ## 7. Menu Orçamental
+
+> Recomenda-se o uso da tecla **_TAB_** para a navegação pelos campos dos ecrãs do sistema. Esta forma de navegação garante que todos os campos obrigatórios sejam preenchidos e validados permitindo o posterior desbloqueio de outros campos.
 
 ### 7.1. Orçamento Anual
 Para registar as dotações através do carregamento do Orçamento anual o utilizador deve seguir o caminho:
