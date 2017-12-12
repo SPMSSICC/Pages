@@ -2740,16 +2740,16 @@ No ecrã que é aberto o utilizador deve preencher os seguintes campos:
 | Ano   | Indicação do ano dos documentos contabilizados para a folha de caixa.  |
 |Do dia:    |Indicação da data a partir da qual se pretendem extrair dados para a folha de caixa.  |
 |Ao dia:   | Indicação da data até a qual se pretendem extrair dados para a folha de caixa.  |
-|Contas    | Indicação das contas que serão contabilizadas para a designação descrita do lado esquerdo. ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-990c9e1b.png)  |
+|Parametrização   | Indicação das contas que serão contabilizadas para a designação descrita do lado esquerdo. ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-990c9e1b.png)  |
 
-Para efetuar o cálculo da folha de caixa deve o utilizador, após ter preenchido todos os parâmetros, pressionar no botão "Calcular".
+</br>Para efetuar o cálculo da folha de caixa deve o utilizador, após ter preenchido todos os parâmetros, pressionar no botão "Calcular".
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/folha_caixa.gif)
 
-Quando o cálculo da folha de caixa finalizar o utilizador pode guardar os dados em formato de ficheiro CSV, na diretoria indicada, ou poderá imprimi-los.
+Quando o cálculo da folha de caixa finalizar, o utilizador pode guardar os dados em formato de ficheiro CSV, na diretoria indicada, ou poderá imprimi-los.
 
 **</br>Imprimir**
-Quando a opção "Imprimir" for selecionada o aspeto do ficheiro PDF gerado é igual ao seguidamente apresentado.
+</br>Quando a opção "Imprimir" for selecionada o aspeto do ficheiro PDF gerado é igual ao seguidamente apresentado.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-b0d3ee0e.png)
 
@@ -2757,13 +2757,13 @@ Quando a opção "Imprimir" for selecionada o aspeto do ficheiro PDF gerado é i
 Para aceder ao ecrã relativo ao registo de Depósitos/Levantamentos o utilizador deve seguir o caminho:
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-8941e97b.png)
 
-Irá ser aberto um ecrã onde o utilizador deve preencher os dados relativos ao registo contabilistico de um depósito/levantamento. Estes movimentos, depósitos e levantamentos, são relativos à caixa, isto é, quando se pretende registar um depósito, é feito um levantamento da conta bancária que é posteriormente depositado em CAIXA. Quando se pretende registar um levantamento, é feito um levantamento da CAIXA que é posteriormente depositado na conta bancária.
+Irá ser aberto um ecrã onde o utilizador deve preencher os dados relativos ao registo contabilistico de um depósito/levantamento. Estes movimentos, depósitos e levantamentos, são relativos à caixa, isto é, quando se pretende registar um depósito, é feito um levantamento da conta bancária que é posteriormente depositado em CAIXA. Quando se pretende registar um levantamento, é feito um levantamento de CAIXA que é posteriormente depositado na conta bancária.
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1ef27d4e.png)
 
 #### 4.2.1.Registo de Depósito
 
-Para registar um depósito deve o utilizador preencher os seguintes campos obrigatórios: Número de Documento, Data de Documento, Data de Contabilização, Importância, Diário, Tipo de Movimento (neste caso Depósito) e Inst. Bancária. Se o campo relativo ao Número de Documento não for preenchido pelo utilizador, o sistema irá atribuir um número de forma automático no final do registo. O Diário pode ser selecionado dentro da lista disponível no botão redondo ao lado do campo.
-As instituições bancárias da entidade disponíveis para realizar, neste caso o levantamento, podem ser consultadas através do botão redondo disponível entre o campo da conta do banco e o campo da designação do banco.
+Para registar um depósito deve o utilizador preencher os seguintes campos obrigatórios: Número de Documento, Data de Documento, Data de Contabilização, Importância, Diário, Tipo de Movimento (neste caso Depósito) e Inst. Bancária. Se o campo relativo ao Número de Documento não for preenchido pelo utilizador, o sistema irá atribuir um número de forma automática no final do registo. O Diário pode ser selecionado dentro da lista disponível no botão redondo ao lado do campo.
+As instituições bancárias das entidades disponíveis podem ser consultadas através do botão redondo disponível entre o campo da conta do banco e o campo da designação do banco.
 Por fim deve o utilizador selecionar o botão "Gravar nova OD".
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-25071e57.png)
 
@@ -2771,7 +2771,7 @@ Ao clicar sobre "Gravar nova OD" irá surgir uma nova janela com os movimentos c
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ac6b8d6c.png)
 
-O sistema automaticamente irá mostrar as contas respetivas com os valores correspondentes. Estes dados devem ser verificados e, em caso de estarem corretos deve o utilizador confirmar os lançamentos através da seleção do botão "Confirme".
+O sistema automaticamente irá mostrar as contas respetivas com os valores correspondentes. Estes dados devem ser verificados e, em caso de estarem corretos deve o utilizador confirmá-los através da seleção do botão "Confirme".
 
 As contas apresentadas automaticamente pelo sistema podem ser desdobradas se o utilizador assim o pretender. Para tal, deve o utilizador alterar o valor da conta que pretende desdobrar e na linha livre seguinte introduzir a conta e o seu valor correspondente. Por exemplo, como se pode verificar na imagem seguinte, a conta 122 foi desdobrada em duas linhas, cada uma com valor de 1000€ perfazendo o total de 2000€.
 
@@ -2793,7 +2793,7 @@ O lançamento efetuado pode agora ser consultado, guardado em PDF ou abatido. Pa
 
 </br>Este movimento fica espelhado na Folha de Caixa e no Extrato de Contas. A forma como este movimento aparece é descrita seguidamente.
 
-**Folha de Caixa**
+**</br>Folha de Caixa**
 </br>Para visualizar este movimento na Folha de Caixa deve o utilizador seguir o seguinte caminho na aplicação:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-6754429c.png)
