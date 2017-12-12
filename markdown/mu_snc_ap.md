@@ -721,7 +721,7 @@ Ao calcular as notas de encomenda associadas à entidade selecionada, os campos 
 
 A informação relativa às notas de encomenda pode ser agora impressa, guardada num ficheiro CSV e enviada por Email.
 
-**Imprimir**
+**</br>Imprimir**
 
 Ao selecionar a opção "Imprimir" irá ser gerado um ficheiro em formato PDF com o seguinte aspeto:
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-b7c065b1.png)
@@ -737,7 +737,7 @@ Ao calcular as faturas associadas à entidade selecionada, os campos do ecrã da
 
 A informação relativa às faturas pode ser agora impressa, guardada num ficheiro CSV e enviada por Email.
 
-**Imprimir**
+**</br>Imprimir**
 
 Ao selecionar a opção "Imprimir" irá ser gerado um ficheiro em formato PDF com o seguinte aspeto:
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-7b336359.png)
@@ -752,7 +752,7 @@ Ao calcular as autorizações associadas à entidade selecionada, os campos do e
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-37cfb7eb.png)
 A informação relativa às autorizações de pagamento pode ser agora impressa, guardada num ficheiro CSV e enviada por Email.
 
-**Imprimir**
+**</br>Imprimir**
 
 Ao selecionar a opção "Imprimir" irá ser gerado um ficheiro em formato PDF com o seguinte aspeto:
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-e8737dce.png)
@@ -784,7 +784,7 @@ Ao selecionar Extrato de Proc.Aquisição irá abrir o seguinte ecrã:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-26011170.png)
 
-Este sub-menu permite o acesso a Mapas de Gestão, tais como Docuemtnos por Datas, Docuemtnos por Contas, Contas Correntes de Terceiros e Mapas para o IVA.
+Este sub-menu permite o acesso a Mapas de Gestão, tais como Documentos por Datas, Documetnos por Contas, Contas Correntes de Terceiros e Mapas para o IVA.
 
 ####2.3.1. Documentos por Datas
 
@@ -804,7 +804,7 @@ Neste ecrã o utilizador pode pesquisar documentos por datas. Para tal deve pree
 | Últ. Fator de Aglutinação  |Último fator de aglutinação a extrair. Apenas é extraida informação cujo código seja igual ou superior ao indicado no campo superior e menos ou igual ao indicado neste campo   |
 |Tipo de Data   |Indica o tipo de data que deve ser utilizada. ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-0390429a.png)    |
 |Atividade/Departamento   |  Indica o tipo de atividade/departamento que deve ser considerado. ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-6d94754e.png) |
-|Exercicio   | Exercício a que pertencem os documentos. As opções disponíveis são as seguintes: **Do Exercício**-Todos os documentos iniciados no exercício atual; **Inicial** - Todos os documentos que tenham sido iniciados em exercícios anteriores ao atual; **Todos** - Todos os doocumentos, independentemente da data dos mesmos.Inclui os documnetos anteriores. ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-2f3aeca6.png)  |
+|Exercicio   | Exercício a que pertencem os documentos. As opções disponíveis são as seguintes: **Do Exercício**-Todos os documentos iniciados no exercício atual; **Inicial** - Todos os documentos que tenham sido iniciados em exercícios anteriores ao atual; **Todos** - Todos os documentos, independentemente da data dos mesmos. Inclui os documentos anteriores. ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-2f3aeca6.png)  |
 
 #####Faturas Credoras
 Para visualizar Faturas Credoras, o utilizador deve primeiramente indicar os critérios de pesquisa descritos na tabela acima e também indicar qual o estado das faturas que pretende pesquisar.
@@ -906,24 +906,358 @@ Quando a opção "Imprimir" for selecionada, o aspeto do ficheiro PDF gerado é 
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a27da912.png)
 
-<!-- ####2.3.3. Contas Correntes de Terceiros
+####2.3.3. Contas Correntes de Terceiros
+Este sub-menu permite ao utilizador pesquisar a conta corrente de terceiros.
+
+|Campo|Descrição|
+|:---:|:---|
+|Ano    | Indicação do ano referente ao qual será extraida conta corrente.  |
+|Pri. Data   | Indicação da data de inicio a extrair. Apenas é extraida informação cuja data seja igual ou superior ao indicado neste campo.     |
+|Últ. Data    | Indicação da data de fim a extrair. Apenas é extraida informação cuja data seja igual ou superior ao indicado no campo anterior e menor ou igual ao indicado neste campo.  |
+|Pri. Entidade    | Código da primeira entidade a extrair. Apenas é extraida informação cujo código seja igual ou superior ao indicado neste campo.    |
+|Últ. Entidade   | Código da última entidade a extrair. Apenas é extraida informação cujo código seja igual ou superior ao indicado no campo anterior e menor ou igual ao indicado neste campo.    |
+
+Para extrair a conta corrente de terceiros deve o utilizador numa primeira fase definir os critérios de pesquisa descritos na tabela anterior. De seguida, deve o utilizador indicar por que tipo de data pretende efetuar a pesquisa - Data de Documento ou Data de Contabilização. Por fim deve o utilizador pressionar sobre o botão "Calcular".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/Mapas_gestao_c_corrente_terceiros.gif)
+
+Após de ter feito o cálculo da conta corrente, esta pode agora ser guardada num ficheiro de formato CSV. Para tal, deve o utilizador indicar o diretório no próprio computador onde pretende guardar o ficheiro.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-850ac92b.png)
 
 ####2.3.4. Mapas para o IVA
 
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-69ed5706.png)
+
+|Campo| Descrição|
+|:---:|:---|
+|Exercício    | Listagem de exercicicios disponíveis conforme o Mapa de Gestão. Neste campo o utilizador pode escolher o exercicio e apenas verá as informações para esse ano.    |
+|Tipo   | Indicação do  tipo de cálculo a realizar.Este pode ser efetuado por Nº Contribuinte  ou por Entidade. Por defeito, o tipo é Nº Contribuinte.  ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-b849dc94.png)  |
+|Nº Contribuinte    |Indicação do primeiro e último Nº Contribuinte a ser considerado no cálculo. ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ed0ea0c1.png) |
+| Entidade   |Indicação da primeira e última Entidade a ser considerada no cálculo.   ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a5f2bffa.png) |
+|Serviço de Finanças    | Indicação do código referente ao Seviço de Finanças. Por defeito, aparecerá o último código inserido no sistema.  |
+|CAE    | Indicação do código referente a Classificação de Actividades Económicas Portuguesas por Ramos de Atividade. Este campo aparecerá preenchido com o último código inserido.  |
+|Atividade    | Indicação do código referente à atividade.  |
+|NIF Técnico Oficial Contas   | Indicação do NIF do Técnico Oficail de Contas   |
+|NIF Representante Legal    |Indicação do NIF do Representante Legal   |
+|Volume de Negócios (%)   | Indicação do volume de negócios em percentagem.  |
+|Limite de IVA    | Indicação do valor limite relativo ai IVA    |
+|Anexo    | Indicação do tipo de Anexo a ser considerado. </br>Todos - Apresenta Saldos de cliente e fornecedores. </br> Modelo O - Apresenta saldos devedores. </br>Modelo P - Apresenta saldos credores.   |
+
+Após de o utilizador definir os critérios é possível agora guardar o ficheiro em formato CSV e XML.
+
 ### 2.4. Transferência de Entidades
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a782da88.png)
+
+
+####2.4.1. Do Exercício
+
+Este sub-menu permite ao utilizador efetuar transferência de documentos do exercício de uma entidade para outra.
+
+Deve o utilizador selecionar a entidade **da qual** pretende transferir os documentos e a entidade **para a qual** pretende transferi-los. Também deve selecionar a data a apartir da qual pretende visualizar os documentos. Por fim, deve o utilizador clicar no botão "Calcular".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-551c03a5.png)
+
+Após o clicar no "Calcular" irão aparecer os documentos resultantes da pesquisa no ecrã. Para selecionar os documentos a transferir, o utilizador deve indicar na check box qual/is o/os documento/s pretendido/s. De seguida o utilizador deve indicar o diretório onde será guardado um ficheiro em formato CSV aquando a realização da transferência.Para concluir a transferência do documento, o utilizador deve clicar sobre "Transferir".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-24a0b376.png)
+
+Se a tranferência for efetuada com sucesso, na linha do documento selecionado irá aparacer que o seu estado está OK.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-fa077e48.png)
+
+####2.4.2. De Exercícios Anteriores
+
+Este sub-menu permite ao utilizador efetuar transferência de documentos de uma entidade do exercício anterior para uma entidade do exercício atual.
+
+Para efetuar a transferência, o utilizador deve selecionar o exercicio e a entidade da qual pretende efetuar a tranferência de documentos. De seguida deve selecionar o exercicio e a entidade para a qual pretende transferir os documentos. Para visualizar os documentos disponíveis para a transferência deve o utilizador clicar no botão "Calcular".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-f3ffeca1.png)
+
+Para concluir a tranferência, o utilizador deve selecionar o docuemtno pretendido, ou todos se for o caso, preenchendo a check box, deve também selecionar o diretório onde será guardado um ficheiro CSV aquando a transferência e por fim deve clicar sobre "Transferir".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-bb974d1a.png)
+
+Se a transferência for efetuada com sucesso, no mesmo ecrã estrá indicado que o estado do documento passará para "Processados 1 registos com sucessos (0 erros)"
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ea75e4a1.png)
 
 ### 2.5. Transferência de Contas
 
+Serve este sub-menu para efetuar transferência de documentos registados numa conta para uma outra.
+
+Para efetuar este tipo de transferência, o utilizador deve indicar a Conta Origem e a Conta Destino da transferência. Deve indicar a Primeira e a Última Data de Contabilização e outros critérios de pesquisa tais como:
+- **Tipo** - Tipo de documento (AP, CB, PG, FD, entre outros)
+- **Ano** - Ano do documento
+- **Entidade** - Entidade pretendida
+- **Número** - Número dos documentos
+- **Série** - Série do documento
+- **DOCID** - Número Identificativo do documento
+
+
+Após ter preenchido todos os parâmetros de pesquisa, deve o utilizador clicar no botão "Calcular" para visualizar os documentos disponíveis.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-99b6a04b.png)
+
+Seguidamente, o utilizador deve selecionar o documento a transferir, através do preenchimento da check box respetiva, selecionar o diretório onde pretende guardar o ficheiro CSV aquando a transferência e clicar no botão "Transferir".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-880b11e7.png)
+
 ### 2.6. Transferência de Centros de Custo
 
-### 2.7. Balancete de Terceiros
+Serve este sub-menu para efetuar transferência de documentos registados num centro de custo para outro.
+
+Para efetuar este tipo de transferência, o utilizador deve indicar o Centro de Custo Origem e o Centro de Custo Destino da transferência. Deve também indicar a Primeira e a Última Data de Contabilização.
+
+Após ter preenchido todos os parâmetros de pesquisa, deve o utilizador clicar no botão "Calcular" para visualizar os documentos disponíveis.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-e04088e4.png)
+
+De seguida o utilizador deve selecionar o documento que pretende transferir através do preenchimento da check box respetiva, indicar o diretório onde pretende guardar o ficheiro CSV gerado aquando a transferência e por fim deve clicar no botão "Transferir".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-632ce882.png)
+
+<!-- ### 2.7. Balancete de Terceiros
+
+####2.7.1. Balancete de Terceiros
+
+####2.7.2. Extrato de Movimento de Terceiros
+
+####2.7.3. Balancete Atividade/Departamento
+
+####2.7.4. Gestão de Projetos -->
 
 ### 2.8. Ofícios
 
+Este sub-menu permite ao utilizador gerar oficíos que podem ser posteriormente enviados às entidades.
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-f239cecc.png)
+
+####2.8.1. Certificação Legal de Contas
+
+Este sub-menu permite ao utilizador produzir e enviar certificação legal de contas.
+
+No ecrã que aparece deve o utilizador os seguintes campos:
+
+|Campo| Descrição|
+|:---:|:---|
+|Ano    | Indicação do ano dos documentos  |
+|Pri. Entidade    | Código da primeira entidade a extrair. Apenas é extraida informação cujo código seja igual ou superior ao indicado neste campo.    |
+|Últ. Entidade    |  Código da última entidade a extrair. Apenas é extraida informação cujo código seja igual ou inferior ao indicado neste campo. |
+|Pri. Data   |Indicação da data de inicio a extrair. Apenas é extraida informação cuja data seja igual ou superior ao indicado neste campo.   |
+|Últ. Data    | Indicação da data de fim a extrair. Apenas é extraida informação cuja data seja igual ou superior ao indicado no campo anterior e menor ou igual ao indicado neste campo.  |
+|Data de Ref.    | Data de referência  |
+|Ordenação   | Indicação da forma como se pretende ordenar os documentos espelhados no ofício. ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-2397be44.png)  |
+|Ofício   | Indicação da Referência do ofício bem como do texto que será incorporado no mesmo.    |
+
+</br>Para gerar o ofício, o utilizador deve preencher os campos acima referenciados e de seguida clicar no botão "Calcular". assim que o cálculo dos saldos estiver finalizado, os botões "Imprimir" e "Email" ficarão ativos.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/oficio_cert.gif)
+
+**Imprimir**
+
+Se esta opção for selecionada o aspeto do ficheiro PDF gerado será como o do seguidamente apresentado.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-7fdad790.png)
+
+**Email**
+
+Se o utilizador pretender enviar o ofício através do email, deverá selecionar esta opção. Surgirá uma janela nova onde o utilizador deverá confirmar os dados automaticamente preenchidos pelo sistema e clicar no botão "Calcular" para que o sistema mostre os emails disponíveis das entidades selecionadas. Por fim, deve o utilizador clicar no botão "Enviar".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ad793db8.png)
+
+####2.8.2. Ofício a Devedores
+Neste sub-menu o utilizador deve preencher os seguintes campos:
+
+
+|Campo| Descrição|
+|:---:|:---|
+|Ano    | Indicação do ano dos documentos  |
+|Pri. Entidade    | Código da primeira entidade a extrair. Apenas é extraida informação cujo código seja igual ou superior ao indicado neste campo.    |
+|Últ. Entidade    |  Código da última entidade a extrair. Apenas é extraida informação cujo código seja igual ou inferior ao indicado neste campo. |
+|Pri. Data   |Indicação da data de inicio a extrair. Apenas é extraida informação cuja data seja igual ou superior ao indicado neste campo.   |
+|Últ. Data    | Indicação da data de fim a extrair. Apenas é extraida informação cuja data seja igual ou superior ao indicado no campo anterior e menor ou igual ao indicado neste campo.  |
+|Data de Ref.    | Data de referência  |
+|Ordenação   | Indicação da forma como se pretende ordenar os documentos espelhados no ofício. ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-2397be44.png)  |
+|Ofício   | Indicação da Referência do ofício bem como do texto que será incorporado no mesmo.    |
+
+</br>Para gerar o ofício, o utilizador deve preencher os campos acima referenciados e de seguida clicar no botão "Calcular". assim que o cálculo dos saldos estiver finalizado, os botões "Imprimir" e "Email" ficarão ativos.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/oficio_dev.gif)
+
+**Imprimir**
+
+Se esta opção for selecionada o aspeto do ficheiro PDF gerado será como o do seguidamente apresentado.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-5f7a04d5.png)
+
+**Email**
+
+Se o utilizador pretender enviar o ofício através do email, deverá selecionar esta opção. Surgirá uma janela nova onde o utilizador deverá confirmar os dados automaticamente preenchidos pelo sistema e clicar no botão "Calcular" para que o sistema mostre os emails disponíveis das entidades selecionadas. Por fim, deve o utilizador clicar no botão "Enviar".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1687c76e.png)
+
+####2.8.3. Ofício a Credores
+Neste sub-menu o utilizador deve preencher os seguintes campos:
+
+
+|Campo| Descrição|
+|:---:|:---|
+|Ano    | Indicação do ano dos documentos  |
+|Pri. Entidade    | Código da primeira entidade a extrair. Apenas é extraida informação cujo código seja igual ou superior ao indicado neste campo.    |
+|Últ. Entidade    |  Código da última entidade a extrair. Apenas é extraida informação cujo código seja igual ou inferior ao indicado neste campo. |
+|Pri. Data   |Indicação da data de inicio a extrair. Apenas é extraida informação cuja data seja igual ou superior ao indicado neste campo.   |
+|Últ. Data    | Indicação da data de fim a extrair. Apenas é extraida informação cuja data seja igual ou superior ao indicado no campo anterior e menor ou igual ao indicado neste campo.  |
+|Data de Ref.    | Data de referência  |
+|Ordenação   | Indicação da forma como se pretende ordenar os documentos espelhados no ofício. ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-2397be44.png)  |
+|Ofício   | Indicação da Referência do ofício bem como do texto que será incorporado no mesmo.    |
+
+</br>Para gerar o ofício, o utilizador deve preencher os campos acima referenciados e de seguida clicar no botão "Calcular". assim que o cálculo dos saldos estiver finalizado, os botões "Imprimir" e "Email" ficarão ativos.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/oficio_cred.gif)
+
+**Imprimir**
+
+Se esta opção for selecionada o aspeto do ficheiro PDF gerado será como o do seguidamente apresentado.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-86b1ee1a.png)
+
+**Email**
+
+Se o utilizador pretender enviar o ofício através do email, deverá selecionar esta opção. Surgirá uma janela nova onde o utilizador deverá confirmar os dados automaticamente preenchidos pelo sistema e clicar no botão "Calcular" para que o sistema mostre os emails disponíveis das entidades selecionadas. Por fim, deve o utilizador clicar no botão "Enviar".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1687c76e.png)
+
 ### 2.9. Antiguidade de Saldos
+Este sub-menu permite ao utilizador consultar saldos por entidade e por conta.
 
-### 2.10. Procura de Documentos -->
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-2138a2a4.png)
 
+####2.9.1. Dividas por Entidade
+
+Este sub-menu permite ao utilizador visualizar as dividas por entidade. Para tal, deve o utilizador preencher os seguintes critérios de pesquisa:
+
+|Critério| Descrição|
+|:---:|:---|
+|Ano    | Indicação do ano dos documentos que se pretende visualizar.  |
+|Primeira Entidade   |Código da primeira entidade a extrair. Apenas é extraida informação cujo código seja igual ou superior ao indicado neste campo.   |
+|Última Entidade    | Código da última entidade a extrair. Apenas é extraida informação cujo código seja igual ou inferior ao indicado neste campo.  |
+|Primeira Data    |Indicação da data de inicio a extrair. Apenas é extraida informação cuja data seja igual ou superior ao indicado neste campo.   |
+|Última Data    | Indicação da data de fim a extrair. Apenas é extraida informação cuja data seja igual ou superior ao indicado no campo anterior e menor ou igual ao indicado neste campo.   |
+|Data de Referência    | Data de referência  |
+|Primeiro tipo de Entidade    | Primeiro tipo da entidade a extrair. Apenas é extraida informação cujo código seja igual ou superior ao indicado neste campo.  |
+|Último tipo de Entidade   |Último tipo da entidade a extrair. Apenas é extraida informação cujo código seja igual ou superior ao indicado no campo superior e menos ou igual ao indicado neste campo.   |
+|Primeiro Fator de Aglutinação    |Primeiro fator de aglutinação a extrair. Apenas é extraida informação cujo código seja igual ou superior ao indicado neste campo.   |
+|Último Fator de Aglutinação    |Último fator de aglutinação a extrair. Apenas é extraida informação cujo código seja igual ou superior ao indicado no campo superior e menos ou igual ao indicado neste campo.   |
+|Atividade/Departamento    | Indicação do departamento.   |
+|Intervalos de Antiguidade    |  Indicação dos intervalos nos quais se pretende visualizar os saldos. sempre que se pretender finalizar os intervalos, o campo de fim deve ser preenchido com 9999.  ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-4a804784.png) |
+|Inclusão do P1 | Indicação da possibilidade de incluir ou não os documentos do tipo P1. ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-d5fecd37.png) |
+|Ordenação   |Indicação da forma  como se pretendem ordenar os documentos.   |
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/ant_ent_dev.gif)
+
+Após o preenchimento de todos os campos, o utilizador pode guardar a informação sob a forma de ficheiro CSV, PDF ou pode também gerar um extrato.
+
+**</br>Extrato**
+
+Quando a opção "Extrato" é selecionada é produzido um ficheiro CSV com o aspeto seguidamente apresentado. Este ficheiro é guardado no diretório indicado.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-67889ab7.png)
+
+**Imprimir**
+
+Quando a opção "Imprimir" é selecionada é gerado um ficheiro PDF com o aspeto seguidamente apresentado.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-929f1021.png)
+
+**Nota:** Quando é selecionada a opção "Ficheiro CSV" a informação contemplada neste ficheiro é igual à contemplada no PDF.
+
+
+####2.9.2. Créditos por Entidade
+
+Os processos e os campos inerentes a este sub-menu são semelhantes aos descritos em 2.9.1.
+
+####2.9.3. Dividas por Conta
+
+Este sub-menu permite ao utilizador visualizar as dividas por conta. Para tal, deve o utilizador preencher os seguintes critérios de pesquisa:
+
+|Critério| Descrição|
+|:---:|:---|
+|Ano  | Indicação do ano dos documentos que se pretende visualizar.  |
+|Primeira Conta   |Código da primeira conta a extrair. Apenas é extraida informação cujo código seja igual ou superior ao indicado neste campo.   |
+|Última Conta    | Código da última conta a extrair. Apenas é extraida informação cujo código seja igual ou inferior ao indicado neste campo.  |
+|Primeira Data    |Indicação da data de inicio a extrair. Apenas é extraida informação cuja data seja igual ou superior ao indicado neste campo.   |
+|Última Data    | Indicação da data de fim a extrair. Apenas é extraida informação cuja data seja igual ou superior ao indicado no campo anterior e menor ou igual ao indicado neste campo.   |
+|Data de Referência    | Data de referência  |
+|Primeiro tipo de Entidade    | Primeiro tipo da entidade a extrair. Apenas é extraida informação cujo código seja igual ou superior ao indicado neste campo.  |
+|Último tipo de Entidade   |Último tipo da entidade a extrair. Apenas é extraida informação cujo código seja igual ou superior ao indicado no campo superior e menos ou igual ao indicado neste campo.   |
+|Primeiro Fator de Aglutinação    |Primeiro fator de aglutinação a extrair. Apenas é extraida informação cujo código seja igual ou superior ao indicado neste campo.   |
+|Último Fator de Aglutinação    |Último fator de aglutinação a extrair. Apenas é extraida informação cujo código seja igual ou superior ao indicado no campo superior e menos ou igual ao indicado neste campo.   |
+|Atividade/Departamento    | Indicação do departamento.   |
+|Intervalos de Antiguidade    |  Indicação dos intervalos nos quais se pretende visualizar os saldos. sempre que se pretender finalizar os intervalos, o campo de fim deve ser preenchido com 9999.  ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-4a804784.png) |
+|Inclusão do P1 | Indicação da possibilidade de incluir ou não os documentos do tipo P1. ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-d5fecd37.png) |
+|Ordenação   |Indicação da forma como se pretendem ordenar os documentos.   |
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/ant_econt_dev.gif)
+
+Após o preenchimento de todos os campos, pode o utilizador guardar a informação sob a foram de ficheiro CSV ou PDF ou pode também gerar um extrato.
+
+**</br>Extrato**
+
+Quando a opção "Extrato" é selecionada é produzido um ficheiro CSV com o aspeto seguidamente apresentado. Este ficheiro é guardado no diretório indicado.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-af0d50d1.png)
+
+**Imprimir**
+
+Quando a opção "Imprimir" é selecionada é gerado um ficheiro PDF com o aspeto seguidamente apresentado.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-3c73cf9c.png)
+
+**Nota:** Quando é selecionada a opção "Ficheiro CSV" a informação contemplada neste ficheiro é igual à contemplada no PDF.
+
+
+####2.9.4. Créditos por Conta
+Os processos e os campos inerentes a este sub-menu são semelhantes aos descritos em 2.9.3.
+
+### 2.10. Procura de Documentos
+
+Este sub-menu permite ao utilizador realizar uma pesquisa geral de qualquer documento registado na aplicação. Esta pesquisa não só permite ao utilizar consultar os detalhes do documento registado mas também de todos os documentos subsequentes e antecedentes.
+
+Para efetuar a pesquisa, da forma mais simplificada, o utilizador deve seguir os seguintes passos:
+
+1. Indicar o **Tipo** de documento que pretende pesquisar;
+2. Indicar o **Ano** em que o documento foi registado;
+3. Clicar no botão **Filtrar**.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/proc_docs.gif)
+
+A pesquisa pode ser feita, como demonstrado anteriormente, apenas por tipo de documento e pelo seu ano. Porém, o utilizador pode efetuar a pesquisa com mais critérios preenchidos nos campos do ecrã com fundo branco.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-52f11b17.png)
+
+|Critério| Descrição|
+|:---|:---|
+|Número    | Indicação do número do documento  |
+|Série   | Indicação da série do documento  |
+|Entidade    |Indicação da entidade na qual o documento foi registado. As entidades registadas na aplicação podem ser consultadas através do botão redondo. ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a5874f19.png). O não preenchimento deste campo, o sistema irá mostrar o tipo de documento em todas as entidades.  |
+|Subtipo   | Indicação subtipo do documento. ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-c6afff23.png). |
+|DOCID    | Indicação do ID do documento.   |
+
+</br>A lista de documentos que correspondem aos critérios de pesquisa aparece na janela respetiva.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-d18dda6c.png)
+
+Para consultar o documento, o utilizador deve clicar sobre ele na janela "Lista de documentos". A informação do documento pode ser visualizada na janela com diferentes tabulações. Seguidamente, são descritos as diferentes tabulações disponíveis.
+
+|Tabulação| Descrição|
+|:---|:---|
+|Geral   | Esta tabulação fornece informação geral de todas as contas movimento lançadas bem como a sua chave orçamental. ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/proc_docs_geral.gif)  |
+|Orçamental    | Permite ao utilizador verificar o detalhe de documentos orçamentais. ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/proc_docs_orc.gif)   |
+|Analítica    | Permite ao utilizador consultar os movimentos nas contas analíticas nos documentos que o necessitem, por exemplo as faturas.   ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-c2f9f735.png)     |
+|Regularizações   | Esta tabulação permite ao utilizador visualizar os documentos subsequentes (Regularizações deste documento) e antecedentes (Regularizações para este documento) ao pesquisado. Se o utilizador pretender consultar um desses documentos (antecedentes e subsequentes) deve clicar sobre ele duas vezes.  ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-46011a03.png)   |
+|Encontro de contas    | Esta tabulação permite ao utilizador visualizar os documentos com os quais foi efetuado o encontro de contas. ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-259c26d8.png) |
+|Outras Informações    | Esta tabulação permite ao utilizador visualizar outras informações relativas ao documento pesquisado, nomeadamente as observações, o criador do documento, o último quem lhe fez alterações e as respetivas datas, no caso de ter sido efetuada uma transferência bancária é apresentada a respetiva informação e é também dada a informação relativamente à possibilidade de abater o documento pesquisado.  ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a6646b0f.png)   |
 
 ## 3. Menu Recolhas
 
@@ -1069,7 +1403,7 @@ Para importar dados relativos às referências genéricas dos Stocks o utilizado
 </br>No caso da gestão de Stocks, é possível importar ficheiros com as referências  **201, 203, 204, 205, 206, 207, 210, 211 e 214**. A descrição dos campos para cada uma das referências é apresentada seguidamente.
 
 ##### Referência 201
-Esta referência importa dados relativos a documetnos do tipo CB proveniente dos Stocks. Para ficheiros de referência 201 os campos que devem estar preenchidos são:
+Esta referência importa dados relativos a documentos do tipo CB proveniente dos Stocks. Para ficheiros de referência 201 os campos que devem estar preenchidos são:
 
 |   | Ref. | Nº CB. | Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
