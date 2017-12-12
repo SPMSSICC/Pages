@@ -2729,7 +2729,29 @@ __O utilizador pode verificar na impressão o novo campo de “Observações” 
 > Recomenda-se o uso da tecla **_TAB_** para a navegação pelos campos dos ecrãs do sistema. Esta forma de navegação garante que todos os campos obrigatórios sejam preenchidos e validados permitindo o posterior desbloqueio de outros campos.
 
 ### 4.1. Folha de Caixa
-_Em Atualização_
+
+Para aceder ao ecrã relativo à folha de caixa deve o utilizador seguir o seguinte caminho:
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-82d65e75.png)
+
+No ecrã que é aberto o utilizador deve preencher os seguintes campos:
+
+|Campo| Descrição|
+|:--|:--|
+| Ano   | Indicação do ano dos documentos contabilizados para a folha de caixa.  |
+|Do dia:    |Indicação da data a partir da qual se pretendem extrair dados para a folha de caixa.  |
+|Ao dia:   | Indicação da data até a qual se pretendem extrair dados para a folha de caixa.  |
+|Contas    | Indicação das contas que serão contabilizadas para a designação descrita do lado esquerdo. ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-990c9e1b.png)  |
+
+Para efetuar o cálculo da folha de caixa deve o utilizador, após ter preenchido todos os parâmetros, pressionar no botão "Calcular".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/folha_caixa.gif)
+
+Quando o cálculo da folha de caixa finalizar o utilizador pode guardar os dados em formato de ficheiro CSV, na diretoria indicada, ou poderá imprimi-los.
+
+**</br>Imprimir**
+Quando a opção "Imprimir" for selecionada o aspeto do ficheiro PDF gerado é igual ao seguidamente apresentado.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-b0d3ee0e.png)
 
 ### 4.2. Depósitos/Levantamentos
 Para aceder ao ecrã relativo ao registo de Depósitos/Levantamentos o utilizador deve seguir o caminho:
@@ -2769,7 +2791,7 @@ O lançamento efetuado pode agora ser consultado, guardado em PDF ou abatido. Pa
 
 3.Ao selecionar "Abater" o utilizador irá eliminar o registo efetuado.
 
-</br>Este movimento fica espelhado na Folha de Caixa bem como no Extrato de Contas.
+</br>Este movimento fica espelhado na Folha de Caixa e no Extrato de Contas. A forma como este movimento aparece é descrita seguidamente.
 
 **Folha de Caixa**
 </br>Para visualizar este movimento na Folha de Caixa deve o utilizador seguir o seguinte caminho na aplicação:
@@ -2778,7 +2800,7 @@ O lançamento efetuado pode agora ser consultado, guardado em PDF ou abatido. Pa
 
 De seguida, o utilizador deve selecionar o período de tempo que pretende visualizar e pressionar no botão "Calcular".
 
-Após o cálculo da Folha de Caixa estar concluído, o ecrã respetivo irá ser preenchido com os dados relativos à folha. De seguida esta informação pode ser guardada num ficheiro CSV ou impressa.
+Após o cálculo da Folha de Caixa estar concluído, o ecrã respetivo irá ser preenchido com os dados relativos à mesma. De seguida, esta informação pode ser guardada num ficheiro CSV ou impressa.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-037591be.png)
 
@@ -2791,12 +2813,12 @@ Quando a opção "Imprimir" é selecionada o aspeto do ficheiro PDF que é gerad
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ef257541.png)
 
-De seguida, o utilizador deve indicar os critérios de pesquisa do extrato, nomeadamente as datas, as contas, as entidades, o tipo de atividade e os números de contribuinte. Finda a indicação dos critérios o utilizador seleciona o que pretende fazer com o extrato, guardá-lo na forma de ficheiro CSV ou imprimi-lo.
+De seguida, o utilizador deve indicar os critérios de pesquisa do extrato, nomeadamente as datas, as contas, as entidades, o tipo de atividade e os números de contribuinte. Finda a indicação dos critérios, o utilizador seleciona o que pretende fazer com o extrato, guardá-lo na forma de ficheiro CSV ou imprimi-lo.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-947e6509.png)
 
 Quando a opção "Imprimir" é selecionada, o aspeto do ficheiro PDF que é gerado será igual ao seguidamente apresentado.
-**Nota:** Os movimentos registados no exemplo anterior estão destacados com o rectângulo vermelho.
+**</br>Nota:** Os movimentos registados no exemplo anterior estão destacados com o rectângulo vermelho.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-fa0c05b8.png)
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-633726c4.png)
@@ -2817,7 +2839,7 @@ O registo efetuado pode agora ser consultado, guardado em PDF ou abatido. Para e
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-bbd03a44.png)
 
-O registo de um levantamento também é espelhado na Folha de Caixa e no Extrato de Contas. A forma como aparece é semelhante à demosntrada em 4.2.1..
+O registo de um levantamento também é espelhado na Folha de Caixa e no Extrato de Contas de forma semelhante como demonstrado em 4.2.1..
 
 <hr>
 
