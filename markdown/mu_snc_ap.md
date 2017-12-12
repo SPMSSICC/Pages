@@ -664,7 +664,7 @@ Acedendo ao menu podemos ter acesso às seguintes opções:
 ### 2.1. Extrato por Entidades
 
 Ao selecionar a opção Extrato por Entidade irá ser aberto o seguinte ecrã:
-![](mu_snc_ap.assets/mu_snc_ap-3b8b4912.png)
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-3b8b4912.png)
 
 |Campo| Descitivo |
 |:---:|:---|
@@ -702,6 +702,7 @@ Ao selecionar a opção "Ficheiro" irá abrir uma janela nova onde o utilizador 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-57ecc2ba.png)
 
 **Email**
+
 Ao selecionar a opção "Email" irá abrir uma janela nova onde o utilizador deve
 1. Selecionar as entidades às quais pretende enviar o email. Esta seleção pode ser feita através do botão redondo disponível entre os campos.
 2. Selecionar o botão "Calcular" para que o sistemaverifique se as entidades selecionadas possuem email e se este está válido.
@@ -721,6 +722,7 @@ Ao calcular as notas de encomenda associadas à entidade selecionada, os campos 
 A informação relativa às notas de encomenda pode ser agora impressa, guardada num ficheiro CSV e enviada por Email.
 
 **Imprimir**
+
 Ao selecionar a opção "Imprimir" irá ser gerado um ficheiro em formato PDF com o seguinte aspeto:
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-b7c065b1.png)
 
@@ -736,6 +738,7 @@ Ao calcular as faturas associadas à entidade selecionada, os campos do ecrã da
 A informação relativa às faturas pode ser agora impressa, guardada num ficheiro CSV e enviada por Email.
 
 **Imprimir**
+
 Ao selecionar a opção "Imprimir" irá ser gerado um ficheiro em formato PDF com o seguinte aspeto:
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-7b336359.png)
 
@@ -750,6 +753,7 @@ Ao calcular as autorizações associadas à entidade selecionada, os campos do e
 A informação relativa às autorizações de pagamento pode ser agora impressa, guardada num ficheiro CSV e enviada por Email.
 
 **Imprimir**
+
 Ao selecionar a opção "Imprimir" irá ser gerado um ficheiro em formato PDF com o seguinte aspeto:
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-e8737dce.png)
 
@@ -1017,12 +1021,9 @@ Para a importação de dados de pessoal, podem ser importados ficheiros com as r
 |Centro de Custo   | 179 - 188 (10)  | Deve ser indicado o centro de custo.    |
 
 
-
 <div style="height:40px">
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/101.sncap'">Descarregar TXT</button>
 </div>
-
-
 
 </br>**Contas a crédito**
 </br> As contas a crédito das faturas conferidas dos fornecedores (P2) são obtidas através da relação, previamente estabelecida, com as contas a débito dos cabimentos.
