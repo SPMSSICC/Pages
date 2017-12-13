@@ -355,7 +355,7 @@ Formulário de parametrização:
 | Receita / Despesa | Informação relativa à conta analítica, indicando se é uma conta de despesa ou de receita. Na inserção de uma nova conta, o utilizador deve marcar a opção correta. ![receita_despesa](https://spmssicc.github.io/pages/markdown/menus.assets/img_receita_despesa.png) |
 | Classificador económico | Informação relativa ao classificador económico. No caso da inserção de uma nova conta, o utilizador tem acesso a uma listagem de classificadores económicos, carregando no círculo ![radio](https://spmssicc.github.io/pages/markdown/menus.assets/img_radio.png) à direita do campo de código. A descrição do classificador económico será colocada automaticamente pelo sistema. |
 
-</br>**Desdobramento de Contas**
+####Desdobramento de Contas
 </br>Quando o utilizador pretende desdobrar uma conta deve ele seguir o seguinte processo:
 
 1. Deve o utilizador selecionar a conta que pretende desdobrar;
@@ -2782,7 +2782,7 @@ O lançamento efetuado pode agora ser consultado, guardado em PDF ou abatido. Pa
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-47b46bf0.png)
 
 1.Ao selecionar "PDF" irá ser aberta uma nova janela onde o utilizador poderá visualizar um documento com o seguinte aspeto:
-
+****
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-e17f8a0a.png)
 
 2.Ao selecionar "Consulta" irá ser aberto um novo ecrã onde o utilizador poderá visualizar as contas que foram lançadas:
