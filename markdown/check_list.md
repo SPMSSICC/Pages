@@ -11,7 +11,8 @@ Todas as entidades que realizaram migração para o SI SICC SNC-AP, para garanti
 Devem as entidades verificar o Plano de Contas Oficial carregado no sistema no sentido de avaliar se este necessita ou não de alterações - desdobramentos.
 Para verificar o plano de contas, deve ser seguido o seguinte caminho:
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-829c83f4.png)
+![](https://spmssicc.github.io/pages/markdown/check_list.assets/check_list-5bfbffc6.png)
+
 
 #####1.1 Desdobramento de contas
 
@@ -19,7 +20,7 @@ Após a verificação do Plano de Contas SNC-AP carregado no sistema, em caso de
 
 <div class="description"> A descrição do processo de desdobramento de contas pode ser visualizada <span onclick="window.open('https://spmssicc.github.io/pages/?doc=mu_snc_ap&anchor=desdobramento-de-contas','_blank')">aqui </span></div>
 
-####2. Contas à Ordem das Instituições Bancárias.
+####2. Contas à Ordem das Instituições Bancárias
 
 No sentido de se conseguir efetuar pagamentos via transferência bancária, as instituições bancárias devem ter contas parametrizadas. Essas parametrizações devem ser feitas pelas entidades e para aceder ao ecrã de parametrização deve ser seguido o seguinte caminho na aplicação:
 
@@ -34,14 +35,18 @@ Uma das componentes cruciais em SNC-AP que tem de ser parametrizada é a chave o
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-5a565b7c.png)
 
-Como a chave orçamental é composta por vários elementos, o sistema possibilita a parametrização de cada um deles.
+<div class="description">A descrição do processo da inserção da chave orçamental pode visualizada <span onclick="window.open('https://spmssicc.github.io/pages/?doc=mu_snc_ap&anchor=112-exercícios','_blank')">aqui</span></div>
+
+Como a chave orçamental é composta por vários elementos, o sistema possibilita a parametrização de cada um deles. Para parametrizar cada elemento da chave orçamental deve ser seguido o seguinte caminho na aplicação:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-508ed546.png)
 
 <div class="description">A descrição do processo de parametrização dos elementos da chave orçamental pode visualizada <span onclick="window.open('https://spmssicc.github.io/pages/?doc=mu_snc_ap&anchor=1313-chave-orçamental','_blank')">aqui</span></div>
 
 
 ####4. Classificadores Económicos
 
-Devem as entidades verificar os classificadores económicos carregados no sistema e proceder À sua alteração caso seja necessário. Para aceder ao ecrã onde esta verificação e alteração pode ser efetuada deve ser seguido o seguinte caminho na aplicação:
+Devem as entidades verificar os classificadores económicos carregados no sistema e proceder à sua alteração caso seja necessário. Para aceder ao ecrã onde esta verificação e alteração pode ser efetuada deve ser seguido o seguinte caminho na aplicação:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-18ba7857.png)
 

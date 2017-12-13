@@ -1318,7 +1318,7 @@ font-weight:700
 blockquote {
 border-left:solid 5px #838181;
 background-color: rgba(242, 142, 10, 0.55);
-padding:.3em 0 .3em 2em
+padding:.3em 1em .3em 2em
 }
 
 br.clear {
