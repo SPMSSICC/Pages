@@ -102,6 +102,24 @@ height:500px;
   cursor: pointer;
 }
 
+.description{
+width:70%;
+height: 5em;
+background-color:#29615D;
+opacity:0.8;
+-webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+text-align:center;
+vertical-align:middle;
+color: white;
+font-size: 1.2em;
+margin: auto;
+padding:1em;
+}
+
+.description:hover{
+  cursor:pointer;
+}
 .speech {
   width: 80%;
   height: 50px;
@@ -935,8 +953,27 @@ padding:.3em .2em .2em .3em
 
 .barra{
   border:none;
-  /*max-width: 40em;
-  margin:auto;*/
+
+}
+
+.contactos{
+  /*float:right;*/
+  display:inline-grid;
+  border: 3px solid rgb(242, 157, 11);
+  margin:10px;
+  max-width: 14em;
+  max-height: 8em;
+  background: white;
+  text-align: center;
+  padding:20px;
+}
+
+.contactos p{
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align:center;
+  vertical-align: middle;
+  color:  rgb(1, 83, 83);
 }
 
 .quick_acess{
