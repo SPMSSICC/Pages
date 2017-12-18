@@ -1998,7 +1998,7 @@ Antes da importação,o utilizador, tem de usar o botão "Ver/Testar Ficheiro". 
 
 ![img_68.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_68.png)
 
-Após validação dos elementos integrados e constatado que os valores estão coerentes com o ficheiro integrado, o utilizador deve assim usar o botão  "Importa Ligação". Depois de selecionar e de forma automática, o sistema gera uma mensagem de confirmação, com a indicação abaixo discrita.
+Após validação dos elementos integrados e constatado que os valores estão coerentes com o ficheiro integrado, o utilizador deve assim usar o botão  "Importa Ligação". Depois de selecionar e de forma automática, o sistema gera uma mensagem de confirmação, com a indicação abaixo descrita.
 
 ![img_importacao_concluida_sucesso.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_importacao_concluida_sucesso.png)
 
@@ -2156,8 +2156,7 @@ Antes da importação,o utilizador, tem de usar o botão "Ver/Testar Ficheiro". 
 
 ![img_98.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_98.png)
 
-Após validação dos elementos integrados e constatado que os valores estão coerentes com o ficheiro integrado, o utilizador deve assim usar o botão "Importa Ligação". Depois de selecionar e de forma automática, o sistema gera uma mensagem de confirmação, com a indicação abaixo discrita.
-
+Após validação dos elementos integrados e constatado que os valores estão coerentes com o ficheiro integrado, o utilizador deve assim usar o botão "Importa Ligação". Depois de selecionar e de forma automática, o sistema gera uma mensagem de confirmação, com a indicação abaixo descrita.
 ![img_98a.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_98a.png)
 
 Sempre que um "Número de Processos de Aquisição" já tenha Compromissos associados, o sistema deve apresentar a seguinte mensagem:
@@ -2196,7 +2195,7 @@ Antes da importação,o utilizador, tem de usar o botão "Ver/Testar Ficheiro". 
 
 ![img_104.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_104.png)
 
-Após validação dos elementos integrados e constatado que os valores estão coerentes com o ficheiro integrado, o utilizador deve assim usar o botão. Depois de selecionar e de forma automática, o sistema gera uma mensagem de confirmação, com a indicação abaixo discrita.
+Após validação dos elementos integrados e constatado que os valores estão coerentes com o ficheiro integrado, o utilizador deve assim usar o botão. Depois de selecionar e de forma automática, o sistema gera uma mensagem de confirmação, com a indicação abaixo descrita.
 
 ![img_105.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_105.png)
 
@@ -2276,7 +2275,7 @@ Após confirmação, o sistema assume assim que para o P1 e para a entidade já 
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-32c2e610.png)
 
-Nesta fase, ao exemplo das anteriores, demostramos este processo lançamento feito por importação de ficheiro através do botão "Importar".
+Nesta fase, ao exemplo das anteriores, demonstramos este processo o lançamento feito por importação de ficheiro através do botão "Importar".
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-cce29a3b.png)
 
@@ -2296,13 +2295,47 @@ O aspeto do ficheiro CSV. é o abaixo demonstrado, sendo que o mesmo deve obedec
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/CP_SNCAP.csv'">Descarregar CSV</button>
 </div>
 
-Antes da importação,o utilizador, tem de usar o botão "Ver/Testar Ficheiro". Ao selecionar este mesmo botão, o utilizador constata que os elementos do ficheiro CSV estão visíveis e que o ficheiro integrado está testado. Caso ocorram erros, os mesmos produzem um relatório no ecrã, na caixa criada para o efeito, no canto inferior direito do ecrã.
+Antes da importação, o utilizador, tem de usar o botão "Ver/Testar Ficheiro". Ao selecionar este mesmo botão, o utilizador constata que os elementos do ficheiro CSV estão visíveis e que o ficheiro integrado está testado. Caso ocorram erros, os mesmos produzem um relatório no ecrã, na caixa criada para o efeito, no canto inferior direito do ecrã.
 
 ![img_120.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_120.png)
 
-Após validação dos elementos integrados e constatado que os valores estão coerentes com o ficheiro integrado, o utilizador deve assim usar o botão "Importa Ligação". Depois de selecionar e de forma automática, o sistema gera uma mensagem de confirmação, com a indicação abaixo discrita.
+Após validação dos elementos integrados e constatado que os valores estão coerentes com o ficheiro integrado, o utilizador deve assim usar o botão "Importa Ligação". Depois de selecionar e de forma automática, o sistema gera uma mensagem de confirmação, com a indicação abaixo descrita.
 
 ![img_importacao_concluida_sucesso.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_importacao_concluida_sucesso.png)
+
+
+**Importação de documentos agrupada**
+
+É também possível, nesta fase de registos, importar documentos de uma forma agrupada, isto é, importar todos os documentos referentes ao ciclo de despesa até às faturas inclusivé (CB, CM, CP, P1 e P2). Para tal, deve o utilizador selecionar o botão "Ciclo da Despesa" disponível ao lado do botão "Importar".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-436a2041.png)
+
+No ecrã que é aberto, ecrã este que é semelhante ao ecrã de importações descritas anteriormente, deve o utilizador selecionar da directoria, o ficheiro em **formato CSV**. De seguida deve pressionar no botão "Ver/Testar Ficheiro" para que o sistema valide o ficheiro que se pretende importar.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-e54ee938.png)
+
+Após ter sido concluída a validação do ficheiro, no caso de este apresentar a estrutura correta, os campos do ecrã irão ficar preenchidos com dados do ficheiro.
+No caso do ficheiro apresentar erros, estes irão ser reportados na janela respetiva e será gerada uma mensagem informativa.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ae2d54e7.png)
+
+Os erros reportados devem ser corrigidos e o ficheiro atualizado deve ser novamente validado.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/import_dsp.gif)
+
+Por fim, no sentido de confirmar e executar a importação de dados, deve o utilizador pressionar no botão "Importa Ligação". O sistema irá gerar uma mensagem de confirmação, com a indicação abaixo descrita.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-fe7caecb.png)
+
+O aspeto do ficheiro CSV a ser importado deve ser semelhante ao seguidamente apresentado:
+
+> **Nota:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-0602de55.png)
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/CSV_DSP_exemplo_1.csv'">Descarregar CSV</button>
+</div>
 
 #### 3.2.6. Alteração de Lançamentos (AL)
 
@@ -2335,7 +2368,7 @@ Antes da importação,o utilizador, tem de usar o botão "Verificar Ficheiro". A
 
 ![img_125.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_125.png)
 
-Após validação dos elementos integrados e constatado que os valores estão coerentes com o ficheiro integrado, o utilizador deve assim usar o botão "Importa Ligação". Depois de selecionar e de forma automática, o sistema gera uma mensagem de confirmação, com a indicação abaixo discrita.
+Após validação dos elementos integrados e constatado que os valores estão coerentes com o ficheiro integrado, o utilizador deve assim usar o botão "Importa Ligação". Depois de selecionar e de forma automática, o sistema gera uma mensagem de confirmação, com a indicação abaixo descrita.
 
 ![img_importacao_concluida_sucesso.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_importacao_concluida_sucesso.png)
 
@@ -2387,7 +2420,7 @@ Antes da importação, o utilizador, tem de usar o botão "Ver/Testar Ficheiro".
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-43ae47eb.png)
 
-Após validação dos elementos integrados e constatado que os valores estão coerentes com o ficheiro integrado, o utilizador deve assim usar o botão "Importa Ligação". Depois de selecionar e de forma automática, o sistema gera uma mensagem de confirmação, com a indicação abaixo discrita.
+Após validação dos elementos integrados e constatado que os valores estão coerentes com o ficheiro integrado, o utilizador deve assim usar o botão "Importa Ligação". Depois de selecionar e de forma automática, o sistema gera uma mensagem de confirmação, com a indicação abaixo descrita.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-8bbe8dd6.png)
 
@@ -2584,7 +2617,7 @@ Antes da importação, o utilizador, tem de usar o botão "Ver/Testar Ficheiro".
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-70996b6c.png)
 
-Após validação dos elementos integrados e constatado que os valores estão coerentes com o ficheiro integrado, o utilizador deve assim usar o botão "Importa Ligação". Depois de selecionar e de forma automática, o sistema gera uma mensagem de confirmação, com a indicação abaixo discrita.
+Após validação dos elementos integrados e constatado que os valores estão coerentes com o ficheiro integrado, o utilizador deve assim usar o botão "Importa Ligação". Depois de selecionar e de forma automática, o sistema gera uma mensagem de confirmação, com a indicação abaixo descrita.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a3186286.png)
 
