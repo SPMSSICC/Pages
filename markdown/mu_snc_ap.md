@@ -2303,8 +2303,7 @@ Após validação dos elementos integrados e constatado que os valores estão co
 
 ![img_importacao_concluida_sucesso.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_importacao_concluida_sucesso.png)
 
-
-#####Importação de documentos de forma agrupada
+##### Importação de documentos de forma agrupada
 
 É também possível, nesta fase de registos, importar documentos de uma forma agrupada, isto é, importar todos os documentos referentes ao ciclo de despesa até às faturas inclusivé (CB, CM, CP, P1 e P2). Para tal, deve o utilizador selecionar o botão "Ciclo da Despesa" disponível ao lado do botão "Importar".
 
