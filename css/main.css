@@ -109,7 +109,8 @@ height:500px;
   background-color: rgb(245, 245, 245);
   padding: 1em 1em 1em 1em;
   margin-top: 1em;
-  border:none
+  border:none;
+  font-size: .9em;
 
 /* width:70%;
 height: 5em;
@@ -1171,7 +1172,7 @@ display: inline-block;
   opacity: 1;
   display:block;
   float:right;
-  background-color: #3d596d
+  background-color: #3d596d;
 }
 
 #descarregar:hover{
