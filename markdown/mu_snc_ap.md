@@ -3215,6 +3215,7 @@ Se a entendade tiver uma conta em POCMS que não tiver nenhuma conta em SNC-AP a
 Para isso, deve selecionar a conta em POCMS e no campo "Conta:" de SNC-AP selecionar, através do botão redondo, a conta que pretende associar.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-5a2a0179.png)
+
 Por fim deve selecionar o botão "Confirmar".
 
 
