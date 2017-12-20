@@ -90,20 +90,25 @@ border-radius:.2em;width: 100px;height: 25px;opacity: 1;display:block;float:righ
 
 ![](https://spmssicc.github.io/pages/markdown/check_list.assets/check_list-fe8c2700.png)
 
-<div style="padding-top:20px">
-<label class="container">7. Carregar o Orçamento Anual<input type="checkbox"> <span class="checkmark"></span></label></div>
+>NOTA: O Plano de Contas POCMS apresentado neste menu refere-se ao plano de contas da própria entidade. Assim, podem existir contas específicas do organismo que não está contemplada a respectiva associação. Para as contas do Plano de Contas Oficial foi introduzido no sistema as associações disponibilizadas pela ACSS.
+Todas as contas de movimento devem ter associação em SNC-AP.   
 
-<div style="padding-left:40px">Após ter parametrizado o sistema, deve a entidade, carregar o orçamento anual.Para efetuar o carregamento do Orçamento Anual deve ser seguido o seguinte caminho:</div>
+<div style="padding-top:20px">
+<label class="container">7. Introduzir, no sistema, o Orçamento Anual<input type="checkbox"> <span class="checkmark"></span></label></div>
+
+<div style="padding-left:40px">Após ter parametrizado o sistema, deve a entidade, registar o orçamento anual no seguinte menu:</div>
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-8570877f.png)
+
+>NOTA: Este registo também poderá ser efetuado atravésda importação de ficheiro CSV de acordo com o manual.  
 
 <div style="padding-left:40px"><div class="description"> A descrição deste processo poderá ser consultado no capítulo 7.1.1. do Manual de Utilizador SNC-AP. <button  style="border:none;
 border-radius:.2em;width: 100px;height: 25px;opacity: 1;display:block;float:right;background-color: #3d596d" onclick="window.open('https://spmssicc.github.io/pages/?doc=mu_snc_ap&anchor=711-recolha-de-propostas-orçamentais','_blank')">Ver Manual</span></div></div>
 
 <div style="padding-top:20px">
-<label class="container">8. Carregar os Fundos Disponíveis LCPA<input type="checkbox"> <span class="checkmark"></span></label></div>
+<label class="container">8. Introduzir, no sistema, o Orçamento dos Fundos Disponíveis LCPA<input type="checkbox"> <span class="checkmark"></span></label></div>
 
-<div style="padding-left:40px">Após ter sido carregue o orçamento anual, deve agora ser carregado o orçamento LCPA. Para efetuar este carregamento deve ser seguido o seguinte caminho:</div>
+<div style="padding-left:40px">Após ter sido introduzido o orçamento anual, deve agora ser registado o orçamento LCPA no seguinte menu:</div>
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-4582f3fc.png)
 
@@ -112,8 +117,12 @@ border-radius:.2em;width: 100px;height: 25px;opacity: 1;display:block;float:righ
 
 
 <div style="padding-top:20px">
-<label class="container">9. Assegurar as Ligações a outros SI<input type="checkbox"> <span class="checkmark"></span></label></div>
-<div style="padding-left:40px">As entidades devem assegurar que os outros Sistemas de Informação estejam em conformidade com o novo normativo contabilístico SNC-AP.</div>
+<label class="container">9. Assegurar as Ligações a outros Sistemas de Informação<input type="checkbox"> <span class="checkmark"></span></label></div>
+<div style="padding-left:40px">As entidades devem assegurar que os outros Sistemas de Informação contemplem as contas do novo normativo contabilístico SNC-AP.
+
+Informamos ainda que o sistema RHV está a ser atualizado pela SPMS com as definições enviadas pela ACSS.
+
+Todas as ligações são efetuadas pelos layouts descritas no 3.1. do Manual.</div>
 
 ####Efetuar Registos
 
@@ -121,3 +130,19 @@ Após terem sido terminadas as tarefas descritas, a entidade passa a estar pront
 
 <div class="description"> A descrição deste processo poderá ser consultado no capítulo 1.1.2. do Manual de Utilizador SNC-AP. <button  style="border:none;
 border-radius:.2em;width: 100px;height: 25px;opacity: 1;display:block;float:right;background-color: #3d596d" onclick="window.open('https://spmssicc.github.io/pages/?doc=mu_snc_ap&anchor=32-ciclo-despesa','_blank')">Ver Manual</span></div>
+
+
+NOTAS adicionais
+
+Com a implementação do SNC-AP foram efetuadas algumas alterações ao sistema nomeadamente:
+1. Levantamentos e depósitos
+
+As operações relacionadas com levantamentos e depositos são efetuadas através do menu:
+
+![](https://spmssicc.github.io/pages/markdown/check_list.assets/check_list-7a102c45.png)
+
+O processo esta no manual no cap 4.4
+
+2. Os registos efetuados no menu de operações diversas (OD) respeitam unicamente os lançamentos contabilísticos de fluxos económicos.
+
+3. As designadas rubricas financeiras foram alteradas para os códigos iniciados por 99. Dessa forma os registos contabilisticos relacionados com caixa devem ser efetuados na conta especifica 111 CAIXA (e não nas rubricas financeiras).
