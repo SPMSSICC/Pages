@@ -2956,19 +2956,19 @@ Se as alterações estão validadas, o próximo passo é de “Aprovar” para q
 
 Este processo de carregamento do Orçamento Ordinário bem como das alterações do mesmo pode ser efetuado através da importação de ficheiro em formato CSV.
 
-![]((https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-dbcbf021.png)
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-dbcbf021.png)
 
 Uma nova janela irá abrir onde o utilizador deve escolher do diretório de origem, o ficheiro que pretende importar. Seguidamente, deve testar se a estrutura do ficheiro selecionado é correta através da seleção do botão "Ver/Testar Ficheiro".
 
-![]((https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1832d719.png)
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1832d719.png)
 
 Quando o ficheiro tem a estrutura correta, os campos do ecrã aparecem preenchidos com os elementos do ficheiro importado.
 Por fim o utilizador deve confirmar a importação através da seleção do botão "Importar Ligação".
 
-![]((https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-505866f0.png)
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-505866f0.png)
 No caso do ficheiro ter erro estes são reportados na janela criada para o efeito. Estes erros têm de ser corrigidos e o ficheiro tem de ser novamente testado.
 </br>O ficheiro CSV a ser importado deve ter o seguinte aspeto:
-![]((https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-f1a6d097.png)
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-f1a6d097.png)
 
 <div style="height:40px">
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/PO_SNCAP.csv'">Descarregar CSV</button>
