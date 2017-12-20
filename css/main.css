@@ -1063,33 +1063,29 @@ padding:.3em .2em .2em .3em
 }
 
 .contactos{
-  /*float:right;*/
-  display:inline-grid;
-  border: 3px solid rgb(242, 157, 11);
+  float:left;
+  display:block;
+  height: 40px;
+  width: 100%;
   margin:10px;
-  max-width: 14em;
-  max-height: 8em;
-  background: white;
-  text-align: center;
-  padding:20px;
+  text-align: left;
+  padding-top:20px;
+  border-top: 2px solid rgb(242, 157, 11);
+  border-bottom: 2px solid rgb(242, 157, 11);
 }
 
-.contactos p{
+.contactos span{
   font-size: 1.2em;
   font-weight: bold;
-  text-align:center;
-  vertical-align: middle;
-  color:  rgb(1, 83, 83);
+  color:  rgb(242, 157, 11);
 }
 
 .quick_acess{
 display:inline-block;
 width: 14em;
 height: 8em;
-/*border: 3px solid white;*/
 margin:10px;
 background:  rgb(1, 83, 83);
-/*background:rgb(242, 157, 11) ;*/
 text-align: center;
 padding: 20px;
 }
@@ -1109,7 +1105,7 @@ margin-right: auto;
   text-align: center;
   color:white;
   font-weight: bold;
-  font-size: 1.3em;
+  font-size: 1.2em;
   vertical-align: bottom;
   top:80%;
 }
@@ -1555,10 +1551,6 @@ transition:margin-top 1s ease, margin-bottom 1s ease, margin-left 1s ease, margi
   body {
   min-width:1200px;
   transition:all 1s ease
-  }
-
-  #mapaEntidadesSICC iframe {
-  width: 70%;
   }
 
   #content {
