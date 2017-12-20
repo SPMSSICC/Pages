@@ -1,11 +1,20 @@
-#Check list SNC-AP: tarefas a executar
+<div style="color:#29615D;
+font-size:2em;
+font-weight:700;
+letter-spacing:0;
+line-height:1em;
+margin-bottom:1.5em;
+margin-top:1.5em;
+text-align:left"><img src="https://spmssicc.github.io/pages/img/logos/SPMS2016B_272x105.png" style="width:150px; height:50px;display:inline;top:300px">
+
+Check list SNC-AP: <span style="font-size:.9em">Tarefas a executar</span></div>
 
 No sentido de facilitar os processos internos de cada instituição e no âmbito da parametrização e organização do novo sistema informático centralizado em SNC-AP, são descritas as seguintes tarefas a realizar por ordem sequencial.
 
 ![](https://spmssicc.github.io/pages/markdown/check_list.assets/check_list-3c4ff805.png)
 
 <div style="padding-top:20px">
-<label class="container"> 1.Inserção/Alteração dos Dados realtivos à instituição <input type="checkbox"> <span class="checkmark"></span></label>
+<label class="container"> 1.Inserção/Alteração dos Dados relativos à instituição <input type="checkbox"> <span class="checkmark"></span></label>
 </div>
 
 <div style="padding-left:40px">Devem as entidades verificar/alterar os dados relativos à instituição.
