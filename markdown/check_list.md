@@ -75,7 +75,7 @@ border-radius:.2em;width: 100px;height: 25px;opacity: 1;display:block;float:righ
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-18ba7857.png)
 
 
->NOTA: Todas os classificadores económicos criados ou alterados devem ser associados às respetivas contas no menu de plano de contas.  
+>**NOTA:** Todas os classificadores económicos criados ou alterados devem ser associados às respetivas contas no menu de plano de contas.  
 
 <div style="padding-left:40px"><div class="description"> A descrição deste processo poderá ser consultado no capítulo 1.3.1.2. do Manual de Utilizador SNC-AP. <button  style="border:none;
 border-radius:.2em;width: 100px;height: 25px;opacity: 1;display:block;float:right;background-color: #3d596d" onclick="window.open('https://spmssicc.github.io/pages/?doc=mu_snc_ap&anchor=1312-classificadores-económicos','_blank')">Ver Manual</span></div></div>
@@ -87,10 +87,10 @@ border-radius:.2em;width: 100px;height: 25px;opacity: 1;display:block;float:righ
 <div style="padding-left:40px">As entidades devem também verificar a conversão de contas POCMS para SNC-AP no sentido de garantir que estão contempladas na conversão todas as contas necessárias. Para aceder ao ecrã onde esta verificação é efetuada deve ser seguido o seguinte caminho na aplicação:</div>
 
 ![](https://spmssicc.github.io/pages/markdown/check_list.assets/check_list-9dbdf34f.png)
+![](https://spmssicc.github.io/pages/markdown/check_list.assets/check_list-ab641a9c.png)
 
-![](https://spmssicc.github.io/pages/markdown/check_list.assets/check_list-fe8c2700.png)
 
->NOTA: O Plano de Contas POCMS apresentado neste menu refere-se ao plano de contas da própria entidade. Assim, podem existir contas específicas do organismo que não está contemplada a respectiva associação. Para as contas do Plano de Contas Oficial foi introduzido no sistema as associações disponibilizadas pela ACSS.
+>**NOTA:** O Plano de Contas POCMS apresentado neste menu refere-se ao plano de contas da própria entidade. Assim, podem existir contas específicas do organismo que não está contemplada a respectiva associação. </br></br>Para as contas do Plano de Contas Oficial foi introduzido no sistema as associações disponibilizadas pela ACSS.
 Todas as contas de movimento devem ter associação em SNC-AP.   
 
 <div style="padding-top:20px">
@@ -100,7 +100,7 @@ Todas as contas de movimento devem ter associação em SNC-AP.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-8570877f.png)
 
->NOTA: Este registo também poderá ser efetuado atravésda importação de ficheiro CSV de acordo com o manual.  
+>**NOTA:** Este registo também poderá ser efetuado atravésda importação de ficheiro CSV de acordo com o manual.  
 
 <div style="padding-left:40px"><div class="description"> A descrição deste processo poderá ser consultado no capítulo 7.1.1. do Manual de Utilizador SNC-AP. <button  style="border:none;
 border-radius:.2em;width: 100px;height: 25px;opacity: 1;display:block;float:right;background-color: #3d596d" onclick="window.open('https://spmssicc.github.io/pages/?doc=mu_snc_ap&anchor=711-recolha-de-propostas-orçamentais','_blank')">Ver Manual</span></div></div>
@@ -122,27 +122,32 @@ border-radius:.2em;width: 100px;height: 25px;opacity: 1;display:block;float:righ
 
 Informamos ainda que o sistema RHV está a ser atualizado pela SPMS com as definições enviadas pela ACSS.
 
-Todas as ligações são efetuadas pelos layouts descritas no 3.1. do Manual.</div>
+<div class="description"> Todas as ligações são efetuadas pelos layouts descritos no capítulo 3.1 do Manual de Utilizador SNC-AP. <button  style="border:none;
+border-radius:.2em;width: 100px;height: 2em;opacity: 1;display:block;float:right;background-color: #3d596d" onclick="window.open('https://spmssicc.github.io/pages/?doc=mu_snc_ap&anchor=32-ciclo-despesa','_blank')">Ver Manual</span></div></div>
 
-####Efetuar Registos
+#####Efetuar Registos
 
 Após terem sido terminadas as tarefas descritas, a entidade passa a estar pronta para iniciar os registos contabilísticos em SNC-AP.
 
-<div class="description"> A descrição deste processo poderá ser consultado no capítulo 1.1.2. do Manual de Utilizador SNC-AP. <button  style="border:none;
-border-radius:.2em;width: 100px;height: 25px;opacity: 1;display:block;float:right;background-color: #3d596d" onclick="window.open('https://spmssicc.github.io/pages/?doc=mu_snc_ap&anchor=32-ciclo-despesa','_blank')">Ver Manual</span></div>
+<div class="description"> A descrição deste processo poderá ser consultado no capítulo 3.2 do Manual de Utilizador SNC-AP. <button  style="border:none;
+border-radius:.2em;width: 100px;height: 2em;opacity: 1;display:block;float:right;background-color: #3d596d" onclick="window.open('https://spmssicc.github.io/pages/?doc=mu_snc_ap&anchor=32-ciclo-despesa','_blank')">Ver Manual</span></div>
 
 
-NOTAS adicionais
+<div style="background-color:#29615D; padding:10px; margin-top:30px; width:100%;border:5px">
 
-Com a implementação do SNC-AP foram efetuadas algumas alterações ao sistema nomeadamente:
-1. Levantamentos e depósitos
+<span style="font-weight:bold; text-align:center;color:white">NOTAS adicionais</span></div>
+
+</br>Com a implementação do SNC-AP foram efetuadas algumas alterações ao sistema nomeadamente:
+
+</br><span style="color:#29615D; font-weight:bold">1.Levantamentos e depósitos</span>
 
 As operações relacionadas com levantamentos e depositos são efetuadas através do menu:
 
 ![](https://spmssicc.github.io/pages/markdown/check_list.assets/check_list-7a102c45.png)
 
-O processo esta no manual no cap 4.4
+<div class="description"> A descrição deste processo poderá ser consultado no capítulo 4.2. do Manual de Utilizador SNC-AP. <button  style="border:none;
+border-radius:.2em;width: 100px;height: 25px;opacity: 1;display:block;float:right;background-color: #3d596d" onclick="window.open('https://spmssicc.github.io/pages/?doc=mu_snc_ap&anchor=42-dep%C3%B3sitoslevantamentos','_blank')">Ver Manual</span></div>
 
-2. Os registos efetuados no menu de operações diversas (OD) respeitam unicamente os lançamentos contabilísticos de fluxos económicos.
+</br><span style="color:#29615D; font-weight:bold">2.Os registos efetuados no menu de operações diversas (OD) respeitam unicamente os lançamentos contabilísticos de fluxos económicos.</span>
 
-3. As designadas rubricas financeiras foram alteradas para os códigos iniciados por 99. Dessa forma os registos contabilisticos relacionados com caixa devem ser efetuados na conta especifica 111 CAIXA (e não nas rubricas financeiras).
+</br><span style="color:#29615D; font-weight:bold">3.As designadas rubricas financeiras foram alteradas para os códigos iniciados por 99. Dessa forma os registos contabilisticos relacionados com caixa devem ser efetuados na conta especifica 111 CAIXA (e não nas rubricas financeiras).</span>
