@@ -223,8 +223,10 @@ Uma especial atenção deve ser dada aos campos que são de preenchimento obriga
 Quando o ficheiro é preenchido em Excel o processo para guardar o ficheiro de forma correta é:
 
 1. Indicar o nome do ficheiro consoante o tipo de dados importados (Nomes indicados mais adiante);
-2. Indicar o tipo de ficheiro - CSV (Comma delimited) ![](https://spmssicc.github.io/pages/markdown/cer_migracao_sicc.assets/cer_migracao_sicc-dff900b1.png)
-3. Indicar o tipo de codificação do ficheiro. ![](https://spmssicc.github.io/pages/markdown/cer_migracao_sicc.assets/tabelas_mestre.gif)
+2. Indicar o tipo de ficheiro - CSV (Comma delimited)
+ ![](https://spmssicc.github.io/pages/markdown/cer_migracao_sicc.assets/cer_migracao_sicc-dff900b1.png)
+3. Indicar o tipo de codificação do ficheiro.
+ ![](https://spmssicc.github.io/pages/markdown/cer_migracao_sicc.assets/tabelas_mestre.gif)
 
 Os nomes com os quais os ficheiros devem ser guardados encontram-se seguidamente apresentados:
 
