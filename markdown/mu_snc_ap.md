@@ -3197,5 +3197,26 @@ O procedimento destes mapas é idêntico ao explicado anteriormente, sendo apena
 
 ![img_55.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_55.png)
 
-<!-- ## 8. SNC-AP
-## 9. Utilitários -->
+## 8. SNC-AP
+### 8.1. POCMS -> SNC-AP
+Para aceder ao menu que permite verificar e alterar a tabela de conversão do normativo POCMS para SNC-AP, deve seguir o caminho:
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-24651330.png)
+
+No ecrã que será aberto o utilizador pode consultar as contas relativas ao POCMS da entidade, disponibilizadas na janela do lado esquerdo, e as respetivas contas em SNC-AP, disponíveis na janela do lado direito.
+
+![](https://spmssicc.github.io/pages/markdown/check_list.assets/check_list-ab641a9c.png)
+
+O utilizador pode pesquizar a conta POCMS que pretende verificar. Para isso, deve introduzir o respetivo número da conta, ou selecioná-la da lista disponível. Por fim deve clicar no botão "Posicionar".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/pocms-sncap.gif)
+
+Se a entendade tiver uma conta em POCMS que não tiver nenhuma conta em SNC-AP associada, o utilizador pode efetuar essa associação.
+
+Para isso, deve selecionar a conta em POCMS e no campo "Conta:" de SNC-AP selecionar, através do botão redondo, a conta que pretende associar.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-5a2a0179.png)
+Por fim deve selecionar o botão "Confirmar".
+
+
+
+<!--## 9. Utilitários -->
