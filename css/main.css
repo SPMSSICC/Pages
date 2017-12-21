@@ -255,6 +255,37 @@ border-radius: 40px;
 background-color: rgba(0, 255, 79, 0.1)
 }
 
+.header_doc{
+  width: 100%;
+  height: 60px;
+}
+
+.header_doc img{
+  width: 150px;
+  height: 50px;
+  float:left;
+  display:block;
+margin-top: 30px;
+}
+
+.cabecalho{
+  color:#29615D;
+  font-size:2em;
+  font-weight:700;
+  letter-spacing:0;
+  line-height:1em;
+  margin-bottom:1.5em;
+  margin-top:1.5em;
+  text-align:left
+}
+
+.cabecalho img{
+  width:150px;
+  height:50px;
+  display:inline;
+  top:300px
+}
+
 #textToSearch {
 background:#fefefe;
 border: none;
@@ -1325,6 +1356,7 @@ width:35px
 
 button#btnMenu {
 float:left;
+text-align:center;
 }
 
 .show{
@@ -1338,7 +1370,8 @@ border-color:#FFF;
 border-width:3px;
 color:#29615D;
 font-weight:700;
-width:50px
+width:100px;
+vertical-align:middle;
 }
 
 #btnMenu.active:hover{

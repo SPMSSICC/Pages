@@ -3218,6 +3218,42 @@ Para isso, deve selecionar a conta em POCMS e no campo "Conta:" de SNC-AP seleci
 
 Por fim deve selecionar o botão "Confirmar".
 
+Em caso do plano de contas SNC-AP não existir uma conta movimento que se adeque à conta POCMS que o utilizador pretende converter, deve o utilizador proceder ao desdobramento de contas no plano de contas SNC-AP.
 
+O processo de desdobramento de contas está descrito no manual SNC-AP no capítulo 1.3.1.1..
 
-<!--## 9. Utilitários -->
+Abaixo segue um exemplo ilustrativo.
+
+No plano de contas POCMS verificou-se que a conta 2414 (de movimento) não tem nenhuma conta SNC-AP associada.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-2db8a368.png)
+
+Com o auxílio do botão redondo foi consultada a lista das contas SNC-AP disponíveis no sistema e verificou-se que não existe uma conta adequada.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-bff80ccf.png)
+
+Por isso, na janela do plano de contas SNC-AP, foi criada a conta 2415 (de movimento) que acomula para a 241.
+**NOTA: Este exemplo é meramente ilustrativo.**
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-f0221e7d.png)
+
+Desta forma, pode o utilizador agora, na tabela de conversão associar a conta POCMS, neste caso 2414 (Impostos liquidados), à conta SNC-AP criada (2415-Impostos liquidados). Por fim deve o utilizador clicar no botão "Confirmar".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-c4a8223b.png)
+
+>**NOTA:** Quando é efetuado desdobramento de contas movimento, que passam para acomulação, deve ser feita a correção da conta POCMS àqual estava associada a conta SNC-AP que foi desdobrada.  
+
+<!-- ## 9. Utilitários
+
+### 9.1. Abertura de um novo Ano
+Para aceder ao ecrã relativo aos documentos que a entidade pretende transportar para o novo ano, deve seguir o seguinte caminho:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-8c0ebf4a.png)
+
+No ecrã aberto, deve o utilizador selecionar os documentos que pretende que transitem de ano e indicar os anos. Por fim deve clicar no botão "Converter".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1be269bc.png)
+
+Para confirmar que a conversão dos documentos está concluída, o sistema irá gerar uma mensagem como a apresentada seguidamente:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-b79dbb41.png) -->
