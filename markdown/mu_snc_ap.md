@@ -355,7 +355,7 @@ Formulário de parametrização:
 | Receita / Despesa | Informação relativa à conta analítica, indicando se é uma conta de despesa ou de receita. Na inserção de uma nova conta, o utilizador deve marcar a opção correta. ![receita_despesa](https://spmssicc.github.io/pages/markdown/menus.assets/img_receita_despesa.png) |
 | Classificador económico | Informação relativa ao classificador económico. No caso da inserção de uma nova conta, o utilizador tem acesso a uma listagem de classificadores económicos, carregando no círculo ![radio](https://spmssicc.github.io/pages/markdown/menus.assets/img_radio.png) à direita do campo de código. A descrição do classificador económico será colocada automaticamente pelo sistema. |
 
-####Desdobramento de Contas
+#####Desdobramento de Contas
 </br>Quando o utilizador pretende desdobrar uma conta deve ele seguir o seguinte processo:
 
 1. Deve o utilizador selecionar a conta que pretende desdobrar;
@@ -2982,7 +2982,7 @@ No caso do ficheiro ter erro estes são reportados na janela criada para o efeit
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-c362c238.png)
 
-### 7.1.2. Mapas Orçamentais
+#### 7.1.2. Mapas Orçamentais
 
 De modo a analisar os orçamentos da despesa/receita, o utilizador pode aceder oa seguinte menu:
 
