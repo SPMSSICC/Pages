@@ -1,5 +1,5 @@
 NC;Entidade;Data documento;Data Contabilistica;Nº NC;classificador economico ;Classificador funcional ;Fonte de financiamento ;Programa ;Medida;Projeto;Regionalização;Atividade;Natureza;Departamento/Atividade;Conta Debito;Conta a Credito ;Valor Lançamento;Centro de custo;Observações Documento ;Observaçoes lançamento;Classificação Orgânica
-NC;973833;20170506;20170605;566;03.06.01;;311;;;;;;;1;221;6988;50;20201;SNCAP;teste;121030100
-NC;971010;20170914;20171003;567;01.01.09;;320;;;;;;;1;221;63115;30;20301;SNCAP;teste;121030100
-NC;1;20161231;20170101;568;03.05.02.J0.00;;320;;;;;;;1;221;68129;21;20802;SNCAP;teste;121030100
-NC;2;20170202;20170503;569;07.01.01;;311;;;;;;;1;221;6213;15;3420;SNCAP;teste;121030100
+NC;973833;20170506;20170605;700;03.06.01;;311;;;;;;;1;221;6988;50;20201;SNCAP;teste;121030100
+NC;971010;20170914;20171003;701;01.01.09;;320;;;;;;;1;221;63115;30;20301;SNCAP;teste;121030100
+NC;1;20161231;20170101;702;03.05.02;;320;;;;;;;1;221;68129;21;20802;SNCAP;teste;121030100
+NC;2;20170202;20170503;703;07.01.01;;311;;;;;;;1;221;6213;15;3420;SNCAP;teste;121030100
