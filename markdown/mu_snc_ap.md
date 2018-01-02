@@ -2620,6 +2620,89 @@ Após validação dos elementos integrados e constatado que os valores estão co
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a3186286.png)
 
+#### 3.2.10. Notas de Crédito (NC)
+
+Para proceder ao registo de uma nota de crédito deve seguir o seguinte caminho na aplicação:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-e89bb563.png)
+
+No ecrã que é aberto o utilizador deve preencher os seguintes campos obrigatórios:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-509f28ec.png)
+
+Após terem sido introduzidos todos os parâmetros,o utilizador deve clicar no botão "Gravar nova NC".
+
+Neste novo ecrã, o utilizador deve indicar as contas de movimento e os respetivos valores. De seguida deve clicar no botão "Gerar contabilidade".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-30d5c28a.png)
+
+Na segunda janela que será aberta, o utilizador deve indicar o centro de custo. Pode consultar com a ajuda do botão redondo, todos os centros de custo disponíveis no sistema.
+
+Para concluir este registo, o utilizador deve clicar no botão "Confirme".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-4a7f77a3.png)
+
+
+</br>**Autorização de Pagamento**
+</br>Após ter sido registada a NC, pode-se se prosseguir ao registo da Autorização de Pagamento (AP).
+
+No ecrã respetivo, descrito no capítulo **3.2.7.** deste Manual, o utilizador deve indicar a entidade, e selecionar o botão "Ver Documentos".
+
+
+</br>Dos documentos apresentados, o utilizador deve selecionar, em primeiro lugar, a fatura (P2) e depois a NC. A seleção deve ser feita com um duplo clique sobre os documentos.
+
+Nesta fase também deve ser selecionado o tipo de pagamento a efetuar (Tesouraria ou por Transferência Bancária) e o registo consequente deve ser efetuado de acordo com este.
+
+Para confirmar o registo da AP, o utilizador ,deve clicar no botão "Confirme".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/nota_credito_ap.gif)
+
+No ecrã que abrir o utilizador deve confirmr se as contas lançadas e os respetivos valores estão corretos e por fim deve clicar no botão "Confirme".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a5034333.png)
+
+Após ter sido registada a autorização de pagamento, pode agora o utilizador prosseguir com o registo do pagamento.
+A descrição deste processo pode ser consultada no capítulo 3.2.9. deste Manual.
+
+##### Reposição Abatida aos Pagamentos (RAP)
+
+Sempre queseja detetado um pagamento indevido deve se prosseguir à emissão de uma RAP que é considerada contabilisticamente como uma Nota de Crédito (NC).
+
+A existência de uma reposição abatida pressupõe que houve um pagamento excessivo em relação a uma determinada aquisição, cuja regularização é efetuada, no respetivo ano financeiro, através da correção da dotação utilizada e do respetivo saldo disponível, aumentando-o. Decorre deste entendimento que a reposição abatida aos pagamentos não seja tida como uma receita orçamental.
+
+Desta forma, no ecrã relativo ao registo de uma nova NC deve ser indicado na respetiva checkbox que se trata de uma RAP. Todos os preenchimentos seguintes seguem a mesma lógica que uma Nota de Crédito convencional.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-e86b55f0.png)
+
+No momento do registo da AP, deixa de ser necessário associar uma factura pelo facto de se tratar de uma reposição abatida aos pagamentos. O valor deste documento será negativo.
+
+##### Importação
+
+As Notas de Crédito podem ser importadas através do botão "Importar" disponivel no ecrã inicial de registo.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-64f28739.png)
+
+Na janela aberta, o utilizador deve selecionar da diretoria o ficheiro que pretende importar, à semelhança de todas as outras importações, e para validar a consistência do mesmo deve clicar no botão "Ver/Testar Ficheiro".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-dbc245d9.png)
+
+O aspeto do ficheiro **CSV** a ser importado é semelhante ao seguidamente apresentado:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-c4c46305.png)
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/NC_SNCAP.csv'">Descarregar CSV</button>
+</div>
+
+Após validação do ficheiro, as janelas do ecrã ficarão preenchidas com os dados do ficheiro importado. Caso este apresente inconsistências, estas serão apresentadas na janela respetiva.
+De seguida, para efetuar a importação dos dados deve o utilizador pressionar no botão "Importa Ligação".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-8971096d.png)
+
+Para validar a importação, o sistema irá mostrar uma mensagem como a seguidamente apresentada:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a9ba0cca.png)
+
+
 ### 3.3. Ciclo Receita
 
 > Recomenda-se o uso da tecla **_TAB_** para a navegação pelos campos dos ecrãs do sistema. Esta forma de navegação garante que todos os campos obrigatórios sejam preenchidos e validados permitindo o posterior desbloqueio de outros campos.
