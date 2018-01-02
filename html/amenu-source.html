@@ -50,12 +50,17 @@
         <li>
           <a href="http://redmine.min-saude.pt/projects/spms-siccv1/wiki/Requisitos_de_Seguran%C3%A7a_de_Utiliza%C3%A7%C3%A3o_SICC" target="_blank" rel="noopener"><i class="fa fa-external-link fa-fw" aria-hidden="true"></i>Requisitos</a>
         </li>
-        <li>
-          <a href="http://redmine.min-saude.pt/projects/spms-sidcv2/issues" target="_blank" rel="noopener"><i class="fa fa-support fa-fw" aria-hidden="true"></i>Suporte Técnico</a>
-        </li>
-        <li id="ajuda">
+        <li><div id="manual_utilizador"><i class="fa fa-support fa-fw" aria-hidden="true"></i>Suporte</div>
+          <ul>
+            <li>
+              <a href="http://redmine.min-saude.pt/projects/spms-sidcv2/issues" target="_blank" rel="noopener"><i class="fa fa-support fa-fw" aria-hidden="true"></i>Suporte Técnico</a>
+            </li>
+              <li><div onclick="loadMdDoc('redmine',['btnMenu','btnOpt','btnToc'],'', event)"><i class="fa fa-book fa-fw" aria-hidden="true"></i>Manual utilizador - REDMINE</div>
+          </ul>
+            <li id="ajuda">
            <div onclick="loadMdDoc('help',['btnMenu','btnToc','btnOpt'],'', event)"><i onclick="loadMdDoc('help',['btnMenu','btnToc','btnOpt'],'', event)" class="fa  fa-question-circle-o fa-fw" aria-hidden="true"></i>Ajuda</a></div>
         </li>
+
         <li id="sobre">
            <div onclick="loadMdDoc('about',['btnMenu','btnToc','btnOpt'],'', event)"><i onclick="loadMdDoc('about',['btnMenu','btnToc','btnOpt'],'', event)" class="fa fa-info-circle fa-fw" aria-hidden="true"></i>Sobre</a></div>
         </li>
