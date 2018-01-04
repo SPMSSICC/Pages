@@ -94,8 +94,8 @@ border-radius:.2em;width: 100px;height: 25px;opacity: 1;display:block;float:righ
 <div style="padding-left:40px"><div class="description"> A descrição deste processo poderá ser consultada no capítulo 8.1. do Manual de Utilizador SNC-AP. <button  style="border:none;
 border-radius:.2em;width: 100px;height: 25px;opacity: 1;display:block;float:right;background-color: #3d596d" onclick="window.open('https://spmssicc.github.io/pages/?doc=mu_snc_ap&anchor=81-pocms---snc-ap','_blank')">Ver Manual</span></div></div>
 
->**NOTA:** O Plano de Contas POCMS apresentado neste menu refere-se ao plano de contas da própria entidade. Assim, podem existir contas específicas do organismo que não está contemplada a respectiva associação. </br></br>Para as contas do Plano de Contas Oficial foi introduzido no sistema as associações disponibilizadas pela ACSS.
-Todas as contas de movimento devem ter associação em SNC-AP.   
+>**NOTA:** O Plano de Contas POCMS apresentado neste menu refere-se ao plano de contas da própria entidade. Assim, podem existir contas específicas do organismo sem a respectiva associação. </br></br>Para as contas do Plano de Contas Oficial foi introduzido no sistema as associações disponibilizadas pela ACSS.
+Todas as contas de movimento POCMS devem ter associação com contas de movimento em SNC-AP.   
 
 <div style="padding-top:20px">
 <label class="container">7. Introduzir, no sistema, o Orçamento Anual<input type="checkbox"> <span class="checkmark"></span></label></div>

@@ -359,7 +359,7 @@ Formulário de parametrização:
 </br>Quando o utilizador pretende desdobrar uma conta deve ele seguir o seguinte processo:
 
 1. Deve o utilizador selecionar a conta que pretende desdobrar;
-2. Indicar que a conta selecionada passa a ser de acomulação;
+2. Indicar que a conta selecionada passa a ser de acumulação;
 3. Selecionar o botão "+Novo";
 4. Atribuir o número à conta;
 5. Indicar a sua designação, a Conta de Financiamento e o Classificador Económico;
@@ -1183,11 +1183,11 @@ Quando a opção "Imprimir" é selecionada é gerado um ficheiro PDF com o aspet
 **Nota:** Quando é selecionada a opção "Ficheiro CSV" a informação contemplada neste ficheiro é igual à contemplada no PDF.
 
 
-####2.9.2. Créditos por Entidade
+#### 2.9.2. Créditos por Entidade
 
 Os processos e os campos inerentes a este sub-menu são semelhantes aos descritos em 2.9.1.
 
-####2.9.3. Dividas por Conta
+#### 2.9.3. Dividas por Conta
 
 Este sub-menu permite ao utilizador visualizar as dividas por conta. Para tal, deve o utilizador preencher os seguintes critérios de pesquisa:
 
@@ -1227,7 +1227,7 @@ Quando a opção "Imprimir" é selecionada é gerado um ficheiro PDF com o aspet
 **Nota:** Quando é selecionada a opção "Ficheiro CSV" a informação contemplada neste ficheiro é igual à contemplada no PDF.
 
 
-####2.9.4. Créditos por Conta
+#### 2.9.4. Créditos por Conta
 Os processos e os campos inerentes a este sub-menu são semelhantes aos descritos em 2.9.3.
 
 ### 2.10. Procura de Documentos
@@ -3104,7 +3104,7 @@ Para aceder ao ecrã que permite realizar uma listagem da despesa de fundos alhe
 
 O processo de geração do ficheiro é igual ao descrito no capítulo anterior: 3.4.4. Listagem despesa de fundos alheios.
 
-### 3.5. Operações Diversas
+<!-- ### 3.5. Operações Diversas
 
 Para aceder ao menu relativo aos registos, impressões e listagens de OD's deve o utilizador seguir o seguinte caminho na aplicação:
 
@@ -3114,7 +3114,7 @@ Para aceder ao menu relativo aos registos, impressões e listagens de OD's deve 
 
 #### 3.5.2. Impressão de Notas de lançamento OD
 
-#### 3.5.3. Listagens OD
+#### 3.5.3. Listagens OD -->
 
 ## 4. Gestão de Tesouraria
 
@@ -3566,42 +3566,42 @@ No ecrã que será aberto o utilizador pode consultar as contas relativas ao POC
 
 ![](https://spmssicc.github.io/pages/markdown/check_list.assets/check_list-ab641a9c.png)
 
-O utilizador pode pesquizar a conta POCMS que pretende verificar. Para isso, deve introduzir o respetivo número da conta, ou selecioná-la da lista disponível. Por fim deve clicar no botão "Posicionar".
+O utilizador pode pesquizar a conta POCMS que pretende verificar. Para isso, deve introduzir o respetivo número da conta ou selecioná-la da lista disponível. Por fim deve clicar no botão "Posicionar".
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/pocms-sncap.gif)
 
-Se a entendade tiver uma conta em POCMS que não tiver nenhuma conta em SNC-AP associada, o utilizador pode efetuar essa associação.
+Se a entidade tiver uma conta de movimento em POCMS que não tiver nenhuma conta associada em SNC-AP, o utilizador pode efetuar essa associação.
 
-Para isso, deve selecionar a conta em POCMS e no campo "Conta:" de SNC-AP selecionar, através do botão redondo, a conta que pretende associar.
+Para isso, deve selecionar a conta em POCMS e no campo "Conta:" de SNC-AP selecionar, através do botão redondo, a conta de movimento que pretende associar.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-5a2a0179.png)
 
 Por fim deve selecionar o botão "Confirmar".
 
-Em caso do plano de contas SNC-AP não existir uma conta movimento que se adeque à conta POCMS que o utilizador pretende converter, deve o utilizador proceder ao desdobramento de contas no plano de contas SNC-AP.
+Em caso de no plano de contas SNC-AP não existir uma conta movimento que se adeque à conta POCMS que o utilizador pretende converter, deve o utilizador proceder ao desdobramento de contas no plano de contas SNC-AP.
 
 O processo de desdobramento de contas está descrito no manual SNC-AP no capítulo 1.3.1.1..
 
-Abaixo segue um exemplo ilustrativo.
+Abaixo segue um exemplo **ilustrativo** da situação referida acima.
 
 No plano de contas POCMS verificou-se que a conta 2414 (de movimento) não tem nenhuma conta SNC-AP associada.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-2db8a368.png)
 
-Com o auxílio do botão redondo foi consultada a lista das contas SNC-AP disponíveis no sistema e verificou-se que não existe uma conta adequada.
+Com o auxílio do botão redondo consultou-se a lista das contas SNC-AP disponíveis no sistema e verificou-se que não existe uma conta adequada.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-bff80ccf.png)
 
-Por isso, na janela do plano de contas SNC-AP, foi criada a conta 2415 (de movimento) que acomula para a 241.
+Por isso, na janela do plano de contas SNC-AP, foi criada a conta 2415 (de movimento) que acumula para a 241.
 **NOTA: Este exemplo é meramente ilustrativo.**
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-f0221e7d.png)
 
-Desta forma, pode o utilizador agora, na tabela de conversão associar a conta POCMS, neste caso 2414 (Impostos liquidados), à conta SNC-AP criada (2415-Impostos liquidados). Por fim deve o utilizador clicar no botão "Confirmar".
+É possível agora, na tabela de conversão, associar a conta POCMS, neste caso 2414 (Impostos liquidados), à conta SNC-AP criada (2415-Impostos liquidados). Para confirmar a associação, deve-se clicar em "Confirmar".
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-c4a8223b.png)
 
->**NOTA:** Quando é efetuado desdobramento de contas movimento, que passam para acomulação, deve ser feita a correção da conta POCMS àqual estava associada a conta SNC-AP que foi desdobrada.  
+>**NOTA:** Quando é efetuado um desdobramento numa conta de movimento em SNC-AP esta passa para o tipo de acumulação. Se a conta já for associada a uma conta movimento em POCMS a associação fica inválida pois só se podem associar contas de movimento. deste modo, deve-se efetuar a alteração na associação.  
 
 <!-- ## 9. Utilitários
 

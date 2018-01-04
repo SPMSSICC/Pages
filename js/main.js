@@ -303,7 +303,7 @@ function disableDocOptions(mdFile){
     $("#btnEditarDoc").off("click");
     return;
   }
-  if ($.inArray(mdFile, ['perguntas_frequentes','mu_snc_ap']) != -1) {
+  if ($.inArray(mdFile, ['perguntas_frequentes']) != -1) {
     $("#btnPDF").addClass("disabled");
     $("#btnPDF").off("click");
     return;
