@@ -14,6 +14,10 @@ No novo ecrã aberto, no canto superior **direito**, deve selecionar o projeto S
 
 A nova janela aberta apresenta uma visão geral da atividade na plataforma bem como a lista de todos os membros do projeto.
 
+![](https://spmssicc.github.io/pages/markdown/redmine.assets/redmine-ce9edc98.png)
+
+Na parte superior desta janela estão disponíveis várias tabulações que permitem efetuar diferentes atividades.
+
 ## Abertura de um novo ticket
 
 Para abrir um novo ticket, isto é, para reportar uma situação ou colocar uma dúvida, deve selecionar a tabulação "Nova Tarefa".
@@ -34,7 +38,7 @@ Nesta janela devem ser preenchidos os seguintes campos com a informação respet
 |Ficheiros    | Se for necessário, podem ser anexados ficheiros de tamanho máximo 5MB através da seleção dos mesmos da diretoria do computador do utilizador.    |
 |Observadores    | O utilizador pode selecionar, dos membros apresentados, membros que irão seguir todo o processo de resolução do ticket. À semelhança do "Com Conhecimento" nos e-mail's. |
 
-</br>Para terminar a abertura do ticket, deve clicar sobre o botão "Criar" ou "Criar e continuar".
+</br>Para terminar o registo do ticket, deve clicar sobre o botão "Criar" ou "Criar e continuar".
 ![](https://spmssicc.github.io/pages/markdown/redmine.assets/redmine-bcec6b4d.png)
 
 ## Visualizar todos os tickets abertos
@@ -43,11 +47,15 @@ Para visualizar os tickets abertos, quer pelo próprio utilizador, quer por todo
 
 ![](https://spmssicc.github.io/pages/markdown/redmine.assets/redmine-2d87eae8.png)
 
-Neste ecrã pode filtrar as tarefas, isto é, os tickets, pelo seu estado, autor, assunto,etc através dos filtros disponíveis.
+Neste ecrã pode filtrar as tarefas, isto é, os tickets, pelo seu estado, autor, assunto,etc através dos filtros disponíveis. Para tal deve selecionar da lista disponível em "Adicionar filtro" o filtro e indicar o critério. para aplicar o filtro deve clicar em "Aplicar"
 ![](https://spmssicc.github.io/pages/markdown/redmine.assets/redmine-0ce66b91.png)
+
+Para efeitos de exemplo foi adicionado o filtro de Prioridade.
+
+![](https://spmssicc.github.io/pages/markdown/redmine.assets/redmine-e2ae777b.png)
 
 Para visualizar o histórico de um determinado ticket deve-se clicar sobre o mesmo. Na nova janela aberta o utilizador pode visualizar as questões e respotas do ticket.
 
 ![](https://spmssicc.github.io/pages/markdown/redmine.assets/tarefa.gif)
 
->**NOTA:** É de referir que, como um utilizador tem acesso a todos os tickets do projeto onde está inserido, deve este verificar inicialmente os tickets já existentes pois podem existir situações iguais já reportadas bem como soluções das mesmas.
+>**NOTA:** É de referir que, como um utilizador tem acesso a todos os tickets do projeto onde está inserido, deve este verificar inicialmente os tickets já existentes pois podem existir situações iguais com as respetivas soluções.
