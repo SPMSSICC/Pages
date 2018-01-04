@@ -3096,13 +3096,25 @@ O aspeto do Ficheiro gerado será como o seguidamente apresentado:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-11a3cf0a.png)
 
-#### 3.4.5. Listagem despesa de fundos Alheios
+#### 3.4.5. Listagem receita de fundos Alheios
 
 Para aceder ao ecrã que permite realizar uma listagem da despesa de fundos alheios, o utilizador deve seguir o caminho:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-0e7ae171.png)
 
 O processo de geração do ficheiro é igual ao descrito no capítulo anterior: 3.4.4. Listagem despesa de fundos alheios.
+
+### 3.5. Operações Diversas
+
+Para aceder ao menu relativo aos registos, impressões e listagens de OD's deve o utilizador seguir o seguinte caminho na aplicação:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1329a32e.png)
+
+#### 3.5.1. Recolhas OD
+
+#### 3.5.2. Impressão de Notas de lançamento OD
+
+#### 3.5.3. Listagens OD
 
 ## 4. Gestão de Tesouraria
 
