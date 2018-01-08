@@ -330,7 +330,7 @@ Nova mensagem é despoletada pelo Sistema, dando-se assim como findo o carregame
 A importação das operações diversas (OD), em nada difere dos procedimentos de importação demonstrados anteriormente.
 Desta forma, o utilizador terá somente de proceder ao preenchimento não esquecendo que para uma conta 6*, 7* ou 3* é obrigatória a atribuição de um centro de custo.
 
-![imagem50](https://spmssicc.github.io/pages/markdown/importacao_csvs.assets/image50.png)
+![](https://spmssicc.github.io/pages/markdown/importacao_csvs.assets/importacao_csvs-c2a9057a.png)
 
 <div style="height:40px">
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/OD_POCMS.csv'">Descarregar CSV</button>

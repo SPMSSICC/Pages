@@ -796,7 +796,7 @@ Ao selecionar Extrato de Proc.Aquisição irá abrir o seguinte ecrã:
 
 Este sub-menu permite o acesso a Mapas de Gestão, tais como Documentos por Datas, Documetnos por Contas, Contas Correntes de Terceiros e Mapas para o IVA.
 
-####2.3.1. Documentos por Datas
+#### 2.3.1. Documentos por Datas
 
 Neste ecrã o utilizador pode pesquisar documentos por datas. Para tal deve preencher os campos de critério de filtragem.
 
@@ -816,7 +816,7 @@ Neste ecrã o utilizador pode pesquisar documentos por datas. Para tal deve pree
 |Atividade/Departamento   |  Indica o tipo de atividade/departamento que deve ser considerado. ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-6d94754e.png) |
 |Exercicio   | Exercício a que pertencem os documentos. As opções disponíveis são as seguintes: **Do Exercício**-Todos os documentos iniciados no exercício atual; **Inicial** - Todos os documentos que tenham sido iniciados em exercícios anteriores ao atual; **Todos** - Todos os documentos, independentemente da data dos mesmos. Inclui os documentos anteriores. ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-2f3aeca6.png)  |
 
-#####Faturas Credoras
+##### Faturas Credoras
 Para visualizar Faturas Credoras, o utilizador deve primeiramente indicar os critérios de pesquisa descritos na tabela acima e também indicar qual o estado das faturas que pretende pesquisar.
 - Por Pagar
 - Anuladas
@@ -835,7 +835,7 @@ Quando a opção "Imprimir" é selecionada o aspeto do ficheiro PDF gerado é se
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1fb38d22.png)
 
-#####Faturas Devedoras
+##### Faturas Devedoras
 Para visualizar Faturas Devedoras, o utilizador deve primeiramente indicar os critérios de pesquisa descritos na tabela acima e também indicar qual o estado das faturas que pretende pesquisar.
 - Por Cobrar
 - Anuladas
@@ -848,7 +848,7 @@ De seguida, o utilizador deve pressionar o botão "Calcular" para visualizar os 
 
 Mais uma vez o ficheiro pode ser guardado com o formato CSV ou impresso. O aspeto do ficheiro PDF, gerado quando a opção "Imprimir" é selecionada, é semelhante ao demonstrado para Faturas Credoras.
 
-#####Crédito a Clientes
+##### Crédito a Clientes
 Para visualizar documentos do tipo Crédito a Clientes, o utilizador deve primeiramente indicar os critérios de pesquisa descritos na tabela acima e também indicar qual o estado das faturas que pretende pesquisar.
 - Por Cobrar
 - Anuladas
@@ -861,7 +861,7 @@ De seguida, o utilizador deve pressionar o botão "Calcular" para visualizar os 
 
 Mais uma vez o ficheiro pode ser guardado com o formato CSV ou impresso. O aspeto do ficheiro PDF, gerado quando a opção "Imprimir" é selecionada, é semelhante ao demonstrado para Faturas Credoras.
 
-#####Notas de Crédito
+##### Notas de Crédito
 Para visualizar Notas de Crédito, o utilizador deve primeiramente indicar os critérios de pesquisa descritos na tabela acima e também indicar qual o estado das faturas que pretende pesquisar.
 - Por Pagar
 - Anuladas
@@ -874,14 +874,14 @@ De seguida, o utilizador deve pressionar o botão "Calcular" para visualizar os 
 
 Mais uma vez o ficheiro pode ser guardado com o formato CSV ou impresso. O aspeto do ficheiro PDF, gerado quando a opção "Imprimir" é selecionada, é semelhante ao demonstrado para Faturas Credoras.
 
-#####Tipos de Documento
+##### Tipos de Documento
 Para visualizar documentos específicos, o utilizador deve primeiramente indicar os critérios de pesquisa descritos na tabela acima, indicar qual o estado dos documentos que pretende pesquisar e indicar o tipo de documentos que pretende pesquisar.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/Mapas_gestao_datas_td.gif)
 
 Mais uma vez o ficheiro pode ser guardado com o formato CSV ou impresso. O aspeto do ficheiro PDF, gerado quando a opção "Imprimir" é selecionada, é semelhante ao demonstrado para Faturas Credoras.
 
-####2.3.2. Documentos por contas
+#### 2.3.2. Documentos por contas
 
 Este submenu permite ao utilizador pesquisar documentos por contas.
 
@@ -916,7 +916,7 @@ Quando a opção "Imprimir" for selecionada, o aspeto do ficheiro PDF gerado é 
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a27da912.png)
 
-####2.3.3. Contas Correntes de Terceiros
+#### 2.3.3. Contas Correntes de Terceiros
 Este sub-menu permite ao utilizador pesquisar a conta corrente de terceiros.
 
 |Campo|Descrição|
@@ -935,7 +935,7 @@ Após de ter feito o cálculo da conta corrente, esta pode agora ser guardada nu
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-850ac92b.png)
 
-####2.3.4. Mapas para o IVA
+#### 2.3.4. Mapas para o IVA
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-69ed5706.png)
 
@@ -961,7 +961,7 @@ Após de o utilizador definir os critérios é possível agora guardar o ficheir
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a782da88.png)
 
 
-####2.4.1. Do Exercício
+#### 2.4.1. Do Exercício
 
 Este sub-menu permite ao utilizador efetuar transferência de documentos do exercício de uma entidade para outra.
 
@@ -977,7 +977,7 @@ Se a tranferência for efetuada com sucesso, na linha do documento selecionado i
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-fa077e48.png)
 
-####2.4.2. De Exercícios Anteriores
+#### 2.4.2. De Exercícios Anteriores
 
 Este sub-menu permite ao utilizador efetuar transferência de documentos de uma entidade do exercício anterior para uma entidade do exercício atual.
 
@@ -1043,7 +1043,7 @@ De seguida o utilizador deve selecionar o documento que pretende transferir atra
 Este sub-menu permite ao utilizador gerar oficíos que podem ser posteriormente enviados às entidades.
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-f239cecc.png)
 
-####2.8.1. Certificação Legal de Contas
+#### 2.8.1. Certificação Legal de Contas
 
 Este sub-menu permite ao utilizador produzir e enviar certificação legal de contas.
 
@@ -1076,7 +1076,7 @@ Se o utilizador pretender enviar o ofício através do email, deverá selecionar
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ad793db8.png)
 
-####2.8.2. Ofício a Devedores
+#### 2.8.2. Ofício a Devedores
 Neste sub-menu o utilizador deve preencher os seguintes campos:
 
 
@@ -1107,7 +1107,7 @@ Se o utilizador pretender enviar o ofício através do email, deverá selecionar
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1687c76e.png)
 
-####2.8.3. Ofício a Credores
+#### 2.8.3. Ofício a Credores
 Neste sub-menu o utilizador deve preencher os seguintes campos:
 
 
@@ -1143,7 +1143,7 @@ Este sub-menu permite ao utilizador consultar saldos por entidade e por conta.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-2138a2a4.png)
 
-####2.9.1. Dividas por Entidade
+#### 2.9.1. Dividas por Entidade
 
 Este sub-menu permite ao utilizador visualizar as dividas por entidade. Para tal, deve o utilizador preencher os seguintes critérios de pesquisa:
 
@@ -2808,6 +2808,7 @@ Os movimentos contabilísticos surgem de forma automática, pelo que o utilizado
 
 _(Imagem em atualização)_
 ![img_198.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_198.png)
+
 
 ##### Impressão Documentos OR
 
