@@ -2840,6 +2840,97 @@ Ao selecionar “Imprimir”, o sistema produz a Guia de Receita em PDF.
 
 __O utilizador pode verificar na impressão o novo campo de “Observações” criado no ponto 3.2.7. .__
 
+#### 3.3.5. Crédito a Clientes
+
+Para aceder ao ecrã respetivo ao registo de crédito a clientes, o utilizador deve seguir o seguinte caminho na aplicação:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-8d6c1d16.png)
+
+Na janela aberta, o utilizador deve preencher os seguintes campos obrigatórios:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-eda838a2.png)
+
+Por fim deve clicar em "Gravar novo CC".
+
+No novo ecrã aberto, o utilizador deve indicar as contas e os respetivos montantes. De seguida deve clicar em "Gerar Contabilidade".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-4f1d8510.png)
+
+Neste novo ecrã o utilizador deve indicar o Centro de Custo. Para consultar os centros de custo disponibilidos no sistemao utilizador deve pressionar o botão redondo. Para finalizar deve clicar em "Confirme".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-85147dba.png)
+
+##### Importação
+
+Este tipo de documentos também pode ser importado através da funcionalidade disponível no botão "Importar".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-dae7a46d.png)
+
+No ecrã aberto, o utilizador deve selecionar o ficheiro CSV que pretende importar da diretoria do seu computador. Depois, deve testar o ficheiro selecionado através do clique em "Ver/Testar Ficheiro".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-617e3511.png)
+
+Se o ficheiro apresentar uma esturutura correta, as duas janelas do ecrã ficarão preenchidas com os dados do ficheiro importado. Se apresentar incoerências, as mesmas serão comunicadas na janela respetiva.
+
+Para validar a importação, deve clicar em "Importa Ligação".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-882c6423.png)
+
+O aspeto do ficheiro a importar deve ser semelhante ao seguidamente apresentado.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-d3d8a35b.png)
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/CC_SNCAP.csv'">Descarregar CSV</button>
+</div>
+
+##### Registo de GR
+O passo seguinte é registar a Guia de Receita.
+
+No menu respetivo, o utilizador deve indicar a entidade e o Nº da Guia de Receita. De seguida deve clicar em "Ver Documentos".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-4a151e6b.png)
+
+Na janela inferior do ecrã, irão aparecer todos os documentos que correspondem aos critérios de pesquisa indicados. Destes, o utilizador deve selecionar a fatura (FD) e a CC criada clicando duas vezes sobre os documentos. Por fim deve clicar em "Gravar nova GR".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-379df1ef.png)
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-2c64d4f6.png)
+
+No novo ecrã, o utilizador deve confirmar as contas apresentadas automaticamente pelo sistema e os respetivos montantes. Por fim deve clicar em "Confirme".
+
+Findo o registo da Guia de Receita, segue-se a cobrança da mesma.
+
+##### Cobranças
+
+No menu respetivo, deve o utilizador indicar a entidade e a data e, para ver os documentos, deve clicar em "Ver Documentos".
+
+Dos documentos apresentados, tem de selecionar o pretendido, clicando duas vezes sobre os mesmo. Assim, os campos relativos à informação do documento ficarão preenchidos. Também deve indicar a forma como vai ser cobrado o valor, Tesouraria ou T.Bancária, sendo que se for por T.Bancária, deve o utilizador indicara conta que receberá o montante. Por fim deve clicar em "Gravar novo CO".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-8b948711.png)
+
+No novo ecrã aberto, deve o utilizador confirmar as contas e os respetivos montantes, automaticamente disponibilizados pelo sistema. Para confirmar a CO, o utilizador deve clicar em "Confirme".
+
+##### Reposição Não Abatida nos Pagamentos (RNAP)
+
+As reposições não abatidas nos pagamentos abrangem as receitas provenientes das entradas de fundos em resultado de cobranças orçamentais indevidos.
+
+No ecrã relativo à recolha de notas de crédito - Crédito a Clientes o utilizador deve preencher os seguintes campos obrigatórios e deve indicar na checkbox que se trata de uma RNAP.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-58e4563d.png)
+
+De seguida devem ser indicadas as contas e os montantes respetivos, bem como deve também ser gerada a contabilidade e indicado o centro de custo. Por fim deve ser clicado em "Confirme".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-64f6f695.png)
+
+Findo o registo de CC, deve o utilizador prosseguir ao registo da GR. Este processo é igual ao descrito para CC "normal" à excepção de que deixa de ser necessária a seleção da FD.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ab98c7b2.png)
+
+Devem ser, novamente, verificadas as contas e os montantes e por fim deve-se confirmar o registo.
+
+</br>Findo este processo, deve-se agora registar a cobrança. O processo de registo desta é igual ao descrito para CC "normal".
+
 ### 3.4 Fundos Alheios
 
 Para aceder a este menu, o utilizador deve seguir o seguinte caminho na aplicação:
