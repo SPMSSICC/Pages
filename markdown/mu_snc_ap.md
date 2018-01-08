@@ -2333,7 +2333,7 @@ O aspeto do ficheiro CSV a ser importado deve ser semelhante ao seguidamente apr
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-0602de55.png)
 
 <div style="height:40px">
-<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/CSV_DSP_exemplo_1.csv'">Descarregar CSV</button>
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/CSV_DSP_exemplo_1.csv'">Descarregar CSV</button>
 </div>
 
 #### 3.2.6. Alteração de Lançamentos (AL)
