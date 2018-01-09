@@ -2512,6 +2512,41 @@ Quando esta opção é selecionada, surge um novo ecrã ondeo utilizador deve se
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-3b59e7f0.png)
 
+#####  Listagens de Encontro de Contas
+
+Para aceder ao ecrã que permite listar todos os documentos relacionados com o registo de Encontro de Contas, o utilizador deve seguir o seguinte caminho na aplicação:
+
+![](mu_snc_ap.assets/mu_snc_ap-8438ff18.png)
+
+No ecrã que é aberto, o utilizador deve preencher os critérios de pesquisa de documentos.
+
+|Critério | Descrição|
+|:--|:--|
+|Primeira Data    |Data do primeiro do documento a extrair. Apenas é extraida informação cujo código seja igual ou superior ao indicado neste campo.    |
+|Última Data    | Data da último documento a extrair. Apenas é extraida informação cujo código seja igual ou superior ao indicado no campo superior e menos ou igual ao indicado neste campo.  |
+|Primeiro Documento   | Número do primeiro documento a extrair. Apenas são extraidos documentos cujos códigos sejam igual ou superior ao indicado neste campo.    |
+|Último Documento    | Número do último documento a extrair. Apenas são extraidos documentos cujos códigos sejam iguais ou inferiores ao indicado neste campo.    |
+|Primeira Entidade    |  Primeiro código da entidade a extrair. Apenas é extraida informação cujo código seja igual ou superior ao indicado neste campo.   |
+|Última Entidade    | Último código da entidade a extrair. Apenas é extraida informação cujo código seja igual ou superior ao indicado no campo superior e menos ou igual ao indicado neste campo.  |   
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-d0afe91e.png)
+
+De seguida o utilizador deve selecionar o formato em que pretende guardar a listagem: Ficheiro CSV ou ficheiro PDF - Imprimir.
+
+##### Ficheiro
+
+Nesta opção, o utilizador deve selecionar a diretoria onde pretende guardar o ficheiro e por fim deve clicar em "Ficheiro".
+
+O aspeto do ficheiro CSV será como o do apresentado seguidamente.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-beddb177.png)
+
+##### Imprimir
+
+Nesta opção, será gerado um ficheiro em formato PDF com o aspeto semelhante ao do documento seguidamente apresentado.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-9e2c17d1.png)
+
 #### 3.2.8. Transferências Bancárias
 
 Nesta etapa, o utilizador vai criar os ficheiros para enviar aos respetivos órgãos com indicação das entidades e montantes associados. Deve assim seguir o seguinte caminho no sistema:
