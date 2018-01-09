@@ -111,22 +111,6 @@ height:500px;
   margin-top: 1em;
   border:none;
   font-size: .9em;
-
-/* width:70%;
-height: 5em;
-background-color:#29615D;
-opacity:0.8;
-/* -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
--webkit-clip-path: polygon(0 0, 70% 20%, 100% 20%, 100% 100%, 0 100%, 0 20%, 28% 20%);
-clip-path: polygon(0 0, 70% 20%, 100% 20%, 100% 100%, 0 100%, 0 20%, 28% 20%);
-text-align:center;
-vertical-align:middle;
-color: white;
-font-size: 1em;
-margin: auto;
-padding:3em 1em 0em 1em; */
-/* padding-top: 3em; */
 }
 
 .description >span{
@@ -227,7 +211,7 @@ padding:3em 1em 0em 1em; */
 }
 
 .speech {
-  width: 80%;
+  width: 75%;
   height: 50px;
   padding: 0;
   margin: 0;
@@ -242,13 +226,15 @@ padding:3em 1em 0em 1em; */
   -webkit-border-radius: 9px
 }
 .speech img {
-float: right;
+/* float: right; */
+display:inline-grid;
 width: 50px;
 height: 50px;
 vertical-align: middle;
 border-radius: 40px;
 -moz-border-radius: 40px;
--webkit-border-radius: 40px
+-webkit-border-radius: 40px;
+cursor: pointer;
 }
 
 .speech img:hover {
@@ -285,32 +271,38 @@ margin-top: 30px;
   display:inline;
   top:300px
 }
-
-#textToSearch {
-background:#fefefe;
-border: none;
-color: #29615D;
-display: inline-block;
-/*float: left;*/
-height: 15px;
-margin:4px 0px 4px 3px;
-padding: 14px 0 14px 0;
-position: absolute;
-text-indent: 1em;
-vertical-align: middle;
-width: calc(80% - 80px)
+#textToFind {
+  background:#fefefe;
+  border: none;
+  color: #29615D;
+  display:block;
+  height: 15px;
+  margin:4px 0px 4px 3px;
+  padding: 14px 0 14px 0;
+  position: absolute;
+  text-indent: 1em;
+  vertical-align: middle;
+  width: calc(70% - 90px)
 }
-
-#textToSearch:hover{
+#textToFind:hover{
 background-color: rgba(0, 255, 79, 0.1);
 outline:none;
 }
 
-#textToSearch::-webkit-input-placeholder {
+.searchButton {
+border:none;
+width: 4em;
+height: 100%;
+float:right;
+
+
+}
+
+#textToFind::-webkit-input-placeholder {
 font-style: italic
 }
 
-#textToSearch:-moz-placeholder {
+#textToFind:-moz-placeholder {
 font-style: italic
 }
 

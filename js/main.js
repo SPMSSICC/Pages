@@ -635,22 +635,23 @@ $('#tocDropdown').on('click', 'a[href^="#"]', function(e) {
 });
 
 
-var searchDocs;
-
-function startFindInDocs() {
-    searchDocs = setInterval(function(){ findInDocs() }, 500);
-    // console.log("[stopFindInDocs] Search started");
-}
-
-function stopFindInDocs() {
-    clearTimeout(searchDocs);
-    // console.log("[stopFindInDocs] Search stopped");
-}
+// var searchDocs;
+//
+// function startFindInDocs() {
+//     searchDocs = setInterval(function(){ findInDocs() }, 500);
+//     // console.log("[stopFindInDocs] Search started");
+// }
+//
+// function stopFindInDocs() {
+//     clearTimeout(searchDocs);
+//     // console.log("[stopFindInDocs] Search stopped");
+// }
 
 
 function findInDocs(){
 
-  var txtInserted = $("#textToSearch")["0"].value;
+  var txtInserted = $("#textToFind")["0"].value;
+
 
   if (txtInserted == lastSearchStr || txtInserted.length  <= 0){
     // console.log("Do not search txtInserted: " + txtInserted + ", lastSearchStr: " + lastSearchStr);
@@ -673,6 +674,7 @@ function findInDocs(){
       var regexp = new RegExp(str.toUpperCase(),"g"),match, arrMatches = [],html_1, html_2="", html_final;
 
       $.each(reformatedArrDocs, function(i, d){
+
           while ((match = regexp.exec(d.content.toUpperCase())) != null) {
 
             var start = d.content.indexOf(" ",match.index - 70)+1,
@@ -694,9 +696,10 @@ function findInDocs(){
       $("#resultsList").remove();
       $("#searchDiv").after(html_final);
 
-      var spanMatch =  $("span");
+      // var spanMatch =  $("span");
 
       $.each($("#resultsList li span.citation"),function(i,val){
+
         var innerHTML = val.innerHTML, index = innerHTML.toUpperCase().indexOf(str.toUpperCase());
         if ( index >= 0 )
         {

@@ -2,13 +2,17 @@
   <h1 style="text-align: center;padding: 0">Bem-vindo à página de documentação do SICC</h1>
 </div>
 <div id = "searchDiv">
-  <form id="labnol">
-    <div class="speech">
-       <input id="textToSearch" class="text-to-search" type="text" onfocus="startFindInDocs();" onblur="stopFindInDocs();" name="q" placeholder="Texto a pesquisar..." title="Introduza o texto a pesquisar"></input>
-      <img id="mic" onclick="startDictation()" src="./img/mic.gif" title="Selecione para falar"/>
+  <div class="speech">
+    <div class="search">
+      <span><input id="textToFind" type="text" onblur="stopFindInDocs();" class="searchTerm" name="q" placeholder="Texto a pesquisar..."></span>
+      <span><button  id="btnSearch" style="float:right" class="searchButton" onclick="findInDocs();"><i class="fa fa-search fa-2x fa-fw"></i></button></span></div>
+
     </div>
-  </form>
+  <!-- <span><img id="mic" onclick="startDictation()" src="./img/mic.gif" title="Selecione para falar"/></span> -->
+
 </div>
+
+
 
 <div id="novidadeSncAP">
   <h2>Solução SNC-AP para entidades de saúde<br/></h2>
