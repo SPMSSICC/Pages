@@ -2469,6 +2469,49 @@ De forma _Global_, ao selecionar “Imprimir”, o sistema produz a Autorizaçã
 
 ![img_145.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_145.png)
 
+##### Ofício de Pagamento
+
+Para aceder ao ecrã onde é gerado o ofício de pagamento, deve o utilizador seguir o seguinte caminho na aplicação:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-d12f61d8.png)
+
+Noecrã aberto, o utilizador deve preencher os seguintes campos:
+
+|Campo| Descrição |
+|:--|:--|
+|Pri. Entidade    | Primeiro código da entidade a extrair. Apenas é extraida informação cujo código seja igual ou superior ao indicado neste campo.    |
+|Últ. Entidade    |Último código da entidade a extrair. Apenas é extraida informação cujo código seja igual ou superior ao indicado no campo superior e menos ou igual ao indicado neste campo.    |
+|Primeira Data:    | Data do primeiro do documento a extrair. Apenas é extraida informação cujo código seja igual ou superior ao indicado neste campo.    |
+|Última Data:    | Data da último documento a extrair. Apenas é extraida informação cujo código seja igual ou superior ao indicado no campo superior e menos ou igual ao indicado neste campo. |
+|Referência    | Referência do ofício.   |
+|Texto    | Texto que irá aparecer no documeto gerado.    |
+
+</br> Deve também ser indicado se os documentos que se pretendem incluír no ofício devem ser regularizados ou ainda por regularizar.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-243a80a9.png)
+
+Após ter definido os critérios de pesquisa,deve o utilizador clicar em "Calcular" para que o sistema apresente todos os documentos que estejam de acordo com os critérios de pesquisa. Para selecionar o documento, deve o utilizador preencher a check box do documento pretendido.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-05ab035f.png)
+
+Pode agora Ofício ser impresso ou enviado através de email.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-482e81f2.png)
+
+##### Imprimir
+
+Quando esta opção é selecionada, o aspeto do ficheiro PDF gerado é semelhante ao seguidamente apresentado.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-f5a24fd0.png).
+
+Quando é selecionada mais do que uma AP, cada uma vez numa página.
+
+##### Email
+
+Quando esta opção é selecionada, surge um novo ecrã ondeo utilizador deve selecionar as entidade a quem pretende enviar o oficio, inserir o texto que aparecerá no corpo do emial enviado. De seguida deve clicar em "Calcular" para verificar os emails das entidades selecionadas. Por fim, deve clicar em "Enviar".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-3b59e7f0.png)
+
 #### 3.2.8. Transferências Bancárias
 
 Nesta etapa, o utilizador vai criar os ficheiros para enviar aos respetivos órgãos com indicação das entidades e montantes associados. Deve assim seguir o seguinte caminho no sistema:
