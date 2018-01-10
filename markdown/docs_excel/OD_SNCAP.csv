@@ -1,4 +1,4 @@
 OD;Entidade;Data documento;Data Contabilistica;Nº OD;Diario;Classificador economico ;(R)eceita/(D)espesa;Classificador funcional ;Fonte de financiamento ;Programa ;Medida;Projeto;Regionalização;Atividade;Natureza;Departamento/Atividade;Conta Debito;Conta a Credito ;Valor Lançamento;Centro de custo;Observaçoes Documento;Observaçoes lançamento;Classificação Orgânica
-OD;9999999;20160507;20170505;556;35;;;;;;;;;;;1;2681;788019;120;11000;;;121030100
-OD;971010;20170326;20171002;558;999;;;;;;;;;;;1;221;9971;256;80100;;;121030100
-OD;973833;20170808;20171120;559;999;;;;;;;;;;;1;221;711;311;5300;;;121030100
+OD;9999999;20160507;20170505;600;35;;;;311;;;;;;;1;221;788019;120;11000;;;121030100
+OD;971010;20170326;20171002;601;999;;;;311;;;;;;;1;221;9971;256;80100;;;121030100
+OD;973833;20170808;20171120;602;999;;;;311;;;;;;;1;221;711;311;5300;;;121030100

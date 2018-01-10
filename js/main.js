@@ -635,17 +635,17 @@ $('#tocDropdown').on('click', 'a[href^="#"]', function(e) {
 });
 
 
-// var searchDocs;
-//
-// function startFindInDocs() {
-//     searchDocs = setInterval(function(){ findInDocs() }, 500);
-//     // console.log("[stopFindInDocs] Search started");
-// }
-//
-// function stopFindInDocs() {
-//     clearTimeout(searchDocs);
-//     // console.log("[stopFindInDocs] Search stopped");
-// }
+var searchDocs;
+
+function startFindInDocs() {
+    searchDocs = setInterval(function(){ findInDocs() }, 500);
+    // console.log("[stopFindInDocs] Search started");
+}
+
+function stopFindInDocs() {
+    clearTimeout(searchDocs);
+    // console.log("[stopFindInDocs] Search stopped");
+}
 
 
 function findInDocs(){
