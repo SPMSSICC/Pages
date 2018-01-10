@@ -1416,7 +1416,7 @@ Para importar dados relativos às referências genéricas dos Stocks o utilizado
 ##### Referência 201
 Esta referência importa dados relativos a documentos do tipo CB proveniente dos Stocks. Para ficheiros de referência 201 os campos que devem estar preenchidos são:
 
-|   | Ref. | Nº CB. | Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |
+|   | Ref. | Nº Proc. Aquisição | Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)   | 52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |
 
@@ -1449,7 +1449,7 @@ Ficheiros destas referências importam dados relativos a documentos do tipo OD. 
 ##### Referência 210
 Ficheiros de referência 210 importam dados relativos a documentos do tipo P2. Para ficheiros de referência 210 os campos que devem estar preenchidos são:
 
-|   | Ref. | NºCB |Ent.|NºCP|NºP2| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo| Nº dias Data Vencimento |
+|   | Ref. | Nº Proc. Aquisição |Ent.|NºCP|NºP2| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo| Nº dias Data Vencimento |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   |1 - 3 (3)   | 4 - 11 (8)  | 12 - 19 (8)  | 20 - 27 (8)  |40 - 51 (12)   | 52 - 59 (8)  |60 - 109 (50)   |110 - 159 (50)   |160 - 177 (18)   |178 (1)   |179 - 188 (10)   |230 - 232 (3)   |
 
@@ -1460,7 +1460,7 @@ Ficheiros de referência 210 importam dados relativos a documentos do tipo P2. P
 ##### Referência 211
 Ficheiros de referência 211 importam dados relativos a documentos do tipo P2. Para ficheiros de referência 211 os campos que devem estar preenchidos são:
 
-|   | Ref. | NºCB |Ent.|NºCP|NºP1|NºP2| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo| Nº dias Data Vencimento |
+|   | Ref. | Nº Proc. Aquisição |Ent.|NºCP|NºP1|NºP2| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo| Nº dias Data Vencimento |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   |1 - 3 (3)   | 4 - 11 (8)  | 12 - 19 (8)  | 20 - 27 (8)  |28 - 39 (12)| 40 - 51 (12)   | 52 - 59 (8)  |60 - 109 (50)   |110 - 159 (50)   |160 - 177 (18)   |178 (1)   |179 - 188 (10)   |230 - 232 (3)   |
 
@@ -1471,9 +1471,9 @@ Ficheiros de referência 211 importam dados relativos a documentos do tipo P2. P
 ##### Referência 214
 Ficheiros de referência 214 importam dados relativos a documentos do tipo CM.Para ficheiros de referência 214 os campos que devem estar preenchidos são:
 
-|   | Ref. | NºCB | Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   | Nº dias Data Vencimento |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|Posição (Comprimento)|1 - 3 (3)|4 - 11 (8) |52 - 59(8) |60 - 109 (50)|110 - 159 (59)|160 - 177 (18)|178 (1) |230 - 232(3)   |
+|   | Ref. | Nº Proc. Aquisição | Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   | Nº dias Data Vencimento |Nota de encomenda|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:--:|
+|Posição (Comprimento)|1 - 3 (3)|4 - 11 (8) |52 - 59(8) |60 - 109 (50)|110 - 159 (59)|160 - 177 (18)|178 (1) |230 - 232(3)   | 250 - 269(10)|
 
 <div style="height:40px">
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/214.sncap'">Descarregar TXT</button>
@@ -1490,7 +1490,7 @@ Ficheiros de referência 202 importam dados relativos a documentos do tipo CP.
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-4d1dae6e.png)
 
 
-|   | Ref.  | NºCB | Ent.| NºCP| NºCM| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Nº Dias Data Vencimento|
+|   | Ref.  | Nº Proc. Aquisição | Ent.| NºCP| NºCM| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Nº Dias Data Vencimento|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)| 12 - 19 (8)|20 - 27 (8) |40 - 51 (12)|52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |230 - 232 (3)|
 
@@ -1526,7 +1526,7 @@ Para importar dados relativos aos imobilizados o utilizador deve seguir o seguin
 ##### Referência 301
 Ficheiros de referência 301 importam dados relativos a documentos do tipo CB. Para ficheiros de referência 301 os campos que devem estar preenchidos são:
 
-|   | Ref.  | NºCB | Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|   | Ref.  | NºProc.Aquisição | Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)|52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 - 188 (10)|
 
@@ -1634,7 +1634,7 @@ A descrição dos campos para cada uma das referências é apresentada seguidame
 ##### Referência 702
 Ficheiros de referência 702 importam dados relativos a documentos do tipo P2. Para ficheiros de referência 702 os campos que devem estar preenchidos são:
 
-|   | Ref.  |NºCB| Ent.| NºCP|Nº P1/P2/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|   | Ref.  |NºProc.Aquisição| Ent.| NºCP|Nº P1/P2/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)| 12 - 19 (8)|20 - 27 (8)|28 - 39 (12)| 52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 -  188 (10)|
 
@@ -1645,7 +1645,7 @@ Ficheiros de referência 702 importam dados relativos a documentos do tipo P2. P
 </br>**ARS e ULS**
 </br>Para entidades do tipo ARS e ULS, ficheiros desta referência devem ter os seguintes campos preenchidos:
 
-|   | Ref.  |NºCB| Ent.| NºCP|Nº P1/P2/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|   | Ref.  |NºProc.Aquisição| Ent.| NºCP|Nº P1/P2/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento) |1 - 3 (3)|4 - 11 (8)| 12 - 19 (8)|20 - 27 (8)|**28 - 42 (15)**| 55 - 62 (8)  | 63 - 112 (50)  | 113 - 162 (50)  |163 - 180 (18)   |  181 (1) |182 - 191 (10)|
 
@@ -1689,7 +1689,7 @@ Ficheiros de referência 704 importam dados relativos a documentos do tipo NC. P
 ##### Referência 706
 Ficheiros de referência 706 importam dados relativos a documentos do tipo DF. Para ficheiros de referência 706 os campos que devem estar preenchidos são:
 
-|   | Ref.  | NºCB| Ent.| NºCP|Nº DF/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|   | Ref.  | NºProc.Aquisição| Ent.| NºCP|Nº DF/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)| 12 - 19 (8)|20 - 27 (8)|28 - 39 (12)| 52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 - 188 (10)|
 
@@ -1700,7 +1700,7 @@ Ficheiros de referência 706 importam dados relativos a documentos do tipo DF. P
 </br>**ARS e ULS**
 </br>Para entidades do tipo ARS e ULS, ficheiros desta referência devem ter os seguintes campos preenchidos:
 
-|   | Ref.  | NºCB| Ent.| NºCP|Nº DF/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|   | Ref.  | NºProc.Aquisição| Ent.| NºCP|Nº DF/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)| 12 - 19 (8)|20 - 27 (8)|**28 - 42 (15)**| 55 - 62 (8)  | 63 - 112 (50)  | 113 - 162 (50)  |163 - 180 (18)   |  181 (1) |182 - 191 (10)|
 
@@ -1752,7 +1752,7 @@ Para importar dados relativos às faturas de SISO/Reembolsos o utilizador deve s
 
 </br>**Referência 501**
 
-|   | Ref.  | NºCB| Ent.| NºCP|Nº P1/P2| Data Doc. | Conta Débito | Conta Crédito | Importância| Sinal|Centro Custo|
+|   | Ref.  | NºProc.Aquisição| Ent.| NºCP|Nº P1/P2| Data Doc. | Conta Débito | Conta Crédito | Importância| Sinal|Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)| 12 - 19 (8)|20 - 27 (8)|40 - 51 (12)| 52 - 59 (8)  | 60 - 79 (20)  | 80 - 99 (20)  |100 - 117 (18)   |  118 (1) |119 - 128 (10)|
 
@@ -1805,7 +1805,7 @@ Ficheiros de referência 902 importam dados relativos a documentos do tipo P2. P
 
 Caso Geral:
 
-|   | Ref.  | NºCB| Ent.| NºCP|Nº P1/P2/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|   | Ref.  | NºProc.Aquisição| Ent.| NºCP|Nº P1/P2/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)| 12 - 19 (8)|20 - 27 (8)|28 - 39 (12)| 52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 - 188 (10)|
 
@@ -1816,7 +1816,7 @@ Caso Geral:
 </br>**ARS e ULS**
 </br> Para entidades do tipo ARS e ULS, ficheiros desta referência devem ter os seguintes campos preenchidos:
 
-|   | Ref.  | NºCB| Ent.| NºCP|Nº P1/P2/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|   | Ref.  | NºProc.Aquisição| Ent.| NºCP|Nº P1/P2/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)| 12 - 19 (8)|20 - 27 (8)|**28 - 42 (15)**| 55 - 62 (8)  | 63 - 112 (50)  | 113 - 162 (50)  |163 - 180 (18)   |  181 (1) |182 - 191 (10)|
 
@@ -1872,7 +1872,7 @@ Ficheiros de referência 905 importam dados relativos a documentos do tipo CC. P
 </br>**ARS e ULS**
 </br>Para entidades do tipo ARS e ULS, ficheiros desta referência devem ter os seguintes campos preenchidos:
 
-|   | Ref. | Ent.e| Nº CC/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal |Centro Custo|
+|   | Ref. | Ent.| Nº CC/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento) | 1 - 3 (3)|12 - 19 (8)|**28 - 42 (15)**| 55 - 62 (8)|63 - 112 (50)|113 - 162 (50)|163 - 180 (18)|181 (1) |182 - 191 (10)|
 
@@ -1883,7 +1883,7 @@ Ficheiros de referência 905 importam dados relativos a documentos do tipo CC. P
 ##### Referência 906
 Ficheiros de referência 906 importam dados relativos a documentos do tipo DF. Para ficheiros de referência 906 os campos que devem estar preenchidos são:
 
-|   | Ref.  |NºCB| Ent.| NºCP|Nº DF/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|   | Ref.  |NºProc.Aquisição| Ent.| NºCP|Nº DF/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Posição (Comprimento)   | 1 - 3 (3)  |4 - 11 (8)| 12 - 19 (8)|20 - 27 (8)|28 - 39 (12)| 52 - 59 (8)  | 60 - 109 (50)  | 110 - 159 (50)  |160 - 177 (18)   |  178 (1) |179 - 188 (10)|
 
