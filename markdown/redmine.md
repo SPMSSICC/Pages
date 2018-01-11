@@ -31,7 +31,7 @@ Nesta janela devem ser preenchidos os seguintes campos com a informação respet
 |Tipo    |Neste campo deve ser indicado o tipo de assunto a reportar. ![](https://spmssicc.github.io/pages/markdown/redmine.assets/redmine-9a48154e.png) |
 |Assunto    |Neste campo deve ser indicado o assunto do ticket.    |
 |Descrição   | Indicar de forma detalhada a situação.  |
-|Estado    |Indicar o estado do ticket, nno caso de ser um novo ticket deve estar "New". ![](https://spmssicc.github.io/pages/markdown/redmine.assets/redmine-3036e3b5.png)   |
+|Estado    |Indicar o estado do ticket, no caso de ser um novo ticket deve estar "New". ![](https://spmssicc.github.io/pages/markdown/redmine.assets/redmine-3036e3b5.png)   |
 |Prioridade    | Indicar a prioridade do ticket. ![](https://spmssicc.github.io/pages/markdown/redmine.assets/redmine-c478492a.png) |
 |Atribuído a    | Selecionar o nome de **Luis Carneiro** através da lista disponível. Ao responder a um ticket já aberto, selecionar o nome do membro da equipa com quem está em contacto/pretende contactar.  ![](https://spmssicc.github.io/pages/markdown/redmine.assets/redmine-aedfc355.png)    |
 |Responsável do Pedido    | Neste campo deve estar indicado o responsável do pedido, por exemplo o utilizador.   |
