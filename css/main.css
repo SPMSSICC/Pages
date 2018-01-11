@@ -539,6 +539,23 @@ cursor: pointer;
   background-color: rgba(25, 251, 55, 0.1);
 }
 
+#commit-history div {
+  background-color: white;
+  border-radius:8px;
+  padding:1em;
+  padding-left:.5em;
+  margin-left: 0;
+  color:#29615D;
+  font-size:1.2em;
+  font-weight:700;
+  letter-spacing:0;
+}
+
+#commit-history div:hover{
+  cursor: pointer;
+  background-color: rgba(25, 251, 55, 0.1);
+}
+
 
 #fileHistory > h3, #btnSearchMatches > h3{
 margin-top: 15px;
