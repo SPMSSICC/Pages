@@ -30,3 +30,5 @@
  - No ficheiro CSV de Informação de Compromisso, produzido pelo sistema, foi adicionada informação da nota de encomenda.
 
  - Otimização da _performance_ dos registos de CE.
+
+- Excecionalmente, tal como já foi comunicado, o sistema SICC SNC-AP ficará em manutenção entre o dia 12 de janeiro, pelas 20h, até às 23h59min do dia 14 de janeiro. Esta intervenção terá como objetivo as configurações de alguns mapas de execução orçamental e alteração de processos técnicos de POCMS para SNC-AP. Na próxima semana iremos detalhar esta intervenção.   
