@@ -33,13 +33,15 @@ Nesta janela devem ser preenchidos os seguintes campos com a informação respet
 |Descrição   | Indicar de forma detalhada a situação.  |
 |Estado    |Indicar o estado do ticket, nno caso de ser um novo ticket deve estar "New". ![](https://spmssicc.github.io/pages/markdown/redmine.assets/redmine-3036e3b5.png)   |
 |Prioridade    | Indicar a prioridade do ticket. ![](https://spmssicc.github.io/pages/markdown/redmine.assets/redmine-c478492a.png) |
-|Atribuído a    | Indicar o nome do membro da equipa SICC, através da seleção da lista disponível, a quem irá atribuir o ticket. ![](https://spmssicc.github.io/pages/markdown/redmine.assets/redmine-aedfc355.png)    |
+|Atribuído a    | Selecionar o nome de **Luis Carneiro** através da lista disponível. Ao responder a um ticket já aberto, selecionar o nome do membro da equipa com quem está em contacto/pretende contactar.  ![](https://spmssicc.github.io/pages/markdown/redmine.assets/redmine-aedfc355.png)    |
 |Responsável do Pedido    | Neste campo deve estar indicado o responsável do pedido, por exemplo o utilizador.   |
 |Ficheiros    | Se for necessário, podem ser anexados ficheiros de tamanho máximo 5MB através da seleção dos mesmos da diretoria do computador do utilizador.    |
 |Observadores    | O utilizador pode selecionar, dos membros apresentados, membros que irão seguir todo o processo de resolução do ticket. À semelhança do "Com Conhecimento" nos e-mail's. |
 
 </br>Para terminar o registo do ticket, deve clicar sobre o botão "Criar" ou "Criar e continuar".
 ![](https://spmssicc.github.io/pages/markdown/redmine.assets/redmine-bcec6b4d.png)
+
+>**NOTA:** Não devem ser abertos novos tickets como forma de reincidência a pedidos previamente efetuados. Nestes casos deve ser atualizado o ticket inicialmente aberto.
 
 ## Visualizar todos os tickets abertos
 
