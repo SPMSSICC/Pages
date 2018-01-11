@@ -23,7 +23,7 @@ var uAgent = window.navigator.userAgent.toUpperCase()
   , mobileDeviceCheck = (/android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(navigator.userAgent.toLowerCase()))
   , arrDocs = []
   , reformatedArrDocs = []
-  , arrDocNames = [ 'about','apresentacao_snc_ap','apresentação_20_nov_snc_ap','check_list','cer_migracao_sicc','chave_orcamental_por_ano','circ1381','circ1382','dec_lei85','dec_lei192','documentos_af_e_ar','gestao_exercicios','gestao_projetos','help','importacao_csvs','macro_tarefas','menus_draft','menus','mu_snc_ap','mu_snc_ap_draft','perguntas_frequentes','processos','redmine','reposicao_pagamentos_cobrancas','snc_ap_faqs']
+  , arrDocNames = [ 'about','apresentacao_snc_ap','apresentação_20_nov_snc_ap','atual_sist_12_jan','check_list','cer_migracao_sicc','chave_orcamental_por_ano','circ1381','circ1382','dec_lei85','dec_lei192','documentos_af_e_ar','gestao_exercicios','gestao_projetos','help','importacao_csvs','macro_tarefas','menus_draft','menus','mu_snc_ap','mu_snc_ap_draft','perguntas_frequentes','processos','redmine','reposicao_pagamentos_cobrancas','snc_ap_faqs']
   , lastSearchStr = "";
 /*Carregar documento através de parametros no URL (queryString)*/
 function loadFirstContent(){
@@ -130,6 +130,44 @@ function loadIndexContent(btnsToShow, event) {
 			var stateObj = { foo: 'bar' };
 			history.replaceState(stateObj, "SICC Documentação - página inicial", location.href.split("?")[0]);
 	});
+}
+
+function loadUpgrades(btnsToShow, event) {
+
+	startLoader();
+
+	$("#fileHistory, #behindFileHistory").remove();
+  if($('#documento').length < 1){
+      $('body, #content').removeAttr('style'); 																 //adjust html style and structure
+      $('#content').html("<article id='documento' class='modulo'></article>"); //adjust html style and structure
+      $('footer').addClass('documentMode'); 																	 //adjust html style and structure
+  }
+
+	var filePath ='./html/atualizacoes_sicc.html';
+
+	$.get(filePath, function() {
+		//console.log("[loadIndexContent] Loaded requested file");
+	})
+	.done(function(data){
+			$("#content").html(data);
+			showElements(btnsToShow);
+			// $("footer").removeClass("documentMode");
+			highlightMenuItem(event);
+
+
+			$("#docOptions").removeClass("active");
+      $("#btnMenu").removeClass("active");
+      $("#accordion").removeClass("show");
+	})
+
+	.always(function(){
+			window.scrollTo(0,0);
+			$('#docOptions').removeClass('active');
+			var stateObj = { foo: 'bar' };
+			history.replaceState(stateObj, "SICC SNC-AP - atualizações", location.href.split("?")[0]);
+	});
+
+  stopLoader();
 }
 
 function loadMdDoc(mdFile, btnsToShow, anchor, event) {

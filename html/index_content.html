@@ -12,17 +12,15 @@
 
 </div>
 
-
-
 <div id="novidadeSncAP">
   <h2>Solução SNC-AP para entidades de saúde<br/></h2>
 
   <div class="barra">
     <span  style="widht:80%;height:100px">
-  <div class="quick_acess" onclick="loadMdDoc('apresentação_20_nov_snc_ap', ['btnMenu','btnOpt'],'', null)">
-    <figure><i class="fa fa-object-group fa-fw fa-4x" aria-hidden="true"></i></figure>
-    <p> <span style="color:rgb(242, 157, 11)">*Novo*</span> Apresentação</p>
-  </div>
+      <div class="quick_acess" onclick="loadUpgrades(['btnMenu'], event)">
+        <figure><i class="fa fa-refresh fa-fw fa-4x" aria-hidden="true"></i></figure>
+        <p> <span style="color:rgb(242, 157, 11)">*Novo*</span> Atualizações</p>
+      </div>
   <div class="quick_acess" onclick="window.open('https://goo.gl/forms/VqiKTBR15gcGXI1k2','_blank')" >
     <figure><i class="fa fa-pencil-square-o fa-fw fa-4x" aria-hidden="true"></i></figure>
     <p><span style="color:rgb(242, 157, 11)">*Novo*</span> Questionário</p>
@@ -31,6 +29,9 @@
     <figure><i class="fa fa-check-square-o fa-fw fa-4x" aria-hidden="true"></i></figure>
     <p> <span style="color:rgb(242, 157, 11)">*Novo*</span> Checklist</p>
   </div>
+    <div class="quick_acess" onclick="loadMdDoc('apresentação_20_nov_snc_ap', ['btnMenu','btnOpt'],'', null)">
+      <figure><i class="fa fa-object-group fa-fw fa-4x" aria-hidden="true"></i></figure>
+      <p>Apresentação</p></div>
   <div class="quick_acess" onclick="loadMdDoc('dec_lei192', ['btnMenu','btnOpt'],'', null)">
       <i class="fa fa-university fa-fw fa-4x" aria-hidden="true"></i>
       <p>Documentação Legal</p>
@@ -44,7 +45,7 @@
 </div>
 <div class="contactos">
   <span>Contacte-nos:</span>
-sncap@spms.min-saude.pt
+    sncap@spms.min-saude.pt
 </div>
 <div id="mapaEntidadesSICC" style="center; padding: 5em 0 2em 0">
   <h3>Explore o mapa com as entidades de saúde SICC</h3>
