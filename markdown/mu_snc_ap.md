@@ -2805,12 +2805,33 @@ Seguidamente irá abrir o separador "Analítica" onde o utilizador deve selecion
 
 A partir desse momento a fatura foi gerada e registada no sistema. Pode no entanto ser feita uma consulta aos dados registados anteriormente.
 
-Neste ecrã, há necessidade do preenchimento dos campos obrigatórios, sendo que para o efeito basta o: “Número de entidade” e “número de fatura”. Tendo estes dois campos preenchidos o sistema de forma automática completa a restante informação, bem como demonstra no ecrã "Existente".
+Neste ecrã, há necessidade do preenchimento dos campos obrigatórios, sendo que para o efeito basta o: “Número de entidade” e “Número de fatura”. Tendo estes dois campos preenchidos o sistema de forma automática completa a restante informação, bem como demonstra no ecrã "Existente".
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-4d71312f.png)
 
+##### Importação
 
-__Igualmente ao apresentado no capítulo anterior, os botões: "Consulta", "Abater" e "Sair", apresentam as mesmas funcionalidades.__
+Este tipo de documentos também pode ser importado através da funcionalidade disponível no botão "Importar".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-118abf76.png)
+
+No ecrã aberto, o utilizador deve selecionar o ficheiro CSV que pretende importar da diretoria do seu computador. Depois, deve testar o ficheiro selecionado através do clique em "Ver/Testar Ficheiro".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-752bba61.png)
+
+Se o ficheiro apresentar uma esturutura correta, as duas janelas do ecrã ficarão preenchidas com os dados do ficheiro importado. Se apresentar incoerências, as mesmas serão comunicadas na janela respetiva.
+
+Para validar a importação, deve clicar em "Importa Ligação".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-6059bf69.png)
+
+O aspeto do ficheiro a importar deve ser semelhante ao seguidamente apresentado.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-759103e1.png)
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/FD_SNCAP.csv'">Descarregar CSV</button>
+</div>
 
 #### 3.3.3. Guias de Receita (GR)
 
@@ -3867,6 +3888,19 @@ Por isso, na janela do plano de contas SNC-AP, foi criada a conta 2415 (de movim
 
 >**NOTA:** Quando é efetuado um desdobramento numa conta de movimento em SNC-AP esta passa para o tipo de acumulação. Se a conta já for associada a uma conta movimento em POCMS a associação fica inválida pois só se podem associar contas de movimento. deste modo, deve-se efetuar a alteração na associação.  
 
+O utilizador também pode exportar a tabela de conversão para um ficheiro **CSV**. Para taldeve indicar a diretoria do seu computador onde pretende guardar o ficheiro e clicar em "Ficheiro".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-51f0d2e2.png)
+
+O aspeto do ficheiro exportado será como apresentado seguidamente:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-749195b5.png)
+
+Neste ficheiro, no final da tabela, o utilizador pode verificar uma divisão da tabela.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-5d459ce9.png)
+
+Nesta zona serão apresentadas as contas POCMS não contempladas para a tabela de conversão.
 <!-- ## 9. Utilitários
 
 ### 9.1. Abertura de um novo Ano
