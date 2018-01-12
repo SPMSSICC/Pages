@@ -2019,6 +2019,10 @@ O utilizador ao selecionar o botão "Imprimir", gera no ecrã o resultado da cri
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-c0eb122c.png)
 
+Ao selecionar "Ficheiro", o aspeto do mesmo será como o do seguidamente apresentado:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-b9a6ea3d.png)
+
 ##### Listagens de CB
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-776977c3.png)
@@ -2126,11 +2130,14 @@ Igualmente e da mesma forma que no ecrã dos cabimentos, o utilizador tem assim 
 |Ficheiro|Este botão permite ao utilizador escolher o diretório de gravação do Excel que irá ser produzido|
 |Sair|Este botão permite que o utilizador saia do ecrã e regresse ao menu inicial|
 
-![img_95a.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_95a.png)
 
 O utilizador ao selecionar o botão "Imprimir", gera no ecrã o resultado da criação do CM.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1b010f55.png)
+
+Ao selecionar "Ficheiro", o aspeto da informação de CM em ficheiro CSV será semelhante ao ficheiro seguidamente apresentado.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-f4a9ba48.png)
 
 __A novidade no novo sistema SICC-SNC-AP é o aparecimento do botão , que permite aos utilizadores carregarem a partir de um documento de Excel vários compromissos de forma muito mais rápida e viável.__
 
@@ -2819,13 +2826,11 @@ O aspeto do ficheiro CSV a ser importado deve ser semelhante ao seguidamente apr
 
 >**NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-c0f3f040.png)
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1c074965.png)
+
 <div style="height:40px">
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/DF_SNCAP.csv'">Descarregar CSV</button>
 </div>
-
-
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1c074965.png)
 
 ### 3.3. Ciclo Receita
 
@@ -2923,7 +2928,7 @@ O aspeto do ficheiro a importar deve ser semelhante ao seguidamente apresentado.
 
 <div style="height:40px">
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/GR_SNCAP.csv'">Descarregar CSV</button>
-</div> -->
+</div>
 
 ##### Impressão de Guias de Receita
 
