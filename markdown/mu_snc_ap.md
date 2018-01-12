@@ -2958,33 +2958,57 @@ _Imagem em atualização_
 
 ![img_184.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_184.png)
 
+#### 3.3.4. Outras Receitas (OR)
 
-#### 3.3.4. Cobranças (CO)
+##### 3.3.4.1. Recolha
+Para aceder ao ecrã de registo de outras receitas,  DEve o utilizador seguir o seguinte caminho na aplicação:
 
-No processo de Cobrança, deve o utilizador lançar as várias contas de disponibilidades a débito por contrapartida de compensação da partida de liquidação da receita-cliente com código de razão especial (251*).
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-7e655f7a.png)
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-662dc2c8.png)
+No ecrã aberto o utilizador deve preencher os seguintes campos assinalados na imagem, e por fim, deve clicar em "Gravar nova OR".  
 
-Deve o utilizador para dar continuidade ao processo, preencher: “Nº de entidade”, respetivo “Nº de tesouraria” e dar duplo clique na linha resumo para preenchimento automático dos restantes campos. Identificar igualmente qual o “Tipo de pagamento” e proceder à escolha da entidade bancária. Deve por fim selecionar sobre o botão "Gravar novo CO".
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-858eb728.png)
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-943520bb.png)
+No novo ecrã, o utilizador deve indicar as contas de movimento e os respetivos montantes clicando de seguida em "Gerar Contabilidade".
 
-Os movimentos contabilísticos surgem de forma automática, pelo que o utilizador tem de validar e confirmar.
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-05ae195e.png)
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-39ad4005.png)
+Na nova janela, o utilizador tem de indicar o centro de custo pretendido. O acesso à lista de Centros de Custo disponíveis no sistema pode ser efetuado através do botão redondo. Por fim deve clicar em "Confirme" para concluir o registo da OR.
 
-
-No segundo separador "Receita sem Factura (CO->OR)" deve o utilizador para dar continuidade ao processo, preenchendo: “Nº de entidade”, “Ano” e “Nº de Doc” seguido do botão "Pesquisar OR". Também deve ser atribuido o "Nº de tesouraria" ou o sistema pode atribuí-lo de forma automática e deve-se dar um duplo clique na linha resumo. Desta forma, o preenchimento dos restantes campos é automático. Porfim, deve selecionar o botão "Gravar novo CO".
-
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a0055c12.png)
-
-Os movimentos contabilísticos surgem de forma automática, pelo que o utilizador tem de validar e confirmar.
-
-_(Imagem em atualização)_
-![img_198.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_198.png)
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-24b963c4.png)
 
 
-##### Impressão Documentos OR
+
+##### Importação
+
+As OR's podem ser importadas através do botão "Importar" disponivel no ecrã inicial de registo.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-fdb71cb3.png)
+
+Na janela aberta, o utilizador deve selecionar da diretoria o ficheiro que pretende importar, à semelhança de todas as outras importações, e para validar a consistência do mesmo deve clicar no botão "Ver/Testar Ficheiro".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-f1bbdef0.png)
+
+O aspeto do ficheiro **CSV** a ser importado é semelhante ao seguidamente apresentado:
+
+>**NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-5e8572c4.png)
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/OR_SNCAP.csv'">Descarregar CSV</button>
+</div>
+
+Após validação do ficheiro, as janelas do ecrã ficarão preenchidas com os dados do ficheiro importado. Caso este apresente inconsistências, estas serão apresentadas na janela respetiva.
+De seguida, para efetuar a importação dos dados deve o utilizador pressionar no botão "Importa Ligação".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-3806f752.png)
+
+Para validar a importação, o sistema irá mostrar uma mensagem como a seguidamente apresentada:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a9ba0cca.png)
+
+#####  3.3.4.2. Impressão Documentos OR
 
 Neste passo, é demonstrado o procedimento para fazer as impressões das GR geradas no passo anterior. Para isso, deve o utilizador seguir o seguinte caminho no sistema:
 
@@ -3013,6 +3037,31 @@ Ao selecionar “Imprimir”, o sistema produz a Guia de Receita em PDF.
 ![img_201.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_201.png)
 
 __O utilizador pode verificar na impressão o novo campo de “Observações” criado no ponto 3.2.7. .__
+
+#### 3.3.5. Cobranças (CO)
+
+No processo de Cobrança, deve o utilizador lançar as várias contas de disponibilidades a débito por contrapartida de compensação da partida de liquidação da receita-cliente com código de razão especial (251*).
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-662dc2c8.png)
+
+Deve o utilizador para dar continuidade ao processo, preencher: “Nº de entidade”, respetivo “Nº de tesouraria” e dar duplo clique na linha resumo para preenchimento automático dos restantes campos. Identificar igualmente qual o “Tipo de pagamento” e proceder à escolha da entidade bancária. Deve por fim selecionar sobre o botão "Gravar novo CO".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-943520bb.png)
+
+Os movimentos contabilísticos surgem de forma automática, pelo que o utilizador tem de validar e confirmar.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-39ad4005.png)
+
+
+No segundo separador "Receita sem Factura (CO->OR)" deve o utilizador para dar continuidade ao processo, preenchendo: “Nº de entidade”, “Ano” e “Nº de Doc” seguido do botão "Pesquisar OR". Também deve ser atribuido o "Nº de tesouraria" ou o sistema pode atribuí-lo de forma automática e deve-se dar um duplo clique na linha resumo. Desta forma, o preenchimento dos restantes campos é automático. Porfim, deve selecionar o botão "Gravar novo CO".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a0055c12.png)
+
+Os movimentos contabilísticos surgem de forma automática, pelo que o utilizador tem de validar e confirmar.
+
+_(Imagem em atualização)_
+![img_198.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_198.png)
+
 
 #### 3.3.5. Crédito a Clientes
 
@@ -3402,7 +3451,6 @@ Se não existirem incoerências, as duas janelas do ecrã ficarão preenchidas c
 Para finalizar a importação deve clicar em "Importa Ligação".
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-4a69feb5.png)
-
 
 O aspeto do ficheiro CSV a importar deve ser semelhante ao seguidamente apresentado.
 
