@@ -2901,6 +2901,30 @@ Quando o utilizador não atribui um número à Guia de receita, este é gerado a
 
 ![img_181.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_181.png)
 
+##### Importação
+
+Este tipo de documentos também pode ser importado através da funcionalidade disponível no botão "Importar".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-b99b5975.png)
+
+No ecrã aberto, o utilizador deve selecionar o ficheiro CSV que pretende importar da diretoria do seu computador. Depois, deve testar o ficheiro selecionado através do clique em "Ver/Testar Ficheiro".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-fbdde331.png)
+
+Se o ficheiro apresentar uma esturutura correta, as duas janelas do ecrã ficarão preenchidas com os dados do ficheiro importado. Se apresentar incoerências, as mesmas serão comunicadas na janela respetiva.
+
+Para validar a importação, deve clicar em "Importa Ligação".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-56186dfa.png)
+
+O aspeto do ficheiro a importar deve ser semelhante ao seguidamente apresentado.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a52ce6af.png)
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/GR_SNCAP.csv'">Descarregar CSV</button>
+</div> -->
+
 ##### Impressão de Guias de Receita
 
 Neste passo, é demonstrado o procedimento para fazer as impressões das GR geradas no passo anterior. Para isso, deve o utilizador seguir o seguinte caminho no sistema:
