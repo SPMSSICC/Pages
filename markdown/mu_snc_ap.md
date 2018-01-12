@@ -2792,7 +2792,7 @@ Para validar a importação, o sistema irá mostrar uma mensagem como a seguidam
 
 #### 3.2.11. Débito sobre Faturas (DF)
 
-<!-- Para aceder ao ecrã de recolha de dados relativos a débito sobre faturas, deve o utilizador seguir o caminho na aplicação:
+Para aceder ao ecrã de recolha de dados relativos a débito sobre faturas, deve o utilizador seguir o caminho na aplicação:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-e056b915.png)
 
@@ -2800,9 +2800,19 @@ No ecrã que é aberto, deve o utilizador preencher os seguintes campos obrigat�
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-790a7191.png)
 
-No novo ecrã aberto, o utilizador deve preencher as contas e os movimentos respetivos. Estas contas devem ter a **mesma conta financeira**.
+No preenchimento destes campos obrigatórios, no caso do utilizador indicar um número de CP que não exista ainda, este pode ser criado nesse momento. Para tal, o sistema gere uma mensagem a indicar que o CP é inexistente e pede para inserir o Nº de CB.
 
-Findo o preenchimento das contas, o utilizador deve clicar em X e depois em X. -->
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-d17ee958.png)
+
+No novo ecrã aberto, o utilizador deve preencher as contas e os movimentos respetivos.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a200cc59.png)
+
+Findo o preenchimento das contas, o utilizador deve clicar em "Confirme".
+
+Como o CM e CP tinham consumido o valor total do CB criado, o sistema criou as alterações aos docuemtnos, nomeadamente a AL, AB e AM. Estas alterações são comunicadas ao utilizador através de uma mensagem como a seguidamente apresentada.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-43790ce8.png)
 
 ##### Importação
 
@@ -2831,6 +2841,9 @@ O aspeto do ficheiro CSV a ser importado deve ser semelhante ao seguidamente apr
 <div style="height:40px">
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/DF_SNCAP.csv'">Descarregar CSV</button>
 </div>
+
+O passo seguinte ao registo da DF é o registo da autorização de pagamento (AP) da mesma. Este processo está descrito no capítulo 3.2.7. deste manual.
+
 
 ### 3.3. Ciclo Receita
 
