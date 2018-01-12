@@ -1411,7 +1411,9 @@ Para importar dados relativos às referências genéricas dos Stocks o utilizado
 </br>Para confirmar a importação dos dados, o sistema gera uma mensagem informativa com a indicação abaixo descrita.
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1150b5aa.png)
 
-</br>No caso da gestão de Stocks, é possível importar ficheiros com as referências  **201, 203, 204, 205, 206, 207, 210, 211 e 214**. A descrição dos campos para cada uma das referências é apresentada seguidamente.
+</br>No caso da gestão de Stocks, é possível importar ficheiros com as referências  **201, 203, 204, 205, 206, 207, 210, 211 e 214**.
+
+ A descrição dos campos para cada uma das referências é apresentada seguidamente.
 
 ##### Referência 201
 Esta referência importa dados relativos a documentos do tipo CB proveniente dos Stocks. Para ficheiros de referência 201 os campos que devem estar preenchidos são:
@@ -2780,6 +2782,50 @@ Para validar a importação, o sistema irá mostrar uma mensagem como a seguidam
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a9ba0cca.png)
 
+
+#### 3.2.11. Débito sobre Faturas (DF)
+
+<!-- Para aceder ao ecrã de recolha de dados relativos a débito sobre faturas, deve o utilizador seguir o caminho na aplicação:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-e056b915.png)
+
+No ecrã que é aberto, deve o utilizador preencher os seguintes campos obrigatórios. De seguida deve clicar em "Gravar novo DF".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-790a7191.png)
+
+No novo ecrã aberto, o utilizador deve preencher as contas e os movimentos respetivos. Estas contas devem ter a **mesma conta financeira**.
+
+Findo o preenchimento das contas, o utilizador deve clicar em X e depois em X. -->
+
+##### Importação
+
+Este documento também pode ser importado através da funcionalidade disponível no botão "Importar".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-6ed844d9.png)
+
+No ecrã aberto, o utilizador deve selecionar da diretoria do seu computador o **ficheiro CSV** para importação. De seguida deve clicar em "Ver/Testar Ficheiro" para verificar se este apresenta a estrutura correta bem como se existem outras incoerências. Em caso de estar coerente,  as duas janelas do ecrã ficarão preenchidas com os dados do ficheiro a importar. Em caso de existirem incoerências as mesmas serão comunicadas ao utilizador na janela respetiva. Deve por isso, o utilizador, efetuar a correções necessárias e testar novamente o ficheiro.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-f47f683f.png)
+
+Por fim, para concluir a importação, deve clicar em "Importa Ligação".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-11fb6a67.png)
+
+Para confirmar a importação do ficheiro, o sistema irá mostrar a seguinte mensagem.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-bdd7e937.png)
+
+O aspeto do ficheiro CSV a ser importado deve ser semelhante ao seguidamente apresentado.
+
+>**NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-c0f3f040.png)
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/DF_SNCAP.csv'">Descarregar CSV</button>
+</div>
+
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1c074965.png)
 
 ### 3.3. Ciclo Receita
 
