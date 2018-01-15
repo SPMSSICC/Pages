@@ -3093,8 +3093,32 @@ Os movimentos contabilísticos surgem de forma automática, pelo que o utilizado
 _(Imagem em atualização)_
 ![img_198.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_198.png)
 
+##### Importação
 
-#### 3.3.5. Crédito a Clientes
+Os tipos de documentos de Cobranças (CO) podem ser importados  no sistema através de um ficheiro **CSV**. Para tal, deve o utilizador selecionar o botão "Importar" disponível na parte inferior das janelas de cada tabulação.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-4ac4c244.png)
+
+No novo ecrã aberto, deve o utilizador selecionar o ficheiro CSV da diretoria do seu computador. De seguida deve clicar em "Ver/Testar Ficheiro" para validar a sua estrutura e composição.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-721d6c7f.png)
+
+
+Em caso do ficheiro não apresentar incoerências, as janelas do ecrã ficarão preenchidas com os dados do ficheiro importado. No caso deste apresentar incoerências, as mesmas serão comunicadas ao utilizador na janela respetiva e deve o utilizador corrigi-las e validar o ficheiro novamente. Por fim, deve clicar em "Importa Ligação".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-7aca8a97.png)
+
+O aspeto do ficheiro **CSV** a ser importado deve ser semelhante ao seguidamente apresentado:
+
+>**NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-02b4358a.png)
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/CO_SNCAP_1.csv'">Descarregar CSV</button>
+</div>
+
+#### 3.3.5. Crédito a Clientes (CC)
 
 Para aceder ao ecrã respetivo ao registo de crédito a clientes, o utilizador deve seguir o seguinte caminho na aplicação:
 
@@ -3130,7 +3154,9 @@ Para validar a importação, deve clicar em "Importa Ligação".
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-882c6423.png)
 
-O aspeto do ficheiro a importar deve ser semelhante ao seguidamente apresentado.
+O aspeto do ficheiro **CSV** a importar deve ser semelhante ao seguidamente apresentado.
+
+>**NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-d3d8a35b.png)
 
