@@ -227,6 +227,15 @@ Este ecrã permite ao utilizador manipular as informações relacionadas com os 
 | Critério de filtragem | Critério para filtragem da pesquisa. ![codigo_nome](https://spmssicc.github.io/pages/markdown/menus.assets/img_codigo_nome.png) |
 | Critério de posicionamento | Critério a escolher para realçar um resultado da pesquisa. ![codigo_nome](https://spmssicc.github.io/pages/markdown/menus.assets/img_codigo_nome.png) |
 
+</br>Para **inserir** novos Factores de aglutinação deve o utilizador seguir o processo:
+
+1. Clicar em "+ Novo";
+2. Na nova linha aberta, inserir o código e a designação do factor pretendido;
+3. Clicar em "Confirmar".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/fatores_aglut.gif)
+
+
 #### 1.2.4. Tipos de Entidade
 
 ##### Recolhas
@@ -240,6 +249,15 @@ Entidades.
 |:---|:---|
 | Critério de filtragem | Critério para filtragem da pesquisa. ![codigo_nome](https://spmssicc.github.io/pages/markdown/menus.assets/img_codigo_nome.png) |
 | Critério de posicionamento | Critério a escolher para realçar um resultado da pesquisa.  ![codigo_nome](https://spmssicc.github.io/pages/markdown/menus.assets/img_codigo_nome.png) |
+
+</br>Para **inserir** novos Tipos de Entidade deve o utilizador seguir o processo:
+
+1. Clicar em "+ Novo";
+2. Na nova linha aberta, inserir o código e a designação do tipo pretendido;
+3. Clicar em "Confirmar".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/tipos_entidade.gif)
+
 
 #### 1.2.5. Instituições Bancárias
 
