@@ -1302,13 +1302,13 @@ Este capítulo pretende descrever o processo de importação de dados provenient
 - MCDT.
 
 A importação de dados destas aplicações, no sistema SICC /SNC - AP,  pode ser feita via ficheiros em formato TXT.
-O _layout_ geral destes ficheiros, isto é, de todos os ficheiros TXT referentes a estas importações, é igual para todas as ligações disponíveis neste menu. No entanto, os campos que são preenchidos no ficheiro para importação variam consoante o tipo de ligação e a referência do ficheiro.
+O _layout_ geral destes ficheiros, isto é, de todos os ficheiros TXT referentes a estas importações, é igual para todas as ligações disponíveis neste menu. No entanto, os campos que são preenchidos no ficheiro para importação, variam consoante o tipo de ligação e o tipo de documento que importam - o que é definido pela referência do ficheiro.
 
 Na imagem abaixo está representado um exemplo de dois ficheiros, referências 101 (Ligação Pessoal) e 211 (Ligação Gestão de Stocks), onde estão apresentados campos que são preenchidos nos dois ficheiros (por exemplo: Conta Débito) e outros que apenas são preenchidos por um deles.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-162effc4.png)
 
->**Nota:** Apenas pode ser produzido um ficheiro TXT por referência.
+>**Nota:** Apenas pode ser produzido um ficheiro TXT por referência. </br> No ficheiro TXT, de uma dada referência, podem haver várias linhas por processo de aquisição.
 
 
  </br>Ao longo dos próximos sub-capítulos será descrito, com detalhe, todo o fluxo de trabalho necessário para que a importação dos dados seja bem sucedida bem como a estrutura dos ficheiros para cada tipo de importação.
@@ -1541,7 +1541,7 @@ Para importar dados relativos aos imobilizados o utilizador deve seguir o seguin
 </br>Para confirmar a importação dos dados, o sistema gera uma mensagem informativa com a indicação abaixo descrita.
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1150b5aa.png)
 
-</br>No caso da gestão de imobilizado, é possível importar ficheiros com as referências  **301, 302, 303, 304, 305, 306 e 307**. A descrição dos campos para cada uma das referências é apresentada seguidamente.
+</br>Para importar ficheiros relativos ao imobilizado, devem ser importados os ficheiros de referência  **301, 302, 303, 304, 305, 306 e 307**. A descrição dos campos para cada uma das referências é apresentada seguidamente.
 
 ##### Referência 301
 Ficheiros de referência 301 importam dados relativos a documentos do tipo CB. Para ficheiros de referência 301 os campos que devem estar preenchidos são:
@@ -1555,7 +1555,7 @@ Ficheiros de referência 301 importam dados relativos a documentos do tipo CB. P
 </div>
 
 ##### Referência 302
-Ficheiros de referência 302 importam dados relativos a documentos do tipo CP.Para ficheiros de referência 302 os campos que devem estar preenchidos são:
+Ficheiros de referência 302 importam dados relativos a documentos do tipo CP. Para ficheiros de referência 302 os campos que devem estar preenchidos são:
 
 |   | Ref.  |Ent.| NºCP |NºCM| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -1566,7 +1566,7 @@ Ficheiros de referência 302 importam dados relativos a documentos do tipo CP.Pa
 </div>
 
 ##### Referência 303
-Ficheiros de referência 303 importam dados relativos a documentos do tipo P1.Para ficheiros de referência 303 os campos que devem estar preenchidos são:
+Ficheiros de referência 303 importam dados relativos a documentos do tipo P1. Para ficheiros de referência 303 os campos que devem estar preenchidos são:
 
 |   | Ref.  |Ent.| NºCP |NºP1| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
