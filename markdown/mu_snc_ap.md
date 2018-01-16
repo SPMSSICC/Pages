@@ -2875,8 +2875,95 @@ Para validar a importação, o sistema irá mostrar uma mensagem como a seguidam
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a9ba0cca.png)
 
+#### 3.2.11. Crédito sobre Facturas  (CF)
 
-#### 3.2.11. Débito sobre Faturas (DF)
+Para aceder ao ecrã de recolha de dados relativos a crédito sobre facturas, deve o utilizador seguir o seguinte caminho na aplicação:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-96bc1e03.png)
+
+No ecrã aberto, o utilizador deve preencher os campos obrigatórios, assinalados na imagem seguidamente apresentada, e por fim deve clicar em "Gravar novo CF".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-e1c149d2.png)
+
+Na janela que surge, o utilizador deve indicar as contas de movimento pretendidas bem como os seus respetivos montantes. Também nesta janela, o utilizador deve indicar a conta financeira que ficará associada à CF lançada e que poderá posteriormente ser visualizada no Balancete de Rubricas Financeiras. Por fim deve clicar em "Gerar Contabilidade".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1a126468.png)
+
+Na nova janela que surge, o utilizador deve indicar o Centro de custo associado à conta 7* indicada na janela anterior. O utilizador pode consultar a listagem dos Centros de Custo disponíveis no sistema através do botão redondo.
+
+Por fim deve clicar em "Confirme".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-0333dd91.png)
+
+O passo seguinte será regularizar CF com a emissão de uma Autorização de Pagamento.
+
+</br> **Autorização de Pagamento**
+
+No ecrã respetivo à emissão de autorizações de pagamentos, deve, como já referido em processos anteriores, o utilizador indicar a entidade ede seguida clicar em "Ver Documentos".  
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-86ee2b63.png)
+
+Na janela de baixo irão aparecer as faturas por regularizar associadas à entidade indicada. Assim, e como se pretende regularizar a CF anteriormente lançada, deve o utilizador selecionar **primeiro** a fatura (P2) ao qual será creditado o valor da CF e depois deve ser selecionada a CF. Esta seleção deve ser efetuada com um duplo clique sobre os documentos pretendidos. Estes documentos passarão para a janela de cima e os seus dados ficarão disponíveis nos campos respetivos. De seguida o utilizador deve clicar em "Confirme".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/ap_cf.gif)
+
+Na nova janela aberta deve o utilizador confirmar as contas apresentadas e os respetivos montantes e por fim deve confirmar o lançamento da AP clicando em "Confirme".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-43f1339a.png)
+
+O próximo passo é efetuar o pagamento da fatura.
+
+</br> **Pagamento**
+
+No ecrã respetivo, o utilizador deve indicar, novamente, a entidade e clicar em "Ver documentos".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ced47f65.png)
+
+Na janela irão aparecer as autorizações de pagamento por regularizar associados à entidade indicada. Destes deve selecionar, com um duplo clique sobre o documento, a AP pretendida. Ao selecionar o documento, o campo relativo à importância da AP, ficará preenchida com os dados da AP selecionada. Por fim deve clicar em "Confirme".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-cb7e2858.png)
+
+
+Na nova janela aberta, o utilizador pode verificar todos os lançamentos efetuados. Se estes estiverem corretos deve confirmar o pagamento através do botão respetivo: "Confirme".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-94bee828.png)
+
+Este lançamento pode ser verificado, tal como já foi referido anteriormente, no Balancete Rubricas Financeiras, nomeadamente nas rubricas 9962 da P2 e na rubrica 9978 da CF, sendo que esta última deve estar a débito.
+
+Para o efeito foi feita a impressão do balancete antes e após este lançamento e o resultado pode-se verificar na imagem seguinte.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ffaeb61f.png)
+
+#### Importação de CF
+
+Este documento também pode ser importado através da funcionalidade disponível no botão "Importar".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1894a3ac.png)
+
+No ecrã aberto, o utilizador deve selecionar da diretoria do seu computador o **ficheiro CSV** para importação. De seguida deve clicar em "Ver/Testar Ficheiro" para verificar se este apresenta a estrutura correta bem como se existem outras incoerências.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-42db96e1.png)
+
+Em caso de estar coerente, as duas janelas do ecrã ficarão preenchidas com os dados do ficheiro a importar. Em caso de existirem incoerências as mesmas serão comunicadas ao utilizador na janela respetiva. Deve por isso, o utilizador, efetuar a correções necessárias e testar novamente o ficheiro.
+Por fim, para concluir a importação, deve clicar em "Importa Ligação".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-8d01cbea.png)
+
+Para confirmar a importação do ficheiro, o sistema irá mostrar a seguinte mensagem.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-bdd7e937.png)
+
+O aspeto do ficheiro CSV a ser importado deve ser semelhante ao seguidamente apresentado.
+
+>**NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-9dd3e1a3.png)
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/DF_SNCAP.csv'">Descarregar CSV</button>
+</div>
+
+#### 3.2.12. Débito sobre Faturas (DF)
 
 Para aceder ao ecrã de recolha de dados relativos a débito sobre faturas, deve o utilizador seguir o caminho na aplicação:
 
