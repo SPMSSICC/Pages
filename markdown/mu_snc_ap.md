@@ -2934,7 +2934,7 @@ Para o efeito foi feita a impressão do balancete antes e após este lançamento
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ffaeb61f.png)
 
-#### Importação de CF
+##### Importação de CF
 
 Este documento também pode ser importado através da funcionalidade disponível no botão "Importar".
 
@@ -2960,7 +2960,7 @@ O aspeto do ficheiro CSV a ser importado deve ser semelhante ao seguidamente apr
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-9dd3e1a3.png)
 
 <div style="height:40px">
-<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/DF_SNCAP.csv'">Descarregar CSV</button>
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/CF_SNCAP.csv'">Descarregar CSV</button>
 </div>
 
 #### 3.2.12. Débito sobre Faturas (DF)
