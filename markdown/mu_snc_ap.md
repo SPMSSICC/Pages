@@ -1493,7 +1493,7 @@ Ficheiros de referência 214 importam dados relativos a documentos do tipo CM.Pa
 
 |   | Ref. | Nº Proc. Aquisição | Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   | Nº dias Data Vencimento |Nota de encomenda|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:--:|
-|Posição (Comprimento)|1 - 3 (3)|4 - 11 (8) |52 - 59(8) |60 - 109 (50)|110 - 159 (59)|160 - 177 (18)|178 (1) |230 - 232(3)   | 250 - 269(10)|
+|Posição (Comprimento)|1 - 3 (3)|4 - 11 (8) |52 - 59(8) |60 - 109 (50)|110 - 159 (50)|160 - 177 (18)|178 (1) |230 - 232(3)   | 250 - 269(10)|
 
 <div style="height:40px">
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/214.sncap'">Descarregar TXT</button>
