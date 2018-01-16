@@ -1954,7 +1954,7 @@ Esta opção permite, consultar ou criar um novo documento de Cabimento e com ba
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-4ab45932.png)
 
-Ao selecionar Cabimentos/Compromissos, irá surgir o seguinte ecrã, cujo objetivo é a criação de um Cabimento (CB), conforme imagem abaixo:
+Ao selecionar Cabimentos/Verificação Prévia, irá surgir o seguinte ecrã, cujo objetivo é a criação de um Cabimento (CB), conforme imagem abaixo:
 
 ![img_57a.gif](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_57a.gif)
 
@@ -1986,7 +1986,7 @@ No novo ecrã mostrado, aparecem os movimentos de lançamento do cabimento. Se o
 
 ![img_64.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_64.png)
 
-O Cabimento acaba de ser gerado, no entanto deverá o utilizador confirmar em sistema a criação do mesmo. No primeiro separador, o utilizador tem duas formas de o fazer: de entrar no seguinte ecrã, evidenciando o número de processo de aquisição da criação do CAB:
+O Cabimento acaba de ser gerado, no entanto deverá o utilizador confirmar em sistema a criação do mesmo. No primeiro separador, o utilizador tem duas formas de o fazer: de entrar no seguinte ecrã, evidenciando o número de processo de aquisição da criação do CB:
 
 -   Para aceder à informação de cabimento deverá ser pressionado o botão "Informação de CB";
 -   Para consulta deverá ser pressionado o botão "Consulta".
@@ -2064,7 +2064,7 @@ Neste processo o que se pretende demonstrar é uma alteração a um CB já exist
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-19410ace.png)
 
-Ao entrar no ecrã de Alteração de CB, deve o utilizador associar o “nº de CB” criado anteriormente para proceder à alteração. Terá igualmente de dar duplo clique na linha assinalada abaixo, para proceder à AM.
+Ao entrar no ecrã de Alteração de CB, deve o utilizador associar o “Nº de CB” criado anteriormente para proceder à alteração. Terá igualmente de dar duplo clique na linha assinalada abaixo, para proceder à AM.
 
 ![img_79.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_79.gif)
 
@@ -2072,7 +2072,7 @@ Uma vez a linha subir um nível acima, deverá o utilizador definir por que mont
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-fbd35096.png)
 
-Novo ecrã surge, no qual o utilizador definirá o novo item financeiro, conta e importância a registar na alteração do Cab. Finda a alteração, deverá gerar os documentos contabilísticos de forma automática pressionando para o efeito o botão "Gerar Contabilidade".
+Novo ecrã surge, no qual o utilizador definirá o novo item financeiro, conta e importância a registar na alteração do CB. Finda a alteração, deverá gerar os documentos contabilísticos de forma automática pressionando para o efeito o botão "Gerar Contabilidade".
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-513a1d48.png)
 
@@ -2089,7 +2089,7 @@ Da mesma maneira que na importação de cabimentos, este processo de Alteração
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-74dc29f8.png)
 
-Ao pressionar, o utilizador vai deparar-se com o seguinte ecrã, sendo que para carregamento do ficheiro, tem de escolher o Diretório de Origem.
+Ao pressionar, o utilizador vai deparar-se com o seguinte ecrã, sendo que para carregamento do ficheiro, tem de escolher o diretório de origem.
 
 ![img_85.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_85.png)
 
@@ -2115,7 +2115,7 @@ Após validação dos elementos integrados e constatado que os valores estão co
 
 Entende-se por _Verificação Prévia (CM)_, a verificação prévia de fundos disponíveis, as obrigações de efetuar pagamentos a terceiros em contrapartida do fornecimento de bens e serviços ou da satisfação de outras condições. Os compromissos consideram-se assumidos quando é executada uma ação formal pela entidade, como seja a emissão de ordem de compra, nota de encomenda ou documento equivalente, ou a assinatura de um contrato, acordo ou protocolo, podendo também ter um carácter permanente e estarem associados a pagamentos durante um período indeterminado de tempo, nomeadamente, salários, rendas, eletricidade ou pagamentos de prestações diversas.
 
-Por parte do utilizador, há necessidade de evidenciar novamente o “número de processo de aquisição”. De forma automática, o preenchimento do “valor disponível de cabimento” aparece por defeito. Posteriormente, deve o utilizador selecionar no botão “Gravar como CM”, bem como atribuir o montante do compromisso.
+Por parte do utilizador, há necessidade de evidenciar novamente o “Número de Processo de Aquisição”. De forma automática, o preenchimento do “valor disponível de cabimento” aparece por defeito. Posteriormente, deve o utilizador selecionar no botão “Gravar como CM”, bem como atribuir o montante do compromisso.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-7e27de3f.png)
 
@@ -2131,7 +2131,7 @@ Uma nova mensagem surgirá com a classificação do compromisso criado, sendo qu
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-aa19db1f.png)
 
-Após a criação do compromisso, o utilizador terá assim a possibilidade de ter “informação do CM” criado, para o efeito tem de selecionar no botão "Informação de CM".
+Após a criação do compromisso, o utilizador terá assim a possibilidade de ter “Informação do CM” criado, para o efeito tem de selecionar no botão "Informação de CM".
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-b000b868.png)
 
@@ -2146,7 +2146,7 @@ Igualmente e da mesma forma que no ecrã dos cabimentos, o utilizador tem assim 
 |Calcular|Este botão permite o resumo do que foi criado no cabimento|
 |Imprimir|Este botão permite que o utilizador gere relatório diretamente no ecrã|
 |Ficheiro|Este botão permite ao utilizador escolher o diretório de gravação do Excel que irá ser produzido|
-|Sair|Este botão permite que o utilizador saia do ecrã e regresse ao menu inicial|
+
 
 
 O utilizador ao selecionar o botão "Imprimir", gera no ecrã o resultado da criação do CM.
@@ -2163,7 +2163,7 @@ No ecrã inicial, o utilizador ao selecionar este novo botão, vai fazer com que
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-532c3768.png)
 
-Ao pressionar, o utilizador vai deparar-se com o seguinte ecrã, sendo que para carregamento do ficheiro, tem de escolher o Diretório de Origem.
+Ao pressionar, o utilizador vai deparar-se com o seguinte ecrã, sendo que para carregamento do ficheiro, tem de escolher o diretório de origem.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-c0a092cc.png)
 
@@ -2171,10 +2171,8 @@ O aspeto do ficheiro CSV é o abaixo demonstrado, sendo que o mesmo deve obedece
 
 > **NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
 
-
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-5669ced8.png)
 
-<!-- ![img_97.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_97.png) -->
 <div style="height:40px">
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/CM-SNCAP.csv'">Descarregar CSV</button>
 </div>
@@ -2212,8 +2210,6 @@ O aspeto do ficheiro CSV. é o abaixo demonstrado, sendo que o mesmo deve obedec
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-eb1b7514.png)
 
-<!-- ![img_102.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_102.png) -->
-
 <div style="height:40px">
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/AB_SNCAP.csv'">Descarregar CSV</button>
 </div>
@@ -2226,13 +2222,17 @@ Após validação dos elementos integrados e constatado que os valores estão co
 
 ![img_105.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_105.png)
 
-#### 3.2.5. Lançamentos (CP)
+#### 3.2.5. Lançamentos
 
-Antes de realizar o registo de fatura FI, existe a necessidade de o utilizador verificar a disponibilidade do compromisso. Esta validação pode ser efetuada através utilizando para efeito o botão "Consulta", explicado em passos anteriores.
+Antes de realizar o registo de fatura FI, existe a necessidade de o utilizador verificar a disponibilidade do compromisso. Esta validação pode ser efetuada utilizando para o efeito, o botão "Consulta", explicado em passos anteriores.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-27cda4ab.png)
 
-O utilizador neste ecrã e no primeiro separador, deve indicar o nº do compromisso. De forma automática, o sistema gera a data de criação do documento, a conta financeira associada e o respetivo montante. A fase seguinte é a de definir a entidade. Para o efeito deve selecionar sobre o botão "![img_radio_unselected.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_radio_unselected.png)" para chamada de todas as entidades registadas na base de dados.
+Neste menu o utilizador tem acesso a três separadores diferentes: Comprimisso Assumido (CP), Processado-F.Rec./Conf.(P1) e Processado - F.Confer.(P2).
+
+#### 3.2.5.1. Compromisso Assumido (CP)
+
+O utilizador neste separador, deve indicar o nº do compromisso (CM). De forma automática, o sistema gera a data de criação do documento, a conta financeira associada e o respetivo montante. A fase seguinte é a de definir a entidade. Para o efeito deve selecionar sobre o botão "![img_radio_unselected.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_radio_unselected.png)" para chamada de todas as entidades registadas na base de dados.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-66afd507.png)
 
@@ -2252,7 +2252,39 @@ Em caso de haver necessidade cria-se um "Processado - F.Conf.\Rec.(P1)" no separ
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-4e97c0a0.png)
 
-</br> No separador "Processado-F.Rec.\Conf. (P1)" o utilizador deve inserir o Nº do Compromisso Assumido para que o sistema mostre o Valor Disponível e a Entidade correspondente. De seguida, o utilizador deve inserir o "Nº de guia/factura" bem como a "Importância" respectiva. Para gravar, deverá ser seleccionado o botão "Gravar novo P1".
+##### Importação CP
+
+Nesta fase, ao exemplo das anteriores, demonstramos este processo de lançamento feito por importação de ficheiro através do botão "Importar".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-cce29a3b.png)
+
+Ao pressionar, o utilizador vai deparar-se com o seguinte ecrã, sendo que para carregamento do ficheiro, tem de escolher o Diretório de Origem.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-0c593329.png)
+
+O aspeto do ficheiro CSV. é o abaixo demonstrado, sendo que o mesmo deve obedecer ao critério das colunas estipuladas, para efeito de carregamento.
+
+> **NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-6201a896.png)
+
+<!-- ![img_119.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_119.png) -->
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/CP_SNCAP.csv'">Descarregar CSV</button>
+</div>
+
+Antes da importação, o utilizador, tem de usar o botão "Ver/Testar Ficheiro". Ao selecionar este mesmo botão, o utilizador constata que os elementos do ficheiro CSV estão visíveis e que o ficheiro integrado está testado. Caso ocorram erros, os mesmos produzem um relatório no ecrã, na caixa criada para o efeito, no canto inferior direito do ecrã.
+
+![img_120.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_120.png)
+
+Após validação dos elementos integrados e constatado que os valores estão coerentes com o ficheiro integrado, o utilizador deve assim usar o botão "Importa Ligação". Depois de selecionar e de forma automática, o sistema gera uma mensagem de confirmação, com a indicação abaixo descrita.
+
+![img_importacao_concluida_sucesso.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_importacao_concluida_sucesso.png)
+
+#### 3.2.5.2. Processado-F.Rec.\Conf. (P1)
+
+Neste separador o utilizador deve inserir o Nº do Compromisso Assumido (CP) para que o sistema mostre o Valor Disponível e a Entidade correspondente. De seguida, o utilizador deve inserir o "Nº de guia/factura" bem como a "Importância" respectiva. Para gravar, deverá ser seleccionado o botão "Gravar novo P1".
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-c065dc68.png)
 
@@ -2264,7 +2296,37 @@ No separador "Analítica", que é aberto ao gerar os documentos na contabilidade
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-5f97b9c1.png)
 
-O separador "Processado - F.Confer. (P2)" é preenchido conforme o tipo de documento anterior: "Compromisso Assumido" ou "F.Conf.\Rec.".
+##### Importação P1
+
+Nesta fase, ao exemplo das anteriores, demonstramos este processo de lançamento feito por importação de ficheiro através do botão "Importar".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-3a4c64bd.png)
+
+Ao pressionar, o utilizador vai deparar-se com o seguinte ecrã, sendo que para carregamento do ficheiro, tem de escolher o Diretório de Origem.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-14962395.png)
+
+O aspeto do ficheiro CSV. é o abaixo demonstrado, sendo que o mesmo deve obedecer ao critério das colunas estipuladas, para efeito de carregamento.
+
+> **NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-d6a122de.png)
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/P1_SNCAP.csv'">Descarregar CSV</button>
+</div>
+
+Antes da importação, o utilizador, tem de usar o botão "Ver/Testar Ficheiro". Ao selecionar este mesmo botão, o utilizador constata que os elementos do ficheiro CSV estão visíveis e que o ficheiro integrado está testado. Caso ocorram erros, os mesmos produzem um relatório no ecrã, na caixa criada para o efeito, no canto inferior direito do ecrã.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-700fa4b1.png)
+
+Após validação dos elementos integrados e constatado que os valores estão coerentes com o ficheiro integrado, o utilizador deve assim usar o botão "Importa Ligação". Depois de selecionar e de forma automática, o sistema gera uma mensagem de confirmação, com a indicação abaixo descrita.
+
+![img_importacao_concluida_sucesso.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_importacao_concluida_sucesso.png)
+
+#### 3.2.5.3. Processado - F.Confer. (P2)
+
+Este separador é preenchido conforme o tipo de documento anterior: "Compromisso Assumido" ou "F.Conf.\Rec.".
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-9f4ebec9.png)
 
@@ -2302,33 +2364,34 @@ Após confirmação, o sistema assume assim que para o P1 e para a entidade já 
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-32c2e610.png)
 
-Nesta fase, ao exemplo das anteriores, demonstramos este processo o lançamento feito por importação de ficheiro através do botão "Importar".
+##### Importação P2
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-cce29a3b.png)
+Nesta fase, ao exemplo das anteriores, demonstramos este processo de lançamento feito por importação de ficheiro através do botão "Importar".
 
-Ao pressionar, o utilizador vai deparar-se com o seguinte ecrã, sendo que para carregamento do ficheiro, tem de escolher o Diretório de Origem.
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1e9d2caa.png)
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-0c593329.png)
+Ao pressionar, o utilizador vai deparar-se com o seguinte ecrã, sendo que para carregamento do ficheiro, tem de escolher o diretório de origem.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1520b2ab.png)
 
 O aspeto do ficheiro CSV. é o abaixo demonstrado, sendo que o mesmo deve obedecer ao critério das colunas estipuladas, para efeito de carregamento.
 
 > **NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-6201a896.png)
-
-<!-- ![img_119.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_119.png) -->
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-07ef604f.png)
 
 <div style="height:40px">
-<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/CP_SNCAP.csv'">Descarregar CSV</button>
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/P2_SNCAP.csv'">Descarregar CSV</button>
 </div>
 
 Antes da importação, o utilizador, tem de usar o botão "Ver/Testar Ficheiro". Ao selecionar este mesmo botão, o utilizador constata que os elementos do ficheiro CSV estão visíveis e que o ficheiro integrado está testado. Caso ocorram erros, os mesmos produzem um relatório no ecrã, na caixa criada para o efeito, no canto inferior direito do ecrã.
 
-![img_120.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_120.png)
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-dbfb927e.png)
 
 Após validação dos elementos integrados e constatado que os valores estão coerentes com o ficheiro integrado, o utilizador deve assim usar o botão "Importa Ligação". Depois de selecionar e de forma automática, o sistema gera uma mensagem de confirmação, com a indicação abaixo descrita.
 
 ![img_importacao_concluida_sucesso.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_importacao_concluida_sucesso.png)
+
 
 ##### Importação de documentos de forma agrupada
 
@@ -2424,6 +2487,8 @@ Para o exemplo, escolhemos IBAN Credor, sendo que para este caso é sempre obrig
 Ao confirmar, uma nova janela surge com os movimentos contabilísticos associados. Caso estejam corretos, o utilizador terá de confirmar para finalizar o processo.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-396a3f91.png)
+
+##### Importação AP
 
 Este processo de Autorização de Pagamento também pode ser efetuado por carregamento de ficheiro CSV através do botão "Importar".
 
@@ -2543,7 +2608,7 @@ Quando esta opção é selecionada, surge um novo ecrã ondeo utilizador deve se
 
 Para aceder ao ecrã que permite listar todos os documentos relacionados com o registo de Encontro de Contas, o utilizador deve seguir o seguinte caminho na aplicação:
 
-![](mu_snc_ap.assets/mu_snc_ap-8438ff18.png)
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-8438ff18.png)
 
 No ecrã que é aberto, o utilizador deve preencher os critérios de pesquisa de documentos.
 
@@ -2609,7 +2674,6 @@ __O utilizador tem de ter escolher o tipo de documento que quer gerar, dependend
 |Ficheiro|Este botão permite ao utilizador escolher o diretório de gravação do ficheiroTXT. (IGCP) ou XML. (IGCP – Novo) que será gerado. ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-b51ea880.png) ![img_152.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_152.png)|
 |Imprimir 2ª Via|Este botão permite que o utilizador gere relatório diretamente no ecrã|
 |Ficheiro 2ª Via|Este botão permite ao utilizador escolher o novo diretório de gravação do ficheiro TXT ou XML a ser produzido em caso de alteração ou engano|
-|Sair|Este botão permite que o utilizador saia do ecrã e regresse ao menu inicial|
 
 ![img_153.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_153.png)
 
@@ -2699,6 +2763,8 @@ Ao selecionar “Imprimir”, o sistema produz o documento em PDF:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ce32adec.png)
 
+##### Importação PG
+
 Este processo de Pagamento de facturas também pode ser efetuado por carregamento de ficheiro CSV através do botão "Importar".
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-6bc11671.png)
@@ -2781,7 +2847,7 @@ Desta forma, no ecrã relativo ao registo de uma nova NC deve ser indicado na re
 
 No momento do registo da AP, deixa de ser necessário associar uma factura pelo facto de se tratar de uma reposição abatida aos pagamentos. O valor deste documento será negativo.
 
-##### Importação
+##### Importação NC
 
 As Notas de Crédito podem ser importadas através do botão "Importar" disponivel no ecrã inicial de registo.
 
@@ -2793,7 +2859,9 @@ Na janela aberta, o utilizador deve selecionar da diretoria o ficheiro que prete
 
 O aspeto do ficheiro **CSV** a ser importado é semelhante ao seguidamente apresentado:
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-c4c46305.png)
+>**NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-e3438c35.png)
 <div style="height:40px">
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/NC_SNCAP.csv'">Descarregar CSV</button>
 </div>
@@ -2832,7 +2900,7 @@ Como o CM e CP tinham consumido o valor total do CB criado, o sistema criou as a
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-43790ce8.png)
 
-##### Importação
+##### Importação DF
 
 Este documento também pode ser importado através da funcionalidade disponível no botão "Importar".
 
@@ -2862,7 +2930,6 @@ O aspeto do ficheiro CSV a ser importado deve ser semelhante ao seguidamente apr
 
 O passo seguinte ao registo da DF é o registo da autorização de pagamento (AP) da mesma. Este processo está descrito no capítulo 3.2.7. deste manual.
 
-
 ### 3.3. Ciclo Receita
 
 > Recomenda-se o uso da tecla **_TAB_** para a navegação pelos campos dos ecrãs do sistema. Esta forma de navegação garante que todos os campos obrigatórios sejam preenchidos e validados permitindo o posterior desbloqueio de outros campos.
@@ -2891,7 +2958,7 @@ Neste ecrã, há necessidade do preenchimento dos campos obrigatórios, sendo qu
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-4d71312f.png)
 
-##### Importação
+##### Importação FD
 
 Este tipo de documentos também pode ser importado através da funcionalidade disponível no botão "Importar".
 
@@ -2937,7 +3004,7 @@ Quando o utilizador não atribui um número à Guia de receita, este é gerado a
 
 ![img_181.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_181.png)
 
-##### Importação
+##### Importação GR
 
 Este tipo de documentos também pode ser importado através da funcionalidade disponível no botão "Importar".
 
@@ -3008,9 +3075,7 @@ Na nova janela, o utilizador tem de indicar o centro de custo pretendido. O aces
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-24b963c4.png)
 
-
-
-##### Importação
+##### Importação OR
 
 As OR's podem ser importadas através do botão "Importar" disponivel no ecrã inicial de registo.
 
@@ -3093,7 +3158,7 @@ Os movimentos contabilísticos surgem de forma automática, pelo que o utilizado
 _(Imagem em atualização)_
 ![img_198.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_198.png)
 
-##### Importação
+##### Importação CO
 
 Os tipos de documentos de Cobranças (CO) podem ser importados  no sistema através de um ficheiro **CSV**. Para tal, deve o utilizador selecionar o botão "Importar" disponível na parte inferior das janelas de cada tabulação.
 
@@ -3138,7 +3203,7 @@ Neste novo ecrã o utilizador deve indicar o Centro de Custo. Para consultar os 
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-85147dba.png)
 
-##### Importação
+##### Importação CC
 
 Este tipo de documentos também pode ser importado através da funcionalidade disponível no botão "Importar".
 
@@ -3251,7 +3316,7 @@ Findo o preenchimento dos campos deve clicar no botão "Confirme".
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-0cfe8a11.png)
 
-##### Importação
+##### Importação DA
 
 Estes documentos também podem ser importados no sistema através da opção disponível no botão "Importar"
 
@@ -3315,7 +3380,7 @@ Findo o preenchimento dos campos deve clicar no botão "Confirme".
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-3c75d24d.png)
 
-##### Importação
+##### Importação RA
 
 Estes documentos também podem ser importados no sistema através da opção disponível no botão "Importar"
 
@@ -3496,7 +3561,7 @@ Na nova janela, o utilizador deve indicar o Centro de Custo associado à conta *
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1301a399.png)
 
 
-##### Importação  
+##### Importação OD
 Este tipo de documentos podem ser importados no sistema através da funcionalidade disponível no botão "Importar".
 
 No ecrã aberto, o utilizador deve selecionar o ficheiro CSV da diretoria do seu computador, e testar se este ficheiro está de acordo com a estrutura estipulada através da seleção do botão "Ver/Testar Ficheiro".
@@ -3778,7 +3843,7 @@ Após a confirmação surge novo ecrã com a informação que a alteração orç
 
 Se as alterações estão validadas, o próximo passo é de “Aprovar” para que o sistema assuma os novos valores propostos.
 
-
+##### Importação PO
 Este processo de carregamento do Orçamento Ordinário bem como das alterações do mesmo pode ser efetuado através da importação de ficheiro em formato CSV.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-dbcbf021.png)
