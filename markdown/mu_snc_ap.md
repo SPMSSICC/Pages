@@ -1358,7 +1358,7 @@ Para a importação de dados de pessoal, podem ser importados ficheiros com as r
 |Campo|Posição |Observações|
 |:---:|:---:|:---|
 |Ref.   |1 - 3 (3)  | Indicar a referência do ficheiro. Neste caso específico a referência é **101**.   |
-|Entidade   |  12 - 19 (8) | A numeração das entidades, para todas as contas iniciadas por 63, deve ser iniciada por 9963 e terminada com o indicativo do mês. Por exemplo: </br> 9963**001** - janeiro </br>9963**002** - fevereiro </br> ...</br>9963**012** - dezembro    |
+|Entidade   |  12 - 19 (8) | A numeração das entidades, para todas as contas iniciadas por 63, deve ser iniciada por 9963 e terminada com o indicativo do mês. Por exemplo: </br> 9963**001** - janeiro </br>9963**002** - fevereiro </br> ...</br>9963**012** - dezembro </br></br> Estas entidades devem ser criadas e parametrizadas no menu respetivo. ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-c75338c1.png)</br></br> No ecrã aberto, tal como descrito no capítulo 1.4.1. Gestão de Entidades, devem ser preenchidos os campos obrigatórios. Na imagem seguinte, está o exemplo para a entidade referente ao mês de janeiro.![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-f7ceb024.png) </br>**NOTA:** O NIF para todas estas 12 entidades deve ser **999999990**.   |
 |Nº CB, CP, P2   | 20 - 27 (8)  | A numeração dos documentos varia consoante o grupo. </br></br> **Vencimentos** </br> A numeração dos documentos deve ser iniciada por 63 (conta), seguindo-se da indicação do mês - 01- e terminada com digitos sequenciais - 001. Por exemplo:</br> 6301**001** - documento 1 do mês de janeiro</br> 6301**002** - documento 2 do mês de janeiro </br> 63**02**001 - documento 1 do mês de fevereiro  </br></br> **Encargos sobre renumerações da responsabilidade da entidade**</br> A numeração dos documentos varia consoante o encargo. Deve ser iniciada por 635 (conta), seguindo-se da indicação do mês - 01- e terminada com digitos sequenciais - 001. Por exemplo: </br> 63501**001** - encargo A </br> 63501**002** - encargo B  </br></br> **Outros Custos** </br> A numeração dos documentos deve ser iniciada por 69 (conta), seguindo-se da indicação do mês - 01- e terminada com digitos sequenciais - 001. Por exemplo: </br> 69**01001** - documento 1 do mês de janeiro. </br> 69**02001** - documento 1 do mês de fevereiro. </br></br> **Prestação de serviços** </br> A numeração dos documentos deve ser iniciado por 62 (conta), seguindo-se da indicação do mês - 01- e terminada com digitos sequenciais - 001. Por exemplo: </br> 6201**001** - documento 1 do mês de janeiro </br> 6201**002** - documento 2 do mês de janeiro </br> 62**02**001 - documento 1 do mês de fevereiro.   |
 |Data Doc.   |  52 - 59 (8) | Deve ser indicada a data do documento no seguinte formato: **DDMMAAAA**  |
 |Conta Débito   | 60 - 109 (50)  | As contas a débito devem ser indicadas **sem pontos** e devem ser iniciadas pelo dígito **6**.   |
@@ -1388,21 +1388,27 @@ Para a importação de dados de pessoal, podem ser importados ficheiros com as r
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/101.sncap'">Descarregar TXT</button>
 </div>
 
-</br>**Contas a crédito**
-</br> As contas a crédito das faturas conferidas dos fornecedores (P2) são obtidas através da relação, previamente estabelecida, com as contas a débito dos cabimentos.
-O utilizador deve selecionar o botão "Contas a crédito" para visualizar as associações já estabelecidas pelo sistema e para adicionar ou remover associações.
+**Contas a crédito**
+
+As contas a crédito das faturas conferidas dos fornecedores (P2), bem como das OD's, são obtidas através da relação, previamente estabelecida, com as contas a débito dos cabimentos.
+
+O utilizador deve selecionar o botão "Contas a crédito" para criar essas associações no sentido de garantir um bom registo das faturas.  
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ecee5791.png)
 
 Ao clicar no botão é aberto o seguinte ecrã:
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-fb17ad84.png)
+![](mu_snc_ap.assets/mu_snc_ap-adeb9222.png)
 
-Para adicionar uma relação, o utilizador deve clicar sobre o botão "+ Novo", preencher o novo campo disponível com as contas respetivas e por fim deve confirmar a alteração carregando no botão "Confirmar". O utilizador pode consultar as contas existentes no sistema através do botão ajuda ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-bbc0de15.png)
+Para adicionar uma relação nova, o utilizador deve clicar sobre o botão "+Novo", preencher o novo campo disponível com as contas respetivas e por fim deve confirmar a alteração carregando no botão "Confirmar". O utilizador pode consultar as contas existentes no sistema através do botão ajuda ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-bbc0de15.png) Abaixo estão apresentadas contas exemplo que podem ser criadas nesta tabela de associação.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ea6f22fc.png)
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/cont_cred_101.gif)
 
-Em caso de se pretender eliminar uma relação, o utilizador deve selecionar uma linha, clicando sobre a mesma duas vezes, e clicar no botão "- Abater".
+Esta tabela ficará guardada e poderá sempre ser editada pelo utilizador.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-faa67d05.png)
+
+Em caso de se pretender eliminar uma relação, o utilizador deve selecionar uma linha, clicando sobre a mesma duas vezes, e clicar no botão "-Abater".
 
 #### 3.1.2. Ligações de Gestão de Stocks
 
