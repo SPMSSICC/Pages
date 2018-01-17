@@ -1388,7 +1388,7 @@ Para a importação de dados de pessoal, podem ser importados ficheiros com as r
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/101.sncap'">Descarregar TXT</button>
 </div>
 
-**Contas a crédito**
+##### Contas a crédito
 
 As contas a crédito das faturas conferidas dos fornecedores (P2), bem como das OD's, são obtidas através da relação, previamente estabelecida, com as contas a débito dos cabimentos.
 
