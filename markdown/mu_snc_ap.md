@@ -1398,7 +1398,9 @@ O utilizador deve selecionar o botão "Contas a crédito" para criar essas assoc
 
 Ao clicar no botão é aberto o seguinte ecrã:
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-adeb9222.png)
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-15a01741.png)
+
+Estas associações apresentadas, podem ser editadas, abatidas ou podem também ser adicionadas novas.
 
 Para adicionar uma relação nova, o utilizador deve clicar sobre o botão "+Novo", preencher o novo campo disponível com as contas respetivas e por fim deve confirmar a alteração carregando no botão "Confirmar". O utilizador pode consultar as contas existentes no sistema através do botão ajuda ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-bbc0de15.png) Abaixo estão apresentadas contas exemplo que podem ser criadas nesta tabela de associação.
 
@@ -1406,7 +1408,9 @@ Para adicionar uma relação nova, o utilizador deve clicar sobre o botão "+Nov
 
 Esta tabela ficará guardada e poderá sempre ser editada pelo utilizador.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-faa67d05.png)
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a4e9d35c.png)
+
+>**Nota:** As contas 2xx devem ser sempre contas de MOVIMENTO.
 
 Em caso de se pretender eliminar uma relação, o utilizador deve selecionar uma linha, clicando sobre a mesma duas vezes, e clicar no botão "-Abater".
 
