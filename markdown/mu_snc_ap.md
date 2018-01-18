@@ -2003,6 +2003,8 @@ O Cabimento acaba de ser gerado, no entanto deverá o utilizador confirmar em si
 
 __A novidade no novo sistema SICC é o aparecimento do botão "Importar", que permite aos utilizadores carregarem a partir de um documento de Excel vários cabimentos de forma muito mais rápida e fiável.__
 
+##### Importação CB
+
 O utilizador ao selecionar o botão ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-e77f6488.png), vai fazer com que o novo ecrã surja para importação do ficheiro.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-baff3e42.png)
@@ -2168,6 +2170,8 @@ Ao selecionar "Ficheiro", o aspeto da informação de CM em ficheiro CSV será s
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-f4a9ba48.png)
 
 __A novidade no novo sistema SICC-SNC-AP é o aparecimento do botão , que permite aos utilizadores carregarem a partir de um documento de Excel vários compromissos de forma muito mais rápida e viável.__
+
+##### Importação CM
 
 No ecrã inicial, o utilizador ao selecionar este novo botão, vai fazer com que novo ecrã surja para importação do ficheiro.
 
