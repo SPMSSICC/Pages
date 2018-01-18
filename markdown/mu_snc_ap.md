@@ -2845,18 +2845,6 @@ No ecrã que abrir o utilizador deve confirmr se as contas lançadas e os respet
 Após ter sido registada a autorização de pagamento, pode agora o utilizador prosseguir com o registo do pagamento.
 A descrição deste processo pode ser consultada no capítulo 3.2.9. deste Manual.
 
-##### Reposição Abatida aos Pagamentos (RAP)
-
-Sempre queseja detetado um pagamento indevido deve se prosseguir à emissão de uma RAP que é considerada contabilisticamente como uma Nota de Crédito (NC).
-
-A existência de uma reposição abatida pressupõe que houve um pagamento excessivo em relação a uma determinada aquisição, cuja regularização é efetuada, no respetivo ano financeiro, através da correção da dotação utilizada e do respetivo saldo disponível, aumentando-o. Decorre deste entendimento que a reposição abatida aos pagamentos não seja tida como uma receita orçamental.
-
-Desta forma, no ecrã relativo ao registo de uma nova NC deve ser indicado na respetiva checkbox que se trata de uma RAP. Todos os preenchimentos seguintes seguem a mesma lógica que uma Nota de Crédito convencional.
-
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-e86b55f0.png)
-
-No momento do registo da AP, deixa de ser necessário associar uma factura pelo facto de se tratar de uma reposição abatida aos pagamentos. O valor deste documento será negativo.
-
 ##### Importação NC
 
 As Notas de Crédito podem ser importadas através do botão "Importar" disponivel no ecrã inicial de registo.
@@ -2884,6 +2872,29 @@ De seguida, para efetuar a importação dos dados deve o utilizador pressionar n
 Para validar a importação, o sistema irá mostrar uma mensagem como a seguidamente apresentada:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a9ba0cca.png)
+
+#### 3.2.10.1.  Reposição Abatida aos Pagamentos (RAP)
+
+Sempre que seja detetado um pagamento indevido deve-se prosseguir à emissão de uma RAP que é considerada contabilisticamente como uma Nota de Crédito (NC).
+
+A existência de uma reposição abatida pressupõe que houve um pagamento excessivo em relação a uma determinada aquisição, cuja regularização é efetuada, no respetivo ano financeiro, através da correção da dotação utilizada e do respetivo saldo disponível, aumentando-o. Decorre deste entendimento que a reposição abatida aos pagamentos não seja tida como uma receita orçamental.
+
+
+Os registos a efetuar na Contabilidade Financeira devem ser com as contas 2x, 3x, 4x ou 6x. A nivel de registos na Contabilidade Orçamental, estes são efetuados de forma automática pelo sistema e são os seguintes:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-55401346.png)
+
+
+Desta forma, no ecrã relativo ao registo de uma nova NC deve ser indicado na respetiva checkbox que se trata de uma RAP. Todos os preenchimentos seguintes seguem a mesma lógica que uma Nota de Crédito convencional.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-e86b55f0.png)
+
+No momento do registo da AP, deixa de ser necessário associar uma factura pelo facto de se tratar de uma reposição abatida aos pagamentos. O valor deste documento será negativo.
+
+Mais uma vez, aquando a realização do pagamento da AP criada, o sistema irá efetuar registos, automaticamente, na contabilidade orçamental, que serão os seguintes:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-39b58c60.png)
+
 
 #### 3.2.11. Crédito sobre Facturas  (CF)
 
@@ -3842,6 +3853,7 @@ Quando a opção "Imprimir" é selecionada, o aspeto do ficheiro PDF que é gera
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-8c9cd6ab.png)
 
 #### 4.2.2.Registo de Levantamento
+
 Para registar um depósito deve o utilizador preencher os seguintes campos obrigatórios: Número de Documento, Data de Documento, Data de Contabilização, Importância, Diário, Tipo de Movimento (neste caso Levantamento) e Inst. Bancária. Se o campo relativo ao Número de Documento não for preenchido pelo utilizador, o sistema irá atribuir um número de forma automático no final do registo. O Diário pode ser selecionado dentro da lista disponível no botão redondo ao lado do campo.
 As instituições bancárias da entidade disponíveis onde neste caso será eftuado o depósito, podem ser consultadas através do botão redondo disponível entre o campo da conta do banco e o campo da designação do banco.
 Por fim deve o utilizador selecionar o botão "Gravar nova OD".
