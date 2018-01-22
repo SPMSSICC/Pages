@@ -2899,8 +2899,28 @@ Mais uma vez, aquando a realização do pagamento da AP criada, o sistema irá e
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-39b58c60.png)
 
+#### 3.2.11. Anulação de Faturas P2/NC (AF)
 
-#### 3.2.11. Crédito sobre Facturas  (CF)
+Em conformidade com as recomendações da Autoridade Tributária e Aduaneira (AT), não é possível anular diretamente uma fatura. A anulação do movimento de uma fatura é feita através da emissão de uma nota de crédito. Sem reflexo para a contabilidade, o que se pretende com este tipo de documento é a regularização do mesmo, de modo a que o seu impacto no final seja nulo.
+
+Este tipo de documento, proveniente exclusivamente do P2 ou da NC (excepto RAP), obriga o utilizador a selecionar pelo menos uma fatura e uma nota de crédito com o objetivo do resultado final ter o valor de "0" para proceder ao registo de anulação. O objetivo deste documento é regularizar ambos os documentos selecionados sem que seja necessário efetuar registos contabilísticos.
+
+Para aceder ao ecrã de registo da Anulação de Fatura (AF) deve o utilizador seguir o seguinte caminho na aplicação:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a697fec9.png)
+
+No ecrã aberto, o utilizador deve indicar os critérios de pesquisa de documento. Primeiro, deve indicar a entidade e de seguida deve clicar no TAB do teclado do seu computador para visualizar toadas as faturas por regularizar da entidade indicada ou pode indicar, nos campos respetivos, o número e o tipo de documento que pretende visualizar. Na janela de baixo irão aparecer todos os documentos encontrados que correspondem aos critérios de pesquisa inseridos.
+
+Para efetuar o registo da AF, deve o utilizador selecionar os documentos P2 e NC, clicando sobre os mesmos duas vezes. Para confirmar o registo, deve o utilizador cilcar em "Confirme".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a2cddb55.png)
+
+O sistema irá gerar uma mensagem onde é indicado o número da AF registada.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-92452daa.png)
+
+
+#### 3.2.12. Crédito sobre Facturas  (CF)
 
 Para aceder ao ecrã de recolha de dados relativos a crédito sobre facturas, deve o utilizador seguir o seguinte caminho na aplicação:
 
@@ -2988,7 +3008,7 @@ O aspeto do ficheiro CSV a ser importado deve ser semelhante ao seguidamente apr
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/CF_SNCAP.csv'">Descarregar CSV</button>
 </div>
 
-#### 3.2.12. Débito sobre Faturas (DF)
+#### 3.2.13. Débito sobre Faturas (DF)
 
 Para aceder ao ecrã de recolha de dados relativos a débito sobre faturas, deve o utilizador seguir o caminho na aplicação:
 
