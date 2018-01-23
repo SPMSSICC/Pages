@@ -2903,7 +2903,7 @@ Mais uma vez, aquando a realização do pagamento da AP criada, o sistema irá e
 
 Em conformidade com as recomendações da Autoridade Tributária e Aduaneira (AT), não é possível anular diretamente uma fatura. A anulação do movimento de uma fatura é feita através da emissão de uma nota de crédito. Sem reflexo para a contabilidade, o que se pretende com este tipo de documento é a regularização do mesmo, de modo a que o seu impacto no final seja nulo.
 
-Este tipo de documento, proveniente exclusivamente do P2 ou da NC (excepto RAP), obriga o utilizador a selecionar pelo menos uma fatura e uma nota de crédito com o objetivo do resultado final ter o valor de "0" para proceder ao registo de anulação. O objetivo deste documento é regularizar ambos os documentos selecionados sem que seja necessário efetuar registos contabilísticos.
+Este tipo de documento, proveniente exclusivamente do P2 ou da NC (exceto RAP), obriga o utilizador a selecionar pelo menos uma fatura e uma nota de crédito com o objetivo do resultado final ter o valor de "0" para proceder ao registo de anulação. O objetivo deste documento é regularizar ambos os documentos selecionados sem que seja necessário efetuar registos contabilísticos.
 
 Para aceder ao ecrã de registo da Anulação de Fatura (AF) deve o utilizador seguir o seguinte caminho na aplicação:
 
@@ -2911,7 +2911,7 @@ Para aceder ao ecrã de registo da Anulação de Fatura (AF) deve o utilizador s
 
 No ecrã aberto, o utilizador deve indicar os critérios de pesquisa de documento. Primeiro, deve indicar a entidade e de seguida deve clicar no TAB do teclado do seu computador para visualizar toadas as faturas por regularizar da entidade indicada ou pode indicar, nos campos respetivos, o número e o tipo de documento que pretende visualizar. Na janela de baixo irão aparecer todos os documentos encontrados que correspondem aos critérios de pesquisa inseridos.
 
-Para efetuar o registo da AF, deve o utilizador selecionar os documentos P2 e NC, clicando sobre os mesmos duas vezes. Para confirmar o registo, deve o utilizador cilcar em "Confirme".
+Para efetuar o registo da AF, deve o utilizador selecionar os documentos P2 e NC, clicando sobre os mesmos duas vezes. Para confirmar o registo, deve o utilizador clicar em "Confirme".
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a2cddb55.png)
 
@@ -3424,7 +3424,7 @@ Devem ser, novamente, verificadas as contas e os montantes e por fim deve-se con
 
 Este tipo de documento, Anulação de receitas, permite anular o movimento de uma fatura (FD), através da emissão de uma CC regularizando estes dois documentos sem reflexo na contabilidade.
 
-Proveniente exclusivamente de FD e CC (excepto RNAP), este tipo de documento obrigam o utilizador selecionar pelo menos uma FDe uma CC com o bjectivo do resultado final ter valor "0" para proceder ao registo de anulação de receita.
+Proveniente exclusivamente de FD e CC (exceto RNAP), este tipo de documento obrigam o utilizador selecionar pelo menos uma FD e uma CC com o objetivo do resultado final ter valor "0" para proceder ao registo de anulação de receita.
 
 Para aceder ao ecrã onde este registo pode ser efetuado, deve o utilizador seguir o seguinte caminho na aplicação:
 
