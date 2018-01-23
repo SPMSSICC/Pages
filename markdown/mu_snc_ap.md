@@ -2919,6 +2919,18 @@ O sistema irá gerar uma mensagem onde é indicado o número da AF registada.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-92452daa.png)
 
+O utilizador pode agora imprimir a AF criada. Para tal deve, no ecrã de recolha de dados, indicar a entidade e número de documento. De seguida deve clicar em "Imprimir".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ef916b2c.png)
+
+Na nova janela aberta, deve indicar os intervalos das entidades das quais pretende visualizar os documentos, as datas e os números dos documentos (FD e CC) que pretende visualizar. De seguida deve clicar em "Imprimir".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-05f2a540.png)
+
+O aspeto do ficheiro PDF gerado é como o do apresentado seguidamente:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-f0fb5277.png)
+
 
 #### 3.2.12. Crédito sobre Facturas  (CF)
 
@@ -3407,6 +3419,43 @@ Findo o registo de CC, deve o utilizador prosseguir ao registo da GR. Este proce
 Devem ser, novamente, verificadas as contas e os montantes e por fim deve-se confirmar o registo.
 
 </br>Findo este processo, deve-se agora registar a cobrança. O processo de registo desta é igual ao descrito para CC "normal".
+
+#### 3.3.6. Anulação de Receitas FD/CC (AR)
+
+Este tipo de documento, Anulação de receitas, permite anular o movimento de uma fatura (FD), através da emissão de uma CC regularizando estes dois documentos sem reflexo na contabilidade.
+
+Proveniente exclusivamente de FD e CC (excepto RNAP), este tipo de documento obrigam o utilizador selecionar pelo menos uma FDe uma CC com o bjectivo do resultado final ter valor "0" para proceder ao registo de anulação de receita.
+
+Para aceder ao ecrã onde este registo pode ser efetuado, deve o utilizador seguir o seguinte caminho na aplicação:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-b8f38964.png)
+
+No ecrã aberto, o utilizador deve indicar os critérios de pesquisa de documentos, iniciando pela entidade. Deve navegar pelos campos com a tecla TAB do seu computador até que, na janela de baixo, apareçam os documentos por regularizar da entidade indicada.
+
+Também pode pesquizar documentos específicos da entidade indicada através da sua indicação nos campos respetivos.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-2cbb54e3.png)
+
+Para selecionar os documentos para anulação, deve o utilizador clicar duas vezes sobre os mesmos e de seguida deve clicar em "Confirme".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-f8f9d171.png)
+
+Para confirmar o registo da AR o sistema irá gerar uma mensagem informativa com o número da AR registada.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-bb427aa6.png)
+
+O utilizador pode agora imprimir a AR criada. Para tal deve, no ecrã de recolha de dados, indicar a entidade e número de documento. De seguida deve clicar em "Imprimir".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-8d064557.png)
+
+Na nova janela aberta, deve indicar os intervalos das entidades das quais pretende visualizar os documentos, as datas e os números dos documentos (FD e CC) que pretende visualizar. De seguida deve clicar em "Imprimir".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-fdca874b.png)
+
+O aspeto do ficheiro PDF gerado é como o do apresentado seguidamente:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1efa308a.png)
+
 
 ### 3.4 Fundos Alheios
 
