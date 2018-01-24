@@ -15,45 +15,49 @@
 <div id="novidadeSncAP">
   <h2>Solução SNC-AP para entidades de saúde<br/></h2>
 
-  <div class="barra">
-    <span  style="widht:80%;height:100px">
-      <div class="quick_acess" onclick="loadUpgrades(['btnMenu'], event)">
-        <figure><i class="fa fa-refresh fa-fw fa-4x" aria-hidden="true"></i></figure>
-        <p><span style="color:rgb(242, 157, 11)">*Novo*</span> Atualizações-Sistema</p>
-      </div>
-  <div class="quick_acess" onclick="window.open('https://goo.gl/forms/VqiKTBR15gcGXI1k2','_blank')" >
-    <figure><i class="fa fa-pencil-square-o fa-fw fa-4x" aria-hidden="true"></i></figure>
-    <p><span style="color:rgb(242, 157, 11)">*Novo*</span> Questionário</p>
-  </div>
-  <div class="quick_acess" onclick="loadMdDoc('check_list', ['btnMenu','btnOpt'],'', null)">
-    <figure><i class="fa fa-check-square-o fa-fw fa-4x" aria-hidden="true"></i></figure>
-    <p> <span style="color:rgb(242, 157, 11)">*Novo*</span> Checklist</p>
-  </div>
-    <div class="quick_acess" onclick="loadMdDoc('apresentação_20_nov_snc_ap', ['btnMenu','btnOpt'],'', null)">
-      <figure><i class="fa fa-object-group fa-fw fa-4x" aria-hidden="true"></i></figure>
-      <p>Apresentação</p></div>
-  <div class="quick_acess" onclick="loadMdDoc('dec_lei192', ['btnMenu','btnOpt'],'', null)">
-      <i class="fa fa-university fa-fw fa-4x" aria-hidden="true"></i>
-      <p>Documentação Legal</p>
-  </div>
-  <div class="quick_acess" onclick="loadMdDoc('snc_ap_faqs', ['btnMenu','btnOpt','btnToc'],'', null)">
-    <figure><i class="fa fa-users fa-fw fa-4x " aria-hidden="true"></i></figure>
-    <p>Perguntas Frequentes</p>
-  </div>
-</span>
-</div>
-</div>
-<div class="contactos">
-  <span>Contacte-nos:</span>
-    sncap@spms.min-saude.pt
-</div>
-<div id="mapaEntidadesSICC" style="center; padding: 5em 0 2em 0">
-  <h3>Explore o mapa com as entidades de saúde SICC</h3>
-  <div class="overlay" onClick="style.pointerEvents='none';" title="clique/toque para explorar o mapa"></div>
-  <iframe id="map" src="https://www.google.com/maps/d/embed?mid=1MMM44cpvZKWQzwYuXol7QyeRhdo"
-                    title="Mapa Google com identificação das entidades SICC"
-                    frameborder="0"
-  </iframe>
+<div class="container_1" style="max-width:90%">
+  <div class="item-a" title="Ver as atualizações do SICC SNC-AP" onclick="loadUpgrades(['btnMenu'], event)">
+    <figure style="padding-bottom:20px"><i class="fa fa-refresh fa-fw fa-5x" aria-hidden="true"></i></figure>
+    <p>**Novo**</p>
+    <div class="titulo">Actualizações SICC SNC-AP</div>
   </div>
 
-<hr/>
+  <div class="item-b" title="Ver a Checklist"onclick="loadMdDoc('check_list', ['btnMenu','btnOpt'],'', null)">
+    <figure style="padding-bottom:20px"><i class="fa fa-check-square-o fa-fw fa-5x" aria-hidden="true"></i></figure>
+    <p>**Novo**</p>
+    <div class="titulo">Checklist</div>
+  </div>
+
+  <div class="item-c" title="Abrir o Questionário" onclick="window.open('https://goo.gl/forms/VqiKTBR15gcGXI1k2','_blank')">
+    <figure style="padding-bottom:20px"><i class="fa fa-pencil-square-o fa-fw fa-5x" aria-hidden="true"></i></figure>
+    <p>**Novo**</p>
+    <div class="titulo">Questionário</div>
+  </div>
+
+  <div class="item-d" title="Enviar Email" onclick="window.open('" + encodeURI("mailto:?Subject=SPMS|SICC " + ".\n\nEndereço: "  "')">
+    <figure style="padding-bottom:20px"><i class="fa fa-envelope-o fa-fw fa-5x" aria-hidden="true"></i></figure>
+    <p>Contacte-nos:</p><div class="titulo">sncap@spms.min-saude.pt</div>
+  </div>
+
+  <div class="item-h" title="Ver a apresentação SICC" onclick="loadMdDoc('apresentação_20_nov_snc_ap', ['btnMenu','btnOpt'],'', null)">
+    <figure style="padding-top:10px;padding-bottom:50px"><i class="fa fa-object-group fa-fw fa-4x" aria-hidden="true"></i></figure>
+    <div class="titulo">Apresentação</div>
+  </div>
+
+  <div class="item-e" title="Ver Decreto lei 192" onclick="loadMdDoc('dec_lei192', ['btnMenu','btnOpt'],'', null)">
+    <figure style="padding-bottom:30px"><i class="fa fa-university fa-fw fa-5x" aria-hidden="true"></i></figure>
+    <div class="titulo">Documentação Legal</div>
+  </div>
+
+  <div class="item-f" title="Ver FAQs SICC SNC-AP" onclick="loadMdDoc('snc_ap_faqs', ['btnMenu','btnOpt','btnToc'],'', null)">
+    <figure style="padding-bottom:30px"><i class="fa fa-users fa-fw fa-5x " aria-hidden="true"></i></figure>
+    <div class="titulo">Perguntas Frequentes</div>
+  </div>
+
+<div class="item-g" onClick="style.pointerEvents='none';" title="clique/toque para explorar o mapa">
+  <iframe id="map" class="overlay" src="https://www.google.com/maps/d/embed?mid=1MMM44cpvZKWQzwYuXol7QyeRhdo"
+                    title="Mapa Google com identificação das entidades SICC"
+                    frameborder="0" ></iframe>
+</div>
+</div>
+</div>
