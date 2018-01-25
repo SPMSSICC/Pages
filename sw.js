@@ -3,7 +3,7 @@
 or its subdirectories. This means that if you place the service worker file in a scripts directory
 it will only be able to interact with pages in the scripts directory or below.*/
 
-var cacheName = 'spmssicc_v27/01/2018v5'; //Edit this to update cache
+var cacheName = 'spmssicc_v28/01/2018v6'; //Edit this to update cache
  var cacheFiles = [
     // '/pages/',
     // '/pages/index.html',
