@@ -31,7 +31,7 @@ No sentido de facilitar os processos internos de cada instituição e no âmbito
 
 <div style="padding-left:40px"><span style="font-weight:bold">Desdobramento de Contas</span>
 
- </br>Após a verificação do Plano de Contas o desdobramento pode ser realizado manualmente no sistema (processo aconselhado para baixo número de desdobramentos) ou pode ser carregado pela equipa de suporte, mediante solicitação. Para isso deve ser enviado o ficheiro CSV  devidamente preenchido que pode ser descarregado em Listagens, como demonstrado anteriormente (processo aconselhado quando o número de desdobramentos pretendidos é elevado.)
+ </br>Após a verificação do Plano de Contas o desdobramento pode ser realizado manualmente no sistema (processo aconselhado para baixo número de desdobramentos) ou pode ser carregado pela equipa de suporte, mediante solicitação. Para isso deve ser enviado o ficheiro CSV, devidamente preenchido, que deve ter a **mesma estrutura do ficheiro CSV exportado** em Listagens, como demonstrado anteriormente (processo aconselhado quando o número de desdobramentos pretendidos é elevado.)
 
 <div class="description"> A descrição deste processo poderá ser consultada no capítulo 1.3.1.1. do Manual de Utilizador SNC-AP. <button  style="border:none;
 border-radius:.2em;width: 100px;height: 25px;opacity: 1;display:block;float:right;background-color: #3d596d" onclick="window.open('https://spmssicc.github.io/pages/?doc=mu_snc_ap&anchor=desdobramento-de-contas','_blank')">Ver Manual</span></div></div>
