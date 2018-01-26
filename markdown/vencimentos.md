@@ -53,7 +53,7 @@ Quanto aos registos contabilísticos enuncia-se os registos no subsistema de con
 
 No subsistema da contabilidade financeira:
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-3c442d01.png)
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-4e0eb5b8.png)
 
 No subsistema de contabilidade orçamental:
 
