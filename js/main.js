@@ -341,9 +341,16 @@ function disableDocOptions(mdFile){
     $("#btnEditarDoc").off("click");
     return;
   }
-  if ($.inArray(mdFile, ['perguntas_frequentes']) != -1) {
+  if ($.inArray(mdFile, ['perguntas_frequentes','vencimentos']) != -1) {
+    console.log("entrei");
     $("#btnPDF").addClass("disabled");
     $("#btnPDF").off("click");
+    return;
+  }
+  else if ($.inArray(mdFile, ['vencimentos']) != -1) {
+    console.log("entrei");
+    $("#btnShare").addClass("disabled");
+    $("#btnShare").off("click");
     return;
   }
 }
