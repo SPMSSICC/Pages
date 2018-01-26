@@ -14,14 +14,14 @@ Relativamente ao processamento dos vencimentos em SNC-AP, e como principais alte
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-7e164ce0.png)
 
-</br>Fonte: http://www.cnc.min-financas.pt/pdf/SNC_AP/MANUAL%20DE%20IMPLEMENTACAO_SNC_AP_Versao2_HomologadoSEO.pdf
+</br>Fonte: <a href="http://www.cnc.min-financas.pt/pdf/SNC_AP/MANUAL%20DE%20IMPLEMENTACAO_SNC_AP_Versao2_HomologadoSEO.pdf">http://www.cnc.min-financas.pt/pdf/SNC_AP/MANUAL%20DE%20IMPLEMENTACAO_SNC_AP_Versao2_HomologadoSEO.pdf</a>
 
 </br> De referir também a NCP 19 – Benefícios dos empregados, também referida no Manual de implementação (2ª versão), que menciona como benefícios de curto prazo:
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-742828a7.png)
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-3d84f42f.png)
 
-</br>Fonte: http://www.cnc.min-financas.pt/pdf/SNC_AP/MANUAL%20DE%20IMPLEMENTACAO_SNC_AP_Versao2_HomologadoSEO.pdf
+</br>Fonte: <a href="http://www.cnc.min-financas.pt/pdf/SNC_AP/MANUAL%20DE%20IMPLEMENTACAO_SNC_AP_Versao2_HomologadoSEO.pdf">http://www.cnc.min-financas.pt/pdf/SNC_AP/MANUAL%20DE%20IMPLEMENTACAO_SNC_AP_Versao2_HomologadoSEO.pdf</a>
 
 </br>_In Manual de implementação (2ª versão) pág 215_
 
