@@ -3596,8 +3596,7 @@ Na nova janela aberta, deve indicar os intervalos das entidades das quais preten
 
 O aspeto do ficheiro PDF gerado é como o do apresentado seguidamente:
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1efa308a.png)
-
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1efa308a.png)  
 
 ### 3.4 Fundos Alheios
 
@@ -3985,7 +3984,7 @@ No ecrã que é aberto o utilizador deve preencher os seguintes campos:
 | Ano   | Indicação do ano dos documentos contabilizados para a folha de caixa.  |
 |Do dia:    |Indicação da data a partir da qual se pretendem extrair dados para a folha de caixa.  |
 |Ao dia:   | Indicação da data até a qual se pretendem extrair dados para a folha de caixa.  |
-|Parametrização   | Indicação das contas que serão contabilizadas para a designação descrita do lado esquerdo. ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-990c9e1b.png)  |
+|Parametrização   | Indicação das contas que serão contabilizadas para a designação descrita do lado esquerdo. ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-bc6acd73.png)  |
 
 </br>Para efetuar o cálculo da folha de caixa deve o utilizador, após ter preenchido todos os parâmetros, pressionar no botão "Calcular".
 
@@ -3994,9 +3993,14 @@ No ecrã que é aberto o utilizador deve preencher os seguintes campos:
 Quando o cálculo da folha de caixa finalizar, o utilizador pode guardar os dados em formato de ficheiro CSV, na diretoria indicada, ou poderá imprimi-los.
 
 **</br>Imprimir**
-</br>Quando a opção "Imprimir" for selecionada o aspeto do ficheiro PDF gerado é igual ao seguidamente apresentado.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-b0d3ee0e.png)
+Quando a opção "Imprimir" for selecionada o aspeto do ficheiro PDF gerado é igual ao seguidamente apresentado.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-bb249f37.png)
+
+Nesta Folha de Caixa podem-se observar alguns movimentos (Constituição do Fundo de Maneio (OD), Pagamentos (PG), Cobrança (CO), Depósitos e Levantamentos) destacados na seguinte imagem:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-b6c28f21.png)
 
 ### 4.2. Depósitos/Levantamentos
 Para aceder ao ecrã relativo ao registo de Depósitos/Levantamentos o utilizador deve seguir o caminho:
@@ -4096,6 +4100,22 @@ Nesta janela apenas podem ser consultadas OD's resultandes de um movimento conta
 O mesmo acontece se se pretender consultar uma OD existente mas lançada através de Depósitos/Levantamentos na janela de Recolha de Operações Diversas. O sistema gera uma mensagem como a apresentada seguidamente.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-4169174c.png)
+
+## 5. Registos Extraorçamentais
+
+São consideradas operações extraorçamentais as operações que não sejam consideradas receitas nem despesas orçamentais e como tal não se encontram sujeitos à disciplina do orçamento do estado porém, estas operações têm expressão na tesouraria.
+Enquadram-se no Decreto-Lei n.º 26/2002, de 14 de fevereiro de 2017 em que existem dois tipos de operação de tesouraria: "Retenção de receitas do estado" e "Outras operações de tesouraria".       
+
+São operações complementares de execução do Orçamento representadas por movimentos excecionais de fundos efetuados pelo Tesouro e outras operações escriturais relacionadas igualmente nas contas do Tesouro.
+
+Por norma, as operações extraorçamentais registam-se pelo classificador orçamental que deve ser desagregado pelas seguintes rubricas da receita e da despesa. Em POCMS refletiam-se numa conta 25*, atualmente em SNC-AP, numa “0”.
+
+- 17.01. - «Operações de tesouraria – Retenção de receitas do Estado» - que são todos os montantes provenientes de impostos, contribuições, IRS, imposto do selo, ADSE, entre outros;
+
+- 17.02. - «Outras operações de tesouraria» - que são os montantes provenientes de retenção de fundos alheios que devem constituir fluxos de entrega às entidades a quem respeitam, como os descontos de vencimento, ascauções e garantiasde fornecedores, as quotas de sidicatos, emolumentos, entre outros.
+
+Exemplo deste tipo de documentos são as Reposições Abatidas nos Pagamentos (RAPs) que são asreceitas resultantes das entradasde fundos na tesouraria como resultado de reposição de pagamentos idenvidos ocorridos no exercício corrente.
+
 <!--## 5. Contabilidade Geral
 ## 6. Analítica -->
 
