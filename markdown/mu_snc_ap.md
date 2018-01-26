@@ -1398,7 +1398,7 @@ O utilizador deve selecionar o botão "Contas a crédito" para criar essas assoc
 
 Ao clicar no botão é aberto o seguinte ecrã:
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-15a01741.png)
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-f8e80fa8.png)
 
 Estas associações apresentadas, podem ser editadas, abatidas ou podem também ser adicionadas novas.
 
@@ -1408,11 +1408,20 @@ Para adicionar uma relação nova, o utilizador deve clicar sobre o botão "+Nov
 
 Esta tabela ficará guardada e poderá sempre ser editada pelo utilizador.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a4e9d35c.png)
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-377182a8.png)
 
->**Nota:** As contas 2xx devem ser sempre contas de MOVIMENTO.
+>**Nota:** As contas 2xx devem ser sempre contas de **MOVIMENTO**.
 
 Em caso de se pretender eliminar uma relação, o utilizador deve selecionar uma linha, clicando sobre a mesma duas vezes, e clicar no botão "-Abater".
+
+O utilizador também pode guardar esta tabela num ficheiro CSV. Para este efeito, deve no campo respetivo colocar o diretório do seu computador onde pretende guardar o ficheiro. De seguida deve apenas clicar em "Ficheiro".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-4fb86652.png)
+
+O aspeto do ficheiro a ser guardado será como o do apresentado seguidamente:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-18f168ee.png)
+
 
 #### 3.1.1.1 Processamento de Vencimentos
 
@@ -1430,14 +1439,16 @@ Relativamente ao processamento dos vencimentos em SNC-AP, e como principais alte
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-7e164ce0.png)
 
-</br>Fonte: http://www.cnc.min-financas.pt/pdf/SNC_AP/MANUAL%20DE%20IMPLEMENTACAO_SNC_AP_Versao2_HomologadoSEO.pdf
+</br>Fonte:
+<a href="http://www.cnc.min-financas.pt/pdf/SNC_AP/MANUAL%20DE%20IMPLEMENTACAO_SNC_AP_Versao2_HomologadoSEO.pdf">http://www.cnc.min-financas.pt/pdf/SNC_AP/MANUAL%20DE%20IMPLEMENTACAO_SNC_AP_Versao2_HomologadoSEO.pdf</a>
 
 </br> De referir também a NCP 19 – Benefícios dos empregados, também referida no Manual de implementação (2ª versão), que menciona como benefícios de curto prazo:
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-742828a7.png)
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-3d84f42f.png)
 
-</br>Fonte: http://www.cnc.min-financas.pt/pdf/SNC_AP/MANUAL%20DE%20IMPLEMENTACAO_SNC_AP_Versao2_HomologadoSEO.pdf
+</br>Fonte:
+<a href="http://www.cnc.min-financas.pt/pdf/SNC_AP/MANUAL%20DE%20IMPLEMENTACAO_SNC_AP_Versao2_HomologadoSEO.pdf">http://www.cnc.min-financas.pt/pdf/SNC_AP/MANUAL%20DE%20IMPLEMENTACAO_SNC_AP_Versao2_HomologadoSEO.pdf</a>
 
 </br>_In Manual de implementação (2ª versão) pág 215_
 
