@@ -1,3 +1,5 @@
+<div style="width:100%; height:30px"><span onclick="loadUpgrades(['btnMenu'], event)" class="voltar">Voltar</span></div>
+
 # Atualizações no SICC SNC-AP - 26 de janeiro de 2018
 
 - Incorporação de contas especificas SNC-AP nos documentos CC, NC, DA, RA, P1, P2, AC e  FD;

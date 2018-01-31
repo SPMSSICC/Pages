@@ -15,7 +15,15 @@ a{
   cursor:pointer;
 }
 
+.voltar {
+  float:right;
+  color: #29615D;
+  font-weight: bold;
+}
 
+.voltar:hover{
+  cursor: pointer;
+}
 #loader {
 display: none;
 margin: auto;
