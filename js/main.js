@@ -23,7 +23,7 @@ var uAgent = window.navigator.userAgent.toUpperCase()
   , mobileDeviceCheck = (/android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(navigator.userAgent.toLowerCase()))
   , arrDocs = []
   , reformatedArrDocs = []
-  , arrDocNames = [ 'about','apresentacao_snc_ap','apresentação_20_nov_snc_ap','atual_sist_12_jan','atual_sist_19_jan','atual_sist_26_jan','check_list','cer_migracao_sicc','chave_orcamental_por_ano','circ1381','circ1382','dec_lei85','dec_lei192','documentos_af_e_ar','gestao_exercicios','gestao_projetos','help','importacao_csvs','macro_tarefas','menus_draft','menus','mu_snc_ap','mu_snc_ap_draft','perguntas_frequentes','processos','redmine','reposicao_pagamentos_cobrancas','snc_ap_faqs','vencimentos']
+  , arrDocNames = [ 'about','apresentacao_snc_ap','apresentação_20_nov_snc_ap','atual_sist_2_fev','atual_sist_12_jan','atual_sist_19_jan','atual_sist_26_jan','check_list','cer_migracao_sicc','chave_orcamental_por_ano','circ1381','circ1382','dec_lei85','dec_lei192','documentos_af_e_ar','gestao_exercicios','gestao_projetos','help','importacao_csvs','macro_tarefas','menus_draft','menus','mu_snc_ap','mu_snc_ap_draft','perguntas_frequentes','processos','redmine','reposicao_pagamentos_cobrancas','snc_ap_faqs','vencimentos']
   , lastSearchStr = "";
 /*Carregar documento através de parametros no URL (queryString)*/
 function loadFirstContent(){
