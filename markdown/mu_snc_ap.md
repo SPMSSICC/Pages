@@ -1558,6 +1558,10 @@ A consulta deste documento não dispensa a leitura das NCP do SNC-AP, do manual 
 
 #### 3.1.2. Ligações de Gestão de Stocks
 
+A informação que deve ser enviada entre o departamento financeiro e o departamento de logística pode ser observada no seguinte esquema. Os ficheiros a serem importados no sistema, os que são referidos no esquema, são detalhadamente descritos ao longo deste capítulo.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1ffc568a.png)
+
 ##### 3.1.2.1. Referências genéricas
 Para importar dados relativos às referências genéricas dos Stocks o utilizador deve seguir o seguinte caminho na aplicação:
 
@@ -1586,7 +1590,7 @@ Para importar dados relativos às referências genéricas dos Stocks o utilizado
  A descrição dos campos para cada uma das referências é apresentada seguidamente.
 
 ##### Referência 201
-Esta referência importa dados relativos a documentos do tipo CB proveniente dos Stocks. Para ficheiros de referência 201 os campos que devem estar preenchidos são:
+Esta referência importa dados relativos a documentos do tipo **CB** proveniente dos Stocks. Para ficheiros de referência 201 os campos que devem estar preenchidos são:
 
 |   | Ref. | Nº Proc. Aquisição | Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -1597,7 +1601,7 @@ Esta referência importa dados relativos a documentos do tipo CB proveniente dos
 </div>
 
 ##### Referência 203
-Ficheiros de referência 203 importam dados relativos a documentos do tipo P1. Para ficheiros de referência 203 os campos que devem estar preenchidos são:
+Ficheiros de referência 203 importam dados relativos a documentos do tipo **P1**. Para ficheiros de referência 203 os campos que devem estar preenchidos são:
 
 |   | Ref.  | Ent.| NºCP| NºP1| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -1608,7 +1612,7 @@ Ficheiros de referência 203 importam dados relativos a documentos do tipo P1. P
 </div>
 
 ##### Referências 204, 205, 206 e 207
-Ficheiros destas referências importam dados relativos a documentos do tipo OD. Para ficheiros de referência 204-207 os campos que devem estar preenchidos são:
+Ficheiros destas referências importam dados relativos a documentos do tipo **OD**. Para ficheiros de referência 204-207 os campos que devem estar preenchidos são:
 
 |   | Ref.    | Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   | Centro Custo |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -1630,7 +1634,7 @@ Ficheiros de referência 210 importam dados relativos a documentos do tipo P2. P
 </div>
 
 ##### Referência 211
-Ficheiros de referência 211 importam dados relativos a documentos do tipo P2. Para ficheiros de referência 211 os campos que devem estar preenchidos são:
+Ficheiros de referência 211 importam dados relativos a documentos do tipo **P2**. Para ficheiros de referência 211 os campos que devem estar preenchidos são:
 
 |   | Ref. | Nº Proc. Aquisição |Ent.|NºCP|NºP1|NºP2| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo| Nº dias Data Vencimento |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -1641,7 +1645,7 @@ Ficheiros de referência 211 importam dados relativos a documentos do tipo P2. P
 </div>
 
 ##### Referência 214
-Ficheiros de referência 214 importam dados relativos a documentos do tipo CM.Para ficheiros de referência 214 os campos que devem estar preenchidos são:
+Ficheiros de referência 214 importam dados relativos a documentos do tipo **CM**.Para ficheiros de referência 214 os campos que devem estar preenchidos são:
 
 |   | Ref. | Nº Proc. Aquisição | Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   | Nº dias Data Vencimento |Nota de encomenda|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:--:|
@@ -1657,7 +1661,7 @@ Para importar dados relativos à Refª 202 de Stocks o utilizador deve seguir o 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-5be9deea.png)
 
 Irá abrir o ecrã seguidamente apresentado onde o processo de importação de ficheiros segue o mesmo fluxo de trabalho das referências anteriores referentes à gestão de stocks.
-Ficheiros de referência 202 importam dados relativos a documentos do tipo CP.
+Ficheiros de referência 202 importam dados relativos a documentos do tipo **CP**.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-4d1dae6e.png)
 
