@@ -373,7 +373,7 @@ Formulário de parametrização:
 | Receita / Despesa | Informação relativa à conta analítica, indicando se é uma conta de despesa ou de receita. Na inserção de uma nova conta, o utilizador deve marcar a opção correta. ![receita_despesa](https://spmssicc.github.io/pages/markdown/menus.assets/img_receita_despesa.png) |
 | Classificador económico | Informação relativa ao classificador económico. No caso da inserção de uma nova conta, o utilizador tem acesso a uma listagem de classificadores económicos, carregando no círculo ![radio](https://spmssicc.github.io/pages/markdown/menus.assets/img_radio.png) à direita do campo de código. A descrição do classificador económico será colocada automaticamente pelo sistema. |
 
-#####Desdobramento de Contas
+##### Desdobramento de Contas
 </br>Quando o utilizador pretende desdobrar uma conta deve ele seguir o seguinte processo:
 
 1. Deve o utilizador selecionar a conta que pretende desdobrar;
@@ -387,7 +387,8 @@ Formulário de parametrização:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/desdobramento_conta.gif)
 
->Não é permitido ao utilizador criar contas novas, apenas é permitido o desdobramento de contas já contempladas no Plano de Contas carregado no sistema.
+> Não é permitido ao utilizador criar contas novas, apenas é permitido o desdobramento de contas já contempladas no Plano de Contas carregado no sistema. Para o efeito, devem ser desdobradas, apenas as contas do tipo de **movimento** do plano de contas Oficial.
+
 
 #### 1.3.1.2. Classificadores económicos
 
@@ -1046,11 +1047,51 @@ De seguida o utilizador deve selecionar o documento que pretende transferir atra
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-632ce882.png)
 
-<!-- ### 2.7. Balancete de Terceiros
+### 2.7. Balancete de Terceiros
 
-####2.7.1. Balancete de Terceiros
+#### 2.7.1. Balancete de Terceiros
 
-####2.7.2. Extrato de Movimento de Terceiros
+Este sub-menu permite ao utilizador produzir o balancete de terceiros. Para tal deve indicar com que informação o pretende produzir:
+
+|Campo |Descrição|
+|:--|:--|
+|Primeira Conta:    | Código da primeira conta a extrair. Apenas é extraida informação cujo código seja igual ou superior ao indicado neste campo.   |   
+|Última Conta:    |Código da última conta a extrair. Apenas é extraida informação cujo código seja igual ou superior ao indicado no campo anterior e menor ou igual ao indicado neste campo.   |   
+|Pri. Entidade    |Código da primeira entidade a extrair. Apenas é extraida informação cujo código seja igual ou superior ao indicado neste campo.    |   
+|Últ. Entidade   | Código da última entidade a extrair. Apenas é extraida informação cujo código seja igual ou inferior ao indicado neste campo.  |   
+|Pri. mês:   | Deve o utilizador selecionar o mês a partir do qual pretende visualizar os registos.   |   
+|Últ. mês:   | Deve o utilizador selecionar o mês até ao qual pretende visualizar os registos.   |   
+|Exercío   | Indicar se os documentos a visualizar são do exercício corrente, iniciais ou todos.  ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-2186bc67.png)   |
+|Tipo de documentos    | Indicar o tipo de documentos a visualizar: conta corrente ou todos. ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-0db42853.png)  |
+
+
+Também deve o utilizador indicar se pretende incluir no balancete o mês 13, 14 ou 15.
+
+Por fim, e antes de gerar o balancete, deve o utilizador selecionar, **imperativamente**, a checkbox "Classe 1 desdobrada".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-045b0cf9.png)
+
+Para guardar o ficheiro em formato **CSV**, deve o utilizador selecionar a diretoria do seu computador e clicar em "Ficheiro".
+
+O aspeto do ficheiro gerado será como o do apresentado seguidamente:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-31f9b6eb.png)
+
+Se pretender guardar o ficheiro em formato **PDF**, deve o utilizador clicar em "Imprimir".
+
+O aspeto do ficheiro gerado será como o do apresentado seguidamente:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-3f0eda15.png)
+
+O balancete gerado pode ou não incluir as entidades. Se o utilizador pretender visualizar apenas as contas deve selecionar **Contas** no campo respetivo.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-fec58a86.png)
+
+O aspeto do balancete será como o do apresentado seguidamente:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-51493520.png)
+****
+<!--####2.7.2. Extrato de Movimento de Terceiros
 
 ####2.7.3. Balancete Atividade/Departamento
 
@@ -4110,7 +4151,7 @@ O mesmo acontece se se pretender consultar uma OD existente mas lançada atravé
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-4169174c.png)
 
-## 5. Registos Extraorçamentais
+<!-- ## 5. Registos Extraorçamentais
 
 São consideradas operações extraorçamentais as operações que não sejam consideradas receitas nem despesas orçamentais e como tal não se encontram sujeitos à disciplina do orçamento do estado porém, estas operações têm expressão na tesouraria.
 Enquadram-se no Decreto-Lei n.º 26/2002, de 14 de fevereiro de 2017 em que existem dois tipos de operação de tesouraria: "Retenção de receitas do estado" e "Outras operações de tesouraria".       
@@ -4121,12 +4162,103 @@ Por norma, as operações extraorçamentais registam-se pelo classificador orça
 
 - 17.01. - «Operações de tesouraria – Retenção de receitas do Estado» - que são todos os montantes provenientes de impostos, contribuições, IRS, imposto do selo, ADSE, entre outros;
 
-- 17.02. - «Outras operações de tesouraria» - que são os montantes provenientes de retenção de fundos alheios que devem constituir fluxos de entrega às entidades a quem respeitam, como os descontos de vencimento, ascauções e garantiasde fornecedores, as quotas de sidicatos, emolumentos, entre outros.
+- 17.02. - «Outras operações de tesouraria» - que são os montantes provenientes de retenção de fundos alheios que devem constituir fluxos de entrega às entidades a quem respeitam, como os descontos de vencimento, ascauções e garantias de fornecedores, as quotas de sidicatos, emolumentos, entre outros.
 
-Exemplo deste tipo de documentos são as Reposições Abatidas nos Pagamentos (RAPs) que são asreceitas resultantes das entradasde fundos na tesouraria como resultado de reposição de pagamentos idenvidos ocorridos no exercício corrente.
+Exemplo deste tipo de documentos são as Reposições Abatidas nos Pagamentos (RAPs) que são asreceitas resultantes das entradasde fundos na tesouraria como resultado de reposição de pagamentos idenvidos ocorridos no exercício corrente. -->
 
-<!--## 5. Contabilidade Geral
-## 6. Analítica -->
+## 5. Contabilidade Geral
+
+Este menu permite ao utilizador gerar balancetes, extratos e mapas.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-14b51cb9.png)
+
+Ao longo deste capítulo serão descritos os processos necessários para gerar cada um dos documentos disponíveis.
+
+### 5.1. Impressão de diários  
+
+Neste menu, o utilizador pode, após a inserção de detrminados critérios de pesquisa, consultar os lançamentos realizados num determinado diário. Para o efeito deve o utilizador preencher os seguintes campos:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-29f1e015.png)
+
+|Campo | Descrição |
+|:--|:--|
+|Primeiro Diário    | Deve ser indicado o número do primeiro diário a ser considerado no mapa a gerar.   |
+|Último Diário    | Deve ser indicado o número do último diário a ser considerado no mapa a gerar.  |
+|Do dia:    | Deve ser indicado o dia a partir do qual devem ser considerados registos para o mapa a gerar.   |
+|Ao dia:    | Deve ser indicado o último dia até ao qual devem ser considerados registos para o mapa a ser gerado.   |
+
+</br>O utilizador deve também indicar se pretende visualizar os registos acumulados ou por atividade/departamento, indicando o mesmo através da seleção da respetiva checkbox.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-3e70c1e9.png)
+
+Após ter indicado todos os critérios de pesquisa, deve o utilizador clicar em "Calcular" para que, na janela de baixo fiquem apresentados todos os documentos lançados nos diários indicados.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ed87c75d.png)
+
+Abaixo da janela dos documentos, ficam disponíveis os totais a débito e a crédito do intervalo dos diários indicados, bem como os saldos. Pode agora o utilizador guardar o ficheiro no seu computador em formato CSV ou em PDF.
+
+Para guardar o CSV, deve o utilizador selecionar a diretoria do seu computador e de seguida clicar em "Ficheiro".
+
+O aspeto do ficheiro CSV gerado será como o do apresentado seguidamente:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-e0542b35.png)
+
+Para guardar em formato PDF, deve o utilizador clicar em "Imprimir".
+
+O aspeto do ficheiro gerado será como o do apresentado seguidamente:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-240a0721.png)
+
+<!-- ### 5.2. Extrato por tipo de documento
+
+### 5.3. Extrato de Conta -->
+
+### 5.4. Extrato de Contas
+
+Nesta opção de menu o utilizador pode extrair o extrato de contas, dentro do intervalo de contas indicado. Para tal deve preencher os critérios de pesquisa conforme descrito seguidamente.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-936d6763.png)
+
+|Campo | Descrição |
+|:--|:--|
+|Primeira Conta    | Indicar a primeira conta a ser considerada no extrato a ser gerado.   |
+|Última Conta    | Indicar a última conta a ser considerada no extrato a ser gerado.   |
+|Do dia:    | Indicar o dia apartir do qual se devem considerar os documentos para o extrato.   |
+|Ao dia:    | Indicar o último dia do qual se devem considerar os documentos para o extrato.    |
+|Primeira Entidade:    | Indicar a primeira entidade da qual serão considerados os documetnos para o extrato.    |
+|Última Entidade:    | Indicar a última entidade da qual serão considerados os documentos para o extrato    |
+|Primeiro NIF:    |Indicar o primeiro NIF a ser considerado no extrato.    |
+|Último NIF:    |Indicar o último NIF a ser considerado no extrato.    |
+
+Deve também, o utilizador indicar qual o exercício pretende considerar e se os documentos a incluir são do exercício, iniciais ou todos.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-23ccd7d2.png)
+
+Por fim, deve o utilizador selecionar a diretoria no seu computador pretende guardar o extrato gerado em formato CSV e de seguida deve clicar em "Ficheiro".
+
+O aspeto do ficheiro CSV gerado é como o do apresentado seguidamente:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1206e565.png)
+
+Para guardar o Extrato de Contas em PDF, deve o utilizador clicar em "Imprimir".
+
+O aspeto do ficheiro gerado será como o do apresentado seguidamente:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-8b0e3edc.png)
+
+
+<!-- ### 5.5. Balancetes de Razão Geral
+
+### 5.6. Balancetes por Atividade/Departamento
+
+### 5.7. Balancetes por Dia
+
+### 5.8. Mapas em formato XML (ACSS)
+
+### 5.9. Balancete rubricas financeiras -->
+
+
+<!--## 6. Analítica -->
 
 ## 7. Menu Orçamental
 
@@ -4258,7 +4390,7 @@ Ao clicar, surge o ecrã abaixo e que permite proceder à escolha do tipo de inf
 |:----|:---------|
 |Ficheiro|Este botão permite ao utilizador escolher o diretório de gravação do Excel que irá ser produzido.</br>![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-aed34711.png)|
 |Imprimir|Este botão permite que o utilizador gere relatório diretamente no ecrã|
-|Sair|Este botão permite que o utilizador saia da ecrã e regresse ao menu inicial|
+
 
 O exemplo seguinte, demonstra um relatório de alteração orçamental gerada em passos anteriores, evidenciando os respetivos itens financeiros e respetivos valores.
 
