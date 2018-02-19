@@ -2576,11 +2576,16 @@ O aspeto do ficheiro CSV a ser importado deve ser semelhante ao seguidamente apr
 
 > **Nota:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-0602de55.png)
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-5b65b582.png)
 
 <div style="height:40px">
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/CSV_DSP_exemplo_1.csv'">Descarregar CSV</button>
 </div>
+
+</br> Salientam-se as situações apresentadas no exemplo acima (A e B):
+
+- A situação A apresenta o caso quando para o mesmo cabimento (CB) existem várias faturas (P2);
+- A situação B apresenta o caso em que os documentos contemplam várias contas.
 
 #### 3.2.6. Alteração de Lançamentos (AL)
 
