@@ -4176,7 +4176,7 @@ Ao longo deste capítulo serão descritos os processos necessários para gerar c
 
 ### 5.1. Impressão de diários  
 
-Neste menu, o utilizador pode, após a inserção de detrminados critérios de pesquisa, consultar os lançamentos realizados num determinado diário. Para o efeito deve o utilizador preencher os seguintes campos:
+Neste menu, o utilizador pode, após a indicação dos critérios de pesquisa, consultar os lançamentos realizados num determinado diário. Para o efeito, deve o utilizador preencher os seguintes campos:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-29f1e015.png)
 
@@ -4184,8 +4184,8 @@ Neste menu, o utilizador pode, após a inserção de detrminados critérios de p
 |:--|:--|
 |Primeiro Diário    | Deve ser indicado o número do primeiro diário a ser considerado no mapa a gerar.   |
 |Último Diário    | Deve ser indicado o número do último diário a ser considerado no mapa a gerar.  |
-|Do dia:    | Deve ser indicado o dia a partir do qual devem ser considerados registos para o mapa a gerar.   |
-|Ao dia:    | Deve ser indicado o último dia até ao qual devem ser considerados registos para o mapa a ser gerado.   |
+|Do dia:    | Deve ser indicado o dia a partir do qual devem ser considerados registos.  |
+|Ao dia:    | Deve ser indicado o último dia até ao qual devem ser considerados registos.   |
 
 </br>O utilizador deve também indicar se pretende visualizar os registos acumulados ou por atividade/departamento, indicando o mesmo através da seleção da respetiva checkbox.
 
@@ -4195,7 +4195,7 @@ Após ter indicado todos os critérios de pesquisa, deve o utilizador clicar em 
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ed87c75d.png)
 
-Abaixo da janela dos documentos, ficam disponíveis os totais a débito e a crédito do intervalo dos diários indicados, bem como os saldos. Pode agora o utilizador guardar o ficheiro no seu computador em formato CSV ou em PDF.
+Abaixo dos documentos, ficam disponíveis os totais a débito e a crédito do intervalo dos diários indicados, bem como os saldos. Pode agora o utilizador guardar o ficheiro no seu computador em formato CSV ou em PDF.
 
 Para guardar o CSV, deve o utilizador selecionar a diretoria do seu computador e de seguida clicar em "Ficheiro".
 
@@ -4209,9 +4209,60 @@ O aspeto do ficheiro gerado será como o do apresentado seguidamente:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-240a0721.png)
 
-<!-- ### 5.2. Extrato por tipo de documento
+### 5.2. Extrato por tipo de documento
 
-### 5.3. Extrato de Conta -->
+Este menu permite ao utilizador gerar extratos por tipo de documento, num intervalo definido pelo utilizador.
+
+Para gerar este mapa, deve o utilizador indicar o intervalo de datas e o tipo de documento.
+
+Após a indicação dos critérios de pesquisa, deve-se clicar em "Calcular".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-d628eb82.png)
+
+Como resultado da pesquisa, a janela fica preenchida com todos os documentos registados dentro dos critérios definidos.
+
+O extrato gerado pode agora ser guardado em formato CSV. Para o efeito, deve o utilizador selecionar a diretoria do seu computador onde pretende guardar o ficheiro e, por fim, deve clicar em "Ficheiro".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-b1c659ad.png)
+
+O aspeto do ficheiro gerado, o extrato por Tipo de Documento é como o do apresentado seguidamente:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-143926fc.png)
+
+
+### 5.3. Extrato de Conta
+
+Este menu permite ao utilizador gerar um extrato de uma conta apenas. Para o efeito, deve o utilizador indicar no sistema os critérios de pesquisa.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-0ce36620.png)
+
+|Campo | Descrição|
+:--|:--|
+|Exercício   | Indicra o exercício do qual se pretendem visualizar os documentos. </br> Através da seleção da checkbox, o utilizador pode indicar se pretende extrair o extrato do exercício corrente, os documentos iniciais apenas ou todos. ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-2154284c.png)  |
+|Primeira Conta:   | Indicar a conta da qual se pretende gerar o extrato.    |
+|Do dia:   |Indicar o dia a partir do qual serão considerados os documentos no extrato. Serão considerados documentos com data igual e superior à data indicada neste campo.      |
+|Ao dia:    | Indicar o dia até ao qual serão considerados os documentos no extrato. Serão considerados documentos com data igual e inferior à data indicada neste campo.    |
+|Primeira  Entidade:    | Indicar a entidade da qual serão considerados documentos para o extrato. Serão considerados documentos com código de entidade igual e superior à indicada neste campo.   |
+|Última Entidade:    |Indicar a última entidade da qual serão considerados documentos para o extrato. Serão considerados documentos com código de entidade igual e inferior à indicada neste campo.   |
+|Primeiro NIF:    | Indicar o primeiro NIF a ser considerado nos documentos para o extrato. Serão considerados documentos com NIF igual e superior ao indicado neste campo.   |
+|Último NIF:    | Indicar o último NIF as er considerado para o extrato. Serão considerados documentos com NIF igual e inferior ao indicado neste campo.  |
+
+>**Nota:** Neste extrato apenas podem ser consideradas contas do tipo de **movimento**. Para visualizar o extrato de uma conta do tipo de **acumulação**, deve ser utilizado o menu Extrato de Contas.
+
+Após ter inserido os critérios de pesquisa, pode o utilizador guardar o extrato em dois formatos: CSV e PDF.
+
+Para guardar o extrato de conta num ficheiro CSV, deve o utilizador selecionar a diretoria do seu computador onde pretende guardar o documento e por fim, deve clicar em "Ficheiro".
+
+O aspeto do ficheiro a ser gerado é como o do apresentado seguidamente:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-27c78bc7.png)
+
+Para guardar o ficheiro num formato PDF, deve o utilizador clicar em "Imprimir".
+
+O aspeto do ficheiro a ser gerado é como o do apresentado seguidamente:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-c30b3461.png)
+
 
 ### 5.4. Extrato de Contas
 
@@ -4223,18 +4274,18 @@ Nesta opção de menu o utilizador pode extrair o extrato de contas, dentro do i
 |:--|:--|
 |Primeira Conta    | Indicar a primeira conta a ser considerada no extrato a ser gerado.   |
 |Última Conta    | Indicar a última conta a ser considerada no extrato a ser gerado.   |
-|Do dia:    | Indicar o dia apartir do qual se devem considerar os documentos para o extrato.   |
+|Do dia:    | Indicar o dia a partir do qual se devem considerar os documentos para o extrato.   |
 |Ao dia:    | Indicar o último dia do qual se devem considerar os documentos para o extrato.    |
-|Primeira Entidade:    | Indicar a primeira entidade da qual serão considerados os documetnos para o extrato.    |
-|Última Entidade:    | Indicar a última entidade da qual serão considerados os documentos para o extrato    |
+|Primeira Entidade:    | Indicar a primeira entidade da qual serão considerados os documentos para o extrato.    |
+|Última Entidade:    | Indicar a última entidade da qual serão considerados os documentos para o extrato.    |
 |Primeiro NIF:    |Indicar o primeiro NIF a ser considerado no extrato.    |
 |Último NIF:    |Indicar o último NIF a ser considerado no extrato.    |
 
-Deve também, o utilizador indicar qual o exercício pretende considerar e se os documentos a incluir são do exercício, iniciais ou todos.
+Deve também, o utilizador indicar qual o exercício pretende considerar e se os documentos a incluir são do exercício corrente, periodos iniciais ou todos.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-23ccd7d2.png)
 
-Por fim, deve o utilizador selecionar a diretoria no seu computador pretende guardar o extrato gerado em formato CSV e de seguida deve clicar em "Ficheiro".
+Por fim, deve o utilizador selecionar a diretoria no seu computador, onde pretende guardar o extrato gerado em formato CSV, e de seguida deve clicar em "Ficheiro".
 
 O aspeto do ficheiro CSV gerado é como o do apresentado seguidamente:
 
@@ -4247,18 +4298,73 @@ O aspeto do ficheiro gerado será como o do apresentado seguidamente:
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-8b0e3edc.png)
 
 
-<!-- ### 5.5. Balancetes de Razão Geral
+### 5.5. Balancetes de Razão Geral
 
+Este menu permite ao utilizador gerar um abalancete com todos os movimentos realizados no intervalo de contas e nas datas indicados.
+
+Para gerar este balancete, deve o utilizador indicar os critérios de pesquisa do documento.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-05f4e6ca.png)
+
+|Campo| Descrição|
+|:--|:--|
+|Ano:    |Indicar o ano do qual se pretende gerar o balancete.    |
+|Primeira Conta:    |Indicar a primeira conta que será considerada no balancete. Serão considerados os movimentos de conta igual e superior à indicada neste campo.     |
+|Última Conta:    | Indicar a última conta que será considerada no balancete. Serão considerados os movimentos de conta igual e inferior à indicada neste campo.   |
+|Pri. mês:    | Indicar o mês a partir do qual serão considerados os movimentos das contas indicadas.    |
+|Ult. mês:    | Indicar o mês até ao qual serão considerados os movimentos das contas indicadas.   |
+
+>**Nota:** Para gerar o balancete de um único mês, nos campos de "Pri. mês" e "Ult. mês" deve ser selecionado o mesmo mês.
+
+Através da seleção da checkbox o utilizador deve indicar o nível de desdobramento das contas que pretende visualizar no balancete. Por defeito, o sistema gera o balancete com o desdobramento máximo das contas (Analítico). Para gerar um balancete apenas com dois níveis de desdobramento, deve selecionar a checkbox "Sintético (Grau 2)".   
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-3cdd9014.png)
+
+O utilizador pode também filtrar as contas segundo o seu tipo. Para o efeito, o utilizador pode selecionar a checkbox
+ - Contas a zero - o balancete irá apenas espelhar contas, dentro do intervalo definido,  que não têm movimentos nem no intervalo definido nem dos anos anteriores;
+ - Contas movimento - apenas serão espelhadas contas, dentro do intervalo definido, do tipo movimento;
+ - Só valores de abertura - apenas serão espelhadas contas, dentro do intervalo definido, que tenham saldos iniciais diferentes de zero;
+
+Caso o utilizador não selecione nenhuma destas opções, serão espelhadas todas as contas dentro do intervalo definido.
+
+![]((https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-59cc575e.png)
+
+Caso o utilizador pretenda gerar um balancete que inclui os meses 13, 14 ou 15 deve selecionar a checkbox respetiva.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-61c0294a.png)
+
+Após terem sido indicados os critérios de pesquisa, pode agora, o utilizador, selecionar a forma como pretende guardar o balancete: em ficheiro CSV ou PDF.
+
+Para guardar em  CSV, deve o utilizador indicar a diretoria no computador onde pretende guardar o ficheiro e depois deve clicar em "Ficheiro".
+
+O aspeto do ficheiro gerado será como o do apresentado seguidamente:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-111edcd4.png)
+
+Para guardar em formato PDF, basta clicar em "Imprimir".
+
+O aspeto do ficheiro gerado será como o do apresentado seguidamente:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-2cbb8839.png)
+
+<!--
 ### 5.6. Balancetes por Atividade/Departamento
 
-### 5.7. Balancetes por Dia
+Este menu permite ao utilizador gerar um balancete de razão geral  com a especificação do departamento da instituição, caso tenha mais do que um.
+
+Para obter este tipo de balancete deve o utilizador selecionar, na checkbox respetiva, que pretende extarir o balancete por Atividade/Departamento.
+
+
+
+Todos os restante campos são iguais ao Balancete de razão Geral. -->
+
+<!--### 5.7. Balancetes por Dia
 
 ### 5.8. Mapas em formato XML (ACSS)
 
-### 5.9. Balancete rubricas financeiras -->
+### 5.9. Balancete rubricas Financeiras
 
-
-<!--## 6. Analítica -->
+## 6. Analítica -->
 
 ## 7. Menu Orçamental
 
