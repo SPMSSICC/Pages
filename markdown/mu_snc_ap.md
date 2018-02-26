@@ -4327,7 +4327,7 @@ O utilizador pode também filtrar as contas segundo o seu tipo. Para o efeito, o
 
 Caso o utilizador não selecione nenhuma destas opções, serão espelhadas todas as contas dentro do intervalo definido.
 
-![]((https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-59cc575e.png)
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-59cc575e.png)
 
 Caso o utilizador pretenda gerar um balancete que inclui os meses 13, 14 ou 15 deve selecionar a checkbox respetiva.
 
