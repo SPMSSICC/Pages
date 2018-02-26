@@ -4347,16 +4347,15 @@ O aspeto do ficheiro gerado será como o do apresentado seguidamente:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-2cbb8839.png)
 
-<!--
 ### 5.6. Balancetes por Atividade/Departamento
 
 Este menu permite ao utilizador gerar um balancete de razão geral  com a especificação do departamento da instituição, caso tenha mais do que um.
 
 Para obter este tipo de balancete deve o utilizador selecionar, na checkbox respetiva, que pretende extarir o balancete por Atividade/Departamento.
 
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-5bcbb464.png)
 
-
-Todos os restante campos são iguais ao Balancete de razão Geral. -->
+Todos os restante campos são iguais ao Balancete de razão Geral.
 
 <!--### 5.7. Balancetes por Dia
 
