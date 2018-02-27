@@ -2621,16 +2621,20 @@ O aspeto do ficheiro CSV a ser importado deve ser semelhante ao seguidamente apr
 
 > **Nota:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-5b65b582.png)
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-983ab8f8.png)
 
 <div style="height:40px">
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/CSV_DSP_exemplo_1.csv'">Descarregar CSV</button>
 </div>
 
-</br> Salientam-se as situações apresentadas no exemplo acima (A e B):
+Segue abaixo uma explicação de situações possíveis aquando a importação do ciclo de despesa.
 
-- A situação A apresenta o caso quando para o mesmo cabimento (CB) existem várias faturas (P2);
-- A situação B apresenta o caso em que os documentos contemplam várias contas.
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-0c0b170a.png)
+
+- A situação A reresenta o caso quando para o mesmo cabimento (CB) existem várias faturas (P2);
+- A situação B reresenta o caso em que os documentos contemplam várias contas.
+
+Para ambas as situações, está também apresentada a forma como são calculados os valores dos documentos quando são "desdobrados" em várias linhas.
 
 #### 3.2.6. Alteração de Lançamentos (AL)
 
