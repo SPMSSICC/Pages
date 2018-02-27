@@ -3523,7 +3523,35 @@ O aspeto do ficheiro **CSV** a ser importado deve ser semelhante ao seguidamente
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/CO_SNCAP_1.csv'">Descarregar CSV</button>
 </div>
 
-#### 3.3.5. Crédito a Clientes (CC)
+#### 3.3.6. Cobranças Duvidosas (CD)
+
+Para aceder à janela de registo de cobranças duvidosas, deve o utilizador seguir o caminho na aplicação:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-3f17b01b.png)
+
+Para efetuar o registo, deve o utilizador preencher os campos referentes ao Ano da cobrança, deve indicar o Número de Entidade e de seguida deve clicar em "Ver Documentos".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-3f320dcb.png)
+
+Na janela de baixo irão aparecer todas as faturas registadas na entidade indicada. Destas faturas, deve o utilizador selecionar, clicando duas vezes, a fatura que pretende registar como cobrança duvidosa.
+
+Ao clicar duas vezes sobre a fatura, esta irá passar para a janela de cima. De seguida, para completar o registo da CD, deve o utilizador clicar em "Gravar novo CD".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-35719976.png)
+
+Ao clicar em Gravar novo CD, será abert um outro ecrã onde o utilizador deve confirmar as contas apresentadas automaticamente pelo sistema.
+Para validar estas contas, bem como o registo da CD, o utilizador deve clicar em "Confirme".
+
+ ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-c143324d.png)
+
+ O sistema irá atribuír um número à CD criada e irá comunicar este número através da seguinte mensagem:
+
+ ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-f897d9b7.png)
+
+O passo seguinte será o registo da **Guia de Receita (GR)** que posteriormente deve ser regularizada pelo lançamento de uma **Cobrança (CO)**.
+
+
+#### 3.3.7. Crédito a Clientes (CC)
 
 Para aceder ao ecrã respetivo ao registo de crédito a clientes, o utilizador deve seguir o seguinte caminho na aplicação:
 
@@ -3616,7 +3644,7 @@ Devem ser, novamente, verificadas as contas e os montantes e por fim deve-se con
 
 </br>Findo este processo, deve-se agora registar a cobrança. O processo de registo desta é igual ao descrito para CC "normal".
 
-#### 3.3.6. Anulação de Receitas FD/CC (AR)
+#### 3.3.8. Anulação de Receitas FD/CC (AR)
 
 Este tipo de documento, Anulação de receitas, permite anular o movimento de uma fatura (FD), através da emissão de uma CC regularizando estes dois documentos sem reflexo na contabilidade.
 
