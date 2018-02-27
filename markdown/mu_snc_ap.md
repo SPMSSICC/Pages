@@ -3548,10 +3548,27 @@ Para validar estas contas, bem como o registo da CD, o utilizador deve clicar em
 
  ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-f897d9b7.png)
 
-O passo seguinte será o registo da **Guia de Receita (GR)** que posteriormente deve ser regularizada pelo lançamento de uma **Cobrança (CO)**.
+#### 3.3.7. Crédito Incobrável (CI)
 
+Quando se pretende registar um Crédito Incobrável (CI) deve o utilizador seguir o mesmo caminho na aplicação que para o registo de uma CD, e selecionar a tabulação respetiva. De seguida deve indicar o ano e a entidade do CI e deve clicar em "Ver Documentos".
 
-#### 3.3.7. Crédito a Clientes (CC)
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-3c1640a9.png)
+
+Na janela de baixo, irão aparecer as CD da entidade indicada. Para selecionar a pretendida, deve o utilizador clicar sob a mesma duas vezes. De seguida deve clicar em "Gravar novo CI".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-8f2184c4.png)
+
+Irá ser aberto um novo ecrã onde o utilizador deverá indicar a conta de gastos e o seu respetivo valor. De seguida, deve clicar em "Gerar Contabilidade".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-0bf3f76f.png)
+
+Na nova janela aberta, o utilizador deve indicar o Centro de Custo associado à conta de gastos indicada.
+
+Para confirmar o registo do CI, deve o utilizador clicar em "Confirme".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-bc2ad07c.png)
+
+#### 3.3.8. Crédito a Clientes (CC)
 
 Para aceder ao ecrã respetivo ao registo de crédito a clientes, o utilizador deve seguir o seguinte caminho na aplicação:
 
@@ -3644,7 +3661,7 @@ Devem ser, novamente, verificadas as contas e os montantes e por fim deve-se con
 
 </br>Findo este processo, deve-se agora registar a cobrança. O processo de registo desta é igual ao descrito para CC "normal".
 
-#### 3.3.8. Anulação de Receitas FD/CC (AR)
+#### 3.3.9. Anulação de Receitas FD/CC (AR)
 
 Este tipo de documento, Anulação de receitas, permite anular o movimento de uma fatura (FD), através da emissão de uma CC regularizando estes dois documentos sem reflexo na contabilidade.
 
