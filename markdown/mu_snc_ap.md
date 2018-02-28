@@ -3322,7 +3322,7 @@ O aspeto do ficheiro a importar deve ser semelhante ao seguidamente apresentado.
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/FD_SNCAP.csv'">Descarregar CSV</button>
 </div>
 
-#### 3.3.3. Guias de Receita (GR)
+#### 3.3.2. Guias de Receita (GR)
 
 O Serviço Financeiro procede ao registo emitindo a Guia de Receita através de aplicação e que consiste na classificação económica e patrimonial das receitas. Posteriormente, os documentos são enviados para a Tesouraria para registo da cobrança.
 
@@ -3396,9 +3396,9 @@ _Imagem em atualização_
 
 ![img_184.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_184.png)
 
-#### 3.3.4. Outras Receitas (OR)
+#### 3.3.3. Outras Receitas (OR)
 
-##### 3.3.4.1. Recolha
+##### 3.3.3.1. Recolha
 Para aceder ao ecrã de registo de outras receitas,  DEve o utilizador seguir o seguinte caminho na aplicação:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-7e655f7a.png)
@@ -3444,7 +3444,7 @@ Para validar a importação, o sistema irá mostrar uma mensagem como a seguidam
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a9ba0cca.png)
 
-#####  3.3.4.2. Impressão Documentos OR
+#####  3.3.3.2. Impressão Documentos OR
 
 Neste passo, é demonstrado o procedimento para fazer as impressões das GR geradas no passo anterior. Para isso, deve o utilizador seguir o seguinte caminho no sistema:
 
@@ -3474,7 +3474,7 @@ Ao selecionar “Imprimir”, o sistema produz a Guia de Receita em PDF.
 
 __O utilizador pode verificar na impressão o novo campo de “Observações” criado no ponto 3.2.7. .__
 
-#### 3.3.5. Cobranças (CO)
+#### 3.3.4. Cobranças (CO)
 
 No processo de Cobrança, deve o utilizador lançar as várias contas de disponibilidades a débito por contrapartida de compensação da partida de liquidação da receita-cliente com código de razão especial (251*).
 
@@ -3523,7 +3523,7 @@ O aspeto do ficheiro **CSV** a ser importado deve ser semelhante ao seguidamente
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/CO_SNCAP_1.csv'">Descarregar CSV</button>
 </div>
 
-#### 3.3.6. Cobranças Duvidosas (CD)
+#### 3.3.5. Cobranças Duvidosas (CD)
 
 Para aceder à janela de registo de cobranças duvidosas, deve o utilizador seguir o caminho na aplicação:
 
@@ -3548,7 +3548,7 @@ Para validar estas contas, bem como o registo da CD, o utilizador deve clicar em
 
  ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-f897d9b7.png)
 
-#### 3.3.7. Crédito Incobrável (CI)
+#### 3.3.6. Crédito Incobrável (CI)
 
 Quando se pretende registar um Crédito Incobrável (CI) deve o utilizador seguir o mesmo caminho na aplicação que para o registo de uma CD, e selecionar a tabulação respetiva. De seguida deve indicar o ano e a entidade do CI e deve clicar em "Ver Documentos".
 
@@ -3568,7 +3568,7 @@ Para confirmar o registo do CI, deve o utilizador clicar em "Confirme".
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-bc2ad07c.png)
 
-#### 3.3.8. Crédito a Clientes (CC)
+#### 3.3.7. Crédito a Clientes (CC)
 
 Para aceder ao ecrã respetivo ao registo de crédito a clientes, o utilizador deve seguir o seguinte caminho na aplicação:
 
@@ -3661,7 +3661,7 @@ Devem ser, novamente, verificadas as contas e os montantes e por fim deve-se con
 
 </br>Findo este processo, deve-se agora registar a cobrança. O processo de registo desta é igual ao descrito para CC "normal".
 
-#### 3.3.9. Anulação de Receitas FD/CC (AR)
+#### 3.3.8. Anulação de Receitas FD/CC (AR)
 
 Este tipo de documento, Anulação de receitas, permite anular o movimento de uma fatura (FD), através da emissão de uma CC regularizando estes dois documentos sem reflexo na contabilidade.
 
@@ -3713,7 +3713,7 @@ Deve por isso selecionar a que se adequa ao pretendido.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-2b812dbe.png)
 
-##### 3.4.1.1 Despesa de Fundos Alheios
+#### 3.4.1.1 Despesa de Fundos Alheios
 
 Nesta tabulação o utilizador deve preencher os campos obrigatórios, descritos seguidamente, e por fim deve clicar no botão "Gravar novo DA".
 
@@ -3778,7 +3778,7 @@ O sistema irá apresentar todos os documentos por regularizar da entidade seleci
 
 Na nova janela aberta devem ser confirmadas as contas e os respetivos montantes. Para validar, deve ser primido o botão "Confirme".
 
-##### 3.4.1.2. Receita de Fundos Alheios
+#### 3.4.1.2. Receita de Fundos Alheios
 
 Nesta tabulação o utilizador deve preencher os campos obrigatórios, descritos seguidamente, e por fim deve clicar no botão "Gravar novo RA".
 
@@ -4551,7 +4551,7 @@ O exemplo seguinte, demonstra um relatório de alteração orçamental gerada em
 ![img_46.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_46.png)
 
 
-#### 7.2. Fundos disponíveis(LPCA)
+#### 7.2. Fundos disponíveis (LPCA)
 
 Neste processo, e através do caminho abaixo indicado, será demonstrado o processo de registo dos Fundos disponíveis (LCPA).
 
