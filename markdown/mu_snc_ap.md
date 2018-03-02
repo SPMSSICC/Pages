@@ -3725,7 +3725,7 @@ Nesta tabulação o utilizador deve preencher os campos obrigatórios, descritos
 |Importância    |Indicar a importância.    |
 |Forma de pagamento    |Indicar a forma de pagamento que se pretende efetuar: Tesouraria ou por Transferência Bancária. </br></br> **Transferência Bancária-** Quando esta forma de pagamento é selecionada, o utilizador deve indicar a Instituição Bancária e todos os seus dados inerentes. É também de referir que nesta situação, após o lançamento da DA deve ser emitido o ficheiro da Transferência Bancária no menu respetivo.  |
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ae79d5e8.png)
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ec6dae02.png)
 
 O campo referente ao Número da Despesa pode ser preenchido. No entanto, se o utilizador não o fizer, o sistema no final do registo irá atribuír um número automaticamente.
 
@@ -3735,7 +3735,7 @@ Findo o preenchimento dos campos deve clicar no botão "Confirme".
 
 >**NOTA:** Os exemplos são meramente ilustrativos
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-0cfe8a11.png)
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-0b28ea7f.png)
 
 ##### Importação DA
 
@@ -3793,7 +3793,7 @@ Nesta tabulação o utilizador deve preencher os campos obrigatórios, descritos
 |Data de Contabilização:   |Indicar a data de contabilização. |
 |Importância    |Indicar a importância.    |
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-7c1ebe2f.png)
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-17e2f2be.png)
 
 O campo referente ao Número da Receita pode ser preenchido. No entanto, se o utilizador não o fizer, o sistema no final do registo irá atribuír um número automaticamente.
 
@@ -3803,7 +3803,7 @@ Findo o preenchimento dos campos deve clicar no botão "Confirme".
 
 >**NOTA:** Os exemplos são meramente ilustrativos
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-3c75d24d.png)
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-4bfd2b6f.png)
 
 ##### Importação RA
 
