@@ -4736,7 +4736,9 @@ Este menu permite à instituição introduzir no sistema o orçamento económico
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-15b7a60d.png)
 
-Na janela aberta, deve o utilizador, no caso de se pretender introduzir o orçamento, deve primir, duas vezes, a tecla TAB para que a botão "Novo Orçamento" fique disponível. Quando este botão fica disponível, o utilizador deve clicar nele.
+**Introdução do Orçamento**
+
+No ecrã aberto, deve o utilizador percorrer os campos do ecrã até ao campo "Data:" com a tecla TAB. Após a indicação da data, deve o utilizador clicar em "Novo Orçamento".
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-4df2e660.png)
 
@@ -4746,11 +4748,15 @@ No novo ecrã aberto, o utilizador deve introduzir a conta e indicar o respetivo
 
 >**NOTA:** A navegação entre os campos deve ser efetuada com a tecla TAB.
 
-Para introduzir uma nova linha, deve o utilizador clicar em cima da linha seguinte, vazia e efetuar o processo de registo já descrito.
+Para introduzir uma nova linha, deve o utilizador clicar em cima da linha vazia e efetuar o processo de registo já descrito.
 
 Para finalizar, deve clicar em "Confirme".
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/orc_econ.gif)
+
+Para aprovar o Orçamento introduzido, o utilizador deve primir a tecla TAB até o botão "Aprovar" ficar disponível. De seguida deve clicar nele.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-6a86bef1.png)
 
 ## 8. SNC-AP
 ### 8.1. POCMS -> SNC-AP
