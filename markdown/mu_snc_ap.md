@@ -3757,7 +3757,7 @@ O aspeto do ficheiro **CSV** a importar deve ser semelhante ao seguidamente apre
 
 >**NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-2a35acc7.png)
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-5972698a.png)
 <div style="height:40px">
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/DA_SNCAP.csv'">Descarregar CSV</button>
 </div>
@@ -4555,7 +4555,7 @@ O exemplo seguinte, demonstra um relatório de alteração orçamental gerada em
 ![img_46.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_46.png)
 
 
-#### 7.2. Fundos disponíveis (LPCA)
+### 7.2. Fundos disponíveis (LPCA)
 
 Neste processo, e através do caminho abaixo indicado, será demonstrado o processo de registo dos Fundos disponíveis (LCPA).
 
@@ -4666,7 +4666,7 @@ De igual modo à extração dos mapas anteriores, o utilizador nesta Tabela, usa
 |Diretório|Este botão permite ao utilizador escolher o diretório de gravação do Excel que irá ser produzido.</br> ![img_36.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_36.png)|
 
 
-#### 7.3. Mapas de Execução Orçamental
+### 7.3. Mapas de Execução Orçamental
 
 Relativamente a este processo, o Mapa de Execução Orçamental da Despesa e Mapa de Execução Orçamental da Receita, têm como finalidade permitir o controlo da execução orçamental da despesa e receita durante o exercício:
 
@@ -4729,6 +4729,28 @@ O exemplo seguinte, demonstra um relatório de alteração orçamental gerada em
 O procedimento destes mapas é idêntico ao explicado anteriormente, sendo apenas diferente o resultado final, dependendo de estarmos na receita ou na despesa.
 
 ![img_55.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_55.png)
+
+### 7.4 Orçamento Económico
+
+Este menu permite à instituição introduzir no sistema o orçamento económico. Para tal, deve o utilizador seguir o caminho na aplicação:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-15b7a60d.png)
+
+Na janela aberta, deve o utilizador, no caso de se pretender introduzir o orçamento, deve primir, duas vezes, a tecla TAB para que a botão "Novo Orçamento" fique disponível. Quando este botão fica disponível, o utilizador deve clicar nele.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-4df2e660.png)
+
+No novo ecrã aberto, o utilizador deve introduzir a conta e indicar o respetivo valor no campo Despesa ou Receita, consoante a conta introduzida.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-6a70e5fb.png)
+
+>**NOTA:** A navegação entre os campos deve ser efetuada com a tecla TAB.
+
+Para introduzir uma nova linha, deve o utilizador clicar em cima da linha seguinte, vazia e efetuar o processo de registo já descrito.
+
+Para finalizar, deve clicar em "Confirme".
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/orc_econ.gif)
 
 ## 8. SNC-AP
 ### 8.1. POCMS -> SNC-AP
