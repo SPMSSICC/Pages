@@ -29,11 +29,11 @@ O sistema, ao longo da navegação por vários ecrãs contempla vários botões 
 
 Recomenda-se o uso da tecla **_TAB_** para a navegação pelos campos dos ecrãs do sistema. Esta forma de navegação garante que todos os campos obrigatórios sejam preenchidos e validados permitindo o posterior desbloqueio de outros campos.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-4c4effa7.png)
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ab38d387.png)
 
 Em situações quando se pretende eliminar uma linha aquando um registo de um documento, ou desselecionar um documento deve o utilizador clicar em cima da linha e premir, simultaneamente, nas teclas **Ctrl** e **seta para cima** do teclado.
 
-![](mu_snc_ap.assets/mu_snc_ap-bac1e508.png)
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-bac1e508.png)
 
 ## 1. Menu Parametrização
 
