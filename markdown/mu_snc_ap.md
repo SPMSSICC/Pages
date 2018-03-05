@@ -24,7 +24,12 @@ O sistema, ao longo da navegação por vários ecrãs contempla vários botões 
 | ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-3b129b66.png) | Abrir o Manual do Utilizador na secção correspondente ao ecrã aberto. _Esta funcionalidade não está ainda disponível em todos os ecrãs do sistema_ |
 | ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-c82bc2d6.png) | Sair do ecrã. |
 
-> Recomenda-se o uso da tecla **_TAB_** para a navegação pelos campos dos ecrãs do sistema. Esta forma de navegação garante que todos os campos obrigatórios sejam preenchidos e validados permitindo o posterior desbloqueio de outros campos.
+
+### Notas gerais
+
+Recomenda-se o uso da tecla **_TAB_** para a navegação pelos campos dos ecrãs do sistema. Esta forma de navegação garante que todos os campos obrigatórios sejam preenchidos e validados permitindo o posterior desbloqueio de outros campos.
+
+Em situações quando se pretende eliminar uma linha aquando um registo de um documento, ou desselecionar um documento deve o utilizador clicar em cima da linha e premir, simultaneamente, nas teclas **Ctrl** e **seta para cima** do teclado.
 
 ## 1. Menu Parametrização
 
@@ -4468,24 +4473,6 @@ O utilizador tem de proceder à aprovação, através do botão "Aprovar". Assim
 |Abater|Este botão permite eliminar uma entidade. Após carregar neste botão, o utilizador, tem de carregar no botão Confirmar de forma a que a informação seja validada e gravada|
 |Sair|Este botão permite ao utilizador sair do ecrã corrente|
 
-
-É **imperativo**, por parte do Departamento responsável, analisar a necessidade da modificação e os motivos que originam as alterações orçamentais que possam ocorrer, tendo em conta o enquadramento legal para a alteração orçamental pretendida.
-Posteriormente, esta informação (Alteração orçamental) será carregada em SIGO para decisão (aprovação/rejeição) da DGO (Direção-Geral do Orçamento). Aquando o recebimento da deliberação da DGO, estão reunidas as condições para o carregamento do Orçamento no SICC SNC-AP.
-
-</br>No ecrã e para efeitos de registo, ao selecionar "Alteração Orç", de forma automática surge o “número de lançamento” que se pretende para proceder ao registo da nova alteração.
-
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ba2a79c7.png)
-
-Selecionando a “Nova alteração”, o sistema de forma automática gera novo ecrã, no qual mostra todos os classificadores económicos com valores a 0, onde se pode registar a alteração orçamental com os montantes pretendidos. No seguinte exemplo, foi retirado valor parcial do carregado inicialmente na rubrica de "Representação" para a rubrica de "Ajudas de custo"". Findas as alterações, deverá confirmar.
-
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a00e2e44.png)
-
-Após a confirmação surge novo ecrã com a informação que a alteração orçamental com o número de lançamento “1” é existente em sistema. Poderá assim o utilizador fazer a “Consulta” ou “Abater” o registo da alteração orçamental.
-
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-f229ceb3.png)
-
-Se as alterações estão validadas, o próximo passo é de “Aprovar” para que o sistema assuma os novos valores propostos.
-
 ##### Importação PO
 Este processo de carregamento do Orçamento Ordinário bem como das alterações do mesmo pode ser efetuado através da importação de ficheiro em formato CSV.
 
@@ -4505,6 +4492,41 @@ No caso do ficheiro ter erro estes são reportados na janela criada para o efeit
 
 <div style="height:40px">
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/PO_SNCAP.csv'">Descarregar CSV</button>
+</div>
+
+##### Alteração Orçamental
+
+É **imperativo**, por parte do Departamento responsável, analisar a necessidade da modificação e os motivos que originam as alterações orçamentais que possam ocorrer, tendo em conta o enquadramento legal para a alteração orçamental pretendida.
+Posteriormente, esta informação (Alteração orçamental) será carregada em SIGO para decisão (aprovação/rejeição) da DGO (Direção-Geral do Orçamento). Aquando o recebimento da deliberação da DGO, estão reunidas as condições para o carregamento do Orçamento no SICC SNC-AP.
+
+</br>No ecrã e para efeitos de registo, ao selecionar "Alteração Orç", de forma automática surge o “Número de Lançamento” que se pretende para proceder ao registo da nova alteração.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ba2a79c7.png)
+
+>**Nota:** para navegar entre os campos e para desbloquear botões do ecrã, deve utilizar a tecla **TAB**
+
+Selecionando a “Nova alteração”, o sistema de forma automática gera novo ecrã, no qual mostra todos os classificadores económicos com valores a 0, onde se pode registar a alteração orçamental com os montantes pretendidos. No seguinte exemplo, foi retirado valor parcial do carregado inicialmente na rubrica de "Representação" para a rubrica de "Ajudas de custo". Findas as alterações, deverá confirmar.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a00e2e44.png)
+
+Após a confirmação surge novo ecrã com a informação que a alteração orçamental com o número de lançamento “1” é existente em sistema. Poderá assim o utilizador fazer a “Consulta” ou “Abater” o registo da alteração orçamental.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-f229ceb3.png)
+
+Se as alterações estão validadas, o próximo passo é de “Aprovar” para que o sistema assuma os novos valores propostos.
+
+##### Importação de Alteração Orçamental
+
+Para importar uma alteração orçamental, deve ser utilizado o mesmo _layout_ que para importação de um orçamento ordinário.
+
+Deve-se ter em atenção que no campo "Nº PO" deve estar indicado 1, 2, etc consoante o número da alteração a efetuar.
+
+Pretendo-se carregar uma alteração orçamental, no ficheiro devem constar apenas rubricas que serão alteradas com as respetivas alterações. Segue abaixo um exemplo de alterações:
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-44da4a20.png)
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/PO_SNCAP.xlsx'">Descarregar CSV</button>
 </div>
 
 ##### 7.1.1.2. Consulta de Contabilidade
