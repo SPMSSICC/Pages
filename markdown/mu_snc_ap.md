@@ -31,7 +31,7 @@ Recomenda-se o uso da tecla **_TAB_** para a navegação pelos campos dos ecrãs
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ab38d387.png)
 
-Em situações quando se pretende eliminar uma linha aquando um registo de um documento, ou desselecionar um documento deve o utilizador clicar em cima da linha e premir, simultaneamente, nas teclas **Ctrl** e **seta para cima** do teclado.
+Em situações quando se pretende eliminar uma linha aquando um registo de um documento, ou desselecionar um documento deve o utilizador clicar em cima da linha a eliminar e premir, simultaneamente, as teclas **Ctrl** e **seta para cima**.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-bac1e508.png)
 
