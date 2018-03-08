@@ -20,7 +20,7 @@
 
 - Correção da validação do centro de custo no lançamento de faturas;
 
-- Uniformização da ordenação dos docuemtnos aquando a impressão em PDF ou CSV~;
+- Uniformização da ordenação dos docuemtnos aquando a impressão em PDF ou CSV;
 
 - Adição do filtro de tipo de pagamento nos ofícios de pagamento;
 
@@ -28,6 +28,5 @@
 
 - Adição das contas 60 e 70 na recolha da tabela 3 - Contabilidade Patrimonial;
 
-- Reconstrução dos lançamentos da classe 0 na GRs e APs e respetivos COs e PGs, criados entre 22 de fevereiro e 8 de março; 
--
+- Reconstrução dos lançamentos da classe 0 na GRs e APs e respetivos COs e PGs, criados entre 22 de fevereiro e 8 de março;
 - Adição do reflexo na classe 0 na regularização de documentos do tipo CD.
