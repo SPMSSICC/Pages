@@ -16,13 +16,15 @@
 
 - Correção das fórmulas do mapa BLC;
 
-- Recálculo das rubricas financeiras dos COs e PGs de fundos alheios já existentesno SICC;
+- Recálculo das rubricas financeiras dos COs e PGs de fundos alheios já existentes no SICC;
 
 - Correção da validação do centro de custo no lançamento de faturas;
 
-- Uniformização da ordenação dos docuemtnos aquando a impressão em PDF ou CSV;
+- Uniformização da ordenação dos documentos aquando a impressão em PDF ou CSV;
 
 - Adição do filtro de tipo de pagamento nos ofícios de pagamento;
+
+![](atual_sist_9_mar.assets/atual_sist_9_mar-52589089.png)
 
 - Adição da informação do fundo alheio aquando a impressão do ofício de pagamento;
 
