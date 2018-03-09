@@ -69,6 +69,28 @@ Alerta-se que, em casos em que se preenchem várias linhas para o mesmo número 
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-aac53ff1.png)
 
+Caso o utilizador pretenda importar DAs para serem pagos por Transferência Bancária, deve preencher também os seguintes campos: Conta Bancária, IBAN e Categoria de Motivo.
+
+Na coluna Categoria de Motivo, deve colocar o respetivo  código numérico. A lista de códigos é apresentada seguidamente:
+
+|Código| Sigla| Descrição|
+|:--:|:--:|:--|
+|1   | SUPP  | Fatura  |   
+|2   | SUPP  | Recibo  |   
+|3   | TRAD   | Auto   |   
+|4   | SALA |Vencimento    |   
+|5   | TRAD  | Guia   |   
+|7   |TRAD   | Pagamento Serviços  |   
+|8   | GOVT  | Pagamentos ao Estado    |   
+|11   |  PENS |Pagamentos de Pensão    |   
+|12   |SSBE   | Segurança Social   |   
+|13   |TAXS   | Pagamento Imposto   |   
+|14   | TREA  | Operação Tesouraria   |
+|15   | VATX  |Pagamento IVA    |   
+|16   |WHLD   |Pagamento IRS (IRS retido)    |   
+|17   |GOVT   |Reembolsos Impostos   |   
+|20   |OTHR   |PAG IGCP  |   
+
 **Pagamento**
 
 Tendo o lançamento da DA concluído, pode-se agora prosseguir ao lançamento do pagamento.
