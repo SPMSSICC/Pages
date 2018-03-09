@@ -24,7 +24,7 @@
 
 - Adição do filtro de tipo de pagamento nos ofícios de pagamento;
 
-![](atual_sist_9_mar.assets/atual_sist_9_mar-52589089.png)
+![](https://spmssicc.github.io/pages/markdown/atual_sist_9_mar.assets/atual_sist_9_mar-52589089.png)
 
 - Adição da informação do fundo alheio aquando a impressão do ofício de pagamento;
 
