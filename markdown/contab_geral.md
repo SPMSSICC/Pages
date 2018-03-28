@@ -219,9 +219,104 @@ O aspeto dos ficheiros gerados será como o dos apresentados seguidamente:
 
 ## 8. Mapas em formato XML (ACSS)
 
-_Em atualização_
+Este permite ao utilizador criar os seguintes mapas:
 
-## 9. Balancete rubricas Financeiras
+![](https://spmssicc.github.io/pages/markdown/contab_geral.assets/contab_geral-65e2de8a.png)
+
+### 8.1. Mapa 5
+
+Para produzir o Mapa 5, o utilizador deve indicar a que mês se refere o mapa e se é ou não por departamento, caso tenha mais do que um. De seguida deve indicar o diretório onde pretende guardar o ficheiro a gerar e, por fim, deve clicar em "Ficheiro XML".
+
+ ![](https://spmssicc.github.io/pages/markdown/contab_geral.assets/contab_geral-662945a5.png)
+
+### 8.2. Mapa 6
+
+Para produzir o Mapa 5, o utilizador deve indicar a que mês se refere o mapa e se é ou não por departamento, caso tenha mais do que um. De seguida deve indicar o diretório onde pretende guardar o ficheiro a gerar e, por fim, deve clicar em "Ficheiro XML".
+
+![](https://spmssicc.github.io/pages/markdown/contab_geral.assets/contab_geral-84e2c7f6.png)
+
+### 8.3. Balancete de Razão Geral
+
+Para produzir o ficheiro XML relativo ao Balancete de Razão Geral, deve o utilizador indicar os parâmetros a considerar no mesmo, nomeadamente, o ano, o intervalo de contas e o mês.
+
+![](https://spmssicc.github.io/pages/markdown/contab_geral.assets/contab_geral-f5566576.png)
+
+O utilizador pode também, selecionar o nível de desdobramento das contas - com o máximo grau de desdobramento ou até ao grau 2.
+
+![](https://spmssicc.github.io/pages/markdown/contab_geral.assets/contab_geral-d32c5a01.png)
+
+Pode também ser indicado se se pretende obter o balancete com a classe 1 desdobrada, sem a conta "25" ou só com as contas de acumulação. Para o indicar deve ser selecionada a _checkbox_ respetiva.  
+
+![](https://spmssicc.github.io/pages/markdown/contab_geral.assets/contab_geral-2c6168ba.png)
+
+Para produzir o ficheiro em si, deve o utilizador indicar o diretório onde pretende guardar o ficheiro e de seguida clicar em "Ficheiro XML".
+
+![](https://spmssicc.github.io/pages/markdown/contab_geral.assets/contab_geral-a46a459d.png)
+
+
+### 8.4. Balancete Intragrupo
+
+Para produzir o balancete Intragrupo deve o utilizador indicar o intervalo de contas a considerar no mesmo e o mês a que se refere.
+
+![](https://spmssicc.github.io/pages/markdown/contab_geral.assets/contab_geral-e030f378.png)
+
+De seguida deve indicar o diretório onde pretende guardar o ficheiro a gerar e por fim, deve clicar em "Ficheiro XML" ou "Ficheiro CSV" consoante o tipo de ficheiro que pretende gerar.
+
+![](https://spmssicc.github.io/pages/markdown/contab_geral.assets/contab_geral-daf95a41.png)
+
+O aspeto do ficheiro CSV gerado é como o do apresentado seguidamente:
+
+![](https://spmssicc.github.io/pages/markdown/contab_geral.assets/contab_geral-0762e2a3.png)
+
+### 8.5.  Clearing House
+
+Para produzir o mapa relativo ao clearing house, deve o utilizador preencher os campos referentes ao intervalo de entidades a considerar no mapa, ao intervalo de tipo de entidades a considerar no mapa e ao intervalo de Fatores de Aglutinação.
+
+![](https://spmssicc.github.io/pages/markdown/contab_geral.assets/contab_geral-9eabea99.png)
+
+Deve também indicar se pretende filtrar os documentos por data de documento ou data de contabilização. Para tal, deve selecionar a respetiva checkbox.
+
+![](https://spmssicc.github.io/pages/markdown/contab_geral.assets/contab_geral-aa7840ab.png)
+
+De seguida deve indicar o intervalo de datas a considerar no mapa, bem como a data de referência.
+
+Por fim, deve indicar o diretório onde pretende guardar o ficheiro e clicar no botão referente ao formato do ficheiro pretendido.
+
+![](https://spmssicc.github.io/pages/markdown/contab_geral.assets/contab_geral-f8f345a7.png)
+
+O aspeto do ficheiro CSV gerado é como o do apresentado seguidamente:
+
+![](https://spmssicc.github.io/pages/markdown/contab_geral.assets/contab_geral-8a51f221.png)
+
+O aspeto do ficheiro IGI gerado é como o do apresentado seguidamente:
+
+![](https://spmssicc.github.io/pages/markdown/contab_geral.assets/contab_geral-9cd8ec8f.png)
+
+### 8.6. Dívidas/Pagamentos
+
+Para produzir o mapa referente a dívidas/Pagamentos deve o utilizador indicar o intervalo de entidades a considerar no mapa bem como o intervalo de datas. De seguida deve indicar o diretório onde pretende guardar o ficheiro gerado e clicar no botão consoante o formato do ficheiro a gerar.
+
+![](https://spmssicc.github.io/pages/markdown/contab_geral.assets/contab_geral-b76fa699.png)
+
+Ao clicar em "Ficheiro CSV" serão gerados três ficheiros CSV: Dividas.csv, Pagamentos.csv e Creditos.csv. O aspeto dos ficheiros é como o do apresentado seguidamente:
+
+![](https://spmssicc.github.io/pages/markdown/contab_geral.assets/contab_geral-eeb3e8c9.png)
+
+### 8.7. Tabela 1 - Fundos Disponíveis
+
+Para produzir o mapa relativo a Fundos Disponíveis deve o utilizador indicar o mês ao qual se refere o mesmo.
+
+De seguida, deve indicar o diretório onde pretende guardar o ficheiro. Por fim deve clicar no botão consoante o formato do ficheiro desejado.
+
+![](https://spmssicc.github.io/pages/markdown/contab_geral.assets/contab_geral-1bffbada.png)
+
+O aspeto do ficheiro "Extrato" é como o do apresentado seguidamente:
+
+![](https://spmssicc.github.io/pages/markdown/contab_geral.assets/contab_geral-4440f429.png)
+
+
+
+## 9. Balancete Rubricas Financeiras
 
 Este menu permite ao utilizador produzir balancete por rubrica financeira.
 
