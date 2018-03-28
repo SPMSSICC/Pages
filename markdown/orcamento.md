@@ -64,7 +64,7 @@ Quando o ficheiro tem a estrutura correta, os campos do ecrã aparecem preenchid
 Por fim o utilizador deve confirmar a importação através da seleção do botão "Importar Ligação".
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-505866f0.png)
-No caso do ficheiro ter erro estes são reportados na janela criada para o efeito. Estes erros têm de ser corrigidos e o ficheiro tem de ser novamente testado.
+No caso do ficheiro ter erros, estes são reportados na janela criada para o efeito. Estes erros têm de ser corrigidos e o ficheiro tem de ser novamente testado.
 </br>O ficheiro CSV a ser importado deve ter o seguinte aspeto:
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-f1a6d097.png)
 
@@ -357,3 +357,30 @@ Para finalizar, deve clicar em "Confirme".
 Para aprovar o Orçamento introduzido, o utilizador deve premir a tecla TAB até o botão "Aprovar" ficar disponível. De seguida deve clicar nele.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-6a86bef1.png)
+
+### 4.1. Importação PE
+
+O Orçamento Económico pode ser importado através do carregamento de um ficheiro CSV.
+
+Deve, para o efeito, o utilizador clicar no botão "Importar", disponível na parte inferior do ecrã de recolha do orçamento.
+
+![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-c24e2386.png)
+
+Na nova janela aberta, o utilizador deve selecionar o ficheiro a importar do diretório do seu computador e, de seguida, deve clicar em "Ver/Testar Ficheiro".
+
+![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-99f75ffd.png)
+
+Quando o ficheiro tem a estrutura correta, os campos do ecrã aparecem preenchidos com os elementos do ficheiro importado.
+Por fim o utilizador deve confirmar a importação através da seleção do botão "Importar Ligação".
+
+![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-d4737d43.png)
+
+No caso do ficheiro ter erros, estes são reportados na janela criada para o efeito. Estes erros têm de ser corrigidos e o ficheiro tem de ser novamente testado.
+</br>O ficheiro CSV a ser importado deve ter o seguinte aspeto:
+
+![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-34975321.png)
+
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/PE_SNCAP.csv'">Descarregar CSV</button>
+</div>
