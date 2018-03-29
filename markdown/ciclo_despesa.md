@@ -170,6 +170,44 @@ Após validação dos elementos integrados e constatado que os valores estão co
 
 ![img_importacao_concluida_sucesso.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_importacao_concluida_sucesso.png)
 
+##### 1.4.1. Alterações de Cabimentos - Transferência de Contas
+
+É possível transferir um montante de uma conta para outra num CB, sem alterar o valor total desse CB. Para o efeito deve ser lançado um AM e deve-se ter em consideração se o CB está ou não regularizado.
+
+</br>**CB não regularizado**
+
+</br> Quando o CB não está regularizado, basta lançar um AM da seguinte forma:
+
+</br> No ecrã de recolha de AM, o utilizador deve indicar o Ano e o Nº de CB e clicar em "Seleção de Cabimento" para que o sistema mostre, na janela de baixo, todos os cabimentos que respeitem as condições indicadas.
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-6073672b.png)
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-f230ef95.png)
+
+De seguida, o utilizador deve clicar duas vezes em cima do CB a alterar, para que o mesmo passe para a janela de cima.
+
+Por se tratar de uma **Transferência de Contas**, o utilizador deve-o indicar selecionando a respetiva _checkbox_ e deve deixar o campo da importância a zero. Por fim, deve clicar em "Gravar nova AM".
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-3f347287.png)
+
+No novo ecrã aberto o utilizador deve lançar a conta pretendida com valor negativo e outra com valor positivo, de forma que a soma seja 0. Segue abaixo um exemplo de um CB com várias contas lançadas em que se pretende transferir 100€ da conta 626211 para a conta 626219.
+De seguida, o utilizador deve clicar em "Gerar Contabilidade".
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-c9bd6619.png)
+
+Para confirmar o registo, deve clicar em "Confirme".
+
+
+</br>**CB regularizado**
+
+</br> No caso do CB estar regularizado, deve-se ter em atenção se o valor a transferir já foi ou não "consumido" num CM e, no limite, num P2. Nesta situação, deve ser efetuado o seguinte processo (por esta ordem):
+
+1. Anular a fatura (P2 e P1) com um AC;
+2. Anular CP com AL negativo na conta da qual se pretende transferir o valor;
+3. Anular CM com AB negativo na conta da qual se pretende transferir o valor;
+4. Transferir o valor das contas num AM (como descrito para CB não regularizado);
+5. Lançar os valores nas contas com AB e AL positivos e, lançar o P1 e o P2.
+
 ## 2. Verificação Prévia (CM)
 
 Entende-se por _Verificação Prévia (CM)_, a verificação prévia de fundos disponíveis, as obrigações de efetuar pagamentos a terceiros em contrapartida do fornecimento de bens e serviços ou da satisfação de outras condições. Os compromissos consideram-se assumidos quando é executada uma ação formal pela entidade, como seja a emissão de ordem de compra, nota de encomenda ou documento equivalente, ou a assinatura de um contrato, acordo ou protocolo, podendo também ter um carácter permanente e estarem associados a pagamentos durante um período indeterminado de tempo, nomeadamente, salários, rendas, eletricidade ou pagamentos de prestações diversas.

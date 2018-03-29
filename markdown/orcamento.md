@@ -336,7 +336,7 @@ Este menu permite à instituição introduzir no sistema o orçamento económico
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-15b7a60d.png)
 
-**Introdução do Orçamento**
+### 4.1. Propostas Orçamentais Económicas
 
 No ecrã aberto, deve o utilizador percorrer os campos do ecrã até ao campo "Data:" com a tecla TAB. Após a indicação da data, deve o utilizador clicar em "Novo Orçamento".
 
@@ -358,7 +358,7 @@ Para aprovar o Orçamento introduzido, o utilizador deve premir a tecla TAB até
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-6a86bef1.png)
 
-### 4.1. Importação PE
+### 4.2. Importação PE
 
 O Orçamento Económico pode ser importado através do carregamento de um ficheiro CSV.
 
@@ -384,3 +384,125 @@ No caso do ficheiro ter erros, estes são reportados na janela criada para o efe
 <div style="height:40px">
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/PE_SNCAP.csv'">Descarregar CSV</button>
 </div>
+
+### 4.3. Mapas de controlo
+
+#### 4.3.1. Orçamento de Compras
+
+Para produzir o mapa de controlo do orçamento de compras deve o utilizador seguir o seguinte caminho na aplicação:
+
+![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-9fc57c2b.png)
+
+No ecrã aberto, deve o utilizador indicar que valores do orçamento serão incluídos no mapa, o tipo de orçamento (ordinário ou a alteração), o intervalo dos meses a serem incluídos e o departamento.
+
+![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-1c4014f4.png)
+
+Após terem sido indicados os parâmetros, o utiliazdor pode guardar o mapa num ficheiro CSV ou PDF.
+
+Para gerar o ficheiro CSV, deve ser selecionado o diretório e de seguida deve-se clicar em "Ficheiro CSV".
+
+![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-66e5741a.png)
+
+O aspeto do ficheiro gerado é como o do apresentado seguidamente:
+
+![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-ca7a942e.png)
+
+Para gerar o mapa em formato PDF, deve o utilizador clicar em "Imprimir".
+
+![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-a3d3589f.png)
+
+O aspeto do ficheiro PDF gerado é como o do apresentado seguidamente:
+
+![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-bbd094d2.png)
+
+#### 4.3.2. Orçamento Económico - Custos
+
+Para produzir o mapa de controlo do orçamento económico relativo a custos deve o utilizador seguir o seguinte caminho na aplicação:
+
+![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-e87edba7.png)
+
+No ecrã aberto, deve o utilizador indicar que valores do orçamento serão incluídos no mapa, o tipo de orçamento (ordinário ou a alteração), o intervalo dos meses a serem incluídos e o departamento.
+
+![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-41334625.png)
+
+Após terem sido indicados os parâmetros, o utilizador pode guardar o mapa num ficheiro CSV ou PDF.
+
+Para gerar o ficheiro CSV, deve ser selecionado o diretório e de seguida deve-se clicar em "Ficheiro CSV".
+
+![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-bcccc830.png)
+
+O aspeto do ficheiro gerado é como o do apresentado seguidamente:
+
+![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-b4e8dba1.png)
+
+Para gerar o mapa em formato PDF, deve o utilizador clicar em "Imprimir".
+
+![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-4b6db435.png)
+
+O aspeto do ficheiro PDF gerado é como o do apresentado seguidamente:
+
+![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-f5ab0c8d.png)
+
+#### 4.3.3. Orçamento Económico - Proveitos
+
+Para produzir o mapa de controlo do orçamento económico relativo a custos deve o utilizador seguir o seguinte caminho na aplicação:
+
+![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-27c2f95e.png)
+
+O processo de produção do mapa é igual ao descrito em 4.3.2.
+
+#### 4.3.4. Orçamento de Investimento
+
+Para produzir o mapa de controlo do orçamento económico relativo a custos deve o utilizador seguir o seguinte caminho na aplicação:
+
+![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-6a466170.png)
+
+No ecrã aberto, deve o utilizador indicar que valores do orçamento serão incluídos no mapa, o tipo de orçamento (ordinário ou a alteração), o intervalo dos meses a serem incluídos e o departamento.
+
+![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-9dc61bf9.png)
+
+Após terem sido indicados os parâmetros, o utilizador pode guardar o mapa num ficheiro CSV ou PDF.
+
+Para gerar o ficheiro CSV, deve ser selecionado o diretório e de seguida deve-se clicar em "Ficheiro CSV".
+
+![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-f86d04ed.png)
+
+O aspeto do ficheiro CSV gerado é como o do apresentado seguidamente:
+
+![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-e5f67f53.png)
+
+Para gerar o mapa em formato PDF, deve o utilizador clicar em "Imprimir".
+
+![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-56200c5c.png)
+
+O aspeto do ficheiro PDF gerado é como o do apresentado seguidamente:
+
+![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-1edc3502.png)
+
+#### 4.3.5. Orçamento de Financeiro
+
+Para produzir o mapa de controlo do orçamento de compras deve o utilizador seguir o seguinte caminho na aplicação:
+
+![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-4d2511e4.png)
+
+No ecrã aberto, deve o utilizador indicar que valores do orçamento serão incluídos no mapa, o tipo de orçamento (ordinário ou a alteração), o intervalo dos meses a serem incluídos e o departamento.
+
+![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-1fa50585.png)
+
+Após terem sido indicados os parâmetros, o utilizador pode guardar o mapa num ficheiro CSV ou PDF.
+
+Para gerar o ficheiro CSV, deve ser selecionado o diretório e de seguida deve-se clicar em "Ficheiro CSV".
+
+![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-84bffb60.png)
+
+O aspeto do ficheiro gerado é como o do apresentado seguidamente:
+
+![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-02b35956.png)
+
+Para gerar o mapa em formato PDF, deve o utilizador clicar em "Imprimir".
+
+![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-ac987fb1.png)
+
+O aspeto do ficheiro PDF gerado é como o do apresentado seguidamente:
+
+![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-87910c39.png)
