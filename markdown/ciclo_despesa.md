@@ -968,7 +968,7 @@ O aspeto do ficheiro a importar deve ser como o do apresentado seguidamente:
 ![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-7472eccd.png)
 
 <div style="height:40px">
-<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/PG_SNCAP.csv'">Descarregar CSV</button>
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/AC_SNCAP.csv'">Descarregar CSV</button>
 </div>
 
 >**Nota:** A chave orçamental a ser introduzida para AC, varia com o documento que este regulariza, nomeadamente:
