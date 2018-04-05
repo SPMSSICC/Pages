@@ -299,7 +299,57 @@ Para confirmar o registo do CI, deve o utilizador clicar em "Confirme".
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-bc2ad07c.png)
 
-## 7. Crédito a Clientes (CC)
+## 7. Anulações (AD)
+
+Para efetuar o registo contabilistico de uma anulação de faturas de clientes (AD), o utiliador deve seguir o seguinte caminho na aplicação:
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_receita.assets/ciclo_receita-ed67bdb2.png)
+
+Na janela aberta, o utilizador deve selecionar a tabulação entitulada em "Anulações (AD)".
+De seguida, deve o utilizador indicar a entidade e as datas do documento. Para visualizar os documentos da entidade indicada que possam ser anulados, deve o utilizador clicar em "Ver Documentos".
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_receita.assets/ciclo_receita-743c85e7.png)
+
+Da lista de documentos apresentados, o utiliador deve selecionar um, clicando sobre o mesmo duas vezes. De seguida deve clicar em "Gravar novo AD".
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_receita.assets/ciclo_receita-77df77f2.png)
+
+Na nova janela aberta, deve o utilizador completar o registo contabilístico indicando a conta a crédito/débito e o seu respetivo montante e de seguida deve clicar em "Gerar Contabilidade".
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_receita.assets/ciclo_receita-431bbe32.png)
+
+Caso a conta for de classe 7, deve o utilizador também indicar o centro de custo associado. Por fim, deve clicar em "Confirmar".
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_receita.assets/ciclo_receita-e3170797.png)
+
+### 7.1. Importação de AD
+
+O registo de AD também pode se efetuado através da importação de um ficheiro CSV. Para o efeito, deve o utilizador, na janela de recolha de informação inicial clicar em "Importar".
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_receita.assets/ciclo_receita-4ffe3336.png)
+
+Na nova janela aberta, deve o utilizador selecionar da diretoria do seu computador o ficheiro a importar e clicar em "Ver/ Testar ficheiro" para que o sistema valide a estrutura do mesmo.
+
+Caso esta corresponda aos critérios  de integração, as duas janelas disponíveis ficarão preenchidos com os dados do ficheiro. Caso apresenta incoerências, as mesmas serão comunicadas ao utilizador através da janela destinada para o efeito.
+
+Para finalizar a importação, deve o utilizador clicar em "Importar Ligação".
+
+O aspeto do ficheiro a importar deve ser como o do apresentado seguidamente:
+
+> **NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_receita.assets/ciclo_receita-2fe9f13f.png)
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/AD_SNCAP.csv'">Descarregar CSV</button>
+</div>
+
+>**Nota:** A chave orçamental a ser introduzida para AD, varia com o documento que este regulariza, nomeadamente:
+            </br> - Para AD que regularizam CC, a chave deve ser a parametrizada para a **conta a crédito** do AD.
+            </br> - Para AD que regularizam FD, a chave deve ser a parametrizada para a **conta a débito** do AD.
+
+
+## 8. Crédito a Clientes (CC)
 
 Para aceder ao ecrã respetivo ao registo de crédito a clientes, o utilizador deve seguir o seguinte caminho na aplicação:
 
@@ -319,7 +369,7 @@ Neste novo ecrã o utilizador deve indicar o Centro de Custo. Para consultar os 
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-85147dba.png)
 
-### 7.1. Importação CC
+### 8.1. Importação CC
 
 Este tipo de documentos também pode ser importado através da funcionalidade disponível no botão "Importar".
 
@@ -372,7 +422,7 @@ Dos documentos apresentados, tem de selecionar o pretendido, clicando duas vezes
 
 No novo ecrã aberto, deve o utilizador confirmar as contas e os respetivos montantes, automaticamente disponibilizados pelo sistema. Para confirmar a CO, o utilizador deve clicar em "Confirme".
 
-### 7.2. Reposição Não Abatida nos Pagamentos (RNAP)
+### 8.2. Reposição Não Abatida nos Pagamentos (RNAP)
 
 As reposições não abatidas nos pagamentos abrangem as receitas provenientes das entradas de fundos em resultado de cobranças orçamentais indevidos.
 
@@ -392,7 +442,7 @@ Devem ser, novamente, verificadas as contas e os montantes e por fim deve-se con
 
 </br>Findo este processo, deve-se agora registar a cobrança. O processo de registo desta é igual ao descrito para CC "normal".
 
-## 8. Anulação de Receitas FD/CC (AR)
+## 9. Anulação de Receitas FD/CC (AR)
 
 Este tipo de documento, Anulação de receitas, permite anular o movimento de uma fatura (FD), através da emissão de uma CC regularizando estes dois documentos sem reflexo na contabilidade.
 
