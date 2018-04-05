@@ -921,7 +921,61 @@ Após validação dos elementos integrados e constatado que os valores estão co
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a3186286.png)
 
-## 7. Notas de Crédito (NC)
+## 7. Anulações/ Regularizações (AC)
+
+Para efetuar o registo de uma anulação de fatura (AC) o utilizador deve seguir o seguinte caminho na aplicação:
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-489e9cf7.png)
+
+Este documento serve para registar, contabilísticamente, uma anulação de uma fatura quando não existe uma nota de crédito qua a possa "anular".
+
+Para o efeito, no ecrã de recolha de informação de AC, o utilizador deve indicar a entidade e as datas do documento, clicando de seguida em "Ver Documentos", para que o sistema apresente todas as faturas da entidade indicada.
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-cc69908a.png)
+
+Da lista de faturas apresentada, o utilizador deve selecionar apenas **uma** fatura clicando sobre a mesma duas vezes. De seguida, deve clicar em "Confirme".
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-53731319.png)
+
+Na nova janela aberta, o utilizador deve completar a informação, indicando a conta a crédito/débito e o respetivo montante. De seguida, o utilizador deve clicar em "Gerar Contabilidade".
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-39b0500a.png)
+
+Caso a conta indicada seja uma conta de classe 6, ao gerar contabilidade, irá ser aberto um novo ecrã onde o utilizador deve indicar o centro de custo.
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-41bdc422.png)
+
+Para finalizar, o utilizador deve clicar em "Confirme".
+
+### 7.1. Importação de AC
+
+O processo de registo de ACs também pode ser efetuado através da importação de ficheiro CSV.
+
+Para importar o ficheiro CSV de AC, no ecrã de recolha de informação inicial, de AC, o utilizador deve clicar em "Importar".
+
+Na nova janela aberta, o utilizador deve selecionar, do diretório do seu computador, o ficheiro CSV para importação. De seguida, deve clicar em "Ver/ Testar Ficheiro" para que o sistema valide a estrutura do mesmo.
+
+Caso a mesma obedeça aos critérios dos campos a integrar, as duas janelas ficarão preenchidas com informação do ficheiro. Caso existam incoerências, estas serão comunicadas ao utilizador na janela destinada para o efeito.
+
+Para finalizar a importação do ficheiro, deve clicar em "Importar Ligação".
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-ba9bd3b4.png)
+
+O aspeto do ficheiro a importar deve ser como o do apresentado seguidamente:
+
+> **NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-7472eccd.png)
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/PG_SNCAP.csv'">Descarregar CSV</button>
+</div>
+
+>**Nota:** A chave orçamental a ser introduzida para AC, varia com o documento que este regulariza, nomeadamente:
+            </br> - Para AC que regularizam P2 e DF, a chave deve ser a parametrizada para a **conta a crédito** do AC.
+            </br> - Para AC que regularizam NC e CF, a chave deve ser a parametrizada para a **conta a débito** do AC.
+
+## 8. Notas de Crédito (NC)
 
 Para proceder ao registo de uma nota de crédito deve seguir o seguinte caminho na aplicação:
 
@@ -965,7 +1019,7 @@ No ecrã que abrir o utilizador deve confirmr se as contas lançadas e os respet
 Após ter sido registada a autorização de pagamento, pode agora o utilizador prosseguir com o registo do pagamento.
 A descrição deste processo pode ser consultada no capítulo 7. desta secção.
 
-### 7.1. Importação NC
+### 8.1. Importação NC
 
 As Notas de Crédito podem ser importadas através do botão "Importar" disponivel no ecrã inicial de registo.
 
@@ -993,7 +1047,7 @@ Para validar a importação, o sistema irá mostrar uma mensagem como a seguidam
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a9ba0cca.png)
 
-#### 7.1.1.  Reposição Abatida aos Pagamentos (RAP)
+#### 8.1.1.  Reposição Abatida aos Pagamentos (RAP)
 
 Sempre que seja detetado um pagamento indevido deve-se prosseguir à emissão de uma RAP que é considerada contabilisticamente como uma Nota de Crédito (NC).
 
@@ -1015,7 +1069,7 @@ Mais uma vez, aquando a realização do pagamento da AP criada, o sistema irá e
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-39b58c60.png)
 
-## 8. Anulação de Faturas P2/NC (AF)
+## 9. Anulação de Faturas P2/NC (AF)
 
 Em conformidade com as recomendações da Autoridade Tributária e Aduaneira (AT), não é possível anular diretamente uma fatura. A anulação do movimento de uma fatura é feita através da emissão de uma nota de crédito. Sem reflexo para a contabilidade, o que se pretende com este tipo de documento é a regularização do mesmo, de modo a que o seu impacto no final seja nulo.
 
@@ -1048,7 +1102,7 @@ O aspeto do ficheiro PDF gerado é como o do apresentado seguidamente:
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-f0fb5277.png)
 
 
-## 9. Crédito sobre Facturas  (CF)
+## 10. Crédito sobre Facturas  (CF)
 
 Para aceder ao ecrã de recolha de dados relativos a crédito sobre facturas, deve o utilizador seguir o seguinte caminho na aplicação:
 
@@ -1107,7 +1161,7 @@ Para o efeito foi feita a impressão do balancete antes e após este lançamento
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ffaeb61f.png)
 
-### 9.1. Importação de CF
+### 10.1. Importação de CF
 
 Este documento também pode ser importado através da funcionalidade disponível no botão "Importar".
 
@@ -1136,7 +1190,7 @@ O aspeto do ficheiro CSV a ser importado deve ser semelhante ao seguidamente apr
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/CF_SNCAP.csv'">Descarregar CSV</button>
 </div>
 
-## 10. Débito sobre Faturas (DF)
+## 11. Débito sobre Faturas (DF)
 
 Para aceder ao ecrã de recolha de dados relativos a débito sobre faturas, deve o utilizador seguir o caminho na aplicação:
 
@@ -1160,7 +1214,7 @@ Como o CM e CP tinham consumido o valor total do CB criado, o sistema criou as a
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-43790ce8.png)
 
-### 10.1 Importação DF
+### 11.1 Importação DF
 
 Este documento também pode ser importado através da funcionalidade disponível no botão "Importar".
 
@@ -1190,7 +1244,7 @@ O aspeto do ficheiro CSV a ser importado deve ser semelhante ao seguidamente apr
 
 O passo seguinte ao registo da DF é o registo da autorização de pagamento (AP) da mesma. Este processo está descrito no capítulo 5. deste manual.
 
-## 11. Listagem Despesa
+## 12. Listagem Despesa
 
 Este menu permite ao utilizador obter um mapa de documentos possibilitando visualizar a sua relação e estado (regularizado ou por regularizar).  
 
@@ -1234,7 +1288,7 @@ O aspeto dos ficheiros CSV produzidos são como os apresentados seguidamente:
 | ![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-99cf994b.png) | ![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-3c35318b.png) |  
 
 
-## 12. Ligações de Outras Aplicações
+## 13. Ligações de Outras Aplicações
 
 Este capítulo pretende descrever o processo de importação de dados provenientes de outras aplicações no sentido de interligar vários departamentos da entidade. As aplicações em questão permitem a gestão de dados referentes a:
 
@@ -1260,7 +1314,7 @@ Na imagem abaixo está representado um exemplo de dois ficheiros, referências 1
 
 > Recomenda-se o uso da tecla **_TAB_** para a navegação pelos campos dos ecrãs do sistema. Esta forma de navegação garante que todos os campos obrigatórios sejam preenchidos e validados permitindo o posterior desbloqueio de outros campos.
 
-### 12.1 Ligações de Pessoal
+### 13.1 Ligações de Pessoal
 Para importar dados relativos ao Pessoal o utilizador deve seguir o seguinte caminho na aplicação:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-3f6487e6.png)
@@ -1298,7 +1352,7 @@ Para confirmar a importação dos dados, o sistema gera uma mensagem informativa
 
 Para a importação de dados de pessoal, podem ser importados ficheiros com as referências **101 e 102**. Os ficheiros de referência 101 importam dados relativos a documentos do tipo CB, CP e P2. Os ficheiros de referência 102 importam dados relativos a documentos do tipo OD. Estes ficheiros devem obedecer ao critério dos campos estipulados que estão apresentados seguidamente:
 
-#### 12.1.1. Referência 101
+#### 13.1.1. Referência 101
 
 |Campo|Posição |Observações|
 |:---:|:---:|:---|
@@ -1315,7 +1369,7 @@ Para a importação de dados de pessoal, podem ser importados ficheiros com as r
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/101.sncap'">Descarregar TXT</button>
 </div>
 
-#### 12.1.2. Referência 102
+#### 13.1.2. Referência 102
 |Campo|Posição |Observações|
 |:---:|:---:|:---|
 |Ref.   |1 - 3 (3)  | Indicar a referência do ficheiro. Neste caso específico a referência é **102**.   |
@@ -1333,7 +1387,7 @@ Para a importação de dados de pessoal, podem ser importados ficheiros com as r
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/101.sncap'">Descarregar TXT</button>
 </div>
 
-#### 12.1.3. Contas a crédito
+#### 13.1.3. Contas a crédito
 
 As contas a crédito das faturas conferidas dos fornecedores (P2), bem como das OD's, são obtidas através da relação, previamente estabelecida, com as contas a débito dos cabimentos.
 
@@ -1368,7 +1422,7 @@ O aspeto do ficheiro a ser guardado será como o do apresentado seguidamente:
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-18f168ee.png)
 
 
-#### 12.1.4. Processamento de Vencimentos
+#### 13.1.4. Processamento de Vencimentos
 
 Relativamente ao processamento dos vencimentos em SNC-AP, e como principais alterações ao normativo contabilístico anterior (POCMS), deverá ser tido em atenção o que diz a CNC através das FAQ’s n.º 1 e 17:
 
@@ -1501,13 +1555,13 @@ Servem para demonstrar, de uma forma simples, os registos a efetuar. Cada entida
 A consulta deste documento não dispensa a leitura das NCP do SNC-AP, do manual de implementação e FAQ’s da CNC, bem como as orientações da DGO/Unileo.
 
 
-### 12.2. Ligações de Gestão de Stocks
+### 13.2. Ligações de Gestão de Stocks
 
 A informação que deve ser enviada entre o departamento financeiro e o departamento de logística pode ser observada no seguinte esquema. Os ficheiros a serem importados no sistema, os que são referidos no esquema, são detalhadamente descritos ao longo deste capítulo.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1ffc568a.png)
 
-#### 12.2.1. Referências genéricas
+#### 13.2.1. Referências genéricas
 Para importar dados relativos às referências genéricas dos Stocks o utilizador deve seguir o seguinte caminho na aplicação:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-9cfa4d6c.png)
@@ -1534,7 +1588,7 @@ Para importar dados relativos às referências genéricas dos Stocks o utilizado
 
  A descrição dos campos para cada uma das referências é apresentada seguidamente.
 
-##### 12.2.1.1. Referência 201
+##### 13.2.1.1. Referência 201
 Esta referência importa dados relativos a documentos do tipo **CB** proveniente dos Stocks. Para ficheiros de referência 201 os campos que devem estar preenchidos são:
 
 |   | Ref. | Nº Proc. Aquisição | Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |
@@ -1545,7 +1599,7 @@ Esta referência importa dados relativos a documentos do tipo **CB** proveniente
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/201.sncap'">Descarregar TXT</button>
 </div>
 
-##### 12.2.1.2. Referência 203
+##### 13.2.1.2. Referência 203
 Ficheiros de referência 203 importam dados relativos a documentos do tipo **P1**. Para ficheiros de referência 203 os campos que devem estar preenchidos são:
 
 |   | Ref.  | Ent.| NºCP| NºP1| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
@@ -1556,7 +1610,7 @@ Ficheiros de referência 203 importam dados relativos a documentos do tipo **P1*
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/203.sncap'">Descarregar TXT</button>
 </div>
 
-##### 12.2.1.3. Referências 204, 205, 206 e 207
+##### 13.2.1.3. Referências 204, 205, 206 e 207
 Ficheiros destas referências importam dados relativos a documentos do tipo **OD**. Para ficheiros de referência 204-207 os campos que devem estar preenchidos são:
 
 |   | Ref.    | Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   | Centro Custo |
@@ -1567,7 +1621,7 @@ Ficheiros destas referências importam dados relativos a documentos do tipo **OD
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/204.sncap'">Descarregar TXT</button>
 </div>
 
-##### 12.2.1.4. Referência 210
+##### 13.2.1.4. Referência 210
 Ficheiros de referência 210 importam dados relativos a documentos do tipo P2. Para ficheiros de referência 210 os campos que devem estar preenchidos são:
 
 |   | Ref. | Nº Proc. Aquisição |Ent.|NºCP|NºP2| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo| Nº dias Data Vencimento |
@@ -1578,7 +1632,7 @@ Ficheiros de referência 210 importam dados relativos a documentos do tipo P2. P
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/210.sncap'">Descarregar TXT</button>
 </div>
 
-##### 12.2.1.5. Referência 211
+##### 13.2.1.5. Referência 211
 Ficheiros de referência 211 importam dados relativos a documentos do tipo **P2**. Para ficheiros de referência 211 os campos que devem estar preenchidos são:
 
 |   | Ref. | Nº Proc. Aquisição |Ent.|NºCP|NºP1|NºP2| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo| Nº dias Data Vencimento |
@@ -1589,7 +1643,7 @@ Ficheiros de referência 211 importam dados relativos a documentos do tipo **P2*
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/211.sncap'">Descarregar TXT</button>
 </div>
 
-##### 12.2.1.6. Referência 214
+##### 13.2.1.6. Referência 214
 Ficheiros de referência 214 importam dados relativos a documentos do tipo **CM**.Para ficheiros de referência 214 os campos que devem estar preenchidos são:
 
 |   | Ref. | Nº Proc. Aquisição | Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   | Nº dias Data Vencimento |Nota de encomenda|
@@ -1600,7 +1654,7 @@ Ficheiros de referência 214 importam dados relativos a documentos do tipo **CM*
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/214.sncap'">Descarregar TXT</button>
 </div>
 
-#### 12.2.2. Refª 202 (Compromissos Assumidos)
+#### 13.2.2. Refª 202 (Compromissos Assumidos)
 Para importar dados relativos à Refª 202 de Stocks o utilizador deve seguir o seguinte caminho na aplicação:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-5be9deea.png)
@@ -1619,7 +1673,7 @@ Ficheiros de referência 202 importam dados relativos a documentos do tipo **CP*
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/202.sncap'">Descarregar TXT</button>
 </div>
 
-### 12.3. Ligações de Gestão de Imobilizado
+### 13.3. Ligações de Gestão de Imobilizado
 Para importar dados relativos aos imobilizados o utilizador deve seguir o seguinte caminho na aplicação:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-9e5e2d6d.png)
@@ -1644,7 +1698,7 @@ Para importar dados relativos aos imobilizados o utilizador deve seguir o seguin
 
 </br>Para importar ficheiros relativos ao imobilizado, devem ser importados os ficheiros de referência  **301, 302, 303, 304, 305, 306 e 307**. A descrição dos campos para cada uma das referências é apresentada seguidamente.
 
-#### 12.3.1. Referência 301
+#### 13.3.1. Referência 301
 Ficheiros de referência 301 importam dados relativos a documentos do tipo CB. Para ficheiros de referência 301 os campos que devem estar preenchidos são:
 
 |   | Ref.  | NºProc. Aquisição | Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
@@ -1655,7 +1709,7 @@ Ficheiros de referência 301 importam dados relativos a documentos do tipo CB. P
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/301.sncap'">Descarregar TXT</button>
 </div>
 
-#### 12.3.2. Referência 302
+#### 13.3.2. Referência 302
 Ficheiros de referência 302 importam dados relativos a documentos do tipo CP. Para ficheiros de referência 302 os campos que devem estar preenchidos são:
 
 |   | Ref.  |Ent.| NºCP |NºCM| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
@@ -1666,7 +1720,7 @@ Ficheiros de referência 302 importam dados relativos a documentos do tipo CP. P
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/302.sncap'">Descarregar TXT</button>
 </div>
 
-#### 12.3.3. Referência 303
+#### 13.3.3. Referência 303
 Ficheiros de referência 303 importam dados relativos a documentos do tipo P1. Para ficheiros de referência 303 os campos que devem estar preenchidos são:
 
 |   | Ref.  |Ent.| NºCP |NºP1| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
@@ -1677,7 +1731,7 @@ Ficheiros de referência 303 importam dados relativos a documentos do tipo P1. P
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/303.sncap'">Descarregar TXT</button>
 </div>
 
-#### 12.3.4. Referências 304, 305, 306, 307
+#### 13.3.4. Referências 304, 305, 306, 307
 Ficheiros destas referências importam dados relativos a documentos do tipo OD. Para ficheiros de referências 304 - 307 os campos que devem estar preenchidos são:
 
 |     | Ref.    | Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   | Centro Custo |
@@ -1688,7 +1742,7 @@ Ficheiros destas referências importam dados relativos a documentos do tipo OD. 
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/304.sncap'">Descarregar TXT</button>
 </div>
 
-### 12.4. Ligações de Faturação de Devedores
+### 13.4. Ligações de Faturação de Devedores
 Para importar dados relativos à faturação de devedores o utilizador deve seguir o seguinte caminho na aplicação:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-6fc81755.png)
@@ -1713,7 +1767,7 @@ Para importar dados relativos à faturação de devedores o utilizador deve segu
 
 </br>No caso da gestão de imobilizado, é possível importar ficheiros de referência **401**. A descrição dos campos da referência é apresentada seguidamente. Estes ficheiros importam dados relativos a documentos do tipo FD.
 
-#### 12.4.1. Referência 401
+#### 13.4.1. Referência 401
 Para ficheiros de referência 401 os campos que devem estar preenchidos são:
 
 |   | Ref.  | Ent.| NºP2| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
@@ -1723,7 +1777,7 @@ Para ficheiros de referência 401 os campos que devem estar preenchidos são:
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/401.sncap'">Descarregar TXT</button>
 </div>
 
-### 12.5. Ligações de Farmácias
+### 13.5. Ligações de Farmácias
 Para importar dados relativos às Farmácias o utilizador deve seguir o seguinte caminho na aplicação:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-0629654e.png)
@@ -1752,7 +1806,7 @@ A descrição dos campos para cada uma das referências é apresentada seguidame
 >**Nota:** Alguns ficheiros variam a sua estrutura para entidades do tipo ARS e ULS. A descrição dos campos destes ficheiros é apresentada separadamente para cada referência.
 
 
-#### 12.5.1. Referência 702
+#### 13.5.1. Referência 702
 Ficheiros de referência 702 importam dados relativos a documentos do tipo P2. Para ficheiros de referência 702 os campos que devem estar preenchidos são:
 
 |   | Ref.  |NºProc. Aquisição| Ent.| NºCP|Nº P1/P2/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
@@ -1774,7 +1828,7 @@ Ficheiros de referência 702 importam dados relativos a documentos do tipo P2. P
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/702_ars.sncap'">Descarregar TXT</button>
 </div>
 
-#### 12.5.2. Referência 703
+#### 13.5.2. Referência 703
 Ficheiros de referência 703 importam dados relativos a documentos do tipo OD. Para ficheiros de referência 703 os campos que devem estar preenchidos são:
 
 |   | Ref.  | Ent.| NºOD| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
@@ -1785,7 +1839,7 @@ Ficheiros de referência 703 importam dados relativos a documentos do tipo OD. P
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/703.sncap'">Descarregar TXT</button>
 </div>
 
-#### 12.5.3. Referência 704
+#### 13.5.3. Referência 704
 Ficheiros de referência 704 importam dados relativos a documentos do tipo NC. Para ficheiros de referência 704 os campos que devem estar preenchidos são:
 
 |   | Ref.  | Ent.| Nº NC/Série| Data Doc. | Conta Crédito | Importância  | Sinal   |Centro Custo|
@@ -1807,7 +1861,7 @@ Ficheiros de referência 704 importam dados relativos a documentos do tipo NC. P
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/704_ars.sncap'">Descarregar TXT</button>
 </div>
 
-#### 12.5.4. Referência 706
+#### 13.5.4. Referência 706
 Ficheiros de referência 706 importam dados relativos a documentos do tipo DF. Para ficheiros de referência 706 os campos que devem estar preenchidos são:
 
 |   | Ref.  | NºProc.Aquisição| Ent.| NºCP|Nº DF/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
@@ -1844,9 +1898,9 @@ Para adicionar uma relação, o utilizador deve clicar sobre o botão "+ Novo", 
 
 Em caso de se pretender eliminar uma relação, o utilizador deve selecionar uma linha e clicar no botão "- Abater".
 
-### 12.6. Ligações do SISO/Reembolsos
+### 13.6. Ligações do SISO/Reembolsos
 
-#### 12.6.1. Ligações de faturas
+#### 13.6.1. Ligações de faturas
 Para importar dados relativos às faturas de SISO/Reembolsos o utilizador deve seguir o seguinte caminho na aplicação:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets//mu_snc_ap-585d2317.png)
@@ -1881,19 +1935,19 @@ Para importar dados relativos às faturas de SISO/Reembolsos o utilizador deve s
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/501.sncap'">Descarregar TXT</button>
 </div>
 
-#### 12.6.2. Exportação de Pagamentos
+#### 13.6.2. Exportação de Pagamentos
 Para exportar pagamentos o utilizador deve seguir o seguinte caminho na aplicação:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-f629ba94.png)
 _Em atualização_
 
-#### 12.6.3. Importação de Entidades
+#### 13.6.3. Importação de Entidades
 Para importar dados relativos às entidades de SISO/Reembolsos o utilizador deve seguir o seguinte caminho na aplicação:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-c3ae6905.png)
 _Em atualização_
 
-### 12.7. Ligações dos MCDT
+### 13.7. Ligações dos MCDT
 Para importar dados relativos a MCDT o utilizador deve seguir o seguinte caminho na aplicação:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-4637c493.png)
@@ -1921,7 +1975,7 @@ Para importar dados relativos a MCDT o utilizador deve seguir o seguinte caminho
 >**Nota:** Alguns ficheiros variam a sua estrutura para entidades do tipo ARS e ULS. A descrição dos campos destes ficheiros é apresentada separadamente para cada referência.
 
 
-#### 12.7.1. Referência 902
+#### 13.7.1. Referência 902
 Ficheiros de referência 902 importam dados relativos a documentos do tipo P2. Para ficheiros de referência 902 os campos que devem estar preenchidos são:
 
 Caso Geral:
@@ -1945,7 +1999,7 @@ Caso Geral:
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/902_ars.sncap'">Descarregar TXT</button>
 </div>
 
-#### 12.7.2. Referência 903
+#### 13.7.2. Referência 903
 Ficheiros de referência 903 importam dados relativos a documentos do tipo OD. Para ficheiros de referência 903 os campos que devem estar preenchidos são:
 
 |   | Ref.  | Ent.|NºOD| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
@@ -1956,7 +2010,7 @@ Ficheiros de referência 903 importam dados relativos a documentos do tipo OD. P
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/903.sncap'">Descarregar TXT</button>
 </div>
 
-#### 12.7.3. Referência 904
+#### 13.7.3. Referência 904
 Ficheiros de referência 904 importam dados relativos a documentos do tipo NC. Para ficheiros de referência 904 os campos que devem estar preenchidos são:
 
 |   | Ref.  | Entidade|Nº NC/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
@@ -1979,7 +2033,7 @@ Ficheiros de referência 904 importam dados relativos a documentos do tipo NC. P
 </div>
 
 
-#### 12.7.4. Referência 905
+#### 13.7.4. Referência 905
 Ficheiros de referência 905 importam dados relativos a documentos do tipo CC. Para ficheiros de referência 905 os campos que devem estar preenchidos são:
 
 |   | Ref.  | Ent.| Nº CC/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal |Centro Custo|
@@ -2001,7 +2055,7 @@ Ficheiros de referência 905 importam dados relativos a documentos do tipo CC. P
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/905_ars.sncap'">Descarregar TXT</button>
 </div>
 
-#### 12.7.5. Referência 906
+#### 13.7.5. Referência 906
 Ficheiros de referência 906 importam dados relativos a documentos do tipo DF. Para ficheiros de referência 906 os campos que devem estar preenchidos são:
 
 |   | Ref.  |NºProc. Aquisição| Ent.| NºCP|Nº DF/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
@@ -2023,7 +2077,7 @@ Ficheiros de referência 906 importam dados relativos a documentos do tipo DF. P
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/906_ars.sncap'">Descarregar TXT</button>
 </div>
 
-#### 12.7.6. Referência 908
+#### 13.7.6. Referência 908
 Ficheiros de referência 908 importam dados relativos a documentos do tipo CF. Para ficheiros de referência 908 os campos que devem estar preenchidos são:
 
 |   | Ref.  | Ent.|Nº CF/Série| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
