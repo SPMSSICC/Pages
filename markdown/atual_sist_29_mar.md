@@ -7,7 +7,7 @@
 ![](https://spmssicc.github.io/pages/markdown/atual_sist_29_mar.assets/atual_sist_29_mar-2a76fb46.png)
 
 
-- Incorporação de contas específicas nSNC-AP nos documentos NC, FD e AD;
+- Incorporação de contas específicas SNC-AP nos documentos NC, FD e AD;
 - Correção do preenchimento da nota de encomenda nos documentos por Contas/Datas;
 - Acrescentada a possibilidade de preenchimento do nº de FD na recolha de CC;
 - Atualização do _layout_ do ficheiro de importação CSV de CC;
