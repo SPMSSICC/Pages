@@ -66,7 +66,9 @@ Por fim o utilizador deve confirmar a importação através da seleção do bot�
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-505866f0.png)
 No caso do ficheiro ter erros, estes são reportados na janela criada para o efeito. Estes erros têm de ser corrigidos e o ficheiro tem de ser novamente testado.
 </br>O ficheiro CSV a ser importado deve ter o seguinte aspeto:
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-f1a6d097.png)
+
+
+![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-a7726889.png)
 
 <div style="height:40px">
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/PO_SNCAP.csv'">Descarregar CSV</button>
@@ -81,7 +83,7 @@ Posteriormente, esta informação (Alteração orçamental) será carregada em S
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ba2a79c7.png)
 
->**Nota:** para navegar entre os campos e para desbloquear botões do ecrã, deve utilizar a tecla **TAB**
+>**Nota:** Para navegar entre os campos e para desbloquear botões do ecrã, deve utilizar a tecla **TAB**
 
 Selecionando a “Nova alteração”, o sistema de forma automática gera novo ecrã, no qual mostra todos os classificadores económicos com valores a 0, onde se pode registar a alteração orçamental com os montantes pretendidos. No seguinte exemplo, foi retirado valor parcial do carregado inicialmente na rubrica de "Representação" para a rubrica de "Ajudas de custo". Findas as alterações, deverá confirmar.
 
