@@ -422,7 +422,7 @@ Dos documentos apresentados, tem de selecionar o pretendido, clicando duas vezes
 
 No novo ecrã aberto, deve o utilizador confirmar as contas e os respetivos montantes, automaticamente disponibilizados pelo sistema. Para confirmar a CO, o utilizador deve clicar em "Confirme".
 
-### 8.2. Reposição Não Abatida nos Pagamentos (RNAP)
+<!-- ### 8.2. Reposição Não Abatida nos Pagamentos (RNAP)
 
 As reposições não abatidas nos pagamentos abrangem as receitas provenientes das entradas de fundos em resultado de cobranças orçamentais indevidos.
 
@@ -440,7 +440,39 @@ Findo o registo de CC, deve o utilizador prosseguir ao registo da GR. Este proce
 
 Devem ser, novamente, verificadas as contas e os montantes e por fim deve-se confirmar o registo.
 
+</br>Findo este processo, deve-se agora registar a cobrança. O processo de registo desta é igual ao descrito para CC "normal". -->
+
+### 8.2. Reembolsos/ Restituições
+
+Um **reembolso** resulta do próprio mecanismo de funcionamento normal da receita e ocorre quando na sequência do processo declarativo inicialmente conduzido pelo devedor, posteriormente confirmado pela entidade administradora aquele se apresenta como credor perante o Estado, havendo lugar ao reembolso de uma determinada importância;
+
+</br>Uma **restituição** corresponde à entrega ao devedor do montante já pago por este, quando se prove que a entidade administradora da receita liquidou indevidamente a receita em causa, ou quando se verifique que não a devia ter recebido, no caso de autoliquidação, oou ainda, quando por erro do contribuinte este a tenha pago mais do que uma vez.
+
+</br>Fonte: V - Processo de Emissão de Reembolsos e/ou Restituições disponível em: http://www.dgo.pt/instrucoes/Instrucoes/2014/Circular_2-2014-DGO.pdf
+
+</br>Para efetuar o registo de um reembolso/restituição no SICC SNC-AP deve o utilizador abrir o ecrã de recolha de informação para um registo de CC.
+No ecrã de recolha, o utilizador deve indicar todos os campos de preenchimento obrigatório e, deve também, selecionar a _checkbox_ com a designação de Reembolsos/Restituições.
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_receita.assets/ciclo_receita-ec7642b2.png)
+
+Na janela de recolha de contabilidade aberta, o utilizador deve indicar as contas e os respetivos montantes.
+De seguida, deve clicar em "Gerar Contabilidade" e indicar o Centro de Custo (quando aplicável).
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_receita.assets/ciclo_receita-8ce8ac81.png)
+
+Finda a indicação do centro de custo, o utilizador deve clicar em "Confirme".
+
+Findo o registo de CC de Reembolsos/Restituições, deve o utilizador prosseguir ao registo da GR. Este processo é igual ao descrito para CC "normal" à excepção de que deixa de ser necessária a seleção da FD.
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_receita.assets/ciclo_receita-e97932e2.png)
+
+Devem ser, novamente, verificadas as contas bem como os montantes e por fim deve-se confirmar o registo.
+
 </br>Findo este processo, deve-se agora registar a cobrança. O processo de registo desta é igual ao descrito para CC "normal".
+
+A contabilidade orçamental lançada aquando o registo de Reembolsos/Restituições é a seguinte:
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_receita.assets/ciclo_receita-7153add4.png)
 
 ## 9. Anulação de Receitas FD/CC (AR)
 
