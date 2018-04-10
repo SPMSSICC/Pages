@@ -589,13 +589,13 @@ Se o utilizador pretender enviar o ofício através do email, deverá selecionar
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1687c76e.png)
 
 ## 9. Antiguidade de Saldos
-Este sub-menu permite ao utilizador consultar saldos por entidade e por conta.
+Este submenu permite ao utilizador consultar saldos por entidade e por conta.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-2138a2a4.png)
 
 ### 9.1. Dividas por Entidade
 
-Este sub-menu permite ao utilizador visualizar as dividas por entidade. Para tal, deve o utilizador preencher os seguintes critérios de pesquisa:
+Este submenu permite ao utilizador visualizar as dividas por entidade. Para tal, deve o utilizador preencher os seguintes critérios de pesquisa:
 
 |Critério| Descrição|
 |:---:|:---|
@@ -717,4 +717,5 @@ Para consultar o documento, o utilizador deve clicar sobre ele na janela "Lista 
 |Analítica    | Permite ao utilizador consultar os movimentos nas contas analíticas nos documentos que o necessitem, por exemplo as faturas.   ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-c2f9f735.png)     |
 |Regularizações   | Esta tabulação permite ao utilizador visualizar os documentos subsequentes (Regularizações deste documento) e antecedentes (Regularizações para este documento) ao pesquisado. Se o utilizador pretender consultar um desses documentos (antecedentes e subsequentes) deve clicar sobre ele duas vezes.  ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-46011a03.png)   |
 |Encontro de contas    | Esta tabulação permite ao utilizador visualizar os documentos com os quais foi efetuado o encontro de contas. ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-259c26d8.png) |
-|Outras Informações    | Esta tabulação permite ao utilizador visualizar outras informações relativas ao documento pesquisado, nomeadamente as observações, o criador do documento, o último quem lhe fez alterações e as respetivas datas, no caso de ter sido efetuada uma transferência bancária é apresentada a respetiva informação e é também dada a informação relativamente à possibilidade de abater o documento pesquisado.  ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a6646b0f.png)   |
+|Geral (Inicial)   |Permite ao utilizador visualizar o histórico do documento ao longo dos exercícios. Isto é, as contas, chave orçamental, entidade, etc... </br>![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-cc30dbbf.png)    |
+|Outras Informações    | Esta tabulação permite ao utilizador visualizar outras informações relativas ao documento pesquisado, nomeadamente as observações, o criador do documento, o último quem lhe fez alterações e as respetivas datas, no caso de ter sido efetuada uma transferência bancária é apresentada a respetiva informação e é também dada a informação relativamente à possibilidade de abater o documento pesquisado.  ![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-9edf259a.png)   |
