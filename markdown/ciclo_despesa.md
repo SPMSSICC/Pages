@@ -172,13 +172,13 @@ Após validação dos elementos integrados e constatado que os valores estão co
 
 ##### 1.4.1. Alterações de Cabimentos - Transferência de Contas
 
-É possível transferir um montante de uma conta para outra num CB, sem alterar o valor total desse CB. Para o efeito deve ser lançado um AM e deve-se ter em consideração se o CB está ou não regularizado.
+É possível transferir um montante de uma conta para outra num CB, sem alterar o valor total desse CB. Para o efeito, deve ser lançado um AM e deve-se ter em consideração se o CB está ou não regularizado.
 
 </br>**CB não regularizado**
 
-</br> Quando o CB não está regularizado, basta lançar um AM da seguinte forma:
+</br> Quando o CB não está regularizado basta lançar um AM da seguinte forma:
 
-</br> No ecrã de recolha de AM, o utilizador deve indicar o Ano e o Nº de CB e clicar em "Seleção de Cabimento" para que o sistema mostre, na janela de baixo, todos os cabimentos que respeitem as condições indicadas.
+</br> No ecrã de recolha de AM, o utilizador deve indicar o Ano e o Nº de CB e clicar em "Seleção de Cabimento", para que o sistema mostre, na janela de baixo, todos os cabimentos que respeitem as condições indicadas.
 
 ![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-6073672b.png)
 
@@ -186,27 +186,64 @@ Após validação dos elementos integrados e constatado que os valores estão co
 
 De seguida, o utilizador deve clicar duas vezes em cima do CB a alterar, para que o mesmo passe para a janela de cima.
 
-Por se tratar de uma **Transferência de Contas**, o utilizador deve-o indicar selecionando a respetiva _checkbox_ e deve deixar o campo da importância a zero. Por fim, deve clicar em "Gravar nova AM".
+</br>Por se tratar de uma **Transferência de Contas**, o utilizador deve-o indicar selecionando a respetiva _checkbox_ e deve deixar o campo da **importância a 0€** para que o valor do CB não seja nem aumentado nem diminuido. Por fim, deve clicar em "Gravar nova AM".
 
 ![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-3f347287.png)
 
-No novo ecrã aberto o utilizador deve lançar a conta pretendida com valor negativo e outra com valor positivo, de forma que a soma seja 0. Segue abaixo um exemplo de um CB com várias contas lançadas em que se pretende transferir 100€ da conta 626211 para a conta 626219.
+No novo ecrã aberto, o utilizador deve lançar a conta pretendida com valor negativo e outra com valor positivo, de forma que a soma seja 0. Segue abaixo um exemplo de um CB com várias contas lançadas em que se pretende transferir 100€ da conta 626211 para a conta 626219.
 De seguida, o utilizador deve clicar em "Gerar Contabilidade".
 
 ![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-c9bd6619.png)
 
 Para confirmar o registo, deve clicar em "Confirme".
 
-
 </br>**CB regularizado**
 
-</br> No caso do CB estar regularizado, deve-se ter em atenção se o valor a transferir já foi ou não "consumido" num CM e, no limite, num P2. Nesta situação, deve ser efetuado o seguinte processo (por esta ordem):
+</br> No caso do CB estar regularizado, deve-se ter em atenção se o valor a transferir já foi ou não "consumido" num CM e, no limite, num P2.
 
-1. Anular a fatura (P2 e P1) com um AC;
-2. Anular CP com AL negativo na conta da qual se pretende transferir o valor;
-3. Anular CM com AB negativo na conta da qual se pretende transferir o valor;
-4. Transferir o valor das contas num AM (como descrito para CB não regularizado);
-5. Lançar os valores nas contas com AB e AL positivos e, lançar o P1 e o P2.
+</br> Caso o CB estiver regularizado mas o valor a transferir não estiver "consumido", o processo do registo da alteração deve ser igual a um CB não regularizado.  
+
+</br>Pretende-se transferir 500€ da conta 312629 para a conta, não lançada, 312625. O CB em questão encontra-se totalmente consumido pelo que, se deve efetuar o seguinte processo (**por esta ordem**):
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-321b926e.png)
+
+1. **Anular a fatura (P2 e P1) com um AC;**
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-adae26b7.png)
+
+
+2. **Anular CP com AL negativo na conta da qual se pretende transferir o valor;**
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-7a8e888a.png)
+
+3. **Anular CM com AB negativo na conta da qual se pretende transferir o valor;**
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-f7d3fbfe.png)
+
+4. **Transferir o valor das contas num AM (como descrito para CB não regularizado);**
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-7c0bbbf8.png)
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-5d8f4b72.png)
+
+5. **Lançar os valores nas contas com AB e AL positivos e, lançar o P1 e o P2.**
+
+</br>Lançamento do AB:
+
+1)![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-4eaf50c2.png)
+
+2)![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-3d4c68ae.png)
+
+Lançamento do AL:
+
+1)![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-4e9fa5d4.png)
+
+2)![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-e35496d7.png)
+
+Lançamento do P2:
+
+1)![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-d7d3f5a0.png)
+2)![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-f383ef6c.png)
 
 ## 2. Verificação Prévia (CM)
 
