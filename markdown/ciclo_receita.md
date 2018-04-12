@@ -279,6 +279,30 @@ Para validar estas contas, bem como o registo da CD, o utilizador deve clicar em
 
  ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-f897d9b7.png)
 
+### 5.1. Importação CD
+
+Os tipos de documentos de Cobranças (CO) podem ser importados  no sistema através de um ficheiro **CSV**. Para tal, deve o utilizador selecionar o botão "Importar" disponível na parte inferior da janela de recolha de informação.
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_receita.assets/ciclo_receita-7d1d9c13.png)
+
+No novo ecrã aberto, deve o utilizador selecionar o ficheiro CSV da diretoria do seu computador. De seguida deve clicar em "Ver/Testar Ficheiro" para validar a sua estrutura e composição.
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_receita.assets/ciclo_receita-cb4f0c79.png)
+
+Em caso do ficheiro não apresentar incoerências, as janelas do ecrã ficarão preenchidas com os dados do ficheiro importado. No caso deste apresentar incoerências, as mesmas serão comunicadas ao utilizador na janela respetiva e deve o utilizador corrigi-las e validar o ficheiro novamente. Por fim, deve clicar em "Importa Ligação".
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_receita.assets/ciclo_receita-c0f88a65.png)
+
+O aspeto do ficheiro **CSV** a ser importado deve ser semelhante ao seguidamente apresentado:
+
+>**NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_receita.assets/ciclo_receita-bafbde4e.png)
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/CD_SNCAP.csv'">Descarregar CSV</button>
+</div>
+
 ## 6. Crédito Incobrável (CI)
 
 Quando se pretende registar um Crédito Incobrável (CI) deve o utilizador seguir o mesmo caminho na aplicação que para o registo de uma CD, e selecionar a tabulação respetiva. De seguida deve indicar o ano e a entidade do CI e deve clicar em "Ver Documentos".
