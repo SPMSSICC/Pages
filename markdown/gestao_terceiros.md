@@ -1,5 +1,4 @@
-<div class="cabecalho"><img src="https://spmssicc.github.io/pages/img/logos/SPMS2016B_272x105.png">
-Gestão de Terceiros</div>
+# Gestão de Terceiros
 
 Este menu permite efetuar todas as ações relacionadas com a Gestão de Terceiros.
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-dfd59dad.png)

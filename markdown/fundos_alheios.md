@@ -1,4 +1,4 @@
-<div class="cabecalho"><img src="https://spmssicc.github.io/pages/img/logos/SPMS2016B_272x105.png">Fundos Alheios</div>
+# Fundos Alheios
 
 Este capítulo descreve o registo de adiantamentos ou de despesas/receitas extra-orçamentais.
 

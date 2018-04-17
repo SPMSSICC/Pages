@@ -1,5 +1,4 @@
-<div class="cabecalho"><img src="https://spmssicc.github.io/pages/img/logos/SPMS2016B_272x105.png">
-Parametrização</div>
+# Parametrização
 
 Este menu permite efetuar a parametrização de informação necessária ao correto funcionamento da aplicação.
 

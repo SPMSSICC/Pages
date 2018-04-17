@@ -1,5 +1,4 @@
-<div class="cabecalho"><img src="https://spmssicc.github.io/pages/img/logos/SPMS2016B_272x105.png">
-Ciclo Receita</div>
+# Ciclo Receita
 
 Este capítulo visa descrever todo o processo de registo de documentos inerentes ao ciclo de receita, desde o registo da fatura até ao registo da sua cobrança.   
 

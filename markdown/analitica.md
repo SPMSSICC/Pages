@@ -1,5 +1,4 @@
-<div class="cabecalho"><img src="https://spmssicc.github.io/pages/img/logos/SPMS2016B_272x105.png">
-Analítica </div>
+# Analítica
 
 Este menu permite ao utilizador obter informação relativa a contas analíticas   e a centros de custo.
 

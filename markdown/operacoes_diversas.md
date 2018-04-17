@@ -1,5 +1,4 @@
-<div class="cabecalho"><img src="https://spmssicc.github.io/pages/img/logos/SPMS2016B_272x105.png">
-Operações Diversas</div>
+# Operações Diversas
 
 Devem ser registados em Operações Diversas os Consumos, Apuramentos, Provisões e as Amortizações.
 

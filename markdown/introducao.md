@@ -1,5 +1,4 @@
-<div class="cabecalho"><img src="https://spmssicc.github.io/pages/img/logos/SPMS2016B_272x105.png">
-Introdução</div>
+# Introdução
 
 O presente documento visa especificar o funcionamento do novo sistema SICC SNC-AP, evidenciando as novas funcionalidades e ajustes na ótica do utilizador, bem como a satisfação dos requistos específicos da Contabilidade.
 

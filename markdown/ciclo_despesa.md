@@ -1,5 +1,4 @@
-<div class="cabecalho"><img src="https://spmssicc.github.io/pages/img/logos/SPMS2016B_272x105.png">
-Ciclo de Despesa</div>
+# Ciclo de Despesa
 
 Este capítulo tem por objetivo descrever o processo de registo de todos os documentos inerentes ao ciclo de despesa, isto é, desde o registo do cabimento até ao pagamento da fatura ao fornecedor.
 

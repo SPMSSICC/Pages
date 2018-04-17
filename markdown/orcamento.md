@@ -1,5 +1,4 @@
-<div class="cabecalho"><img src="https://spmssicc.github.io/pages/img/logos/SPMS2016B_272x105.png">
-Orçamental (em atualização)</div>
+# Orçamental (em atualização)
 
 Este menu permite ao utilizador carregar o orçamento ordinário, económico e o LCPA. Permite também a produção de respetivos mapas, de receita e de despesa para controlo orçamental.   
 

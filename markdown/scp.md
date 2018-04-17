@@ -1,5 +1,4 @@
-<div class="cabecalho"><img src="https://spmssicc.github.io/pages/img/logos/SPMS2016B_272x105.png">
-Ficheiros S3CP (em atualização)</div>
+# Ficheiros S3CP (em atualização)
 
 Este menu permite ao utilizador gerar os ficheiros a serem enviados para entidades como UniLeo, ACSS entre outras.
 

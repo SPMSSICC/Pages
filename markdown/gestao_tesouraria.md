@@ -1,5 +1,4 @@
-<div class="cabecalho"><img src="https://spmssicc.github.io/pages/img/logos/SPMS2016B_272x105.png">
-Gestão de Tesouraria</div>
+# Gestão de Tesouraria
 
 Este capitulo pretende descrever o processo de cálculo e consulta da Folha de Caixa bem como efetuar oregisto de Depósitos e Levantamentos.
 
