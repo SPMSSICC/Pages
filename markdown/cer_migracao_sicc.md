@@ -139,28 +139,26 @@ Regras relevantes:
 | AF       |                                     |                                        |                                    |                                                  |
 | AL       | Alteração de compromissos assumidos | CP                                     |                                    |                                                  |
 | AM       | Alteração de CB                     | CB                                     |                                    |                                                  |
-| AP       | Autorização de pagamento            | CE (SPA e IP) / P2,NC,DF,CF e DA (EPE) | PG                                 |                                                  |
+| AP       | Autorização de pagamento            | P2, NC, DF, CF e DA | PG                                 |                                                  |
 | AR       |                                     |                                        |                                    |                                                  |
-| CB       | Cabimentos                          |                                        | AM; CM                              |                                                  |
-| CC       | Créditos a clientes                 |                                        | DE (SPA e IP) / GR (EPE)           |                                                  |
+| CB       | Cabimentos                          |                                        | AM e CM                              |                                                  |
+| CC       | Créditos a clientes                 |                                        | GR           |                                                  |
 | CD       | Cobrança duvidosa                   | FD                                     |                                    |                                                  |
-| CE       | Credores p/ execução orçamental     | P2,NC,DF,CF, (SPA e IP)                | AP (SPA e IP)                      |                                                  |
-| CF       | Créditos a fornecedores             |                                        | CE (SPA e IP) /AP (EPE)            |                                                  |
+| CF       | Créditos a fornecedores             |                                        |AP            |                                                  |
 | CI       | Créditos incobráveis                | FD                                     |                                    |                                                  |
 | CM       | Compromissos                        | CB, AM                                 | AB, CP, AL                         |                                                  |
 | CO       | Cobranças                           | GR, RA                                 |                                    |                                                  |
-| CP       | Compromissos assumidos              | CM, AB                                 | AL,P1 ou P2                        |                                                  |
+| CP       | Compromissos assumidos              | CM, AB                                 | AL, P1 ou P2                        |                                                  |
 | CT       | Cativos ou congelamentos            |                                        | DT                                 |                                                  |
 | DA       | Despesa fundos alheios              |                                        | PG                                 |                                                  |
-| DE       | Devedores p/ execução orçamental    | FD, OR, CC(SPA /IP)                    | AP (SPA e IP)                      |                                                  |
-| DF       | Débitos a fornecedores              |                                        | CE (SPA e IP) /AP (EPE)            |                                                  |
+| DF       | Débitos a fornecedores              |                                        | AP            |                                                  |
 | DT       | Descativos ou congelamentos         | CT                                     |                                    |                                                  |
-| FD       | Faturas de devedores                |                                        | DE (SPA, IP)/ GR (EPE)/ CI AD , CD |                                                  |
+| FD       | Faturas de devedores                |                                        |  GR, CI, AD, CD |                                                  |
 | FP       | Fundos disponíveis                  |                                        |                                    | Regulariza e regularizado pelo próprio Documento |
-| GR       | Guia de receita                     | DE (SPA, IP)/FD, CC, OR, RA (EPE)      | CO                                 |                                                  |
+| GR       | Guia de receita                     |FD, CC, OR, RA     | CO                                 |                                                  |
 | IG       | Transferências bancarias            |                                        |                                    |                                                  |
 | NB       | Notas de débito                     |                                        |                                    |                                                  |
-| NC       | Notas de crédito                    |                                        | DE (SPA , IP) , AP (EPE), AD       |                                                  |
+| NC       | Notas de crédito                    |                                        |  AP , AD       |                                                  |
 | OA       | Orçamento fundos alheios            | PA                                     |                                    |                                                  |
 | OC       | Orçamento de compras                | PC                                     |                                    |                                                  |
 | OD       | Operações diversas                  |                                        |                                    |                                                  |
@@ -168,9 +166,9 @@ Regras relevantes:
 | OF       | Orçamento financeiro                | PF                                     |                                    |                                                  |
 | OI       | Orçamento de investimentos          | PI                                     |                                    |                                                  |
 | OO       | Orçamento exec. orçamental          | PO                                     |                                    |                                                  |
-| OR       | Outras receitas                     |                                        | DE ( SPA, IP)/ GR (EPE)            |                                                  |
+| OR       | Outras receitas                     |                                        |GR             |                                                  |
 | P1       | Processado em conferência           | CB, AL                                 | P2                                 | Caso exista P1                                   |
-| P2       | Processado conferido                | P1 ou CP, AL                           | CE (SPA e IP) /AP (EPE), AC,       | Caso exista P1                                   |
+| P2       | Processado conferido                | P1 ou CP, AL                           | AP , AC      | Caso exista P1                                   |
 | PA       | Proposta orç. fundos alheios        |                                        | OA                                 |                                                  |
 | PC       | Proposta orçamento compras          |                                        | OC                                 |                                                  |
 | PE       | Proposta orç. exploração            |                                        | OE                                 |                                                  |
@@ -186,6 +184,7 @@ Regras relevantes:
 | RI       | Resultados antes de impostos        |                                        |                                    | Cálculos Contabilísticos                         |
 | RL       | Resultados líquidos                 |                                        |                                    | Cálculos Contabilísticos                         |
 | RO       | Resultados operacionais             |                                        |                                    | Cálculos Contabilísticos                         |
+
 ## 6. Estrutura da informação a carregar
 
 A importação dos dados de histórico é feita de acordo com as 9 dimensões
