@@ -1282,6 +1282,10 @@ O passo seguinte ao registo da DF é o registo da autorização de pagamento (AP
 
 ## 12. Listagem Despesa
 
+Para abrir o ecrã relativo à listagem da despesa deve o utilizador seguir o seguinte caminho na aplicação: 
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-4022c2fc.png)
+
 Este menu permite ao utilizador obter um mapa de documentos possibilitando visualizar a sua relação e estado (regularizado ou por regularizar).  
 
 Para tal, deve o utilizador indicar os critérios de pesquisa dos documentos a visualizar.
