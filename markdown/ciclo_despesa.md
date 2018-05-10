@@ -748,7 +748,7 @@ Noecrã aberto, o utilizador deve preencher os seguintes campos:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-243a80a9.png)
 
-Após ter definido os critérios de pesquisa,deve o utilizador clicar em "Calcular" para que o sistema apresente todos os documentos que estejam de acordo com os critérios de pesquisa. Para selecionar o documento, deve o utilizador preencher a check box do documento pretendido.
+Após ter definido os critérios de pesquisa,deve o utilizador clicar em "Calcular" para que o sistema apresente todos os documentos que estejam de acordo com os critérios de pesquisa. Para selecionar o documento, deve o utilizador preencher a checkbox do documento pretendido.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-05ab035f.png)
 
@@ -1246,7 +1246,7 @@ No novo ecrã aberto, o utilizador deve preencher as contas e os movimentos resp
 
 Findo o preenchimento das contas, o utilizador deve clicar em "Confirme".
 
-Como o CM e CP tinham consumido o valor total do CB criado, o sistema criou as alterações aos docuemtnos, nomeadamente a AL, AB e AM. Estas alterações são comunicadas ao utilizador através de uma mensagem como a seguidamente apresentada.
+Como o CM e CP tinham consumido o valor total do CB criado, o sistema criou as alterações aos documentos, nomeadamente a AL, AB e AM. Estas alterações são comunicadas ao utilizador através de uma mensagem como a seguidamente apresentada.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-43790ce8.png)
 
@@ -1292,7 +1292,7 @@ Primeiro deve indicar qual o Tipo de Documento Principal. Para o efeito, deve cl
 
 De seguida deve clicar no campo relativo ao "Tipo de documento secundário" e selecionar, do esquema, o tipo de documento que será o secundário.
 
-![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/lista_despesa.gif
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/lista_despesa.gif)
 
 >**NOTA:** Caso o utilizador não indique o tipo de documento secundário, serão apresentados todos os documentos que se seguem ao documento principal no fluxo de despesa.
 

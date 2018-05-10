@@ -425,11 +425,11 @@ O aspeto do balancete será como o do apresentado seguidamente:
 ### 7.2. Extrato de Movimento de Terceiros
 
 Para aceder ao ecrã para gerar o extrato de movimento  de terceiros deve o utilizador seguir o caminho na aplicação:
-![](gestao_terceiros.assets/gestao_terceiros-36a83a99.png)
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-36a83a99.png)
 
 No ecrã aberto deve o utilizador indicar os critérios de pesquisa dos documentos a incluir no extrato.
 
-![](gestao_terceiros.assets/gestao_terceiros-e377f666.png)
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-e377f666.png)
 
 |Campo | Descrição|
 |:--|:--|
@@ -455,13 +455,13 @@ O aspeto do ficheiro CSv gerado será como o do apresentado seguidamente:
 
 Este menu permite ao utilizador gerar o balancete de terceiros por departamento, caso tenha mais do que um. Os campos deste ecrã são iguais aos do ecrã referente ao "Balancete de Terceiros" à exceção da "Actividade/Departamento" onde o utilizador deve indicar se pretende obter o balancete acumulado (vários departamentes em conjunto) ou por departamento.
 
-![](gestao_terceiros.assets/gestao_terceiros-51f0cb21.png)
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-51f0cb21.png)
 
 ### 7.4. Gestão de Projetos
 
 Este menu permite ao utilizador visualizar todos os documentos de um determinado projeto. Para tal, deve o utilizador indicar os critérios de pesquisa de documentos a incluir no ficheiro.
 
-![](gestao_terceiros.assets/gestao_terceiros-3e58983b.png)
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-3e58983b.png)
 
 |Campo|Descrição|
 |:--|:--|
@@ -557,7 +557,7 @@ Se o utilizador pretender enviar o ofício através do email, deverá selecionar
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1687c76e.png)
 
 ### 8.3. Ofício a Credores
-Neste sub-menu o utilizador deve preencher os seguintes campos:
+Neste submenu o utilizador deve preencher os seguintes campos:
 
 
 |Campo| Descrição|
