@@ -12,6 +12,7 @@ No sentido de facilitar os processos internos de cada instituição e no âmbito
 
 <div style="padding-left:40px">Devem as entidades verificar/alterar os dados relativos à instituição.
 </br>Esta parametrização pode ser visualizada neste menu:</div>
+
 ![](https://spmssicc.github.io/pages/markdown/check_list.assets/check_list-8a443183.png)
 
 <div style="padding-top:20px">
