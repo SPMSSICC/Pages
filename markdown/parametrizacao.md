@@ -346,7 +346,7 @@ Formulário de parametrização:
 | Classificador económico | Informação relativa ao classificador económico. No caso da inserção de uma nova conta, o utilizador tem acesso a uma listagem de classificadores económicos, carregando no círculo ![radio](https://spmssicc.github.io/pages/markdown/menus.assets/img_radio.png) à direita do campo de código. A descrição do classificador económico será colocada automaticamente pelo sistema. |
 
 ##### Desdobramento de Contas
-</br>Quando o utilizador pretende desdobrar uma conta deve ele seguir o seguinte processo:
+Quando o utilizador pretende desdobrar uma conta deve ele seguir o seguinte processo:
 
 1. Deve o utilizador selecionar a conta que pretende desdobrar;
 2. Indicar que a conta selecionada passa a ser de acumulação;
