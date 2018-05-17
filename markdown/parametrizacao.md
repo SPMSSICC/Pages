@@ -445,6 +445,71 @@ No ecrã que é aberto, o utilizador pode consultar, desdobrar e abater rubricas
 
 O processo de desdobramento de uma rubrica orçamental segue a mesma lógica que o processo de desdobramento de contas no Plano de Contas descrito em 1.3.1.1.
 
+#### 3.1.5. Saldos Iniciais/Entidade
+
+Pode o utilizador introduzir no sistema os saldos iniciais por conta e por entidade.
+
+Para o efeito deve o utilizador seguir o seguinte caminho na aplicação:
+
+![](https://spmssicc.github.io/pages/markdown/parametrizacao.assets/parametrizacao-dd7d51e3.png)
+
+No ecrã aberto, o utilizador pode visualizar e/ou inserir os saldos iniciais por cada conta por cada entidade.
+
+![](https://spmssicc.github.io/pages/markdown/parametrizacao.assets/parametrizacao-a25ab278.png)
+
+>**NOTA:** Caso a instituição tenha mais do que um departamento, deve a mesma indicar a que departamento se referem os saldos inicias a introduzir. Esta indicação é feita no campo apresentado seguidamente.
+
+![](https://spmssicc.github.io/pages/markdown/parametrizacao.assets/parametrizacao-6bae1791.png)
+
+Para inserir saldos iniciais deve o utilizador:
+
+1. Clicar em "+ Novo"
+2. Indicar a conta no respetivo campo
+3. Primir na tecla TAB para validar a conta inserida
+4. Indicar, no campo "Entidade", a entidade àqual se refere o saldo inicial
+5. Primir na tecla TAB para validar a entidade inserida
+6. Indicar com **R** de receita ou **D** de Despesa o tipo da conta
+7. Indicar nos campos respetivos, os elementos da chave orçamental (facultativo)
+8. Indicar o valor a débito **ou** a crédito (consoante o pretendido)
+9. Clicar em "Confirmar"
+
+![](https://spmssicc.github.io/pages/markdown/parametrizacao.assets/parametrizacao-64530d74.png)
+
+Findo o preenchimento dos saldos iniciais, o utilizador pode exportar a tabela completa para um ficheiro CSV. Para isso, deve o utilizador selecionar a diretoria do seu computador onde pretende guardar o ficheiro e de seguida deve clicar em "Ficheiro".
+
+![](https://spmssicc.github.io/pages/markdown/parametrizacao.assets/parametrizacao-9381bb59.png)
+
+O aspeto do CSV gerado é como o do apresentado seguidamente:
+
+![](https://spmssicc.github.io/pages/markdown/parametrizacao.assets/parametrizacao-6c0b4fd4.png)
+
+Esta informação relativa aos saldos iniciais pode ser integrada no sistema através da importação de um ficheiro CSV.
+Para o efeito deve o utilizador clicar em "Importar".
+
+![](https://spmssicc.github.io/pages/markdown/parametrizacao.assets/parametrizacao-57fccd2f.png)
+
+De seguida, na janela aberta, deve o utilizador selecionar o ficheiro CSV a importar, da diretoria do seu computador e validar o mesmo clicando em "Ver/Testar Ficheiro"
+
+![](https://spmssicc.github.io/pages/markdown/parametrizacao.assets/parametrizacao-80d6af8a.png)
+
+Caso o ficheiro não apresentar nenhuns erros de estrutura, os dados do mesmo ficarão apresentados na janela de cima.
+
+Caso o ficheiro apresente erros, os mesmos ficarão apresentados na janela de baixo do ecrã. Deve o utilizador corrigir os mesmo e testar novamente o ficheiro.
+
+Para finalizar a importação, deve o utilizador clicar em "Importar Ligação".
+
+![](https://spmssicc.github.io/pages/markdown/parametrizacao.assets/parametrizacao-580ff49b.png)
+
+O aspeto do ficheiro CSV é o abaixo demonstrado, sendo que o mesmo deve obedecer ao critério das colunas estipuladas, para efeito de carregamento.
+
+> **NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
+
+![](https://spmssicc.github.io/pages/markdown/parametrizacao.assets/parametrizacao-05666b2d.png)
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/csv_sldini.csv'">Descarregar CSV</button>
+</div>
+
 ### 3.2. Gestão de Tabelas
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-64fc7489.png)
