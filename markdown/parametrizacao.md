@@ -447,9 +447,9 @@ O processo de desdobramento de uma rubrica orçamental segue a mesma lógica que
 
 #### 3.1.5. Saldos Iniciais/Entidade
 
-Pode o utilizador introduzir no sistema os saldos iniciais por conta e por entidade.
+Pode o utilizador introduzir no sistema os saldos iniciais por conta e por entidade. **Estes saldos apenas se refletirão no ficheiro BA S3CP**.
 
-Para o efeito deve o utilizador seguir o seguinte caminho na aplicação:
+</br>Para o efeito deve o utilizador seguir o seguinte caminho na aplicação:
 
 ![](https://spmssicc.github.io/pages/markdown/parametrizacao.assets/parametrizacao-dd7d51e3.png)
 
