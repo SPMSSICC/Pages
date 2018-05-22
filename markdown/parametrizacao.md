@@ -483,6 +483,8 @@ O aspeto do CSV gerado é como o do apresentado seguidamente:
 
 ![](https://spmssicc.github.io/pages/markdown/parametrizacao.assets/parametrizacao-6c0b4fd4.png)
 
+##### 3.1.5.1. Importação Saldos Iniciais
+
 Esta informação relativa aos saldos iniciais pode ser integrada no sistema através da importação de um ficheiro CSV.
 Para o efeito deve o utilizador clicar em "Importar".
 
