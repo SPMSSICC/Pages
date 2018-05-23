@@ -108,7 +108,7 @@ São apresentadas, seguidamente, tabelas com a listagem e respectiva descrição
 
 ### 4.1.  Despesa de Fundos Próprios
 
-![](https://spmssicc.github.io/pages/markdown/cer_migracao_sicc.assets/cer_migracao_sicc-ed4075d7.png)
+![](https://spmssicc.github.io/pages/markdown/cer_migracao_sicc.assets/cer_migracao_sicc-e00fe481.png)
 
 Regras e considerações de relevo do fluxo:
 
@@ -120,7 +120,7 @@ Regras e considerações de relevo do fluxo:
 
 ### 4.2 Receita de Fundos Próprios
 
-![](https://spmssicc.github.io/pages/markdown/cer_migracao_sicc.assets/cer_migracao_sicc-8f7e64ab.png)
+![](https://spmssicc.github.io/pages/markdown/cer_migracao_sicc.assets/cer_migracao_sicc-eb07e506.png)
 
 Regras relevantes:
 
@@ -232,192 +232,213 @@ Quando o ficheiro é preenchido em Excel o processo para guardar o ficheiro de f
 
 Os nomes com os quais os ficheiros devem ser guardados encontram-se seguidamente apresentados:
 
-|Dimensão | NOME FICHEIRO|
-|:---|:---|
-|Plano de Contas    | PCONTAS   |
-|Entidades    | ENTIDADE    |
-|Centros de Custos    |CCUSTOS    |
-|Contabilidade analítica    |CONTAANA    |
-|Contabilidade Geral    |CONTABIL    |
-|Contabilidade Orçamental    |CONTAORC    |
-|Contabilidade Pública    |CPUBLICA    |
-|Cabeçalhos dos documentos contabilísticos    |DOCCABS   |
-|Registos Contabilísticos Relacionados    |DOCLIGA   |
+| Dimensão                                  | NOME FICHEIRO |
+|:------------------------------------------|:--------------|
+| Entidades                                 | ENTIDADE      |
+| Tipos de entidade                         | TTIPOENT      |
+| Fatores de Aglutinação                    | TFACAGLU      |
+| Plano de Contas                           | PCONTAS       |
+| Centros de Custos                         | CCUSTOS       |
+| Contabilidade analítica                   | CONTAANA      |
+| Contabilidade Geral                       | CONTABIL      |
+| Contabilidade Orçamental                  | CONTAORC      |
+| Contabilidade Pública                     | CPUBLICA      |
+| Cabeçalhos dos documentos contabilísticos | DOCCABS       |
+| Registos Contabilísticos Relacionados     | DOCLIGA       |
 
+### 6.1. Entidades
 
-
-### 6.1. Plano de Contas
-
-| ID     | Campo                                 | Tipo            | Obrig | Descrição                                   |
-|:--------:|---------------------------------------|:-----------------:|:-------:|---------------------------------------------|
-| 4.1.1  | Ano                                   | Numérico (4)    | **Sim**   | Ano do exercício                            |
-| 4.1.2  | Conta                                 | Texto (50)      | **Sim**  | Código da conta                             |
-| 4.1.3  | Nome                                  | Texto (100)     | **Sim**    | Nome da conta                               |
-| 4.1.4  | Tipo                                  | Texto (1)       | **Sim**    | (**M**)ovimentação/(**A**)cumulação         |
-| 4.1.5  | Grau                                  | Numérico        | Não   | Grau da conta                               |
-| 4.1.6  | Conta do exercício anterior           | Texto (50)      | Não   | Conta homóloga no exercício fiscal anterior |
-| 4.1.7  | Conta analítica                       | Texto (50)      | Não   | Código da conta analítica                   |
-| 4.1.8  | Saldo inicial a crédito de balanço    | Numérico (22,2) | Não   | Valores de balanço N-1 a débito             |
-| 4.1.9  | Saldo inicial a débito de balanço     | Numérico (22,2) | Não   | Valores de balanço N-1 a crédito            |
-| 4.1.10 | Saldo inicial a crédito de resultados | Numérico (22,2) | Não   | Valores de resultados N-1 a débito          |
-| 4.1.11 | Saldo inicial a débito de resultados  | Numérico (22,2) | Não   | Valores de resultados N-1 a crédito         |
-| 4.1.12 | Classificador económico               | Texto (50)      | Não   | Classificador económico da conta            |
-| 4.1.13 | Rubrica financeira                    | Texto (50)      | Não   | Rubrica financeira da conta                 |
-
-<div style="height:40px">
-<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/Plano_de_Contas.csv'">Descarregar CSV</button>
-</div>
-
-### 6.2. Entidades
-| ID     | Campo                        | Tipo         | Obrig | Descrição                                |
-|:--------:|------------------------------|:--------------:|:-------:|------------------------------------------|
-| 4.2.1  | Código                       | Numérico     | **Sim**    | Identificador numérico da entidade       |
-| 4.2.2  | Nome                         | Texto (100)  | **Sim**    | Designação da entidade                   |
-| 4.2.3  | Tipo                         | Numérico     | **Sim**    | Código identificador do tipo de entidade |
-| 4.2.4  | Contacto                     | Texto (100)  | Não   | Contacto preferencial da entidade        |
-| 4.2.5  | Morada                       | Texto (100)  | Não   | Endereço postal da entidade              |
-| 4.2.6  | Telefone 1                   | Texto (15)   | Não   | Contacto telefónico primário             |
-| 4.2.7  | Telefone 2                   | Texto (15)   | Não   | Contacto telefónico alternativo          |
-| 4.2.8  | Telefone 3                   | Texto (15)   | Não   | Contacto telefónico alternativo          |
-| 4.2.9  | Fax                          | Texto (15)   | Não   | Contacto fax                             |
-| 4.2.10 | Localidade                   | Texto (100)  | Não   | Nome da localidade                       |
-| 4.2.11 | Código Postal (4 algarismos) | Numérico     | Não   | Primeiros 4 algarismos do Código Postal  |
-| 4.2.12 | Código Postal (3 algarismos) | Texto (3)    | Não   | Últimos 3 algarismos do CP               |
-| 4.2.13 | IBAN 1                       | Texto (34)   | Não   | IBAN da entidade                         |
-| 4.2.14 | IBAN 2                       | Texto (34)   | Não   | IBAN de Factoring                        |
-| 4.2.15 | N.º/código contribuinte      | Texto (25)   | Não   | Identificador alfanumérico               |
-| 4.2.16 | Observações                  | Texto (1000) | Não   |                                          |
-| 4.2.17 | Prazo de vencimento (dias)   | Numérico     | Não   | N.º de dias de vencimento                |
-| 4.2.18 | Limite de crédito            | Numérico     | Não   |                                          |
-| 4.2.19 | Email                        | Texto (100)  | Não   | Endereço de correio eletrónico           |
+|   ID   | Campo                        |     Tipo     |  Obrig  | Descrição                                      |
+|:------:|------------------------------|:------------:|:-------:|------------------------------------------------|
+| 6.1.1  | Código                       |   Numérico   | **Sim** | Identificador numérico da entidade             |
+| 6.1.2  | Nome                         | Texto (100)  | **Sim** | Designação da entidade                         |
+| 6.1.3  | Tipo                         |   Numérico   | **Sim** | Código identificador do tipo de entidade       |
+| 6.1.4  | Contacto                     | Texto (100)  |   Não   | Contacto preferencial da entidade              |
+| 6.1.5  | Morada                       | Texto (100)  |   Não   | Endereço postal da entidade                    |
+| 6.1.6  | Telefone 1                   |  Texto (15)  |   Não   | Contacto telefónico primário                   |
+| 6.1.7  | Telefone 2                   |  Texto (15)  |   Não   | Contacto telefónico alternativo                |
+| 6.1.8  | Telefone 3                   |  Texto (15)  |   Não   | Contacto telefónico alternativo                |
+| 6.1.9  | Fax                          |  Texto (15)  |   Não   | Contacto fax                                   |
+| 6.1.10 | Localidade                   | Texto (100)  |   Não   | Nome da localidade                             |
+| 6.1.11 | Código Postal (4 algarismos) |   Numérico   |   Não   | Primeiros 4 algarismos do Código Postal        |
+| 6.1.12 | Código Postal (3 algarismos) |  Texto (3)   |   Não   | Últimos 3 algarismos do CP                     |
+| 6.1.13 | IBAN 1                       |  Texto (34)  |   Não   | IBAN da entidade                               |
+| 6.1.14 | IBAN 2                       |  Texto (34)  |   Não   | IBAN de Factoring                              |
+| 6.1.15 | N.º/código contribuinte      |  Texto (25)  |   Não   | Identificador alfanumérico                     |
+| 6.1.16 | Observações                  | Texto (1000) |   Não   |                                                |
+| 6.1.17 | Prazo de vencimento (dias)   |   Numérico   |   Não   | N.º de dias de vencimento                      |
+| 6.1.18 | Limite de crédito            |   Numérico   |   Não   |                                                |
+| 6.1.19 | Email                        | Texto (100)  |   Não   | Endereço de correio eletrónico                 |
+| 6.1.20 | Factor de aglutinação        |   Numérico   | **Sim** | Identificador numérico do fator de aglutinação |
 
 <div style="height:40px">
-<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/Entidades.csv'">Descarregar CSV</button>
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/ENTIDADE.csv'">Descarregar CSV</button>
 </div>
 
-### 6.3. Centros de Custos
-
-| ID    | Campo                            | Tipo        | Obrig | Descrição                                                           |
-|:-------:|----------------------------------|:-------------:|:-------:|---------------------------------------------------------------------|
-| 4.3.1 | Ano                              | Numérico    | **Sim**    | Formato: 2016                                                       |
-| 4.3.2 | Identificador do Centro de Custo | Texto (10)  | **Sim**    | Código do centro de custo                                           |
-| 4.3.3 | Nome                             | Texto (100) | Não   | Designação do centro de custo                                       |
-| 4.3.4 | Tipo                             | Texto (1)   | Não   | Identificador do tipo da conta: (**M**)ovimento ou (**A**)cumulação |
-| 4.3.5 | Centro de custo de acumulação    | Texto (20)  | Não   | Código do centro de custo de acumulação                             |
+### 6.2. Tipos de entidades
+|   ID   | Campo                           |    Tipo    |  Obrig  | Descrição                                  |
+|:------:|---------------------------------|:----------:|:-------:|--------------------------------------------|
+| 6.2.1  | Tipo de Entidade                |  Numérico  | **Sim** | Identificador numérico do tipo de entidade |
+| 6.2.2. | Designação do tipo de entidade | Texto (30) | **Sim** |                                            |
 
 <div style="height:40px">
-<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/Centros_de_Custos.csv'">Descarregar CSV</button>
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/TTIPOENT.csv'">Descarregar CSV</button>
 </div>
 
-### 6.4. Contabilidade Analítica
+### 6.3. Factores de aglutinação
 
-| ID     | Campo                 | Tipo            | Obrig | Descrição                                                                 |
-|:--------:|-----------------------|:-----------------:|:-------:|---------------------------------------------------------------------------|
-| 4.4.1  | Entidade do documento | Numérico        | **Sim**    | Identificador numérico da entidade                                        |
-| 4.4.2  | Tipo de documento     | Texto (2)       | **Sim**    | Identificador alfanumérico do tipo de documento contabilístico do sistema |
-| 4.4.3  | Ano de documento      | Numérico (4)    | **Sim**    | Identificador do ano                                                      |
-| 4.4.4  | N.º de documento      | Numérico        | **Sim**    | Identificador do documento                                                |
-| 4.4.5  | Ordem                 | Numérico        | **Sim**    | Ordem do registo contabilístico no documento                              |
-| 4.4.6  | Estado                | Numérico        | Não   | Estado de contabilização (contabilizado ou não)                           |
-| 4.4.7  | Conta                 | Texto (50)      | Não   | Código da conta                                                           |
-| 4.4.8  | Centro de custo       | Texto (20)      | Não   |                                                                           |
-| 4.4.9  | Conta analítica       | Texto (50)      | Não   |                                                                           |
-| 4.4.10 | Débito                | Numérico (22,2) | Não | Conta movimento a débito.|
-| 4.4.11 | Crédito               | Numérico (22,2) | Não    |Conta movimento a crédito|
-| 4.4.12 | Descrição             | Texto (100)     | Não   |              |
+|   ID   | Campo                              |    Tipo     |  Obrig  | Descrição                                      |
+|:------:|------------------------------------|:-----------:|:-------:|------------------------------------------------|
+| 6.3.1  | Fator de Aglutinação               |  Numérico   | **Sim** | Identificador numérico do fator de aglutinação |
+| 6.3.2. | Designação do fator de aglutinação | Texto (100) | **Sim** |                                                |
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/TFACAGLU.csv'">Descarregar CSV</button>
+</div>
+
+### 6.4. Plano de Contas
+
+|   ID   | Campo                                 |      Tipo       |  Obrig  | Descrição                                   |
+|:------:|---------------------------------------|:---------------:|:-------:|---------------------------------------------|
+| 6.4.1  | Ano                                   |  Numérico (4)   | **Sim** | Ano do exercício                            |
+| 6.4.2  | Conta                                 |   Texto (50)    | **Sim** | Código da conta                             |
+| 6.4.3  | Nome                                  |   Texto (100)   | **Sim** | Nome da conta                               |
+| 6.4.4  | Tipo                                  |    Texto (1)    | **Sim** | (**M**)ovimentação/(**A**)cumulação         |
+| 6.4.5  | Grau                                  |    Numérico     |   Não   | Grau da conta                               |
+| 6.4.6  | Conta de acumulação                   |   Texto (50)    |   Não   | Conta homóloga no exercício fiscal anterior |
+| 6.4.7  | Conta analítica                       |   Texto (50)    |   Não   | Código da conta analítica                   |
+| 6.4.8  | Saldo inicial a crédito de balanço    | Numérico (22,2) |   Não   | Valores de balanço N-1 a débito             |
+| 6.4.9  | Saldo inicial a débito de balanço     | Numérico (22,2) |   Não   | Valores de balanço N-1 a crédito            |
+| 6.4.10 | Saldo inicial a crédito de resultados | Numérico (22,2) |   Não   | Valores de resultados N-1 a débito          |
+| 6.4.11 | Saldo inicial a débito de resultados  | Numérico (22,2) |   Não   | Valores de resultados N-1 a crédito         |
+| 6.4.12 | Classificador económico               |   Texto (50)    |   Não   | Classificador económico da conta            |
+| 6.4.13 | Rubrica financeira                    |   Texto (50)    |   Não   | Rubrica financeira da conta                 |
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/PCONTAS.csv'">Descarregar CSV</button>
+</div>
+
+
+### 6.5. Centros de Custos
+
+|  ID   | Campo                            |    Tipo     |  Obrig  | Descrição                                                           |
+|:-----:|----------------------------------|:-----------:|:-------:|---------------------------------------------------------------------|
+| 6.5.1 | Ano                              |  Numérico   | **Sim** | Formato: 2016                                                       |
+| 6.5.2 | Identificador do Centro de Custo | Texto (10)  | **Sim** | Código do centro de custo                                           |
+| 6.5.3 | Nome                             | Texto (100) |   Não   | Designação do centro de custo                                       |
+| 6.5.4 | Tipo                             |  Texto (1)  |   Não   | Identificador do tipo da conta: (**M**)ovimento ou (**A**)cumulação |
+| 6.5.5 | Centro de custo de acumulação    | Texto (20)  |   Não   | Código do centro de custo de acumulação                             |
 
 <div style="height:40px">
-<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/Contabilidade_Analítica.csv'">Descarregar CSV</button>
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/CCUSTOS.csv'">Descarregar CSV</button>
 </div>
 
-### 6.5. Contabilidade Geral
+### 6.6. Contabilidade Analítica
+
+|   ID   | Campo                 |      Tipo       |  Obrig  | Descrição                                                                 |
+|:------:|-----------------------|:---------------:|:-------:|---------------------------------------------------------------------------|
+| 6.6.1  | Entidade do documento |    Numérico     | **Sim** | Identificador numérico da entidade                                        |
+| 6.6.2  | Tipo de documento     |    Texto (2)    | **Sim** | Identificador alfanumérico do tipo de documento contabilístico do sistema |
+| 6.6.3  | Ano de documento      |  Numérico (4)   | **Sim** | Identificador do ano                                                      |
+| 6.6.4  | N.º de documento      |    Numérico     | **Sim** | Identificador do documento                                                |
+| 6.6.5  | Ordem                 |    Numérico     | **Sim** | Ordem do registo contabilístico no documento                              |
+| 6.6.6  | Estado                |    Numérico     |   Não   | Estado de contabilização (contabilizado ou não)                           |
+| 6.6.7  | Conta                 |   Texto (50)    |   Não   | Código da conta                                                           |
+| 6.6.8  | Centro de custo       |   Texto (20)    |   Não   |                                                                           |
+| 6.6.9  | Conta analítica       |   Texto (50)    |   Não   |                                                                           |
+| 6.6.10 | Débito                | Numérico (22,2) |   Não   | Conta movimento a débito.                                                 |
+| 6.6.11 | Crédito               | Numérico (22,2) |   Não   | Conta movimento a crédito                                                 |
+| 6.6.12 | Descrição             |   Texto (100)   |   Não   |                                                                           |
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/CONTAANA.csv'">Descarregar CSV</button>
+</div>
+
+### 6.7. Contabilidade Geral
 
 | ID     | Campo                    | Tipo            | Obrig | Descrição                                                                 |
 |:--------:|--------------------------|:-----------------:|:-------:|---------------------------------------------------------------------------|
-| 4.5.1  | Entidade do documento    | Numérico        | **Sim**    | Identificador numérico da entidade                                        |
-| 4.5.2  | Tipo de documento        | Texto (2)       | **Sim**    | Identificador alfanumérico do tipo de documento contabilístico do sistema |
-| 4.5.3  | Ano do documento         | Numérico (4)    | **Sim**    | Identificador do ano                                                      |
-| 4.5.4  | N.º do documento         | Numérico        | **Sim**    |                                                                           |
-| 4.5.5  | Ordem                    | Numérico        | **Sim**    | Posição do registo no documento                                           |
-| 4.5.6  | Estado de contabilização | Numérico        | **Sim**    | São possíveis os estados 0 e 2. O estado 0 corresponde ao contabilizado e o estado 2 ao não contabilizado                  |
-| 4.5.7  | Conta                    | Texto (50)      | **Sim**    | Código da conta                                                           |
-| 4.5.8  | Débito                   | Numérico (22,2) |**Sim**|Conta movimento a débito.       |
-| 4.5.9  | Crédito                  | Numérico (22,2) | **Sim**    |  Conta movimento a crédito.    |
-| 4.5.10 | Descrição                | Texto (100)     | Não   |                                                                           |
+| 6.7.1  | Entidade do documento    | Numérico        | **Sim**    | Identificador numérico da entidade                                        |
+| 6.7.2  | Tipo de documento        | Texto (2)       | **Sim**    | Identificador alfanumérico do tipo de documento contabilístico do sistema |
+| 6.7.3  | Ano do documento         | Numérico (4)    | **Sim**    | Identificador do ano                                                      |
+| 6.7.4  | N.º do documento         | Numérico        | **Sim**    |                                                                           |
+| 6.7.5  | Ordem                    | Numérico        | **Sim**    | Posição do registo no documento                                           |
+| 6.7.6  | Estado de contabilização | Numérico        | **Sim**    | São possíveis os estados 0 e 2. O estado 0 corresponde ao contabilizado e o estado 2 ao não contabilizado                  |
+| 6.7.7  | Conta                    | Texto (50)      | **Sim**    | Código da conta                                                           |
+| 6.7.8  | Débito                   | Numérico (22,2) |**Sim**|Conta movimento a débito.       |
+| 6.7.9  | Crédito                  | Numérico (22,2) | **Sim**    |  Conta movimento a crédito.    |
+| 6.7.10 | Descrição                | Texto (100)     | Não   |                                                                           |
 
 <div style="height:40px">
-<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/Contabilidade_geral.csv'">Descarregar CSV</button>
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/CONTABIL.csv'">Descarregar CSV</button>
 </div>
 
-### 6.6. Contabilidade Orçamental
+### 6.8. Contabilidade Orçamental
 
-| ID     | Campo                 | Tipo            | Obrig | Descrição                                                                 |
-|:--------:|-----------------------|:-----------------:|:-------:|---------------------------------------------------------------------------|
-| 4.6.1  | Entidade do documento | Numérico        | **Sim**    | Identificador numérico da entidade                                        |
-| 4.6.2  | Tipo de documento     | Texto (2)       | **Sim**    | Identificador alfanumérico do tipo de documento contabilístico do sistema |
-| 4.6.3  | Ano do documento      | Numérico (4)    | **Sim**    | Identificador do ano                                                      |
-| 4.6.4  | N.º do documento      | Numérico        | **Sim**    | Código identificador do documento                                         |
-| 4.6.5  | Ordem                 | Numérico        | **Sim**    | Posição do registo no documento                                           |
-| 4.6.6  | Estado                | Numérico        | **Sim**    |                                                                           |
-| 4.6.7  | Conta                 | Texto (50)      | **Sim**    | Código da conta                                                           |
-| 4.6.8  | Débito                | Numérico (22,2) | **Sim** |    Conta movimento a débito.      |
-| 4.6.9  | Crédito               | Numérico (22,2) | **Sim**    | Conta movimento a crédito           |
-| 4.6.10 | Descrição             | Texto (100)     | Não   |                                                                           |
+|   ID   | Campo                 |      Tipo       |  Obrig  | Descrição                                                                 |
+|:------:|-----------------------|:---------------:|:-------:|---------------------------------------------------------------------------|
+| 6.8.1  | Entidade do documento |    Numérico     | **Sim** | Identificador numérico da entidade                                        |
+| 6.8.2  | Tipo de documento     |    Texto (2)    | **Sim** | Identificador alfanumérico do tipo de documento contabilístico do sistema |
+| 6.8.3  | Ano do documento      |  Numérico (4)   | **Sim** | Identificador do ano                                                      |
+| 6.8.4  | N.º do documento      |    Numérico     | **Sim** | Código identificador do documento                                         |
+| 6.8.5  | Ordem                 |    Numérico     | **Sim** | Posição do registo no documento                                           |
+| 6.8.6  | Estado                |    Numérico     | **Sim** |                                                                           |
+| 6.8.7  | Conta                 |   Texto (50)    | **Sim** | Código da conta                                                           |
+| 6.8.8  | Débito                | Numérico (22,2) | **Sim** | Conta movimento a débito.                                                 |
+| 6.8.9  | Crédito               | Numérico (22,2) | **Sim** | Conta movimento a crédito                                                 |
+| 6.8.10 | Descrição             |   Texto (100)   |   Não   |                                                                           |
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/CONTAORC.csv'">Descarregar CSV</button>
+</div>
+
+### 6.9. Contabilidade Pública
+
+|  ID   | Campo                                 |    Tipo     |  Obrig  | Descrição                                                   |
+|:-----:|---------------------------------------|:-----------:|:-------:|-------------------------------------------------------------|
+| 6.9.1 | Ano                                   |  Numérico   | **Sim** | Identificador do ano                                        |
+| 6.9.2 | Classificador Económico               | Texto (20)  | **Sim** | Código da conta                                             |
+| 6.9.3 | D/R                                   |  Texto (1)  | **Sim** | Despesa/Receita                                             |
+| 6.9.4 | Nome                                  | Texto (100) |   Não   | Nome da conta                                               |
+| 6.9.5 | Tipo                                  |  Texto (1)  |   Não   | Identificador do tipo da conta: (M)ovimento ou (A)cumulação |
+| 6.9.6 | Classificador económico de acumulação | Texto (20)  |   Não   | Código do classificador económico de acumulação             |
 
 <div style="height:40px">
-<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/Contabilidade_orçamental.csv'">Descarregar CSV</button>
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/CPUBLICA.csv'">Descarregar CSV</button>
 </div>
 
-### 6.7. Contabilidade Pública
+### 6.10. Cabeçalhos dos documentos contabilísticos
 
-| ID    | Campo                                 | Tipo        | Obrig | Descrição                                                   |
-|:-------:|---------------------------------------|:-------------:|:-------:|-------------------------------------------------------------|
-| 4.7.1 | Ano                                   | Numérico    | **Sim**    | Identificador do ano                                        |
-| 4.7.2 | Conta                                 | Texto (20)  | **Sim**    | Código da conta                                             |
-| 4.7.3 | D/R                                   | Texto (1)   | **Sim**    | Despesa/Receita                                             |
-| 4.7.4 | Nome                                  | Texto (100) | Não   | Nome da conta                                               |
-| 4.7.5 | Tipo                                  | Texto (1)   | Não   | Identificador do tipo da conta: (M)ovimento ou (A)cumulação |
-| 4.7.6 | Classificador económico de acumulação | Texto (20)  | Não   | Código do classificador económico de acumulação             |
+|   ID   | Campo                |      Tipo       |  Obrig  | Descrição                                                                 |
+|:------:|----------------------|:---------------:|:-------:|---------------------------------------------------------------------------|
+| 6.10.1  | Entidade             |    Numérico     | **Sim** | Identificador numérico da entidade                                        |
+| 6.10.2  | Tipo                 |    Texto (2)    | **Sim** | Identificador alfanumérico do tipo de documento contabilístico do sistema |
+| 6.10.3  | Ano                  |  Numérico (4)   | **Sim** | Identificador do ano                                                      |
+| 6.10.4  | Numero               |    Numérico     | **Sim** |                                                                           |
+| 6.10.5  | Data                 |      Data       | **Sim** | Formato: 31/12/2017                                                       |
+| 6.10.6  | Valor                | Numérico (22,2) | **Sim** |                                                                           |
+| 6.10.7  | Data contabilística  |      Data       | **Sim** | Formato: 31/12/2017                                                       |
+| 6.10.8  | Arquivo              |    Numérico     | **Sim** |                                                                           |
+| 6.10.9  | Diário               |    Numérico     | **Sim** |                                                                           |
+| 6.10.10 | Instituição Bancária |   Texto (50)    |   Não   |                                                                           |
+| 6.10.11 | Data vencimento      |      Data       | **Sim** | Formato: 31/12/2017                                                       |
+| 6.10.12 | Dias vencimento      |    Numérico     | **Sim** |                                                                           |
 
 <div style="height:40px">
-<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/Contabilidade_pública.csv'">Descarregar CSV</button>
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/DOCCABS.csv'">Descarregar CSV</button>
 </div>
 
-### 6.8. Cabeçalhos dos documentos contabilísticos
-
-| ID     | Campo                           | Tipo            | Obrig | Descrição                                                                 |
-|:--------:|---------------------------------|:-----------------:|:-------:|---------------------------------------------------------------------------|
-| 4.8.1  | Entidade                        | Numérico        | **Sim**    | Identificador numérico da entidade                                        |
-| 4.8.2  | Tipo                            | Texto (2)       | **Sim**    | Identificador alfanumérico do tipo de documento contabilístico do sistema |
-| 4.8.3  | Ano                             | Numérico (4)    | **Sim**    | Identificador do ano                                                      |
-| 4.8.4  | Numero                          | Numérico        | **Sim**    |                                                                           |
-| 4.8.5  | Data                            | Data            | **Sim**    | Formato: 31/12/2016                                                       |
-| 4.8.6  | Valor                           | Numérico (22,2) | **Sim**    |                                                                           |
-| 4.8.7  | Data contabilística             | Data            | **Sim**    | Formato: 31/12/2016                                                       |
-| 4.8.8  | Arquivo                         | Numérico        | **Sim**    |                                                                           |
-| 4.8.9  | Diário                          | Numérico        | **Sim**    |                                                                           |
-| 4.8.10 | Instituição Bancária            | Texto (50)      | Não   |                                                                           |
-| 4.8.11 | Data vencimento                 | Data            | **Sim**    | Formato: 31/12/2016                                                       |
-| 4.8.12 | Dias vencimento                 | Numérico        | **Sim**    |                                                                           |
-
-<div style="height:40px">
-<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/cabecalhos_documentos.csv'">Descarregar CSV</button>
-</div>
-
-### 6.9. Registos de Documentos Relacionados
+### 6.11. Registos de Documentos Relacionados
 
 | ID    | Campo                                                             | Tipo      | Obrig | Descrição                                                                                                                                    |
 |:-------:|-------------------------------------------------------------------|:-----------:|:-------:|----------------------------------------------------------------------------------------------------------------------------------------------|
-| 4.9.1 | Documento subsequente - Entidade                                  | Numérico  | **Sim**    | Identificador numérico da entidade subsequente |
-| 4.9.2 | Documento subsequente - Tipo                                      | Texto (2) | **Sim**    | Identificador alfanumérico do tipo de documento contabilístico do sistema  |
-| 4.9.3 | Documento subsequente - Ano                                       | Numérico  | **Sim**    | Ano do documento subsequente                                                                                                                 |
-| 4.9.4 | Documento subsequente – Nº                                        | Numérico  | **Sim**    |                                                                                                                                              |
-| 4.9.5 | Nº de documentos subsequentes resultantes do documento precedente | Numérico  | **Sim**    | Ex.: Nº sequencial do subsequente com origem na mesma fatura |
-| 4.9.6 | Documento precedente - Entidade                                   | Numérico  | **Sim**    | Identificador numérico da entidade precedente                                                                                                |
-| 4.9.7 | Documento precedente - Tipo                                       | Texto (2) | **Sim**    | Identificador alfanumérico do tipo de documento contabilístico do sistema                                                                    |
-| 4.9.8 | Documento precedente - Ano                                        | Numérico  | **Sim**    | Documento imediatamente anterior a outro documento, conforme os fluxos financeiros do sistema. Ex: Cabimento (CB) precede o Compromisso (CM) |
-| 4.9.9 | Documento precedente – Nº                                         | Numérico  | **Sim**    |                                                                                                                                              |
+| 6.11.1 | Documento subsequente - Entidade                                  | Numérico  | **Sim**    | Identificador numérico da entidade subsequente |
+| 6.11.2 | Documento subsequente - Tipo                                      | Texto (2) | **Sim**    | Identificador alfanumérico do tipo de documento contabilístico do sistema  |
+| 6.11.3 | Documento subsequente - Ano                                       | Numérico  | **Sim**    | Ano do documento subsequente                                                                                                                 |
+| 6.11.4 | Documento subsequente – Nº                                        | Numérico  | **Sim**    |                                                                                                                                              |
+| 6.11.5 | Nº de documentos subsequentes resultantes do documento precedente | Numérico  | **Sim**    | Ex.: Nº sequencial do subsequente com origem na mesma fatura |
+| 6.11.6 | Documento precedente - Entidade                                   | Numérico  | **Sim**    | Identificador numérico da entidade precedente                                                                                                |
+| 6.11.7 | Documento precedente - Tipo                                       | Texto (2) | **Sim**    | Identificador alfanumérico do tipo de documento contabilístico do sistema                                                                    |
+| 6.11.8 | Documento precedente - Ano                                        | Numérico  | **Sim**    | Documento imediatamente anterior a outro documento, conforme os fluxos financeiros do sistema. Ex: Cabimento (CB) precede o Compromisso (CM) |
+| 6.11.9 | Documento precedente – Nº                                         | Numérico  | **Sim**    |                                                                                                                                              |
 
 <div style="height:40px">
-<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/Registos_contabilisticos_relacionados.csv'">Descarregar CSV</button>
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/DOCLIGA.csv'">Descarregar CSV</button>
 </div>
