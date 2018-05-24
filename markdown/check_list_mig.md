@@ -13,9 +13,9 @@ No sentido de facilitar os processos internos de cada instituição e no âmbito
 <div style="padding-left:40px"> Para utilização do sistema, cad aposto de trabalho necessita de:
 </br></br>
 - Ligação à RIS (Rede Informática da Saúde);</br>
-- Java 32 ou 64 bit, versão 7 ou versão 8 até ao uptade 121 (inclusive);</br>
+- Java 32 ou 64 bit, versão 7 ou versão 8 até ao update 121 (inclusivé);</br>
 - Internet Explorer até à versão 11 com Java ativado;</br>
-- Adicionar o endereço http://sicc.min-saude.pt às exceções do Java, através do menu Security > Edit SiteList
+- Adicionar o endereço http://10.20.1.172 às exceções do Java, através do menu Security > Edit SiteList
 </div>
 
 <div style="padding-top:20px">
@@ -176,7 +176,7 @@ Informamos ainda que o sistema RHV está a ser atualizado pela SPMS com as defin
 
 Após terem sido terminadas as tarefas descritas, a entidade passa a estar pronta para iniciar os registos contabilísticos em SNC-AP.
 
- A descrição deste processo poderá ser consultada nas secções <a href='https://spmssicc.github.io/pages/?doc=ciclo_despesa&anchor=ciclo-de-despesa' target='_blank'>Ciclo de Despesa</a>_ e <a href='https://spmssicc.github.io/pages/?doc=ciclo_receita' target='_blank'>Ciclo de Receita</a>_ do Manual de Utilizador SNC-AP. 
+ A descrição deste processo poderá ser consultada nas secções <a href='https://spmssicc.github.io/pages/?doc=ciclo_despesa&anchor=ciclo-de-despesa' target='_blank'>Ciclo de Despesa</a>_ e <a href='https://spmssicc.github.io/pages/?doc=ciclo_receita' target='_blank'>Ciclo de Receita</a>_ do Manual de Utilizador SNC-AP.
 
 
 <div style="background-color:#29615D; padding:10px; margin-top:30px; width:100%;border:5px">
