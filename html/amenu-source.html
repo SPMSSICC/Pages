@@ -15,11 +15,12 @@
              <ul>
                <li><div>Apresentações SNC-AP</div>
                  <ul style="padding-left:20px; font-size:0.9em">
-                   <li><div onclick="loadMdDoc('apresentação_20_nov_snc_ap', ['btnMenu','btnOpt'],'', event)">Apresentação SNC-AP (20 de novembro)</div></li>
-                   <li><div onclick="loadMdDoc('apresentacao_snc_ap', ['btnMenu','btnOpt'],'', event)">Apresentação SNC-AP (6 de junho)</div></li>
+                   <li><div onclick="loadMdDoc('apresentação_25_mai_des', ['btnMenu','btnOpt'],'', event)">Apresentação SNC-AP (25 de maio de 2018)</div></li>
+                   <li><div onclick="loadMdDoc('apresentação_20_nov_snc_ap', ['btnMenu','btnOpt'],'', event)">Apresentação SNC-AP (20 de novembro de 2017)</div></li>
+                   <li><div onclick="loadMdDoc('apresentacao_snc_ap', ['btnMenu','btnOpt'],'', event)">Apresentação SNC-AP (6 de junho de 2017)</div></li>
                  </ul>
               </li>
-               <li><div onclick="loadMdDoc('introducao', ['btnMenu','btnOpt'],'',event)">Manual de Utilizador SICC-SNC-AP</div>
+               <li><div onclick="loadMdDoc('introducao', ['btnMenu','btnOpt'],'',event)">Manual de Utilizador SICC SNC-AP</div>
                <ul style="padding-left:20px; font-size:0.9em">
                  <!-- <li><div onclick="loadMdDoc('mu_snc_ap', ['btnMenu','btnToc','btnOpt'],'', event)">Manual de Utilizador SICC-SNC-AP</div></li> -->
                  <li><div onclick="loadMdDoc('parametrizacao', ['btnMenu','btnToc','btnOpt'],'',event)">Parametrização</div></li>
@@ -36,7 +37,11 @@
                  <li><div onclick="loadMdDoc('utilitarios', ['btnMenu','btnToc','btnOpt'],'',event)">Utilitários</div></li>
                </ul>
               </li>
-               <li><div onclick="loadMdDoc('cer_migracao_sicc', ['btnMenu','btnToc','btnOpt'],'', event)">Migração de dados p/ SICC-SNC-AP</div></li>
+               <li><div onclick="loadMdDoc('cer_migracao_sicc', ['btnMenu','btnToc','btnOpt'],'', event)">Migração de dados p/ SICC-SNC-AP</div>
+                 <ul style="padding-left:20px; font-size:0.9em">
+                     <li><div onclick="loadMdDoc('check_list', ['btnMenu','btnToc','btnOpt'],'',event)">Checklist SNC-AP-SISBIT</div></li>
+                   <!-- <li><div onclick="loadMdDoc('check_list', ['btnMenu','btnToc','btnOpt'],'',event)">Checklist SNC-AP-SISBIT</div></li> -->
+                 </ul></li>
                <li><div onclick="loadMdDoc('snc_ap_faqs', ['btnMenu','btnToc','btnOpt'],'', event)">Perguntas Frequentes (FAQs)</div>
                 <ul style="padding-left:20px; font-size:0.9em">
                     <li><div onclick="loadMdDoc('vencimentos', ['btnMenu','btnOpt'],'', event)" >Processamento de Vencimentos</div></li>
@@ -67,15 +72,13 @@
         <li id="historico_atualizacoes">
            <div onclick="loadCommitHistory(['btnMenu'], event)"><i onclick="loadCommitHistory(['btnMenu'], event)" class="fa fa-list fa-fw" aria-hidden="true"></i>Histórico de atualizações</a></div>
         </li>
-        <li>
-          <a href="http://redmine.min-saude.pt/projects/spms-siccv1/wiki/Requisitos_de_Seguran%C3%A7a_de_Utiliza%C3%A7%C3%A3o_SICC" target="_blank" rel="noopener"><i class="fa fa-external-link fa-fw" aria-hidden="true"></i>Requisitos</a>
+        <li><a href="http://redmine.min-saude.pt/projects/spms-siccv1/wiki/Requisitos_de_Seguran%C3%A7a_de_Utiliza%C3%A7%C3%A3o_SICC" target="_blank" rel="noopener"><i class="fa fa-external-link fa-fw" aria-hidden="true"></i>Requisitos</a>
         </li>
-        <li><div id="manual_utilizador"><i class="fa fa-support fa-fw" aria-hidden="true"></i>Suporte</div>
+        <li id=manual_utilizador><div><i class="fa fa-support fa-fw" aria-hidden="true"></i>Suporte</div>
           <ul>
-            <li>
-              <a href="http://redmine.min-saude.pt/projects/spms-sidcv2/issues" target="_blank" rel="noopener"><i class="fa fa-support fa-fw" aria-hidden="true"></i>Suporte Técnico</a>
+            <li><a href="http://redmine.min-saude.pt/projects/spms-sidcv2/issues" target="_blank" rel="noopener"><i class="fa fa-support fa-fw" aria-hidden="true"></i>Suporte Técnico</a>
             </li>
-              <li><div onclick="loadMdDoc('redmine',['btnMenu','btnOpt','btnToc'],'', event)"><i class="fa fa-book fa-fw" aria-hidden="true"></i>Manual utilizador - REDMINE</div>
+            <li><div onclick="loadMdDoc('redmine',['btnMenu','btnOpt','btnToc'],'', event)"><i class="fa fa-book fa-fw" aria-hidden="true"></i>Manual utilizador - REDMINE</div>
           </ul>
             <li id="ajuda">
            <div onclick="loadMdDoc('help',['btnMenu','btnToc','btnOpt'],'', event)"><i onclick="loadMdDoc('help',['btnMenu','btnToc','btnOpt'],'', event)" class="fa  fa-question-circle-o fa-fw" aria-hidden="true"></i>Ajuda</a></div>

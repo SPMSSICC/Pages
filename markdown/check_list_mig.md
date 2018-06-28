@@ -10,7 +10,7 @@ No sentido de facilitar os processos internos de cada instituição e no âmbito
 <label class="container"> 1. Garantir os requisitos informáticos <input type="checkbox"> <span class="checkmark"></span></label>
 </div>
 
-<div style="padding-left:40px"> Para utilização do sistema, cad aposto de trabalho necessita de:
+<div style="padding-left:40px"> Para utilização do sistema, cada posto de trabalho necessita de:
 </br></br>
 - Ligação à RIS (Rede Informática da Saúde);</br>
 - Java 32 ou 64 bit, versão 7 ou versão 8 até ao update 121 (inclusivé);</br>
@@ -35,7 +35,7 @@ No sentido de facilitar os processos internos de cada instituição e no âmbito
 |**Classificadores Económicos**   |Consultar <a href='https://spmssicc.github.io/pages/?doc=cer_migracao_sicc&anchor=69-contabilidade-p%C3%BAblica' target='_blank'>Capítulo 6.9 Contabilidade Pública</a>  |<a href='https://spmssicc.github.io/pages/markdown/docs_excel/CPUBLICA.csv'> Ficheiro</a>   |
 
 
->**NOTA:** Solicita-se que seja dada a devida atenção aos formatos dos ficheiros aquando a gravação dos mesmos. As características dos ficheiros podem ser consultadas no Capítulo 6 - Estrutura da informação a carregar, em Migração de dados p/SICC SNC-AP, do menu SNC-AP disponível também <a href='https://spmssicc.github.io/pages/?doc=cer_migracao_sicc&anchor=6-estrutura-da-informa%C3%A7%C3%A3o-a-carregar' target='_blank'> aqui </a>_
+>**NOTA:** Solicita-se que seja dada a devida atenção aos **formatos e nomes dos ficheiros** aquando a gravação dos mesmos. As características dos ficheiros podem ser consultadas no Capítulo 6 - Estrutura da informação a carregar, em Migração de dados p/SICC SNC-AP, do menu SNC-AP disponível também <a href='https://spmssicc.github.io/pages/?doc=cer_migracao_sicc&anchor=6-estrutura-da-informa%C3%A7%C3%A3o-a-carregar' target='_blank'> aqui </a>_
 
 
 <div style="padding-top:20px">
