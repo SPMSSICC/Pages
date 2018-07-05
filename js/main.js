@@ -23,7 +23,7 @@ var uAgent = window.navigator.userAgent.toUpperCase()
   , mobileDeviceCheck = (/android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(navigator.userAgent.toLowerCase()))
   , arrDocs = []
   , reformatedArrDocs = []
-  , arrDocNames = [ 'about','analitica','apresentacao_snc_ap','apresentação_20_nov_snc_ap', 'apresentação_25_mai_des','atual_sist_16_mar','atual_sist_2_mar', 'atual_sist_9_mar','introducao','parametrizacao','orcamento','ciclo_despesa','ciclo_receita','fundos_alheios','operacoes_diversas', 'gestao_tesouraria', 'gestao_terceiros', 'dec.lei_2213_2018', 'contab_geral', 'utilitarios','scp', 'atual_sist_25_mai', 'atual_sist_31_mai','atual_sist_29_jun','atual_sist_7_jun','atual_sist_18_mai','atual_sist_11_mai','atual_sist_4_mai','atual_sist_27_abr','atual_sist_20_abr','atual_sist_13_abr','atual_sist_6_abr','atual_sist_29_mar','atual_sist_23_mar','atual_sist_23_fev','atual_sist_16_fev','atual_sist_9_fev','atual_sist_8_fev','atual_sist_2_fev','atual_sist_12_jan','atual_sist_19_jan','atual_sist_26_jan','check_list','cer_migracao_sicc','chave_orcamental_por_ano','circ1381','circ1382','dec_lei85','dec_lei192','documentos_af_e_ar','gestao_exercicios','gestao_projetos','help','check_list_mig','importacao_csvs','macro_tarefas','menus_draft','menus','perguntas_frequentes','processos','redmine','reposicao_pagamentos_cobrancas','snc_ap_faqs','vencimentos']
+  , arrDocNames = [ 'about','analitica','apresentacao_snc_ap','apresentação_20_nov_snc_ap', 'apresentação_25_mai_des','atual_sist_16_mar','atual_sist_2_mar', 'atual_sist_9_mar','introducao','parametrizacao','orcamento','ciclo_despesa','ciclo_receita','fundos_alheios','operacoes_diversas', 'gestao_tesouraria', 'gestao_terceiros', 'dec.lei_2213_2018', 'contab_geral', 'utilitarios','scp', 'atual_sist_25_mai', 'atual_sist_31_mai','atual_sist_6_jul','atual_sist_29_jun','atual_sist_7_jun','atual_sist_18_mai','atual_sist_11_mai','atual_sist_4_mai','atual_sist_27_abr','atual_sist_20_abr','atual_sist_13_abr','atual_sist_6_abr','atual_sist_29_mar','atual_sist_23_mar','atual_sist_23_fev','atual_sist_16_fev','atual_sist_9_fev','atual_sist_8_fev','atual_sist_2_fev','atual_sist_12_jan','atual_sist_19_jan','atual_sist_26_jan','check_list','cer_migracao_sicc','chave_orcamental_por_ano','circ1381','circ1382','dec_lei85','dec_lei192','documentos_af_e_ar','gestao_exercicios','gestao_projetos','help','check_list_mig','importacao_csvs','macro_tarefas','menus_draft','menus','perguntas_frequentes','processos','redmine','reposicao_pagamentos_cobrancas','snc_ap_faqs','vencimentos']
   , lastSearchStr = "";
 /*Carregar documento através de parametros no URL (queryString)*/
 function loadFirstContent(){
@@ -806,5 +806,14 @@ function startDictation() {
       $(".speech img").css({'background-color':'rgba(252,0,0,0)'});
       $("#textToSearch").attr({'placeholder':'Texto a pesquisar...'});
     }
+  }
+}
+
+function atualizacao(id) {
+  var mes = document.getElementById(id);
+  if (mes.className.indexOf("w3-show") == -1) {
+    mes.className += "w3-show";
+  } else {
+    mes.className = mes.className.replace("w3-show", "");
   }
 }

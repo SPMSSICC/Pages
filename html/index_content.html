@@ -1,36 +1,96 @@
-<div>
-  <h1 style="text-align: center;padding: 0">Bem-vindo à página de documentação do SICC</h1>
-</div>
-<div id = "searchDiv">
+<div id="searchDiv">
   <div class="speech">
     <div class="search">
       <span><input id="textToFind" type="text" onblur="stopFindInDocs();" class="searchTerm" name="q" placeholder="Texto a pesquisar..."></span>
-      <span><button  id="btnSearch" style="float:right" class="searchButton" onclick="findInDocs();"><i class="fa fa-search fa-2x fa-fw"></i></button></span></div>
+      <span><button  id="btnSearch" style="float:right" class="searchButton" onclick="findInDocs();"><i class="fa fa-search fa-1x fa-fw"></i></button></span></div>
 
     </div>
   <!-- <span><img id="mic" onclick="startDictation()" src="./img/mic.gif" title="Selecione para falar"/></span> -->
+</div>
 
+<div>
+  <h1 style="text-align: center;padding: 0">Bem-vindo à página de documentação do SICC</h1>
+</div>
+
+<div class="painel">
+  <img src="img\logos\Noticia_SICC.jpg" >
 </div>
 
 <div id="novidadeSncAP">
-  <h2>Solução SNC-AP para entidades de saúde<br/></h2>
+  <!-- <h2>Solução SNC-AP para entidades de saúde</h2> -->
 
   <div class="barra">
-    <span  style="widht:80%;height:100px">
-      <div class="quick_acess" onclick="loadUpgrades(['btnMenu'], event)">
+    <h2>Solução SNC-AP para entidades de saúde</h2>
+    <!-- <span  style="width:90%;height:100px; margin-left:auto; margin-right:auto; border: 1px solid black"> -->
+
+<div class="row">
+
+  <div class="col-6">
+    <div class="card h-50">
+      <img style="height:70%" class="card-img-top" src="img\logos\atualizacao_1.png" alt="Card image">
+      <div class="card-body" title="Ver as atualizações do SICC SNC-AP" onclick="loadUpgrades(['btnMenu'], event)">
+        <h5 class="card-tittle" >Atualizações SICC <i class="fa fa-angle-right" style="float:right"></i></h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-6">
+    <div class="card h-50">
+        <img style="height:70%" class="card-img-top" src="img\logos\Checklist_1.jpg" alt="Card image">
+      <div class="card-body" title="Ver a Checklist-migração" onclick="loadMdDoc('check_list_mig', ['btnMenu','btnOpt'],'', null)">
+        <h5 class="card-tittle" >Checklist<i class="fa fa-angle-right" style="float:right"></i></h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-6">
+    <div class="card h-50">
+      <img style="height:70%" class="card-img-top" src="img\logos\avaliação institucional.jpg" alt="Card image">
+      <div class="card-body" title="Responder ao Questionário" onclick="window.open('https://goo.gl/forms/VqiKTBR15gcGXI1k2','_blank')">
+        <h5 class="card-tittle" >Questionário <i class="fa fa-angle-right" style="float:right"></i></h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-6">
+    <div class="card h-50">
+      <img style="height:70%" class="card-img-top" src="img\logos\doc_legal.jpg" alt="Card image">
+      <div class="card-body" title="Despacho nº 2213/2018" onclick="loadMdDoc('dec.lei_2213_2018', ['btnMenu','btnOpt'],'', null)">
+        <h5 class="card-tittle" >Documentação Legal <i class="fa fa-angle-right" style="float:right"></i></h5>
+      </div>
+    </div>
+  </div>
+  <div class="col-6">
+    <div class="card h-50">
+      <img style="height:70%" class="card-img-top" src="img\logos\presentation.jpg" alt="Card image">
+      <div class="card-body" title="Apresentação 20 de novembro 2017" onclick="loadMdDoc('apresentação_20_nov_snc_ap', ['btnMenu','btnOpt'],'', null)">
+        <h5 class="card-tittle" >Apresentação <i class="fa fa-angle-right" style="float:right"></i></h5>
+      </div>
+    </div>
+  </div>
+  <div class="col-6">
+    <div class="card h-50">
+      <img style="height:70%" class="card-img-top" src="img\logos\FAQ.png" alt="Card image">
+      <div class="card-body" title="Perguntas frequentes" onclick="loadMdDoc('snc_ap_faqs', ['btnMenu','btnOpt','btnToc'],'', null)">
+        <h5 class="card-tittle" >Perguntas Frequentes <i class="fa fa-angle-right" style="float:right"></i></h5>
+      </div>
+    </div>
+  </div>
+
+      <!-- <div class="quick_acess" onclick="loadUpgrades(['btnMenu'], event)">
         <figure><i class="fa fa-refresh fa-fw fa-4x" aria-hidden="true"></i></figure>
         <p><span style="color:rgb(242, 157, 11)">*Novo*</span> Atualizações-Sistema</p>
       </div>
       <div class="quick_acess" onclick="loadMdDoc('check_list_mig', ['btnMenu','btnOpt'],'', null)">
         <figure><i class="fa fa-check-square-o fa-fw fa-4x" aria-hidden="true"></i></figure>
         <p><span style="color:rgb(242, 157, 11)">*Novo*</span>Checklist</p>
-      </div>
+      </div> -->
   <!-- <div class="quick_acess" onclick="window.open('https://goo.gl/forms/VqiKTBR15gcGXI1k2','_blank')" >
     <figure><i class="fa fa-pencil-square-o fa-fw fa-4x" aria-hidden="true"></i></figure>
     <p>Questionário</p>
   </div> -->
 
-    <div class="quick_acess" onclick="loadMdDoc('apresentação_20_nov_snc_ap', ['btnMenu','btnOpt'],'', null)">
+    <!-- <div class="quick_acess" onclick="loadMdDoc('apresentação_20_nov_snc_ap', ['btnMenu','btnOpt'],'', null)">
       <figure><i class="fa fa-object-group fa-fw fa-4x" aria-hidden="true"></i></figure>
       <p>Apresentação</p></div>
   <div class="quick_acess" onclick="loadMdDoc('dec.lei_2213_2018', ['btnMenu','btnOpt'],'', null)">
@@ -42,6 +102,9 @@
     <p>Perguntas Frequentes</p>
   </div>
 </span>
+</div> -->
+</div>
+<!-- </span> -->
 </div>
 </div>
 
@@ -49,13 +112,15 @@
   <span>Contacte-nos:</span>
     siccsncap@spms.min-saude.pt
 </div>
-<div id="mapaEntidadesSICC" style="center; padding: 5em 0 2em 0">
+<div id="mapaEntidadesSICC" style="align:center; padding: 5em 0 2em 0">
   <h3>Explore o mapa com as entidades de saúde SICC</h3>
-  <div class="overlay" onClick="style.pointerEvents='none';" title="clique/toque para explorar o mapa"></div>
+  <div onclick="style.pointerEvents='none';" title="clique/toque para explorar o mapa"></div>
   <iframe id="map" src="https://www.google.com/maps/d/embed?mid=1MMM44cpvZKWQzwYuXol7QyeRhdo"
                     title="Mapa Google com identificação das entidades SICC"
                     frameborder="0"
   </iframe>
   </div>
+
+
 
 <hr/>
