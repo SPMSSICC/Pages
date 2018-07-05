@@ -309,7 +309,7 @@ margin-top: 30px;
   border: none;
   color: #29615D;
   display:block;
-  height: 15px;
+  height: 4px;
   margin:4px 0px 4px 3px;
   padding: 14px 0 14px 0;
   position: absolute;
@@ -322,6 +322,7 @@ margin-top: 30px;
 background-color: rgba(0, 255, 79, 0.1);
 outline:none;
 }
+
 
 .searchButton {
 border:none;
