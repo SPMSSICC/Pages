@@ -305,11 +305,11 @@ margin-top: 30px;
   top:300px
 }
 #textToFind {
-  background:#fefefe;
+  background:none;
   border: none;
   color: #29615D;
   display:block;
-  height: 4px;
+  height:0.1em;
   margin:4px 0px 4px 3px;
   padding: 14px 0 14px 0;
   position: absolute;
