@@ -591,15 +591,24 @@ _Em atualização_
 ### 4.1. Gestão de Entidades
 
 ##### Recolhas
+
+Menu de acesso:
+
+![](https://spmssicc.github.io/pages/markdown/parametrizacao.assets/parametrizacao-ed2f10dc.png)
+
 Este ecrã permite ao utilizador manipular as informações relacionadas com a Gestão de Entidades.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-4fa5e9dd.png)
+![](https://spmssicc.github.io/pages/markdown/parametrizacao.assets/parametrizacao-f787c0fb.png)
+
+<!-- ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-4fa5e9dd.png) -->
 
 | Campo | Descrição |
 |:---|:---|
 | Número | Este campo identifica o número da entidade. Caso a entidade introduzida já exista, todos os campos são preenchidos com os dados anteriormente introduzidos, podendo o utilizador alterar a informação pretendida. Caso a entidade ainda não exista, é perguntado ao utilizador se pretende inserir uma nova (Esta entidade não existe, quer inserir uma nova?). Se o utilizador disser que Sim, todos os campos são limpos à exceção do campo Número. Caso contrário são todos os campos limpos, incluindo o campo Número. |
 | Intragrupo | Este campo indica se a entidade é intragrupo ou não. Caso seja, é apresentado um campo com o descritivo do intragrupo.![intragrupo](https://spmssicc.github.io/pages/markdown/menus.assets/img_intragrupo.png) |
 | Entidade Parceira | Este campo indica se a entidade é uma entidade parceira ou não. Caso seja, é apresentado um campo com o descritivo da entidade parceira.![entidade_parceira](https://spmssicc.github.io/pages/markdown/menus.assets/img_entidade_parceira.png) |
+|Desativar Entidade   | A seleção desta opção permite ao utilizador manter a entidade no sistema mas não permitir que se façam registos para a mesma. ![](https://spmssicc.github.io/pages/markdown/parametrizacao.assets/parametrizacao-41585348.png)   |
+|Bloquear Pagamento   | Quando esta opção é selecionada, o sistema não permite o registo de Autorizações de Pagamento (AP) para esta entidade. ![](https://spmssicc.github.io/pages/markdown/parametrizacao.assets/parametrizacao-ca1e8198.png)   |
 | Tipo de Entidade | Identificação do tipo de entidade. Na inserção ou alteração de um registo, o utilizador carregando no círculo ![radio](https://spmssicc.github.io/pages/markdown/menus.assets/img_radio.png) entre o campo de código e descritivo pode obter uma listagem de todos os tipos de entidades disponíveis. |
 | Fator de Aglutinação | Identificação do fator de aglutinação. Na inserção ou alteração de um registo, o utilizador carregando no círculo ![radio](https://spmssicc.github.io/pages/markdown/menus.assets/img_radio.png) entre o campo de código e descritivo pode obter uma listagem de todos os fator de aglutinação disponíveis. |
 | Nome | Nome ou descrição da entidade. |
@@ -612,7 +621,7 @@ Este ecrã permite ao utilizador manipular as informações relacionadas com a G
 | Contacto | Responsável de relações públicas da entidade. |
 | Email | Endereço de correio eletrónico da entidade. |
 | Nº de Contribuinte | Número de identificação fiscal da entidade. |
-| Situação Contributiva | As explicações desta opção encontram-se no final das tabelas relacionadas com este ecrã. |
+| Situação Contributiva | A explicação desta opção encontra-se no final das tabelas relacionadas com este ecrã. |
 | Número - Entidade | Identificação da conta bancária associada à entidade. ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-57d9d844.png) </br></br> **Tipo:**NIB - Número de Identificação Bancária; IBAN - Número Internacional de Conta Bancária.![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-5361bafa.png) </br></br> **Número:** Número de conta bancária, no formato indicado pelo Tipo </br></br> **Swift:** Número de BIC (Bank Identifier Code), código que permite identificar bancos internacionais.</br></br> **Banco:** Designação da instituição bancária assignada à conta introduzida. Este campo é de preenchimento automático pelo sistema. |
 | Número - *Factoring*   | Identificação da conta Factoring. ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-6e755349.png) </br></br>**Número:** Identificação da conta bancário responsável pelo *factoring*. Na inserção ou alteração de um registo, o utilizador carregando no círculo ![radio](https://spmssicc.github.io/pages/markdown/menus.assets/img_radio.png) entre o campo de código e descritivo pode obter uma listagem de ajuda, com os dados já existentes no sistema. </br></br> **Nome Entidade:** Identificação da instituição bancária escolhida no campo anterior. Este campo é de preenchimento automático pelo sistema. |
 | Observações | Campo de observações onde estão ou devem ser colocadas todas as informações pretendidas pelo utilizador. |
@@ -667,6 +676,11 @@ Ao carregar no botão Situação Contributiva, é aberto o seguinte ecrã:
 
 ### 4.2. Tabela de Projectos
 ##### Recolhas
+
+Menu de acesso:
+
+![](https://spmssicc.github.io/pages/markdown/parametrizacao.assets/parametrizacao-469c30cf.png)
+
 Este ecrã permite ao utilizador manipular as informações relacionadas com a Tabela de Projectos.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-d431b719.png)
@@ -680,6 +694,11 @@ Este ecrã permite ao utilizador manipular as informações relacionadas com a T
 
 ### 4.3. Gestão de Entidades _Factoring_
 ##### Recolhas
+
+Menu de acesso:
+
+![](https://spmssicc.github.io/pages/markdown/parametrizacao.assets/parametrizacao-4246bf3a.png)
+
 Este ecrã permite ao utilizador manipular as informações relacionadas com a Gestão de Entidades *Factoring*.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-0df31f64.png)
@@ -704,8 +723,24 @@ Este ecrã permite ao utilizador manipular as informações relacionadas com a G
 | Observações | Campo de observações onde estão ou devem ser colocadas todas as informações pretendidas pelo utilizador. |
 
 ### 4.4. Gestão de Produtos
-##### Recolhas
-_Em actualização_
+##### Recolha
+
+Menu de acesso:
+![](https://spmssicc.github.io/pages/markdown/parametrizacao.assets/parametrizacao-739656e8.png)
+
+Este ecrã permite ao utilizador parametrizar de uma outra informação de terceiros, tal como os produtos.
+
+![]((https://spmssicc.github.io/pages/markdown/parametrizacao.assets/parametrizacao-37c679fe.png)
+
+Nesta tela podem-se adicionar, adicionar ou eliminar produtos.
+
+Para adicionar um produto, deve o utilizador clicar no botão "+Novo" e atribuir um código numérico ao produto que pretende criar na aplicação. Esse código irá aparecer do lado esquerdo do ecrã. Para dar seguimento ao registo de um novo produto, deve o utilizador premir, no teclado, a tecla **TAB**.
+
+![](https://spmssicc.github.io/pages/markdown/parametrizacao.assets/parametrizacao-de10ae70.png)
+
+De seguida, deve ser atribuída uma designação ao produto e devem ser preenchidos todos os campos obrigatórios. Por fim, para validar a criação do produto, deve o utilizador clicar em "Confirmar".
+
+![](https://spmssicc.github.io/pages/markdown/parametrizacao.assets/parametrizacao-f58d69d3.png)
 
 ## 5 POCMS -> SNC-AP
 Para aceder ao menu que permite verificar e alterar a tabela de conversão do normativo POCMS para SNC-AP, deve seguir o caminho:
