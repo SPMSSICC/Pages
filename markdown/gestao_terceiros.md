@@ -148,12 +148,31 @@ Ao selecionar Extrato de Proc. Aquisição irá abrir o seguinte ecrã:
 
 
 _Em atualização_
-<!-- ### 2.1. Proc.Aquisição/Compromisso Assumido
+### 2.1. Proc. Aquisição/Compromisso Assumido
+
+Esta tabulação permite ao utilizador obter uma relação entre os cabimentos e as notas de encomenda (compromissos assumidos). Para o efeito, deve o utilizador, após a introdução dos critérios de pesquisa, mencionados acima, clicar em "Calcular". O resultado irá aparecer na janela disponível.
+
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-fecbc69b.png)
+
+Nesta relação são apresentados os cabimentos que já têm nota de encomenda e em alguns casos, a alteração à nota de encomenda (AL).
+Abaixo da janela com os documentos, vem apresentado o total lançado em Processos de Aquisição e o total lançado em Notas de Encomendas.  
+
+</br>O resultado desta pesquisa pode ser exportado para um ficheiro CSV. Para o efeito, deve ser indicado a diretoria do computador onde pretende guardar o ficheiro e, de seguida, deve clicar em "Ficheiro".
+
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-e313dd88.png)
 
 
+### 2.2. Compromissos Assumidos/Proc. Aquisição
 
-### 2.2. Compromissos Assumidos/Proc. Aquisição -->
+Esta tabulação permite ao utilizador obter uma relação entre as notas de encomenda (Compromissos assumidos) e os seus respetivos processos de aquisição (Cabimentos). Para tal, deve o utilizador, após a inserção dos critérios de pesquisa, descritos anteriormente, clicar em "Calcular". O resultado de pesquisa irá aparecer na janela disponível.
 
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-6dfd7472.png)
+
+Nesta relação são apresentados os cabimentos e respetivas alterações para as notas de encomenda no sistema dentro dos parâmetros inseridos. Também é indicado o valor total comprometido.
+
+ </br>O resultado desta pesquisa pode ser exportado para um ficheiro CSV. Para o efeito, deve ser indicado a diretoria do computador onde pretende guardar o ficheiro e, de seguida, deve clicar em "Ficheiro".
+
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-7a4541ce.png)
 
 ## 3. Mapas de Gestão
 
@@ -302,7 +321,7 @@ Após de ter feito o cálculo da conta corrente, esta pode agora ser guardada nu
 
 ### 3.4. Mapas para o IVA
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-69ed5706.png)
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-13bde12f.png)
 
 |Campo| Descrição|
 |:---:|:---|
@@ -397,6 +416,10 @@ De seguida o utilizador deve selecionar o documento que pretende transferir atra
 
 ### 7.1. Balancete de Terceiros
 
+Menu de acesso:
+
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-2ec29152.png)
+
 Este submenu permite ao utilizador produzir o balancete de terceiros. Para tal deve indicar com que informação o pretende produzir:
 
 |Campo |Descrição|
@@ -413,7 +436,7 @@ Este submenu permite ao utilizador produzir o balancete de terceiros. Para tal d
 
 Também deve o utilizador indicar se pretende incluir no balancete o mês 13, 14 ou 15.
 
-Por fim, e antes de gerar o balancete, deve o utilizador selecionar, **imperativamente**, a check box "Classe 1 desdobrada".
+Por fim, e antes de gerar o balancete, deve o utilizador selecionar, **imperativamente**, a checkbox "Classe 1 desdobrada".
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-045b0cf9.png)
 
@@ -460,7 +483,7 @@ No ecrã aberto deve o utilizador indicar os critérios de pesquisa dos document
 |Exercício:    | Indicar se os documentos a incluir no extrato são referentes apenas ao exercício, apenas aos iniciais ou todos. ![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-e1963479.png)  |
 |Documentos:    | Indicar o tipo de documentos a incluir no extrato: os que entram na conta corrente (FD, CO, CC, P2, NC, PG) ou todos (FD, CO, CC, P2, NC, PG, FA, RA, OD).   |
 
-Depois de indicar os critérios de pesquisa de documentos, deve o utilizador indicar o diretório onde ficará guardado o ficheiro CSV referente o extrato. Para gerar o ficheiro, basta agora clicar em "Ficheiro".
+</br>Depois de indicar os critérios de pesquisa de documentos, deve o utilizador indicar o diretório onde ficará guardado o ficheiro CSV referente o extrato. Para gerar o ficheiro, basta agora clicar em "Ficheiro".
 
 O aspeto do ficheiro CSV gerado será como o do apresentado seguidamente:
 
@@ -468,17 +491,24 @@ O aspeto do ficheiro CSV gerado será como o do apresentado seguidamente:
 
 ### 7.3. Balancete Atividade/Departamento
 
+Menu de acesso:
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-e9d5a003.png)
+
 Este menu permite ao utilizador gerar o balancete de terceiros por departamento, caso tenha mais do que um. Os campos deste ecrã são iguais aos do ecrã referente ao "Balancete de Terceiros" à exceção da "Actividade/Departamento" onde o utilizador deve indicar se pretende obter o balancete acumulado (vários departamentos em conjunto) ou por departamento.
 
 ![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-51f0cb21.png)
 
 ### 7.4. Gestão de Projetos
 
+Menu de acesso:
+
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-6f5791f3.png)
+
 Este menu permite ao utilizador visualizar todos os documentos de um determinado projeto. Para tal, deve o utilizador indicar os critérios de pesquisa de documentos a incluir no ficheiro.
 
 ![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-3e58983b.png)
 
-|Campo|Descrição|
+|Campo| Descrição|
 |:--|:--|
 |Exercício:    | Indicar o exercício ao qual se referem os documentos a considerar no ficheiro.   |
 |Primeira Data:    |Indicar a data a partir da qual serão considerados os documentos.  |
@@ -487,12 +517,12 @@ Este menu permite ao utilizador visualizar todos os documentos de um determinado
 |Tipo de Data:    | Indicar o tipo de data pela qual serão filtrados os documentos.   |
 |Primeira Conta:    |Indicar a primeira conta a ser considerada. Serão consideradas contas com código igual e superior ao indicado neste campo.    |
 |Última Conta:    | Indicar a última conta a ser considerada. Serão consideradas contas com código igual e inferior ao indicado neste campo.    |
-|Primeiro Projeto:    | Indicar o primeiro código do Projeto a ser considerado. Serão considerados códigos iguais e superiores ao indicado neste campo. </br>**Nota:** Se neste campo colocar "0" será produzido um ficheiro com documentos de todos os projetos.    |
+|Primeiro Projeto:    | Indicar o primeiro código do Projeto a ser considerado. Serão considerados códigos iguais e superiores ao indicado neste campo. </br>**Nota: Se neste campo colocar "0" será produzido um ficheiro com documentos de todos os projetos.**    |
 |Último Projeto:    |Indicar o último código do Projeto a ser considerado. Serão considerados códigos iguais e inferiores ao indicado neste campo.   |
 |Primeira Entidade:   |Indicar a primeira entidade a ser considerada. Serão consideradas entidades com código igual e superior ao indicado neste campo.     |
 |Última Entidade:    | Indicar a última entidade a ser considerada. Serão consideradas entidades com código igual e inferior ao indicado neste campo.  |
 
-</br>De seguida o utilizador deve indicar o diretório onde pretende guardar o ficheiro CSV e clicar em "Ficheiro".
+</br>De seguida, o utilizador deve indicar o diretório onde pretende guardar o ficheiro CSV e clicar em "Ficheiro".
 
 O aspeto do ficheiro CSV produzido será como o do apresentado seguidamente:
 
