@@ -7,7 +7,7 @@ Acedendo ao menu podemos ter acesso às seguintes opções:
 
 |Opção| Descritivo|
 |:---:|:---|
-|Extrato por Entidade   | Esta opção de menu permite visualizar e obter impressões/extratos de informação relacionada com a Entidade, tais como conta corrente, notas de encomenda, facturas em conferência/receção ou autorizações de pagamento.   |
+|Extrato por Entidade   | Esta opção de menu permite visualizar e obter impressões/extratos de informação relacionada com a Entidade, tais como conta corrente, notas de encomenda, faturas em conferência/receção ou autorizações de pagamento.   |
 |Extrato de Proc. Aquisição   | Esta opção de menu permite visualizar e obter extratos de informação relacionada com o processo de aquisição e compromissos assumidos.   |
 |Mapas de Gestão   | Esta opção de menu permite obter impressões e extratos de informação relacionada com documentos por datas e contas, informação de contas correntes de terceiros e mapas para o IVA.  |
 |Transferência de Entidades   |Esta opção de menu permite efetuar a transferência de entidades, no exercício atual ou em exercícios anteriores.    |
@@ -134,9 +134,9 @@ Menu de acesso:
 
 Ao selecionar Extrato de Proc. Aquisição irá abrir o seguinte ecrã:
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-dbc97f30.png)
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-4d16fb03.png)
 
-|Campo|Descritivo|
+|Campo| Descritivo|
 |:---:|:---|
 |Ano   | Ano (Exercício) a que correspondem os documentos.   |
 |Primeiro Número   |  Número do primeiro documento a extrair.  |
@@ -147,32 +147,30 @@ Ao selecionar Extrato de Proc. Aquisição irá abrir o seguinte ecrã:
 |Últ. Entidade   |Número da última entidade a extrair.    |
 
 
-_Em atualização_
 ### 2.1. Proc. Aquisição/Compromisso Assumido
 
 Esta tabulação permite ao utilizador obter uma relação entre os cabimentos e as notas de encomenda (compromissos assumidos). Para o efeito, deve o utilizador, após a introdução dos critérios de pesquisa, mencionados acima, clicar em "Calcular". O resultado irá aparecer na janela disponível.
 
-![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-fecbc69b.png)
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-a5e22e92.png)
 
 Nesta relação são apresentados os cabimentos que já têm nota de encomenda e em alguns casos, a alteração à nota de encomenda (AL).
 Abaixo da janela com os documentos, vem apresentado o total lançado em Processos de Aquisição e o total lançado em Notas de Encomendas.  
 
-</br>O resultado desta pesquisa pode ser exportado para um ficheiro CSV. Para o efeito, deve ser indicado a diretoria do computador onde pretende guardar o ficheiro e, de seguida, deve clicar em "Ficheiro".
+</br>O resultado desta pesquisa pode ser exportado para um ficheiro CSV. Para o efeito, deve ser indicado a diretoria do computador onde pretende guardar o ficheiro e, de seguida, deve clicar em "Gerar CSV".
 
-![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-e313dd88.png)
+![]((https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-0a5457b6.png)
 
 
 ### 2.2. Compromissos Assumidos/Proc. Aquisição
 
 Esta tabulação permite ao utilizador obter uma relação entre as notas de encomenda (Compromissos assumidos) e os seus respetivos processos de aquisição (Cabimentos). Para tal, deve o utilizador, após a inserção dos critérios de pesquisa, descritos anteriormente, clicar em "Calcular". O resultado de pesquisa irá aparecer na janela disponível.
 
-![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-6dfd7472.png)
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-df61c075.png)
 
 Nesta relação são apresentados os cabimentos e respetivas alterações para as notas de encomenda no sistema dentro dos parâmetros inseridos. Também é indicado o valor total comprometido.
 
- </br>O resultado desta pesquisa pode ser exportado para um ficheiro CSV. Para o efeito, deve ser indicado a diretoria do computador onde pretende guardar o ficheiro e, de seguida, deve clicar em "Ficheiro".
-
-![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-7a4541ce.png)
+ </br>O resultado desta pesquisa pode ser exportado para um ficheiro CSV. Para o efeito, deve ser indicado a diretoria do computador onde pretende guardar o ficheiro e, de seguida, deve clicar em "Gerar CSV".
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-73935818.png)
 
 ## 3. Mapas de Gestão
 
@@ -207,15 +205,17 @@ Para visualizar Faturas Credoras, o utilizador deve primeiramente indicar os cri
 - Pagas
 - Todas
 
-De seguida, o utilizador deve pressionar o botão "Calcular" para visualizar os resultados de pesquisa.
+De seguida, o utilizador deve clicar no botão "Calcular" para visualizar os resultados de pesquisa.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/Mapas_gestao_datas.gif)
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/mapas_gestao_datas_fc.gif)
 
-Pode agora o ficheiro ser guardado em formato CSV sendo que para isso o utilizador deve indicar a diretoria onde pretende guardar o ficheiro ou pode ser impresso.
+Pode agora o ficheiro ser guardado em formato CSV sendo que para isso o utilizador deve indicar a diretoria onde pretende guardar o ficheiro ou pode ser guardado em formato PDF.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a84c15fd.png)
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-53a7e638.png)
 
-Quando a opção "Imprimir" é selecionada o aspeto do ficheiro PDF gerado é semelhante ao apresentado seguidamente.
+<!-- ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a84c15fd.png) -->
+
+Quando a opção "Gerar PDF" é selecionada, o aspeto do ficheiro gerado é semelhante ao apresentado seguidamente.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1fb38d22.png)
 
@@ -226,11 +226,11 @@ Para visualizar Faturas Devedoras, o utilizador deve primeiramente indicar os cr
 - Cobradas
 - Todas
 
-De seguida, o utilizador deve pressionar o botão "Calcular" para visualizar os resultados de pesquisa.
+De seguida, o utilizador deve clicar no botão "Calcular" para visualizar os resultados de pesquisa.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/Mapas_gestao_datas_fd.gif)
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/mapas_gestao_datas_fd.gif)
 
-Mais uma vez o ficheiro pode ser guardado com o formato CSV ou impresso. O aspeto do ficheiro PDF, gerado quando a opção "Imprimir" é selecionada, é semelhante ao demonstrado para Faturas Credoras.
+Novamente, o ficheiro pode ser guardado no formato CSV ou PDF.
 
 ##### Crédito a Clientes
 Para visualizar documentos do tipo Crédito a Clientes, o utilizador deve primeiramente indicar os critérios de pesquisa descritos na tabela acima e também indicar qual o estado das faturas que pretende pesquisar.
@@ -239,11 +239,11 @@ Para visualizar documentos do tipo Crédito a Clientes, o utilizador deve primei
 - Cobradas
 - Todas
 
-De seguida, o utilizador deve pressionar o botão "Calcular" para visualizar os resultados de pesquisa.
+De seguida, o utilizador deve clicar no botão "Calcular" para visualizar os resultados de pesquisa.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/Mapas_gestao_datas_cc.gif)
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/mapas_gestao_datas_cc.gif)
 
-Mais uma vez o ficheiro pode ser guardado com o formato CSV ou impresso. O aspeto do ficheiro PDF, gerado quando a opção "Imprimir" é selecionada, é semelhante ao demonstrado para Faturas Credoras.
+Mais uma vez o ficheiro pode ser guardado com o formato CSV ou em PDF.
 
 ##### Notas de Crédito
 Para visualizar Notas de Crédito, o utilizador deve primeiramente indicar os critérios de pesquisa descritos na tabela acima e também indicar qual o estado das faturas que pretende pesquisar.
@@ -252,27 +252,29 @@ Para visualizar Notas de Crédito, o utilizador deve primeiramente indicar os cr
 - Pagas
 - Todas
 
-De seguida, o utilizador deve pressionar o botão "Calcular" para visualizar os resultados de pesquisa.
+De seguida, o utilizador deve clicar no botão "Calcular" para visualizar os resultados de pesquisa.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/Mapas_gestao_datas_nc.gif)
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets7mapas_gestao_datas_nc.gif)
 
-Mais uma vez o ficheiro pode ser guardado com o formato CSV ou impresso. O aspeto do ficheiro PDF, gerado quando a opção "Imprimir" é selecionada, é semelhante ao demonstrado para Faturas Credoras.
+Mais uma vez o ficheiro pode ser guardado com o formato CSV ou em PDF.
 
 ##### Tipos de Documento
 Para visualizar documentos específicos, o utilizador deve primeiramente indicar os critérios de pesquisa descritos na tabela acima, indicar qual o estado dos documentos que pretende pesquisar e indicar o tipo de documentos que pretende pesquisar.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/Mapas_gestao_datas_td.gif)
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets7mapas_gestao_datas_td.gif)
 
-Mais uma vez o ficheiro pode ser guardado com o formato CSV ou impresso. O aspeto do ficheiro PDF, gerado quando a opção "Imprimir" é selecionada, é semelhante ao demonstrado para Faturas Credoras.
+Mais uma vez o ficheiro pode ser guardado com o formato CSV ou em PDF.
 
 ### 3.2. Documentos por contas
 
 Este submenu permite ao utilizador pesquisar documentos por contas.
 
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-9b21791c.png)
+
 |Critério| Descrição |
 |:---: |:---|
 |Exercício   | Listagem de exercícios disponíveis conforme o Mapa de Gestão. Neste campo o utilizador pode escolher o exercício e apenas verá as informações para esse ano.   |
-|Pri.Conta   |Código da primeira conta a extrair. Apenas é extraída informação cujo código seja igual ou superior ao indicado neste campo.     |
+|Pri. Conta   |Código da primeira conta a extrair. Apenas é extraída informação cujo código seja igual ou superior ao indicado neste campo.     |
 |Últ. Conta   | Código da última conta a extrair. Apenas é extraída informação cujo código seja igual ou superior ao indicado no campo anterior e menor ou igual ao indicado neste campo.   |
 |Pri. Entidade   |Código da primeira entidade a extrair. Apenas é extraída informação cujo código seja igual ou superior ao indicado neste campo.   |
 |Últ. Entidade   |Código da última entidade a extrair. Apenas é extraída informação cujo código seja igual ou superior ao indicado no campo anterior e menor ou igual ao indicado neste campo.    |
@@ -285,7 +287,7 @@ Este submenu permite ao utilizador pesquisar documentos por contas.
 |Últ. Tipo de Entidade   |Último tipo da entidade a extrair. Apenas é extraída informação cujo código seja igual ou superior ao indicado no campo superior e menos ou igual ao indicado neste campo.   |
 |Pri. Fator de Aglutinação   |Primeiro fator de aglutinação a extrair. Apenas é extraída informação cujo código seja igual ou superior ao indicado neste campo.   |
 |Últ. Fator de Aglutinação   | Último fator de aglutinação a extrair. Apenas é extraída informação cujo código seja igual ou superior ao indicado no campo superior e menos ou igual ao indicado neste campo.   |
-|Tipo de Conta | Permite escolher o tipo de conta a pesquisar.  ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ea62e76c.png) |
+|Tipo de Conta | Permite escolher o tipo de conta a pesquisar.  ![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-47912123.png) |
 |Tipo de Documento  |Permite escolher o tipo de documento a pesquisar.  ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a69d06ca.png)  |
 | TD   | Caso o utilizador defina que pretende pesquisar por Tipo de Documento, deve neste campo assinalar o(s) tipo(s) de documento(s) a pesquisar. Para tal, deve marcar o(s) pretendido(s) na caixa à frente no nome do(s) mesmo(s). ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-d10284e6.png) |
 |Estado  |Permite escolher o estado dos  registos a pesquisar. ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-afd4fe94.png)   |
@@ -293,10 +295,10 @@ Este submenu permite ao utilizador pesquisar documentos por contas.
 
 Para pesquisar os documentos deve o utilizador indicar os critérios e de seguida pressionar sobre o botão "Calcular".
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/Mapas_gestao_contas.gif)
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets7mapas_gestao_contas.gif)
 
-Pode agora o utilizador guardar os dados sob a forma de ficheiro CSV ou imprimir o mesmo.
-Quando a opção "Imprimir" for selecionada, o aspeto do ficheiro PDF gerado é o seguinte:
+Pode agora o utilizador guardar os dados sob a forma de ficheiro CSV ou em formato PDF.
+Quando a opção "Gerar PDF" for selecionada, o aspeto do ficheiro gerado é o seguinte:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a27da912.png)
 
@@ -313,11 +315,11 @@ Este submenu permite ao utilizador pesquisar a conta corrente de terceiros.
 
 Para extrair a conta corrente de terceiros deve o utilizador numa primeira fase definir os critérios de pesquisa descritos na tabela anterior. De seguida, deve o utilizador indicar por que tipo de data pretende efetuar a pesquisa - Data de Documento ou Data de Contabilização. Por fim deve o utilizador pressionar sobre o botão "Calcular".
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/Mapas_gestao_c_corrente_terceiros.gif)
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/mapas_gestao_ccorrente_terceiros.gif)
 
 Após de ter feito o cálculo da conta corrente, esta pode agora ser guardada num ficheiro de formato CSV. Para tal, deve o utilizador indicar o diretório no próprio computador onde pretende guardar o ficheiro.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-850ac92b.png)
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-dca25a11.png)
 
 ### 3.4. Mapas para o IVA
 
@@ -349,17 +351,21 @@ Após de o utilizador definir os critérios é possível agora guardar o ficheir
 
 Este submenu permite ao utilizador efetuar transferência de documentos do exercício de uma entidade para outra.
 
-Deve o utilizador selecionar a entidade **da qual** pretende transferir os documentos e a entidade **para a qual** pretende transferi-los. Também deve selecionar a data a partir da qual pretende visualizar os documentos. Por fim, deve o utilizador clicar no botão "Calcular".
+Deve o utilizador selecionar a entidade **da qual** pretende transferir os documentos e a entidade **para a qual** pretende transferi-los. Também deve selecionar a **data de documento** a partir da qual pretende visualizar os documentos. Por fim, deve o utilizador clicar no botão "Calcular".
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-551c03a5.png)
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-cec2094f.png)
+
+Caso o utilizador pretender transferir um documento específico ou um tipo de documentos específico, pode filtrar os documentos por critérios definidos nos seguintes campos:
+
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-2df0cc92.png)
 
 Após o clicar no "Calcular" irão aparecer os documentos resultantes da pesquisa no ecrã. Para selecionar os documentos a transferir, o utilizador deve indicar na checkbox qual/is o/os documento/s pretendido/s. De seguida o utilizador deve indicar o diretório onde será guardado um ficheiro em formato CSV aquando a realização da transferência. Para concluir a transferência do documento, o utilizador deve clicar sobre "Transferir".
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-24a0b376.png)
+![]((https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-b9dc0808.png)
 
-Se a transferência for efetuada com sucesso, na linha do documento selecionado irá aparacer que o seu estado está OK.
+Se a transferência for efetuada com sucesso, na linha do documento selecionado irá aparecer que o seu estado está OK.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-fa077e48.png)
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-b44d41ce.png)
 
 ### 4.2. De Exercícios Anteriores
 
@@ -367,15 +373,19 @@ Este submenu permite ao utilizador efetuar transferência de documentos de uma e
 
 Para efetuar a transferência, o utilizador deve selecionar o exercício e a entidade da qual pretende efetuar a transferência de documentos. De seguida deve selecionar o exercício e a entidade para a qual pretende transferir os documentos. Para visualizar os documentos disponíveis para a transferência deve o utilizador clicar no botão "Calcular".
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-f3ffeca1.png)
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-691e277a.png)
 
-Para concluir a transferência, o utilizador deve selecionar o documento pretendido, ou todos se for o caso, preenchendo a check box, deve também selecionar o diretório onde será guardado um ficheiro CSV aquando a transferência e por fim deve clicar sobre "Transferir".
+Caso o utilizador pretender transferir um documento específico ou um tipo de documentos específico, pode filtrar os documentos por critérios definidos nos seguintes campos:
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-bb974d1a.png)
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-90201ac7.png)
+
+Para concluir a transferência, o utilizador deve selecionar o documento pretendido, ou todos se for o caso, preenchendo a checkbox, deve também selecionar o diretório onde será guardado um ficheiro CSV aquando a transferência e por fim deve clicar sobre "Transferir".
+
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-4dd6f7e6.png)
 
 Se a transferência for efetuada com sucesso, no mesmo ecrã estará indicado que o estado do documento passará para "Processados 1 registos com sucessos (0 erros)"
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ea75e4a1.png)
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-8f97e3ea.png)
 
 ## 5. Transferência de Contas
 
@@ -389,14 +399,13 @@ Para efetuar este tipo de transferência, o utilizador deve indicar a Conta Orig
 - **Série** - Série do documento
 - **DOCID** - Número Identificativo do documento
 
-
 Após ter preenchido todos os parâmetros de pesquisa, deve o utilizador clicar no botão "Calcular" para visualizar os documentos disponíveis.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-99b6a04b.png)
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-21268824.png)
 
-Seguidamente, o utilizador deve selecionar o documento a transferir, através do preenchimento da check box respetiva, selecionar o diretório onde pretende guardar o ficheiro CSV aquando a transferência e clicar no botão "Transferir".
+Seguidamente, o utilizador deve selecionar o documento a transferir, através do preenchimento da checkbox respetiva, selecionar o diretório onde pretende guardar o ficheiro CSV aquando a transferência e clicar no botão "Transferir".
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-880b11e7.png)
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-b5229871.png)
 
 ## 6. Transferência de Centros de Custo
 
@@ -404,13 +413,13 @@ Serve este submenu para efetuar transferência de documentos registados num cent
 
 Para efetuar este tipo de transferência, o utilizador deve indicar o Centro de Custo Origem e o Centro de Custo Destino da transferência. Deve também indicar a Primeira e a Última Data de Contabilização.
 
-Após ter preenchido todos os parâmetros de pesquisa, deve o utilizador clicar no botão "Calcular" para visualizar os documentos disponíveis.
+Após ter preenchido todos os critérios de pesquisa, deve o utilizador clicar no botão "Calcular" para visualizar os documentos disponíveis.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-e04088e4.png)
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-0254fc72.png)
 
-De seguida o utilizador deve selecionar o documento que pretende transferir através do preenchimento da check box respetiva, indicar o diretório onde pretende guardar o ficheiro CSV gerado aquando a transferência e por fim deve clicar no botão "Transferir".
+De seguida o utilizador deve selecionar o documento que pretende transferir através do preenchimento da checkbox respetiva, indicar o diretório onde pretende guardar o ficheiro CSV gerado aquando a transferência e por fim deve clicar no botão "Transferir".
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-632ce882.png)
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-8364e847.png)
 
 ## 7. Balancete de Terceiros
 
@@ -430,9 +439,10 @@ Este submenu permite ao utilizador produzir o balancete de terceiros. Para tal d
 |Últ. Entidade   | Código da última entidade a extrair. Apenas é extraída informação cujo código seja igual ou inferior ao indicado neste campo.  |   
 |Pri. mês:   | Deve o utilizador selecionar o mês a partir do qual pretende visualizar os registos.   |   
 |Últ. mês:   | Deve o utilizador selecionar o mês até ao qual pretende visualizar os registos.   |   
-|Exercío   | Indicar se os documentos a visualizar são do exercício corrente, iniciais ou todos.  ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-2186bc67.png)   |
+|Exercício   | Indicar se os documentos a visualizar são do exercício corrente, iniciais ou todos.  ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-2186bc67.png)   |
 |Tipo de documentos    | Indicar o tipo de documentos a visualizar: conta corrente ou todos. ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-0db42853.png)  |
 
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-f02c1896.png)
 
 Também deve o utilizador indicar se pretende incluir no balancete o mês 13, 14 ou 15.
 
@@ -440,13 +450,13 @@ Por fim, e antes de gerar o balancete, deve o utilizador selecionar, **imperativ
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-045b0cf9.png)
 
-Para guardar o ficheiro em formato **CSV**, deve o utilizador selecionar a diretoria do seu computador e clicar em "Ficheiro".
+Para guardar o ficheiro em formato **CSV**, deve o utilizador selecionar a diretoria do seu computador e clicar em "Gerar CSV".
 
 O aspeto do ficheiro gerado será como o do apresentado seguidamente:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-31f9b6eb.png)
 
-Se pretender guardar o ficheiro em formato **PDF**, deve o utilizador clicar em "Imprimir".
+Se pretender guardar o ficheiro em formato **PDF**, deve o utilizador clicar em "Gerar PDF".
 
 O aspeto do ficheiro gerado será como o do apresentado seguidamente:
 
@@ -467,7 +477,7 @@ Para aceder ao ecrã para gerar o extrato de movimento  de terceiros deve o util
 
 No ecrã aberto deve o utilizador indicar os critérios de pesquisa dos documentos a incluir no extrato.
 
-![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-e377f666.png)
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-7bc07e31.png)
 
 |Campo | Descrição|
 |:--|:--|
@@ -496,7 +506,7 @@ Menu de acesso:
 
 Este menu permite ao utilizador gerar o balancete de terceiros por departamento, caso tenha mais do que um. Os campos deste ecrã são iguais aos do ecrã referente ao "Balancete de Terceiros" à exceção da "Actividade/Departamento" onde o utilizador deve indicar se pretende obter o balancete acumulado (vários departamentos em conjunto) ou por departamento.
 
-![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-51f0cb21.png)
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-1b2a2674.png)
 
 ### 7.4. Gestão de Projetos
 
@@ -506,7 +516,7 @@ Menu de acesso:
 
 Este menu permite ao utilizador visualizar todos os documentos de um determinado projeto. Para tal, deve o utilizador indicar os critérios de pesquisa de documentos a incluir no ficheiro.
 
-![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-3e58983b.png)
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-e8b387f9.png)
 
 |Campo| Descrição|
 |:--|:--|
@@ -522,13 +532,13 @@ Este menu permite ao utilizador visualizar todos os documentos de um determinado
 |Primeira Entidade:   |Indicar a primeira entidade a ser considerada. Serão consideradas entidades com código igual e superior ao indicado neste campo.     |
 |Última Entidade:    | Indicar a última entidade a ser considerada. Serão consideradas entidades com código igual e inferior ao indicado neste campo.  |
 
-</br>De seguida, o utilizador deve indicar o diretório onde pretende guardar o ficheiro CSV e clicar em "Ficheiro".
+</br>De seguida, o utilizador deve indicar o diretório onde pretende guardar o ficheiro CSV e clicar em "Gerar CSV".
 
 O aspeto do ficheiro CSV produzido será como o do apresentado seguidamente:
 
 ![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-42c2337e.png)
 
-Caso o utilizador pretenda guardar em ficheiro PDF, deve clicar em "Imprimir". O aspeto do ficheiro PDF produzido será como o do apresentado seguidamente:
+Caso o utilizador pretenda guardar em ficheiro PDF, deve clicar em "Gerar PDF". O aspeto do ficheiro produzido será como o do apresentado seguidamente:
 
 ![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-ba02e1cc.png)
 
@@ -554,11 +564,11 @@ No ecrã que aparece deve o utilizador os seguintes campos:
 |Ordenação   | Indicação da forma como se pretende ordenar os documentos espelhados no ofício. ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-2397be44.png)  |
 |Ofício   | Indicação da Referência do ofício bem como do texto que será incorporado no mesmo.    |
 
-</br>Para gerar o ofício, o utilizador deve preencher os campos acima referenciados e de seguida clicar no botão "Calcular". assim que o cálculo dos saldos estiver finalizado, os botões "Imprimir" e "Email" ficarão ativos.
+</br>Para gerar o ofício, o utilizador deve preencher os campos acima referenciados e de seguida clicar no botão "Calcular". assim que o cálculo dos saldos estiver finalizado, os botões "Gerar PDF" e "Email" ficarão ativos.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/oficio_cert.gif)
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/mapas_gestao_cert_legal_contas.gif)
 
-**Imprimir**
+**Gerar PDF**
 
 Se esta opção for selecionada o aspeto do ficheiro PDF gerado será como o do seguidamente apresentado.
 
@@ -585,11 +595,11 @@ Neste submenu o utilizador deve preencher os seguintes campos:
 |Ordenação   | Indicação da forma como se pretende ordenar os documentos espelhados no ofício. ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-2397be44.png)  |
 |Ofício   | Indicação da Referência do ofício bem como do texto que será incorporado no mesmo.    |
 
-</br>Para gerar o ofício, o utilizador deve preencher os campos acima referenciados e de seguida clicar no botão "Calcular". assim que o cálculo dos saldos estiver finalizado, os botões "Imprimir" e "Email" ficarão ativos.
+</br>Para gerar o ofício, o utilizador deve preencher os campos acima referenciados e de seguida clicar no botão "Calcular". assim que o cálculo dos saldos estiver finalizado, os botões "Gerar PDF" e "Email" ficarão ativos.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/oficio_dev.gif)
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-06cec0dd.png)
 
-**Imprimir**
+**Gerar PDF**
 
 Se esta opção for selecionada o aspeto do ficheiro PDF gerado será como o do seguidamente apresentado.
 
@@ -616,11 +626,11 @@ Neste submenu o utilizador deve preencher os seguintes campos:
 |Ordenação   | Indicação da forma como se pretende ordenar os documentos espelhados no ofício. ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-2397be44.png)  |
 |Ofício   | Indicação da Referência do ofício bem como do texto que será incorporado no mesmo.    |
 
-</br>Para gerar o ofício, o utilizador deve preencher os campos acima referenciados e de seguida clicar no botão "Calcular". assim que o cálculo dos saldos estiver finalizado, os botões "Imprimir" e "Email" ficarão ativos.
+</br>Para gerar o ofício, o utilizador deve preencher os campos acima referenciados e de seguida clicar no botão "Calcular". assim que o cálculo dos saldos estiver finalizado, os botões "Gerar PDF" e "Email" ficarão ativos.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/oficio_cred.gif)
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-6adb2a2c.png)
 
-**Imprimir**
+**Gerar PDF**
 
 Se esta opção for selecionada o aspeto do ficheiro PDF gerado será como o do seguidamente apresentado.
 
@@ -638,6 +648,8 @@ Este submenu permite ao utilizador consultar saldos por entidade e por conta.
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-2138a2a4.png)
 
 ### 9.1. Dividas por Entidade
+
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-9593db48.png)
 
 Este submenu permite ao utilizador visualizar as dividas por entidade. Para tal, deve o utilizador preencher os seguintes critérios de pesquisa:
 
@@ -658,9 +670,8 @@ Este submenu permite ao utilizador visualizar as dividas por entidade. Para tal,
 |Inclusão do P1 | Indicação da possibilidade de incluir ou não os documentos do tipo P1. ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-d5fecd37.png) |
 |Ordenação   |Indicação da forma  como se pretendem ordenar os documentos.   |
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/ant_ent_dev.gif)
 
-Após o preenchimento de todos os campos, o utilizador pode guardar a informação sob a forma de ficheiro CSV, PDF ou pode também gerar um extrato.
+</br>Após o preenchimento de todos os campos, o utilizador pode guardar a informação sob a forma de ficheiro CSV, PDF ou pode também gerar um extrato.
 
 **</br>Extrato**
 
@@ -668,9 +679,9 @@ Quando a opção "Extrato" é selecionada é produzido um ficheiro CSV com o asp
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-67889ab7.png)
 
-**Imprimir**
+**Gerar PDF**
 
-Quando a opção "Imprimir" é selecionada é gerado um ficheiro PDF com o aspeto seguidamente apresentado.
+Quando a opção "Gerar PDF" é selecionada é gerado um ficheiro com o aspeto seguidamente apresentado.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-929f1021.png)
 
@@ -682,6 +693,8 @@ Quando a opção "Imprimir" é selecionada é gerado um ficheiro PDF com o aspet
 Os processos e os campos inerentes a este submenu são semelhantes aos descritos em 2.9.1.
 
 ### 9.3. Dividas por Conta
+
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-1fef322c.png)
 
 Este submenu permite ao utilizador visualizar as dividas por conta. Para tal, deve o utilizador preencher os seguintes critérios de pesquisa:
 
@@ -702,9 +715,8 @@ Este submenu permite ao utilizador visualizar as dividas por conta. Para tal, de
 |Inclusão do P1 | Indicação da possibilidade de incluir ou não os documentos do tipo P1. ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-d5fecd37.png) |
 |Ordenação   |Indicação da forma como se pretendem ordenar os documentos.   |
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/ant_econt_dev.gif)
 
-Após o preenchimento de todos os campos, pode o utilizador guardar a informação sob a foram de ficheiro CSV ou PDF ou pode também gerar um extrato.
+</br>Após o preenchimento de todos os campos, pode o utilizador guardar a informação sob a foram de ficheiro CSV ou PDF ou pode também gerar um extrato.
 
 **</br>Extrato**
 
@@ -712,9 +724,9 @@ Quando a opção "Extrato" é selecionada é produzido um ficheiro CSV com o asp
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-af0d50d1.png)
 
-**Imprimir**
+**Gerar PDF**
 
-Quando a opção "Imprimir" é selecionada é gerado um ficheiro PDF com o aspeto seguidamente apresentado.
+Quando a opção "Gerar PDF" é selecionada é gerado um ficheiro com o aspeto seguidamente apresentado.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-3c73cf9c.png)
 
