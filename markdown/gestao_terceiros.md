@@ -158,7 +158,7 @@ Abaixo da janela com os documentos, vem apresentado o total lançado em Processo
 
 </br>O resultado desta pesquisa pode ser exportado para um ficheiro CSV. Para o efeito, deve ser indicado a diretoria do computador onde pretende guardar o ficheiro e, de seguida, deve clicar em "Gerar CSV".
 
-![]((https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-0a5457b6.png)
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-0a5457b6.png)
 
 
 ### 2.2. Compromissos Assumidos/Proc. Aquisição
@@ -254,14 +254,14 @@ Para visualizar Notas de Crédito, o utilizador deve primeiramente indicar os cr
 
 De seguida, o utilizador deve clicar no botão "Calcular" para visualizar os resultados de pesquisa.
 
-![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets7mapas_gestao_datas_nc.gif)
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/mapas_gestao_datas_nc.gif)
 
 Mais uma vez o ficheiro pode ser guardado com o formato CSV ou em PDF.
 
 ##### Tipos de Documento
 Para visualizar documentos específicos, o utilizador deve primeiramente indicar os critérios de pesquisa descritos na tabela acima, indicar qual o estado dos documentos que pretende pesquisar e indicar o tipo de documentos que pretende pesquisar.
 
-![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets7mapas_gestao_datas_td.gif)
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/mapas_gestao_datas_td.gif)
 
 Mais uma vez o ficheiro pode ser guardado com o formato CSV ou em PDF.
 
@@ -295,7 +295,7 @@ Este submenu permite ao utilizador pesquisar documentos por contas.
 
 Para pesquisar os documentos deve o utilizador indicar os critérios e de seguida pressionar sobre o botão "Calcular".
 
-![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets7mapas_gestao_contas.gif)
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/mapas_gestao_contas.gif)
 
 Pode agora o utilizador guardar os dados sob a forma de ficheiro CSV ou em formato PDF.
 Quando a opção "Gerar PDF" for selecionada, o aspeto do ficheiro gerado é o seguinte:
@@ -361,7 +361,7 @@ Caso o utilizador pretender transferir um documento específico ou um tipo de do
 
 Após o clicar no "Calcular" irão aparecer os documentos resultantes da pesquisa no ecrã. Para selecionar os documentos a transferir, o utilizador deve indicar na checkbox qual/is o/os documento/s pretendido/s. De seguida o utilizador deve indicar o diretório onde será guardado um ficheiro em formato CSV aquando a realização da transferência. Para concluir a transferência do documento, o utilizador deve clicar sobre "Transferir".
 
-![]((https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-b9dc0808.png)
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-b9dc0808.png)
 
 Se a transferência for efetuada com sucesso, na linha do documento selecionado irá aparecer que o seu estado está OK.
 
