@@ -105,7 +105,7 @@ Na tabela seguinte é apresentada a informação contemplada em cada campo (colu
 ![](https://spmssicc.github.io/pages/markdown/utilitarios.assets/utilitarios-ee91e74f.png)
 
 
-### 2.3 503 Faturas com classificador inválido-sem classificador-sem financeiras-sem conversão SNC-AP em 2018
+### 2.3 503 Faturas com classificador inválido ou sem classificador ou sem financeiras ou sem conversão SNC-AP em 2018
 
 Este diagnóstico permite verificar todas as faturas (de anos anteriores e do exercício corrente) que tenham classificadores inválidos ou inexistentes, que não tenham rubricas financeiras associadas e/ou que apresentam contas com conversões para SNC-AP mal efetuadas.
 
