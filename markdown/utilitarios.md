@@ -73,7 +73,7 @@ Na tabela seguinte é apresentada a informação contemplada em cada campo (colu
 
 ![](https://spmssicc.github.io/pages/markdown/utilitarios.assets/utilitarios-a611173d.png)
 
-Após a execução do diagnóstico, a instituição deve avaliar o resultado obtido e a ação a ter perante o mesmo. Deve-se dar uma especial atenção a desdobramentos mal efetuados pois estas incoerências podem influenciar peças contabilísticas. Para verificar se as contas que apresentam incoerências nos desdobramenteos apresentam movimentos deve ser executado o diagnóstico 506, descrito posteriormente.
+Após a execução do diagnóstico, a instituição deve avaliar o resultado obtido e a ação a ter perante o mesmo. Deve-se dar uma especial atenção a desdobramentos mal efetuados pois estas incoerências podem influenciar peças contabilísticas. Para verificar se as contas que apresentam incoerências nos desdobramentos apresentam movimentos deve ser executado o diagnóstico 506, descrito posteriormente.
 
 ### 2.2 502 Lançamentos iniciais de 2018 com conversão inválida SNC-AP
 
@@ -105,7 +105,7 @@ Na tabela seguinte é apresentada a informação contemplada em cada campo (colu
 ![](https://spmssicc.github.io/pages/markdown/utilitarios.assets/utilitarios-ee91e74f.png)
 
 
-### 2.3 503 Faturas com classificador inválido/sem classificador/sem financeiras/sem conversão SNC-AP em 2018
+### 2.3 503 Faturas com classificador inválido-sem classificador-sem financeiras-sem conversão SNC-AP em 2018
 
 Este diagnóstico permite verificar todas as faturas (de anos anteriores e do exercício corrente) que tenham classificadores inválidos ou inexistentes, que não tenham rubricas financeiras associadas e/ou que apresentam contas com conversões para SNC-AP mal efetuadas.
 
