@@ -1,5 +1,4 @@
-CB;Nº Processo de Aquisição (CB);Data documento;Data Contabilistica;classificador economico ;Classificador funcional ;Fonte de financiamento ;Programa ;Medida;Projeto;Regionalização;Atividade;Natureza;Departamento/ Atividade;Conta;Valor lançamento;Observações Documento;Observaçoes lançamento;Classificação Orgânica
-CB;807559;20160315;20170806;01.02.02;;311;;;;;;;1;642;5000;SNCAP;Teste01;121030100
-CB;807555;20170503;20170907;07.01.07;;320;;;;;;;1;4123;13689;SNCAP;Teste02;121030100
-CB;807556;20170622;20170623;01.02.04;;311;;;;;;;1;3113;20000;SNCAP;Teste03;121030100
-CB;900001;20150210;20170101;01.02.02;;320;;;;;;;1;426;100;SNCAP;TESTE;121030100
+CB;Nº Processo de Aquisição (CB);Data documento;Data Contabilistica;Classificador economico ;Classificador funcional ;Fonte de financiamento ;Programa ;Medida;Projeto;Regionalização;Atividade;Natureza;Departamento/ Atividade;Conta;Valor lançamento;Observações Documento;Observaçoes lançamento;Classificação Orgânica
+CB;102;20180102;20180108;02.01.13;223;513;13;22;;;130;;1;31263;200;SNCAP;;121031700
+CB;103;20180131;20180516;02.02.20.E0;223;442;13;22;;;130;;1;622499;100;SNCAP;;121031700
+CB;104;20180123;20180223;01.03.10.SS;223;513;13;22;;;130;;1;6371;200;SNCAP;;121031700

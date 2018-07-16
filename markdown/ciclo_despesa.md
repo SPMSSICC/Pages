@@ -12,15 +12,27 @@ Esta opção permite, consultar ou criar um novo documento de Cabimento e com ba
 
 Ao selecionar Cabimentos/Verificação Prévia, irá surgir o seguinte ecrã, cujo objetivo é a criação de um Cabimento (CB), conforme imagem abaixo:
 
-![img_57a.gif](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_57a.gif)
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-ca9e7e59.png)
+
+Neste ecrã devem ser preenchidos os campos obrigatórios - campos assinalados a laranja - referente ao exercício, ao Nº do Processo de Aquisição, às datas de documento e de contabilização e também o campo referente à importância do cabimento.
+
+A numeração do cabimento é efetuada, de forma automática, no final do lançamento deste.
+
+Os campos "Atividade/Departamento", "Projeto" e "Observações" podem ser alterados pelo utilizador consoante a necessidade.
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/recolhas_cb.gif)
+
+<!-- ![img_57a.gif](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_57a.gif) -->
 
 O seu registo, o processo de cabimentação não sofre qualquer alteração, continuando a ter registar a referência o orçamento anual da entidade líquido de cativos devendo ser cabimentadas todas as despesas prováveis.
 
 ![img_58.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_58.png)
 
-A gravação do CB abre novo ecrã, onde teremos um botão de ajuda no preenchimento dos seguintes campos obrigatórios:
+Ao clicar em "Gravar novo CB" abre novo ecrã, onde teremos um botão de ajuda no preenchimento dos seguintes campos:
 
-![img_60.gif](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_60.gif)
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-be036b66.png)
+
+<!-- ![img_60.gif](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_60.gif) -->
 
 |Campo|Obrigatoriedade|Descrição|
 |:----|:--------------|:---------|
@@ -37,39 +49,37 @@ Quando o método das Contas Patrimoniais é selecionado, aquando o registo do CB
 
 O método apresentado é de conta patrimonial que deverá ser registado a contas da classe 3, 4, 5, 6. Automaticamente associa o classificador económico, sendo que este poderá ser **alterado pelo utilizador**. Relativamente à chave orçamental esta transparece automaticamente de acordo com a chave definida no menu parametrização configuração e que nesta fase também pode ser alterada.
 
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/recolhas_contab_cb_1.gif)
+
 </br>__Se existirem para a mesma conta ou classificador económico chaves orçamentais diferentes então devem ser criadas várias linhas com a mesma informação mas com chaves orçamentais diferentes.__
 
-O preenchimento final, é idêntico ao do ecrã abaixo. O próximo passo é o de gerar de forma automática os movimentos na contabilidade selecionando o botão "Gerar Contabilidade".
+</br>O preenchimento final, é idêntico ao do ecrã abaixo. O próximo passo é o de gerar, de forma automática, os movimentos na contabilidade selecionando o botão "Gerar Contabilidade".
 
-![img_63.gif](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_63.gif)
+No novo ecrã , aparecem os movimentos de lançamento do cabimento. Se os lançamentos estiverem corretos, o utilizador confirma, selecionando o botão de confirmação.
 
-No novo ecrã mostrado, aparecem os movimentos de lançamento do cabimento. Se os lançamentos estiverem corretos, o utilizador confirma, selecionando o botão de confirmação.
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-e7636fee.png)
 
-![img_64.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_64.png)
+No início do registo do cabimento, caso o número de Processo de Aquisição já exista no sistema, este informa o utilizador através do campo específico para o efeito. Juntamente com a informação que o cabimento desse processo de aquisição já existe, também são apresentados os valores regularizados, disponíveis bem como os montantes resultantes das alterações efetuadas ao documento. O utilizador pode consultar o lançamento efetuado, através do clique no botão "Consultar" e, se o CB não estiver regularizado, pode efetuar alterações no próprio registo.  
 
-O Cabimento acaba de ser gerado, no entanto deverá o utilizador confirmar em sistema a criação do mesmo. No primeiro separador, o utilizador tem duas formas de o fazer: de entrar no seguinte ecrã, evidenciando o número de processo de aquisição da criação do CB:
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-0b32985b.png)
 
--   Para aceder à informação de cabimento deverá ser pressionado o botão "Informação de CB";
--   Para consulta deverá ser pressionado o botão "Consulta".
-
-__A novidade no novo sistema SICC é o aparecimento do botão "Importar", que permite aos utilizadores carregarem a partir de um documento de Excel vários cabimentos de forma muito mais rápida e fiável.__
+Uma outra forma de consultar um determinado cabimento é através da seleção do botão "Informação de CB".
 
 ### 1.1 Importação CB
 
-O utilizador ao selecionar o botão "Imprimir" vai fazer com que o novo ecrã surja para importação do ficheiro.
+Os documentos do tipo Cabimento podem também ser importados no sistema. Deve para isso, o utilizador clicar no botão "Importar" disponível no fundo do ecrã.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-baff3e42.png)
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-ef856afa.png)
 
+Ao selecionar esta opção, o utilizador vai se deparar com o seguinte ecrã, onde deverá indicar o diretório de origem do ficheiro que pretende importar.
 
-Ao pressionar, o utilizador vai deparar-se com o seguinte ecrã, sendo que para carregamento do ficheiro, tem de escolher o diretório de origem.
-
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a996bb37.png)
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-29a883a8.png)
 
 O aspeto do ficheiro CSV é o abaixo demonstrado, sendo que o mesmo deve obedecer ao critério das colunas estipuladas, para efeito de carregamento.
 
 > **NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-11b27685.png)
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-8fafadce.png)
 
 <!-- ![img_67.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_67.png) -->
 
@@ -77,49 +87,57 @@ O aspeto do ficheiro CSV é o abaixo demonstrado, sendo que o mesmo deve obedece
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/CB_SNCAP.csv'">Descarregar CSV</button>
 </div>
 
-Antes da importação,o utilizador, tem de usar o botão "Ver/Testar Ficheiro". Ao selecionar este mesmo botão, o utilizador constata que os elementos do ficheiro CSV estão visíveis e que o ficheiro integrado está testado. Caso ocorram erros, os mesmos produzem um relatório no ecrã, na caixa criada para o efeito, no canto inferior direito do ecrã.
+Antes da importação do ficheiro, o utilizador tem de validar a sua estrutura e o conteúdo, através do clique no botão "Ver/Testar Ficheiro". Ao validar o ficheiro, o utilizador constata que os elementos deste estão visíveis, e por isso validados e prontos para importação. Caso ocorram erros, os mesmos produzem um relatório no ecrã, na caixa criada para o efeito, no canto inferior direito do ecrã, bem como é gerada uma mensagem ao utilizador da existência dos mesmos.
 
-![img_68.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_68.png)
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-7ea48c75.png)
 
-Após validação dos elementos integrados e constatado que os valores estão coerentes com o ficheiro integrado, o utilizador deve assim usar o botão  "Importa Ligação". Depois de selecionar e de forma automática, o sistema gera uma mensagem de confirmação, com a indicação abaixo descrita.
+Para visualizar os erros gerados, o utilizador pode guardar o relatório de erros em ficheiros de dois formatos: CSV e PDF, selecionando para o efeito o respetivo botão. Neste caso, o ficheiro deve ser corrigido e testado novamente.
+
+Após validação dos elementos do ficheiro a importar, deve o utilizador clicar no botão "Importar Ligação".
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-edc5fce9.png)
+
+Para confirmar a importação dos elementos do ficheiro, o sistema gera uma mensagem de confirmação, com a indicação abaixo descrita.
 
 ![img_importacao_concluida_sucesso.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_importacao_concluida_sucesso.png)
 
-Caso se trate de uma importação ou de valores introduzidos manualmente, no ecrã principal o utilizador tem outros botões que permitem assim uma análise mais cuidada.
+<hr>
+
+Caso se trate de uma importação ou de valores introduzidos manualmente, no ecrã principal, o utilizador tem outros botões que permitem uma análise mais cuidada.
+
 Desta forma, nos passos seguintes, é demonstrado o funcionamento dos outros botões constantes do ecrã.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-0ccf1c91.png)
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-3036aeb5.png)
 
 O utilizador ao escolher um dos seguintes botões obtém os ecrãs:
 
 ### 1.2 Informação de CB
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-d414c285.png)
+Para gerar ficheiros relativos à Informação de CB, deve o utilizador primeiro indicar quais os critérios de pesquisa (1), de seguida deve clicar em "Calcular" (2). Para selecionar o documento, deve ser selecionada a respetiva checkbox (3) e por fim deve clicar no botão consoante o formato do ficheiro no qual pretende guardar a Informação de CB (4).
 
-O utilizador ao selecionar o botão "Imprimir", gera no ecrã o resultado da criação do CB.
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-e89bd626.png)
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-c0eb122c.png)
+Ao selecionar o botão "Gerar PDF" é gerado no ecrã o resultado da criação do CB.
 
-Ao selecionar "Ficheiro", o aspeto do mesmo será como o do seguidamente apresentado:
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-8db9a67d.png)
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-b9a6ea3d.png)
+Ao selecionar "Gerar CSV", o aspeto do mesmo será como o do seguidamente apresentado:
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-4c287691.png)
 
 ### 1.3 Listagens de CB
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-776977c3.png)
+Para gerar o documento com a listagem dos CBs selecionados deve o utilizador indicar os critérios de pesquisa de CBs (1), de seguida deve clicar em "Calcular" (2). Após terem sido apresentados os resultados de pesquisa na janela, deve o utilizador selecionar as checkbox referentes aos CBs pretendidos (3) e por fim clicar no botão consoante o formato do ficheiro no qual pretende guardar a listagem (4).
 
-Nos ecrãs atrás referidos, o procedimento é similar:
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-762f4bba.png)
 
-|Botão|Descrição|
-|:---|:---|
-|Calcular|Este botão permite apresentar os cabimentos no espaço "Documentos para imprimir". ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-594b7d1e.png)|
-|Imprimir|Este botão permite que o utilizador gere relatório diretamente no ecrã|
-|Ficheiro|Este botão permite ao utilizador escolher o diretório de gravação do Excel que irá ser produzido. ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-aea0e214.png)|
-|Sair|Este botão permite que o utilizador saia do ecrã e regresse ao menu inicial|
+Ao selecionar "Gerar PDF" é gerado o ficheiro com o seguinte aspeto:
 
-O formato na opção "Imprimir", é o seguinte:
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-697fdc78.png)
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-c393e3d6.png)
+Ao selecionar "Gerar CSV" é gerado o ficheiro com o seguinte aspeto:
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-f3087adb.png)
 
 ### 1.4. Alterações de Cabimentos (AM)
 
