@@ -349,7 +349,10 @@ Ao selecionar "Gerar CSV", o aspeto da informação de CM será como o do fichei
 
 ### 2.3. Informação de Compromisso Orçamental
 
-A _Informação de Compromisso Orçamental_ tem como objetivo integrar o processo de fiscalização prévia a enviar ao Tribunal de Contas (**Resolução nº 14/2011**). Para gerar este documento, deve o utilizador clicar no botão "Infor. da Exec.Orc.":
+A _Informação de Compromisso Orçamental_ tem como objetivo integrar o processo de fiscalização prévia a enviar ao Tribunal de Contas (**Resolução nº 14/2011**).
+No sentido de acomodar todas as informações em vigor, definidas pela ACSS, DGO e TC, o reporte de informação de compromisso orçamental deve ser executado no momento do CM e no momento do CP.
+
+</br>Para gerar a informação de Compromisso Orçamental, deve o utilizador clicar no botão "Infor. da Exec.Orc.":
 
 ![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-638f43c8.png)
 
