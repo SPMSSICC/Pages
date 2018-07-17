@@ -49,7 +49,7 @@ Quando o método das Contas Patrimoniais é selecionado, aquando o registo do CB
 
 O método apresentado é de conta patrimonial que deverá ser registado a contas da classe 3, 4, 5, 6. Automaticamente associa o classificador económico, sendo que este poderá ser **alterado pelo utilizador**. Relativamente à chave orçamental esta transparece automaticamente de acordo com a chave definida no menu parametrização configuração e que nesta fase também pode ser alterada.
 
-![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/recolhas_contab_cb_1.gif)
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/recolhas_cont_cb_1.gif)
 
 </br>__Se existirem para a mesma conta ou classificador económico chaves orçamentais diferentes então devem ser criadas várias linhas com a mesma informação mas com chaves orçamentais diferentes.__
 
@@ -271,82 +271,102 @@ Lançamento do P2:
 
 Entende-se por _Verificação Prévia (CM)_, a verificação prévia de fundos disponíveis, as obrigações de efetuar pagamentos a terceiros em contrapartida do fornecimento de bens e serviços ou da satisfação de outras condições. Os compromissos consideram-se assumidos quando é executada uma ação formal pela entidade, como seja a emissão de ordem de compra, nota de encomenda ou documento equivalente, ou a assinatura de um contrato, acordo ou protocolo, podendo também ter um carácter permanente e estarem associados a pagamentos durante um período indeterminado de tempo, nomeadamente, salários, rendas, eletricidade ou pagamentos de prestações diversas.
 
-Por parte do utilizador, há necessidade de evidenciar novamente o “Número de Processo de Aquisição”. De forma automática, o preenchimento do “valor disponível de cabimento” aparece por defeito. Posteriormente, deve o utilizador selecionar no botão “Gravar como CM”, bem como atribuir o montante do compromisso.
+Por parte do utilizador, há necessidade de evidenciar novamente o “Número de Processo de Aquisição”. De forma automática, o preenchimento do “Valor disponível de Cabimento” aparece por defeito. Posteriormente, deve o utilizador indicar o montante, as datas de documento e de contabilização do CM e deve clicar no botão “Gravar novo CM”.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-7e27de3f.png)
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-a42c54b6.png)
 
-Neste ecrã, o utilizador terá de introduzir o valor manualmente e após confirmação dos elementos constituintes do CM, deve gerar os movimentos na contabilidade, utilizando o botão "Gerar Contabilidade".
+Neste ecrã, o utilizador terá de introduzir o valor manualmente, para cada conta, e após confirmação dos elementos constituintes do CM, deve gerar os movimentos na contabilidade, utilizando o botão "Gerar Contabilidade".
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ef0da4bc.png)
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-063f0bec.png)
 
 Os movimentos contabilísticos aparecem no ecrã, sendo que se estiverem corretos, deverá o utilizador selecionar o botão "Confirme".
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-50c88c43.png)
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-40fe8f2f.png)
 
-Uma nova mensagem surgirá com a classificação do compromisso criado, sendo que este processo está concluído:
+Uma nova mensagem surgirá com a numeração atribuída ao compromisso criado, significando assim que este processo está concluído.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-aa19db1f.png)
-
-Após a criação do compromisso, o utilizador terá assim a possibilidade de ter “Informação do CM” criado, para o efeito tem de selecionar no botão "Informação de CM".
-
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-b000b868.png)
-
-Neste ecrã, surge o resumo da criação efetuada no passo anterior.
-
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-299ce3c5.png)
-
-Igualmente e da mesma forma que no ecrã dos cabimentos, o utilizador tem assim disponíveis as seguintes possibilidades:
-
-|Botão|Descrição|
-|:---|:---|
-|Calcular|Este botão permite o resumo do que foi criado no cabimento|
-|Imprimir|Este botão permite que o utilizador gere relatório diretamente no ecrã|
-|Ficheiro|Este botão permite ao utilizador escolher o diretório de gravação do Excel que irá ser produzido|
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-94553bbd.png)
 
 
-
-O utilizador ao selecionar o botão "Imprimir", gera no ecrã o resultado da criação do CM.
-
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1b010f55.png)
-
-Ao selecionar "Ficheiro", o aspeto da informação de CM em ficheiro CSV será semelhante ao ficheiro seguidamente apresentado.
-
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-f4a9ba48.png)
-
-__A novidade no novo sistema SICC-SNC-AP é o aparecimento do botão , que permite aos utilizadores carregarem a partir de um documento de Excel vários compromissos de forma muito mais rápida e viável.__
 
 ### 2.1. Importação CM
 
-No ecrã inicial, o utilizador ao selecionar este novo botão, vai fazer com que novo ecrã surja para importação do ficheiro.
+Os documentos do tipo Compromisso podem também ser importados no sistema. Deve para isso, o utilizador clicar no botão "Importar" disponível no fundo do ecrã.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-532c3768.png)
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-3ee782e5.png)
 
-Ao pressionar, o utilizador vai deparar-se com o seguinte ecrã, sendo que para carregamento do ficheiro, tem de escolher o diretório de origem.
+Ao selecionar esta opção, o utilizador vai se deparar com o seguinte ecrã, onde deverá indicar o diretório de origem do ficheiro que pretende importar.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-c0a092cc.png)
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-32976d17.png)
 
 O aspeto do ficheiro CSV é o abaixo demonstrado, sendo que o mesmo deve obedecer ao critério das colunas estipuladas, para efeito de carregamento.
 
 > **NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-5669ced8.png)
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-5b600345.png)
+
 
 <div style="height:40px">
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/CM-SNCAP.csv'">Descarregar CSV</button>
 </div>
 
-Antes da importação,o utilizador, tem de usar o botão "Ver/Testar Ficheiro". Ao selecionar este mesmo botão, o utilizador constata que os elementos do ficheiro CSV estão visíveis e que o ficheiro integrado está testado. Caso ocorram erros, os mesmos produzem um relatório no ecrã, na caixa criada para o efeito, no canto inferior direito do ecrã.
+Antes da importação do ficheiro, o utilizador tem de validar a sua estrutura e o conteúdo, através do clique no botão "Ver/Testar Ficheiro". Ao validar o ficheiro, o utilizador constata que os elementos deste estão visíveis, e por isso validados e prontos para importação. Caso ocorram erros, os mesmos produzem um relatório no ecrã, na caixa criada para o efeito, no canto inferior direito do ecrã, bem como é gerada uma mensagem ao utilizador da existência dos mesmos.
 
-![img_98.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_98.png)
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-4f37398c.png)
 
-Após validação dos elementos integrados e constatado que os valores estão coerentes com o ficheiro integrado, o utilizador deve assim usar o botão "Importa Ligação". Depois de selecionar e de forma automática, o sistema gera uma mensagem de confirmação, com a indicação abaixo descrita.
-![img_98a.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_98a.png)
+Para visualizar os erros gerados, o utilizador pode guardar o relatório de erros em ficheiros de dois formatos: CSV e PDF, selecionando para o efeito o respetivo botão. Neste caso, o ficheiro deve ser corrigido e testado novamente.
+
+Após validação dos elementos do ficheiro a importar, deve o utilizador clicar no botão "Importar Ligação".
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-6278bdcf.png)
+
+Para confirmar a importação dos elementos do ficheiro, o sistema gera uma mensagem de confirmação, com a indicação abaixo descrita.
+
+![img_importacao_concluida_sucesso.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_importacao_concluida_sucesso.png)
+
 
 Sempre que um "Número de Processos de Aquisição" já tenha Compromissos associados, o sistema deve apresentar a seguinte mensagem:
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-0ed3fcdb.png)
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-f2d488bb.png)
 
-### 2.2. Alteração de Compromisso (AB)
+### 2.2. Informação de CM
+
+Após a criação do compromisso, o utilizador terá assim a possibilidade de ter “Informação do CM” criado, para o efeito tem de selecionar no botão "Informação de CM".
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-624feab2.png)
+
+Neste ecrã, deve o utilizador indicar os critérios de pesquisa e calcular o seu resultado. De seguida deve selecionar o documento pretendido e guardá-lo no formato que pretender.
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-8757ab4b.png)
+
+Ao selecionar o botão "Gerar PDF", gera no ecrã o ficheiro com o seguinte aspeto:
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-0932642b.png)
+
+Ao selecionar "Gerar CSV", o aspeto da informação de CM será como o do ficheiro seguidamente apresentado:
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-054c999a.png)
+
+### 2.3. Informação de Compromisso Orçamental
+
+A _Informação de Compromisso Orçamental_ tem como objetivo integrar o processo de fiscalização prévia a enviar ao Tribunal de Contas (**Resolução nº 14/2011**). Para gerar este documento, deve o utilizador clicar no botão "Infor. da Exec.Orc.":
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-638f43c8.png)
+
+No ecrã aberto devem ser indicados os critérios de pesquisa (1) seguindo-se do clique em "Calcular" para que o sistema apresente os documentos que respeitam os critérios indicados (2). de seguida, Da lista de resultados apresentada, devem ser selecionados os documentos pretendidos através da seleção da respetiva checkbox (3). Por fim, deve selecionar o formato de ficheiro no qual pretende guardar o documento, clicando no respetivo botão (4).   
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-69c8dcf2.png)
+
+Ao selecionar "Gerar PDF", o ficheiro terá o aspeto como o do apresentado seguidamente:
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-3ec92949.png)
+
+Ao selecionar "Gerar CSV", o ficheiro terá o aspeto como o do apresentado seguidamente:
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-b6ff5fbc.png)
+
+
+### 2.4. Alteração de Compromisso (AB)
 
 __Existe igualmente a possibilidade de proceder à alteração no Compromisso, pelo que o utilizador terá de ter em atenção que as alterações efetuadas também têm de estar alinhadas com o valor do Cabimento. O sistema deteta e envia mensagem de erro caso se verifique que o valor do compromisso seja superior ao cabimento, ou mesmo quando não existe cabimento para determinado item financeiro produzido posteriormente no compromisso. O Processo em si é semelhante ao explicado anteriormente nas alterações dos cabimentos (AM).__
 
