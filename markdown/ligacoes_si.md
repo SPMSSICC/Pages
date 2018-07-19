@@ -121,7 +121,7 @@ Esta tabela ficará guardada e poderá sempre ser editada pelo utilizador.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-377182a8.png)
 
->**Nota:** As contas 2xx devem ser sempre contas de **MOVIMENTO**.
+>**Nota:** As contas a crédito devem ser sempre contas de **MOVIMENTO**.
 
 Em caso de se pretender eliminar uma relação, o utilizador deve selecionar uma linha, clicando sobre a mesma duas vezes, e clicar no botão "-Abater".
 
