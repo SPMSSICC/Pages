@@ -145,54 +145,68 @@ Neste processo o que se pretende demonstrar é uma alteração a um CB já exist
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-19410ace.png)
 
-Ao entrar no ecrã de Alteração de CB, deve o utilizador associar o “Nº de CB” criado anteriormente para proceder à alteração. Terá igualmente de dar duplo clique na linha assinalada abaixo, para proceder à AM.
+Ao entrar no ecrã de Alteração de CB, deve o utilizador associar o “Nº do Processo de Aquisição” criado anteriormente, para proceder à alteração.
 
-![img_79.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_79.gif)
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-c27d2f16.png)
 
-Uma vez a linha subir um nível acima, deverá o utilizador definir por que montante pretende fazer a nova AM, pressionando posteriormente o botão "Gravar nova AM".
+Posteriormente à indicação do processo de aquisição e da execução da procura de CB, o utilizador deve, da lista de resultados apresentada, selecionar, com um **duplo clique**, a linha relativa ao documento pretendido.  
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-fbd35096.png)
+<!-- ![img_79.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_79.gif) -->
+
+</br>Uma vez a linha subir para a janela de acima, deve o utilizador definir por que montante pretende fazer a nova AM, clicando posteriormente no botão "Gravar nova AM".
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-bcfe7be3.png)
+
+>**NOTA:** Na coluna "Disp. Diminuição" é indicado o valor disponível para reduzir no cabimento.
 
 Novo ecrã surge, no qual o utilizador definirá o novo item financeiro, conta e importância a registar na alteração do CB. Finda a alteração, deverá gerar os documentos contabilísticos de forma automática pressionando para o efeito o botão "Gerar Contabilidade".
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-513a1d48.png)
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-e3753de3.png)
 
-O novo ecrã surge e associada a ela, aparecem os movimentos de lançamento do cabimento. Se os lançamentos estiverem corretos, deve o utilizador confirmar, pressionado o botão de confirmação.
+Ao gerar contabilidade, são gerados movimentos de lançamento de cabimento. Se os lançamentos estiverem corretos, o utilizador deve confirmar os mesmos clicando no botão "Confirme".
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-5f18c1ab.png)
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-51e17bca.png)
 
 A alteração ao Cabimento acaba de ser efetuada, sendo que o sistema gera uma mensagem de confirmação.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-03702c8f.png)
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-444b4587.png)
 
-De realçar que qualquer movimento de estorno que seja efetuado no CB, não existe a necessidade de alterar o registo inicial, sendo que assim impede que haja alterações a nível dos mapas de execução orçamental.
-Da mesma maneira que na importação de cabimentos, este processo de Alteração também pode ser feita por carregamento de ficheiro através do botão "Importar".
+>**NOTA:** De realçar que qualquer movimento de estorno que seja efetuado no CB, não existe a necessidade de alterar o registo inicial, sendo que assim impede que haja alterações a nível dos mapas de execução orçamental.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-74dc29f8.png)
 
-Ao pressionar, o utilizador vai deparar-se com o seguinte ecrã, sendo que para carregamento do ficheiro, tem de escolher o diretório de origem.
 
-![img_85.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_85.png)
+#### 1.4.1. Importação de AM
+
+Da mesma maneira que na importação de cabimentos, este processo de Alteração também pode ser feito por carregamento de ficheiro através do botão "Importar".
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-d6c68727.png)
+
+Ao clicar neste botão, o utilizador vai deparar-se com o seguinte ecrã, onde, para carregar o ficheiro, deve indicar o diretório de origem do mesmo:
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-cadb8c11.png)
 
 O aspeto do ficheiro CSV. é o abaixo demonstrado, sendo que o mesmo deve obedecer ao critério das colunas estipuladas, para efeito de carregamento.
 
 > **NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-d10e4460.png)
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-f39f69dd.png)
+
 
 <div style="height:40px">
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/AM_SNCAP.csv'">Descarregar CSV</button>
 </div>
 
-Antes da importação, o utilizador, tem de usar o botão "Verificar Ficheiro". Ao selecionar este mesmo botão, o utilizador constata que os elementos do ficheiro CSV estão visíveis e que o ficheiro integrado está testado. Caso ocorram erros, os mesmos produzem um relatório no ecrã, na caixa criada para o efeito, no canto inferior direito do ecrã.
+Antes da importação do ficheiro, o utilizador tem de validar a sua estrutura e o conteúdo, através do clique no botão "Ver/Testar Ficheiro". Ao validar o ficheiro, o utilizador constata que os elementos deste estão visíveis, e por isso validados e prontos para importação. Caso ocorram erros, os mesmos produzem um relatório no ecrã, na caixa criada para o efeito, no canto inferior direito do ecrã, bem como é gerada uma mensagem ao utilizador da existência dos mesmos.
 
-![img_87.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_87.png)
+Após validação dos elementos do ficheiro a importar, deve o utilizador clicar no botão "Importar Ligação".
 
-Após validação dos elementos integrados e constatado que os valores estão coerentes com o ficheiro integrado, o utilizador deve assim usar o botão. Depois de selecionar e de forma automática, o sistema gera uma mensagem de confirmação, com a indicação abaixo descrita.
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-cb3a9570.png)
+
+Para confirmar a importação dos elementos do ficheiro, o sistema gera uma mensagem de confirmação, com a indicação abaixo descrita.
 
 ![img_importacao_concluida_sucesso.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_importacao_concluida_sucesso.png)
 
-##### 1.4.1. Alterações de Cabimentos - Transferência de Contas
+#### 1.4.2. Alterações de Cabimentos - Transferência de Contas
 
 É possível transferir um montante de uma conta para outra num CB, sem alterar o valor total desse CB. Para o efeito, deve ser lançado um AM e deve-se ter em consideração se o CB está ou não regularizado.
 
@@ -200,17 +214,19 @@ Após validação dos elementos integrados e constatado que os valores estão co
 
 </br> Quando o CB não está regularizado basta lançar um AM da seguinte forma:
 
-</br> No ecrã de recolha de AM, o utilizador deve indicar o Ano e o Nº de CB e clicar em "Seleção de Cabimento", para que o sistema mostre, na janela de baixo, todos os cabimentos que respeitem as condições indicadas.
+</br> No ecrã de recolha de AM, o utilizador deve indicar o Ano e o Nº do Processo de Aquisição e clicar em "Procurar CB", para que o sistema mostre, na janela de baixo, todos os cabimentos que respeitem as condições indicadas.
 
-![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-6073672b.png)
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-8ac45f8c.png)
 
-![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-f230ef95.png)
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-18509486.png)
+
 
 De seguida, o utilizador deve clicar duas vezes em cima do CB a alterar, para que o mesmo passe para a janela de cima.
 
 </br>Por se tratar de uma **Transferência de Contas**, o utilizador deve-o indicar selecionando a respetiva _checkbox_ e deve deixar o campo da **importância a 0€** para que o valor do CB não seja nem aumentado nem diminuido. Por fim, deve clicar em "Gravar nova AM".
 
-![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-3f347287.png)
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-6a7e9246.png)
 
 No novo ecrã aberto, o utilizador deve lançar a conta pretendida com valor negativo e outra com valor positivo, de forma que a soma seja 0. Segue abaixo um exemplo de um CB com várias contas lançadas em que se pretende transferir 100€ da conta 626211 para a conta 626219.
 De seguida, o utilizador deve clicar em "Gerar Contabilidade".
@@ -371,13 +387,13 @@ Ao selecionar "Gerar CSV", o ficheiro terá o aspeto como o do apresentado segui
 
 ### 2.4. Alteração de Compromisso (AB)
 
-__Existe igualmente a possibilidade de proceder à alteração no Compromisso, pelo que o utilizador terá de ter em atenção que as alterações efetuadas também têm de estar alinhadas com o valor do Cabimento. O sistema deteta e envia mensagem de erro caso se verifique que o valor do compromisso seja superior ao cabimento, ou mesmo quando não existe cabimento para determinado item financeiro produzido posteriormente no compromisso. O Processo em si é semelhante ao explicado anteriormente nas alterações dos cabimentos (AM).__
+__Existe igualmente a possibilidade de proceder à alteração no Compromisso, pelo que o utilizador terá de ter em atenção que as alterações efetuadas também têm de estar alinhadas com o valor do Cabimento. O sistema deteta e envia mensagem de erro caso se verifique que o valor do compromisso seja superior ao cabimento, ou mesmo quando não existe cabimento para determinado item financeiro produzido posteriormente no compromisso. O processo em si é semelhante ao explicado anteriormente nas alterações dos cabimentos (AM).__
 
 </br> Menu de acesso:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-c02d02d9.png)
 
-Nesta etapa, demostramos, a título de exemplo, este processo de Alteração de Compromisso feita por carregamento de ficheiro através do botão "Importar".
+Nesta etapa, demonstramos, a título de exemplo, este processo de Alteração de Compromisso feita por carregamento de ficheiro através do botão "Importar".
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-24fb53e0.png)
 
