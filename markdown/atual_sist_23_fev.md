@@ -1,4 +1,4 @@
-<div style="width:100%; height:30px"><span onclick="loadUpgrades(['btnMenu'], event)" class="voltar">Voltar</span></div>
+<div style="width:100%; height:30px"><span onclick=""loadMdDoc('atualizacoes', ['btnMenu'],'', null)" class="voltar">Voltar</span></div>
 
 # Atualizações no SICC - 23 de fevereiro de 2018
 
@@ -13,4 +13,4 @@
 - Otimização do cálculo do número do documento quando sequencial (CM, OD, etc);
 - Atualização da validação das contas válidas por tipo de documento nas ligações;
 - Registar rubrica financeira nos lançamentos automáticos da conta 111 em fundos próprios;
-- Melhoria das mensagens de erro. 
+- Melhoria das mensagens de erro.

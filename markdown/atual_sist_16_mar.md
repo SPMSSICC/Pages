@@ -1,4 +1,4 @@
-<div style="width:100%; height:30px"><span onclick="loadUpgrades(['btnMenu'], event)" class="voltar">Voltar</span></div>
+<div style="width:100%; height:30px"><span onclick="loadMdDoc('atualizacoes', ['btnMenu'],'', null)" class="voltar">Voltar</span></div>
 
 # Atualizações no SICC - 16 de março de 2018
 
@@ -7,7 +7,7 @@
 - Correção dos mapas no menu Analítica;
 - Correção da produção do ficheiro de pagamentos (SISO);
 - Correções nos ficheiros BA, BLC e DR S3CP;
-- Melhoria dos extratos dos ficheiros BLC e DR, sendo agora incluidas as contas sem valor no balancete.
+- Melhoria dos extratos dos ficheiros BLC e DR, sendo agora incluídas as contas sem valor no balancete.
 
 
 > Nota:

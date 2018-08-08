@@ -1,4 +1,4 @@
-<div style="width:100%; height:30px"><span onclick="loadUpgrades(['btnMenu'], event)" class="voltar">Voltar</span></div>
+<div style="width:100%; height:30px"><span onclick="loadMdDoc('atualizacoes', ['btnMenu'],'', null)" class="voltar">Voltar</span></div>
 
 # Atualizações no SICC - 27 de abril de 2018
 
