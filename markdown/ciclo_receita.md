@@ -306,11 +306,11 @@ O aspeto do ficheiro **CSV** a ser importado deve ser semelhante ao seguidamente
 
 Quando se pretende registar um Crédito Incobrável (CI) deve o utilizador seguir o mesmo caminho na aplicação que para o registo de uma CD, e selecionar a tabulação respetiva. De seguida deve indicar o ano e a entidade do CI e deve clicar em "Ver Documentos".
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-3c1640a9.png)
+![](https://spmssicc.github.io/pages/markdown/ciclo_receita.assets/ciclo_receita-dc7d96f7.png)
 
 Na janela de baixo, irão aparecer as CD da entidade indicada. Para selecionar a pretendida, deve o utilizador clicar sob a mesma duas vezes. De seguida deve clicar em "Gravar novo CI".
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-8f2184c4.png)
+![](https://spmssicc.github.io/pages/markdown/ciclo_receita.assets/ciclo_receita-69808bfb.png)
 
 Irá ser aberto um novo ecrã onde o utilizador deverá indicar a conta de gastos e o seu respetivo valor. De seguida, deve clicar em "Gerar Contabilidade".
 
