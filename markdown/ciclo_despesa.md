@@ -739,28 +739,31 @@ Para confirmar a importação dos elementos do ficheiro, o sistema gera uma mens
 
 A autorização de pagamento das despesas, são autorizadas pelos dirigentes dos serviços ou outros que detenham autorização, mediante operações de tesouraria ou ainda através de transferência bancária, quando esta forma se revelar a mais conveniente.
 
+Para aceder ao menu, deve o utilizador seguir o seguinte caminho na aplicação:
+
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a2995da1.png)
 
-Neste processo, o utilizador terá de identificar a entidade e os documentos que dela fazem parte, bem como atribuir um nº de autorização. O não preenchimento deste último, determina que a numeração seja automática. Ao exemplo do anterior, terá de dar duplo clique na linha que contém os elementos para a mesma subir ao nível seguinte.
+Neste processo, o utilizador terá de identificar a Entidade e seguidamente deve clicar em "Pesquisar Documentos", para que o sistema devolva todos os documentos por regularizar da entidade identificada. Pode ainda definir a ordenação de documentos: se pretende que estejam ordenados por Data ou por Número de Documento.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-f3ce9222.png)
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-e00027c9.png)
 
-O utilizador define também se o pagamento é efetuado por Tesouraria ou por Transf. Bancária, sendo que para este último caso tem de selecionar qual a Instituição Bancária.
-
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-519d916a.png)
+ Como resultado da pesquisa, na janela inferior do ecrã irá aparecer uma lista de documentos por regularizar. Estes documentos podem ser do tipo: P2, NC, DF e CF. Para selecionar o/os documento/s pretendido/s deve o utilizador clicar duas vez sob os mesmos. De seguida, deve indicar a forma de pagamento pretendida - Tesouraria ou por Transf. Bancária. Caso selecione a última, deverá também indicar a Instituição Bancária, o IBAN e o Motivo.
 
 |Campo|Descrição|
 |:---|:---|
 |NIB/IBAN|Este campo dá a hipótese do utilizador escolher se é um IBAN Credor ou _Factoring_, aparecendo as seguintes opções: ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-4a09e554.png)|
-|Motivo|O motivo deverá igualmente ser escolhido dentro das parametrizações inseridas em sistema: ![img_secu_pag_igcp.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_secu_pag_igcp.png)|
+|Motivo|O motivo deverá igualmente ser escolhido dentro das parametrizações inseridas no sistema: ![img_secu_pag_igcp.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_secu_pag_igcp.png)|
 
-Para o exemplo, escolhemos IBAN Credor, sendo que para este caso é sempre obrigatório colocar um motivo. Deve o utilizador, seguidamente, confirmar para dar continuidade à AP.
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-2a2dbc0a.png)
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-5242482a.png)
+O utilizador pode também, indicar o Nº da Autorização no respetivo campo do ecrã, bem como as datas deste documento. caso o utilizador não o indique, a numeração da autorização de pagamento será atribuída, automaticamente, pelo sistema. Tendo preenchidos todos os campos do ecrã, deve o utilizador clicar em "Gravar nova AP".
 
-Ao confirmar, uma nova janela surge com os movimentos contabilísticos associados. Caso estejam corretos, o utilizador terá de confirmar para finalizar o processo.
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-a3fb46b4.png)
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-396a3f91.png)
+Irá ser aberto novo ecrã, onde o utilizador deve confirmar os lançamentos apresentados. Para concluir o processo, deve clicar em "Confirmar".
+Como não foi indicado, no ecrã inicial, o número da AP, este é atribuído automaticamente pelo sistema. O número da AP é comunicado ao utilizador através de uma mensagem como a apresentada seguidamente.  
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-fc8cf699.png)
 
 ### 4.1. Importação AP
 
@@ -771,7 +774,7 @@ Este processo de Autorização de Pagamento também pode ser efetuado por carreg
 Ao selecionar o botão vai ser aberto um novo ecrã onde o utilizador, para carregar o ficheiro CSV, tem de escolher o diretório de origem do mesmo.
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1d28edba.png)
 
-O aspecto do ficheiro CSV é o abaixo demonstrado, sendo que o mesmo deve obedecer ao critério das colunas estipuladas, para efeito de carregamento.
+O aspeto do ficheiro CSV é o abaixo demonstrado, sendo que o mesmo deve obedecer ao critério das colunas estipuladas, para efeito de carregamento.
 
 > **NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
 
@@ -878,7 +881,7 @@ Noecrã aberto, o utilizador deve preencher os seguintes campos:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-243a80a9.png)
 
-Após ter definido os critérios de pesquisa,deve o utilizador clicar em "Calcular" para que o sistema apresente todos os documentos que estejam de acordo com os critérios de pesquisa. Para selecionar o documento, deve o utilizador preencher a checkbox do documento pretendido.
+Após ter definido os critérios de pesquisa, deve o utilizador clicar em "Calcular" para que o sistema apresente todos os documentos que estejam de acordo com os critérios de pesquisa. Para selecionar o documento, deve o utilizador preencher a checkbox do documento pretendido.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-05ab035f.png)
 
