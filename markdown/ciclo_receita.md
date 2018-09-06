@@ -38,7 +38,7 @@ No ecrã aberto, o utilizador deve selecionar o ficheiro CSV que pretende import
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-752bba61.png)
 
-Se o ficheiro apresentar uma esturutura correta, as duas janelas do ecrã ficarão preenchidas com os dados do ficheiro importado. Se apresentar incoerências, as mesmas serão comunicadas na janela respetiva.
+Se o ficheiro apresentar uma estrutura correta, as duas janelas do ecrã ficarão preenchidas com os dados do ficheiro importado. Se apresentar incoerências, as mesmas serão comunicadas na janela respetiva.
 
 Para validar a importação, deve clicar em "Importa Ligação".
 
@@ -84,7 +84,7 @@ No ecrã aberto, o utilizador deve selecionar o ficheiro CSV que pretende import
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-fbdde331.png)
 
-Se o ficheiro apresentar uma esturutura correta, as duas janelas do ecrã ficarão preenchidas com os dados do ficheiro importado. Se apresentar incoerências, as mesmas serão comunicadas na janela respetiva.
+Se o ficheiro apresentar uma estrutura correta, as duas janelas do ecrã ficarão preenchidas com os dados do ficheiro importado. Se apresentar incoerências, as mesmas serão comunicadas na janela respetiva.
 
 Para validar a importação, deve clicar em "Importa Ligação".
 
@@ -116,7 +116,7 @@ __O utilizador tem de selecionar sempre os documentos que deseja, sejam para con
 |Última data|**Sim**|Definir intervalo última data|
 |Pôr Guias já regularizadas|Opcional|Permite ao utilizador quando o "![img_checkbox_checked_2.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_checkbox_checked_2.png)" estiver ativo imprimir guias com histórico e em que já tenha ocorrido o recebimento|
 
-| Botão|Descriçã|
+| Botão|Descrição|
 |:---------|:---------------------------------------------------------------------------------------------------------------------------------|
 | Calcular | Este botão permite ao utilizador consultar os valores carregados de orçamento, bem como os respetivos classificadores económicos |
 | Imprimir | Este botão permite a geração do documento em PDF |
@@ -129,7 +129,7 @@ _Imagem em atualização_
 ## 3. Outras Receitas (OR)
 
 ### 3.1. Recolha
-Para aceder ao ecrã de registo de outras receitas,  DEve o utilizador seguir o seguinte caminho na aplicação:
+Para aceder ao ecrã de registo de outras receitas,  deve o utilizador seguir o seguinte caminho na aplicação:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-7e655f7a.png)
 
@@ -147,7 +147,7 @@ Na nova janela, o utilizador tem de indicar o centro de custo pretendido. O aces
 
 ### 3.2. Importação OR
 
-As OR's podem ser importadas através do botão "Importar" disponivel no ecrã inicial de registo.
+As OR's podem ser importadas através do botão "Importar" disponível no ecrã inicial de registo.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-fdb71cb3.png)
 
@@ -219,7 +219,7 @@ Os movimentos contabilísticos surgem de forma automática, pelo que o utilizado
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-39ad4005.png)
 
 
-No segundo separador "Receita sem Factura (CO->OR)" deve o utilizador para dar continuidade ao processo, preenchendo: “Nº de entidade”, “Ano” e “Nº de Doc” seguido do botão "Pesquisar OR". Também deve ser atribuido o "Nº de tesouraria" ou o sistema pode atribuí-lo de forma automática e deve-se dar um duplo clique na linha resumo. Desta forma, o preenchimento dos restantes campos é automático. Porfim, deve selecionar o botão "Gravar novo CO".
+No segundo separador "Receita sem Factura (CO->OR)" deve o utilizador para dar continuidade ao processo, preenchendo: “Nº de entidade”, “Ano” e “Nº de Doc” seguido do botão "Pesquisar OR". Também deve ser atribuído o "Nº de tesouraria" ou o sistema pode atribuí-lo de forma automática e deve-se dar um duplo clique na linha resumo. Desta forma, o preenchimento dos restantes campos é automático. Por fim, deve selecionar o botão "Gravar novo CO".
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a0055c12.png)
 
@@ -269,12 +269,12 @@ Ao clicar duas vezes sobre a fatura, esta irá passar para a janela de cima. De 
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-35719976.png)
 
-Ao clicar em Gravar novo CD, será abert um outro ecrã onde o utilizador deve confirmar as contas apresentadas automaticamente pelo sistema.
+Ao clicar em Gravar novo CD, será aberto um outro ecrã onde o utilizador deve confirmar as contas apresentadas automaticamente pelo sistema.
 Para validar estas contas, bem como o registo da CD, o utilizador deve clicar em "Confirme".
 
  ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-c143324d.png)
 
- O sistema irá atribuír um número à CD criada e irá comunicar este número através da seguinte mensagem:
+ O sistema irá atribuir um número à CD criada e irá comunicar este número através da seguinte mensagem:
 
  ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-f897d9b7.png)
 
@@ -324,16 +324,16 @@ Para confirmar o registo do CI, deve o utilizador clicar em "Confirme".
 
 ## 7. Anulações (AD)
 
-Para efetuar o registo contabilistico de uma anulação de faturas de clientes (AD), o utiliador deve seguir o seguinte caminho na aplicação:
+Para efetuar o registo contabilístico de uma anulação de faturas de clientes (AD), o utilizador deve seguir o seguinte caminho na aplicação:
 
 ![](https://spmssicc.github.io/pages/markdown/ciclo_receita.assets/ciclo_receita-ed67bdb2.png)
 
-Na janela aberta, o utilizador deve selecionar a tabulação entitulada em "Anulações (AD)".
+Na janela aberta, o utilizador deve selecionar a tabulação intitulada em "Anulações (AD)".
 De seguida, deve o utilizador indicar a entidade e as datas do documento. Para visualizar os documentos da entidade indicada que possam ser anulados, deve o utilizador clicar em "Ver Documentos".
 
 ![](https://spmssicc.github.io/pages/markdown/ciclo_receita.assets/ciclo_receita-743c85e7.png)
 
-Da lista de documentos apresentados, o utiliador deve selecionar um, clicando sobre o mesmo duas vezes. De seguida deve clicar em "Gravar novo AD".
+Da lista de documentos apresentados, o utilizador deve selecionar um, clicando sobre o mesmo duas vezes. De seguida deve clicar em "Gravar novo AD".
 
 ![](https://spmssicc.github.io/pages/markdown/ciclo_receita.assets/ciclo_receita-77df77f2.png)
 
@@ -388,7 +388,7 @@ No novo ecrã aberto, o utilizador deve indicar as contas e os respetivos montan
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-4f1d8510.png)
 
-Neste novo ecrã o utilizador deve indicar o Centro de Custo. Para consultar os centros de custo disponibilidos no sistemao utilizador deve pressionar o botão redondo. Para finalizar deve clicar em "Confirme".
+Neste novo ecrã o utilizador deve indicar o Centro de Custo. Para consultar os centros de custo disponibilizados no sistema, o utilizador deve pressionar o botão redondo. Para finalizar deve clicar em "Confirme".
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-85147dba.png)
 
@@ -402,7 +402,7 @@ No ecrã aberto, o utilizador deve selecionar o ficheiro CSV que pretende import
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-617e3511.png)
 
-Se o ficheiro apresentar uma esturutura correta, as duas janelas do ecrã ficarão preenchidas com os dados do ficheiro importado. Se apresentar incoerências, as mesmas serão comunicadas na janela respetiva.
+Se o ficheiro apresentar uma estrutura correta, as duas janelas do ecrã ficarão preenchidas com os dados do ficheiro importado. Se apresentar incoerências, as mesmas serão comunicadas na janela respetiva.
 
 Para validar a importação, deve clicar em "Importa Ligação".
 
@@ -469,7 +469,7 @@ Devem ser, novamente, verificadas as contas e os montantes e por fim deve-se con
 
 Um **reembolso** resulta do próprio mecanismo de funcionamento normal da receita e ocorre quando na sequência do processo declarativo inicialmente conduzido pelo devedor, posteriormente confirmado pela entidade administradora aquele se apresenta como credor perante o Estado, havendo lugar ao reembolso de uma determinada importância;
 
-</br>Uma **restituição** corresponde à entrega ao devedor do montante já pago por este, quando se prove que a entidade administradora da receita liquidou indevidamente a receita em causa, ou quando se verifique que não a devia ter recebido, no caso de autoliquidação, oou ainda, quando por erro do contribuinte este a tenha pago mais do que uma vez.
+</br>Uma **restituição** corresponde à entrega ao devedor do montante já pago por este, quando se prove que a entidade administradora da receita liquidou indevidamente a receita em causa, ou quando se verifique que não a devia ter recebido, no caso de autoliquidação, ou ainda, quando por erro do contribuinte este a tenha pago mais do que uma vez.
 
 </br>Fonte: V - Processo de Emissão de Reembolsos e/ou Restituições disponível em: http://www.dgo.pt/instrucoes/Instrucoes/2014/Circular_2-2014-DGO.pdf
 
@@ -485,7 +485,7 @@ De seguida, deve clicar em "Gerar Contabilidade" e indicar o Centro de Custo (qu
 
 Finda a indicação do centro de custo, o utilizador deve clicar em "Confirme".
 
-Findo o registo de CC de Reembolsos/Restituições, deve o utilizador prosseguir ao registo da GR. Este processo é igual ao descrito para CC "normal" à excepção de que deixa de ser necessária a seleção da FD.
+Findo o registo de CC de Reembolsos/Restituições, deve o utilizador prosseguir ao registo da GR. Este processo é igual ao descrito para CC "normal" à exceção de que deixa de ser necessária a seleção da FD.
 
 ![](https://spmssicc.github.io/pages/markdown/ciclo_receita.assets/ciclo_receita-e97932e2.png)
 
@@ -509,7 +509,7 @@ Para aceder ao ecrã onde este registo pode ser efetuado, deve o utilizador segu
 
 No ecrã aberto, o utilizador deve indicar os critérios de pesquisa de documentos, iniciando pela entidade. Deve navegar pelos campos com a tecla TAB do seu computador até que, na janela de baixo, apareçam os documentos por regularizar da entidade indicada.
 
-Também pode pesquizar documentos específicos da entidade indicada através da sua indicação nos campos respetivos.
+Também pode pesquisar documentos específicos da entidade indicada através da sua indicação nos campos respetivos.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-2cbb54e3.png)
 
@@ -532,3 +532,50 @@ Na nova janela aberta, deve indicar os intervalos das entidades das quais preten
 O aspeto do ficheiro PDF gerado é como o do apresentado seguidamente:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1efa308a.png)  
+
+## 10.Listagem Receita
+
+Para abrir o ecrã relativo à listagem da receita deve o utilizador seguir o seguinte caminho na aplicação:
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_receita.assets/ciclo_receita-c2d8fc9e.png)
+
+Este menu permite ao utilizador obter um mapa de documentos possibilitando visualizar a sua relação e estado (regularizado ou por regularizar).  
+
+Para tal, deve o utilizador indicar os critérios de pesquisa dos documentos a visualizar.
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_receita.assets/ciclo_receita-33bca59d.png)
+
+Primeiro, deve indicar qual o Tipo de Documento Principal. Para o efeito, deve clicar por cima do campo a preencher e de seguida deve selecionar, do esquema do Fluxo de Receita, o tipo de documento principal.
+
+De seguida, deve clicar no campo relativo ao "Tipo de documento secundário" e selecionar, do esquema, o tipo de documento que será o secundário.
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_receita.assets/listagem_receita.gif)
+
+
+>**NOTA:** Caso o utilizador não indique o tipo de documento secundário, serão apresentados todos os documentos que se seguem ao documento principal indicado no fluxo de despesa.
+
+Na área "Documento Principal" (parte inferior do ecrã) o utilizador pode definir os critérios de pesquisa do documento principal. Numa primeira instância, deve indicar se pretende pesquisar documentos pelo seu número de documento ou por conta a débito. Para tal deve-o indicar através da seleção da respetiva _checkbox_.
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_receita.assets/ciclo_receita-963b1c56.png)
+
+De seguida deve indicar o Ano ao qual se referem os documentos a pesquisar e o intervalo de Entidades a considerar para o efeito.
+
+</br> Para indicar o intervalo de datas, deve o utilizador, primeiro indicar se o intervalo se refere à data de documento ou à data de contabilização. Também deve ser indicada a data de referência.
+
+</br> Caso a pesquisa for efetuada pelo número de documento, deve o utilizador indicar o intervalo de números de documento a incluir no ficheiro a ser produzido. A lista de documentos será apresentada pela ordem crescente do número de documento.
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_receita.assets/ciclo_receita-cf78552d.png)
+
+</br>Caso a pesquisa for efetuada por Conta a Débito, deve o utilizador indicar o intervalo de contas a considerar. A lista de documentos será apresentada pela ordem crescente de contas.
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_receita.assets/ciclo_receita-fa5ab81b.png)
+
+Para produzir o ficheiro deve primeiro o utilizador indicar o diretório onde pretende guardar o ficheiro CSV e de seguida deve clicar em "Gerar CSV".
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_receita.assets/ciclo_receita-d846ef9a.png)
+
+O aspeto dos ficheiros CSV produzidos são como os apresentados seguidamente:
+
+|NÚMERO DOCUMENTO|CONTA|
+|:--:|:--:|
+| ![](https://spmssicc.github.io/pages/markdown/ciclo_receita.assets/ciclo_receita-d1b200f1.png) | ![](https://spmssicc.github.io/pages/markdown/ciclo_receita.assets/ciclo_receita-a168f469.png) |  
