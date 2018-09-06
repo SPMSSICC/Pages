@@ -1,12 +1,19 @@
 # Atualizações do sistema SICC SNC-AP
 
 <ul id=commit-history>
+
+<div title="Clique para ver as atualizações" class="cab" onclick="atualizacao('setembro')" >Atualizações de Setembro 2018 </div>
+  <div id="setembro" class="hide">
+    <div class="atualizacao">
+      <div title="Clique para ver as atualizações" onclick="loadMdDoc('atual_sist_6_sep', ['btnMenu','btnOpt'], '', null)">6 de setembro</div>
+      </div></div></br>
+
+
   <div title="Clique para ver as atualizações" class="cab" onclick="atualizacao('agosto')" >Atualizações de Agosto 2018 </div>
     <div id="agosto" class="hide">
       <div class="atualizacao">
         <div title="Clique para ver as atualizações" onclick="loadMdDoc('atual_sist_16_ago', ['btnMenu','btnOpt'], '', null)">16 de agosto</div>
         </div></div></br>
-
 
   <div title="Clique para ver as atualizações" class="cab" onclick="atualizacao('julho')" >Atualizações de Julho 2018 </div>
     <div id="julho" class="hide">
