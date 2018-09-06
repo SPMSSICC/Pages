@@ -421,9 +421,39 @@ De seguida o utilizador deve selecionar o documento que pretende transferir atra
 
 ![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-8364e847.png)
 
-## 7. Balancete de Terceiros
+## 7. Alteração de datas
 
-### 7.1. Balancete de Terceiros
+Serve este menu para efetuar alterações de datas de documento e de contabilização dos documentos registados no sistema.
+
+Para efetuar este tipo de alteração, deve o utilizador seguir o seguinte caminho na aplicação:
+
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-161c2070.png)
+
+No ecrã aberto, deve o utilizador indicar os critérios de pesquisa que permitam identificar documentos nos quais pretende efetuar a alteração. Pode indicar apenas um critério ou uma conjugação de vários. Após a indicação dos critérios, deve clicar em "Calcular".
+
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-bca448c2.png)
+
+Para selecionar os documentos nos quais pretende efetuar a alteração, deve indicar o mesmo através da checkbox. De seguida, **deve indicar o tipo de data que pretende alterar**: a data de documento ou a data de contabilização tal como deve introduzir a nova data (no formato DD-MM-AAAA) no respetivo campo.
+
+</br>Antes de efetuar a alteração, deve indicar a diretoria do seu computador onde ficará guardado o ficheiro com o relatório da alteração. Por fim, para concretizar a alteração, deve clicar em "Alterar data".
+
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-34e477af.png)
+
+Após a alteração da data, na linha do documento selecionado, na coluna "Estado", ficará indicado o estado da alteração. Caso a alteração tenha sucesso, o estado da mesma será OK, caso ocorra algum erro, o mesmo será indicado neste campo. Todo este relatório é guardado no ficheiro gerado aquando a alteração, e guardado na diretoria indicada.
+
+</br> **Alteração efetuada com sucesso**
+
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-5d53e7cd.png)
+
+**Alteração não efetuada devido a erros**
+
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-2db6c0da.png)
+
+
+
+## 8. Balancete de Terceiros
+
+### 8.1. Balancete de Terceiros
 
 Menu de acesso:
 
@@ -470,7 +500,7 @@ O aspeto do balancete será como o do apresentado seguidamente:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-51493520.png)
 
-### 7.2. Extrato de Movimento de Terceiros
+### 8.2. Extrato de Movimento de Terceiros
 
 Para aceder ao ecrã para gerar o extrato de movimento  de terceiros deve o utilizador seguir o caminho na aplicação:
 ![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-36a83a99.png)
@@ -499,7 +529,7 @@ O aspeto do ficheiro CSV gerado será como o do apresentado seguidamente:
 
 ![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-571b1390.png)
 
-### 7.3. Balancete Atividade/Departamento
+### 8.3. Balancete Atividade/Departamento
 
 Menu de acesso:
 ![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-e9d5a003.png)
@@ -508,7 +538,7 @@ Este menu permite ao utilizador gerar o balancete de terceiros por departamento,
 
 ![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-1b2a2674.png)
 
-### 7.4. Gestão de Projetos
+### 8.4. Gestão de Projetos
 
 Menu de acesso:
 
@@ -542,12 +572,12 @@ Caso o utilizador pretenda guardar em ficheiro PDF, deve clicar em "Gerar PDF". 
 
 ![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-ba02e1cc.png)
 
-## 8. Ofícios
+## 9. Ofícios
 
 Este submenu permite ao utilizador gerar ofícios que podem ser posteriormente enviados às entidades.
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-f239cecc.png)
 
-### 8.1. Certificação Legal de Contas
+### 9.1. Certificação Legal de Contas
 
 Este submenu permite ao utilizador produzir e enviar certificação legal de contas.
 
@@ -580,7 +610,7 @@ Se o utilizador pretender enviar o ofício através do email, deverá selecionar
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ad793db8.png)
 
-### 8.2. Ofício a Devedores
+### 9.2. Ofício a Devedores
 Neste submenu o utilizador deve preencher os seguintes campos:
 
 
@@ -611,7 +641,7 @@ Se o utilizador pretender enviar o ofício através do email, deverá selecionar
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1687c76e.png)
 
-### 8.3. Ofício a Credores
+### 9.3. Ofício a Credores
 Neste submenu o utilizador deve preencher os seguintes campos:
 
 
@@ -642,12 +672,12 @@ Se o utilizador pretender enviar o ofício através do email, deverá selecionar
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1687c76e.png)
 
-## 9. Antiguidade de Saldos
+## 10. Antiguidade de Saldos
 Este submenu permite ao utilizador consultar saldos por entidade e por conta.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-2138a2a4.png)
 
-### 9.1. Dividas por Entidade
+### 10.1. Dividas por Entidade
 
 ![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-9593db48.png)
 
@@ -688,11 +718,11 @@ Quando a opção "Gerar PDF" é selecionada é gerado um ficheiro com o aspeto s
 **Nota:** Quando é selecionada a opção "Ficheiro CSV" a informação contemplada neste ficheiro é igual à contemplada no PDF.
 
 
-### 9.2. Créditos por Entidade
+### 10.2. Créditos por Entidade
 
 Os processos e os campos inerentes a este submenu são semelhantes aos descritos em 2.9.1.
 
-### 9.3. Dividas por Conta
+### 10.3. Dividas por Conta
 
 ![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-1fef322c.png)
 
@@ -733,10 +763,10 @@ Quando a opção "Gerar PDF" é selecionada é gerado um ficheiro com o aspeto s
 **Nota:** Quando é selecionada a opção "Ficheiro CSV" a informação contemplada neste ficheiro é igual à contemplada no PDF.
 
 
-### 9.4. Créditos por Conta
+### 10.4. Créditos por Conta
 Os processos e os campos inerentes a este submenu são semelhantes aos descritos em 2.9.3.
 
-## 10. Procura de Documentos
+## 11. Procura de Documentos
 
 Este submenu permite ao utilizador realizar uma pesquisa geral de qualquer documento registado na aplicação. Esta pesquisa não só permite ao utilizar consultar os detalhes do documento registado mas também de todos os documentos subsequentes e antecedentes.
 

@@ -1271,9 +1271,9 @@ O aspeto do ficheiro PDF gerado é como o do apresentado seguidamente:
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-f0fb5277.png)
 
 
-## 10. Crédito sobre Facturas  (CF)
+## 10. Crédito sobre Faturas  (CF)
 
-Para aceder ao ecrã de recolha de dados relativos a crédito sobre facturas, deve o utilizador seguir o seguinte caminho na aplicação:
+Para aceder ao ecrã de recolha de dados relativos a crédito sobre faturas, deve o utilizador seguir o seguinte caminho na aplicação:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-96bc1e03.png)
 
@@ -1456,6 +1456,6 @@ Para produzir o ficheiro deve primeiro o utilizador indicar o diretório onde pr
 
 O aspeto dos ficheiros CSV produzidos são como os apresentados seguidamente:
 
-|NUMERO DOCUMENTO|CONTA|
+|NÚMERO DOCUMENTO|CONTA|
 |:--:|:--:|
 | ![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-99cf994b.png) | ![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-3c35318b.png) |  
