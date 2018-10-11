@@ -755,7 +755,7 @@ Neste processo, o utilizador terá de identificar a Entidade e seguidamente deve
 
 ![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-2a2dbc0a.png)
 
-O utilizador pode também, indicar o Nº da Autorização no respetivo campo do ecrã, bem como as datas deste documento. caso o utilizador não o indique, a numeração da autorização de pagamento será atribuída, automaticamente, pelo sistema. Tendo preenchidos todos os campos do ecrã, deve o utilizador clicar em "Gravar nova AP".
+O utilizador pode também, indicar o Nº da Autorização no respetivo campo do ecrã, bem como as datas deste documento. Caso o utilizador não o indique, a numeração da autorização de pagamento será atribuída automaticamente pelo sistema. Tendo preenchidos todos os campos do ecrã, deve o utilizador clicar em "Gravar nova AP".
 
 ![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-a3fb46b4.png)
 
@@ -768,24 +768,26 @@ Como não foi indicado, no ecrã inicial, o número da AP, este é atribuído au
 
 Este processo de Autorização de Pagamento também pode ser efetuado por carregamento de ficheiro CSV através do botão "Importar".
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ce8fa564.png)
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-74c318e4.png)
 
 Ao selecionar o botão vai ser aberto um novo ecrã onde o utilizador, para carregar o ficheiro CSV, tem de escolher o diretório de origem do mesmo.
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-1d28edba.png)
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-ece28b2f.png)
 
 O aspeto do ficheiro CSV é o abaixo demonstrado, sendo que o mesmo deve obedecer ao critério das colunas estipuladas, para efeito de carregamento.
 
 > **NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-277bb7fb.png)
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-73301e06.png)
 
 <div style="height:40px">
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/AP_SNCAP.csv'">Descarregar CSV</button>
 </div>
 
-Caso o utilizador pretenda importar APs para serem pagos por Transferência Bancária, deve preencher também os seguintes campos: Conta Bancária, IBAN e Categoria de Motivo.
+Caso o utilizador pretenda importar APs para serem pagos por Transferência Bancária, deve preencher também os campos: Conta Bancária, IBAN e Categoria de Motivo.
 
-Na coluna Categoria de Motivo, deve colocar o respetivo código numérico. A lista de códigos é apresentada seguidamente:
+Na coluna Categoria de Motivo, deve indicar o respetivo **código numérico**.
+
+Seguidamente é apresentada a lista de códigos numéricos a utilizar, conforme o motivo pretendido.
 
 |Código| Sigla| Descrição|
 |:--:|:--:|:--|
@@ -805,9 +807,9 @@ Na coluna Categoria de Motivo, deve colocar o respetivo código numérico. A lis
 |17   |GOVT   |Reembolsos Impostos   |   
 |20   |OTHR   |PAG IGCP  |   
 
-</br>Antes da importação, o utilizador, tem de usar o botão "Ver/Testar Ficheiro". Ao selecionar este mesmo botão, o utilizador constata que os elementos do ficheiro CSV estão visíveis e que o ficheiro integrado está testado. Caso ocorram erros, os mesmos produzem um relatório no ecrã, na caixa criada para o efeito, no canto inferior direito do ecrã.
+</br>Antes da importação, o utilizador, tem de usar o botão "Ver/Testar Ficheiro". Ao selecionar este botão, o utilizador constata que os elementos do ficheiro CSV estão visíveis e que o ficheiro integrado está testado. Caso ocorram erros, os mesmos produzem um relatório no ecrã, na caixa criada para o efeito, no canto inferior direito do ecrã.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-43ae47eb.png)
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-141ac688.png)
 
 Após validação dos elementos integrados e constatado que os valores estão coerentes com o ficheiro integrado, o utilizador deve assim usar o botão "Importa Ligação". Depois de selecionar e de forma automática, o sistema gera uma mensagem de confirmação, com a indicação abaixo descrita.
 
@@ -816,48 +818,42 @@ Após validação dos elementos integrados e constatado que os valores estão co
 
 ### 4.2. Impressão de Autorizações de Pagamento (AP)
 
-Nesta etapa, é demonstrado o procedimento para fazer as impressões das AP’s (de forma _individual_ ou _global_) geradas no passo anterior. Para isso, deve o utilizador seguir o seguinte caminho no sistema:
+Nesta etapa, é demonstrado o procedimento para fazer as impressões das APs (de forma _individual_ ou _global_) geradas no passo anterior. Para isso, deve o utilizador seguir o seguinte caminho no sistema:
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-97b60cbd.png)
 
-_Individual_
+_Autorização de Pagamento Individual_
 
-Deve o utilizador, escolher a entidade da qual pretende extrair a Autorização de Pagamento.
+</br>Para gerar as autorizações de pagamento individuais, o utilizador pode indicar apenas uma entidade, colocando o seu código nos campos "Pri.Entidade" e "Últ.Entidade", ou pode indicar um intervalo de entidades a fim de selecionar vários documentos para impressão individual. De seguida, deve clicar no botão "Calcular" para o sistema apresentar as autorizações de pagamento registadas.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-19178dba.png)
+>NOTA: Por defeito, o sistema apresenta as autorizações de pagamento por regularizar. Caso o utilizador pretenda gerar ficheiros para impressão, de APs já regularizadas, deve selecionar a respetiva _checkbox_.
 
-__O utilizador tem de selecionar SEMPRE os documentos que deseja, sejam para consulta ou impressão através da colocação de ![img_checkbox_checked.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_checkbox_checked.png) no ecrã.__
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-a62d3c62.png)
 
-_Global_
+O utilizador tem de selecionar **SEMPRE** os documentos que deseja, sejam para consulta ou impressão através da seleção da _checkbox_ no ecrã.
 
-O utilizador tem a possibilidade de definir um intervalo, com a possibilidade de escolher as entidades das quais pretende extrair as Autorizações de Pagamento.
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-2281b109.png)
 
-![img_141.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_141.png)
+Para gerar o ficheiro para impressão, deve o utilizador clicar no botão "Gerar PDF".
 
-__O utilizador tem de selecionar SEMPRE os documentos que deseja, sejam para consulta ou impressão através da colocação de ![img_checkbox_checked.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_checkbox_checked.png) no ecrã.__
+</br>O aspeto do ficheiro PDF gerado, relativo à autorização de pagamento, é como o do apresentado seguidamente:
 
-|Campo|Obrigatoriedade|Descrição|
-|:---|:---|:---|
-|Primeira Entidade|**Sim**|Definir primeira entidade a filtrar|
-|Última Entidade|**Sim**|Definir última entidade a filtrar|
-|Primeira data|**Sim**|Definir intervalo primeira data|
-|Última data|**Sim**|Definir intervalo última data|
-|“Pôr autorizações regularizadas”|Opcional|Permite ao utilizador quando o estiver ativo imprimir guias com histórico e em que já tenha ocorrido o recebimento.![img_checkbox_checked_2.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_checkbox_checked_2.png)|
-|Autorização de Pagamento / Autorização Global de Pagamento|**Sim**|O utilizador escolhe: ![img_autorizacao_pagamento.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_autorizacao_pagamento.png), sendo que, para mais que um registo existe a possibilidade de "Selecionar Todos" ![img_selecionar_todos.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_selecionar_todos.png)|
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-b299a39f.png)
 
-|Botão|Descrição|
-|:---|:---|
-|Calcular|Este botão permite ao utilizador consultar os valores carregados de orçamento, bem como os respetivos classificadores económicos|
-|Imprimir|Este botão permite a geração do documento em PDF|
-|Sair|Este botão permite ao utilizador sair do ecrã corrente|
 
-De forma _Individual_, ao selecionar “Imprimir”, o sistema produz a Autorização de Pagamento em PDF.
+_Autorização de Pagamento Global_
 
-![img_144.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_144.png)
+</br>Para gerar uma autorização de pagamento coletiva, o utilizador deve definir um intervalo de entidades, bem como indicar, através da seleção da respetiva _checkbox_, que se trata de uma Autorização de Pagamento Global. De seguida, deve clicar em "Calcular" para o sistema apresentar todas as APs referentes a entidades indicadas.
 
-De forma _Global_, ao selecionar “Imprimir”, o sistema produz a Autorização de Pagamento Coletiva em PDF.
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-a237ee7c.png)
 
-![img_145.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_145.png)
+O utilizador tem de selecionar **SEMPRE** os documentos que deseja, sejam para consulta ou impressão através da seleção da _checkbox_ no ecrã.
+
+Para gerar o ficheiro para impressão, deve o utilizador clicar no botão "Gerar PDF".
+
+</br>O aspeto do ficheiro PDF gerado, relativo à autorização de pagamento, é como o do apresentado seguidamente:
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-5990b3b1.png)
 
 ### 4.3. Ofício de Pagamento
 
@@ -865,7 +861,7 @@ Para aceder ao ecrã onde é gerado o ofício de pagamento, deve o utilizador se
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-d12f61d8.png)
 
-Noecrã aberto, o utilizador deve preencher os seguintes campos:
+No ecrã aberto, o utilizador deve preencher os seguintes campos:
 
 |Campo| Descrição |
 |:--|:--|
@@ -874,13 +870,13 @@ Noecrã aberto, o utilizador deve preencher os seguintes campos:
 |Primeira Data:    | Data do primeiro do documento a extrair. Apenas é extraida informação cujo código seja igual ou superior ao indicado neste campo.    |
 |Última Data:    | Data da último documento a extrair. Apenas é extraida informação cujo código seja igual ou superior ao indicado no campo superior e menos ou igual ao indicado neste campo. |
 |Referência    | Referência do ofício.   |
-|Texto    | Texto que irá aparecer no documeto gerado.    |
+|Texto    | Texto que irá aparecer no documento gerado.    |
 
-</br> Deve também ser indicado se os documentos que se pretendem incluír no ofício devem ser regularizados ou ainda por regularizar.
+</br> Deve também ser indicado se os documentos que se pretendem incluir no ofício devem ser regularizados ou ainda por regularizar.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-243a80a9.png)
 
-Após ter definido os critérios de pesquisa, deve o utilizador clicar em "Calcular" para que o sistema apresente todos os documentos que estejam de acordo com os critérios de pesquisa. Para selecionar o documento, deve o utilizador preencher a checkbox do documento pretendido.
+Após ter definido os critérios de pesquisa, deve o utilizador clicar em "Calcular" para que o sistema apresente todos os documentos que estejam de acordo com os critérios de pesquisa. Para selecionar o documento, deve o utilizador preencher a _checkbox_ do documento pretendido.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-05ab035f.png)
 
@@ -898,7 +894,7 @@ Quando é selecionada mais do que uma AP, cada uma vez numa página.
 
 ##### Email
 
-Quando esta opção é selecionada, surge um novo ecrã ondeo utilizador deve selecionar as entidade a quem pretende enviar o oficio, inserir o texto que aparecerá no corpo do emial enviado. De seguida deve clicar em "Calcular" para verificar os emails das entidades selecionadas. Por fim, deve clicar em "Enviar".
+Quando esta opção é selecionada, surge um novo ecrã onde o utilizador deve selecionar as entidade a quem pretende enviar o oficio, inserir o texto que aparecerá no corpo do email enviado. De seguida deve clicar em "Calcular" para verificar os emails das entidades selecionadas. Por fim, deve clicar em "Enviar".
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-3b59e7f0.png)
 
