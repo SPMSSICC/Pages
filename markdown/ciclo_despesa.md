@@ -174,7 +174,6 @@ A alteração ao Cabimento acaba de ser efetuada, sendo que o sistema gera uma m
 >**NOTA:** De realçar que qualquer movimento de estorno que seja efetuado no CB, não existe a necessidade de alterar o registo inicial, sendo que assim impede que haja alterações a nível dos mapas de execução orçamental.
 
 
-
 #### 1.4.1. Importação de AM
 
 Da mesma maneira que na importação de cabimentos, este processo de Alteração também pode ser feito por carregamento de ficheiro através do botão "Importar".
@@ -1242,7 +1241,7 @@ Mais uma vez, aquando a realização do pagamento da AP criada, o sistema irá e
 
 Em conformidade com as recomendações da Autoridade Tributária e Aduaneira (AT), não é possível anular diretamente uma fatura. A anulação do movimento de uma fatura é feita através da emissão de uma nota de crédito. Sem reflexo para a contabilidade, o que se pretende com este tipo de documento é a regularização do mesmo, de modo a que o seu impacto no final seja nulo.
 
-Este tipo de documento, proveniente exclusivamente do P2 ou da NC (exceto RAP), obriga o utilizador a selecionar pelo menos uma fatura e uma nota de crédito com o objetivo do resultado final ter o valor de "0" para proceder ao registo de anulação. O objetivo deste documento é regularizar ambos os documentos selecionados sem que seja necessário efetuar registos contabilísticos.
+Este tipo de documento, proveniente do P2, DF, CF ou da NC (exceto RAP), obriga o utilizador a selecionar pelo menos uma fatura e uma nota de crédito com o objetivo do resultado final ter o valor de "0" para proceder ao registo de anulação. O objetivo deste documento é regularizar ambos os documentos selecionados sem que seja necessário efetuar registos contabilísticos.
 
 Para aceder ao ecrã de registo da Anulação de Fatura (AF) deve o utilizador seguir o seguinte caminho na aplicação:
 
@@ -1250,7 +1249,7 @@ Para aceder ao ecrã de registo da Anulação de Fatura (AF) deve o utilizador s
 
 No ecrã aberto, o utilizador deve indicar os critérios de pesquisa de documento. Primeiro, deve indicar a entidade e de seguida deve clicar no TAB do teclado do seu computador para visualizar toadas as faturas por regularizar da entidade indicada ou pode indicar, nos campos respetivos, o número e o tipo de documento que pretende visualizar. Na janela de baixo irão aparecer todos os documentos encontrados que correspondem aos critérios de pesquisa inseridos.
 
-Para efetuar o registo da AF, deve o utilizador selecionar os documentos P2 e NC, clicando sobre os mesmos duas vezes. Para confirmar o registo, deve o utilizador clicar em "Confirme".
+Para efetuar o registo da AF, deve o utilizador selecionar os documentos P2 e/ou DF  e/ou CF **e** NC, clicando sobre os mesmos duas vezes. Para confirmar o registo, deve o utilizador clicar em "Confirme".
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a2cddb55.png)
 
