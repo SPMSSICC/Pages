@@ -501,7 +501,7 @@ A contabilidade orçamental lançada aquando o registo de Reembolsos/Restituiç�
 
 Este tipo de documento, Anulação de receitas, permite anular o movimento de uma fatura (FD), através da emissão de uma CC regularizando estes dois documentos sem reflexo na contabilidade.
 
-Proveniente exclusivamente de FD e CC (exceto RNAP), este tipo de documento obrigam o utilizador selecionar pelo menos uma FD e uma CC com o objetivo do resultado final ter valor "0" para proceder ao registo de anulação de receita.
+Proveniente de FD, CD e CC (exceto RNAP), este tipo de documento obrigam o utilizador selecionar pelo menos uma FD ou um CD **e** uma CC com o objetivo do resultado final ter valor "0" para proceder ao registo de anulação de receita.
 
 Para aceder ao ecrã onde este registo pode ser efetuado, deve o utilizador seguir o seguinte caminho na aplicação:
 
@@ -521,11 +521,11 @@ Para confirmar o registo da AR o sistema irá gerar uma mensagem informativa com
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-bb427aa6.png)
 
-O utilizador pode agora imprimir a AR criada. Para tal deve, no ecrã de recolha de dados, indicar a entidade e número de documento. De seguida deve clicar em "Imprimir".
+O utilizador pode agora guardar as anulações criadas (AF) num ficheiro PDF. Para tal, deveno utilizador, no ecrã de recolha de dados, indicar a entidade e número de documento. De seguida deve clicar em "Gerar PDF".
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-8d064557.png)
 
-Na nova janela aberta, deve indicar os intervalos das entidades das quais pretende visualizar os documentos, as datas e os números dos documentos (FD e CC) que pretende visualizar. De seguida deve clicar em "Imprimir".
+Na nova janela aberta, deve indicar os intervalos das entidades das quais pretende visualizar os documentos, as datas e os números dos documentos (FD, CD e CC) que pretende visualizar. De seguida deve clicar em "Imprimir".
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-fdca874b.png)
 
