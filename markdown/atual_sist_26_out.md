@@ -15,8 +15,10 @@
     2. Devem ser utilizados caracteres e, pelo menos, 3 dos 4 seguintes grupos: minúsculas, maiúsculas, algarismos e caracteres especiais (! " # $ % & ' ( ) * + , - . / : ; < = > ? @ [\ ] ^ _ );
 - Otimização da geração dos ficheiros CSV de dívidas/ crédito / pagamentos;
 - Correção do envio de documentos PDF por email, no caso de múltiplos destinatários;
-- Disponibilização de um novo diagnóstico para listar os PG/CO em que os valores lançados na classe 0, classe 1 e rubrica financeira sejam diferentes (diagnóstico 507);
+- Disponibilização de um novo diagnóstico para listar os PG/CO em que os valores lançados na classe 0, classe 1 e rubrica financeira sejam diferentes (diagnóstico 507)
+
 ![](https://spmssicc.github.io/pages/markdown/atual_sist_26_out.assets/atual_sist_26_out-88440870.png)
+
 - Alteração da recolha/importação de documentos AP/GR/DA/RA  para validar que o valor dos lançamentos na classe 1 estão coerentes com os lançamentos nas rubricas financeiras;
 - Atualização das fórmulas do mapa DFC;
 - Disponibilização dos botões de ajuda em ecrãs do menu Contabilidade Geral e Orçamental, a redirecionar para o manual.
