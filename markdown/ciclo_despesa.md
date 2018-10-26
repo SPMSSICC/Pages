@@ -764,6 +764,32 @@ Como não foi indicado, no ecrã inicial, o número da AP, este é atribuído au
 
 ![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-fc8cf699.png)
 
+##### Transação referente ao pagamento de DUC
+
+Quando se pretende registar uma AP referente a uma transação DUC, o processo a adotar, após a indicação da entidade, deve ser o seguinte:
+
+1. Selecionar a fatura a regularizar;
+2. Selecionar a _checkbox_ referente a "Transferência Bancária";
+3. Indicar a Instituição Bancária;
+4. Selecionar o motivo pretendido (PDUC);
+5. No campo referente a "Referência" indicar a referência do documento. Esta referência deve ser composta por 15 dígitos;
+6. Clicar em "Gravar nova AP" e confirmar os lançamentos no ecrã seguinte.   
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-bfea083f.png)
+
+##### Transação referente ao pagamento de TSU
+
+Quando se pretende registar uma AP referente a uma transação TSU, o processo a adotar, após a indicação da entidade, deve ser o seguinte:
+
+1. Selecionar a fatura a regularizar;
+2. Selecionar a _checkbox_ referente a "Transferência Bancária";
+3. Indicar a Instituição Bancária;
+4. Selecionar o motivo pretendido (PTSU);
+5. O campo referente a "Referência" ficará automaticamente preenchido com o NIF da entidade indicada e com o ANO e MES da fatura selecionada. Estes dados devem ser confirmados e corrigidos se houver necessidade;
+6. Clicar em "Gravar nova AP" e confirmar os lançamentos no ecrã seguinte.
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-5e2a3d77.png)
+
 ### 4.1. Importação AP
 
 Este processo de Autorização de Pagamento também pode ser efetuado por carregamento de ficheiro CSV através do botão "Importar".
@@ -806,6 +832,8 @@ Seguidamente é apresentada a lista de códigos numéricos a utilizar, conforme 
 |16   |WHLD   |Pagamento IRS (IRS retido)    |   
 |17   |GOVT   |Reembolsos Impostos   |   
 |20   |OTHR   |PAG IGCP  |   
+|21   |PDUC   |Transação referente ao pagamento de DUC  |
+|21   |PTSU   |Transação referente ao pagamento de TSU  |
 
 </br>Antes da importação, o utilizador, tem de usar o botão "Ver/Testar Ficheiro". Ao selecionar este botão, o utilizador constata que os elementos do ficheiro CSV estão visíveis e que o ficheiro integrado está testado. Caso ocorram erros, os mesmos produzem um relatório no ecrã, na caixa criada para o efeito, no canto inferior direito do ecrã.
 
