@@ -143,11 +143,35 @@ Na tabela seguinte é apresentada a informação contemplada em cada campo (colu
 
 | Campo  | Informação contemplada                                                            |
 |:-------|:----------------------------------------------------------------------------------|
-| #      | Código da incoerência: "55 - Valida plano de contas local contra o plano central  |
+| #      | Código da incoerência: "55 - Valida plano de contas local contra o plano central" |
 | Conta  | Conta que apresenta incoerências de acumulação.                                   |
 | Campo1 | Movimentos na conta.                                                              |
 | Campo2 | Identificação do Plano Central (MF ou MS)                                         |
 
-</br>O aspeto do fixheiro CSV é como o do apresentado seguidamente:
+</br>O aspeto do ficheiro CSV é como o do apresentado seguidamente:
 
 ![](https://spmssicc.github.io/pages/markdown/utilitarios.assets/utilitarios-63a68569.png)
+
+### 2.5 507 PG_CO em que os valores lançados na classe 0, classe 1 e rubrica financeira sejam diferentes
+
+Este diagnóstico permite a visualização de documentos do tipo PG e CO que tenham valores diferentes na classe 0, classe 1 e na rubrica financeira.
+
+Ao executar o diagnóstico, o ecrã fica preenchido com os documentos que apresentam as diferenças nas contas mencionadas anteriormente, que podem ser exportadas para um ficheiro CSV.
+
+![](https://spmssicc.github.io/pages/markdown/utilitarios.assets/utilitarios-d367e4d0.png)
+
+Na tabela seguinte é apresentada a informação contemplada em cada campo (coluna) da janela.
+
+| Campo  | Informação contemplada                                                                                           |
+|:-------|:-----------------------------------------------------------------------------------------------------------------|
+| #      | Código da incoerência: "56 -  Documentos PG/CO cujos valores na classe 0, 1 e financeira sejam incoerentes"      |
+| Tipo   | Tipo de documento (PG ou CO) que apresenta valores diferentes nas contas de classe 0, 1 e na rubrica financeira. |
+| Campo1 | Valor do documento.                                                                                              |
+| Campo2 | Valor lançado na classe 0.                                                                                       |
+| Campo3 | Valor lançado na classe 1.                                                                                       |
+| Campo4 | Valor lançado na rubrica financeira.                                                                             |
+| Campo5 | Tipo de documento precedente (Regularizado pelo CO ou PG).                                                       |
+
+</br>O aspeto do ficheiro CSV é como o do apresentado seguidamente:
+
+![](https://spmssicc.github.io/pages/markdown/utilitarios.assets/utilitarios-44c09d0c.png)
