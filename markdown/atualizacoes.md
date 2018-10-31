@@ -5,6 +5,7 @@
 <div title="Clique para ver as atualizações" class="cab" onclick="atualizacao('outubro')" >Atualizações de Outubro 2018 </div>
   <div id="outubro" class="hide">
     <div class="atualizacao">
+      <div title="Clique para ver as atualizações" onclick="loadMdDoc('atual_sist_31_out', ['btnMenu','btnOpt'], '', null)">31 de outubro</div>
       <div title="Clique para ver as atualizações" onclick="loadMdDoc('atual_sist_26_out', ['btnMenu','btnOpt'], '', null)">26 de outubro</div>
       <div title="Clique para ver as atualizações" onclick="loadMdDoc('atual_sist_19_out', ['btnMenu','btnOpt'], '', null)">19 de outubro</div>
       </div></div></br>
