@@ -73,23 +73,25 @@ Caso o utilizador pretenda importar DAs para serem pagos por Transferência Banc
 
 Na coluna Categoria de Motivo, deve colocar o respetivo  código numérico. A lista de códigos é apresentada seguidamente:
 
-|Código| Sigla| Descrição|
-|:--:|:--:|:--|
-|1   | SUPP  | Fatura  |   
-|2   | SUPP  | Recibo  |   
-|3   | TRAD   | Auto   |   
-|4   | SALA |Vencimento    |   
-|5   | TRAD  | Guia   |   
-|7   |TRAD   | Pagamento Serviços  |   
-|8   | GOVT  | Pagamentos ao Estado    |   
-|11   |  PENS |Pagamentos de Pensão    |   
-|12   |SSBE   | Segurança Social   |   
-|13   |TAXS   | Pagamento Imposto   |   
-|14   | TREA  | Operação Tesouraria   |
-|15   | VATX  |Pagamento IVA    |   
-|16   |WHLD   |Pagamento IRS (IRS retido)    |   
-|17   |GOVT   |Reembolsos Impostos   |   
-|20   |OTHR   |PAG IGCP  |   
+| Código | Sigla | Descrição                               |   
+|:------:|:-----:|:----------------------------------------|
+|   1    | SUPP  | Fatura                                  |   
+|   2    | SUPP  | Recibo                                  |   
+|   3    | TRAD  | Auto                                    |   
+|   4    | SALA  | Vencimento                              |   
+|   5    | TRAD  | Guia                                    |   
+|   7    | TRAD  | Pagamento Serviços                      |   
+|   8    | GOVT  | Pagamentos ao Estado                    |   
+|   11   | PENS  | Pagamentos de Pensão                    |   
+|   12   | SSBE  | Segurança Social                        |   
+|   13   | TAXS  | Pagamento Imposto                       |   
+|   14   | TREA  | Operação Tesouraria                     |   
+|   15   | VATX  | Pagamento IVA                           |   
+|   16   | WHLD  | Pagamento IRS (IRS retido)              |   
+|   17   | GOVT  | Reembolsos Impostos                     |   
+|   20   | OTHR  | PAG IGCP                                |   
+|   21   | PDUC  | Transação referente ao pagamento de DUC |   
+|   21   | PTSU  | Transação referente ao pagamento de TSU |   
 
 **Pagamento**
 

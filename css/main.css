@@ -1151,7 +1151,7 @@ padding-right:.2em
 
 .table-of-contents li {
 margin:0;
-text-align:left
+text-align:left;
 }
 
 .table-of-contents a {
@@ -1163,7 +1163,7 @@ text-decoration:none
 }
 
 .table-of-contents li:hover {
-background-color:rgba(236,249,238,.8)
+background-color:rgba(236,249,238,.8);
 }
 
 .table-of-contents h2 {
@@ -1188,6 +1188,18 @@ font-weight:700
 
 .table-of-contents > h1,.table-of-contents > h2,.table-of-contents > h3 {
 padding:.3em .2em .2em .3em
+}
+
+.table-of-contents > h2 {
+  font-size: 0.9em
+}
+
+.table-of-contents > h3 {
+  font-size: 0.87em
+}
+
+.table-of-contents > h4 {
+  font-size: 0.85em
 }
 
 .barra{
@@ -1641,6 +1653,19 @@ a.toc_h1,a.toc_h2 {
 margin-left:0
 }
 
+
+a.toc_h2 {
+font-size: 1em;
+  font-weight: bold;
+}
+
+a.toc_h3 {
+  font-size: .9em;
+}
+
+a.toc_h4 {
+  font-size:.85em;
+}
 header .imagem img,.image.fit {
 display:block;
 max-width:100%;
