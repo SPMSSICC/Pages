@@ -1323,14 +1323,14 @@ overflow:auto;
 padding:0;
 position:fixed;
 top:44px;
-transition:left .3s ease-out;
+transition:left .2s ease-out;
 width:23.5em;
 z-index:99
 }
 
 #accordion.show {
 left:0;
-transition:left .3s ease-out
+transition:left .2s ease-out
 }
 
 #accordion ul {
@@ -1402,6 +1402,16 @@ font-weight:400;
 margin-right:8px;
 text-indent:0;
 vertical-align:middle
+}
+
+#accordion li > ul{
+  padding-left: 10px;
+  font-size:0.9em
+}
+
+#accordion li > ul >li > ul {
+  padding-left: 20px;
+  font-size:0.85em
 }
 
 #accordion a.active,#accordion div.active {
