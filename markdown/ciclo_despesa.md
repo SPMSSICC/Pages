@@ -764,32 +764,6 @@ Como não foi indicado, no ecrã inicial, o número da AP, este é atribuído au
 
 ![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-fc8cf699.png)
 
-##### Transação referente ao pagamento de DUC
-
-Quando se pretende registar uma AP referente a uma transação DUC, o processo a adotar, após a indicação da entidade, deve ser o seguinte:
-
-1. Selecionar a fatura a regularizar;
-2. Selecionar a _checkbox_ referente a "Transferência Bancária";
-3. Indicar a Instituição Bancária;
-4. Selecionar o motivo pretendido (PDUC);
-5. No campo referente a "Referência" indicar a referência do documento. Esta referência deve ser composta por 15 dígitos;
-6. Clicar em "Gravar nova AP" e confirmar os lançamentos no ecrã seguinte.   
-
-![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-bfea083f.png)
-
-##### Transação referente ao pagamento de TSU
-
-Quando se pretende registar uma AP referente a uma transação TSU, o processo a adotar, após a indicação da entidade, deve ser o seguinte:
-
-1. Selecionar a fatura a regularizar;
-2. Selecionar a _checkbox_ referente a "Transferência Bancária";
-3. Indicar a Instituição Bancária;
-4. Selecionar o motivo pretendido (PTSU);
-5. O campo referente a "Referência" ficará automaticamente preenchido com o NIF da entidade indicada e com o ANO e MES da fatura selecionada. Estes dados devem ser confirmados e corrigidos se houver necessidade;
-6. Clicar em "Gravar nova AP" e confirmar os lançamentos no ecrã seguinte.
-
-![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-5e2a3d77.png)
-
 ### 4.1. Importação AP
 
 Este processo de Autorização de Pagamento também pode ser efetuado por carregamento de ficheiro CSV através do botão "Importar".
@@ -815,25 +789,25 @@ Na coluna Categoria de Motivo, deve indicar o respetivo **código numérico**.
 
 Seguidamente é apresentada a lista de códigos numéricos a utilizar, conforme o motivo pretendido.
 
-|Código| Sigla| Descrição|
-|:--:|:--:|:--|
-|1   | SUPP  | Fatura  |   
-|2   | SUPP  | Recibo  |   
-|3   | TRAD   | Auto   |   
-|4   | SALA |Vencimento    |   
-|5   | TRAD  | Guia   |   
-|7   |TRAD   | Pagamento Serviços  |   
-|8   | GOVT  | Pagamentos ao Estado    |   
-|11   |  PENS |Pagamentos de Pensão    |   
-|12   |SSBE   | Segurança Social   |   
-|13   |TAXS   | Pagamento Imposto   |   
-|14   | TREA  | Operação Tesouraria   |
-|15   | VATX  |Pagamento IVA    |   
-|16   |WHLD   |Pagamento IRS (IRS retido)    |   
-|17   |GOVT   |Reembolsos Impostos   |   
-|20   |OTHR   |PAG IGCP  |   
-|21   |PDUC   |Transação referente ao pagamento de DUC  |
-|21   |PTSU   |Transação referente ao pagamento de TSU  |
+| Código | Sigla | Descrição                               |   |
+|:------:|:-----:|:----------------------------------------|---|
+|   1    | SUPP  | Fatura                                  |   |
+|   2    | SUPP  | Recibo                                  |   |
+|   3    | TRAD  | Auto                                    |   |
+|   4    | SALA  | Vencimento                              |   |
+|   5    | TRAD  | Guia                                    |   |
+|   7    | TRAD  | Pagamento Serviços                      |   |
+|   8    | GOVT  | Pagamentos ao Estado                    |   |
+|   11   | PENS  | Pagamentos de Pensão                    |   |
+|   12   | SSBE  | Segurança Social                        |   |
+|   13   | TAXS  | Pagamento Imposto                       |   |
+|   14   | TREA  | Operação Tesouraria                     |   |
+|   15   | VATX  | Pagamento IVA                           |   |
+|   16   | WHLD  | Pagamento IRS (IRS retido)              |   |
+|   17   | GOVT  | Reembolsos Impostos                     |   |
+|   20   | OTHR  | PAG IGCP                                |   |
+|   21   | PDUC  | Transação referente ao pagamento de DUC |   |
+|   21   | PTSU  | Transação referente ao pagamento de TSU |   |
 
 </br>Antes da importação, o utilizador, tem de usar o botão "Ver/Testar Ficheiro". Ao selecionar este botão, o utilizador constata que os elementos do ficheiro CSV estão visíveis e que o ficheiro integrado está testado. Caso ocorram erros, os mesmos produzem um relatório no ecrã, na caixa criada para o efeito, no canto inferior direito do ecrã.
 
@@ -844,7 +818,55 @@ Após validação dos elementos integrados e constatado que os valores estão co
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-8bbe8dd6.png)
 
 
-### 4.2. Impressão de Autorizações de Pagamento (AP)
+### 4.2. Transações referentes a pagamentos de DUC e TSU
+
+Para efetuar as transações destes dois documentos, deve o utilizador abrir a aplicação no ecrã referente à recolha de Autorizações de Pagamento.
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-b0582c91.png)
+
+Nesse ecrã deve efetuar o processo regular de registo de uma AP (indicar a entidade e pesquisar os documentos a regularizar).
+De seguida, o utilizador deve efetuar um dos seguintes procedimentos, mediante a transação que pretende efetuar.  
+
+#### 4.2.1. Pagamento de Documento Único de Cobrança (DUC)
+
+Quando se pretende registar uma AP referente a uma transação DUC, o processo a adotar, após a indicação da entidade, deve ser o seguinte:
+
+1. Selecionar a fatura a regularizar;
+2. Selecionar a _checkbox_ referente à "Transferência Bancária";
+3. Indicar a Instituição Bancária;
+4. Selecionar o motivo pretendido (**PDUC**);
+5. No campo referente a "Referência" indicar a referência do documento. Esta referência deve ser composta por 15 dígitos;
+6. Clicar em "Gravar nova AP" e confirmar os lançamentos no ecrã seguinte.   
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-bfea083f.png)
+
+#### 4.2.2. Pagamento de Taxa Social Única (TSU)
+
+Quando se pretende registar uma AP referente a uma transação TSU, o processo a adotar, após a indicação da entidade, deve ser o seguinte:
+
+1. Selecionar a fatura a regularizar;
+2. Selecionar a _checkbox_ referente a "Transferência Bancária";
+3. Indicar a Instituição Bancária;
+4. Selecionar o motivo pretendido (**PTSU**);
+5. O campo referente a "Referência" ficará automaticamente preenchido com o NIF da entidade indicada e com o ANO e MES da fatura selecionada. Estes dados devem ser confirmados e corrigidos se houver necessidade;
+6. Clicar em "Gravar nova AP" e confirmar os lançamentos no ecrã seguinte.
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-5e2a3d77.png)
+
+>**NOTA:** O registo destas duas transações está também disponível na recolha de documento do tipo **DA**.
+
+##### Criação do ficheiro de Transferência Bancária
+
+Após o registo da AP, quer para transação de DUC quer TSU, o passo seguinte é a produção do ficheiro da transferência bancária, no respetivo menu.
+
+A produção deste ficheiro, procede-se da mesma forma que para qualquer outro ficheiro de transferência bancária.
+
+De notar que, as AP referentes a DUC e/ou TSU apresentam os campos NIF e IBAN preenchidos com zeros (Como pode ser verificado na seguinte imagem).
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-ede2ca3b.png)
+
+
+### 4.3. Impressão de Autorizações de Pagamento (AP)
 
 Nesta etapa, é demonstrado o procedimento para fazer as impressões das APs (de forma _individual_ ou _global_) geradas no passo anterior. Para isso, deve o utilizador seguir o seguinte caminho no sistema:
 
@@ -883,7 +905,7 @@ Para gerar o ficheiro para impressão, deve o utilizador clicar no botão "Gerar
 
 ![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-5990b3b1.png)
 
-### 4.3. Ofício de Pagamento
+### 4.4. Ofício de Pagamento
 
 Para aceder ao ecrã onde é gerado o ofício de pagamento, deve o utilizador seguir o seguinte caminho na aplicação:
 
