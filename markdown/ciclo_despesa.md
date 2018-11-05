@@ -859,11 +859,19 @@ Quando se pretende registar uma AP referente a uma transação TSU, o processo a
 
 Após o registo da AP, quer para transação de DUC quer TSU, o passo seguinte é a produção do ficheiro da transferência bancária, no respetivo menu.
 
-A produção deste ficheiro, procede-se da mesma forma que para qualquer outro ficheiro de transferência bancária.
+![](https://spmssicc.github.io/pages/markdown/duc_tsu.assets/duc_tsu-92413486.png)
+
+A produção deste ficheiro, procede-se da mesma forma que para qualquer outro ficheiro de transferência bancária. Deve-se selecionar a Instituição Bancária, indicar (se necessário) o intervalo de entidades e clicar em "Calcular".
+
+Das APs apresentadas, o utilizador deve selecionar as pretendidas, através da seleção da respetiva _checkbox_.
 
 De notar que, as AP referentes a DUC e/ou TSU apresentam os campos NIF e IBAN preenchidos com zeros (Como pode ser verificado na seguinte imagem).
 
 ![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-ede2ca3b.png)
+
+Após o clique em "Transferência Bancária", passo 4 da imagem, na nova janela aberta, deve o utilizador indicar o diretório onde pretende guardar o ficheiro .XML e, por fim, deve clicar em "Gerar Ficheiro".
+
+![](https://spmssicc.github.io/pages/markdown/duc_tsu.assets/duc_tsu-7b6cda11.png)
 
 
 ### 4.3. Impressão de Autorizações de Pagamento (AP)
