@@ -1,3 +1,3 @@
-AC;Entidade;Data documento;Data Contabilistica;Tipo Doc (P1, P2, NC, DF, CF);Nº (do P1, P2, NC...);Série (do P1, P2, NC...);Nº AC;Série AC;Classificador economico ;Classificador funcional ;Fonte de financiamento ;Programa ;Medida;Projeto;Regionalização;Atividade;Natureza;Conta Debito;Conta a Credito ;Valor Lançamento;Centro de custo;Observações Documento ;Observaçoes lançamento;Classificação Orgânica
-AC;982710;20180401;20180401;P2;1;*;2;*;02.02.23.A0.00;2023;511;013;022;;;130;;221;625511;236.85;3107000;;;121903000
-AC;989409;20180401;20180401;P2;1;*;3;*;02.02.23.A0.00;2023;511;013;022;;;130;;221;625511;482.93;3107000;;;121903000
+AC;Entidade;Data documento;Data Contabilistica;Tipo Doc (P1, P2, NC, DF, CF);Nº (do P1, P2, NC...);Ano (do P1, P2, NC...);Série (do P1, P2, NC...);Nº AC;Série AC;Classificador economico ;Classificador funcional ;Fonte de financiamento ;Programa ;Medida;Projeto;Regionalização;Atividade;Natureza;Conta Debito;Conta a Credito ;Valor Lançamento;Centro de custo;Observações Documento ;Observaçoes lançamento;Classificação Orgânica
+AC;982710;20180401;20180401;P2;1;2018;*;2;*;02.02.23.A0.00;2023;511;13;22;;;130;;221;625511;236.85;3107000;;121903000;
+AC;989409;20180401;20180401;P2;1;2018;*;3;*;02.02.23.A0.00;2023;511;13;22;;;130;;221;625511;482.93;3107000;;121903000;
