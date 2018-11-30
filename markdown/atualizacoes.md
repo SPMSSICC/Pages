@@ -2,6 +2,12 @@
 
 <ul id=commit-history>
 
+<div title="Clique para ver as atualizações" class="cab" onclick="atualizacao('novembro')" >Atualizações de Novembro 2018 </div>
+  <div id="novembro" class="hide">
+    <div class="atualizacao">
+      <div title="Clique para ver as atualizações" onclick="loadMdDoc('atual_sist_30_nov', ['btnMenu','btnOpt'], '', null)">30 de novembro</div>
+      </div></div></br>
+
 <div title="Clique para ver as atualizações" class="cab" onclick="atualizacao('outubro')" >Atualizações de Outubro 2018 </div>
   <div id="outubro" class="hide">
     <div class="atualizacao">
