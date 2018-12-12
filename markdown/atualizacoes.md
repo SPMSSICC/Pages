@@ -1,6 +1,12 @@
 # Atualizações do sistema SICC SNC-AP
 
 <ul id=commit-history>
+  
+  <div title="Clique para ver as atualizações" class="cab" onclick="atualizacao('dezembro')" >Atualizações de Dezembro 2018 </div>
+    <div id="dezembro" class="hide">
+      <div class="atualizacao">
+        <div title="Clique para ver as atualizações" onclick="loadMdDoc('atual_sist_7_dez', ['btnMenu','btnOpt'], '', null)">7 de dezembro</div>
+      </div></div></br>
 
 <div title="Clique para ver as atualizações" class="cab" onclick="atualizacao('novembro')" >Atualizações de Novembro 2018 </div>
   <div id="novembro" class="hide">
