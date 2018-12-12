@@ -1,7 +1,7 @@
 <div style="width:100%; height:30px"><span onclick="loadMdDoc('atualizacoes', ['btnMenu'],'', null)" class="voltar">Voltar</span></div>
 
 
-# Atualizações no SICC - 7 de junho de 2018
+# Atualizações no SICC - 7 de dezembro de 2018
 
 - Incorporação de contas específicas SNC-AP no documento RA, OR e FD;
 - Correção da pesquisa de documentos do tipo CC quando não estão associados a nenhum FD;
