@@ -9,7 +9,7 @@
 - Correções na validação dos ficheiros de referência 205;
 - Adição do campo "Entidade" na recolha de Depósitos/Levantamentos;
 - Atualização do layout dos ficheiros de importação de documentos do tipo AC e AD;
-- Alteração do registo de anulações de NC e NC/RAP para criar lançamentos na classe 0 , repondo o valor relativo a cabimento e compromisso;
+- Alteração do registo de anulações de NC e NC/RAP para criar lançamentos na classe 0, repondo o valor relativo a cabimento e compromisso;
 - Geração de lançamentos da contabilidade orçamental nas anulações AC e AD;
 - Correção na validação de ficheiro de ligação com referências AC e AD;
 - Atualização de fórmulas no mapa DFC;
