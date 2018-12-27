@@ -25,7 +25,7 @@ Os formulários "Recolhas" são detalhadamente descritos ao longo deste capítul
 
 </br>**Listagens**
 
-A janela correspondente às "Listagens" segue a mesma lógica de processo, para cada sub-menu, indicada seguidamente. Os casos excepcionais são descritos detalhadamente no respectivo sub-menu.
+A janela correspondente às "Listagens" segue a mesma lógica de processo, para cada sub-menu, indicada seguidamente. Os casos excecionais são descritos detalhadamente no respetivo sub-menu.
 Para efeitos de exemplo na imagem que se segue está indicada a janela de "Listagens" referente ao sub-menu Tabelas Genéricas >  Códigos Postais.
 
 Este ecrã permite ao utilizador extrair a listagem de Códigos Postais, para ficheiro de texto com o formato CSV e imprimir o ficheiro em formato PDF.
@@ -673,6 +673,33 @@ Ao carregar no botão Situação Contributiva, é aberto o seguinte ecrã:
 |:---|:---|
 | ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-5c1d62d2.png) | Criar listagens de NIFs (Número de Identificação Fiscal), na totalidade ou em parte, conforme os dados introduzidos nos critérios disponíveis. ![img_62](https://spmssicc.github.io/pages/markdown/menus.assets/img_62.png)Os critérios de filtragem definidos são:  - Primeiro NIF;  - Último NIF. </br>A extração dos dados pode ser efetuada de duas formas distintas: - Ficheiro : Neste caso o utilizador deve indicar a pasta onde o ficheiro deve ser guardado, sendo que o nome possui sempre o nome “LIST\_SITCONTRIB_” + DATA (no formato, DDMMAAAA).  Imprime: Neste caso, a impressão é feita em documento com o formato PDF. |
 
+##### Importar entidades
+
+Quando se trata de inserção de um elevado número de entidades, pode-se optar pela importação de um ficheiro de formato CSV com as novas entidades.
+
+Para o efeito, deve o utilizador clicar no botão designado por "Importar" no fundo do ecrã de gestão de entidades:
+
+![](https://spmssicc.github.io/pages/markdown/assets/parametrizacao-72617cd0.png)
+
+No ecrã aberto, o utilizador deve selecionar o ficheiro CSV que pretende importar da diretoria do seu computador. Depois, deve testar o ficheiro selecionado através do clique em "Ver/Testar Ficheiro".
+
+![](https://spmssicc.github.io/pages/markdown/assets/parametrizacao-3f8a50a8.png)
+
+Se o ficheiro apresentar uma estrutura correta, a tabela ficará preenchida com os dados do ficheiro que se pretende importar. Se apresentar incoerências, as mesmas serão comunicadas na janela respetiva.
+
+Para validar a importação, deve clicar em "Importar Ligação".
+
+![](https://spmssicc.github.io/pages/markdown/assets/parametrizacao-018bca45.png)
+
+O aspeto do ficheiro a importar deve ser semelhante ao seguidamente apresentado.
+
+> **NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
+
+![](https://spmssicc.github.io/pages/markdown/assets/parametrizacao-faaf2c9e.png)
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/importa_entidades.csv'">Descarregar CSV</button>
+</div>
 
 ### 4.2. Tabela de Projectos
 ##### Recolhas
