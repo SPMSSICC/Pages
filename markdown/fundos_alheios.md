@@ -46,7 +46,7 @@ Estes documentos também podem ser importados no sistema através da opção dis
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ea8c1aa3.png)
 
-Na janela aberta, o utilizador deve selecionar o ficheiro da diretoria do computador e, de seguida, deve clicar em "Ver/ Testar ficheiro" para a validação do mesmo.
+Na janela aberta, o utilizador deve selecionar o ficheiro da diretoria do computador e, de seguida, deve clicar em "Ver/Testar ficheiro" para a validação do mesmo.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-92592737.png)
 
@@ -60,16 +60,16 @@ O aspeto do ficheiro **CSV** a importar deve ser semelhante ao seguidamente apre
 
 >**NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
 
-![](https://spmssicc.github.io/pages/markdown/fundos_alheios.assets/fundos_alheios-2b965875.png)
+![](https://spmssicc.github.io/pages/markdown/fundos_alheios.assets/fundos_alheios-b0a3eddb.png)
 <div style="height:40px">
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/DA_SNCAP.csv'">Descarregar CSV</button>
 </div>
 
 Alerta-se que, em casos em que se preenchem várias linhas para o mesmo número de DA, o valor total da DA é a soma de todas as linhas do documento com contas **diferentes de contas de classe zero**. Seguem abaixo exemplos com as possíveis situações e respetivos totais.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-aac53ff1.png)
+![](https://spmssicc.github.io/pages/markdown/fundos_alheios.assets/fundos_alheios-b19eb36a.png)
 
-Caso o utilizador pretenda importar DAs para serem pagos por Transferência Bancária, deve preencher também os seguintes campos: Conta Bancária, IBAN e Categoria de Motivo.
+Caso o utilizador pretenda importar DAs para serem pagos por Transferência Bancária, deve preencher também os seguintes campos: **Conta Bancária, IBAN e Categoria de Motivo**.
 
 Na coluna Categoria de Motivo, deve colocar o respetivo  código numérico. A lista de códigos é apresentada seguidamente:
 
@@ -93,6 +93,7 @@ Na coluna Categoria de Motivo, deve colocar o respetivo  código numérico. A li
 |   21   | PDUC  | Transação referente ao pagamento de DUC |   
 |   21   | PTSU  | Transação referente ao pagamento de TSU |   
 
+</br>
 **Pagamento**
 
 Tendo o lançamento da DA concluído, pode-se agora prosseguir ao lançamento do pagamento.
@@ -101,7 +102,7 @@ Tendo o lançamento da DA concluído, pode-se agora prosseguir ao lançamento do
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-c6328edf.png)
 
-O sistema irá apresentar todos os documentos por regularizar da entidade selecionada. Assim, e para vizualizar os dados do documento, deve o utilizador selecionar o documento pretendido, a DA neste caso, clicando sobre ele duas vezes. Por fim deve clicar no botão "Confirme".
+O sistema irá apresentar todos os documentos por regularizar da entidade selecionada. Assim, e para visualizar os dados do documento, deve o utilizador selecionar o documento pretendido, a DA neste caso, clicando sobre ele duas vezes. Por fim deve clicar no botão "Confirme".
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-3c687a0a.png)
 
@@ -152,7 +153,7 @@ O aspeto do ficheiro **CSV** a importar deve ser semelhante ao seguidamente apre
 
 >**NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-2c31132e.png)
+![](https://spmssicc.github.io/pages/markdown/fundos_alheios.assets/fundos_alheios-30eb3d61.png)
 <div style="height:40px">
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/RA_SNCAP.csv'">Descarregar CSV</button>
 </div>
