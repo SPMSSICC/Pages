@@ -41,8 +41,8 @@ Nesta opção o utilizador define os parâmetros de pesquisa, para gerar o fiche
 | Campo         | Descrição                                                                                                 |
 |:--------------|:----------------------------------------------------------------------------------------------------------|
 | Exercício     | Indicação do exercício do qual se pretende gerar o AI                                                     |
-| Periodicidade | Indicação da periodicidade do AFT. Neste mapa, a periodicidade é trimestral e não pode ser alterada.      |
-| Trimestre     | Indicação do trimestre do AFT. ![](https://spmssicc.github.io/pages/markdown/scp.assets/scp-092d97be.png) |
+| Periodicidade | Indicação da periodicidade do AI. Neste mapa, a periodicidade é trimestral e não pode ser alterada.      |
+| Trimestre     | Indicação do trimestre do AI. ![](https://spmssicc.github.io/pages/markdown/scp.assets/scp-092d97be.png) |
 
 
 </br>O utilizador deve também indicar se o mapa gerado é para a UniLeo ou para ACSS. Esta indicação deve ser realizada através da seleção da respetiva _checkbox_ ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-9d90d070.png)
@@ -289,7 +289,7 @@ Nesta opção o utilizador define os parâmetros de pesquisa, para gerar o fiche
 | Exercício     | Indicação do exercício do qual se pretende gerar o DODES                                                              |
 | Data Início   | Indicação da data a partir da qual se consideram os dados para o DOREC.                                               |
 | Data Fim      | Indicação da data até a qual, inclusive,  são considerados dados para o DOREC.                                        |
-| Periodicidade | Indicação da periodicidade do mapa DODES.  ![](https://spmssicc.github.io/pages/markdown/scp.assets/scp-84cf7d6e.png) |
+| Periodicidade | Indicação da periodicidade do mapa DOREC.  ![](https://spmssicc.github.io/pages/markdown/scp.assets/scp-84cf7d6e.png) |
 
 
 **Como a periodicidade do documento é mensal, nos campos da data de inicio e de fim, deve ser indicado o primeiro e o último dia do mês, respetivamente.**
@@ -344,13 +344,13 @@ Nesta opção o utilizador define os parâmetros de pesquisa, para gerar o fiche
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-afb9a893.png)
 
-|Campo| Descrição|
-|:---|:---|
-|Exercício    |Indicação do exercício do qual se pretende gerar a DR.  |
-|Primeira Conta    |Indicação da primeira conta que será incluída na DR. Serão incluídas contas iguais e superiores à conta indicada.   |
-|Última Conta    |Indicação da última conta que será incluída na DR. Serão incluídas contas iguais e inferiores à indicada neste campo.    |
-|Data Início    | Indicação da data a partir da qual se consideram os dados para a DR.    |
-|Data Fim    | Indicação da data até a qual, inclusive,  são considerados dados para a DR.   |
+| Campo          | Descrição                                                                                                             |
+|:---------------|:----------------------------------------------------------------------------------------------------------------------|
+| Exercício      | Indicação do exercício do qual se pretende gerar a DR.                                                                |
+| Primeira Conta | Indicação da primeira conta que será incluída na DR. Serão incluídas contas iguais e superiores à conta indicada.     |
+| Última Conta   | Indicação da última conta que será incluída na DR. Serão incluídas contas iguais e inferiores à indicada neste campo. |
+| Data Início    | Indicação da data a partir da qual se consideram os dados para a DR.                                                  |
+| Data Fim       | Indicação da data até a qual, inclusive,  são considerados dados para a DR.                                           |
 
 **Neste caso a periodicidade do documento é mensal, pelo que, na data de inicio e de fim, deve ser indicado o primeiro e o último dia do mês.**
 
@@ -445,7 +445,7 @@ Nesta opção o utilizador define os parâmetros de pesquisa, para gerar o fiche
 
 | Campo         | Descrição                                                                                                      |
 |:--------------|:---------------------------------------------------------------------------------------------------------------|
-| Exercício     | Indicação do exercício do qual se pretende gerar o DAPL                                                        |
+| Exercício     | Indicação do exercício do qual se pretende gerar o PI.                                                        |
 | Periodicidade | Indicação da periodicidade do PI. Neste caso, a periodicidade deste mapa é trimestral e não pode ser alterada. |
 | Trimestre     | Indicação do trimestre do PI. ![](https://spmssicc.github.io/pages/markdown/scp.assets/scp-ffc7e875.png)       |
 
