@@ -413,7 +413,7 @@ Seguidamente, o utilizador deve selecionar o documento a transferir, através da
 
 Este submenu permite ao utilizador transferir contas, classificador económico e elementos da chave orçamental de documentos registados em exercícios anteriores para o exercício atual.
 
-Para o efeito, o utilizador deve indicar sempre a **conta origem e/ou o classificador económico**.
+</br>Para o efeito, o utilizador deve indicar sempre a **CONTA ORIGEM e/ou o CLASSIFICADOR ECONÓMICO**.
 Caso pretenda identificar documentos ou grupos de documentos específicos podem ser indicados parâmetros de pesquisa, tais como:
 
 - R/D
@@ -433,21 +433,23 @@ Caso pretenda identificar documentos ou grupos de documentos específicos podem 
 - Série
 - DOCID - Nº identificativo do documento.
 
-![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-6e734083.png)
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-1715f4dc.png)
 
-Após a indicação dos critérios de pesquisa de documentos, deve o utilizador clicar em "**Calcular**".
+Após a indicação dos critérios de pesquisa de documentos, deve o utilizador clicar em "**Calcular**". A título de exemplo, iremos  pesquisar documentos registados na conta _221 - Fornecedores c/c_.
 
-![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-8236c2ac.png)
+O sistema irá apresentar todos os **documentos iniciais** do ano indicado no "Exercício", e que estejam de acordo com os critérios de pesquisa introduzidos.
 
-O sistema irá apresentar todos os **documentos iniciais** do ano indicado no "Exercício", e que estejam de acordo com os critérios de pesquisa introduzidos. A título de exemplo, iremos efetuar a transferência da conta 221 para a 2211.
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-9f9505fc.png)
 
-![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-8dee836d.png)
+Para efetuar a transferência, o utilizador deverá selecionar **SEMPRE** os documentos nos quais pretende efetuar a transferência através da seleção da respetiva _checkbox_.
 
-Para efetuar a transferência, o utilizador deverá selecionar os documentos nos quais pretende efetuar a transferência. Para tal deve, no campo "**Conta destino**" indicar a conta para a qual pretende efetuar a transferência. Os elementos dos restantes campos, se ficarem com o símbolo **%** serão **mantidos**.
+De seguida, no campo "**Conta Destino**" deve indicar a conta para a qual pretende efetuar a transferência.
 
->**ATENÇÃO**: Sempre que um campo destino seja para alterar, o símbolo de **% deve ser retirado**.
+</br>Para manter os restantes elementos, neste exemplo, basta manter o símbolo **%** nos respetivos campos.
 
-![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-e7e15bc5.png)
+>**ATENÇÃO**: Sempre que se alterar um campo destino, o símbolo de **% deve ser retirado**.
+
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-fa3ad168.png)
 
 De seguida, o utilizador deverá indicar a diretoria onde pretende guardar o ficheiro CSV que é produzido no momento da transferência, e para finalizar, deve clicar em "**Transferir**".
 
@@ -463,16 +465,54 @@ Estas alterações poderão ser verificadas no ecrã de **Procura de Documentos*
 
 ![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-89eb1673.png)
 
-Seguidamente, apresenta-se a fatura nº 2000 do exemplo anterior na Procura de Documentos:
+Seguidamente, apresenta-se a fatura nº 4001 do exemplo anterior na Procura de Documentos:
 
-![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-c5d76b29.png)
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-5267ae94.png)
 
->**NOTA**: De notar que, neste exemplo em concreto, a conta **4111** tem um **(?)** na coluna de Designação. Isto significa que **esta conta não existe no plano de contas do exercício atual** - deverá ser transferida.
+>**NOTA**: De notar que quando, neste ecrã de Procura de Documentos, uma conta tem um **(?)** na coluna de Designação, isto significa que **esta conta não existe no plano de contas do exercício atual** - deverá ser transferida.
 
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-eed4ed68.png)
 
-**Outro Exemplo**
+##### Outros Exemplos
 
 >**NOTA**: Todos os elementos que compõem este exemplo são meramente ilustrativos.
+
+##### Transferência de classificador económico
+
+**Em todas as contas**
+
+</br> Quando um classificador económico no exercício anterior era de movimento, e no exercício corrente passou a ser de acumulação, a forma mais eficaz de efetuar a transferência é filtrar os documentos unicamente pelo classificador a transferir.
+
+O processo a adotar é:
+
+1. No campo "**C.Económico Origem**" deve ser colocado o classificador que se pretende transferir.
+2. De seguida deve clicar em "**Calcular**". O sistema irá listar todos os registos que tenham esse classificador económico registado, de todas as contas.
+3. O utilizador deve agora indicar qual o classificador para o qual devem ser transferidos os registos. Essa indicação deve ser efetuada no campo designado por **C.Económico Destino**.
+4. Se todos os documentos listados estão em condições para efetuar a transferência de classificadores económicos, o utilizador deve selecionar a _checkbox_ "Selecionar todos". Caso apenas alguns registos estejam em condições para transferir este elemento, o utilizador deve _apenas selecionar esses documentos_.
+5. Para finalizar, e efetuar a transferência, deve o utilizador indicar a diretoria onde pretende guardar o ficheiro/relatório gerado e clicar em "**Transferir**".
+
+>**ATENÇÃO**: Sempre que se alterar um campo destino, o símbolo de **% deve ser retirado**.
+
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-65cbf008.png)
+
+**Numa determinada conta**
+
+</br> Quando o pretendido é transferir o classificador económico numa determinada conta o processo a adotar é o seguinte:
+
+
+1. No campo "**Conta Origem**" deve ser colocada a conta que está associada ao classificador económico que se pretende transferir.
+2. No campo "**C.Económico Origem**" deve ser colocado o classificador económico que se pretende alterar.
+3. De seguida deve clicar em "**Calcular**". O sistema irá listar todos os registos que tenham o classificador económico associado à conta indicada.
+4. De seguida, no campo "**C.Económico Destino**"" deve indicar o classificador para o qual pretende efetuar a transferência dos registos.
+4. Os documentos devem ser **SEMPRE** selecionados para se efetuar a transferência. O mesmo pode ser efetuado selecionando a _checkbox_ "Selecionar todos" ou selecionando apenas alguns documentos.
+5. Para finalizar, e efetuar a transferência propriamente dita, deve o utilizador indicar a diretoria onde pretende guardar o ficheiro/relatório gerado e clicar em "**Transferir**".
+
+>**ATENÇÃO**: Sempre que se alterar um campo destino, o símbolo de **% deve ser retirado**.
+
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-49bbb835.png)
+
+
+##### Transferência de elementos da chave orçamental
 
 Neste exemplo vamos alterar **a fonte de financiamento e o programa** do Cabimento (CB) nº 112 de 2018, na conta 6221911.
 
@@ -498,7 +538,6 @@ Todos os restantes campos, que contêm o símbolo **%**, serão mantidos.
 Agora, resta indicar a diretoria do computador onde se pretende guardar o ficheiro de transferência e clicar em "Transferir".
 
 ![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-a070c88a.png)
-
 
 
 ## 6. Transferência de Centros de Custo
