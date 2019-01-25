@@ -12,7 +12,7 @@
 - Correções nos mapas DODES e DOREC;
 - Atualização nas fórmulas do balancete de controlo orçamental;
 - Melhoria na mensagem de erro na importação de ficheiros de referência 214;
-- Disponibilização do Balancete de Ativos Não Correntes.
+
 
 >**NOTAS - Transferência de contas de exercícios anteriores**
 
