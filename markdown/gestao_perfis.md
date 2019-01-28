@@ -225,10 +225,10 @@ Ao clicar em “Anular Transferência”, o sistema irá solicitar uma confirma�
 
 Para confirmar o expurgo, basta confirmar. O sistema irá emitir uma mensagem de confirmação do expurgo.
 
-![](gestao_perfis.assets/gestao_perfis-738b15c5.png)
+![](https://spmssicc.github.io/pages/markdown/gestao_perfis.assets/gestao_perfis-738b15c5.png)
 
 Caso seja necessário **reutilizar a numeração da sequência do ficheiro abatido**, deve o utilizador ir ao menu: Parametrizações > Tabelas Genéricas > Instituições bancárias e alterar, no respetivo campo, o próximo número de sequência.
-
+s
 ![](https://spmssicc.github.io/pages/markdown/gestao_perfis.assets/gestao_perfis-7c7e4991.png)
 
 ### 4.2 Gestão Contabilizações Automáticas
