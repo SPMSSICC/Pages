@@ -1,6 +1,6 @@
 <div style="width:100%; height:30px"><span onclick="loadMdDoc('atualizacoes', ['btnMenu'],'', null)" class="voltar">Voltar</span></div>
 
-# Atualizações no SICC - 1 de fevereiro de 2019
+# Atualizações no SICC - 8 de fevereiro de 2019
 
 - Atualizações nos mapas DODES e DOREC;
 - Acrescentada validação de dias de vencimento nas ligações CSV, TXT, integração de entidades e na recolha manual de Entidades;
