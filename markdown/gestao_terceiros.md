@@ -459,6 +459,12 @@ Para confirmar a transferência, a aplicação apresenta uma mensagem como a apr
 
 ![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-306c9c83.png)
 
+O ficheiro produzido pelo sistema no momento da transferência, terá o seguinte aspeto:
+
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-08a775f2.png)
+
+No caso deste exemplo (imagem) a **DF nº 333** que tinha a **Fonte de Financiamento** 520 passou a ter como fonte a 123, o **Programa** passou a ser 320 e o **C. Funcional** passou a ser vazio em vez de 320.
+
 ##### Como verificar a transferência efetuada?
 
 Estas alterações poderão ser verificadas no ecrã de **Procura de Documentos**, no separador **Geral(Inicial)**, disponível no mesmo menu de Gestão de Terceiros.
