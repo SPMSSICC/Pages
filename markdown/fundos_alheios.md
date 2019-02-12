@@ -1,4 +1,4 @@
-# Fundos Alheios
+# Fluxos Financeiros
 
 Este capítulo descreve o registo de adiantamentos ou de despesas/receitas extra-orçamentais.
 

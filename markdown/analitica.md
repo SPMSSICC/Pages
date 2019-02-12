@@ -19,9 +19,9 @@ Este menu permite ao utilizador produzir um extrato de um ou vários centros de 
 |Últ. Serviço:    |Indicar o código do último centro de custo a considerar no extrato. serão considerados centros de custo de código igual e inferior ao indicado neste campo.    |
 |Do dia:    | Indicar a data a partir da qual serão considerados documentos para o extrato.    |
 |Ao dia:    | Indicar a data até a qual serão considerados documentos para o extrato.   |
-|Tipo de contas    | Indicar se se pretendem considerar todas as contas analíticas ou apenas as contas 916 ou 917.Esta indicação deve ser efetuada através da seleção da respetica checkbox. ![](https://spmssicc.github.io/pages/markdown/analitica.assets/analitica-30151129.png) </br> Indicar se se pretendem considerar contas de movimento ou apenas as acumuladas. Esta indicação deve ser efetuada através da seleção da respetiva checkbox. ![](https://spmssicc.github.io/pages/markdown/analitica.assets/analitica-94b1a6b4.png)   |
+|Tipo de contas    | Indicar se se pretendem considerar todas as contas analíticas ou apenas as contas 916 ou 917.Esta indicação deve ser efetuada através da seleção da respetiva checkbox. ![](https://spmssicc.github.io/pages/markdown/analitica.assets/analitica-30151129.png) </br> Indicar se se pretendem considerar contas de movimento ou apenas as acumuladas. Esta indicação deve ser efetuada através da seleção da respetiva checkbox. ![](https://spmssicc.github.io/pages/markdown/analitica.assets/analitica-94b1a6b4.png)   |
 
-</br>De seguida deve o utilizador clicar em "Calcular". Para guardar oresultado de pesquisa, deve o utilizador indicar o dirtórioonde pretende guardar o ficheiro CSV e clicar em "Ficheiro".
+</br>De seguida deve o utilizador clicar em "Calcular". Para guardar o resultado de pesquisa, deve o utilizador indicar o diretório onde pretende guardar o ficheiro CSV e clicar em "Ficheiro".
 
 ![](https://spmssicc.github.io/pages/markdown/analitica.assets/analitica-c107245d.png)
 
@@ -31,7 +31,7 @@ O aspeto do ficheiro gerado é como o do apresentado seguidamente:
 
 ![](https://spmssicc.github.io/pages/markdown/analitica.assets/analitica-d6f3a36e.png)
 
-O utilizadortambém tem a possibilidade de guardar o ficheiro em formato PDF para uma posterior impressão. Para o efeito deve apenas clicar em "Imprimir".
+O utilizador também tem a possibilidade de guardar o ficheiro em formato PDF para uma posterior impressão. Para o efeito deve apenas clicar em "Imprimir".
 
 ![](https://spmssicc.github.io/pages/markdown/analitica.assets/analitica-03a86dfa.png)
 
@@ -50,13 +50,13 @@ Para produzir o extrato, deve o utilizador indicar os critérios de pesquisa.
 
 ![](https://spmssicc.github.io/pages/markdown/analitica.assets/analitica-877646c6.png)
 
-|Critério|Descrição|
-|:--|:--|
-|Ano:    | Indicar o ano ao qual se referem os registos.   |
-|Prim. Conta:    |Indicar a primeira conta a considerar no extrato. Serão consideradas contas de código igual e superior ao indicado neste campo.    |
-|Ult. Conta:    | Indicar a última conta a considerar no extrato. Serão consideradas contas de código igual e inferior ao indicado neste campo.    |
-|Do dia:    |Indicar a data a partir da qual serão considerados registos para o extrato.    |
-|Ao dia:    |Indicar a data até a qual serão considerados registos para o extrato.    |
+| Critério     | Descrição                                                                                                                       |
+|:-------------|:--------------------------------------------------------------------------------------------------------------------------------|
+| Ano:         | Indicar o ano ao qual se referem os registos.                                                                                   |
+| Prim. Conta: | Indicar a primeira conta a considerar no extrato. Serão consideradas contas de código igual e superior ao indicado neste campo. |
+| Ult. Conta:  | Indicar a última conta a considerar no extrato. Serão consideradas contas de código igual e inferior ao indicado neste campo.   |
+| Do dia:      | Indicar a data a partir da qual serão considerados registos para o extrato.                                                     |
+| Ao dia:      | Indicar a data até a qual serão considerados registos para o extrato.                                                           |
 
 De seguida deve o utilizador clicar em "Calcular".
 
