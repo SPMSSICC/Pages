@@ -627,7 +627,7 @@ Para confirmar a importação dos elementos do ficheiro, o sistema gera uma mens
 
 ![img_importacao_concluida_sucesso.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_importacao_concluida_sucesso.png)
 
-### 3.4. Importação de documentos de forma agrupada
+### 3.4. Importação de documentos de Ciclo de Despesa (DSP)
 
 É também possível, nesta fase de registos, importar documentos de uma forma agrupada, isto é, importar todos os documentos referentes ao ciclo de despesa até às faturas inclusive (CB, CM, CP, P1 e P2). Para tal, deve o utilizador selecionar o botão "Ciclo da Despesa" disponível ao lado do botão "Importar".
 
@@ -1234,7 +1234,7 @@ Para confirmar o registo da AP, o utilizador ,deve clicar no botão "Confirme".
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/nota_credito_ap.gif)
 
-No ecrã que abrir o utilizador deve confirmr se as contas lançadas e os respetivos valores estão corretos e por fim deve clicar no botão "Confirme".
+No ecrã que abrir o utilizador deve confirmar se as contas lançadas e os respetivos valores estão corretos e por fim deve clicar no botão "Confirme".
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a5034333.png)
 
@@ -1243,7 +1243,7 @@ A descrição deste processo pode ser consultada no capítulo 7. desta secção.
 
 ### 8.1. Importação NC
 
-As Notas de Crédito podem ser importadas através do botão "Importar" disponivel no ecrã inicial de registo.
+As Notas de Crédito podem ser importadas através do botão "Importar" disponível no ecrã inicial de registo.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-64f28739.png)
 
