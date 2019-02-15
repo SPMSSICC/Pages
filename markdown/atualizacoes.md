@@ -5,6 +5,7 @@
 <div title="Clique para ver as atualizações" class="cab" onclick="atualizacao('fevereiro_9')" >Atualizações de Fevereiro 2019 </div>
   <div id="fevereiro_9" class="hide">
     <div class="atualizacao">
+    <div title="Clique para ver as atualizações" onclick="loadMdDoc('atual_sist_15_fev_9', ['btnMenu','btnOpt'], '', null)">15 de fevereiro</div>
     <div title="Clique para ver as atualizações" onclick="loadMdDoc('atual_sist_8_fev_9', ['btnMenu','btnOpt'], '', null)">8 de fevereiro</div>
     <div title="Clique para ver as atualizações" onclick="loadMdDoc('atual_sist_1_fev_9', ['btnMenu','btnOpt'], '', null)">1 de fevereiro</div>
     </div></div></br>
