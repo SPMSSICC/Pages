@@ -68,7 +68,7 @@ De seguida, deve o utilizador clicar no botão “Importar”.
 
 No novo ecrã aberto, o utilizador deve escolher do diretório de origem, o ficheiro que pretende importar. Seguidamente deve testar/validar o ficheiro a integrar, através da seleção do botão “Ver/Testar Ficheiro”.
 
-![](ligacoes_csv_sicc.assets/ligacoes_csv_sicc-55294290.png)
+![](https://spmssicc.github.io/pages/markdown/ligacoes_csv_sicc.assets/ligacoes_csv_sicc-55294290.png)
 
 Quando o ficheiro tem a estrutura correta, os campos do ecrã aparecem preenchidos com os elementos do ficheiro importado. Por fim o utilizador deve confirmar a importação através da seleção do botão "Importar Ligação".
 
@@ -248,13 +248,13 @@ O aspeto do ficheiro CSV. é o abaixo demonstrado, sendo que o mesmo deve obedec
 
 Os documentos do tipo CP podem ser importados no sistema. Para o efeito, deve o utilizador seguir o seguinte caminho da aplicação:
 
-![](ligacoes_csv_sicc.assets/ligacoes_csv_sicc-d996a102.png)
+![](https://spmssicc.github.io/pages/markdown/ligacoes_csv_sicc.assets/ligacoes_csv_sicc-d996a102.png)
 
 No ecrã aberto, deve o utilizador selecionar o **separador** “Compromisso Assumido (CP)”.
 
 De seguida deve o utilizador clicar em “Importar”.
 
-![](ligacoes_csv_sicc.assets/ligacoes_csv_sicc-8a16289b.png)
+![](https://spmssicc.github.io/pages/markdown/ligacoes_csv_sicc.assets/ligacoes_csv_sicc-8a16289b.png)
 
 Os passos seguintes são:
 1.	Selecionar da diretoria o ficheiro que se pretende integrar;
@@ -465,25 +465,25 @@ Na coluna Categoria de Motivo, deve indicar o respetivo código numérico.
 Seguidamente é apresentada a lista de códigos numéricos a utilizar, conforme o motivo pretendido.
 
 
-| Código | Sigla | Descrição                               |   |
-|:------:|:-----:|:----------------------------------------|---|
-|   1    | SUPP  | Fatura                                  |   |
-|   2    | SUPP  | Recibo                                  |   |
-|   3    | TRAD  | Auto                                    |   |
-|   4    | SALA  | Vencimento                              |   |
-|   5    | TRAD  | Guia                                    |   |
-|   7    | TRAD  | Pagamento Serviços                      |   |
-|   8    | GOVT  | Pagamentos ao Estado                    |   |
-|   11   | PENS  | Pagamentos de Pensão                    |   |
-|   12   | SSBE  | Segurança Social                        |   |
-|   13   | TAXS  | Pagamento Imposto                       |   |
-|   14   | TREA  | Operação Tesouraria                     |   |
-|   15   | VATX  | Pagamento IVA                           |   |
-|   16   | WHLD  | Pagamento IRS (IRS retido)              |   |
-|   17   | GOVT  | Reembolsos Impostos                     |   |
-|   20   | OTHR  | PAG IGCP                                |   |
-|   21   | PDUC  | Transação referente ao pagamento de DUC |   |
-|   21   | PTSU  | Transação referente ao pagamento de TSU |   |
+| Código | Sigla | Descrição                               |  
+|:------:|:-----:|:----------------------------------------|
+|   1    | SUPP  | Fatura                                  |   
+|   2    | SUPP  | Recibo                                  |   
+|   3    | TRAD  | Auto                                    |   
+|   4    | SALA  | Vencimento                              |   
+|   5    | TRAD  | Guia                                    |  
+|   7    | TRAD  | Pagamento Serviços                      |   
+|   8    | GOVT  | Pagamentos ao Estado                    |   
+|   11   | PENS  | Pagamentos de Pensão                    |   
+|   12   | SSBE  | Segurança Social                        |   
+|   13   | TAXS  | Pagamento Imposto                       |   
+|   14   | TREA  | Operação Tesouraria                     |   
+|   15   | VATX  | Pagamento IVA                           |   
+|   16   | WHLD  | Pagamento IRS (IRS retido)              |   
+|   17   | GOVT  | Reembolsos Impostos                     |   
+|   20   | OTHR  | PAG IGCP                                |   
+|   21   | PDUC  | Transação referente ao pagamento de DUC |   
+|   21   | PTSU  | Transação referente ao pagamento de TSU |   
 
 
 ### 2.13 Despesa de Fluxos Financeiros (DA)
@@ -579,11 +579,11 @@ O aspecto do ficheiro CSV é o abaixo demonstrado, sendo que o mesmo deve obedec
 
 Os documentos do tipo AC podem ser importados no sistema. Para o efeito, deve o utilizador seguir o seguinte caminho da aplicação:
 
-![](ligacoes_csv_sicc.assets/ligacoes_csv_sicc-e912e051.png)
+![](https://spmssicc.github.io/pages/markdown/ligacoes_csv_sicc.assets/ligacoes_csv_sicc-e912e051.png)
 
 De seguida deve o utilizador clicar em “Importar”.
 
-![](ligacoes_csv_sicc.assets/ligacoes_csv_sicc-2f76fa15.png)
+![](https://spmssicc.github.io/pages/markdown/ligacoes_csv_sicc.assets/ligacoes_csv_sicc-2f76fa15.png)
 
 Os passos seguintes são:
 1.	Selecionar da diretoria o ficheiro que se pretende integrar;
@@ -617,7 +617,7 @@ Os documentos do tipo DSP podem ser importados no sistema. Para o efeito, deve o
 
 De seguida deve o utilizador clicar em “Ciclo da Despesa”.
 
-![](ligacoes_csv_sicc.assets/ligacoes_csv_sicc-7e1346e5.png)
+![](https://spmssicc.github.io/pages/markdown/ligacoes_csv_sicc.assets/ligacoes_csv_sicc-7e1346e5.png)
 
 No ecrã que é aberto, ecrã este que é semelhante ao ecrã de importações descritas anteriormente, deve o utilizador selecionar da diretoria, o ficheiro em **formato CSV**. De seguida deve pressionar no botão "Ver/Testar Ficheiro" para que o sistema valide o ficheiro que se pretende importar.
 
@@ -680,12 +680,296 @@ Para ambas as situações, está também apresentada a forma como são calculado
 ## 3 Importação de Documentos de Receita
 
 ### 3.1 Faturas Devedores (FD)
+
+Os documentos do tipo FD podem ser importados no sistema. Para o efeito, deve o utilizador seguir o seguinte caminho da aplicação:
+
+![](https://spmssicc.github.io/pages/markdown/ligacoes_csv_sicc.assets/ligacoes_csv_sicc-543fb0f8.png)
+
+De seguida deve o utilizador clicar em “Importar”.
+
+![](https://spmssicc.github.io/pages/markdown/ligacoes_csv_sicc.assets/ligacoes_csv_sicc-07ca1311.png)
+
+Os passos seguintes são:
+1.	Selecionar da diretoria o ficheiro que se pretende integrar;
+2.	Clicar em “Ver/Testar Ficheiro” para validar o ficheiro a importar;
+3.	Corrigir os erros caso estes existam e voltar a clicar em “Ver/Testar Ficheiro”;
+4.	Clicar em “Importar Ligação”.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-6059bf69.png)
+
+O aspeto do ficheiro a importar deve ser semelhante ao seguidamente apresentado.
+
+>**NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-759103e1.png)
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/FD_SNCAP.csv'">Descarregar CSV</button>
+</div>
+
+
 ### 3.2 Guias de Receita (GR)
+
+Os documentos do tipo GR podem ser importados no sistema. Para o efeito, deve o utilizador seguir o seguinte caminho da aplicação:
+
+![](https://spmssicc.github.io/pages/markdown/ligacoes_csv_sicc.assets/ligacoes_csv_sicc-30e18f76.png)
+
+
+De seguida deve o utilizador clicar em “Importar”.
+
+![](https://spmssicc.github.io/pages/markdown/ligacoes_csv_sicc.assets/ligacoes_csv_sicc-a4786b81.png)
+
+Os passos seguintes são:
+1.	Selecionar da diretoria o ficheiro que se pretende integrar;
+2.	Clicar em “Ver/Testar Ficheiro” para validar o ficheiro a importar;
+3.	Corrigir os erros caso estes existam e voltar a clicar em “Ver/Testar Ficheiro”;
+4.	Clicar em “Importar Ligação”.
+
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-56186dfa.png)
+
+O aspeto do ficheiro a importar deve ser semelhante ao seguidamente apresentado.
+
+>**NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a52ce6af.png)
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/GR_SNCAP.csv'">Descarregar CSV</button>
+</div>
+
+
+
 ### 3.3 Créditos a Clientes (CC)
+
+Os documentos do tipo CC podem ser importados no sistema. Para o efeito, deve o utilizador seguir o seguinte caminho da aplicação:
+
+![](https://spmssicc.github.io/pages/markdown/ligacoes_csv_sicc.assets/ligacoes_csv_sicc-23c2bfa5.png)
+
+De seguida deve o utilizador clicar em “Importar”.
+
+![](https://spmssicc.github.io/pages/markdown/ligacoes_csv_sicc.assets/ligacoes_csv_sicc-7eaafa0a.png)
+
+Os passos seguintes são:
+1.	Selecionar da diretoria o ficheiro que se pretende integrar;
+2.	Clicar em “Ver/Testar Ficheiro” para validar o ficheiro a importar;
+3.	Corrigir os erros caso estes existam e voltar a clicar em “Ver/Testar Ficheiro”;
+4.	Clicar em “Importar Ligação”.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-882c6423.png)
+
+O aspeto do ficheiro **CSV** a importar deve ser semelhante ao seguidamente apresentado.
+
+>**NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_receita.assets/ciclo_receita-35349d7a.png)
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/CC_SNCAP.csv'">Descarregar CSV</button>
+</div>
+
+>**NOTA:** Neste ficheiro de importação apenas podem ser integradas as notas de crédito convencionais, sendo que as CC-Reembolsos/Restituições apenas podem ser introduzidas no sistema de forma manual.
+
 ### 3.4 Cobranças Duvidosas (CD)
+
+Os documentos do tipo CD podem ser importados no sistema. Para o efeito, deve o utilizador seguir o seguinte caminho da aplicação:
+
+![](https://spmssicc.github.io/pages/markdown/ligacoes_csv_sicc.assets/ligacoes_csv_sicc-b9f1faa8.png)
+
+
+No ecrã aberto, deve estar selecionado o separador “Cobrança Duvidosa (CD)”.
+De seguida deve o utilizador clicar em “Importar”.
+
+![](https://spmssicc.github.io/pages/markdown/ligacoes_csv_sicc.assets/ligacoes_csv_sicc-366da0ac.png)
+
+Os passos seguintes são:
+1.	Selecionar da diretoria o ficheiro que se pretende integrar;
+2.	Clicar em “Ver/Testar Ficheiro” para validar o ficheiro a importar;
+3.	Corrigir os erros caso estes existam e voltar a clicar em “Ver/Testar Ficheiro”;
+4.	Clicar em “Importar Ligação”.
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_receita.assets/ciclo_receita-c0f88a65.png)
+
+O aspeto do ficheiro **CSV** a ser importado deve ser semelhante ao seguidamente apresentado:
+
+>**NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_receita.assets/ciclo_receita-bafbde4e.png)
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/CD_SNCAP.csv'">Descarregar CSV</button>
+</div>
+
 ### 3.5 Receita de Fluxos Financeiros (RA)
+
+Os documentos do tipo RA podem ser importados no sistema. Para o efeito, deve o utilizador seguir o seguinte caminho da aplicação:
+
+![](https://spmssicc.github.io/pages/markdown/ligacoes_csv_sicc.assets/ligacoes_csv_sicc-2f10a608.png)
+
+No ecrã aberto, deve o utilizador selecionar o separador designado por: “Receitas de Fundos Alheios”.
+De seguida deve o utilizador clicar em “Importar”.
+
+![](vligacoes_csv_sicc.assets/ligacoes_csv_sicc-2fc23512.png)
+
+Os passos seguintes são:
+1.	Selecionar da diretoria o ficheiro que se pretende integrar;
+2.	Clicar em “Ver/Testar Ficheiro” para validar o ficheiro a importar;
+3.	Corrigir os erros caso estes existam e voltar a clicar em “Ver/Testar Ficheiro”;
+4.	Clicar em “Importar Ligação”.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-2cc2ffa4.png)
+
+O aspeto do ficheiro **CSV** a importar deve ser semelhante ao seguidamente apresentado:
+
+>**NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
+
+![](https://spmssicc.github.io/pages/markdown/fundos_alheios.assets/fundos_alheios-30eb3d61.png)
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/RA_SNCAP.csv'">Descarregar CSV</button>
+</div>
+
+
+
 ### 3.6 Cobranças (CO)
+
+Os documentos do tipo CO podem ser importados no sistema. Para o efeito, deve o utilizador seguir o seguinte caminho da aplicação:
+
+![](https://spmssicc.github.io/pages/markdown/ligacoes_csv_sicc.assets/ligacoes_csv_sicc-7041ec41.png)
+
+De seguida deve o utilizador clicar em “Importar”.
+
+![](https://spmssicc.github.io/pages/markdown/ligacoes_csv_sicc.assets/ligacoes_csv_sicc-d1173fd0.png)
+
+
+Os passos seguintes são:
+1.	Selecionar da diretoria o ficheiro que se pretende integrar;
+2.	Clicar em “Ver/Testar Ficheiro” para validar o ficheiro a importar;
+3.	Corrigir os erros caso estes existam e voltar a clicar em “Ver/Testar Ficheiro”;
+4.	Clicar em “Importar Ligação”.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-7aca8a97.png)
+
+O aspeto do ficheiro **CSV** a ser importado deve ser semelhante ao seguidamente apresentado:
+
+>**NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-02b4358a.png)
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/CO_SNCAP_1.csv'">Descarregar CSV</button>
+</div>
+
 ### 3.7 Outras Receitas (OR)
+
+Os documentos do tipo OR podem ser importados no sistema. Para o efeito, deve o utilizador seguir o seguinte caminho da aplicação:
+
+![](https://spmssicc.github.io/pages/markdown/ligacoes_csv_sicc.assets/ligacoes_csv_sicc-28c3c7d4.png)
+
+De seguida deve o utilizador clicar em “Importar”.
+
+![](https://spmssicc.github.io/pages/markdown/ligacoes_csv_sicc.assets/ligacoes_csv_sicc-f29bbc67.png)
+
+
+Os passos seguintes são:
+1.	Selecionar da diretoria o ficheiro que se pretende integrar;
+2.	Clicar em “Ver/Testar Ficheiro” para validar o ficheiro a importar;
+3.	Corrigir os erros caso estes existam e voltar a clicar em “Ver/Testar Ficheiro”;
+4.	Clicar em “Importar Ligação”.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-3806f752.png)
+
+O aspeto do ficheiro **CSV** a ser importado é semelhante ao seguidamente apresentado:
+
+>**NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-5e8572c4.png)
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/OR_SNCAP.csv'">Descarregar CSV</button>
+</div>
+
 ### 3.8 Anulações (AD)
 
+Os documentos do tipo AD podem ser importados no sistema. Para o efeito, deve o utilizador seguir o seguinte caminho da aplicação:
+
+![](https://spmssicc.github.io/pages/markdown/ligacoes_csv_sicc.assets/ligacoes_csv_sicc-4b284e21.png)
+
+No ecrã aberto, deve estar selecionado o separador “Anulações (AD)”.
+De seguida deve o utilizador clicar em “Importar”.
+
+![](https://spmssicc.github.io/pages/markdown/ligacoes_csv_sicc.assets/ligacoes_csv_sicc-2cef7c99.png)
+
+Na nova janela aberta, deve o utilizador selecionar da diretoria do seu computador o ficheiro a importar e clicar em "Ver/ Testar ficheiro" para que o sistema valide a estrutura do mesmo.
+Caso esta corresponda aos critérios de integração, as duas janelas disponíveis ficarão preenchidos com os dados do ficheiro. Caso apresenta incoerências, as mesmas serão comunicadas ao utilizador através da janela destinada para o efeito.
+
+</br>Para finalizar a importação, deve o utilizador clicar em "Importar Ligação".
+
+O aspeto do ficheiro a importar deve ser como o do apresentado seguidamente:
+
+> **NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_receita.assets/ciclo_receita-2fe9f13f.png)
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/AD_SNCAP.csv'">Descarregar CSV</button>
+</div>
+
+>**Nota:** A chave orçamental a ser introduzida para AD, varia com o documento que este regulariza, nomeadamente:
+            </br> - Para AD que regularizam CC, a chave deve ser a parametrizada para a **conta a crédito** do AD.
+            </br> - Para AD que regularizam FD, a chave deve ser a parametrizada para a **conta a débito** do AD.
+
+
 ## 4 Importação de Operações diversas (OD)
+
+Os documentos do tipo OD podem ser importados no sistema. Para o efeito, deve o utilizador seguir o seguinte caminho da aplicação:
+
+![](https://spmssicc.github.io/pages/markdown/ligacoes_csv_sicc.assets/ligacoes_csv_sicc-554c8188.png)
+
+De seguida deve o utilizador clicar em “Importar”.
+
+![](https://spmssicc.github.io/pages/markdown/ligacoes_csv_sicc.assets/ligacoes_csv_sicc-e3bae94d.png)
+
+Os passos seguintes são:
+1.	Selecionar da diretoria o ficheiro que se pretende integrar;
+2.	Clicar em “Ver/Testar Ficheiro” para validar o ficheiro a importar;
+3.	Corrigir os erros caso estes existam e voltar a clicar em “Ver/Testar Ficheiro”;
+4.	Clicar em “Importar Ligação”.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-4a69feb5.png)
+
+O aspeto do ficheiro CSV a importar deve ser semelhante ao seguidamente apresentado.
+
+> **NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
+
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a2092bf3.png)
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/OD_SNCAP.csv'">Descarregar CSV</button>
+</div>
+
+## 5 Importação de Entidades
+
+As entidades, no menu Gestão de Entidades, podem ser criadas através da importação do ficheiro CSV. Para o efeito, deve o utilizador seguir o seguinte caminho na aplicação:
+
+![](https://spmssicc.github.io/pages/markdown/ligacoes_csv_sicc.assets/ligacoes_csv_sicc-0c2697f9.png)
+
+De seguida deve o utilizador clicar em “Importar”.
+
+![](https://spmssicc.github.io/pages/markdown/ligacoes_csv_sicc.assets/ligacoes_csv_sicc-a2a5ff2f.png)
+
+Os passos seguintes são:
+1.	Selecionar da diretoria o ficheiro que se pretende integrar;
+2.	Clicar em “Ver/Testar Ficheiro” para validar o ficheiro a importar;
+3.	Corrigir os erros caso estes existam e voltar a clicar em “Ver/Testar Ficheiro”;
+4.	Clicar em “Importar Ligação”.
+
+![](https://spmssicc.github.io/pages/markdown/assets/parametrizacao-018bca45.png)
+
+O aspeto do ficheiro a importar deve ser semelhante ao seguidamente apresentado.
+
+> **NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
+
+![](https://spmssicc.github.io/pages/markdown/assets/parametrizacao-faaf2c9e.png)
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/importa_entidades.csv'">Descarregar CSV</button>
+</div>
