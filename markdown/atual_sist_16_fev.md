@@ -2,7 +2,7 @@
 
 # Atualizações no SICC - 16 de fevereiro de 2018
 
-- Ajustamento dos cálculos npara o mapa 7.2;
+- Ajustamento dos cálculos para o mapa 7.2;
 
 - Otimização do extrato de contas;
 
