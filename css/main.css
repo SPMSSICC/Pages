@@ -1705,8 +1705,6 @@ max-width:1038px;
 padding-bottom:6em;
 transition:max-width 1s ease, padding-bottom 1s ease
 }
-
-
 }
 
 @media screen and (max-width: 1200px){
@@ -1742,7 +1740,6 @@ transition:margin-top 1s ease, margin-bottom 1s ease, margin-left 1s ease, margi
     margin:0 auto 0;
     padding:0em 3em 6em
   }
-
 }
 
 @media screen and (min-width: 737px) and (max-width: 1200px){
@@ -2094,7 +2091,13 @@ width: calc(80% - 80px)
           -ms-flex: 0 0 20%;
               flex: 0 0 20%;
           position: relative;
-           display: inline-block;
+           display: -webkit-box;
+           display: -ms-flexbox;
+           display: flex;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+ -ms-flex-direction: column;
+     flex-direction: column;
              width: 100%;
         min-height: 10px;
      padding-right: 15px;
