@@ -1743,10 +1743,6 @@ transition:margin-top 1s ease, margin-bottom 1s ease, margin-left 1s ease, margi
     padding:0em 3em 6em
   }
 
-  .h-50{
-    height: 40% !important;
-    min-height: 300px !important;
-  }
 }
 
 @media screen and (min-width: 737px) and (max-width: 1200px){
