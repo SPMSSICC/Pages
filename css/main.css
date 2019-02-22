@@ -2086,7 +2086,7 @@ width: calc(80% - 80px)
 
 .h-50{
   height: 30% !important;
-  min-height: 250px !important;
+  min-height: 200px !important;
 }
 
 .col-6 {
