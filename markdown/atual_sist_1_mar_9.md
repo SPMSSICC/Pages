@@ -1,6 +1,6 @@
 <div style="width:100%; height:30px"><span onclick="loadMdDoc('atualizacoes', ['btnMenu'],'', null)" class="voltar">Voltar</span></div>
 
-# Atualizações no SICC - 22 de fevereiro de 2019
+# Atualizações no SICC - 1 de março de 2019
 
 - Atualizações nos mapas DOREC e DODES;
 - Atualização de fórmulas no mapa AFT e AI;
