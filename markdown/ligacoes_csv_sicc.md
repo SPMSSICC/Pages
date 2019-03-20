@@ -968,7 +968,7 @@ O aspeto do ficheiro a importar deve ser semelhante ao seguidamente apresentado.
 
 > **NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
 
-![](https://spmssicc.github.io/pages/markdown/assets/parametrizacao-faaf2c9e.png)
+![](https://spmssicc.github.io/pages/markdown/parametrizacao.assets/parametrizacao-3d22e3bb.png)
 
 <div style="height:40px">
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/importa_entidades.csv'">Descarregar CSV</button>
