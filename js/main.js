@@ -195,10 +195,20 @@ function loadMdDoc(mdFile, btnsToShow, anchor, event) {
 
         responsiveTables($(html).filter('table'));
         loadToc($(html).filter('h2,h3,h4'), $('#tocDropdown'));
-        toggle('toc',true); // hide table-of-contents
+        //toggle('toc',null); // hide table-of-contents
         addSharelinks(doc.name, doc.title);
         imagesZoomAndLegend(doc.name);
         showElements(btnsToShow);
+
+        if (doc.name !== "introducao") {
+
+          $('#btnToc').addClass('active');
+          $('#tocDropdown').addClass('show');
+
+          $('#btnMenu').removeClass('active');
+          $('#accordion').removeClass('show');
+      }
+
 
         $("#btnEditarDoc, #btnHistory" ).off("click");
         $("#btnEditarDoc").click(function() {window.open("https://github.com/SPMSSICC/pages/edit/master/markdown/" + doc.name + ".md", "_blank");});
@@ -342,13 +352,13 @@ function disableDocOptions(mdFile){
     return;
   }
   if ($.inArray(mdFile, ['perguntas_frequentes','vencimentos']) != -1) {
-    console.log("entrei");
+    // console.log("entrei");
     $("#btnPDF").addClass("disabled");
     $("#btnPDF").off("click");
     return;
   }
   else if ($.inArray(mdFile, ['vencimentos']) != -1) {
-    console.log("entrei");
+    // console.log("entrei");
     $("#btnShare").addClass("disabled");
     $("#btnShare").off("click");
     return;
@@ -678,6 +688,9 @@ $('#tocDropdown').on('click', 'a[href^="#"]', function(e) {
 
 	var pos = parseInt($id.offset().top - 50); // top position relative to the document
 	window.scrollTo(0, pos);
+  $('#btnToc').removeClass('active');
+  $('#tocDropdown').removeClass('show');
+  // $('#tocDropdown *').removeClass('active'); remove the highligh from the selected title
 	// $('html, body').css({'scrollTop' : pos});
 });
 

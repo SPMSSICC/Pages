@@ -1150,12 +1150,8 @@ padding-right:.2em
 }
 
 .table-of-contents li {
-margin:0;
+margin:.5em;
 text-align:left;
-}
-
-.table-of-contents a {
-text-decoration:none
 }
 
 .table-of-contents a {

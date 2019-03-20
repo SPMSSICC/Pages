@@ -23,7 +23,7 @@ O sistema, ao longo da navegação por vários ecrãs contempla vários botões 
 | ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-c82bc2d6.png) | Sair do ecrã. |
 
 
-### Notas gerais
+# Notas gerais
 
 Recomenda-se o uso da tecla **_TAB_** para a navegação pelos campos dos ecrãs do sistema. Esta forma de navegação garante que todos os campos obrigatórios sejam preenchidos e validados permitindo o posterior desbloqueio de outros campos.
 
