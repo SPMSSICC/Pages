@@ -15,18 +15,18 @@ Acedendo ao mesmo temos as seguintes opções disponíveis:
 | ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-f2465919.png)| Terminar sessão de utilização. | Todos |
 | ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-f4c03c4b.png) | Sair da aplicação. | Todos |
 
-</br>A maioria dos sub-menus disponiliza formulários de recolha de dados, "Recolhas", e a listagem dos dados já guardados em cada sub-menu, "Listagens".
+</br>A maioria dos submenus disponibiliza formulários de recolha de dados, "Recolhas", e a listagem dos dados já guardados em cada submenu, "Listagens".
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-24451670.png)
 
 **Recolhas**
 
-Os formulários "Recolhas" são detalhadamente descritos ao longo deste capítulo para cada sub-menu.
+Os formulários "Recolhas" são detalhadamente descritos ao longo deste capítulo para cada submenu.
 
 
 </br>**Listagens**
 
-A janela correspondente às "Listagens" segue a mesma lógica de processo, para cada sub-menu, indicada seguidamente. Os casos excecionais são descritos detalhadamente no respetivo sub-menu.
-Para efeitos de exemplo na imagem que se segue está indicada a janela de "Listagens" referente ao sub-menu Tabelas Genéricas >  Códigos Postais.
+A janela correspondente às "Listagens" segue a mesma lógica de processo, para cada submenu, indicada seguidamente. Os casos excecionais são descritos detalhadamente no respetivo submenu.
+Para efeitos de exemplo na imagem que se segue está indicada a janela de "Listagens" referente ao submenu Tabelas Genéricas >  Códigos Postais.
 
 Este ecrã permite ao utilizador extrair a listagem de Códigos Postais, para ficheiro de texto com o formato CSV e imprimir o ficheiro em formato PDF.
 
@@ -46,7 +46,7 @@ Este ecrã permite ao utilizador extrair a listagem de Códigos Postais, para fi
 |![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-ef069651.png) | Sair do ecrã. |
 
 </br>Existem ecrãs de "Listagens" que possibilitam a pesquisa do primeiro e último registo a listar através do botão posicionado entre dois campos.
-A título de exemplo está apresentado na imagem abaixo o processo de listagem de contas no sub-menu Contabilidade > Plano multidimensional > Plano de Contas-SNC-AP.
+A título de exemplo está apresentado na imagem abaixo o processo de listagem de contas no submenu Contabilidade > Plano multidimensional > Plano de Contas-SNC-AP.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-b2ba79bf.png)
 
@@ -199,10 +199,10 @@ Este ecrã permite ao utilizador manipular as informações relacionadas com os 
 | Critério de filtragem | Critério para filtragem da pesquisa. ![codigo_nome](https://spmssicc.github.io/pages/markdown/menus.assets/img_codigo_nome.png) |
 | Critério de posicionamento | Critério a escolher para realçar um resultado da pesquisa. ![codigo_nome](https://spmssicc.github.io/pages/markdown/menus.assets/img_codigo_nome.png) |
 
-</br>Para **inserir** novos Factores de aglutinação deve o utilizador seguir o processo:
+</br>Para **inserir** novos Fatores de aglutinação deve o utilizador seguir o processo:
 
 1. Clicar em "+ Novo";
-2. Na nova linha aberta, inserir o código e a designação do factor pretendido;
+2. Na nova linha aberta, inserir o código e a designação do fator pretendido;
 3. Clicar em "Confirmar".
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/fatores_aglut.gif)
@@ -465,9 +465,9 @@ Para inserir saldos iniciais deve o utilizador:
 
 1. Clicar em "+ Novo"
 2. Indicar a conta no respetivo campo
-3. Primir na tecla TAB para validar a conta inserida
-4. Indicar, no campo "Entidade", a entidade àqual se refere o saldo inicial
-5. Primir na tecla TAB para validar a entidade inserida
+3. Premir na tecla TAB para validar a conta inserida
+4. Indicar, no campo "Entidade", a entidade à qual se refere o saldo inicial
+5. Premir na tecla TAB para validar a entidade inserida
 6. Indicar com **R** de receita ou **D** de Despesa o tipo da conta
 7. Indicar nos campos respetivos, os elementos da chave orçamental (facultativo)
 8. Indicar o valor a débito **ou** a crédito (consoante o pretendido)
@@ -635,7 +635,7 @@ Para efetuar alterações nos dados de uma entidade já criada, deve o utilizado
 2. Selecionar os dados do campo referente, neste exemplo, ao número da conta _factoring_.
 3. Limpar o campo selecionado e para validar a eliminação de dados pressionar a tecla _TAB_.
 4. Selecionar o tipo de Número da Conta Bancária (NIB ou IBAN).
-5. Inserir o respectivo número de conta e pressionar a tecla _TAB_ para que o nome do banco fique automaticamente preenchido.
+5. Inserir o respetivo número de conta e pressionar a tecla _TAB_ para que o nome do banco fique automaticamente preenchido.
 6. Pressionar o botão "Confirmar" para confirmar os dados alterados.
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/gest_ent_alt.gif)
@@ -673,11 +673,11 @@ Ao carregar no botão Situação Contributiva, é aberto o seguinte ecrã:
 |:---|:---|
 | ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-5c1d62d2.png) | Criar listagens de NIFs (Número de Identificação Fiscal), na totalidade ou em parte, conforme os dados introduzidos nos critérios disponíveis. ![img_62](https://spmssicc.github.io/pages/markdown/menus.assets/img_62.png)Os critérios de filtragem definidos são:  - Primeiro NIF;  - Último NIF. </br>A extração dos dados pode ser efetuada de duas formas distintas: - Ficheiro : Neste caso o utilizador deve indicar a pasta onde o ficheiro deve ser guardado, sendo que o nome possui sempre o nome “LIST\_SITCONTRIB_” + DATA (no formato, DDMMAAAA).  Imprime: Neste caso, a impressão é feita em documento com o formato PDF. |
 
-##### Importar entidades
+#### 4.1.1 Importar entidades
 
-Quando se trata de inserção de um elevado número de entidades, pode-se optar pela importação de um ficheiro de formato CSV com as novas entidades.
+Quando se trata de criação de um elevado número de entidades, pode-se optar pela importação de um ficheiro de formato CSV com as novas entidades.
 
-Para o efeito, deve o utilizador clicar no botão designado por "Importar" no fundo do ecrã de gestão de entidades:
+</br>Para o efeito, deve o utilizador clicar no botão designado por "Importar" no fundo do ecrã de gestão de entidades:
 
 ![](https://spmssicc.github.io/pages/markdown/assets/parametrizacao-72617cd0.png)
 
@@ -695,13 +695,41 @@ O aspeto do ficheiro a importar deve ser semelhante ao seguidamente apresentado.
 
 > **NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
 
-![](https://spmssicc.github.io/pages/markdown/assets/parametrizacao-faaf2c9e.png)
+![](https://spmssicc.github.io/pages/markdown/parametrizacao.assets/parametrizacao-3d22e3bb.png)
 
 <div style="height:40px">
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/importa_entidades.csv'">Descarregar CSV</button>
 </div>
 
-### 4.2. Tabela de Projectos
+
+##### Atualização de dados de entidades
+
+Caso se pretenda atualizar os dados de várias entidades de uma vez só, o utilizador pode efetuar esse processo através da integração do mesmo ficheiro CSV no mesmo ecrã da aplicação que é utilizado para criação de novas entidades.
+
+</br>Para o sistema assumir que a informação a integrar é para atualização de dados e não para criar entidades novas, adaptando as validações de integração, deve o utilizador selecionar, imperativamente, a _checkbox_ "Atualizar entidades".
+
+![](https://spmssicc.github.io/pages/markdown/parametrizacao.assets/parametrizacao-e4ef1cc9.png)
+
+Os campos obrigatórios do ficheiro CSV a importar são os mesmos da criação de entidades novas, pelo que todos estes campos devem estar preenchidos mesmo se a informação for para manter.
+
+A título de exemplo pretende-se atualizar a morada da entidade de código 123 que tem a seguinte informação no sistema: (estão destacados os campos que devem constar no ficheiro de importação)
+
+![](https://spmssicc.github.io/pages/markdown/parametrizacao.assets/parametrizacao-a0175fb3.png)
+
+O ficheiro de importação deverá ter, **obrigatoriamente**, a seguinte informação:
+
+![](https://spmssicc.github.io/pages/markdown/parametrizacao.assets/parametrizacao-3d8974de.png)
+
+Porém ao integrar o ficheiro apenas com esta informação, os campos referentes aos IBANs serão apagados, pois no ficheiro vêm em branco.
+
+Para manter esta informação, esta deve estar contemplada no ficheiro a integrar. Assim, toda a informação já inserida no sistema que seja para manter, deve estar contemplada no ficheiro CSV a integrar.
+
+![](https://spmssicc.github.io/pages/markdown/parametrizacao.assets/parametrizacao-a528cb85.png)
+
+>**NOTA:** Caso neste ficheiro de atualização de dados esteja uma entidade inexistente (com código novo), essa entidade é criada.
+
+
+### 4.2. Tabela de Projetos
 ##### Recolhas
 
 Menu de acesso:

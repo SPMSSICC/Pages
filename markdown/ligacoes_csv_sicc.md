@@ -973,3 +973,29 @@ O aspeto do ficheiro a importar deve ser semelhante ao seguidamente apresentado.
 <div style="height:40px">
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/importa_entidades.csv'">Descarregar CSV</button>
 </div>
+
+##### Atualização de dados de entidades
+
+Caso se pretenda atualizar os dados de várias entidades de uma vez só, o utilizador pode efetuar esse processo através da integração do mesmo ficheiro CSV no mesmo ecrã da aplicação que é utilizado para criação de novas entidades.
+
+</br>Para o sistema assumir que a informação a integrar é para atualização de dados e não para criar entidades novas, adaptando as validações de integração, deve o utilizador selecionar, imperativamente, a _checkbox_ "Atualizar entidades".
+
+![](https://spmssicc.github.io/pages/markdown/parametrizacao.assets/parametrizacao-e4ef1cc9.png)
+
+Os campos obrigatórios do ficheiro CSV a importar são os mesmos da criação de entidades novas, pelo que todos estes campos devem estar preenchidos mesmo se a informação for para manter.
+
+A título de exemplo pretende-se atualizar a morada da entidade de código 123 que tem a seguinte informação no sistema: (estão destacados os campos que devem constar no ficheiro de importação)
+
+![](https://spmssicc.github.io/pages/markdown/parametrizacao.assets/parametrizacao-a0175fb3.png)
+
+O ficheiro de importação deverá ter, **obrigatoriamente**, a seguinte informação:
+
+![](https://spmssicc.github.io/pages/markdown/parametrizacao.assets/parametrizacao-3d8974de.png)
+
+Porém ao integrar o ficheiro apenas com esta informação, os campos referentes aos IBANs serão apagados, pois no ficheiro vêm em branco.
+
+Para manter esta informação, esta deve estar contemplada no ficheiro a integrar. Assim, toda a informação já inserida no sistema que seja para manter, deve estar contemplada no ficheiro CSV a integrar.
+
+![](https://spmssicc.github.io/pages/markdown/parametrizacao.assets/parametrizacao-a528cb85.png)
+
+>**NOTA:** Caso neste ficheiro de atualização de dados esteja uma entidade inexistente (com código novo), essa entidade é criada.
