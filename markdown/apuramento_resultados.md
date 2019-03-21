@@ -22,7 +22,7 @@ Para efetuar o apuramento de resultados antes dos impostos, deve o utilizador cl
 
 ![](https://spmssicc.github.io/pages/markdown/apuramento_resultados.assets/apuramento_resultados-4fe9f737.png)
 
- Ao clicar neste botão, as contas da classe 6 e 7 ficarão saldadas, sendo que o seu saldo (devedor ou credor) é transferido para a conta "**811 - Resultado antes dos impostos**".
+ Ao clicar neste botão, as contas da classe 6 e 7 ficarão saldadas, sendo que o seu saldo (devedor ou credor) é registado na conta "**811 - Resultado antes dos impostos**".
 
 Se o apuramento for efetuado com sucesso, o sistema irá apresentar uma mensagem como a seguinte:
 
@@ -34,11 +34,11 @@ Desta forma, como o apuramento antes dos impostos já foi efetuado, o sistema pe
 
 ### 1.1. Conferência do apuramento
 
-Para conferir o apuramento efetuado, o utilizador pode produzir o balancete de razão geral, disponível no menu contabilidade geral, com os seguintes parâmetros:
+Para conferir o apuramento efetuado, o sistema dispõe várias listagens e mapas, como por exemplo o balancete de razão geral, disponível no menu contabilidade geral. Para conferir os movimentos efetuados através do balancete, deve o utilizador produzir este documento com os seguintes parâmetros:
 
 ![](https://spmssicc.github.io/pages/markdown/apuramento_resultados.assets/apuramento_resultados-9805e6ba.png)
 
-No balancete gerado, o utilizador pode verificar que os saldos das contas da classe 6 e 7 estão a zero e a conta 811 passou a ter valor:
+No balancete gerado, o utilizador pode verificar que os saldos das contas da classe 6 e 7 estão a zero e a conta 811 passou a ter movimentos:
 
 ![](https://spmssicc.github.io/pages/markdown/apuramento_resultados.assets/apuramento_resultados-ec6cce71.png)
 
@@ -46,7 +46,7 @@ No balancete gerado, o utilizador pode verificar que os saldos das contas da cla
 
 ![](https://spmssicc.github.io/pages/markdown/apuramento_resultados.assets/apuramento_resultados-6619aa80.png)
 
-Para verificar os movimentos efetuados neste apuramento, o utilizador pode consultar o RO gerado no ecrã de Procura de Documentos Genérica, disponível no menu de Gestão de Terceiros.
+Para verificar os movimentos efetuados neste apuramento, o utilizador pode também consultar o RO gerado no ecrã de Procura de Documentos Genérica, disponível no menu de Gestão de Terceiros.
 
 Para pesquisar o documento, basta indicar RO e o ano 2018.
 
@@ -74,7 +74,7 @@ O sistema irá atualizar o estado do apuramento, ativando apenas o botão de aba
 
 Para conferir o apuramento efetuado, o utilizador pode consultar o documento RL gerado no ecrã de Procura de Documentos Genérica, como descrito no ponto 1.1 ou, conferindo o balancete de razão geral (com os mesmos parâmetros demonstrados no ponto 1.1)
 
-</br> No balancete de razão geral pode-se verificar que a conta 811 foi saldada e que foram efetuados movimentos para a conta 818 - Resultado Liquido.
+</br> No balancete de razão geral pode-se verificar que a conta 811 foi saldada sendo que o seu saldo foi registado na conta 818 - Resultado Liquido.
 
 ![](https://spmssicc.github.io/pages/markdown/apuramento_resultados.assets/apuramento_resultados-9900ce27.png)
 
