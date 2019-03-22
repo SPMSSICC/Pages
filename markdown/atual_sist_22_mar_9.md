@@ -12,8 +12,8 @@
 
 - Disponibilização do menu "**Apuramento de Resultados**" (apenas para os Supervisores de cada instituição);
 
-![](atual_sist_22_mar_9.assets/atual_sist_22_mar_9-67bc734b.png)
+![](https://spmssicc.github.io/pages/markdown/atual_sist_22_mar_9.assets/atual_sist_22_mar_9-67bc734b.png)
 
 Sugere-se a leitura do manual desta funcionalidade disponível no botão de Ajuda no ecrã ou no capítulo:
 
-![](atual_sist_22_mar_9.assets/atual_sist_22_mar_9-9cbc5bbd.png)
+![](https://spmssicc.github.io/pages/markdown/atual_sist_22_mar_9.assets/atual_sist_22_mar_9-9cbc5bbd.png)
