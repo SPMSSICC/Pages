@@ -1406,7 +1406,7 @@ O aspeto do ficheiro CSV a ser importado deve ser semelhante ao seguidamente apr
 
 >**NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-9dd3e1a3.png)
+![](https://spmssicc.github.io/pages/markdown/atual_sist_29_mar_9.assets/atual_sist_29_mar_9-8a7b97ad.png)
 
 <div style="height:40px">
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/CF_SNCAP.csv'">Descarregar CSV</button>

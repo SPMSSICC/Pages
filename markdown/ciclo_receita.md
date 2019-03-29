@@ -92,7 +92,7 @@ Para validar a importação, deve clicar em "Importa Ligação".
 
 O aspeto do ficheiro a importar deve ser semelhante ao seguidamente apresentado.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a52ce6af.png)
+![](https://spmssicc.github.io/pages/markdown/atual_sist_29_mar_9.assets/atual_sist_29_mar_9-847f9569.png)
 
 <div style="height:40px">
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/GR_SNCAP.csv'">Descarregar CSV</button>
