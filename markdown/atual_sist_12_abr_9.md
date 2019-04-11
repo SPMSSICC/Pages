@@ -8,7 +8,7 @@
 - Otimização nos mapas DAPL, DFC;
 - Alteração no diagnóstico 501 para incluir contas da classe 0 com pontos ".";
 - Atualização da funcionalidade de apuramento de resultados para permitir o apuramento no **mês 14**;
-- Foi acrescentada a possibilidade de gerar os ficheiro S3CP **CPLC** e **BA** utilizando o **Plano de Contas Local**.
+- Foi acrescentada a possibilidade de gerar os ficheiro S3CP utilizando o **Plano de Contas Local**.
 
 Desta forma para enviar os ficheiros para:
 
