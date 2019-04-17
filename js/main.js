@@ -254,7 +254,7 @@ function loadMdDoc(mdFile, btnsToShow, anchor, event) {
         $("#btnHistory").click(function() {loadFileHistory(doc.name, event);});
 
         if (doc.name == "apresentacao_snc_ap") {$("#btnPDF").attr({"onclick":"window.open('https://view.officeapps.live.com/op/embed.aspx?src=https://spmssicc.github.io/pages/pptx/SPMS_SICC_SNC_AP_20160606_04-pics.pptx','_blank')"});}
-        else if (doc.name == "apresentação_abril_2019") {$("#btnPDF").attr({"onclick":"window.open('https://view.officeapps.live.com/op/embed.aspx?src=https://spmssicc.github.io/pages/pptx/20190415_RHV_SICC.pptx','_blank')"});}
+      //  else if (doc.name == "apresentação_abril_2019") {$("#btnPDF").attr({"onclick":"window.open('https://view.officeapps.live.com/op/embed.aspx?src=https://spmssicc.github.io/pages/pptx/20190415_RHV_SICC.pptx','_blank')"});}
         else if (doc.name == "apresentacao_20_nov_snc_ap") {$("#btnPDF").attr({"onclick":"window.open('https://view.officeapps.live.com/op/embed.aspx?src=https://spmssicc.github.io/pages/pptx/SPMS_SICC_SNC_AP_20171120.pptx','_blank')"});}
         else if (doc.name == "circ1381") {$("#btnPDF").attr({"onclick":"window.open('http://www.dgo.pt/instrucoes/Instrucoes/2016/ca1381.pdf','_blank')"});}
         else if (doc.name == "circ1382") {$("#btnPDF").attr({"onclick":"window.open('http://www.dgo.pt/instrucoes/Instrucoes/2016/ca1382.pdf','_blank')"});}
