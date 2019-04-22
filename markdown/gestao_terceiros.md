@@ -413,8 +413,9 @@ Seguidamente, o utilizador deve selecionar o documento a transferir, através da
 
 Este submenu permite ao utilizador transferir contas, classificador económico e elementos da chave orçamental de documentos registados em exercícios anteriores para o exercício atual.
 
-</br>Para o efeito, o utilizador deve indicar sempre a **CONTA ORIGEM e/ou o CLASSIFICADOR ECONÓMICO**.
-Caso pretenda identificar documentos ou grupos de documentos específicos podem ser indicados parâmetros de pesquisa, tais como:
+</br>Para o efeito, o utilizador deve indicar sempre a **CONTA ORIGEM e/ou o CLASSIFICADOR ECONÓMICO** bem como o elemento **DESTINO**, quer seja a conta, o classificador económico ou um elemento da chave orçamental.
+
+Caso pretenda identificar documentos ou grupos de documentos específicos devem ser indicados parâmetros de pesquisa, tais como:
 
 - R/D
 - Fonte de financiamento
@@ -435,29 +436,48 @@ Caso pretenda identificar documentos ou grupos de documentos específicos podem 
 
 ![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-1715f4dc.png)
 
-Após a indicação dos critérios de pesquisa de documentos, deve o utilizador clicar em "**Calcular**". A título de exemplo, iremos  pesquisar documentos registados na conta _221 - Fornecedores c/c_.
-
-O sistema irá apresentar todos os **documentos iniciais** do ano indicado no "Exercício", e que estejam de acordo com os critérios de pesquisa introduzidos.
-
-![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-9f9505fc.png)
-
-Para efetuar a transferência, o utilizador deverá selecionar **SEMPRE** os documentos nos quais pretende efetuar a transferência através da seleção da respetiva _checkbox_.
-
-De seguida, no campo "**Conta Destino**" deve indicar a conta para a qual pretende efetuar a transferência.
-
 </br>Para manter os restantes elementos, neste exemplo, basta manter o símbolo **%** nos respetivos campos.
 
 >**ATENÇÃO**: Sempre que se alterar um campo destino, o símbolo de **% deve ser retirado**.
 
-![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-fa3ad168.png)
+Após a indicação dos critérios de pesquisa de documentos, deve o utilizador também indicar a Diretoria do relatório da transferência, no respetivo campo e de seguida deve clicar em "**Calcular**". A título de exemplo, iremos transferir registos na conta _221 - Fornecedores c/c_ para a conta _2211_.
 
-De seguida, o utilizador deverá indicar a diretoria onde pretende guardar o ficheiro CSV que é produzido no momento da transferência, e para finalizar, deve clicar em "**Transferir**".
+O sistema irá calcular todos os **documentos iniciais** do ano indicado no "Exercício", e que estejam de acordo com os critérios de pesquisa introduzidos.
 
-![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-a070c88a.png)
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-439ebcb5.png)
 
-Para confirmar a transferência, a aplicação apresenta uma mensagem como a apresentada seguidamente:
+Após o cálculo irá ser apresentada a seguinte mensagem ao utilizador:
 
-![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-306c9c83.png)
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-e87571cb.png)
+
+Ao selecionar "**Transferir**" todos os registos identificados serão transferidos para a conta indicada e será produzido o respetivo relatório de transferência.
+
+Ao selecionar "**Gravar**", será gerado um ficheiro CSV com os registos identificados pelo sistema, dentro dos critérios identificados, onde o utilizador pode indicar os elementos "DESTINO" e integrar o ficheiro, efetuando assim a transferência.  
+
+Ao clicar em "Gravar" será aberta uma janela onde o utilizador deverá indicar onde pretende guardar o ficheiro.
+
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-b2e9daec.png)
+
+O ficheiro CSV gerado terá o seguinte aspeto:
+
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-e313b252.png)
+
+Caso o utilizador pretenda efetuar a transferência destes registos para mais do que uma conta destino, deverá indicar no ficheiro as respetivas contas destino e de seguida deverá importar o ficheiro através da seleção do respetivo botão:
+
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-3429ba88.png)
+
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-7c49af0e.png)
+
+Ao clicar no botão Importar ficheiro para transferência, será aberta uma janela para selecionar o ficheiro. Ao selecionar o ficheiro o sistema irá automaticamente e de imediato efetuar a transferência.
+
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-21f4e021.png)
+
+>**NOTA:** Deve ser indicado o caminho para guardar o ficheiro relatório da transferência.
+
+Para confirmar a transferência, o sistema irá apresentar a seguinte mensagem:
+
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-0e6776d1.png)
+
 
 O ficheiro produzido pelo sistema no momento da transferência, terá o seguinte aspeto:
 
@@ -479,7 +499,7 @@ Seguidamente, apresenta-se a fatura nº 4001 do exemplo anterior na Procura de D
 
 ![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-eed4ed68.png)
 
-##### Outros Exemplos
+<!-- ##### Outros Exemplos
 
 >**NOTA**: Todos os elementos que compõem este exemplo são meramente ilustrativos.
 
@@ -544,7 +564,7 @@ Todos os restantes campos, que contêm o símbolo **%**, serão mantidos.
 Agora, resta indicar a diretoria do computador onde se pretende guardar o ficheiro de transferência e clicar em "Transferir".
 
 ![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-a070c88a.png)
-
+ -->
 
 ## 6. Transferência de Centros de Custo
 
