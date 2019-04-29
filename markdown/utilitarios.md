@@ -53,20 +53,27 @@ Na tabela seguinte é apresentada a informação contemplada em cada campo (colu
 
 </br>Neste diagnóstico, são efetuadas várias validações ao plano, sendo que cada validação tem um código atribuído com um determinado significado. Segue abaixo a lista de validações efetuadas neste diagnóstico e os respetivos significados:
 
-| Código | Significado                                           |
-|:------:|:------------------------------------------------------|
-|   8    | Conta de acumulação igual à conta.                    |
-|   40   | Contas que acumulam para contas de movimento.         |
-|   41   | Contas de acumulação que não existem.                 |
-|   42   | Contas de acumulação que não têm contas de movimento. |
-|   46   | Conta com Acumulação incoerente no plano ACSS.        |
-|   47   | Conta com Acumulação incoerente no plano Unileo.      |
-|   48   | Conta ACSS em falta no plano local.                   |
-|   49   | Conta Unileo em falta no plano local.                 |
-|   50   | Conta Ano plano ACSS e M no plano local.              |
-|   51   | Conta A no plano Unileo e M no plano local.           |
-|   52   | Desdobramento ilegal no plano ACSS.                   |
-|   53   | Desdobramento ilegal no plano Unileo.                 |
+| Código | Significado                                                                      |
+|:------:|:---------------------------------------------------------------------------------|
+|   8    | Conta de acumulação igual à conta.                                               |
+|   40   | Contas que acumulam para contas de movimento.                                    |
+|   41   | Contas de acumulação que não existem.                                            |
+|   42   | Contas de acumulação que não têm contas de movimento.                            |
+|   46   | Conta com Acumulação incoerente no plano ACSS.                                   |
+|   47   | Conta com Acumulação incoerente no plano Unileo.                                 |
+|   48   | Conta ACSS em falta no plano local.                                              |
+|   49   | Conta Unileo em falta no plano local.                                            |
+|   50   | Conta Ano plano ACSS e M no plano local.                                         |
+|   51   | Conta A no plano Unileo e M no plano local.                                      |
+|   52   | Desdobramento ilegal no plano ACSS.                                              |
+|   53   | Desdobramento ilegal no plano Unileo.                                            |
+|   57   | **Classificador de acumulação igual à conta**                                    |
+|   58   | **Classificadores que acumulam para classificadores de movimento**               |
+|   59   | **Classificadores de acumulação que não existem**                                |
+|   60   | **Classificadores de movimento sem rubrica orçamental**                         |
+|   61   | **Conta de acumulação salta um ou mais graus**                                   |
+|   62   | **Saldo inicial do plano de contas incoerente com o saldo inicial por entidade** |
+
 <!-- ![](https://spmssicc.github.io/pages/markdown/utilitarios.assets/utilitarios-fdc397d6.png) -->
 
 </br>Este resultado de diagnóstico pode ser exportado para um ficheiro CSV. O aspeto do ficheiro CSV é como o do apresentado seguidamente:
