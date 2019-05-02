@@ -2087,13 +2087,14 @@ width: calc(80% - 80px)
           -ms-flex: 0 0 20%;
               flex: 0 0 20%;
           position: relative;
-           display: -webkit-box;
+          display:inline-block;
+           /* display: -webkit-box;
            display: -ms-flexbox;
            display: flex;
 -webkit-box-orient: vertical;
 -webkit-box-direction: normal;
  -ms-flex-direction: column;
-     flex-direction: column;
+     flex-direction: column; */
              width: 100%;
         min-height: 10px;
      padding-right: 15px;
