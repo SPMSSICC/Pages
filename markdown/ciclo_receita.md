@@ -495,13 +495,13 @@ Devem ser, novamente, verificadas as contas bem como os montantes e por fim deve
 
 A contabilidade orçamental lançada aquando o registo de Reembolsos/Restituições é a seguinte:
 
-![](https://spmssicc.github.io/pages/markdown/ciclo_receita.assets/ciclo_receita-7153add4.png)
+![](https://spmssicc.github.io/pages/markdown/ciclo_receita.assets/ciclo_receita-2093c5dc.png)
 
 ## 9. Anulação de Receitas FD/CC (AR)
 
 Este tipo de documento, Anulação de receitas, permite anular o movimento de uma fatura (FD), através da emissão de uma CC regularizando estes dois documentos sem reflexo na contabilidade.
 
-Proveniente de FD, CD e CC (exceto RNAP), este tipo de documento obrigam o utilizador selecionar pelo menos uma FD ou um CD **e** uma CC com o objetivo do resultado final ter valor "0" para proceder ao registo de anulação de receita.
+Proveniente de FD, CD e CC (exceto Reembolso/Restituição), este tipo de documento obriga o utilizador selecionar pelo menos uma FD ou um CD **e** uma CC com o objetivo do resultado final ter valor "0" para proceder ao registo de anulação de receita.
 
 Para aceder ao ecrã onde este registo pode ser efetuado, deve o utilizador seguir o seguinte caminho na aplicação:
 
