@@ -440,11 +440,11 @@ Caso pretenda identificar documentos ou grupos de documentos específicos devem 
 
 >**ATENÇÃO**: Sempre que se alterar um campo destino, o símbolo de **% deve ser retirado**.
 
-Após a indicação dos critérios de pesquisa de documentos, deve o utilizador também indicar a Diretoria do relatório da transferência, no respetivo campo e de seguida deve clicar em "**Calcular**". A título de exemplo, iremos transferir registos na conta _221 - Fornecedores c/c_ para a conta _2211_.
+Após a indicação dos critérios de pesquisa de documentos, deve o utilizador indicar a **Diretoria do relatório da transferência**, no respetivo campo e de seguida deve clicar em "**Calcular / Transferir**". A título de exemplo, iremos transferir registos na conta _221 - Fornecedores c/c_ para a conta _2211_.
 
 O sistema irá calcular todos os **documentos iniciais** do ano indicado no "Exercício", e que estejam de acordo com os critérios de pesquisa introduzidos.
 
-![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-439ebcb5.png)
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-3106bd2e.png)
 
 Após o cálculo irá ser apresentada a seguinte mensagem ao utilizador:
 
@@ -466,7 +466,7 @@ Caso o utilizador pretenda efetuar a transferência destes registos para mais do
 
 ![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-3429ba88.png)
 
-![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-7c49af0e.png)
+![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-8a517ed0.png)
 
 Ao clicar no botão Importar ficheiro para transferência, será aberta uma janela para selecionar o ficheiro. Ao selecionar o ficheiro o sistema irá automaticamente e de imediato efetuar a transferência.
 
@@ -478,6 +478,7 @@ Para confirmar a transferência, o sistema irá apresentar a seguinte mensagem:
 
 ![](https://spmssicc.github.io/pages/markdown/gestao_terceiros.assets/gestao_terceiros-0e6776d1.png)
 
+>**NOTA:** Podem ser transferidos vários elementos em simultâneo. 
 
 O ficheiro produzido pelo sistema no momento da transferência, terá o seguinte aspeto:
 
