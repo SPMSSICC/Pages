@@ -3,13 +3,12 @@
 # Atualizações no SICC - 10 de maio de 2019
 
 
-- Atualização das fórmulas dos mapas DFC, DDORC, DODES e DTAS;
 - Atualização do Balancete da Contabilidade Orçamental;
-- Atualização da produção do CPLC e do BA de forma a converter o plano local do organismo para o plano selecionado pelo utilizador (Plano Central ou Plano Setorial do MS);
+- Atualização da produção do CPLC de forma a associar o plano local do organismo com o plano selecionado pelo utilizador (Plano Central ou Plano Setorial do MS);
 
->**NOTAS:** Para produzir os ficheiros para a **UNILEO** e **TC** deve ser selecionada a opção Plano Central
+>**NOTAS:** Para produzir o ficheiro para a **UNILEO** e **TC** deve ser selecionada a opção Plano Central
 
-> Para produzir os ficheiros para **ACSS** deve ser selecionado o Plano Setorial do MS
+> Para produzir o ficheiro para **ACSS** deve ser selecionado o Plano Setorial do MS
 
 **Alerta-se que para que os ficheiros sejam construídos corretamente deve-se garantir a coerência do plano de contas. Para o efeito deverá ser executado o diagnóstico 501 no sentido de verificar, entre outras incoerências, quais as contas que apresentam acumulações incorretas e se existem contas do tipo acumulação sem contas movimento.**  
 
