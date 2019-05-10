@@ -1716,6 +1716,10 @@ transition:margin-top 1s ease, margin-bottom 1s ease, margin-left 1s ease, margi
 }
 
 @media screen and (min-width: 1201px){
+  html,body {
+  overflow-y:auto;
+  }
+
   body {
   min-width:1200px;
   transition:all 1s ease
@@ -2030,7 +2034,7 @@ width: calc(80% - 80px)
     /* align-items: center; */
   margin-right: -10px;
   margin-left: -10px;
-  margin:auto;
+  /* margin:auto; */
 }
 
 .card {
@@ -2099,7 +2103,7 @@ width: calc(80% - 80px)
         min-height: 10px;
      padding-right: 15px;
       padding-left: 15px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 .painel {
