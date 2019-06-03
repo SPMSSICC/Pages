@@ -21,7 +21,7 @@ O formulário para recolha de propostas orçamentais é composto por:
 | Orçamento Ordinário | A seleção desta opção apenas deve ser feita se se tratar de carregamento de um orçamento ordinário ![img_orç_ordinario.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_orç_ordinario.png) |
 | Alteração Orçamental | A seleção de sta opção apenas deve ser feita se se tratar de registo de uma alteração orçamental. Ao selecionar, automaticamente aparece o número de lançamento o qual se pretende alterar. ![img_alteracao_orc_num_lancamento.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_alteracao_orc_num_lancamento.png) |
 | Atividade/Departamento | Identificação do tipo de Atividade/Departamento. Na seleção do botão de ajuda, o utilizador carregando no círculo ![img_radio_unselected.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_radio_unselected.png) pode obter uma listagem de todos os tipos de Atividades/Departamentos existentes|
-| Data | Data à qual se faz o carregamento do orçamento ordinário ou a alteração orçamental |
+| Data | Data àqual se faz o carregamento do orçamento ordinário ou a alteração orçamental |
 | Observações | Campo de observações onde estão ou devem ser colocadas todas as informações pretendidas pelo utilizador|
 | Data aprovação | Data quando o orçamento foi aprovado |
 | Confirme | Ao clicar neste botão, abrirá a proposta orçamental a ser carregada com identificação dos classificadores económicos e valores a integrar|
@@ -161,7 +161,7 @@ O exemplo seguinte, demonstra um relatório de alteração orçamental gerada em
 Neste processo, e através do caminho abaixo indicado, será demonstrado o processo de registo dos Fundos disponíveis (LCPA).
 
 
-![](orcamento.assets/orcamento-e739531f.png)
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-4582f3fc.png)
 
 Entende-se por Fundos Disponíveis, as verbas disponíveis a curto prazo. Incluem, quando aplicável e desde que tenha sido comprometido ou gasto:
 
@@ -172,11 +172,11 @@ Entende-se por Fundos Disponíveis, as verbas disponíveis a curto prazo. Inclue
 5. O produto de empréstimos contraídos nos termos da lei (as transferências ainda não efetuadas decorrentes de programas e projetos do QREN e de outros programas estruturais, cujas faturas se encontrem liquidadas e devidamente certificadas ou validadas);
 6. Outros montantes autorizados nos termos do artigo 4.º da LCPA.
 
+![img_8a.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_8a.png)
+
 Nos próximos passos, vai ser demonstrado o processo de criação dos fundos disponíveis. Neste ecrã, o utilizador deve escolher:
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-05d65587.png)
 
-
-
-![](orcamento.assets/orcamento-05dfbf3d.png)
 
 | Opção | Descrição |
 |:----|:----------|
@@ -199,9 +199,9 @@ A previsão de receitas próprias é corrigida do desvio negativo apurado entre 
 
 No final de cada mês, o utilizador ao Confirmar, surge no ecrã a indicação de:
 
-![](orcamento.assets/orcamento-3b8e9a0e.png)
+![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-4840cf40.png)
 
-Para validar, que o sistema efetua um controle dos fundos criados, não permitindo a criação de Compromissos com valor superior aos Fundos Disponíveis, fica o exemplo abaixo:
+Para validar, que o sistema efetua um controle dos fundos criados, não permitindo a criação de Compromissos com valor superior aos Fundos Disponiveis, fica o exemplo abaixo:
 
 #### 2.1.1. Criação de Cabimento
 
@@ -219,57 +219,9 @@ Mensagem do sistema indicando que as importâncias inseridas não correspondem a
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-fc10784d.png)
 
-### 2.2 Fundos Disponíveis (SNC-AP)
+### 2.2. Mapas (LPCA)
 
-Para efetuar o registo dos Fundos disponíveis (LCPA) em SNC-AP, o utilizador deverá seguir o seguinte caminho na aplicação:
-
-![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-862c059f.png)
-
-Entende-se por Fundos Disponíveis, as verbas disponíveis a curto prazo. Incluem, quando aplicável, e desde que tenha sido comprometido ou gasto:
-
-1. A dotação corrigida líquida de cativos, relativa aos três meses seguintes;
-2. As transferências ou subsídios com origem no Orçamento do Estado, relativos aos três meses seguintes;
-3. A receita efetiva própria que tenha sido cobrada, ou recebida como adiantamento;
-4. A previsão da receita efetiva própria a cobrar nos três meses seguintes;
-5. O produto de empréstimos contraídos nos termos da lei (as transferências ainda não efetuadas decorrentes de programas e projetos do QREN e de outros programas estruturais, cujas faturas se encontrem liquidadas e devidamente certificadas ou validadas);
-6. Outros montantes autorizados nos termos do artigo 4.º da LCPA.
-
-O registo dos fundos disponíveis contemplam novas linhas de previsão de receita, que resultam da aplicação do Decreto-Lei n.º 127/2012, de 21 de junho, assim como as alterações solicitadas pela ACSS, nomeadamente:
-
-- da qual: Receita extraordinária (a abater);
-- Ativos e outros passivos financeiros;
-- Previsão de ativos e outros passivos financeiros;
-- Correções de ativos e outros passivos financeiros;
-- Correções por recebimento efetivo;
-- Compromissos assumidos (3);
-- FUNDOS DISPONÍVEIS (5).
-
-No ecrã aberto, deve o utilizador indicar os seguintes dados:
-
-![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-8678330a.png)
-
-| Campo | Descrição |
-|:--:| :-- |
-| Ano    | Deve ser indicado o ano a que dizem respeito as informações da instituição   |
-| Mês    | Deve ser indicado o mês para carregamento de fundos   |
-| Alteração    | Deve ser indicado o número da alteração a efetuar. Quando é a primeira vez que são introduzidos os valores dos fundos disponíveis, o número indicado neste campo é o 0. O sistema, por defeito coloca neste campo o número da alteração seguinte.   |
-| Data    | Deve ser indicada a data de carregamento de fundos  |
-| Observações    | Devem ser colocadas todas as informações que forem necessárias.  |
-| Diretório    | Deve ser indicado o diretório do computador onde se pretende guardar o ficheiro produzido.  |
-
-Após a indicação destes campos, deve o utilizador clicar em "Novo Orçamento" e preencher os dados relativos aos fundos próprios. Para finalizar e guardar o registo, deve o utilizador clicar em "Confirmar".
-
-![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-44efa29c.png)
-
-
-Após a introdução dos fundos disponíveis, os mesmos podem ser consultados e exportados para um ficheiro CSV. Para o efeito o utilizador deverá, primeiro, indicar a diretoria do computador e de seguida, deverá clicar em "Produção de mapa CSV"
-
-![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-52a981f9.png)
-
-
-### 2.3 Mapas (LPCA)
-
-#### 2.3.1. Tabela 1 – Fundos disponíveis
+#### 2.2.1. Tabela 1 – Fundos disponíveis
 
 O utilizador neste processo, tem a possibilidade de extrair relatórios do sistema com base nas informações e valores introduzidos nos passos anteriores.
 
@@ -291,74 +243,7 @@ O utilizador neste processo, tem a possibilidade de extrair relatórios do siste
 |Mês|Seleção do mês para carregamento dos fundos. ![img_mes_janeiro.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_mes_janeiro.png)|
 |Diretório|Este botão permite ao utilizador escolher o diretório de gravação do Excel que irá ser produzido.</br> ![img_33.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_33.png)|
 
-
-#### 2.3.2 Tabela I - Fundos disponíveis (SNC-AP)
-
-Com base nos valores introduzidos nos Fundos Disponíveis (SNC-AP) o utilizador pode agora extrair relatórios, nomeadamente a Tabela I - Fundos Disponíveis.
-
-</br>Neste momento, a tabela passa a contemplar nas Previsões e Correções de "Ativos e outros passivos financeiros" o cálculo dos Fundos Disponíveis dos compromissos assumidos (CP) de acordo com fórmulas de cálculo constantes no manual de procedimentos da LCPA da DGO.
-
-</br>Para produzir este relatório, o utilizador deverá seguir o caminho na aplicação:
-
-![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-35feb7dd.png)
-
-No ecrã aberto, para produzir o ficheiro XML ou PDF referente à Tabela I - Fundos Disponíveis, o utilizador deverá indicar o exercício a que respeita os dados a produzir, bem como o respetivo mês.
-
-![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-9e29f6e9.png)
-
-De seguida deve indicar a diretoria onde pretende guardar o ficheiro e clicar, mediante o pretendido, em "Gerar PDF" e/ou "Gerar XML".
-
-</br> O aspeto do **PDF** gerado será como o do apresentado seguidamente:
-
-IMAGEM!!!!!!
-
-Segundo a fórmula da LCPA da DGO, os Fundos Disponíveis devem ser calculados de acordo com a seguinte fórmula:
-
-![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-69d320ae.png)
-
-Em que, por exemplo, para o cálculo dos Fundos disponíveis de fevereiro:
-
-![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-9b5f6318.png)
-
-É de salientar que este mapa deve contemplar os compromissos transitados, na coluna referente ao mês de janeiro, nas linhas "Verificação Prévia de fundos (2)", "Compromissos Assumidos (3)" e "Compromissos assumidos por pagar".
-
-IMAGEM!!!!
-
-Para que estes compromissos transitados sejam considerados nesta tabela, o utilizador deverá garantir que os mesmos foram indicados no menu Parametrização > Instituição > Exercícios
-
-![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-f0e9fb89.png)
-
-![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-f5f40231.png)
-
-O aspeto do **XML** gerado será como o do apresentado seguidamente:
-
-IMAGEM!!!!!!
-
-Para além do mapa referente à Tabela I, o utilizador também pode extrair a conta corrente dos CMs e/ou CPs.
-
-![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-dc10f215.png)
-
-Para o efeito, o utilizador deverá indicar de que tipo de documento pretende extrair a conta corrente (CM ou CP), deve indicar a diretoria no campo "Ficheiro" e de seguida deve clicar em "**Conta Corrente - PDF**" ou "**Conta Corrente - CSV**" consoante o tipo de ficheiro que pretende produzir.
-
-Caso seja selecionado **Conta Corrente - PDF de CMs**, para o mês de janeiro de 2019, o aspeto do ficheiro gerado será como o do apresentado seguidamente:
-
-IMAGEM!!!
-
-Caso seja selecionado **Conta Corrente - CSV de CMs**, para o mês de janeiro de 2019, o aspeto do ficheiro gerado será como o do apresentado seguidamente:
-
-IMAGEM!!!
-
-
-Caso seja selecionado **Conta Corrente - PDF de CPs**, para o mês de janeiro de 2019, o aspeto do ficheiro gerado será como o do apresentado seguidamente:
-
-IMAGEM!!!
-
-Caso seja selecionado **Conta Corrente - CSV de CPs**, para o mês de janeiro de 2019, o aspeto do ficheiro gerado será como o do apresentado seguidamente:
-
-IMAGEM!!!
-
-
-#### 2.3.3. Tabela 4 - (SPA’s): Passivos/ Contas a pagar
+#### 2.2.2. Tabela 4 - (SPA’s): Passivos/ Contas a pagar
 
 De igual modo à extração dos mapas anteriores, o utilizador nesta Tabela, usa o mesmo procedimento.
 
@@ -380,60 +265,6 @@ De igual modo à extração dos mapas anteriores, o utilizador nesta Tabela, usa
 |Ano|Exercício a que dizem respeito as informação da instituição|
 |Mês|Seleção do mês para carregamento dos fundos. ![img_mes_janeiro.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_mes_janeiro.png)|
 |Diretório|Este botão permite ao utilizador escolher o diretório de gravação do Excel que irá ser produzido.</br> ![img_36.png](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/img_36.png)|
-
-
-#### 2.3.4 Tabela IV - Pagamentos em atraso (SNC-AP)
-
-Um outro relatório que pode ser produzido, no âmbito do LCPA, é a Tabela IV - Pagamentos em Atraso.
-
-Para o efeito, o utilizador deve seguir o seguinte caminho na aplicação:
-
-![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-36eb3b85.png)
-
-No ecrã aberto, o utilizador deverá indicar o exercício ao qual se refere este documento e o respetivo mês.
-
-![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-3d565d16.png)
-
-De seguida, deve o utilizador indicar a diretoria onde pretende guardar o ficheiro a gerar e produzir o respetivo ficheiro, clicando no botão consoante o formato pretendido (PDF, XML ou Extrato - CSV).
-
-![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-e6bb5411.png)
-
-Quando é selecionado "**Gerar PDF**", o ficheiro produzido será semelhante ao apresentado seguidamente:
-
-![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-b8861672.png)
-
-
-Quando é selecionado "**Gerar XML**", o ficheiro produzido será semelhante ao apresentado seguidamente:
-
-![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-30514e64.png)
-
-Quando é selecionado "**Gerar Extrato**", o ficheiro produzido será semelhante ao apresentado seguidamente:
-
-![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-34f8253d.png)
-
-Neste ficheiro, o **nº da Coluna** refere-se a uma determinada coluna do mapa PDF gerado. Por exemplo, a coluna número 1 corresponde à coluna Stock Inicial do Período - Passivos. Desta forma, neste extrato, são apresentados todos os documentos considerados para essa coluna. Para consultar a linha e o classificador económico a que diz respeito o documento lista, basta verificar a informação das duas últimas colunas do ficheiro.
-
-
-
-</br></br>Para melhor entender os valores apresentados nestes relatórios, devem-se ter presentes os conceitos inerentes nesta tabela, nomeadamente:
-
-</br>O manual da LCPA da DGO define:
-
-</br>**Passivos** são as obrigações presentes da entidade proveniente de acontecimentos passados, cuja liquidação se espera que resulte num exfluxo de recursos da entidade que incorporam benefícios económicos. Uma característica essencial de um passivo é a de que a entidade tenha uma obrigação presente (constituída, por exemplo, aquando da entrega dos bens com a guia de remessa, contabilizados em receção e conferência, ou com a fatura ou documento equivalente, provisões para riscos e encargos, ou em resultado de empréstimos contraídos).
-
-</br>**Contas a pagar** são o subconjunto dos passivos certos, líquidos e exigíveis (ex.: fatura ou documento equivalente, notas de abono, talões nos termos do CIVA).
-
-</br>**Pagamentos em atraso** são representados pelas contas a pagar que permaneçam nessa situação mais de 90 dias posteriormente à data de vencimento acordada ou especificada na fatura, contrato, ou documentos equivalentes.
-
-- Excluem-se deste conceito, para efeitos de aplicação da LCPA e do Decreto-Lei n.º 127/2012 (n.º 2 do artigo 4.º):
-- As obrigações de pagamento objeto de impugnação judicial até que sobre elas seja proferida decisão final e executória, as quais devem ser consideradas no passivo, mas não em “contas a pagar”, uma vez que as provisões para riscos e encargos não constituem um passivo certo, líquido e exigível;
-- As situações de impossibilidade de cumprimento por ato imputável ao credor, as quais devem ser consideradas em “contas a pagar”, visto que a dívida se mantém, ainda que não incorra em mora;
-- Os montantes objeto de acordos de pagamento desde que o pagamento seja efetuado dentro dos prazos acordados, os quais permanecem em “contas a pagar”, acrescendo aos compromissos do mês/período/ano em que vão ser liquidados
-
-
-O manual da LCPA da DGO estabelece as seguintes relações entre estas conceitos:
-
-![](https://spmssicc.github.io/pages/markdown/orcamento.assets/orcamento-b76ff2e9.png)
 
 
 ## 3. Mapas de Execução Orçamental
