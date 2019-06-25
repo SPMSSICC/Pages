@@ -2103,7 +2103,7 @@ width: calc(80% - 80px)
 .painel {
   width:100%;
   display: block;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   z-index: -1
 }
 
@@ -2112,6 +2112,10 @@ width: calc(80% - 80px)
   display:block !important;
   position:relative;
   margin:auto;
+}
+.painel img:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0  #29615D, 0 6px 20px 0 #29615D;
 }
 
 #novidadeSncAP {
