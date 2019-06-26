@@ -239,7 +239,7 @@ function loadMdDoc(mdFile, btnsToShow, anchor, event) {
         imagesZoomAndLegend(doc.name);
         showElements(btnsToShow);
 
-        if (doc.name !="introducao"){
+        if (doc.name !="introducao" && doc.name != "apresentacao_abril_2019" && doc.name != "entidades_contas_2018"){
 
           $('#btnToc').addClass('active');
           $('#tocDropdown').addClass('show');
