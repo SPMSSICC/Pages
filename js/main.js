@@ -239,18 +239,15 @@ function loadMdDoc(mdFile, btnsToShow, anchor, event) {
         imagesZoomAndLegend(doc.name);
         showElements(btnsToShow);
 
-        if (doc.name !="introducao" && doc.name != "apresentacao_abril_2019" && doc.name != "entidades_contas_2018"){
+
+        if (doc.name !="introducao" && doc.name != "apresentacao_abril_2019" && doc.name != "entidades_contas_2018" && doc.name !="atualizacoes" && doc.name != "check_list_mig" && doc.name != "apresentação_25_mai_des"  ){
 
           $('#btnToc').addClass('active');
           $('#tocDropdown').addClass('show');
 
           $('#btnMenu').removeClass('active');
           $('#accordion').removeClass('show');
-
-      }
-
-
-
+        }
 
         $("#btnEditarDoc, #btnHistory" ).off("click");
         $("#btnEditarDoc").click(function() {window.open("https://github.com/SPMSSICC/pages/edit/master/markdown/" + doc.name + ".md", "_blank");});
@@ -267,6 +264,7 @@ function loadMdDoc(mdFile, btnsToShow, anchor, event) {
 
         enableDocOptions();
         disableDocOptions(doc.name);
+        //disableTocDropdown(doc.name);
 
         if(anchor != undefined && anchor.length >= 2){
           setTimeout( function(){ scrollToAnchor(doc.name, anchor); }, 2500);
@@ -278,7 +276,7 @@ function loadMdDoc(mdFile, btnsToShow, anchor, event) {
 
   			return false; //to stop the .each loop
 
-  	  }else if ( i + 1  >= arrDocs.length){
+  	  } else if ( i + 1  >= arrDocs.length){
   			// console.log("[convertMdToHtml] Error on loading the file \"" + mdFile + "\". Check if it exists in the markdown folder and in the arrayDoc.");
   			loadIndexContent(['btnMenu'],null);
   			return false; //to stop the .each loop
@@ -347,7 +345,7 @@ function toggle(op, off){
   else{ return; }
 
 
-	if( el.hasClass('show') || btn.hasClass('active') || off!==null)	{
+	if( el.hasClass('show') && btn.hasClass('active') || off!==null)	{
     el.removeClass('show');
     btn.removeClass('active');
   }	else if (off==null){
@@ -388,6 +386,8 @@ function highlightMenuItem (event) {
 	}else{return;}
 }
 
+
+
 function disableDocOptions(mdFile){
   if ($.inArray(mdFile, ['about','help']) != -1) {
     $("#btnEditarDoc").addClass("disabled");
@@ -401,11 +401,6 @@ function disableDocOptions(mdFile){
     return;
   }
 
-  // if ($.inArray(mdFile, ['introducao', 'apresentacao_abril_2019']) != -1) {
-  //   $("#btnToc").removeClass("active");
-  //   $('#tocDropdown').removeClass("show");
-  //   return;
-  // }
 
   else if ($.inArray(mdFile, ['vencimentos']) != -1) {
     // console.log("entrei");
