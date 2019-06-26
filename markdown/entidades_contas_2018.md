@@ -30,3 +30,6 @@
 | Instituto Português do Sangue e da Transplantação                  |          24-11-2016          |
 | Hospital Distrital de Santarém                                     |          05-01-2017          |
 | Hospital da Senhora da Oliveira - Guimarães                        |          11-07-2014          |
+| Instituto Português de Oncologia de Coimbra                        |        **01-01-2018**        |
+| Centro Hospital do Oeste                                           |          01-09-2016          |
+| Hospital Dr. francisco Zagalo - Ovar                               |          03-11-2016          |
