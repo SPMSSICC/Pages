@@ -38,3 +38,4 @@
 | Centro Hospitalar de Leiria                                        |        **01-01-2018**        |
 | ULS Guarda                                                         |          23-12-2016          |
 | ULS Nordeste                                                       |          27-10-2014          |
+| ULS Norte Alentejano                                               |          15-01-2015          |
