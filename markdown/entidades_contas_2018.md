@@ -35,3 +35,6 @@
 | Hospital Dr. Francisco Zagalo - Ovar                               |          03-11-2016          |
 | Centro Hospitalar de Trás-os-Montes e Alto Douro                   |          24-10-2014          |
 | Centro Hospitalar Lisboa Central                                   |        **01-01-2018**        |
+| Centro Hospitalar de Leiria                                        |        **01-01-2018**        |
+| ULS Guarda                                                         |          23-12-2016          |
+| ULS Nordeste                                                       |          27-10-2014          |
