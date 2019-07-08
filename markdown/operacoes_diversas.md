@@ -147,6 +147,7 @@ No ecrã aberto, deve o utilizador inserir os dados relativos ao documento a reg
 |   TIE   | Transferências internas à entidade        |
 |  TTRA   | Transferência ou troca - Adição           |
 |  TTRD   | Transferência ou troca - Diminuição       |
+|  ABAT   | Abates                                    |
 
 </br>Para finalizar, deve o utilizador clicar em "Gravar Nova OD".
 
@@ -232,6 +233,7 @@ No ecrã aberto, deve o utilizador inserir os dados relativos ao documento a reg
 |  RC   | Realizações de capital/Património                                                      |
 |  RER  | Realização do Excedente de Revalorização                                               |
 | SUBS  | Subsídios                                                                              |
+| OAPL  | Outras alterações ao património Líquido                                                |
 
 </br>Para finalizar, deve o utilizador clicar em "Gravar Nova OD".
 

@@ -29,161 +29,206 @@ Desta forma, este documento estabelece:
 | **Identificar e corrigir diferenças:**</br> Identificação e execução de ajustamentos necessários para que os documentos contabilísticos produzam os mesmos valores em ambas as aplicações.</br>1.  Verificação e identificação de contas com valores diferentes e produção dos respetivos extratos de conta;</br>2.  Análise detalhada das diferenças e execução das respetivas ações corretivas.</br> Após efetuados os ajustamentos, o processo de migração e respetivas verificações terão de ser novamente efetuados para o exercício em questão. | Entidade do MS |
 | **Finalizar migração e disponibilização do ambiente de produção:**</br>Envio dos ficheiros validados pelo parceiro para a equipa SICC validar e carregar para ambiente de produção | Equipa SICC |
 
-## 3.  Tipos de documentos contabilísticos do sistema
+## 3.  Tipos de documentos do sistema SICC
 
-São apresentadas, seguidamente, tabelas com a listagem e respectiva descrição de todos os documentos contabilísticos necessários.
+São apresentadas, seguidamente, tabelas com a listagem e respetiva descrição de todos os documentos contabilísticos necessários.
 
 ### 3.1.  Documentos de despesa
 
-| ID | Nome                                 |
-|:--:|--------------------------------------|
-| AB | Alteração/Anulação de compromisso    |
-| AC | Anulação de Faturas de Fornecedores  |
-| AF | Anulação de Faturas                  |    
-| AL | Alteração aos Compromissos Assumidos |         
-| AM | Alteração ao Cabimento               |           
-| AP | Autorização de Pagamento             |           
-| CB | Cabimentos                           |           
-| CM | Compromissos                         |           
-| CP | Compromissos Assumidos               |           
-| DA | Despesa fundos alheios               |           
-| DF | Débito sobre a fatura                |           
-| NC | Notas de crédito                     |           
-| P1 | Fatura em Receção e Conferência      |           
-| P2 | Fatura Conferida do Fornecedor       |           
-| PG | Pagamentos                           |           
+| ID | Nome                                 | Contabilidade |  
+|:--:|--------------------------------------|:-------------:|
+| AB | Alteração/Anulação de compromisso    |    **Sim**    |   
+| AC | Anulação de Faturas de Fornecedores  |    **Sim**    |   
+| AF | Anulação de Faturas                  |      Não      |   
+| AL | Alteração aos Compromissos Assumidos |    **Sim**    |   
+| AM | Alteração ao Cabimento               |    **Sim**    |   
+| AP | Autorização de Pagamento             |      Não      |   
+| CB | Cabimentos                           |    **Sim**    |   
+| CM | Compromissos                         |      Não      |   
+| CP | Compromissos Assumidos               |    **Sim**    |   
+| DA | Despesa fundos alheios               |      Não      |  
+| DF | Débito sobre a fatura                |    **Sim**    |   
+| NC | Notas de crédito                     |    **Sim**    |   
+| P1 | Fatura em Receção e Conferência      |      Não      |   
+| P2 | Fatura Conferida do Fornecedor       |    **Sim**    |   
+| PG | Pagamentos                           |    **Sim**    |   
 
 ### 3.2. Documentos de receita
 
-| ID | Nome                            |
-|:--:|---------------------------------|
-| AD | Anulação de devedores           |           
-| AR | Anulação de Receita             |           
-| CC | Créditos a Clientes             |           
-| CD | Cobrança duvidosa               |           
-| CF | Crédito sobre a fatura          |          
-| CI | Créditos incobráveis            |           
-| CO | Cobranças                       |           
-| DE | Devedores p/execução orçamental |           
-| FD | Faturas de devedores            |           
-| GR | Guia de receita                 |           
-| OR | Outras receitas                 |           
-| RA | Receita fundos alheios          |           
+| ID | Nome                   | Contabilidade |
+|:--:|------------------------|:-------------:|
+| AD | Anulação de devedores  |    **Sim**    |
+| AR | Anulação de Receita    |      Não      |
+| CC | Créditos a Clientes    |    **Sim**    |
+| CD | Cobrança duvidosa      |      Não      |
+| CF | Crédito sobre a fatura |    **Sim**    |
+| CI | Créditos incobráveis   |    **Sim**    |
+| CO | Cobranças              |    **Sim**    |
+| FD | Faturas de devedores   |    **Sim**    |
+| GR | Guia de receita        |      Não      |
+| OR | Outras receitas        |      Não      |
+| RA | Receita fundos alheios |      Não      |
 
 ### 3.3. Despesa/receita
 
-| ID | Nome                           |
-|:--:|--------------------------------|
-| CT | Cativos ou congelamentos       |           
-| DT | Descativos ou descongelamentos |           
-| OD | Operações diversas             |           
+| ID | Nome                           | Contabilidade |
+|:--:|--------------------------------|:-------------:|
+| CT | Cativos ou congelamentos       |    **Sim**    |
+| DT | Descativos ou descongelamentos |    **Sim**    |
+| OD | Operações diversas             |    **Sim**    |
 
 ### 3.4. Outros documentos
 
-| ID | Nome                            |
-|:--:|---------------------------------|
-| FP | Fundos disponíveis              |           
-| NB | Notas de débito                 |           
-| OA | Orçamento fundos alheios        |           
-| OC | Orçamento de compras            |           
-| OE | Orçamento de exploração         |           
-| OF | Orçamento financeiro            |           
-| OI | Orçamento de investimentos      |           
-| OO | Orçamento exec. orçamental      |           
-| PA | Proposta orç. fundos alheios    |           
-| PC | Proposta orçamento compras      |           
-| PE | Proposta orç. exploração        |           
-| PF | Proposta orçamento financeiro   |           
-| PI | Proposta orç. investimentos     |           
-| PO | Proposta orç. ex. orçam.        |           
-| RC | Resultados correntes            |           
-| RD | Recuperação de dívidas          |           
-| RE | Resultados extraordinários      |           
-| RF | Resultados financeiros          |           
-| RI | Resultados antes de impostos    |           
-| RL | Resultados líquidos             |           
-| RO | Resultados operacionais         |           
+| ID | Nome                       | Contabilidade |
+|:--:|----------------------------|:-------------:|
+| FP | Fundos disponíveis         |      Não      |
+| OE | Orçamento Económico        |      Não      |
+| OO | Orçamento exec. orçamental |    **Sim**    |
+| PE | Proposta orç. Económico    |      Não      |
+| PO | Proposta orç. ex. orçam.   |      Não      |
+| RL | Resultados líquidos        |    **Sim**    |
+| RO | Resultados operacionais    |    **Sim**    |
 
-## 4.  Fluxos financeiros do sistema
+## 4.  Fluxos de registos no sistema
 
-### 4.1.  Despesa de Fundos Próprios
+Os registos no sistema SICC SNC-AP podem ser divididos em 3 grupos:
 
-![](https://spmssicc.github.io/pages/markdown/cer_migracao_sicc.assets/cer_migracao_sicc-e00fe481.png)
+![](ttps://spmssicc.github.io/pages/markdown/cer_migracao_sicc.assets/cer_migracao_sicc-693f985d.png)
 
-Regras e considerações de relevo do fluxo:
+Os documentos que são registados em cada grupo são os seguintes:
 
-|ID|Descrição |
-|:--:|-----|
-| 1  | Todos os tipos de documentos podem ser regularizados por um ou vários documentos até ao seu valor total. Ex.: Um CB no valor de 100€ poderá dar origem a vários CM até ao valor de 100€ |
-| 2  | O documento de registo AL e AM alteram o valor do CB e CP respetivamente, alterando também o valor disponível para o tipo do documento subsequente.|
-| 3  | Em caso de utilização do documento Fatura em Receção e Conferência em P1, posteriormente este deverá ser regularizado em P2. |
 
-### 4.2 Receita de Fundos Próprios
+### 4.1 Fluxos **Financeiros** que geram Fluxos **Económicos** e Fluxos **Económicos** que geram Fluxos **Financeiros**
 
-![](https://spmssicc.github.io/pages/markdown/cer_migracao_sicc.assets/cer_migracao_sicc-eb07e506.png)
+
+Os documentos que são considerados neste grupo podem ser distribuídos em dois fluxos - **Fluxo da Despesa** e **Fluxo da Receita**
+
+
+#### 4.1.1 Fluxo da Despesa:
+
+ ![](https://spmssicc.github.io/pages/markdown/cer_migracao_sicc.assets/cer_migracao_sicc-e00fe481.png)
+
+ Regras e considerações de relevo do fluxo:
+
+1. Todos os tipos de documentos podem ser regularizados por um ou vários documentos até ao seu valor total. Ex.: Um CB no valor de 100€ poderá dar origem a vários CM até ao valor de 100€
+2. O documento de registo AL e AM alteram o valor do CB e CP respetivamente, alterando também o valor disponível para o tipo do documento subsequente.
+3. Em caso de utilização do documento Fatura em Receção e Conferência em P1, posteriormente este deverá ser regularizado em P2.
+
+>**NOTA:** São efetuados lançamentos na contabilidade orçamental.
+
+
+#### 4.1.2 Fluxo da Receita:
+
+ ![](https://spmssicc.github.io/pages/markdown/cer_migracao_sicc.assets/cer_migracao_sicc-eb07e506.png)
 
 Regras relevantes:
+1. Todos os tipos de documentos podem ser regularizados por um ou vários até ao seu valor total. Ex: FD no valor de 100€ poderá dar origem a vários GR até ao valor de 100€
 
-| ID | Descrição |
-|:--:|---------|
-| 1  | Todos os tipos de documentos podem ser regularizados por um ou vários até ao seu valor total. Ex: FD no valor de 100€ poderá dar origem a vários GR até ao valor de 100€ |
+>**NOTA:** São efetuados lançamentos na contabilidade orçamental.
+
+### 4.2 Fluxos Financeiros
+
+Os documentos que são considerados neste grupo são:
+
+DA - Despesa de fluxos Financeiros
+</br> RA - Receita de fluxos Financeiros
+
+Estes dois documentos são regularizados pelo PG e CO, respetivamente.
+
+>**NOTA:** São efetuados lançamentos na contabilidade orçamental.
+
+### 4.3 Fluxos Económicos
+
+Os documentos que são considerados neste grupo são as designadas Operações Diversas (**OD**) e as suas tipologias que são referentes a registos de ativos não correntes e alterações ao património liquido.
+
+| Tipo de OD | Descrição                                                                              |   
+|:----------:|:---------------------------------------------------------------------------------------|
+|    CES     | Cessão                                                                                 |  
+|    DAC     | Dação em pagamento                                                                     |
+|   DEVOL    | Devolução ou reversão                                                                  |
+|   EXPROP   | Expropriação                                                                           |
+|    FUSA    | Fusão, cisão, reestruturação - Adição                                                  |   |
+|    FUSD    | Fusão, cisão, reestruturação - Diminuição                                              |   |
+|    INT     | Internas                                                                               |   |
+|  OUTRASA   | Outras - Adição                                                                        |   |
+|  OUTRASD   | Outras - Diminuição                                                                    |   |
+|    TIE     | Transferências internas à entidade                                                     |   |
+|    TTRA    | Transferência ou troca - Adição                                                        |   |
+|    TTRD    | Transferência ou troca - Diminuição                                                    |   |
+|    ABAT    | Abates                                                                                 |   |
+|    AAF     | Ajustamentos em Ativos Financeiros                                                     |   |
+|    ANRC    | Adoção do novo referencial                                                             |   |
+|    AAIP    | Ajustamento anual do imposto proporcional                                              |   |
+|    AID     | Ajustamentos por impostos diferidos                                                    |   |
+|    ARL     | Aplicação do Resultado Líquido do Período em Resultados Transitados                    |   |
+|   ARTAF    | Aplicação do Resultado Transitado em Outras Reservas (Ativos financeiros)              |   |
+|   ARTOR    | Aplicação do Resultado Transitado em Outras Reservas                                   |   |
+|   ARTRL    | Aplicação do Resultado Transitado em Reservas Legais                                   |   |
+|    DOA     | Doações, herança, legado ou perdido a favor do Estado                                  |   |
+|    DOAC    | Doações: (recebidas)                                                                   |   |
+|    ECP     | Entradas para cobertura de perdas                                                      |   |
+|   ERVAR    | Excedentes de revalorização de respetivas variações (podem ser positivas ou negativas) |   |
+|     RC     | Realizações de capital/Património                                                      |   |
+|    RER     | Realização do Excedente de Revalorização                                               |   |
+|    SUBS    | Subsídios                                                                              |   |
+|    OAPL    | Outras Adições                                                                         |   |
 
 
 ## 5. Relação de tipos de documentos
 
-| Tipo Doc | Designação                          | Regulariza          | Regularizado   | Observações                                      |
-|:--------:|-------------------------------------|---------------------|----------------|--------------------------------------------------|
-|    AB    | Anulações de compromissos           | CM                  |                |                                                  |
-|    AC    | Anulação de credores                | P1, P2 e NC         |                |                                                  |
-|    AD    | Anulação de devedores               | FD e CC             |                |                                                  |
-|    AF    |                                     |                     |                |                                                  |
-|    AL    | Alteração de compromissos assumidos | CP                  |                |                                                  |
-|    AM    | Alteração de CB                     | CB                  |                |                                                  |
-|    AP    | Autorização de pagamento            | P2, NC, DF, CF e DA | PG             |                                                  |
-|    AR    |                                     |                     |                |                                                  |
-|    CB    | Cabimentos                          |                     | AM e CM        |                                                  |
-|    CC    | Créditos a clientes                 |                     | GR             |                                                  |
-|    CD    | Cobrança duvidosa                   | FD                  |                |                                                  |
-|    CF    | Créditos a fornecedores             |                     | AP             |                                                  |
-|    CI    | Créditos incobráveis                | FD                  |                |                                                  |
-|    CM    | Compromissos                        | CB, AM              | AB, CP, AL     |                                                  |
-|    CO    | Cobranças                           | GR, RA              |                |                                                  |
-|    CP    | Compromissos assumidos              | CM, AB              | AL, P1 ou P2   |                                                  |
-|    CT    | Cativos ou congelamentos            |                     | DT             |                                                  |
-|    DA    | Despesa fundos alheios              |                     | PG             |                                                  |
-|    DF    | Débitos a fornecedores              |                     | AP             |                                                  |
-|    DT    | Descativos ou congelamentos         | CT                  |                |                                                  |
-|    FD    | Faturas de devedores                |                     | GR, CI, AD, CD |                                                  |
-|    FP    | Fundos disponíveis                  |                     |                | Regulariza e regularizado pelo próprio Documento |
-|    GR    | Guia de receita                     | FD, CC, OR, RA      | CO             |                                                  |
-|    IG    | Transferências bancarias            |                     |                |                                                  |
-|    NB    | Notas de débito                     |                     |                |                                                  |
-|    NC    | Notas de crédito                    |                     | AP , AD        |                                                  |
-|    OA    | Orçamento fundos alheios            | PA                  |                |                                                  |
-|    OC    | Orçamento de compras                | PC                  |                |                                                  |
-|    OD    | Operações diversas                  |                     |                |                                                  |
-|    OE    | Orçamento de exploração             | PE                  |                |                                                  |
-|    OF    | Orçamento financeiro                | PF                  |                |                                                  |
-|    OI    | Orçamento de investimentos          | PI                  |                |                                                  |
-|    OO    | Orçamento exec. orçamental          | PO                  |                |                                                  |
-|    OR    | Outras receitas                     |                     | GR             |                                                  |
-|    P1    | Processado em conferência           | CB, AL              | P2             | Caso exista P1                                   |
-|    P2    | Processado conferido                | P1 ou CP, AL        | AP , AC        | Caso exista P1                                   |
-|    PA    | Proposta orç. fundos alheios        |                     | OA             |                                                  |
-|    PC    | Proposta orçamento compras          |                     | OC             |                                                  |
-|    PE    | Proposta orç. exploração            |                     | OE             |                                                  |
-|    PF    | Proposta orçamento financeiro       |                     | OF             |                                                  |
-|    PG    | Pagamentos                          | AP                  |                |                                                  |
-|    PI    | Proposta orç. investimentos         |                     | OI             |                                                  |
-|    PO    | Proposta orç. ex. orçam.            |                     | OO             |                                                  |
-|    RA    | Receita fundos alheios              |                     | CO             |                                                  |
-|    RC    | Resultados correntes                |                     |                | Cálculos Contabilísticos                         |
-|    RD    | Recuperação de dívidas              |                     |                |                                                  |
-|    RE    | Resultados extraordinários          |                     |                | Cálculos Contabilísticos                         |
-|    RF    | Resultados financeiros              |                     |                | Cálculos Contabilísticos                         |
-|    RI    | Resultados antes de impostos        |                     |                | Cálculos Contabilísticos                         |
-|    RL    | Resultados líquidos                 |                     |                | Cálculos Contabilísticos                         |
-|    RO    | Resultados operacionais             |                     |                | Cálculos Contabilísticos                         |
+| Tipo Doc. | Designação                          | Regulariza          | Regularizado por | Observações                                      |
+|:--------:|-------------------------------------|---------------------|------------------|--------------------------------------------------|
+|    AB    | Anulações de compromissos           | CM                  |                  |                                                  |
+|    AC    | Anulação de credores                | P1, P2 e NC         |                  |                                                  |
+|    AD    | Anulação de devedores               | FD e CC             |                  |                                                  |
+|    AF    | Anulação de Faturas                 |                     |                  |                                                  |
+|    AL    | Alteração de compromissos assumidos | CP                  |                  |                                                  |
+|    AM    | Alteração de CB                     | CB                  |                  |                                                  |
+|    AP    | Autorização de pagamento            | P2, NC, DF, CF e DA | PG               |                                                  |
+|    AR    | Anulação de Receita                 |                     |                  |                                                  |
+|    CB    | Cabimentos                          |                     | AM e CM          |                                                  |
+|    CC    | Créditos a clientes                 |                     | GR               |                                                  |
+|    CD    | Cobrança duvidosa                   | FD                  |                  |                                                  |
+|    CF    | Créditos a fornecedores             |                     | AP               |                                                  |
+|    CI    | Créditos incobráveis                | FD                  |                  |                                                  |
+|    CM    | Compromissos                        | CB, AM              | AB, CP, AL       |                                                  |
+|    CO    | Cobranças                           | GR, RA              |                  |                                                  |
+|    CP    | Compromissos assumidos              | CM, AB              | AL, P1 ou P2     |                                                  |
+|    CT    | Cativos ou congelamentos            |                     | DT               |                                                  |
+|    DA    | Despesa fundos alheios              |                     | PG               |                                                  |
+|    DF    | Débitos a fornecedores              |                     | AP               |                                                  |
+|    DT    | Descativos ou congelamentos         | CT                  |                  |                                                  |
+|    FD    | Faturas de devedores                |                     | GR, CI, AD, CD   |                                                  |
+|    FP    | Fundos disponíveis                  |                     |                  | Regulariza e regularizado pelo próprio Documento |
+|    GR    | Guia de receita                     | FD, CC, OR, RA      | CO               |                                                  |
+|    IG    | Transferências bancarias            |                     |                  |                                                  |
+|    NB    | Notas de débito                     |                     |                  |                                                  |
+|    NC    | Notas de crédito                    |                     | AP , AD          |                                                  |
+|    OA    | Orçamento fundos alheios            | PA                  |                  |                                                  |
+|    OC    | Orçamento de compras                | PC                  |                  |                                                  |
+|    OD    | Operações diversas                  |                     |                  |                                                  |
+|    OE    | Orçamento de exploração             | PE                  |                  |                                                  |
+|    OF    | Orçamento financeiro                | PF                  |                  |                                                  |
+|    OI    | Orçamento de investimentos          | PI                  |                  |                                                  |
+|    OO    | Orçamento exec. orçamental          | PO                  |                  |                                                  |
+|    OR    | Outras receitas                     |                     | GR               |                                                  |
+|    P1    | Processado em conferência           | CB, AL              | P2               | Caso exista P1                                   |
+|    P2    | Processado conferido                | P1 ou CP, AL        | AP , AC          | Caso exista P1                                   |
+|    PA    | Proposta orç. fundos alheios        |                     | OA               |                                                  |
+|    PC    | Proposta orçamento compras          |                     | OC               |                                                  |
+|    PE    | Proposta orç. exploração            |                     | OE               |                                                  |
+|    PF    | Proposta orçamento financeiro       |                     | OF               |                                                  |
+|    PG    | Pagamentos                          | AP                  |                  |                                                  |
+|    PI    | Proposta orç. investimentos         |                     | OI               |                                                  |
+|    PO    | Proposta orç. ex. orçam.            |                     | OO               |                                                  |
+|    RA    | Receita fundos alheios              |                     | CO               |                                                  |
+|    RC    | Resultados correntes                |                     |                  | Cálculos Contabilísticos                         |
+|    RD    | Recuperação de dívidas              |                     |                  |                                                  |
+|    RE    | Resultados extraordinários          |                     |                  | Cálculos Contabilísticos                         |
+|    RF    | Resultados financeiros              |                     |                  | Cálculos Contabilísticos                         |
+|    RI    | Resultados antes de impostos        |                     |                  | Cálculos Contabilísticos                         |
+|    RL    | Resultados líquidos                 |                     |                  | Cálculos Contabilísticos                         |
+|    RO    | Resultados operacionais             |                     |                  | Cálculos Contabilísticos                         |
 
 ## 6. Estrutura da informação a carregar
 
