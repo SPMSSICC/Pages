@@ -93,7 +93,7 @@ São apresentadas, seguidamente, tabelas com a listagem e respetiva descrição 
 
 Os registos no sistema SICC SNC-AP podem ser divididos em 3 grupos:
 
-![](ttps://spmssicc.github.io/pages/markdown/cer_migracao_sicc.assets/cer_migracao_sicc-693f985d.png)
+![](https://spmssicc.github.io/pages/markdown/cer_migracao_sicc.assets/cer_migracao_sicc-693f985d.png)
 
 Os documentos que são registados em cada grupo são os seguintes:
 
