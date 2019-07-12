@@ -2,9 +2,9 @@
 
 # Atualizações no SICC - 12 de julho de 2019
 
-- Disponibilização de contas específicas em SNC-AP nos documentos do tipo OD - OUTRASD;
-- Correção do cálculo do balancete de controlo orçamental;
-- Ajustes nos mapas DAPL, DOREC e DFC em 2019;
+- Disponibilização de contas específicas em SNC-AP nos documentos do tipo OD - OUTRASD de acordo com as regras da UNILEO;
+- Ajustes no cálculo do balancete de controlo orçamental;
+- Ajustes nos mapas DAPL, DOREC e DFC em 2019, de acordo com as regras da UNILEO;
 - Alteração do diagnóstico **501**: validação da parametrização dos classificadores económicos com a tabela fonte da UNILEO para permitir o mapeamento com as rubricas orçamentais - código 60;
 - Alteração do diagnóstico **503**:
     - validação dos lançamentos em rubricas financeiras inválidas (inexistentes ou de acumulação)
