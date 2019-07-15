@@ -785,7 +785,7 @@ Menu de acesso:
 
 Este ecrã permite ao utilizador parametrizar de uma outra informação de terceiros, tal como os produtos.
 
-![]((https://spmssicc.github.io/pages/markdown/parametrizacao.assets/parametrizacao-37c679fe.png)
+![](https://spmssicc.github.io/pages/markdown/parametrizacao.assets/parametrizacao-37c679fe.png)
 
 Nesta tela podem-se adicionar, adicionar ou eliminar produtos.
 
@@ -805,7 +805,7 @@ No ecrã que será aberto o utilizador pode consultar as contas relativas ao POC
 
 ![](https://spmssicc.github.io/pages/markdown/check_list.assets/check_list-ab641a9c.png)
 
-O utilizador pode pesquizar a conta POCMS que pretende verificar. Para isso, deve introduzir o respetivo número da conta ou selecioná-la da lista disponível. Por fim deve clicar no botão "Posicionar".
+O utilizador pode pesquisar a conta POCMS que pretende verificar. Para isso, deve introduzir o respetivo número da conta ou selecioná-la da lista disponível. Por fim deve clicar no botão "Posicionar".
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/pocms-sncap.gif)
 
