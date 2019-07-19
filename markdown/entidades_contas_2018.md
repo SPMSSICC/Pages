@@ -39,3 +39,4 @@
 | ULS Guarda                                                         |          23-12-2016          |
 | ULS Nordeste                                                       |          27-10-2014          |
 | ULS Norte Alentejano                                               |          15-01-2015          |
+| Centro Hospitalar de Vila Nova de Gaia/ Espinho                    |          23-07-2015          |
