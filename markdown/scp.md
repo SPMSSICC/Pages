@@ -32,6 +32,31 @@ O aspeto dos ficheiros gerados é o seguinte (4º trimestre do ano 2018):
 |:--:|:--:|:--:|
 | ![](https://spmssicc.github.io/pages/markdown/scp.assets/scp-b4aa7237.png) ![](https://spmssicc.github.io/pages/markdown/scp.assets/scp-083d5e27.png) ![](https://spmssicc.github.io/pages/markdown/scp.assets/scp-c4306ae8.png) ![](https://spmssicc.github.io/pages/markdown/scp.assets/scp-a652a55b.png) ![](https://spmssicc.github.io/pages/markdown/scp.assets/scp-4afab479.png) |![](https://spmssicc.github.io/pages/markdown/scp.assets/scp-54bfda3f.png) ![](https://spmssicc.github.io/pages/markdown/scp.assets/scp-70bd7782.png) ![](https://spmssicc.github.io/pages/markdown/scp.assets/scp-8ae4e9b6.png)| ![](https://spmssicc.github.io/pages/markdown/scp.assets/scp-949bf6b6.png) |
 
+##### Extrato do AFT
+
+Encontra-se disponível a opção de produzir o extrato deste mapa que contempla todos os registos considerados.
+
+Para produzir o extrato do AFT, deverá o utilizador, à semelhança do ficheiro CSV e XML, indicar a diretoria onde pretende guardar o ficheiro. Este será guardado com a mesma nomenclatura do ficheiro CSV.
+
+>**NOTA:** Caso já exista um ficheiro CSV na pasta onde se pretende guardar o extrato, o nome do CSV deverá ser alterado. Caso contrário o ficheiro será substituído.
+
+Ao gerar o Extrato, este terá o seguinte aspeto:
+
+![](https://spmssicc.github.io/pages/markdown/scp.assets/scp-a5242731.png)
+
+A correspondência entre o extrato e o respetivo mapa PDF gerado encontra-se apresentada seguidamente:
+
+![](https://spmssicc.github.io/pages/markdown/scp.assets/scp-33e77499.png)
+
+As rubricas são designadas e apresentadas da mesma forma como no ficheiro CSV.
+
+>**NOTA:** A coluna 10 apenas existe para AFT-Adições e representa a coluna "Outras" do mapa.
+
+Neste ficheiro, serão listados todos os tipos de documento considerados para uma determinada rubrica para uma determinada coluna. E, caso hajam registos, os mesmos serão discriminados da mesma forma como aparecem no extrato de contas. Por exemplo, para a rubrica AFT33, AFT**A**33 e AFT**D**33:
+
+![](https://spmssicc.github.io/pages/markdown/scp.assets/scp-dc631d17.png)
+
+
 ## 2. AI - Ativos Intangíveis
 
 Nesta opção o utilizador define os parâmetros de pesquisa, para gerar o ficheiro correspondente ao AI.
