@@ -42,3 +42,4 @@
 | Centro Hospitalar de Vila Nova de Gaia/ Espinho                    |          23-07-2015          |
 | Centro Hospitalar Tondela-Viseu                                    |          19-12-2016          |
 | ARS Algarve                                                        |          25-08-2016          |
+| Centro Hospitalar do Médio-Ave                                     |          21-03-2016          |
