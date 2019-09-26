@@ -6,6 +6,7 @@
 <div title="Clique para ver as atualizações" class="cab" onclick="atualizacao('setembro_9')" >Atualizações de Setembro 2019 </div>
   <div id="setembro_9" class="hide">
     <div class="atualizacao">
+      <div title="Clique para ver as atualizações" onclick="loadMdDoc('atual_sist_27_set_9', ['btnMenu','btnOpt'], '', null)">27 de setembro</div>
     <div title="Clique para ver as atualizações" onclick="loadMdDoc('atual_sist_20_set_9', ['btnMenu','btnOpt'], '', null)">20 de setembro</div>
     <div title="Clique para ver as atualizações" onclick="loadMdDoc('atual_sist_13_set_9', ['btnMenu','btnOpt'], '', null)">13 de setembro</div>
       <div title="Clique para ver as atualizações" onclick="loadMdDoc('atual_sist_5_set_9', ['btnMenu','btnOpt'], '', null)">6 de setembro</div>
