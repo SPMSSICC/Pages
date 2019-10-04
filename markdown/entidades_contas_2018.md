@@ -44,3 +44,4 @@
 | ARS Algarve                                                        |          25-08-2016          |
 | Centro Hospitalar do Médio-Ave                                     |          21-03-2016          |
 | Centro Hospitalar Lisboa Ocidental                                 |        **01-01-2018**        |
+| Centro Hospitalar de Entre Douro e Vouga                           |          26-09-2014          |
