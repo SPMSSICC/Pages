@@ -3,7 +3,6 @@
 # Atualizações no SICC - 18 de outubro de 2019
 
 - Correção da produção de ficheiros CSV dos mapas 7.1 e 7.2 ;
-- Disponibilização de contas específicas SNC-AP para o documento do tipo OD - Doações;
 - Registo de AB, de forma automática, quando se regista um AL via integração de CSV;
 - Possibilidade de importar, via ficheiro CSV, OD com diferentes tipologias, referentes a ativos não correntes e alterações ao património líquido.
 
