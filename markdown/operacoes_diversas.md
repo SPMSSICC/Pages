@@ -37,9 +37,9 @@ O aspeto do ficheiro CSV a importar deve ser semelhante ao seguidamente apresent
 
 > **NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-a2092bf3.png)
+![](https://spmssicc.github.io/pages/markdown/operacoes_diversas.assets/operacoes_diversas-3e7ce12b.png)
 <div style="height:40px">
-<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/OD_SNCAP.csv'">Descarregar CSV</button>
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/OD_SNCAP.xlsx'">Descarregar CSV</button>
 </div>
 
 ### 1.2. Impressão de Notas de lançamento OD
@@ -135,6 +135,7 @@ No ecrã aberto, deve o utilizador inserir os dados relativos ao documento a reg
 
 |  Sigla  | Descrição                                 |
 |:-------:|:------------------------------------------|
+|  ABAT   | Abates, Sinistros, Alienações             |
 |   CES   | Cessão                                    |
 |   DAC   | Dação em pagamento                        |
 |  DEVOL  | Devolução ou reversão                     |
@@ -147,7 +148,7 @@ No ecrã aberto, deve o utilizador inserir os dados relativos ao documento a reg
 |   TIE   | Transferências internas à entidade        |
 |  TTRA   | Transferência ou troca - Adição           |
 |  TTRD   | Transferência ou troca - Diminuição       |
-|  ABAT   | Abates                                    |
+
 
 </br>Para finalizar, deve o utilizador clicar em "Gravar Nova OD".
 
@@ -186,6 +187,22 @@ Legenda: **A** - Adição (movimentos a débito)
 
 ![](https://spmssicc.github.io/pages/markdown/operacoes_diversas.assets/operacoes_diversas-455b7184.png)
 
+### 2.1 Importação de Ativos não correntes
+
+Este tipo de documentos podem ser importados no sistema através da funcionalidade disponível no botão "Importar".
+
+O processo de importação deste tipo de documentos é igual ao processo normal de importação de OD. No entanto para que o sistema reconheça que a OD a integrar refere-se a um ativo não corrente, o utilizador deverá indicar a respetiva tipologia no ficheiro, de acordo com as siglas apresentadas acima.
+
+
+O aspeto do ficheiro CSV a importar deve ser semelhante ao seguidamente apresentado.
+
+> **NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
+
+![](https://spmssicc.github.io/pages/markdown/operacoes_diversas.assets/operacoes_diversas-3e7ce12b.png)
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/OD_SNCAP.xlsx'">Descarregar CSV</button>
+</div>
+
 
 ## 3 Alterações ao Património Líquido
 
@@ -222,6 +239,7 @@ No ecrã aberto, deve o utilizador inserir os dados relativos ao documento a reg
 |  AAF  | Ajustamentos em Ativos Financeiros                                                     |
 | AAIP  | Ajustamento anual do imposto proporcional                                              |
 |  AID  | Ajustamentos por impostos diferidos                                                    |
+| ANRC  | Adoção de novo referencial contabilístico                                              |
 |  ARL  | Aplicação do Resultado Líquido do Período em Resultados Transitados                    |
 | ARTAF | Aplicação do Resultado Transitado em Outras Reservas (Ativos financeiros)              |
 | ARTOR | Aplicação do Resultado Transitado em Outras Reservas                                   |
@@ -232,6 +250,7 @@ No ecrã aberto, deve o utilizador inserir os dados relativos ao documento a reg
 | ERVAR | Excedentes de revalorização de respetivas variações (podem ser positivas ou negativas) |
 |  RC   | Realizações de capital/Património                                                      |
 |  RER  | Realização do Excedente de Revalorização                                               |
+|  SPE  | Subscrição de prémios de emissão                                                       |
 | SUBS  | Subsídios                                                                              |
 | OAPL  | Outras alterações ao património Líquido                                                |
 
@@ -268,3 +287,19 @@ No ecrã de recolha de contabilidade devem ser indicados os movimentos correspon
 O resultado destes registos pode ser observado no mapa **DAPL**:
 
 ![](https://spmssicc.github.io/pages/markdown/operacoes_diversas.assets/operacoes_diversas-170996f0.png)
+
+### 3.1 Importação de Alterações ao Património Líquido
+
+Este tipo de documentos podem ser importados no sistema através da funcionalidade disponível no botão "Importar".
+
+O processo de importação deste tipo de documentos é igual ao processo normal de importação de OD. No entanto para que o sistema reconheça que a OD a integrar refere-se a um ativo não corrente, o utilizador deverá indicar a respetiva tipologia no ficheiro, de acordo com as siglas apresentadas acima.
+
+
+O aspeto do ficheiro CSV a importar deve ser semelhante ao seguidamente apresentado.
+
+> **NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
+
+![](https://spmssicc.github.io/pages/markdown/operacoes_diversas.assets/operacoes_diversas-3e7ce12b.png)
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/OD_SNCAP.xlsx'">Descarregar CSV</button>
+</div>
