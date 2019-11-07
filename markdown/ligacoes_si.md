@@ -590,6 +590,17 @@ Ficheiros de referência 703 importam dados relativos a documentos do tipo **OD*
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/703.sncap'">Descarregar TXT</button>
 </div>
 
+</br>**ARS e ULS**
+</br>Para entidades do tipo ARS e ULS, ficheiros desta referência devem ter os seguintes campos preenchidos:
+
+|   | Ref.  | Ent.| NºOD| Data Doc. | Conta Débito | Conta Crédito | Importância  | Sinal   |Centro Custo|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Posição (Comprimento)   | 1 - 3 (3)  |12 - 19 (8)| 43 - 54 (12)| 55 - 62 (8)  | 63 - 82 (20)  | 83 - 102 (20)  |103 - 120 (18)   |  121 (1) |122 - 131 (10)|
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/703_ars_uls.sncap'">Descarregar TXT</button>
+</div>
+
 ### 5.3. Referência 704
 Ficheiros de referência 704 importam dados relativos a documentos do tipo **NC**. Para ficheiros de referência 704 os campos que devem estar preenchidos são:
 
