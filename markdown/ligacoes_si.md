@@ -601,6 +601,7 @@ Ficheiros de referência 703 importam dados relativos a documentos do tipo **OD*
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_txt/703_ars_uls.sncap'">Descarregar TXT</button>
 </div>
 
+
 ### 5.3. Referência 704
 Ficheiros de referência 704 importam dados relativos a documentos do tipo **NC**. Para ficheiros de referência 704 os campos que devem estar preenchidos são:
 

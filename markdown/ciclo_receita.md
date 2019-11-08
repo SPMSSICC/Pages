@@ -322,6 +322,31 @@ Para confirmar o registo do CI, deve o utilizador clicar em "Confirme".
 
 ![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-bc2ad07c.png)
 
+### 6.1 Importação de CI
+
+Os tipos de documentos de Créditos Incobráveis (CI) podem ser importados  no sistema através de um ficheiro **CSV**. Para tal, deve o utilizador selecionar o botão "Importar" disponível na parte inferior da janela de recolha de informação.
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_receita.assets/ciclo_receita-56dfd374.png)
+
+No novo ecrã aberto, deve o utilizador selecionar o ficheiro CSV da diretoria do seu computador. De seguida deve clicar em "Ver/Testar Ficheiro" para validar a sua estrutura e composição.
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_receita.assets/ciclo_receita-2c017896.png)
+
+Em caso do ficheiro não apresentar incoerências, as janelas do ecrã ficarão preenchidas com os dados do ficheiro importado. No caso deste apresentar incoerências, as mesmas serão comunicadas ao utilizador na janela respetiva e deve o utilizador corrigi-las e validar o ficheiro novamente. Por fim, deve clicar em "Importa Ligação".
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_receita.assets/ciclo_receita-c03edd7b.png)
+
+O aspeto do ficheiro **CSV** a ser importado deve ser semelhante ao seguidamente apresentado:
+
+>**NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_receita.assets/ciclo_receita-097e6fe6.png)
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/CI_SNCAP.csv'">Descarregar CSV</button>
+</div>
+
+
 ## 7. Anulações (AD)
 
 Para efetuar o registo contabilístico de uma anulação de faturas de clientes (AD), o utilizador deve seguir o seguinte caminho na aplicação:
