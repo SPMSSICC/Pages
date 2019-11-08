@@ -17,5 +17,5 @@ No âmbito de avaliar a satisfação dos 150 participantes deste encontro, foi r
 </br>
 
 <div style="height:40px">
-<button style="width:200px" id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/pdf/Relatorio_I_Encontro_Nacional_SICC_SNC_AP.pdf'">Descarregar Relatório</button>
+<button style="width:200px" id=descarregar type="button" onclick="location.href='https://docs.google.com/gview?url=https://spmssicc.github.io/pages/pdf/Relatorio_I_Encontro_Nacional_SICC_SNC_AP.pdf'">Ver Relatório</button>
 </div>
