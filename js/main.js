@@ -240,7 +240,7 @@ function loadMdDoc(mdFile, btnsToShow, anchor, event) {
         showElements(btnsToShow);
 
 
-        if (doc.name !="introducao" && doc.name != "apresentacao_I_encontro_nacional_2019 "&& doc.name != "apresentacao_abril_2019" && doc.name != "entidades_contas_2018" && doc.name !="atualizacoes" && doc.name != "check_list_mig" && doc.name != "apresentação_25_mai_des"  && doc.name != "atual_sist_19_jun_9" && doc.name != "atual_sist_28_jun_9" && doc.name != "atual_sist_07_jul_9" ){
+        if (doc.name !="introducao" && doc.name != "apresentacao_I_encontro_nacional_2019 "&& doc.name != "apresentacao_abril_2019" && doc.name != "entidades_contas_2018" && doc.name !="atualizacoes" && doc.name != "check_list_mig" && doc.name != "apresentação_25_mai_des"  && doc.name != "atual_sist_19_jun_9" && doc.name != "atual_sist_28_jun_9" && doc.name != "atual_sist_07_jul_9" && doc.name != "atual_sist_08_nov_9" ){
 
           $('#btnToc').addClass('active');
           $('#tocDropdown').addClass('show');
