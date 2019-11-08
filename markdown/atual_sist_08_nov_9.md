@@ -12,6 +12,8 @@
 >**Disponibilização do Relatório do questionário relativamente ao I ENCONTRO NACIONAL SICC SNC-AP**
 
 No passado dia 11 de outubro, foi realizado, nas instalações do Centro Hospitalar Universitário de Coimbra, o I Encontro Nacional SICC SNC-AP.
-No âmbito de avaliar a satisfação dos 150 participantes deste encontro, foi realizado um questionário cujos resultados publicamos
+No âmbito de avaliar a satisfação dos 150 participantes deste encontro, foi realizado um questionário cujo relatório se apresenta abaixo:
+
+</br>
 
 <iframe src='https://spmssicc.github.io/pages/pdf/Relatorio_I_Encontro_Nacional_SICC_SNC_AP.pdf' style='width:100%; height:700px' frameborder='1'></iframe>
