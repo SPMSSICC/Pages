@@ -486,6 +486,17 @@ Seguidamente é apresentada a lista de códigos numéricos a utilizar, conforme 
 |   21   | PTSU  | Transação referente ao pagamento de TSU |   
 
 
+O aspeto do ficheiro CSV é o abaixo demonstrado, sendo que o mesmo deve obedecer ao critério das colunas estipuladas, para efeito de carregamento.
+
+> **NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
+
+![](https://spmssicc.github.io/pages/markdown/ciclo_despesa.assets/ciclo_despesa-376ff731.png)
+
+<div style="height:40px">
+<button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/AP_SNCAP.csv'">Descarregar CSV</button>
+</div>
+
+
 ### 2.13 Despesa de Fluxos Financeiros (DA)
 
 Os documentos do tipo DA podem ser importados no sistema. Para o efeito, deve o utilizador seguir o seguinte caminho da aplicação:
@@ -701,7 +712,7 @@ O aspeto do ficheiro a importar deve ser semelhante ao seguidamente apresentado.
 
 >**NOTA:** Na imagem estão destacados com cor os campos que são de preenchimento obrigatório.
 
-![](https://spmssicc.github.io/pages/markdown/mu_snc_ap.assets/mu_snc_ap-759103e1.png)
+![](https://spmssicc.github.io/pages/markdown/ciclo_receita.assets/ciclo_receita-c4d8977f.png)
 
 <div style="height:40px">
 <button id=descarregar type="button" onclick="location.href='https://spmssicc.github.io/pages/markdown/docs_excel/FD_SNCAP.csv'">Descarregar CSV</button>
